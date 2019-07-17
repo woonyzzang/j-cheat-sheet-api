@@ -1,0 +1,2070 @@
+{
+    "cards": [
+        {
+            "title": "Core DOM",
+            "items": [
+                {
+                    "subject": "Nodelist Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NodeList#Properties",
+                            "tooltlp": "Returns the number of nodes in the collection",
+                            "value": "length"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Nodelist Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NodeList.item",
+                            "tooltlp": "Returns the node at the specified index in a node list",
+                            "value": "item()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "NamedNodeMap Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NamedNodeMap#Properties",
+                            "tooltlp": "Returns the number of nodes in the collection",
+                            "value": "length"
+                        }
+                    ]
+                },
+                {
+                    "subject": "NamedNodeMap Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NamedNodeMap#Methods",
+                            "tooltlp": "Returns the specified node (by name)",
+                            "value": "getNamedItem()"
+                        },
+                        {
+                            "tooltlp": "Returns the specified node (by name and namespace)",
+                            "value": "getNamedItemNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NamedNodeMap#Methods",
+                            "tooltlp": "Returns the node at the specified index in the namedNodeMap",
+                            "value": "item()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NamedNodeMap#Methods",
+                            "tooltlp": "Removes the specified node (by name)",
+                            "value": "removeNamedItem()"
+                        },
+                        {
+                            "tooltlp": "Removes the specified node (by name and namespace)",
+                            "value": "removeNamedItemNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NamedNodeMap#Methods",
+                            "tooltlp": "Sets the specified node (by name)",
+                            "value": "setNamedItem()"
+                        },
+                        {
+                            "tooltlp": "Sets the specified node (by name and namespace)",
+                            "value": "setNamedItemNS()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Document Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.doctype",
+                            "tooltlp": "Returns the Document Type Declaration associated with the document",
+                            "value": "doctype"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.documentElement",
+                            "tooltlp": "Returns the Document Element of the document (the HTML element)",
+                            "value": "documentElement"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.documentURI",
+                            "tooltlp": "Sets or returns the location of the document",
+                            "value": "documentURI"
+                        },
+                        {
+                            "tooltlp": "Returns the configuration used when normalizeDocument() is invoked",
+                            "value": "domConfig"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.implementation",
+                            "tooltlp": "Returns the DOMImplementation object that handles this document",
+                            "value": "implementation"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.inputEncoding",
+                            "tooltlp": "Returns the encoding, character set, used for the document",
+                            "value": "inputEncoding"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.xmlEncoding",
+                            "tooltlp": "Returns the XML encoding of the XML documen",
+                            "value": "xmlEncoding"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.xmlVersion",
+                            "tooltlp": "Sets or returns the XML version of the XML document",
+                            "value": "xmlVersion"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Document Methods",
+                    "list": [
+                        {
+                            "tooltlp": "Adopts a node from another document to this document. Returns the adopted node",
+                            "value": "adoptNode(node)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.createAttribute",
+                            "tooltlp": "Creates an attribute node",
+                            "value": "createAttribute()"
+                        },
+                        {
+                            "tooltlp": "Creates an attribute with the specified name and namspaceURI",
+                            "value": "createAttributeNS(URI,name)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.createCDATASection",
+                            "tooltlp": "Creates a CDATA node with the specified text. For XML DOM only",
+                            "value": "createCDATASection()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.createComment",
+                            "tooltlp": "Creates a Comment node with the specified text",
+                            "value": "createComment()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.createDocumentFragment",
+                            "tooltlp": "Creates an empty DocumentFragment node",
+                            "value": "createDocumentFragment()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.createElement",
+                            "tooltlp": "Creates an Element node",
+                            "value": "createElement()"
+                        },
+                        {
+                            "tooltlp": "Creates an element with the specified namespace",
+                            "value": "createElementNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.createEntityReference",
+                            "tooltlp": "Creates an EntityReference node. For XML DOM only",
+                            "value": "createEntityReference()"
+                        },
+                        {
+                            "tooltlp": "Creates an EntityReference node. For XML DOM only",
+                            "value": "createProcessingInstruction()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.createTextNode",
+                            "tooltlp": "Creates a Text node",
+                            "value": "createTextNode()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.getElementById",
+                            "tooltlp": "Returns the element that has the ID attribute with the specified value",
+                            "value": "getElementById()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.getElementsByTagName",
+                            "tooltlp": "Returns a NodeList containing all elements with the specified tagname",
+                            "value": "getElementsByTagName()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByName",
+                            "tooltlp": "Returns a list of elements with a given name in the (X)HTML document",
+                            "value": "getElementsByName()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Document.querySelectorAll",
+                            "tooltlp": "Returns a NodeList containing all elements that match the specified CSS selector",
+                            "value": "querySelectorAll()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Document.querySelector",
+                            "tooltlp": "Returns the first element matching the specified CSS selector",
+                            "value": "querySelector()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.getElementsByTagNameNS",
+                            "tooltlp": "Returns a NodeList containing all elements with the specified namespaceURI and tagname",
+                            "value": "getElementsByTagNameNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.importNode",
+                            "tooltlp": "Imports a node from another document",
+                            "value": "importNode()"
+                        },
+                        {
+                            "tooltlp": "Removes empty Text nodes, and joins adjacent nodes",
+                            "value": "normalizeDocument()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Element Properties",
+                    "list": [
+                        {
+                            "tooltlp": "Returns the type information of the element",
+                            "value": "schemaTypeInfo"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.tagName",
+                            "tooltlp": "Returns the tag name of the element",
+                            "value": "tagName"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Element Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getAttribute",
+                            "tooltlp": "",
+                            "value": "getAttribute()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getAttributeNS",
+                            "tooltlp": "",
+                            "value": "getAttributeNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getAttributeNode",
+                            "tooltlp": "",
+                            "value": "getAttributeNode()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getAttributeNodeNS",
+                            "tooltlp": "",
+                            "value": "getAttributeNodeNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getElementsByTagName",
+                            "tooltlp": "",
+                            "value": "getElementsByTagName()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getElementsByTagNameNS",
+                            "tooltlp": "",
+                            "value": "getElementsByTagNameNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.hasAttribute",
+                            "tooltlp": "",
+                            "value": "hasAttribute()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.hasAttributeNS",
+                            "tooltlp": "",
+                            "value": "hasAttributeNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.removeAttribute",
+                            "tooltlp": "",
+                            "value": "removeAttribute()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.removeAttributeNS",
+                            "tooltlp": "",
+                            "value": "removeAttributeNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.removeAttributeNode",
+                            "tooltlp": "",
+                            "value": "removeAttributeNode()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.setAttribute",
+                            "tooltlp": "",
+                            "value": "setAttribute()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.setAttributeNS",
+                            "tooltlp": "",
+                            "value": "setAttributeNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.setAttributeNode",
+                            "tooltlp": "",
+                            "value": "setAttributeNode()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.setAttribute",
+                            "tooltlp": "",
+                            "value": "setAttributeNodeNS()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Attr Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Attr#Properties",
+                            "tooltlp": "Return",
+                            "value": "isId"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Attr#Properties",
+                            "tooltlp": "Returns the name of the attribute",
+                            "value": "name"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Attr#Properties",
+                            "tooltlp": "Returns the element this attribute belongs to",
+                            "value": "ownerElement"
+                        },
+                        {
+                            "tooltlp": "Returns the type information of the attribute",
+                            "value": "schemaTypeInfo"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Attr#Properties",
+                            "tooltlp": "Returns",
+                            "value": "specified"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Attr#Properties",
+                            "tooltlp": "Sets or returns the value of the attribute",
+                            "value": "value"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Basic Objects",
+            "items": [
+                {
+                    "subject": "Array Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/Constructor",
+                            "tooltlp": "Returns the function that created the Array object's prototype",
+                            "value": "constructor"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/Length",
+                            "tooltlp": "Sets or returns the number of elements in an array",
+                            "value": "length"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/prototype",
+                            "tooltlp": "Allows you to add properties and methods to an Array object",
+                            "value": "prototype"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Array Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/concat",
+                            "tooltlp": "Joins two or more arrays, and returns a copy of the joined arrays",
+                            "value": "concat()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/indexOf",
+                            "tooltlp": "Search the array for an element and returns it's position",
+                            "value": "indexOf()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/join",
+                            "tooltlp": "Joins all elements of an array into a string",
+                            "value": "join()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/lastIndexOf",
+                            "tooltlp": "Search the array for an element, starting at the end, and returns it's position",
+                            "value": "lastIndexOf()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/pop",
+                            "tooltlp": "Removes the last element of an array, and returns that element",
+                            "value": "pop()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/push",
+                            "tooltlp": "Adds new elements to the end of an array, and returns the new length",
+                            "value": "push()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/reverse",
+                            "tooltlp": "Reverses the order of the elements in an array",
+                            "value": "reverse()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/shift",
+                            "tooltlp": "Removes the first element of an array, and returns that element",
+                            "value": "shift()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/slice",
+                            "tooltlp": "Selects a part of an array, and returns the new array",
+                            "value": "slice()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/sort",
+                            "tooltlp": "Sorts the elements of an array",
+                            "value": "sort()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/splice",
+                            "tooltlp": "Adds/Removes elements from an array",
+                            "value": "splice()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/toString",
+                            "tooltlp": "Converts an array to a string, and returns the result",
+                            "value": "toString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/unshift",
+                            "tooltlp": "Adds new elements to the beginning of an array, and returns the new length",
+                            "value": "unshift()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/valueOf",
+                            "tooltlp": "Returns the primitive value of an array",
+                            "value": "valueOf()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Boolean Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean/constructor",
+                            "tooltlp": "Returns the function that created the Boolean object's prototype",
+                            "value": "constructor"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Boolean/prototype",
+                            "tooltlp": "Allows you to add properties and methods to a Boolean object",
+                            "value": "prototype"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Boolean Methods",
+                    "list": [
+                        {
+                            "link": "http://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/ToString",
+                            "tooltlp": "Converts a Boolean value to a string, and returns the result",
+                            "value": "toString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean/valueOf",
+                            "tooltlp": "Returns the primitive value of a Boolean object",
+                            "value": "valueOf()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Math Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/E",
+                            "tooltlp": "Returns Euler's number (approx. 2.718)",
+                            "value": "E"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/LN2",
+                            "tooltlp": "Returns the natural logarithm of 2 (approx. 0.693)",
+                            "value": "LN2"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/LN10",
+                            "tooltlp": "Returns the natural logarithm of 10 (approx. 2.302)",
+                            "value": "LN10"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/LOG2E",
+                            "tooltlp": "Returns the base-2 logarithm of E (approx. 1.442)",
+                            "value": "LOG2E"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/LOG10E",
+                            "tooltlp": "Returns the base-10 logarithm of E (approx. 0.434)",
+                            "value": "LOG10E"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/PI",
+                            "tooltlp": "Returns PI (approx. 3.14)",
+                            "value": "PI"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/SQRT1_2",
+                            "tooltlp": "Returns the square root of 1/2 (approx. 0.707)",
+                            "value": "SQRT1_2"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/SQRT2",
+                            "tooltlp": "Returns the square root of 2 (approx. 1.414)",
+                            "value": "SQRT2"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Math Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/abs",
+                            "tooltlp": "Returns the absolute value of x",
+                            "value": "abs(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/acos",
+                            "tooltlp": "Returns the arccosine of x, in radians",
+                            "value": "acos(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/asin",
+                            "tooltlp": "Returns the arcsine of x, in radians",
+                            "value": "asin(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/atan",
+                            "tooltlp": "Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radian",
+                            "value": "atan(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/atan2",
+                            "tooltlp": "Returns the arctangent of the quotient of its arguments",
+                            "value": "atan2(y,x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/ceil",
+                            "tooltlp": "Returns x, rounded upwards to the nearest integer",
+                            "value": "ceil(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/cos",
+                            "tooltlp": "Returns the cosine of x (x is in radians)",
+                            "value": "cos(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/exp",
+                            "tooltlp": "Returns the value of Ex",
+                            "value": "exp(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/floor",
+                            "tooltlp": "Returns x, rounded downwards to the nearest integer",
+                            "value": "floor(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/log",
+                            "tooltlp": "Returns the natural logarithm (base E) of x",
+                            "value": "log(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/max",
+                            "tooltlp": "Returns the number with the highest value",
+                            "value": "max(x,y,z,...,n)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/min",
+                            "tooltlp": "Returns the number with the lowest value",
+                            "value": "min(x,y,z,...,n)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/pow",
+                            "tooltlp": "Returns the value of x to the power of y",
+                            "value": "pow(x,y)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/random",
+                            "tooltlp": "Returns a random number between 0 and 1",
+                            "value": "random()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/round",
+                            "tooltlp": "Rounds x to the nearest integer",
+                            "value": "round(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/sin",
+                            "tooltlp": "Returns the sine of x (x is in radians)",
+                            "value": "sin(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/sqrt",
+                            "tooltlp": "Returns the square root of x",
+                            "value": "sqrt(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/tan",
+                            "tooltlp": "Returns the tangent of an angle",
+                            "value": "tan(x)"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Number Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/Constructor",
+                            "tooltlp": "Returns the function that created the Number object's prototype",
+                            "value": "constructor"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/MAX_VALUE",
+                            "tooltlp": "Returns the largest number possible in JavaScript",
+                            "value": "MAX_VALUE"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/MIN_VALUE",
+                            "tooltlp": "Returns the smallest number possible in JavaScript",
+                            "value": "MIN_VALUE"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/NEGATIVE_INFINITY",
+                            "tooltlp": "Represents negative infinity (returned on overflow)",
+                            "value": "NEGATIVE_INFINITY"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/POSITIVE_INFINITY",
+                            "tooltlp": "Represents infinity (returned on overflow)",
+                            "value": "POSITIVE_INFINITY"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/prototype",
+                            "tooltlp": "Allows you to add properties and methods to an object",
+                            "value": "prototype"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Number Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/toExponential",
+                            "tooltlp": "Converts a number into an exponential notation",
+                            "value": "toExponential(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/toFixed",
+                            "tooltlp": "Formats a number with x numbers of digits after the decimal point",
+                            "value": "toFixed(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/toPrecision",
+                            "tooltlp": "Formats a number to x length",
+                            "value": "toPrecision(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/toString",
+                            "tooltlp": "Converts a Number object to a string",
+                            "value": "toString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/valueOf",
+                            "tooltlp": "Returns the primitive value of a Number object",
+                            "value": "valueOf()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "String Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/Constructor",
+                            "tooltlp": "Returns the function that created the String object's prototype",
+                            "value": "constructor"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/Length",
+                            "tooltlp": "Returns the length of a string",
+                            "value": "length"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/Name",
+                            "tooltlp": "Allows you to add properties and methods to an object",
+                            "value": "prototype"
+                        }
+                    ]
+                },
+                {
+                    "subject": "String Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/charAt",
+                            "tooltlp": "Returns the character at the specified index",
+                            "value": "charAt()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/charCodeAt",
+                            "tooltlp": "Returns the Unicode of the character at the specified index",
+                            "value": "charCodeAt()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/concat",
+                            "tooltlp": "Joins two or more strings, and returns a copy of the joined strings",
+                            "value": "concat()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/fromCharCode",
+                            "tooltlp": "Converts Unicode values to characters",
+                            "value": "fromCharCode()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/indexOf",
+                            "tooltlp": "Returns the position of the first found occurrence of a specified value in a string",
+                            "value": "indexOf()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/lastIndexOf",
+                            "tooltlp": "Returns the position of the last found occurrence of a specified value in a string",
+                            "value": "lastIndexOf()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/match",
+                            "tooltlp": "Searches for a match between a regular expression and a string, and returns the matches",
+                            "value": "match()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/replace",
+                            "tooltlp": "Searches for a match between a substring (or regular expression) and a string, and replaces the matched substring with a new substring",
+                            "value": "replace()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/search",
+                            "tooltlp": "Searches for a match between a regular expression and a string, and returns the position of the match",
+                            "value": "search()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/slice",
+                            "tooltlp": "Extracts a part of a string and returns a new string",
+                            "value": "slice()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/split",
+                            "tooltlp": "Splits a string into an array of substrings",
+                            "value": "split()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/substr",
+                            "tooltlp": "Extracts the characters from a string, beginning at a specified start position, and through the specified number of character",
+                            "value": "substr()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/substring",
+                            "tooltlp": "Extracts the characters from a string, between two specified indices",
+                            "value": "substring()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/toLowerCase",
+                            "tooltlp": "Converts a string to lowercase letters",
+                            "value": "toLowerCase()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/toUpperCase",
+                            "tooltlp": "Converts a string to uppercase letters",
+                            "value": "toUpperCase()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/valueOf",
+                            "tooltlp": "Returns the primitive value of a String object",
+                            "value": "valueOf()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "String HTML Wrapper Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/anchor",
+                            "tooltlp": "Creates an anchor",
+                            "value": "anchor()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/big",
+                            "tooltlp": "Displays a string using a big font",
+                            "value": "big()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/blink",
+                            "tooltlp": "Displays a blinking string",
+                            "value": "blink()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/bold",
+                            "tooltlp": "Displays a string in bold",
+                            "value": "bold()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/fixed",
+                            "tooltlp": "Displays a string using a fixed-pitch font",
+                            "value": "fixed()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/fontcolor",
+                            "tooltlp": "Displays a string using a specified color",
+                            "value": "fontcolor()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/fontsize",
+                            "tooltlp": "Displays a string using a specified size",
+                            "value": "fontsize()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/italics",
+                            "tooltlp": "Displays a string in italic",
+                            "value": "italics()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/link",
+                            "tooltlp": "Displays a string as a hyperlink",
+                            "value": "link()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/small",
+                            "tooltlp": "Displays a string using a small font",
+                            "value": "small()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/strike",
+                            "tooltlp": "Displays a string with a strikethrough",
+                            "value": "strike()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/sub",
+                            "tooltlp": "Displays a string as subscript text",
+                            "value": "sub()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/sup",
+                            "tooltlp": "Displays a string as superscript text",
+                            "value": "sup()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Global Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Infinity",
+                            "tooltlp": "A numeric value that represents positive/negative infinity",
+                            "value": "InfinityInfinity"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/NaN",
+                            "tooltlp": "\"Not-a-Number\" value",
+                            "value": "NaN"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/undefined",
+                            "tooltlp": "Indicates that a variable has not been assigned a value",
+                            "value": "undefined"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Global Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/decodeURI",
+                            "tooltlp": "Decodes a URI",
+                            "value": "decodeURI()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/decodeURIComponent",
+                            "tooltlp": "Decodes a URI component",
+                            "value": "decodeURIComponent()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/encodeURI",
+                            "tooltlp": "Encodes a URI",
+                            "value": "encodeURI(()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/encodeURIComponent",
+                            "tooltlp": "Encodes a URI component",
+                            "value": "encodeURIComponent()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Functions?redirectlocale=en-US&redirectslug=Core_JavaScript_1.5_Guide%2FFunctions#escape_and_unescape_functions",
+                            "tooltlp": "Encodes a string",
+                            "value": "escape()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/eval",
+                            "tooltlp": "Evaluates a string and executes it as if it was script code",
+                            "value": "eval()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/isFinite",
+                            "tooltlp": "Determines whether a value is a finite, legal number",
+                            "value": "isFinite()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/isNaN",
+                            "tooltlp": "Determines whether a value is an illegal number",
+                            "value": "isNaN()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/parseFloat",
+                            "tooltlp": "Converts an object's value to a number",
+                            "value": "Number()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/parseFloat",
+                            "tooltlp": "Parses a string and returns a floating point number",
+                            "value": "parseFloat()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/parseInt",
+                            "tooltlp": "Parses a string and returns an integer",
+                            "value": "parseInt()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String",
+                            "tooltlp": "Converts an object's value to a string",
+                            "value": "String()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Functions?redirectlocale=en-US&redirectslug=Core_JavaScript_1.5_Guide%2FFunctions#escape_and_unescape_functions",
+                            "tooltlp": "Decodes an encoded string",
+                            "value": "unescape()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Date Object",
+            "items": [
+                {
+                    "subject": "Date Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Date/constructor",
+                            "tooltlp": "Returns the function that created the Date object's prototype",
+                            "value": "constructor"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/prototype",
+                            "tooltlp": "Allows you to add properties and methods to an object",
+                            "value": "prototype"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Date Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getDate",
+                            "tooltlp": "Returns the day of the month (from 1-31)",
+                            "value": "getDate()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getDay",
+                            "tooltlp": "Returns the day of the week (from 0-6)",
+                            "value": "getDay()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getFullYear",
+                            "tooltlp": "Returns the year (four digits)",
+                            "value": "getFullYear()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getHours",
+                            "tooltlp": "Returns the hour (from 0-23)",
+                            "value": "getHours()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getMilliseconds",
+                            "tooltlp": "Returns the milliseconds (from 0-999)",
+                            "value": "getMilliseconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getMinutes",
+                            "tooltlp": "Returns the minutes (from 0-59)",
+                            "value": "getMinutes()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getMonth",
+                            "tooltlp": "Returns the month (from 0-11)",
+                            "value": "getMonth()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getSeconds",
+                            "tooltlp": "Returns the seconds (from 0-59)",
+                            "value": "getSeconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getTime",
+                            "tooltlp": "Returns the number of milliseconds since midnight Jan 1, 1970",
+                            "value": "getTime()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset",
+                            "tooltlp": "Returns the time difference between GMT and local time, in minutes",
+                            "value": "getTimezoneOffset()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCDate",
+                            "tooltlp": "Returns the day of the month, according to universal time (from 1-31)",
+                            "value": "getUTCDate()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCDay",
+                            "tooltlp": "Returns the day of the week, according to universal time (from 0-6)",
+                            "value": "getUTCDay()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCFullYear",
+                            "tooltlp": "Returns the year, according to universal time (four digits)",
+                            "value": "getUTCFullYear()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCHours",
+                            "tooltlp": "Returns the hour, according to universal time (from 0-23)",
+                            "value": "getUTCHours()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCMilliseconds",
+                            "tooltlp": "Returns the milliseconds, according to universal time (from 0-999)",
+                            "value": "getUTCMilliseconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCMinutes",
+                            "tooltlp": "Returns the minutes, according to universal time (from 0-59)",
+                            "value": "getUTCMinutes()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCMonth",
+                            "tooltlp": "Returns the month, according to universal time (from 0-11)",
+                            "value": "getUTCMonth()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCSeconds",
+                            "tooltlp": "Returns the seconds, according to universal time (from 0-59)",
+                            "value": "getUTCSeconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/parse",
+                            "tooltlp": "Parses a date string and returns the number of milliseconds since midnight of January 1, 1970",
+                            "value": "parse()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setDate",
+                            "tooltlp": "Sets the day of the month of a date object",
+                            "value": "setDate()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setFullYear",
+                            "tooltlp": "Sets the year (four digits) of a date object",
+                            "value": "setFullYear()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setHours",
+                            "tooltlp": "Sets the hour of a date object",
+                            "value": "setHours()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setMilliseconds",
+                            "tooltlp": "Sets the milliseconds of a date object",
+                            "value": "setMilliseconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setMinutes",
+                            "tooltlp": "Set the minutes of a date object",
+                            "value": "setMinutes()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setMonth",
+                            "tooltlp": "Sets the month of a date object",
+                            "value": "setMonth()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setSeconds",
+                            "tooltlp": "Sets the seconds of a date object",
+                            "value": "setSeconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setTime",
+                            "tooltlp": "Sets a date and time by adding or subtracting a specified number of milliseconds to/from midnight January 1, 1970",
+                            "value": "setTime()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCDate",
+                            "tooltlp": "Sets the day of the month of a date object, according to universal time",
+                            "value": "setUTCDate()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCFullYear",
+                            "tooltlp": "Sets the year of a date object, according to universal time (four digits)",
+                            "value": "setUTCFullYear()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCHours",
+                            "tooltlp": "Sets the hour of a date object, according to universal time",
+                            "value": "setUTCHours()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCMilliseconds",
+                            "tooltlp": "Sets the milliseconds of a date object, according to universal time",
+                            "value": "setUTCMilliseconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCMinutes",
+                            "tooltlp": "Set the minutes of a date object, according to universal time",
+                            "value": "setUTCMinutes()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCMonth",
+                            "tooltlp": "Sets the month of a date object, according to universal time",
+                            "value": "setUTCMonth()"
+                        },{
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCSeconds",
+                            "tooltlp": "Set the seconds of a date object, according to universal time",
+                            "value": "setUTCSeconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toDateString",
+                            "tooltlp": "Converts the date portion of a Date object into a readable string",
+                            "value": "toDateString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toISOString",
+                            "tooltlp": "Returns the date as a string, using the ISO standard",
+                            "value": "toISOString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toJSON",
+                            "tooltlp": "Returns the date as a string, formated as a JSON date",
+                            "value": "toJSON()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toLocaleDateString",
+                            "tooltlp": "Returns the date portion of a Date object as a string, using locale conventions",
+                            "value": "toLocaleDateString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString",
+                            "tooltlp": "Returns the time portion of a Date object as a string, using locale conventions",
+                            "value": "toLocaleTimeString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toLocaleString",
+                            "tooltlp": "Converts a Date object to a string, using locale conventions",
+                            "value": "toLocaleString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toString",
+                            "tooltlp": "Converts a Date object to a string",
+                            "value": "toString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toTimeString",
+                            "tooltlp": "Converts the time portion of a Date object to a string",
+                            "value": "toTimeString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toUTCString",
+                            "tooltlp": "Converts a Date object to a string, according to universal time",
+                            "value": "toUTCString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/UTC",
+                            "tooltlp": "Returns the number of milliseconds in a date string since midnight of January 1, 1970, according to universal time",
+                            "value": "UTC()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/valueOf",
+                            "tooltlp": "Returns the primitive value of a Date object",
+                            "value": "valueOf()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Browser",
+            "items": [
+                {
+                    "subject": "Window Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.closed",
+                            "tooltlp": "Returns a Boolean value indicating whether a window has been closed or not",
+                            "value": "closed"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.defaultStatus",
+                            "tooltlp": "Sets or returns the default text in the statusbar of a window",
+                            "value": "defaultStatus"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.document",
+                            "tooltlp": "Returns the Document object for the window",
+                            "value": "document"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.frames",
+                            "tooltlp": "Returns an array of all the frames (including iframes) in the current window",
+                            "value": "frames"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.history",
+                            "tooltlp": "Returns the History object for the window",
+                            "value": "history"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.innerHeight",
+                            "tooltlp": "Sets or returns the inner height of a window's content area",
+                            "value": "innerHeight"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.innerWidth",
+                            "tooltlp": "Sets or returns the inner width of a window's content area",
+                            "value": "innerWidth"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.length",
+                            "tooltlp": "Returns the number of frames (including iframes) in a window",
+                            "value": "length"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location",
+                            "tooltlp": "Returns the Location object for the window",
+                            "value": "location"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.name",
+                            "tooltlp": "Sets or returns the name of a window",
+                            "value": "name"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator",
+                            "tooltlp": "Returns the Navigator object for the window",
+                            "value": "navigator"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.opener",
+                            "tooltlp": "Returns a reference to the window that created the window",
+                            "value": "opener"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.outerHeight",
+                            "tooltlp": "Sets or returns the outer height of a window, including toolbars/scrollbars",
+                            "value": "outerHeight"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.outerWidth",
+                            "tooltlp": "Sets or returns the outer width of a window, including toolbars/scrollbars",
+                            "value": "outerWidth"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.scrollX",
+                            "tooltlp": "Returns the pixels the current document has been scrolled (horizontally) from the upper left corner of the window",
+                            "value": "pageXOffset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.scrollY",
+                            "tooltlp": "Returns the pixels the current document has been scrolled (vertically) from the upper left corner of the window",
+                            "value": "pageYOffset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.parent",
+                            "tooltlp": "Returns the parent window of the current window",
+                            "value": "parent"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.screen",
+                            "tooltlp": "Returns the Screen object for the window",
+                            "value": "screen"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.screen.left",
+                            "tooltlp": "Returns the x coordinate of the window relative to the screen",
+                            "value": "screenLeft"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.screen.top",
+                            "tooltlp": "Returns the y coordinate of the window relative to the screen",
+                            "value": "screenTop"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.screenX",
+                            "tooltlp": "Returns the x coordinate of the window relative to the screen",
+                            "value": "screenX"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.screenY",
+                            "tooltlp": "Returns the y coordinate of the window relative to the screen",
+                            "value": "screenY"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.self",
+                            "tooltlp": "Returns the current window",
+                            "value": "self"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.status",
+                            "tooltlp": "Sets the text in the statusbar of a window",
+                            "value": "status"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.top",
+                            "tooltlp": "Returns the topmost browser window",
+                            "value": "top"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Window Methods",
+                    "list": [
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "alert()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "blur()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "clearInterval()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "clearTimeout()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "close()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "confirm()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "focus()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "moveBy()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "moveTo()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "open()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "print()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "prompt()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "resizeBy()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "resizeTo()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "scrollBy()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "scrollTo()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "setInterval()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "setTimeout()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Navigator Properties",
+                    "list": [
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "appCodeName"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "appName"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "appVersion"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "cookieEnabled"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "platform"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "userAgent"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Navigator Methods",
+                    "list": [
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "javaEnabled()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "registerContentHandler()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "registerProtocolHandler()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Screen Properties",
+                    "list": [
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "availHeight"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "availWidth"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "availHeight"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "colorDepth"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "height"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "pixelDepth"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "width"
+                        }
+                    ]
+                },
+                {
+                    "subject": "History Properties",
+                    "list": [
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "length"
+                        }
+                    ]
+                },
+                {
+                    "subject": "History Methods",
+                    "list": [
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "back()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "forward()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "go()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Location Properties",
+                    "list": [
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "hash"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "host"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "hostname"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "href"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "pathname"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "port"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "protocol"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "search"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Location Methods",
+                    "list": [
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "assign()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "reload()"
+                        },
+                        {
+                            "link": "",
+                            "tooltlp": "",
+                            "value": "replace()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Graphics",
+            "items": [
+                {
+                    "subject": "CanvasRenderingContext2D Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#arc()",
+                            "tooltlp": "Adds an arc to the path which it center is at (x, y) position with radius r starting at startAngle and ending at endAngle going in the given direction by anticlockwise (defaulting to clockwise)",
+                            "value": "arc()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#arcTo()",
+                            "tooltlp": "Adds an arc with the given control points and radius, connected to the previous point by a straight line",
+                            "value": "arcTo()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#beginPath()",
+                            "tooltlp": "Starts a new path by resetting the list of sub-paths. Call this method when you want to create a new path",
+                            "value": "beginPath()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#bezierCurveTo()",
+                            "tooltlp": "void bezierCurveTo (in float cp1x, in float cp1y, in float cp2x, in float cp2y, in float x, in float y)",
+                            "value": "bezierCurveTo()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#clearRect()",
+                            "tooltlp": "Clears the rectangle defined by it starting point at (x, y) and has a w width and a h height",
+                            "value": "clearRect()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#clip()",
+                            "tooltlp": "Creates a clipping path from the current sub-paths. Everything drawn after clip() is called appears inside the clipping path only. For an example, see Clipping paths in the Canvas tutorial",
+                            "value": "clip()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#closePath()",
+                            "tooltlp": "Tries to draw a straight line from the current point to the start. If the shape has already been closed or has only one point, this function does nothing",
+                            "value": "closePath()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#createImageData()",
+                            "tooltlp": "Creates a new, blank ImageData object with the specified dimensions. All of the pixels in the new object are transparent black",
+                            "value": "createImageData()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#createLinearGradient()",
+                            "tooltlp": "nsIDOMCanvasGradient createLinearGradient (in float x0, in float y0, in float x1, in float y1)",
+                            "value": "createLinearGradient()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#createPattern()",
+                            "tooltlp": "nsIDOMCanvasPattern createPattern (in nsIDOMHTMLElement image, in DOMString repetition)",
+                            "value": "createPattern()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#createRadialGradient()",
+                            "tooltlp": "nsIDOMCanvasGradient createRadialGradient (in float x0, in float y0, in float r0, in float x1, in float y1, in float r1)",
+                            "value": "createRadialGradient()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#drawCustomFocusRing()",
+                            "tooltlp": "boolean drawCustomFocusRing(Element element)",
+                            "value": "drawCustomFocusRing()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#drawImage()",
+                            "tooltlp": "Draws the specified image. This method is available in multiple formats, providing a great deal of flexibility in its use",
+                            "value": "drawImage()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#drawSystemFocusRing()",
+                            "tooltlp": "void drawSystemFocusRing(Element element)",
+                            "value": "drawSystemFocusRing()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#fill()",
+                            "tooltlp": "Fills the subpaths with the current fill style",
+                            "value": "fill()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#fillRect()",
+                            "tooltlp": "Draws a filled rectangle at (x, y) position whose size is determined by width and height",
+                            "value": "fillRect()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#fillText()",
+                            "tooltlp": "void fillText (in DOMString text, in float x, in float y, in float maxWidth [optional])",
+                            "value": "fillText()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#getImageData()",
+                            "tooltlp": "Returns an ImageData object representing the underlying pixel data for the area of the canvas denoted by the rectangle which starts at (sx, sy) and has a sw width and sh height",
+                            "value": "getImageData()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#getLineDash()",
+                            "tooltlp": "Returns an dash list array containing an even number of non-negative numbers",
+                            "value": "getLineDash()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#isPointInPath()",
+                            "tooltlp": "Reports whether or not the specified point is contained in the current path",
+                            "value": "isPointInPath()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#lineTo()",
+                            "tooltlp": "Connects the last point in the subpath to the x, y coordinates with a straight line",
+                            "value": "lineTo()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#measureText()",
+                            "tooltlp": "nsIDOMTextMetrics measureText (in DOMString text)",
+                            "value": "measureText()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#moveTo()",
+                            "tooltlp": "Moves the starting point of a new subpath to the (x, y) coordinates",
+                            "value": "moveTomoveTo()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#putImageData()",
+                            "tooltlp": "void putImageData (in long x, in long y, in unsigned long width, in unsigned long height, [array, size_is(dataLen)] in octet dataPtr, in unsigned long dataLen, in boolean hasDirtyRect, in long dirtyX, [optional] in long dirtyY, [optional] in long dirtyWidth, [optional] in long dirtyHeight [optional])",
+                            "value": "putImageData()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#quadraticCurveTo()",
+                            "tooltlp": "void quadraticCurveTo (in float cpx, in float cpy, in float x, in float y)",
+                            "value": "quadraticCurveTo()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#rect()",
+                            "tooltlp": "void rect (in float x, in float y, in float w, in float h)",
+                            "value": "rect()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#restore()",
+                            "tooltlp": "Restores the drawing style state to the last element on the 'state stack' saved by save()",
+                            "value": "restore()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#rotate()",
+                            "tooltlp": "void rotate (in float angle)",
+                            "value": "rotate()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#save()",
+                            "tooltlp": "Saves the current drawing style state using a stack so you can revert any change you make to it using restore()",
+                            "value": "save()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#scale()",
+                            "tooltlp": "void scale (in float x, in float y)",
+                            "value": "scale()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#scrollPathIntoView()",
+                            "tooltlp": "void scrollPathIntoView()",
+                            "value": "scrollPathIntoView()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#setLineDash()",
+                            "tooltlp": "void setLineDash (sequence segments)",
+                            "value": "setLineDash()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#setTransform()",
+                            "tooltlp": "void setTransform (in float m11, in float m12, in float m21, in float m22, in float dx, in float dy)",
+                            "value": "setTransform()"
+                        },{
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#stroke()",
+                            "tooltlp": "Strokes the subpaths with the current stroke style",
+                            "value": "stroke()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#strokeRect()",
+                            "tooltlp": "Paints a rectangle which it starting point is at (x, y) and has a w width and a h height onto the canvas, using the current stroke style",
+                            "value": "strokeRect()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#strokeText()",
+                            "tooltlp": "void strokeText (in DOMString text, in float x, in float y, in float maxWidth [optional])",
+                            "value": "strokeText()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#transform()",
+                            "tooltlp": "void transform (in float m11, in float m12, in float m21, in float m22, in float dx, in float dy)",
+                            "value": "transform()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#translate()",
+                            "tooltlp": "Moves the origin point of the context to (x, y)",
+                            "value": "translate()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "RegExp",
+            "items": [
+                {
+                    "subject": "Modifiers",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Parameters",
+                            "tooltlp": "Perform case-insensitive matching",
+                            "value": "i"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Parameters",
+                            "tooltlp": "Perform a global match (find all matches rather than stopping after the first match)",
+                            "value": "g"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Parameters",
+                            "tooltlp": "Perform multiline matching",
+                            "value": "m"
+                        }
+
+                    ]
+                },
+                {
+                    "subject": "Brackets",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find any character between the brackets",
+                            "value": "[abc]"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find any character not between the brackets",
+                            "value": "[^abc]"
+                        },
+                        {
+                            "tooltlp": "Find any digit from 0 to 9",
+                            "value": "[0-9]"
+                        },
+                        {
+                            "tooltlp": "Find any character from uppercase A to uppercase Z",
+                            "value": "[A-Z]"
+                        },
+                        {
+                            "tooltlp": "Find any character from lowercase a to lowercase z",
+                            "value": "[a-z]"
+                        },
+                        {
+                            "tooltlp": "Find any character from uppercase A to lowercase z",
+                            "value": "[A-z]"
+                        },
+                        {
+                            "tooltlp": "Find any character in the given set",
+                            "value": "[adgk]"
+                        },
+                        {
+                            "tooltlp": "Find any character outside the given set",
+                            "value": "[^adgk]"
+                        },
+                        {
+                            "tooltlp": "Find any of the alternatives specified",
+                            "value": "(red|blue|green)"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Metacharacters",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find a single character, except newline or line terminator",
+                            "value": "."
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find a word character",
+                            "value": "\\w"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find a non-word character",
+                            "value": "\\W"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find a digit",
+                            "value": "\\d"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find a non-digit character",
+                            "value": "\\D"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find a whitespace character",
+                            "value": "\\s"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find a non-whitespace character",
+                            "value": "\\S"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find a match at the beginning/end of a word",
+                            "value": "\\b"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find a match not at the beginning/end of a word",
+                            "value": "\\B"
+                        },
+                        {
+                            "tooltlp": "Find a NUL character",
+                            "value": "\\0"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find a new line character",
+                            "value": "\\n"
+                        },
+                        {
+                            "tooltlp": "Find a form feed character",
+                            "value": "\\f"
+                        },
+                        {
+                            "tooltlp": "Find a carriage return character",
+                            "value": "\\r"
+                        },
+                        {
+                            "tooltlp": "Find a tab character",
+                            "value": "\\t"
+                        },
+                        {
+                            "tooltlp": "Find a vertical tab character",
+                            "value": "\\v"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find the character specified by an octal number xxx",
+                            "value": "\\xxx"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find the character specified by a hexadecimal number dd",
+                            "value": "\\xdd"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Find the Unicode character specified by a hexadecimal number xxxx",
+                            "value": "\\uxxxx"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Quantifiers",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Matches any string that contains at least one n",
+                            "value": "n+"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Matches any string that contains zero or more occurrences of n",
+                            "value": "n*"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Matches any string that contains zero or one occurrences of n",
+                            "value": "n?"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Matches any string that contains a sequence of X n's",
+                            "value": "n{X}"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Matches any string that contains a sequence of X to Y n's",
+                            "value": "n{X,Y}"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Matches any string that contains a sequence of at least X n's",
+                            "value": "n{X,}"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Matches any string with n at the end of it",
+                            "value": "n$"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Matches any string with n at the beginning of it",
+                            "value": "^n"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Matches any string that is followed by a specific string n",
+                            "value": "?=n"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Matches any string that is not followed by a specific string n",
+                            "value": "?!n"
+                        }
+                    ]
+                },
+                {
+                    "subject": "RegExp Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/global",
+                            "tooltlp": "Specifies if the \"g\" modifier is set",
+                            "value": "global"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/ignoreCase",
+                            "tooltlp": "Specifies if the \"i\" modifier is set",
+                            "value": "ignoreCase"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/lastIndex",
+                            "tooltlp": "The index at which to start the next match",
+                            "value": "lastIndex"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/multiline",
+                            "tooltlp": "Specifies if the \"m\" modifier is set",
+                            "value": "multiline"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/source",
+                            "tooltlp": "The text of the RegExp pattern",
+                            "value": "source"
+                        }
+                    ]
+                },
+                {
+                    "subject": "RegExp Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/exec",
+                            "tooltlp": "Tests for a match in a string. Returns the first match",
+                            "value": "exec()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/test",
+                            "tooltlp": "Tests for a match in a string. Returns true or false",
+                            "value": "test()"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

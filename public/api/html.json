@@ -1,0 +1,574 @@
+{
+    "cards": [
+        {
+            "title": "Basic Tags",
+            "items": [
+                {
+                    "subject": "Basic",
+                    "list": [
+                        {
+                            "link": "http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-B63ED1A31",
+                            "tooltlp": "Defines the document type",
+                            "value": "<!DOCTYPE>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/html",
+                            "tooltlp": "Defines an HTML document",
+                            "value": "<html>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/body\" title=\"Defines the document's body",
+                            "tooltlp": "Defines the document's body",
+                            "value": "<body>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/h1",
+                            "tooltlp": "Defines HTML headings",
+                            "value": "<h1> ~ <h6>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/p",
+                            "tooltlp": "Defines a paragraph",
+                            "value": "<p>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/br",
+                            "tooltlp": "Inserts a single line break",
+                            "value": "<br>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/hr",
+                            "tooltlp": "Defines a horizontal line",
+                            "value": "<hr>"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Images",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/img",
+                            "tooltlp": "Defines an image",
+                            "value": "<img>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/map",
+                            "tooltlp": "Defines an image-map",
+                            "value": "<map>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/area",
+                            "tooltlp": "Defines an area inside an image-map",
+                            "value": "<area>"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Links",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/a",
+                            "tooltlp": "Defines an anchor",
+                            "value": "<a>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/link",
+                            "tooltlp": "Defines the relationship between a document and an external resource",
+                            "value": "<link>"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Lists",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/ul",
+                            "tooltlp": "defines an unordered list",
+                            "value": "<ul>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/ol",
+                            "tooltlp": "defines an ordered list",
+                            "value": "<ol>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/li",
+                            "tooltlp": "defines a list item",
+                            "value": "<li>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/dir",
+                            "tooltlp": "deprecated.defines a directory list",
+                            "value": "<dir>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/dl",
+                            "tooltlp": "defines a definition list",
+                            "value": "<dl>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/dt",
+                            "tooltlp": "defines an item in a definition list",
+                            "value": "<dt>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/dd",
+                            "tooltlp": "defines a description of an item in a definition list",
+                            "value": "<dd>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/menu",
+                            "tooltlp": "deprecated.defines a menu list",
+                            "value": "<menu>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Formatting",
+            "items": [
+                {
+                    "subject": "Format",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/acronym",
+                            "tooltlp": "Defines an acronym",
+                            "value": "<acronym>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/abbr",
+                            "tooltlp": "Defines an abbreviation",
+                            "value": "<abbr>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/address",
+                            "tooltlp": "Defines contact information for the author/owner of a document",
+                            "value": "<address>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/b",
+                            "tooltlp": "Defines bold text",
+                            "value": "<b>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/bdo",
+                            "tooltlp": "Overrides the current text direction",
+                            "value": "<bdo>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/big",
+                            "tooltlp": "Defines big text",
+                            "value": "<big>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote",
+                            "tooltlp": "Defines a long quotation",
+                            "value": "<blockquote>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/center",
+                            "tooltlp": "Deprecated.Defines centered text",
+                            "value": "<center>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/cite",
+                            "tooltlp": "Defines a citation",
+                            "value": "<cite>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/code",
+                            "tooltlp": "Defines a piece of computer code",
+                            "value": "<code>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/del",
+                            "tooltlp": "Defines text that has been deleted from a document",
+                            "value": "<del>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/dfn",
+                            "tooltlp": "Defines a definition term",
+                            "value": "<dfn>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/em",
+                            "tooltlp": "Defines emphasized text",
+                            "value": "<em>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/font",
+                            "tooltlp": "Deprecated.Defines font, color, and size for text",
+                            "value": "<font>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/i",
+                            "tooltlp": "Defines italic text",
+                            "value": "<i>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/ins",
+                            "tooltlp": "Defines text that has been inserted into a document",
+                            "value": "<ins>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/kbd",
+                            "tooltlp": "Defines keyboard input",
+                            "value": "<kbd>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/pre",
+                            "tooltlp": "Defines preformatted text",
+                            "value": "<pre>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/q",
+                            "tooltlp": "Defines a short quotation",
+                            "value": "<q>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/s",
+                            "tooltlp": "Deprecated.Defines strikethrough text",
+                            "value": "<s>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/samp",
+                            "tooltlp": "Defines sample output from a computer program",
+                            "value": "<samp>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/samll",
+                            "tooltlp": "Defines smaller text",
+                            "value": "<small>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/strike",
+                            "tooltlp": "Deprecated.Defines strikethrough text",
+                            "value": "<strike>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/strong",
+                            "tooltlp": "Defines strong text",
+                            "value": "<strong>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/sub",
+                            "tooltlp": "Defines subscripted text",
+                            "value": "<sub>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/sup",
+                            "tooltlp": "Defines superscripted text",
+                            "value": "<sup>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/tt",
+                            "tooltlp": "Defines teletype text",
+                            "value": "<tt>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/u",
+                            "tooltlp": "Deprecated.Defines underlined text",
+                            "value": "<u>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/var",
+                            "tooltlp": "Defines a variable",
+                            "value": "<var>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/xmp",
+                            "tooltlp": "Deprecated.Defines preformatted text",
+                            "value": "<xmp>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Form/Table",
+            "items": [
+                {
+                    "subject": "Forms",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/form",
+                            "tooltlp": "defines an html form for user input",
+                            "value": "<form>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/input",
+                            "tooltlp": "defines an input control",
+                            "value": "<input>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/textarea",
+                            "tooltlp": "defines a multiline input control (text area)",
+                            "value": "<textarea>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/button",
+                            "tooltlp": "defines a clickable button",
+                            "value": "<button>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/select",
+                            "tooltlp": "defines a drop-down list",
+                            "value": "<select>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/optgroup",
+                            "tooltlp": "defines a group of related options in a drop-down list",
+                            "value": "<optgroup>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/option",
+                            "tooltlp": "defines an option in a drop-down list",
+                            "value": "<option>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/label",
+                            "tooltlp": "defines a label for an <input> element",
+                            "value": "<label>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/fieldset",
+                            "tooltlp": "groups related elements in a form",
+                            "value": "<fieldset>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/legend",
+                            "tooltlp": "defines a caption for a <fieldset> element",
+                            "value": "<legend>"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Tables",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/table",
+                            "tooltlp": "defines a table",
+                            "value": "<table>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/caption",
+                            "tooltlp": "defines a table caption",
+                            "value": "<caption>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/th",
+                            "tooltlp": "defines a header cell in a table",
+                            "value": "<th>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/tr",
+                            "tooltlp": "defines a row in a table",
+                            "value": "<tr>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/td",
+                            "tooltlp": "defines a cell in a table",
+                            "value": "<td>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/thead",
+                            "tooltlp": "groups the header content in a table",
+                            "value": "<thead>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/tbody",
+                            "tooltlp": "groups the body content in a table",
+                            "value": "<tbody>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/tfoot",
+                            "tooltlp": "groups the footer content in a table",
+                            "value": "<tfoot>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/col",
+                            "tooltlp": "defines attribute values for one or more columns in a table",
+                            "value": "<col>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/colgroup",
+                            "tooltlp": "defines a group of columns in a table for formatting",
+                            "value": "<colgroup>"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Frames",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/frame",
+                            "tooltlp": "Defines a window (a frame) in a frameset",
+                            "value": "<frame>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/frameset",
+                            "tooltlp": "Defines a set of frames",
+                            "value": "<frameset>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/noframes",
+                            "tooltlp": "Defines an alternate content for users that do not support frames",
+                            "value": "<noframes>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/iframe",
+                            "tooltlp": "Defines an inline frame",
+                            "value": "<iframe>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Attributes",
+            "items": [
+                {
+                    "subject": "Core",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Class_selectors",
+                            "tooltlp": "pecifies one or more classnames for an element (refers to a class in a style sheet)",
+                            "value": "class"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/ID_selectors",
+                            "tooltlp": "pecifies a unique id for an element",
+                            "value": "id"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/style",
+                            "tooltlp": "pecifies an inline CSS style for an element",
+                            "value": "style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/title",
+                            "tooltlp": "pecifies extra information about an element",
+                            "value": "title"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Language",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/dir",
+                            "tooltlp": "pecifies the text direction for the content in an element",
+                            "value": "dir"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.lang",
+                            "tooltlp": "pecifies the language of the element's content",
+                            "value": "lang"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Keyboard",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.accessKey",
+                            "tooltlp": "Specifies a shortcut key to activate/focus an element",
+                            "value": "accesskey"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.tabIndex",
+                            "tooltlp": "Specifies the tabbing order of an element",
+                            "value": "tabindex"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Others",
+            "items": [
+                {
+                    "subject": "Styles",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/style",
+                            "tooltlp": "defines style information for a document",
+                            "value": "<style>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/div",
+                            "tooltlp": "defines a section in a document",
+                            "value": "<div>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/span",
+                            "tooltlp": "defines a section in a document",
+                            "value": "<span>"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Meta Info",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/head",
+                            "tooltlp": "defines information about the document",
+                            "value": "<head>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/title",
+                            "tooltlp": "defines the document title",
+                            "value": "<title>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/meta",
+                            "tooltlp": "defines metadata about an html document",
+                            "value": "<meta>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/base",
+                            "tooltlp": "specifies the base url/target for all relative urls in a document",
+                            "value": "<base>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/basefont",
+                            "tooltlp": "deprecated. specifies a default color, size,or font for all the text in a document",
+                            "value": "<basefont>"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Programming",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/script",
+                            "tooltlp": "defines a client-side script",
+                            "value": "<script>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/noscript",
+                            "tooltlp": "defines an alternate content for users that do not support lient-side scripts",
+                            "value": "<noscript>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/applet",
+                            "tooltlp": "deprecated. defines an embedded applet",
+                            "value": "<applet>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/object",
+                            "tooltlp": "defines an embedded object",
+                            "value": "<object>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/param",
+                            "tooltlp": "defines a parameter for an object",
+                            "value": "<param>"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,549 @@
+{
+    "cards": [
+        {
+            "title": "Core",
+            "items": [
+                {
+                    "subject": "Basic",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=23#constructor",
+                            "tooltlp": "Gets naming of core names",
+                            "value": "constructor"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=23#version",
+                            "tooltlp": "Get the core version",
+                            "value": "version"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=23#tmpInput",
+                            "tooltlp": "An input element to check if a particular attribute is supported",
+                            "value": "tmpInput"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=23#tmpNode",
+                            "tooltlp": "A div element to check if it supports a particular CSS style",
+                            "value": "tmpNode"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=23#noConflict",
+                            "tooltlp": "Change the core naming identifier",
+                            "value": "noConflict()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=23#define",
+                            "tooltlp": "This is a function that creates an extended namespace corresponding to the core sub name",
+                            "value": "define()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Core Expansion",
+            "items": [
+                {
+                    "subject": "Debug",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=88",
+                            "tooltlp": "Enable simple debugging in environments that do not support console debugging",
+                            "value": "log()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Async Import",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=86#loadcss",
+                            "tooltlp": "Dynamically load CSS files",
+                            "value": "loadcss()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=86#loadjs",
+                            "tooltlp": "Dynamically load JS files",
+                            "value": "loadjs()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=86#load",
+                            "tooltlp": "CSS, JS files dynamically loaded.",
+                            "value": "load()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=86#addAliases",
+                            "tooltlp": "Load using some alias naming",
+                            "value": "addAliases()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Bind jQuery",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=84",
+                            "tooltlp": "Binding a class to jQuery makes it a jQuery plugin",
+                            "value": "bindjQuery()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Class",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=82",
+                            "tooltlp": "Use core extension related to class pattern",
+                            "value": "Class()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Dependency",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=80",
+                            "tooltlp": "Add and use dependency module patterns",
+                            "value": "dependency()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Namespace",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=78",
+                            "tooltlp": "A namespace space is created, a set of objects is created, and a sub-namespace is created with the delimiter \".\"",
+                            "value": "namespace()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "RGB to Hex",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=76",
+                            "tooltlp": "Converts RGB values to Hex values",
+                            "value": "rgb2hex()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "DelayRun",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=74",
+                            "tooltlp": "It will be ignored if a call is made within a given time, and will only execute the function if it is exceeded",
+                            "value": "delayRun()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Template",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=72",
+                            "tooltlp": "After creating the template, convert from string",
+                            "value": "template()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "browser",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Check if it is a touch device",
+                            "value": "isTouch"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Check whether Retina display device",
+                            "value": "isRetina"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Identify mobile devices",
+                            "value": "isMobile"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Mac OS operating system check",
+                            "value": "isMac"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Linux OS operating system check",
+                            "value": "isLinux"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Windows OS operating system check",
+                            "value": "isWin"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "64-bit platform check",
+                            "value": "is64Bit"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "IE browser check",
+                            "value": "isIE"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "IE browser version check",
+                            "value": "ieVersion"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Opera browser check",
+                            "value": "isOpera"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Chrome browser check",
+                            "value": "isChrome"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Safari browser check",
+                            "value": "isSafari"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Webkit browser engine check",
+                            "value": "isWebKit"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Gecko browser engine check",
+                            "value": "isGecko"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Trident browser engine check",
+                            "value": "isIETri4"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Adobe Air check",
+                            "value": "isAir"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "IPhone, iPad device check",
+                            "value": "isIOS"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Android device check",
+                            "value": "isAndroid"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "IOS version check",
+                            "value": "iosVersion"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Android version check",
+                            "value": "androidVersion"
+                        }
+                    ]
+                },
+                {
+                    "subject": "CSS3",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#prefix",
+                            "tooltlp": "Prefix the given css name with the vendor prefix for the current browser",
+                            "value": "prefix()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#support",
+                            "tooltlp": "Check if css3 is supported.",
+                            "value": "support"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#support3D",
+                            "tooltlp": "Check for 3D support in CSS3",
+                            "value": "support3D"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#has",
+                            "tooltlp": "Checks if the given CSS attribute is supported",
+                            "value": "has()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transform",
+                            "tooltlp": "Returns the vendor prefix for the transform attribute in CSS3",
+                            "value": "transform"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transitionTimingFunction",
+                            "tooltlp": "Returns the vendor prefix for the transitionTimingFunction property in CSS3",
+                            "value": "transitionTimingFunction"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transitionDuration",
+                            "tooltlp": "Returns the vendor prefix for the transitionDuration attribute in CSS3",
+                            "value": "transitionDuration"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transitionDelay",
+                            "tooltlp": "Returns the vendor prefix of the transitionDelay property of CSS3",
+                            "value": "transitionDelay"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transformOrigin",
+                            "tooltlp": "Returns the vendor prefix for the transformOrigin attribute in CSS3",
+                            "value": "transformOrigin"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transition",
+                            "tooltlp": "Returns the vendor prefix for the transition attribute in CSS3",
+                            "value": "transition"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#translateZ",
+                            "tooltlp": "Returns the vendor prefix for the translateZ property of CSS3",
+                            "value": "translateZ"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transitionEnd",
+                            "tooltlp": "Returns the vendor prefix for the transitionEnd attribute in CSS3",
+                            "value": "transitionEnd"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#position",
+                            "tooltlp": "Returns the current position of an element element",
+                            "value": "position()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#move",
+                            "tooltlp": "Use CSS3 properties to move",
+                            "value": "move()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#animate",
+                            "tooltlp": "Animate animations using CSS3 properties",
+                            "value": "animate()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transitionStyle",
+                            "tooltlp": "Adds the transitionStyle property of the css3 attribute to the specified element",
+                            "value": "transitionStyle()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "jQuery Expansion",
+            "items": [
+                {
+                    "subject": "Plugin",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=98#cssPseudo",
+                            "tooltlp": "CSS virtual selector controls the \":after\", \":before\" selector",
+                            "value": "cssPseudo()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=98#maxlengthNumber",
+                            "tooltlp": "Use the maxlength attribute feature on input window elements of type number",
+                            "value": "maxlengthNumber()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Utility",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=96#$.version",
+                            "tooltlp": "Check the version of jQuery",
+                            "value": "$.version"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=96#$.$",
+                            "tooltlp": "Do not rediscover the element that was searched once when searching for elements",
+                            "value": "$.$()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=96#$.log",
+                            "tooltlp": "Shows the console history, such as \"console.log\"",
+                            "value": "$.log()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Filter",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=92#focusable",
+                            "tooltlp": "Select elements with focus attributes",
+                            "value": "focusable"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=92#displays",
+                            "tooltlp": "Select elements by display attribute value",
+                            "value": "displays"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Custom Event",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#resizeend",
+                            "tooltlp": "Event handler that occurs at the end of browser resize",
+                            "value": "resizeend"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#scrollend",
+                            "tooltlp": "The event handler that occurs at the end of the scroll time",
+                            "value": "scrollend"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#infinitescroll",
+                            "tooltlp": "Event handler that is raised when the scroll reaches the bottom",
+                            "value": "infinitescroll"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#mouseleftclick",
+                            "tooltlp": "Mouse left click event handler",
+                            "value": "mouseleftclick"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#mouserightclick",
+                            "tooltlp": "Mouse right click event handler",
+                            "value": "mouserightclick"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#mousewheelclick",
+                            "tooltlp": "Mouse wheel click event handler",
+                            "value": "mousewheelclick"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#mousewheelup",
+                            "tooltlp": "Mouse wheel top event handler",
+                            "value": "mousewheelup"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#mousewheeldown",
+                            "tooltlp": "Mouse wheel bottom event handler",
+                            "value": "mousewheeldown"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Polyfill",
+            "items": [
+                {
+                    "subject": "Polyfill",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=124#picture",
+                            "tooltlp": "Supports the HTML5 picture element poly fill function",
+                            "value": "picture"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=124#template",
+                            "tooltlp": "Supports HTML5 template element poly fill",
+                            "value": "template"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=124#matchMedia",
+                            "tooltlp": "Supports media query polyphonic function",
+                            "value": "matchMedia()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Module",
+            "items": [
+                {
+                    "subject": "Component",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=100",
+                            "tooltlp": "Provides preview screen function that can preview the screen of the linked page from the list map page",
+                            "value": "MobilePreview"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=102",
+                            "tooltlp": "Provides the ability to control the device at the front desk by judging the device agent information of the mobile environment",
+                            "value": "MobileDeviceInfo"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=108",
+                            "tooltlp": "It makes it easy to implement an accordion type list",
+                            "value": "Accordion"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=110",
+                            "tooltlp": "Easily create banners that require rolling slides",
+                            "value": "VisualRolling"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=112",
+                            "tooltlp": "It makes tab menu type list easy to implement",
+                            "value": "TabMenu"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=796",
+                            "tooltlp": "It is possible to open and close the whole mobile menu, and to expose the contents of the menu",
+                            "value": "HamMenu"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=897",
+                            "tooltlp": "Making modal layer popups easier",
+                            "value": "Modal"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=911",
+                            "tooltlp": "IE8 or later This is a select box applicable to modern browsers",
+                            "value": "Selectbox"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=929",
+                            "tooltlp": "Make toast popups easier",
+                            "value": "Toast"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=961",
+                            "tooltlp": "Full selection of multiple checkboxes is easy to use",
+                            "value": "Checkboxes"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=989",
+                            "tooltlp": "Customized scrollbars are available",
+                            "value": "Scrolling"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=1154",
+                            "tooltlp": "Easily implement an accordion type horizontal type list",
+                            "value": "AccordionCover"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=1167",
+                            "tooltlp": "Enables the accordion type vertical swipe function",
+                            "value": "AccordionSwipe"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=1353",
+                            "tooltlp": "Displays the progress bar on the screen when scrolling to determine the scroll position",
+                            "value": "ProgressScrollIndicator"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

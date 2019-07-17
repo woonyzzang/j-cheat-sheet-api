@@ -1,0 +1,1254 @@
+{
+    "cards": [
+        {
+            "title": "Box Model",
+            "items": [
+                {
+                    "subject": "Margin",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/margin",
+                            "tooltlp": "Sets all the margin properties in one declaration",
+                            "value": "margin"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/margin-bottom",
+                            "tooltlp": "Sets the bottom margin of an element",
+                            "value": "margin-bottom"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/margin-left",
+                            "tooltlp": "Sets the left margin of an element",
+                            "value": "margin-left"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/margin-right",
+                            "tooltlp": "Sets the right margin of an element",
+                            "value": "margin-right"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/margin-top",
+                            "tooltlp": "Sets the top margin of an element",
+                            "value": "margin-top"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Padding",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/padding",
+                            "tooltlp": "Sets all the padding properties in one declaration",
+                            "value": "padding"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/padding-bottom",
+                            "tooltlp": "Sets the bottom padding of an element",
+                            "value": "padding-bottom"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/padding-left",
+                            "tooltlp": "Sets the left padding of an element",
+                            "value": "padding-left"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/padding-right",
+                            "tooltlp": "Sets the right padding of an element",
+                            "value": "padding-right"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/padding-top",
+                            "tooltlp": "Sets the top padding of an element",
+                            "value": "padding-top"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Dimension",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/height",
+                            "tooltlp": "Sets the height of an element",
+                            "value": "width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/width",
+                            "tooltlp": "Sets the width of an element",
+                            "value": "height"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/max-height",
+                            "tooltlp": "Sets the maximum height of an element",
+                            "value": "max-height"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/max-width",
+                            "tooltlp": "Sets the maximum width of an element",
+                            "value": "max-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/min-height",
+                            "tooltlp": "Sets the minimum height of an element",
+                            "value": "min-height"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/min-width",
+                            "tooltlp": "Sets the minimum width of an element",
+                            "value": "min-width"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Border and Outline",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border",
+                            "tooltlp": "Sets all the border properties in one declaration",
+                            "value": "border"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-bottom",
+                            "tooltlp": "Sets all the bottom border properties in one declaration",
+                            "value": "border-bottom"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-bottom-color",
+                            "tooltlp": "Sets the color of the bottom border",
+                            "value": "border-bottom-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-bottom-style",
+                            "tooltlp": "Sets the style of the bottom border",
+                            "value": "border-bottom-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-bottom-width",
+                            "tooltlp": "Sets the width of the bottom border",
+                            "value": "border-bottom-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-color",
+                            "tooltlp": "Sets the color of the four borders",
+                            "value": "border-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-left",
+                            "tooltlp": "Sets all the left border properties in one declaration",
+                            "value": "border-left"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-left-color",
+                            "tooltlp": "Sets the color of the left border",
+                            "value": "border-left-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-left-style",
+                            "tooltlp": "Sets the style of the left border",
+                            "value": "border-left-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-left-width",
+                            "tooltlp": "Sets the width of the left border",
+                            "value": "border-left-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-right",
+                            "tooltlp": "Sets all the right border properties in one declaration",
+                            "value": "border-right"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-right-color",
+                            "tooltlp": "Sets the color of the right border",
+                            "value": "border-right-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-right-style",
+                            "tooltlp": "Sets the style of the right border",
+                            "value": "border-right-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-right-width",
+                            "tooltlp": "Sets the width of the right border",
+                            "value": "border-right-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-style",
+                            "tooltlp": "Sets the style of the four borders",
+                            "value": "border-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-top",
+                            "tooltlp": "Sets all the top border properties in one declaration",
+                            "value": "border-top"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-top-color",
+                            "tooltlp": "Sets the color of the top border",
+                            "value": "border-top-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-top-style",
+                            "tooltlp": "Sets the style of the top border",
+                            "value": "border-top-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-top-width",
+                            "tooltlp": "Sets the width of the top border",
+                            "value": "border-top-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-width",
+                            "tooltlp": "Sets the width of the four borders",
+                            "value": "border-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/outline",
+                            "tooltlp": "Sets all the outline properties in one declaration",
+                            "value": "outline"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/outline-color",
+                            "tooltlp": "Sets the color of an outline",
+                            "value": "outline-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/outline-style",
+                            "tooltlp": "Sets the style of an outline",
+                            "value": "outline-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/outline-width",
+                            "tooltlp": "Sets the width of an outline",
+                            "value": "outline-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-bottom-left-radius",
+                            "tooltlp": "Defines the shape of the border of the bottom-left corner",
+                            "value": "border-bottom-left-radius"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-bottom-right-radius",
+                            "tooltlp": "Defines the shape of the border of the bottom-right corner",
+                            "value": "border-bottom-right-radius"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-image",
+                            "tooltlp": "A shorthand property for setting all the border-image-* properties",
+                            "value": "border-image"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-image-outset",
+                            "tooltlp": "Specifies the amount by which the border image area extends beyond the border box",
+                            "value": "border-image-outset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-image-repeat",
+                            "tooltlp": "Specifies whether the image-border should be repeated, rounded or stretched",
+                            "value": "border-image-repeat"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-image-slice",
+                            "tooltlp": "Specifies the inward offsets of the image-border",
+                            "value": "border-image-slice"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-image-source",
+                            "tooltlp": "Specifies an image to be used as a border",
+                            "value": "border-image-source"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-image-width",
+                            "tooltlp": "Specifies the widths of the image-border",
+                            "value": "border-image-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-radius",
+                            "tooltlp": "A shorthand property for setting all the four border-*-radius properties",
+                            "value": "border-radius"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-top-left-radius",
+                            "tooltlp": "Defines the shape of the border of the top-left corner",
+                            "value": "border-top-left-radius"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-top-right-radius",
+                            "tooltlp": "Defines the shape of the border of the top-right corner",
+                            "value": "border-top-right-radius"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-decoration-break",
+                            "tooltlp": "Defines the shape of the border of the top-right corner",
+                            "value": "box-decoration-break"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-shadow",
+                            "tooltlp": "Attaches one or more drop-shadows to the box",
+                            "value": "box-shadow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Selectors",
+            "items": [
+                {
+                    "subject": "Basic Selectors",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Class_selectors",
+                            "tooltlp": "Selects all elements with class=\"intro\"",
+                            "value": ".class"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/ID_selectors",
+                            "tooltlp": "Selects the element with id=\"firstname\"",
+                            "value": "#id"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Universal_selectors",
+                            "tooltlp": "Selects all elements",
+                            "value": "*"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Type_selectors",
+                            "tooltlp": "Selects all <p> elements",
+                            "value": "element"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/cssref/sel_element_comma.asp",
+                            "tooltlp": "Selects all <div> elements and all <p> elements",
+                            "value": "element, element"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Descendant_selectors",
+                            "tooltlp": "Selects all <p> elements inside <div> elements",
+                            "value": "element element"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Child_selectors",
+                            "tooltlp": "Selects all <p> elements where the parent is a <div> element",
+                            "value": "element > element"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Adjacent_sibling_selectors",
+                            "tooltlp": "Selects all <p> elements that are placed immediately after <div> elements",
+                            "value": "element + element"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors",
+                            "tooltlp": "Selects all elements with a target attribute",
+                            "value": "[attribute]"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors",
+                            "tooltlp": "Selects all elements target=\"_blank\"",
+                            "value": "[attribute=value]"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors",
+                            "tooltlp": "Selects all elements with a title attribute containing the word \"flower\"",
+                            "value": "[attribute~=value]"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors",
+                            "tooltlp": "Selects all elements with a lang attribute value starting with \"en\"",
+                            "value": "[attribute|=value]"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors",
+                            "tooltlp": "Selects every <ul> element that are preceded by a <p> element",
+                            "value": "element1 ~ element2"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors",
+                            "tooltlp": "Selects every <a> element whose src attribute value begins with \"https\"",
+                            "value": "[attribute^=value]"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/cssref/sel_attr_end.asp",
+                            "tooltlp": "Selects every <a> element whose src attribute value ends with \".pdf\"",
+                            "value": "[attribute$=value]"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/cssref/sel_attr_contain.asp",
+                            "tooltlp": "Selects every <a> element whose src attribute value contains the substring \"w3schools\"",
+                            "value": "[attribute*=value]"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Pseudo-Selectors",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:link",
+                            "tooltlp": "Selects all unvisited links",
+                            "value": ":link"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:visited",
+                            "tooltlp": "Selects all visited links",
+                            "value": ":visited"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:active",
+                            "tooltlp": "Selects the active link",
+                            "value": ":active"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:hover",
+                            "tooltlp": "Selects links on mouse over",
+                            "value": ":hover"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:focus",
+                            "tooltlp": "Selects the input element which has focus",
+                            "value": ":focus"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/::first-letter",
+                            "tooltlp": "Selects the first letter of every <p> element",
+                            "value": ":first-letter"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:first-line",
+                            "tooltlp": "Selects the first line of every <p> element",
+                            "value": ":first-line"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:first-child",
+                            "tooltlp": "Selects every <p> element that is the first child of its parent",
+                            "value": ":first-child"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:before",
+                            "tooltlp": "Insert content before&nbsp; the content of every <p> element",
+                            "value": ":before"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:after",
+                            "tooltlp": "Insert content after every <p> element",
+                            "value": ":after"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:lang",
+                            "tooltlp": "Selects every <p> element with a lang attribute value starting with \"it\"",
+                            "value": ":lang(language)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:first-of-type",
+                            "tooltlp": "Selects every <p> element that is the first <p> element of its parent",
+                            "value": ":first-of-type"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:last-of-type",
+                            "tooltlp": "Selects every <p> element that is the last <p> element of its parent",
+                            "value": ":last-of-type"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:only-of-type",
+                            "tooltlp": "Selects every <p> element that is the only <p> element of its parent",
+                            "value": ":only-of-type"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:only-child",
+                            "tooltlp": "Selects every <p> element that is the only child of its parent",
+                            "value": ":only-child"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:nth-child",
+                            "tooltlp": "Selects every <p> element that is the second child of its parent",
+                            "value": ":nth-child(n)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:nth-last-child",
+                            "tooltlp": "Selects every <p> element that is the second child of its parent, counting from the last child",
+                            "value": ":nth-last-child(n)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:nth-of-type",
+                            "tooltlp": "Selects every <p> element that is the second <p> element of its parent",
+                            "value": ":nth-of-type(n)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:last-child",
+                            "tooltlp": "Selects every <p> element that is the last child of its parent",
+                            "value": ":last-child"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:not",
+                            "tooltlp": "Selects elements that is not represented by the argument",
+                            "value": ":not"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:root",
+                            "tooltlp": "Selects the document’s root element",
+                            "value": ":root"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:empty",
+                            "tooltlp": "Selects every <p> element that has no children (including text nodes)",
+                            "value": ":empty"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:target",
+                            "tooltlp": "Selects the current active #news element (clicked on a URL containing that anchor name)",
+                            "value": ":target"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:enabled",
+                            "tooltlp": "Selects every enabled <input> element",
+                            "value": ":enabled"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:disabled",
+                            "tooltlp": "Selects every disabled <input> element",
+                            "value": ":disabled"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:checked",
+                            "tooltlp": "Selects every checked <input> element",
+                            "value": ":checked"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/::selection",
+                            "tooltlp": "Selects the portion of an element that is selected by a user",
+                            "value": "::selection"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Style",
+            "items": [
+                {
+                    "subject": "Background",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background",
+                            "tooltlp": "Sets all the background properties in one declaration",
+                            "value": "background"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-attachment",
+                            "tooltlp": "Sets whether a background image is fixed or scrolls with the rest of the page",
+                            "value": "background-attachment"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-color",
+                            "tooltlp": "Sets the background color of an element",
+                            "value": "background-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-image",
+                            "tooltlp": "Sets the background image for an element",
+                            "value": "background-image"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-position",
+                            "tooltlp": "Sets the starting position of a background image",
+                            "value": "background-position"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-repeat",
+                            "tooltlp": "Sets how a background image will be repeated",
+                            "value": "background-repeat"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-clip",
+                            "tooltlp": "Specifies the painting area of the background",
+                            "value": "background-clip"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-origin",
+                            "tooltlp": "Specifies the positioning area of the background images",
+                            "value": "background-origin"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-size",
+                            "tooltlp": "Specifies the size of the background images",
+                            "value": "background-size"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Color",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/opacity",
+                            "tooltlp": "Sets the opacity level for an element",
+                            "value": "opacity"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Font",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font",
+                            "tooltlp": "Sets all the font properties in one declaration",
+                            "value": "font"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-family",
+                            "tooltlp": "Specifies the font family for text",
+                            "value": "font-family"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-size",
+                            "tooltlp": "Specifies the font size of text",
+                            "value": "font-size"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-style",
+                            "tooltlp": "Specifies the font style for text",
+                            "value": "font-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-variant",
+                            "tooltlp": "Specifies whether or not a text should be displayed in a small-caps font",
+                            "value": "font-variant"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-weight",
+                            "tooltlp": "Specifies the weight of a font",
+                            "value": "font-weight"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/@font-face",
+                            "tooltlp": "A rule that allows websites to download and use fonts other than the \"web-safe\" fonts",
+                            "value": "@font-face"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-size-adjust",
+                            "tooltlp": "Preserves the readability of text when font fallback occurs",
+                            "value": "font-size-adjust"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-stretch",
+                            "tooltlp": "Selects a normal, condensed, or expanded face from a font family",
+                            "value": "font-stretch"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Positioning",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/bottom",
+                            "tooltlp": "Specifies the bottom position of a positioned element",
+                            "value": "bottom"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/clear",
+                            "tooltlp": "Specifies which sides of an element where other floating elements are not allowed",
+                            "value": "clear"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/clip",
+                            "tooltlp": "Clips an absolutely positioned element",
+                            "value": "clip"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/cursor",
+                            "tooltlp": "Specifies the type of cursor to be displayed",
+                            "value": "cursor"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/display",
+                            "tooltlp": "Specifies how a certain HTML element should be displayed",
+                            "value": "display"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/float",
+                            "tooltlp": "Specifies whether or not a box should float",
+                            "value": "float"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/left",
+                            "tooltlp": "Specifies the left position of a positioned element",
+                            "value": "left"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/overflow",
+                            "tooltlp": "Specifies what happens if content overflows an element's box",
+                            "value": "overflow"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/position",
+                            "tooltlp": "Specifies the type of positioning method used for an element (static,relative, absolute or fixed)",
+                            "value": "position"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/right",
+                            "tooltlp": "Specifies the right position of a positioned element",
+                            "value": "right"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/top",
+                            "tooltlp": "Specifies the top position of a positioned element",
+                            "value": "top"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/visibility",
+                            "tooltlp": "Specifies whether or not an element is visible",
+                            "value": "visibility"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/z-index",
+                            "tooltlp": "Sets the stack order of a positioned element",
+                            "value": "z-index"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Elements",
+            "items": [
+                {
+                    "subject": "Hyperlink",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/a",
+                            "tooltlp": "A shorthand property for setting the target-name, target-new, and target-position properties",
+                            "value": "target"
+                        },
+                        {
+                            "link": "http://w3schools.com/cssref/css3_pr_target-name.asp",
+                            "tooltlp": "Specifies where to open links (target destination)",
+                            "value": "target-name"
+                        },
+                        {
+                            "link": "http://w3schools.com/cssref/css3_pr_target-new.asp",
+                            "tooltlp": "Specifies whether new destination links should open in a new window or in a new tab of an existing window",
+                            "value": "target-new"
+                        },
+                        {
+                            "link": "http://w3schools.com/cssref/css3_pr_target-position.asp",
+                            "tooltlp": "Specifies where new destination links should be placed",
+                            "value": "target-position"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Text",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/color",
+                            "tooltlp": "Sets the color of text",
+                            "value": "color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/direction",
+                            "tooltlp": "Specifies the text direction/writing direction",
+                            "value": "direction"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/letter-spacing",
+                            "tooltlp": "Increases or decreases the space between characters in a text",
+                            "value": "letter-spacing"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/line-height",
+                            "tooltlp": "Sets the line height",
+                            "value": "line-height"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-align",
+                            "tooltlp": "Specifies the horizontal alignment of text",
+                            "value": "text-align"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-decoration",
+                            "tooltlp": "Specifies the decoration added to text",
+                            "value": "text-decoration"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-indent",
+                            "tooltlp": "Specifies the indentation of the first line in a text-block",
+                            "value": "text-indent"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-transform",
+                            "tooltlp": "Controls the capitalization of text",
+                            "value": "text-transform"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/unicode-bidi",
+                            "tooltlp": "determines how bidirectional text in a document is handled",
+                            "value": "unicode-bidi"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/vertical-align",
+                            "tooltlp": "Sets the vertical alignment of an element",
+                            "value": "vertical-align"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/white-space",
+                            "tooltlp": "Specifies how white-space inside an element is handled",
+                            "value": "white-space"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/word-spacing",
+                            "tooltlp": "Increases or decreases the space between words in a text",
+                            "value": "word-spacing"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-outline",
+                            "tooltlp": "Specifies a text outline",
+                            "value": "text-outline"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-overflow",
+                            "tooltlp": "Specifies what should happen when text overflows the containing element",
+                            "value": "text-overflow"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-shadow",
+                            "tooltlp": "Adds shadow to text",
+                            "value": "text-shadow"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-wrap",
+                            "tooltlp": "Specifies line breaking rules for text",
+                            "value": "text-wrap"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/word-break",
+                            "tooltlp": "Specifies line breaking rules for non-CJK scripts",
+                            "value": "word-break"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/word-wrap",
+                            "tooltlp": "Allows long, unbreakable words to be broken and wrap to the next line",
+                            "value": "word-wrap"
+                        }
+                    ]
+                },
+                {
+                    "subject": "List",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/list-style",
+                            "tooltlp": "Sets all the properties for a list in one declaration",
+                            "value": "list-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/list-style-image",
+                            "tooltlp": "Specifies an image as the list-item marker",
+                            "value": "list-style-image"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/list-style-position",
+                            "tooltlp": "Specifies if the list-item markers should appear inside or outside the content flow",
+                            "value": "list-style-position"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/list-style-type",
+                            "tooltlp": "Specifies the type of list-item marker",
+                            "value": "list-style-type"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Table",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-collapse",
+                            "tooltlp": "Specifies whether or not table borders should be collapsed",
+                            "value": "border-collapse"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-spacing",
+                            "tooltlp": "Specifies the distance between the borders of adjacent cells",
+                            "value": "border-spacing"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/caption-side",
+                            "tooltlp": "Specifies the placement of a table caption",
+                            "value": "caption-side"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/empty-cells",
+                            "tooltlp": "Specifies whether or not to display borders and background on empty cells in a table",
+                            "value": "empty-cells"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/table-layout",
+                            "tooltlp": "Sets the layout algorithm to be used for a table",
+                            "value": "table-layout"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "CSS3 Box",
+            "items": [
+                {
+                    "subject": "Box",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/overflow-x",
+                            "tooltlp": "Specifies whether or not to clip the left/right edges of the content, if it overflows the element's content area",
+                            "value": "overflow-x"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/overflow-y",
+                            "tooltlp": "Specifies whether or not to clip the top/bottom edges of the content, if it overflows the element's content area",
+                            "value": "overflow-y"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/overflow",
+                            "tooltlp": "Specifies the preferred scrolling method for elements that overflow",
+                            "value": "overflow-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transform-function",
+                            "tooltlp": "Rotates an element around a given point defined by the rotation-point property",
+                            "value": "rotation"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Flexible Box",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-align",
+                            "tooltlp": "Specifies how to align the child elements of a box",
+                            "value": "box-align"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-direction",
+                            "tooltlp": "Specifies in which direction the children of a box are displayed",
+                            "value": "box-direction"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-flex",
+                            "tooltlp": "Specifies whether the children of a box is flexible or inflexible in size",
+                            "value": "box-flex"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-flex-group",
+                            "tooltlp": "Assigns flexible elements to flex groups",
+                            "value": "box-flex-group"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-lines",
+                            "tooltlp": "Specifies whether columns will go onto a new line whenever it runs out of space in the parent box",
+                            "value": "box-lines"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-ordinal-group",
+                            "tooltlp": "Specifies the display order of the child elements of a box",
+                            "value": "box-ordinal-group"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-orient",
+                            "tooltlp": "Specifies whether the children of a box should be laid out horizontally or vertically",
+                            "value": "box-orient"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-pack",
+                            "tooltlp": "Specifies the horizontal position in horizontal boxes and the vertical position in vertical boxes",
+                            "value": "box-pack"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Multi-column",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-count",
+                            "tooltlp": "Specifies the number of columns an element should be divided into",
+                            "value": "column-count"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-fill",
+                            "tooltlp": "Specifies how to fill columns",
+                            "value": "column-fill"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-gap",
+                            "tooltlp": "Specifies the gap between the columns",
+                            "value": "column-gap"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-rule",
+                            "tooltlp": "A shorthand property for setting all the column-rule-* properties",
+                            "value": "column-rule"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-rule-color",
+                            "tooltlp": "Specifies the color of the rule between columns",
+                            "value": "column-rule-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-rule-style",
+                            "tooltlp": "Specifies the style of the rule between columns",
+                            "value": "column-rule-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-rule-width",
+                            "tooltlp": "Specifies the width of the rule between columns",
+                            "value": "column-rule-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-span",
+                            "tooltlp": "Specifies how many columns an element should span across",
+                            "value": "column-span"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-width",
+                            "tooltlp": "Specifies the width of the columns",
+                            "value": "column-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/columns",
+                            "tooltlp": "A shorthand property for setting column-width and column-count",
+                            "value": "columns"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Animation",
+            "items": [
+                {
+                    "subject": "Animation",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/@keyframes",
+                            "tooltlp": "Specifies the animation",
+                            "value": "@keyframes"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation",
+                            "tooltlp": "A shorthand property for all the animation properties below, except the animation-play-state property",
+                            "value": "animation"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-name",
+                            "tooltlp": "Specifies a name for the @keyframes animation",
+                            "value": "animation-name"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-duration",
+                            "tooltlp": "Specifies how many seconds or milliseconds an animation takes to complete one cycle",
+                            "value": "animation-duration"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-timing-function",
+                            "tooltlp": "Specifies the speed curve of the animation",
+                            "value": "animation-timing-function"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-delay",
+                            "tooltlp": "Specifies when the animation will start",
+                            "value": "animation-delay"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-fill-mode",
+                            "tooltlp": "Specifies whether animation properties are applied before and after aniamtion execution",
+                            "value": "animation-fill-mode"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-iteration-count",
+                            "tooltlp": "Specifies the number of times an animation should be played",
+                            "value": "animation-iteration-count"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-direction",
+                            "tooltlp": "Specifies whether or not the animation should play in reverse on alternate cycles",
+                            "value": "animation-direction"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-play-state",
+                            "tooltlp": "Specifies whether the animation is running or paused",
+                            "value": "animation-play-state"
+                        }
+                    ]
+                },
+                {
+                    "subject": "2D/3D Transform",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transform",
+                            "tooltlp": "Applies a 2D or 3D transformation to an element",
+                            "value": "transform"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transform-origin",
+                            "tooltlp": "Allows you to change the position on transformed elements",
+                            "value": "transform-origin"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transform-style",
+                            "tooltlp": "Specifies how nested elements are rendered in 3D space",
+                            "value": "transform-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/perspective",
+                            "tooltlp": "Specifies the perspective on how 3D elements are viewed",
+                            "value": "perspective"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/perspective-origin",
+                            "tooltlp": "Specifies the bottom position of 3D elements",
+                            "value": "perspective-origin"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/backface-visibility",
+                            "tooltlp": "Defines whether or not an element should be visible when not facing the screen",
+                            "value": "backface-visibility"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Transition",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transition",
+                            "tooltlp": "A shorthand property for setting the four transition properties",
+                            "value": "transition"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transition-property",
+                            "tooltlp": "Specifies the name of the CSS property the transition effect is for",
+                            "value": "transition-property"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transition-duration",
+                            "tooltlp": "Specifies how many seconds or milliseconds a transition effect takes to complete",
+                            "value": "transition-duration"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transition-timing-function",
+                            "tooltlp": "Specifies the speed curve of the transition effect",
+                            "value": "transition-timing-function"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transition-delay",
+                            "tooltlp": "Specifies when the transition effect will start",
+                            "value": "transition-delay"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Miscellaneous",
+            "items": [
+                {
+                    "subject": "Print",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/page-break-after",
+                            "tooltlp": "Sets the page-breaking behavior after an element",
+                            "value": "page-break-after"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/page-break-before",
+                            "tooltlp": "Sets the page-breaking behavior before an element",
+                            "value": "page-break-before"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/page-break-inside",
+                            "tooltlp": "Sets the page-breaking behavior inside an element",
+                            "value": "page-break-inside"
+                        }
+                    ]
+                },
+                {
+                    "subject": "User-interface",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/appearance",
+                            "tooltlp": "Allows you to make an element look like a standard user interface element",
+                            "value": "appearance"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-sizing",
+                            "tooltlp": "Allows you to define certain elements to fit an area in a certain way",
+                            "value": "box-sizing"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/icon",
+                            "tooltlp": "Provides the author the ability to style an element with an iconic equivalent",
+                            "value": "icon"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/nav-down",
+                            "tooltlp": "Specifies where to navigate when using the arrow-down navigation key",
+                            "value": "nav-down"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/nav-index",
+                            "tooltlp": "Specifies the tabbing order for an element",
+                            "value": "nav-index"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/nav-left",
+                            "tooltlp": "Specifies where to navigate when using the arrow-left navigation key",
+                            "value": "nav-left"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/nav-right",
+                            "tooltlp": "Specifies where to navigate when using the arrow-right navigation key",
+                            "value": "nav-right"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/nav-up",
+                            "tooltlp": "Specifies where to navigate when using the arrow-up navigation key",
+                            "value": "nav-up"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/outline-offset",
+                            "tooltlp": "Offsets an outline, and draws it beyond the border edge",
+                            "value": "outline-offset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/resize",
+                            "tooltlp": "Specifies whether or not an element is resizable by the user",
+                            "value": "resize"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Page",
+            "items": [
+                {
+                    "subject": "Generated Content",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/content",
+                            "tooltlp": "Used with the :before and :after pseudo-elements, to insert generated content",
+                            "value": "content"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/counter-increment",
+                            "tooltlp": "Increments one or more counters",
+                            "value": "counter-increment"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/counter-reset",
+                            "tooltlp": "Creates or resets one or more counters",
+                            "value": "counter-reset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/quotes",
+                            "tooltlp": "Sets the type of quotation marks for embedded quotations",
+                            "value": "quotes"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

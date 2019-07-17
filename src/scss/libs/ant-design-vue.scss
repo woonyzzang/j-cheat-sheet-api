@@ -1,0 +1,10 @@
+/* scope 속성으로 인해 vue 컴포넌트 파일 안에서 제어할 수 없는 스타일 정의 */
+
+.cardbox {
+    .ant-card-head-title {
+        padding: unitsConverter(1) 0;
+        font-size: unitsConverter(2);
+        color: #fff;
+        text-align: right;
+    }
+}

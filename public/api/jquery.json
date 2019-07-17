@@ -1,0 +1,1699 @@
+{
+    "cards": [
+        {
+            "title": "Selectors",
+            "items": [
+                {
+                    "subject": "Attribute",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/attribute-contains-prefix-selector/",
+                            "tooltlp": "Selects elements that have the specified attribute with a value either equal to a given string or starting with that string followed by a hyphen (-).",
+                            "value": "[name|=\"value\"]"
+                        },
+                        {
+                            "link": "http://api.jquery.com/attribute-contains-selector/",
+                            "tooltlp": "Selects elements that have the specified attribute with a value containing the a given substring.",
+                            "value": "[name*=\"value\"]"
+                        },
+                        {
+                            "link": "http://api.jquery.com/attribute-contains-word-selector/",
+                            "tooltlp": "Selects elements that have the specified attribute with a value containing a given word, delimited by spaces.",
+                            "value": "[name~=\"value\"]"
+                        },
+                        {
+                            "link": "http://api.jquery.com/attribute-ends-with-selector/",
+                            "tooltlp": "Selects elements that have the specified attribute with a value ending exactly with a given string. The comparison is case sensitive.",
+                            "value": "[name$=\"value\"]"
+                        },
+                        {
+                            "link": "http://api.jquery.com/attribute-equals-selector/",
+                            "tooltlp": "Selects elements that have the specified attribute with a value exactly equal to a certain value.",
+                            "value": "[name=\"value\"]"
+                        },
+                        {
+                            "link": "http://api.jquery.com/attribute-not-equal-selector/",
+                            "tooltlp": "Select elements that either don't have the specified attribute, or do have the specified attribute but not with a certain value.",
+                            "value": "[name!=\"value\"]"
+                        },
+                        {
+                            "link": "http://api.jquery.com/attribute-starts-with-selector/",
+                            "tooltlp": "Selects elements that have the specified attribute with a value beginning exactly with a given string.",
+                            "value": "[name^=\"value\"]"
+                        },
+                        {
+                            "link": "http://api.jquery.com/has-attribute-selector/",
+                            "tooltlp": "Selects elements that have the specified attribute, with any value.",
+                            "value": "[name]"
+                        },
+                        {
+                            "link": "http://api.jquery.com/multiple-attribute-selector/",
+                            "tooltlp": "Matches elements that match all of the specified attribute filters.",
+                            "value": "[name=\"value\"][name2=\"value2\"]"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Forms",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/button-selector/",
+                            "tooltlp": "Selects all button elements and elements of type button.",
+                            "value": ":button"
+                        },
+                        {
+                            "link": "http://api.jquery.com/checkbox-selector/",
+                            "tooltlp": "Selects all elements of type checkbox.",
+                            "value": ":checkbox"
+                        },
+                        {
+                            "link": "http://api.jquery.com/checked-selector/",
+                            "tooltlp": "Matches all elements that are checked.",
+                            "value": ":checked"
+                        },
+                        {
+                            "link": "http://api.jquery.com/disabled-selector/",
+                            "tooltlp": "Selects all elements that are disabled.",
+                            "value": ":disabled"
+                        },
+                        {
+                            "link": "http://api.jquery.com/enabled-selector/",
+                            "tooltlp": "Selects all elements that are enabled.",
+                            "value": ":enabled"
+                        },
+                        {
+                            "link": "http://api.jquery.com/focus-selector/",
+                            "tooltlp": "Selects element if it is currently focused.",
+                            "value": ":focus"
+                        },
+                        {
+                            "link": "http://api.jquery.com/file-selector/",
+                            "tooltlp": "Selects all elements of type file.",
+                            "value": ":file"
+                        },
+                        {
+                            "link": "http://api.jquery.com/image-selector/",
+                            "tooltlp": "Selects all elements of type image.",
+                            "value": ":image"
+                        },
+                        {
+                            "link": "http://api.jquery.com/input-selector/",
+                            "tooltlp": "Selects all input, textarea, select and button elements.",
+                            "value": ":input"
+                        },
+                        {
+                            "link": "http://api.jquery.com/password-selector/",
+                            "tooltlp": "Selects all elements of type password.",
+                            "value": ":password"
+                        },
+                        {
+                            "link": "http://api.jquery.com/radio-selector/",
+                            "tooltlp": "Selects all elements of type radio.",
+                            "value": ":radio"
+                        },
+                        {
+                            "link": "http://api.jquery.com/reset-selector/",
+                            "tooltlp": "Selects all elements of type reset.",
+                            "value": ":reset"
+                        },
+                        {
+                            "link": "http://api.jquery.com/selected-selector/",
+                            "tooltlp": "Selects all elements that are selected.",
+                            "value": ":selected"
+                        },
+                        {
+                            "link": "http://api.jquery.com/submit-selector/",
+                            "tooltlp": "Selects all elements of type submit.",
+                            "value": ":submit"
+                        },
+                        {
+                            "link": "http://api.jquery.com/text-selector/",
+                            "tooltlp": "Selects all elements of type text.",
+                            "value": ":text"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Basics",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/all-selector/",
+                            "tooltlp": "Selects all elements.",
+                            "value": "*"
+                        },
+                        {
+                            "link": "http://api.jquery.com/class-selector/",
+                            "tooltlp": "Selects all elements with the given class.",
+                            "value": ".class"
+                        },
+                        {
+                            "link": "http://api.jquery.com/element-selector/",
+                            "tooltlp": "Selects all elements with the given tag name.",
+                            "value": "element"
+                        },
+                        {
+                            "link": "http://api.jquery.com/id-selector/",
+                            "tooltlp": "Selects a single element with the given id attribute.",
+                            "value": "#id"
+                        },
+                        {
+                            "link": "http://api.jquery.com/multiple-selector/",
+                            "tooltlp": "Selects the combined results of all the specified selectors.",
+                            "value": "selector1, selectorN, ..."
+                        }
+                    ]
+                },
+                {
+                    "subject": "Visibility Filters",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/hidden-selector/",
+                            "tooltlp": "Selects all elements that are hidden.",
+                            "value": ":hidden"
+                        },
+                        {
+                            "link": "http://api.jquery.com/visible-selector/",
+                            "tooltlp": "Selects all elements that are visible",
+                            "value": ":visible"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Basic Filters",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/animated-selector/",
+                            "tooltlp": "Select all elements that are in the progress of an animation at the time the selector is run.",
+                            "value": ":animated"
+                        },
+                        {
+                            "link": "http://api.jquery.com/eq-selector/",
+                            "tooltlp": "Select the element at index n within the matched set.",
+                            "value": ":eq()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/even-selector/",
+                            "tooltlp": "Selects even elements, zero-indexed. See also odd.",
+                            "value": ":even"
+                        },
+                        {
+                            "link": "http://api.jquery.com/first-selector/",
+                            "tooltlp": "Selects the first matched element.",
+                            "value": ":first"
+                        },
+                        {
+                            "link": "http://api.jquery.com/gt-selector/",
+                            "tooltlp": "Select all elements at an index greater than index within the matched set.",
+                            "value": ":gt()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/header-selector/",
+                            "tooltlp": "Selects all elements that are headers, like h1, h2, h3 and so on.",
+                            "value": ":header"
+                        },
+                        {
+                            "link": "http://api.jquery.com/last-selector/",
+                            "tooltlp": "Selects the last matched element.",
+                            "value": ":last"
+                        },
+                        {
+                            "link": "http://api.jquery.com/lt-selector/",
+                            "tooltlp": "Select all elements at an index less than index within the matched set.",
+                            "value": ":lt()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/not-selector/",
+                            "tooltlp": "Selects all elements that do not match the given selector.",
+                            "value": ":not()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/odd-selector/",
+                            "tooltlp": "Selects odd elements, zero-indexed. See also even.",
+                            "value": ":odd"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Child Filters",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/first-child-selector/",
+                            "tooltlp": "Selects all elements that are the first child of their parent.",
+                            "value": ":first-child"
+                        },
+                        {
+                            "link": "http://api.jquery.com/last-child-selector/",
+                            "tooltlp": "Selects all elements that are the last child of their parent.",
+                            "value": ":last-child"
+                        },
+                        {
+                            "link": "http://api.jquery.com/nth-child-selector/",
+                            "tooltlp": "Selects all elements that are the nth-child of their parent.",
+                            "value": ":nth-child()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/only-child-selector/",
+                            "tooltlp": "Selects all elements that are the only child of their parent.",
+                            "value": ":only-child"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Content Filters",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/contains-selector/",
+                            "tooltlp": "Select all elements that contain the specified text.",
+                            "value": ":contains()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/empty-selector/",
+                            "tooltlp": "Select all elements that have no children (including text nodes).",
+                            "value": ":empty"
+                        },
+                        {
+                            "link": "http://api.jquery.com/has-selector/",
+                            "tooltlp": "Selects elements which contain at least one element that matches the specified selector.",
+                            "value": ":has()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/parent-selector/",
+                            "tooltlp": "Select all elements that are the parent of another element, including text nodes.",
+                            "value": ":parent"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Hierarchy",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/child-selector/",
+                            "tooltlp": "Selects all direct child elements specified by 'child' of elements specified by 'parent'.",
+                            "value": "parent > child"
+                        },
+                        {
+                            "link": "http://api.jquery.com/descendant-selector/",
+                            "tooltlp": "Selects all elements that are descendants of a given ancestor.",
+                            "value": "ancestor descendant"
+                        },
+                        {
+                            "link": "http://api.jquery.com/next-adjacent-Selector/",
+                            "tooltlp": "Selects all next elements matching 'next' that are immediately preceded by a sibling 'prev'.",
+                            "value": "prev + next"
+                        },
+                        {
+                            "link": "http://api.jquery.com/next-siblings-selector/",
+                            "tooltlp": "Selects all sibling elements that follow after the 'prev' element, have the same parent, and match the filtering 'siblings' selector.",
+                            "value": "prev ~ siblings"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Attributes / CSS",
+            "items": [
+                {
+                    "subject": "Attributes",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/attr/",
+                            "tooltlp": "Get the value of an attribute for the first element in the set of matched elements.",
+                            "value": ".attr()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/prop/",
+                            "tooltlp": "Get the value of a property for the first element in the set of matched elements.",
+                            "value": ".prop()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/removeAttr/",
+                            "tooltlp": "Remove an attribute from each element in the set of matched elements.",
+                            "value": ".removeAttr()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/removeProp/",
+                            "tooltlp": "Remove a property for the set of matched elements.",
+                            "value": ".removeProp()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/val/",
+                            "tooltlp": "Get the current value of the first element in the set of matched elements.",
+                            "value": ".val()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "CSS",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/addClass/",
+                            "tooltlp": "Adds the specified class(es) to each of the set of matched elements.",
+                            "value": ".addClass()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/css/",
+                            "tooltlp": "Get the value of a style property for the first element in the set of matched elements.",
+                            "value": ".css()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.cssHooks/",
+                            "tooltlp": "Provides a way to hook directly into jQuery to override how particular CSS properties are retrieved or set. Amongst other uses, cssHooks can be used to create custom, browser-normalized properties for CSS3 features such as box-shadows and gradients.",
+                            "value": "jQuery.cssHooks"
+                        },
+                        {
+                            "link": "http://api.jquery.com/hasClass/",
+                            "tooltlp": "Determine whether any of the matched elements are assigned the given class.",
+                            "value": ".hasClass()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/removeClass/",
+                            "tooltlp": "Remove a single class, multiple classes, or all classes from each element in the set of matched elements.",
+                            "value": ".removeClass()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/toggleClass/",
+                            "tooltlp": "Add or remove one or more classes from each element in the set of matched elements, depending on either the class's presence or the value of the switch argument.",
+                            "value": ".toggleClass()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Dimensions",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/height/",
+                            "tooltlp": "Get the current computed height for the first element in the set of matched elements.",
+                            "value": ".height()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/innerHeight/",
+                            "tooltlp": "Get the current computed height for the first element in the set of matched elements, including padding but not border.",
+                            "value": ".innerHeight()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/innerWidth/",
+                            "tooltlp": "Get the current computed width for the first element in the set of matched elements, including padding but not border.",
+                            "value": ".innerWidth()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/outerHeight/",
+                            "tooltlp": "Get the current computed height for the first element in the set of matched elements, including padding, border, and optionally margin.",
+                            "value": ".outerHeight()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/outerWidth/",
+                            "tooltlp": "Get the current computed width for the first element in the set of matched elements, including padding and border.",
+                            "value": ".outerWidth()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/width/",
+                            "tooltlp": "Get the current computed width for the first element in the set of matched elements.",
+                            "value": ".width()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Offset",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/offset/",
+                            "tooltlp": "Get the current coordinates of the first element in the set of matched elements, relative to the document.",
+                            "value": ".offset()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/offsetParent/",
+                            "tooltlp": "Get the closest ancestor element that is positioned.",
+                            "value": ".offsetParent()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/position/",
+                            "tooltlp": "Get the current coordinates of the first element in the set of matched elements, relative to the offset parent.",
+                            "value": ".position()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/scrollLeft/",
+                            "tooltlp": "Get the current horizontal position of the scroll bar for the first element in the set of matched elements.",
+                            "value": ".scrollLeft()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/scrollTop/",
+                            "tooltlp": "Get the current vertical position of the scroll bar for the first element in the set of matched elements.",
+                            "value": ".scrollTop()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Data",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/jQuery.data/",
+                            "tooltlp": "Store arbitrary data associated with the specified element.",
+                            "value": "jQuery.data()"
+                        },
+                        {
+                            "link": "href=\"http://api.jquery.com/data/",
+                            "tooltlp": "Store arbitrary data associated with the matched elements.",
+                            "value": ".data()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.hasData/",
+                            "tooltlp": "Determine whether an element has any jQuery data associated with it.",
+                            "value": "jQuery.hasData()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.removeData/",
+                            "tooltlp": "Remove a previously-stored piece of data.",
+                            "value": "jQuery.removeData()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/removeData/",
+                            "tooltlp": "Remove a previously-stored piece of data.",
+                            "value": ".removeData()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manipulation",
+            "items": [
+                {
+                    "subject": "Copying",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/clone/",
+                            "tooltlp": "Create a deep copy of the set of matched elements.",
+                            "value": ".clone()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "DOM Insertion, Around",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/wrap/",
+                            "tooltlp": "Wrap an HTML structure around each element in the set of matched elements.",
+                            "value": ".wrap()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/wrapAll/",
+                            "tooltlp": "Wrap an HTML structure around all elements in the set of matched elements.",
+                            "value": ".wrapAll()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/wrapInner/",
+                            "tooltlp": "Wrap an HTML structure around the content of each element in the set of matched elements.",
+                            "value": ".wrapInner()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "DOM Insertion, Inside",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/append/",
+                            "tooltlp": "Insert content, specified by the parameter, to the end of each element in the set of matched elements.",
+                            "value": ".append()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/appendTo/",
+                            "tooltlp": "Insert every element in the set of matched elements to the end of the target.",
+                            "value": ".appendTo()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/html/",
+                            "tooltlp": "Get the HTML contents of the first element in the set of matched elements.",
+                            "value": ".html()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/prepend/",
+                            "tooltlp": "Insert content, specified by the parameter, to the beginning of each element in the set of matched elements.",
+                            "value": ".prepend()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/prependTo/",
+                            "tooltlp": "Insert every element in the set of matched elements to the beginning of the target.",
+                            "value": ".prependTo()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/text/",
+                            "tooltlp": "Get the combined text contents of each element in the set of matched elements, including their descendants.",
+                            "value": ".text()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "DOM Insertion, Outside",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/after/",
+                            "tooltlp": "Insert content, specified by the parameter, after each element in the set of matched elements.",
+                            "value": ".after()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/before/",
+                            "tooltlp": "Insert content, specified by the parameter, before each element in the set of matched elements.",
+                            "value": ".before()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/insertAfter/",
+                            "tooltlp": "Insert every element in the set of matched elements after the target.",
+                            "value": ".insertAfter()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/insertBefore/",
+                            "tooltlp": "Insert every element in the set of matched elements before the target.",
+                            "value": ".insertBefore()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "DOM Removal",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/detach/",
+                            "tooltlp": "Remove the set of matched elements from the DOM.",
+                            "value": ".detach()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/empty/",
+                            "tooltlp": "Remove all child nodes of the set of matched elements from the DOM.",
+                            "value": ".empty()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/remove/",
+                            "tooltlp": "Remove the set of matched elements from the DOM",
+                            "value": ".remove()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/unwrap/",
+                            "tooltlp": "Remove the parents of the set of matched elements from the DOM, leaving the matched elements in their place.",
+                            "value": ".unwrap()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "DOM Replacement",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/replaceAll/",
+                            "tooltlp": "Replace each target element with the set of matched elements.",
+                            "value": ".replaceAll()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/replaceWith/",
+                            "tooltlp": "Replace each element in the set of matched elements with the provided new content.",
+                            "value": ".replaceWith()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Traversing",
+            "items": [
+                {
+                    "subject": "Filtering",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/eq/",
+                            "tooltlp": "Reduce the set of matched elements to the one at the specified index.",
+                            "value": ".eq()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/filter/",
+                            "tooltlp": "Reduce the set of matched elements to those that match the selector or pass the function's test.",
+                            "value": ".filter()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/first/",
+                            "tooltlp": "Reduce the set of matched elements to the first in the set.",
+                            "value": ".first()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/has/",
+                            "tooltlp": "Reduce the set of matched elements to those that have a descendant that matches the selector or DOM element.",
+                            "value": ".has()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/is/",
+                            "tooltlp": "Check the current matched set of elements against a selector and return true if at least one of these elements matches the selector.",
+                            "value": ".is()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/last/",
+                            "tooltlp": "Reduce the set of matched elements to the final one in the set.",
+                            "value": ".last()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/map/",
+                            "tooltlp": "Pass each element in the current matched set through a function, producing a new jQuery object containing the return values.",
+                            "value": ".map()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/not/",
+                            "tooltlp": "Remove elements from the set of matched elements.",
+                            "value": ".not()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/slice/",
+                            "tooltlp": "Reduce the set of matched elements to a subset specified by a range of indices.",
+                            "value": ".slice()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Miscellaneous Traversing",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/add/",
+                            "tooltlp": "Add elements to the set of matched elements.",
+                            "value": ".add()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/andSelf/",
+                            "tooltlp": "Add the previous set of elements on the stack to the current set.",
+                            "value": ".andSelf()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/contents/",
+                            "tooltlp": "Get the children of each element in the set of matched elements, including text and comment nodes.",
+                            "value": ".contents()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/end/",
+                            "tooltlp": "End the most recent filtering operation in the current chain and return the set of matched elements to its previous state.",
+                            "value": ".end()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Tree Traversal",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/children/",
+                            "tooltlp": "Get the children of each element in the set of matched elements, optionally filtered by a selector.",
+                            "value": ".children()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/closest/",
+                            "tooltlp": "Get the first ancestor element that matches the selector, beginning at the current element and progressing up through the DOM tree.",
+                            "value": ".closest()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/find/",
+                            "tooltlp": "Get the descendants of each element in the current set of matched elements, filtered by a selector.",
+                            "value": ".find()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/next/",
+                            "tooltlp": "Get the immediately following sibling of each element in the set of matched elements. If a selector is provided, it retrieves the next sibling only if it matches that selector.",
+                            "value": ".next()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/nextAll/",
+                            "tooltlp": "Get all following siblings of each element in the set of matched elements, optionally filtered by a selector.",
+                            "value": ".nextAll()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/nextUntil/",
+                            "tooltlp": "Get all following siblings of each element up to but not including the element matched by the selector.",
+                            "value": ".nextUntil()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/parent/",
+                            "tooltlp": "Get the parent of each element in the current set of matched elements, optionally filtered by a selector.",
+                            "value": ".parent()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/parents/",
+                            "tooltlp": "Get the ancestors of each element in the current set of matched elements, optionally filtered by a selector.",
+                            "value": ".parents()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/parentsUntil/",
+                            "tooltlp": "Get the ancestors of each element in the current set of matched elements, up to but not including the element matched by the selector.",
+                            "value": ".parentsUntil()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/prev/",
+                            "tooltlp": "Get the immediately preceding sibling of each element in the set of matched elements, optionally filtered by a selector.",
+                            "value": ".prev()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/prevAll/",
+                            "tooltlp": "Get all preceding siblings of each element in the set of matched elements, optionally filtered by a selector.",
+                            "value": ".prevAll()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/prevUntil/",
+                            "tooltlp": "Get all preceding siblings of each element up to but not including the element matched by the selector.",
+                            "value": ".prevUntil()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/siblings/",
+                            "tooltlp": "Get the siblings of each element in the set of matched elements, optionally filtered by a selector.",
+                            "value": ".siblings()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Events",
+            "items": [
+                {
+                    "subject": "Event Object",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/event.currentTarget/",
+                            "tooltlp": "The current DOM element within the event bubbling phase.",
+                            "value": "event.currentTarget"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.data/",
+                            "tooltlp": "The optional data passed to jQuery.fn.bind when the current executing handler was bound.",
+                            "value": "event.data"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.isDefaultPrevented/",
+                            "tooltlp": "Returns whether event.preventDefault() was ever called on this event object.",
+                            "value": "event.isDefaultPrevented()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.isImmediatePropagationStopped/",
+                            "tooltlp": "Returns whether event.stopImmediatePropagation() was ever called on this event object.",
+                            "value": "event.isImmediatePropagationStopped()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.isPropagationStopped/",
+                            "tooltlp": "Returns whether event.stopPropagation() was ever called on this event object.",
+                            "value": "event.isPropagationStopped()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.namespace/",
+                            "tooltlp": "The namespace specified when the event was triggered.",
+                            "value": "event.namespace"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.pageX/",
+                            "tooltlp": "The mouse position relative to the left edge of the document.",
+                            "value": "event.pageX"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.pageY/",
+                            "tooltlp": "The mouse position relative to the top edge of the document.",
+                            "value": "event.pageY"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.preventDefault/",
+                            "tooltlp": "If this method is called, the default action of the event will not be triggered.",
+                            "value": "event.preventDefault()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.relatedTarget/",
+                            "tooltlp": "The other DOM element involved in the event, if any.",
+                            "value": "event.relatedTarget"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.result/",
+                            "tooltlp": "The last value returned by an event handler that was triggered by this event, unless the value was undefined",
+                            "value": "event.result"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.stopImmediatePropagation/",
+                            "tooltlp": "Prevents other event handlers from being called.",
+                            "value": "event.stopImmediatePropagation()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.stopPropagation/",
+                            "tooltlp": "Prevents the event from bubbling up the DOM tree, preventing any parent handlers from being notified of the event.",
+                            "value": "event.stopPropagation()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.target/",
+                            "tooltlp": "The DOM element that initiated the event.",
+                            "value": "event.target"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.timeStamp/",
+                            "tooltlp": "The difference in milliseconds between the time an event is triggered and January 1, 1970.",
+                            "value": "event.timeStamp"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.type/",
+                            "tooltlp": "Describes the nature of the event.",
+                            "value": "event.type"
+                        },
+                        {
+                            "link": "http://api.jquery.com/event.which/",
+                            "tooltlp": "For key or button events, this attribute indicates the specific button or key that was pressed.",
+                            "value": "event.which"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Mouse Events",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/click/",
+                            "tooltlp": "Bind an event handler to the 'click' JavaScript event, or trigger that event on an element.",
+                            "value": ".click()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/dblclick/",
+                            "tooltlp": "Bind an event handler to the 'dblclick' JavaScript event, or trigger that event on an element.",
+                            "value": ".dblclick()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/focusin/",
+                            "tooltlp": "Bind an event handler to the 'focusin' JavaScript event.",
+                            "value": ".focusin()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/focusout/",
+                            "tooltlp": "Bind an event handler to the 'focusout' JavaScript event.",
+                            "value": ".focusout()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/hover/",
+                            "tooltlp": "Bind two handlers to the matched elements, to be executed when the mouse pointer enters and leaves the elements.",
+                            "value": ".hover()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/mousedown/",
+                            "tooltlp": "Bind an event handler to the 'mousedown' JavaScript event, or trigger that event on an element.",
+                            "value": ".mousedown()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/mouseenter/",
+                            "tooltlp": "Bind an event handler to be fired when the mouse enters an element, or trigger that handler on an element.",
+                            "value": ".mouseenter()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/mouseleave/",
+                            "tooltlp": "Bind an event handler to be fired when the mouse leaves an element, or trigger that handler on an element.",
+                            "value": ".mouseleave()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/mousemove/",
+                            "tooltlp": "Bind an event handler to the 'mousemove' JavaScript event, or trigger that event on an element.",
+                            "value": ".mousemove()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/mouseout/",
+                            "tooltlp": "Bind an event handler to the 'mouseout' JavaScript event, or trigger that event on an element.",
+                            "value": ".mouseout()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/mouseover/",
+                            "tooltlp": "Bind an event handler to the 'mouseover' JavaScript event, or trigger that event on an element.",
+                            "value": ".mouseover()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/mouseup/",
+                            "tooltlp": "Bind an event handler to the 'mouseup' JavaScript event, or trigger that event on an element.",
+                            "value": ".mouseup()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/toggle-event/",
+                            "tooltlp": "Bind two or more handlers to the matched elements, to be executed on alternate clicks.",
+                            "value": ".toggle()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Browser Events",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/error/",
+                            "tooltlp": "Bind an event handler to the 'error' JavaScript event.",
+                            "value": ".error()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/resize/",
+                            "tooltlp": "Bind an event handler to the 'resize' JavaScript event, or trigger that event on an element.",
+                            "value": ".resize()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/scroll/",
+                            "tooltlp": "Bind an event handler to the 'scroll' JavaScript event, or trigger that event on an element.",
+                            "value": ".scroll()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Document Loading",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/jQuery.holdReady/",
+                            "tooltlp": "Holds or releases the execution of jQuery's ready event.",
+                            "value": ".holdReady()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/load-event/",
+                            "tooltlp": "Bind an event handler to the 'load' JavaScript event.",
+                            "value": ".load()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/ready/",
+                            "tooltlp": "Specify a function to execute when the DOM is fully loaded.",
+                            "value": ".ready()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/unload/",
+                            "tooltlp": "Bind an event handler to the 'unload' JavaScript event.",
+                            "value": ".unload()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Event Handler Attachment",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/bind/",
+                            "tooltlp": "Attach a handler to an event for the elements.",
+                            "value": ".bind()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/delegate/",
+                            "tooltlp": "Attach a handler to one or more events for all elements that match the selector, now or in the future, based on a specific set of root elements.",
+                            "value": ".delegate()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/die/",
+                            "tooltlp": "Remove all event handlers previously attached using .live() from the elements.",
+                            "value": ".die()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/live/",
+                            "tooltlp": "Attach a handler to the event for all elements which match the current selector, now and in the future.",
+                            "value": ".live()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/off/",
+                            "tooltlp": "Remove an event handler.",
+                            "value": ".off()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/on/",
+                            "tooltlp": "Attach an event handler function for one or more events to the selected elements.",
+                            "value": ".on()"
+                        },
+                        {
+                            "link": "href=\"http://api.jquery.com/one/",
+                            "tooltlp": "Attach a handler to an event for the elements. The handler is executed at most once per element.",
+                            "value": ".one()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/trigger/",
+                            "tooltlp": "Execute all handlers and behaviors attached to the matched elements for the given event type.",
+                            "value": ".trigger()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/triggerHandler/",
+                            "tooltlp": "Execute all handlers attached to an element for an event.",
+                            "value": ".triggerHandler()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/unbind/",
+                            "tooltlp": "Remove a previously-attached event handler from the elements.",
+                            "value": ".unbind()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/undelegate/",
+                            "tooltlp": "Remove a handler from the event for all elements which match the current selector, now or in the future, based upon a specific set of root elements.",
+                            "value": ".undelegate()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Form Events",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/blur/",
+                            "tooltlp": "Bind an event handler to the 'blur' JavaScript event, or trigger that event on an element.",
+                            "value": ".blur()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/change/",
+                            "tooltlp": "Bind an event handler to the 'change' JavaScript event, or trigger that event on an element.",
+                            "value": ".change()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/focus/",
+                            "tooltlp": "Bind an event handler to the 'focus' JavaScript event, or trigger that event on an element.",
+                            "value": ".focus()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/select/",
+                            "tooltlp": "Bind an event handler to the 'select' JavaScript event, or trigger that event on an element.",
+                            "value": ".select()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/submit/",
+                            "tooltlp": "Bind an event handler to the 'submit' JavaScript event, or trigger that event on an element.",
+                            "value": ".submit()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Keyboard Events",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/keydown/",
+                            "tooltlp": "Bind an event handler to the 'keydown' JavaScript event, or trigger that event on an element.",
+                            "value": ".keydown()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/keypress/",
+                            "tooltlp": "Bind an event handler to the 'keypress' JavaScript event, or trigger that event on an element.",
+                            "value": ".keypress()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/keyup/",
+                            "tooltlp": "Bind an event handler to the 'keyup' JavaScript event, or trigger that event on an element.",
+                            "value": ".keyup()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Effects",
+            "items": [
+                {
+                    "subject": "Basics",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/hide/",
+                            "tooltlp": "Hide the matched elements.",
+                            "value": ".hide()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/show/",
+                            "tooltlp": "Display the matched elements.",
+                            "value": ".show()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/toggle/",
+                            "tooltlp": "Display or hide the matched elements.",
+                            "value": ".toggle()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Custom",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/animate",
+                            "tooltlp": "Perform a custom animation of a set of CSS properties.",
+                            "value": ".animate()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/clearQueue",
+                            "tooltlp": "Remove from the queue all items that have not yet been run.",
+                            "value": ".clearQueue()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/delay",
+                            "tooltlp": "Set a timer to delay execution of subsequent items in the queue.",
+                            "value": ".delay()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/dequeue",
+                            "tooltlp": "Execute the next function on the queue for the matched elements.",
+                            "value": ".dequeue()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.dequeue/",
+                            "tooltlp": "Execute the next function on the queue for the matched element.",
+                            "value": "jQuery.dequeue()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.fx.interval",
+                            "tooltlp": "The rate (in milliseconds) at which animations fire.",
+                            "value": "jQuery.fx.interval"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.fx.off",
+                            "tooltlp": "Globally disable all animations.",
+                            "value": "jQuery.fx.off"
+                        },
+                        {
+                            "link": "http://api.jquery.com/queue",
+                            "tooltlp": "Show the queue of functions to be executed on the matched elements.",
+                            "value": ".queue()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.queue/",
+                            "tooltlp": "Show the queue of functions to be executed on the matched elements.",
+                            "value": "jQuery.queue()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/stop",
+                            "tooltlp": "Stop the currently-running animation on the matched elements.",
+                            "value": ".stop()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Fading",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/fadeIn/",
+                            "tooltlp": "Display the matched elements by fading them to opaque.",
+                            "value": ".fadeIn()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/fadeOut/",
+                            "tooltlp": "Hide the matched elements by fading them to transparent.",
+                            "value": ".fadeOut()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/fadeTo/",
+                            "tooltlp": "Adjust the opacity of the matched elements.",
+                            "value": ".fadeTo()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/fadeToggle/",
+                            "tooltlp": "Display or hide the matched elements by animating their opacity.",
+                            "value": ".fadeToggle()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Sliding",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/slideDown",
+                            "tooltlp": "Display the matched elements with a sliding motion.",
+                            "value": ".slideDown()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/slideToggle",
+                            "tooltlp": "Display or hide the matched elements with a sliding motion.",
+                            "value": ".slideToggle()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/slideUp",
+                            "tooltlp": "Hide the matched elements with a sliding motion.",
+                            "value": ".slideUp()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Ajax",
+            "items": [
+                {
+                    "subject": "Global Ajax Event Handlers",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/ajaxComplete/",
+                            "tooltlp": "Register a handler to be called when Ajax requests complete. This is an Ajax Event.",
+                            "value": ".ajaxComplete()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/ajaxError/",
+                            "tooltlp": "Register a handler to be called when Ajax requests complete with an error. This is an Ajax Event.",
+                            "value": ".ajaxError()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/ajaxSend/",
+                            "tooltlp": "Attach a function to be executed before an Ajax request is sent. This is an Ajax Event.",
+                            "value": ".ajaxSend()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/ajaxStart/",
+                            "tooltlp": "Register a handler to be called when the first Ajax request begins. This is an Ajax Event.",
+                            "value": ".ajaxStart()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/ajaxStop/",
+                            "tooltlp": "Register a handler to be called when all Ajax requests have completed. This is an Ajax Event.",
+                            "value": ".ajaxStop()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/ajaxSuccess/",
+                            "tooltlp": "Attach a function to be executed whenever an Ajax request completes successfully. This is an Ajax Event.",
+                            "value": ".ajaxSuccess()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Helper Functions",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/jQuery.param/",
+                            "tooltlp": "Create a serialized representation of an array or object, suitable for use in a URL query string or Ajax request.",
+                            "value": "jQuery.param()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/serialize/",
+                            "tooltlp": "Encode a set of form elements as a string for submission.",
+                            "value": ".serialize()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/serializeArray/",
+                            "tooltlp": "Encode a set of form elements as an array of names and values.",
+                            "value": ".serializeArray()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Low-Level Interface",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/jQuery.ajax/",
+                            "tooltlp": "Perform an asynchronous HTTP (Ajax) request.",
+                            "value": "jQuery.ajax()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.ajaxSetup",
+                            "tooltlp": "Set default values for future Ajax requests.",
+                            "value": "jQuery.ajaxSetup()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Shorthand Methods",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/jQuery.get/",
+                            "tooltlp": "Load data from the server using a HTTP GET request.",
+                            "value": "jQuery.get()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.getJSON/",
+                            "tooltlp": "Load JSON-encoded data from the server using a GET HTTP request.",
+                            "value": "jQuery.getJSON()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.getScript/",
+                            "tooltlp": "Load a JavaScript file from the server using a GET HTTP request, then execute it.",
+                            "value": "jQuery.getScript()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/load/",
+                            "tooltlp": "Load data from the server and place the returned HTML into the matched element.",
+                            "value": ".load()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.post/",
+                            "tooltlp": "Load data from the server using a HTTP POST request.",
+                            "value": "jQuery.post()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Core",
+            "items": [
+                {
+                    "subject": "jQuery Object",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/jQuery/",
+                            "tooltlp": "Accepts a string containing a CSS selector which is then used to match a set of elements.",
+                            "value": "jQuery()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.noConflict/",
+                            "tooltlp": "Relinquish jQuery's control of the $ variable.",
+                            "value": "jQuery.noConflict()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.sub/",
+                            "tooltlp": "Creates a new copy of jQuery whose properties and methods can be modified without affecting the original jQuery object.",
+                            "value": "jQuery.sub()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.when/",
+                            "tooltlp": "Provides a way to execute callback functions based on one or more objects, usually Deferred objects that represent asynchronous events.",
+                            "value": "jQuery.when()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "DOM Element Methods",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/get/",
+                            "tooltlp": "Retrieve the DOM elements matched by the jQuery object.",
+                            "value": ".get()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/index/",
+                            "tooltlp": "Search for a given element from among the matched elements.",
+                            "value": ".index()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/size/",
+                            "tooltlp": "Return the number of elements in the jQuery object.",
+                            "value": ".size()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/toArray/",
+                            "tooltlp": "Retrieve all the DOM elements contained in the jQuery set, as an array.",
+                            "value": "toArray()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Internals",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/.jquery/",
+                            "tooltlp": "A string containing the jQuery version number.",
+                            "value": ".jquery"
+                        },
+                        {
+                            "link": "http://api.jquery.com/context/",
+                            "tooltlp": "The DOM node context originally passed to jQuery(); if none was passed then context will likely be the document.",
+                            "value": ".context"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.error/",
+                            "tooltlp": "Takes a string and throws an exception containing it.",
+                            "value": "jQuery.error"
+                        },
+                        {
+                            "link": "http://api.jquery.com/length/",
+                            "tooltlp": "The number of elements in the jQuery object.",
+                            "value": ".length"
+                        },
+                        {
+                            "link": "http://api.jquery.com/pushStack/",
+                            "tooltlp": "Add a collection of DOM elements onto the jQuery stack.",
+                            "value": ".pushStack()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/selector/",
+                            "tooltlp": "A selector representing selector originally passed to jQuery().",
+                            "value": ".selector"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Deferred Object",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/deferred.always/",
+                            "tooltlp": "Add handlers to be called when the Deferred object is either resolved or rejected.",
+                            "value": "deferred.always()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.done/",
+                            "tooltlp": "Add handlers to be called when the Deferred object is resolved.",
+                            "value": "deferred.done()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.fail/",
+                            "tooltlp": "Add handlers to be called when the Deferred object is rejected.",
+                            "value": "deferred.fail()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.isRejected/",
+                            "tooltlp": "Determine whether a Deferred object has been rejected.",
+                            "value": "deferred.isRejected()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.isResolved/",
+                            "tooltlp": "Determine whether a Deferred object has been resolved.",
+                            "value": "deferred.isResolved()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.notify/",
+                            "tooltlp": "Call the progressCallbacks on a Deferred object with the given args.",
+                            "value": "deferred.notify()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.notifyWith/",
+                            "tooltlp": "Call the progressCallbacks on a Deferred object with the given context and args.",
+                            "value": "deferred.notifyWith()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.pipe/",
+                            "tooltlp": "Utility method to filter and/or chain Deferreds.",
+                            "value": "deferred.pipe()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.progress/",
+                            "tooltlp": "Add handlers to be called when the Deferred object generates progress notifications.",
+                            "value": "deferred.progress()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.promise/",
+                            "tooltlp": "Return a Deferred's Promise object.",
+                            "value": "deferred.promise()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.reject/",
+                            "tooltlp": "Reject a Deferred object and call any failCallbacks with the given args.",
+                            "value": "deferred.reject()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.rejectWith/",
+                            "tooltlp": "Reject a Deferred object and call any failCallbacks with the given context and args.",
+                            "value": "deferred.rejectWith()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.resolve/",
+                            "tooltlp": "Resolve a Deferred object and call any doneCallbacks with the given args.",
+                            "value": "deferred.resolve()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.resolveWith/",
+                            "tooltlp": "Resolve a Deferred object and call any doneCallbacks with the given context and args.",
+                            "value": "deferred.resolveWith()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.state/",
+                            "tooltlp": "Determine the current state of a Deferred object.",
+                            "value": "deferred.state()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/deferred.then/",
+                            "tooltlp": "Add handlers to be called when the Deferred object is resolved or rejected.",
+                            "value": "deferred.then()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/promise/",
+                            "tooltlp": "Return a Promise object to observe when all actions of a certain type bound to the collection, queued or not, have finished.",
+                            "value": ".promise()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Callbacks Object",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/jQuery.Callbacks/",
+                            "tooltlp": "A multi-purpose callbacks list object that provides a powerful way to manage callback lists.",
+                            "value": "jQuery.Callbacks()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/callbacks.add/",
+                            "tooltlp": "Add a callback or a collection of callbacks to a callback list.",
+                            "value": "callbacks.add()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/callbacks.disable/",
+                            "tooltlp": "Disable a callback list from doing anything more.",
+                            "value": "callbacks.disable()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/callbacks.empty/",
+                            "tooltlp": "Remove all of the callbacks from a list.",
+                            "value": "callbacks.empty()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/callbacks.fire/",
+                            "tooltlp": "Call all of the callbacks with the given arguments.",
+                            "value": "callbacks.fire()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/callbacks.fired/",
+                            "tooltlp": "Determine if the callbacks have already been called at least once.",
+                            "value": "callbacks.fired()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/callbacks.fireWith/",
+                            "tooltlp": "Call all callbacks in a list with the given context and arguments.",
+                            "value": "callbacks.fireWith()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/callbacks.has/",
+                            "tooltlp": "Determine whether a supplied callback is in a list.",
+                            "value": "callbacks.has()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/callbacks.lock/",
+                            "tooltlp": "Lock a callback list in its current state.",
+                            "value": "callbacks.lock()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/callbacks.locked/",
+                            "tooltlp": "Determine if the callbacks list has been locked.",
+                            "value": "callbacks.locked()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/callbacks.remove/",
+                            "tooltlp": "Remove a callback or a collection of callbacks from a callback list.",
+                            "value": "callbacks.remove()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Utilities",
+            "items": [
+                {
+                    "subject": "Utilities",
+                    "list": [
+                        {
+                            "link": "http://api.jquery.com/jQuery.browser/",
+                            "tooltlp": "Contains flags for the useragent, read from navigator.userAgent. We recommend against using this property; please try to use feature detection instead (see jQuery.support). jQuery.browser may be moved to a plugin in a future release of jQuery.",
+                            "value": "jQuery.browser"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.contains/",
+                            "tooltlp": "Check to see if a DOM node is within another DOM node.",
+                            "value": "jQuery.contains()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/each/",
+                            "tooltlp": "Iterate over a jQuery object, executing a function for each matched element.",
+                            "value": ".each()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.each/",
+                            "tooltlp": "A generic iterator function, which can be used to seamlessly iterate over both objects and arrays. Arrays and array-like objects with a length property (such as a function's arguments object) are iterated by numeric index, from 0 to length-1. Other objects are iterated via their named properties.",
+                            "value": "jQuery.each()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.extend/",
+                            "tooltlp": "Merge the contents of two or more objects together into the first object.",
+                            "value": "jQuery.extend()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.globalEval/",
+                            "tooltlp": "Execute some JavaScript code globally.",
+                            "value": "jQuery.globalEval()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.grep/",
+                            "tooltlp": "Finds the elements of an array which satisfy a filter function. The original array is not affected.",
+                            "value": "jQuery.grep()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.inArray/",
+                            "tooltlp": "Search for a specified value within an array and return its index (or -1 if not found).",
+                            "value": "jQuery.inArray()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.isArray/",
+                            "tooltlp": "Determine whether the argument is an array.",
+                            "value": "jQuery.isArray()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.isEmptyObject/",
+                            "tooltlp": "Check to see if an object is empty (contains no properties).",
+                            "value": "jQuery.isEmptyObject()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.isFunction/",
+                            "tooltlp": "Determine if the argument passed is a Javascript function object.",
+                            "value": "jQuery.isFunction()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.isNumeric/",
+                            "tooltlp": "Determines whether its argument is a number.",
+                            "value": "jQuery.isNumeric()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.isPlainObject/",
+                            "tooltlp": "Check to see if an object is a plain object (created using '{}' or 'new Object').",
+                            "value": "jQuery.isPlainObject()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.isWindow/",
+                            "tooltlp": "Determine whether the argument is a window.",
+                            "value": "jQuery.isWindow()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.isXMLDoc/",
+                            "tooltlp": "Check to see if a DOM node is within an XML document (or is an XML document).",
+                            "value": "jQuery.isXMLDoc()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.makeArray/",
+                            "tooltlp": "Convert an array-like object into a true JavaScript array.",
+                            "value": "jQuery.makeArray()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.map/",
+                            "tooltlp": "Translate all items in an array or array-like object to another array of items.",
+                            "value": "jQuery.map()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.merge/",
+                            "tooltlp": "Merge the contents of two arrays together into the first array.",
+                            "value": "jQuery.merge()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.noop/",
+                            "tooltlp": "An empty function.",
+                            "value": "jQuery.noop()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.now/",
+                            "tooltlp": "Return a number representing the current time.",
+                            "value": "jQuery.now()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.parseJSON/",
+                            "tooltlp": "Takes a well-formed JSON string and returns the resulting JavaScript object.",
+                            "value": "jQuery.parseJSON()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.parseXML/",
+                            "tooltlp": "Parses a string into an XML document.",
+                            "value": "jQuery.parseXML()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.proxy",
+                            "tooltlp": "Takes a function and returns a new one that will always have a particular context.",
+                            "value": "jQuery.proxy()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.support/",
+                            "tooltlp": "A collection of properties that represent the presence of different browser features or bugs.",
+                            "value": "jQuery.support"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.trim/",
+                            "tooltlp": "Remove the whitespace from the beginning and end of a string.",
+                            "value": "jQuery.trim()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.type/",
+                            "tooltlp": "Determine the internal JavaScript [[Class]] of an object.",
+                            "value": "jQuery.type()"
+                        },
+                        {
+                            "link": "http://api.jquery.com/jQuery.unique/",
+                            "tooltlp": "Sorts an array of DOM elements, in place, with the duplicates removed. Note that this only works on arrays of DOM elements, not strings or numbers.",
+                            "value": "jQuery.unique()"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
