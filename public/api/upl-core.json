@@ -449,12 +449,12 @@
                         {
                             "link": "https://upleat.com/wp-uidev/?page_id=124#picture",
                             "tooltlp": "Supports the HTML5 picture element poly fill function",
-                            "value": "picture"
+                            "value": "<picture>"
                         },
                         {
                             "link": "https://upleat.com/wp-uidev/?page_id=124#template",
                             "tooltlp": "Supports HTML5 template element poly fill",
-                            "value": "template"
+                            "value": "<template>"
                         },
                         {
                             "link": "https://upleat.com/wp-uidev/?page_id=124#matchMedia",

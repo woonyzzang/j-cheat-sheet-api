@@ -14,14 +14,19 @@
         h3 {
             font-size: unitsConverter(1.5);
             color: #f4fcbb;
+
+            /*> .anticon-tags {
+                font-size: unitsConverter(1);
+            }*/
         }
 
         a {
             display: block;
+            padding: unitsConverter(.2) unitsConverter(.4);
+            border-radius: unitsConverter(.2);
             font-size: unitsConverter(1.4);
             color: #fff;
 
-            &:focus,
             &:hover {
                 background-color: #ccc;
                 color: #000;
@@ -49,10 +54,10 @@
 <template>
     <a-card :bordered="false" v-bind:title="title" class="cardbox" :headStyle="{borderBottomColor: 'rgba(255,255,255,.45)'}" :bodyStyle="{padding:'10px'}">
         <div v-for="(item, index) in items" class="cont" v-bind:key="`item-${index}`">
-            <h3 v-bind:class="{inactive: item.inactive}">{{item.subject}}</h3>
+            <h3 v-bind:class="{inactive: item.inactive}"><!-- a-icon type="tags" theme="twoTone" twoToneColor="#f4fcbb" /--> {{item.subject}}</h3>
             <ul>
                 <li v-for="(list, index) in item.list" v-bind:key="`list-${index}`" v-bind:class="{inactive: list.inactive}">
-                    <a-tooltip placement="topLeft" v-bind:title="list.tooltlp" arrowPointAtCenter>
+                    <a-tooltip placement="topLeft" arrowPointAtCenter v-bind:title="list.tooltlp">
                         <a
                             v-bind:href="(!list.inactive) ? list.link : null"
                             v-bind:rel="(list.link) ? 'noopener' : null"
@@ -71,12 +76,13 @@
 <script>
 // import EventBus from '../EventBus';
 import Vue from 'vue';
-import { Card, Tooltip } from 'ant-design-vue';
+import { Card, Icon, Tooltip } from 'ant-design-vue';
 
 import 'ant-design-vue/lib/card/style/index.css';
 import 'ant-design-vue/lib/tooltip/style/index.css';
 
 Vue.use(Card);
+Vue.use(Icon);
 Vue.use(Tooltip);
 
 export default {

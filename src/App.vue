@@ -3,6 +3,7 @@
 @import './scss/dependency/mixin';
 
 .ant-layout {
+    /*min-width: 1400px;*/
     /*background: #30343d url('assets/bg_pattern.jpg');*/
     background-color: transparent;
 }
@@ -11,6 +12,7 @@
     position: fixed;
     z-index: 1;
     width: 100%;
+    padding: 0 unitsConverter(4);
 
     > h1 {
         float: left;
@@ -32,8 +34,8 @@
     .ant-input-search {
         position: absolute;
         top: unitsConverter(1.2);
-        right: unitsConverter(5);
-        width: unitsConverter(20);
+        right: unitsConverter(4);
+        width: auto;
     }
 }
 
@@ -52,10 +54,14 @@
     <a-layout>
         <a-layout-header>
             <h1><router-link to="/" exact>J Cheat Sheet API</router-link></h1>
-            <a-menu theme="dark" mode="horizontal" :defaultSelectedKeys="['html']" v-model="selectedkey">
-                <a-menu-item key="html"><router-link v-bind:to="'/sheet/html'">HTML</router-link></a-menu-item>
+            <a-menu theme="dark" mode="horizontal" :defaultSelectedKeys="['html4']" v-model="selectedkey">
+                <a-menu-item key="html4"><router-link v-bind:to="'/sheet/html4'">HTML4.01</router-link></a-menu-item>
+                <a-menu-item key="html5"><router-link v-bind:to="'/sheet/html5'">HTML5</router-link></a-menu-item>
                 <a-menu-item key="css"><router-link v-bind:to="'/sheet/css'">CSS</router-link></a-menu-item>
+                <a-menu-item key="scss"><router-link v-bind:to="'/sheet/scss'">SCSS</router-link></a-menu-item>
+                <a-menu-item key="less"><router-link v-bind:to="'/sheet/less'">LESS</router-link></a-menu-item>
                 <a-menu-item key="html-dom"><router-link v-bind:to="'/sheet/html-dom'">DOM</router-link></a-menu-item>
+                <a-menu-item key="svg"><router-link v-bind:to="'/sheet/svg'">SVG</router-link></a-menu-item>
                 <a-menu-item key="javascript"><router-link v-bind:to="'/sheet/javascript'">JavaScript</router-link></a-menu-item>
                 <a-menu-item key="jquery"><router-link v-bind:to="'/sheet/jquery'">jQuery</router-link></a-menu-item>
                 <a-menu-item key="lodash"><router-link v-bind:to="'/sheet/lodash'">Lodash</router-link></a-menu-item>
@@ -95,7 +101,7 @@ export default {
     },
     data () {
         return {
-            selectedkey: ['html'],
+            selectedkey: ['html4'],
             srchValue: ''
         };
     },

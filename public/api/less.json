@@ -1,0 +1,735 @@
+{
+    "cards": [
+        {
+            "title": "Syntax",
+            "items": [
+                {
+                    "subject": "Escaping",
+                    "list": [
+                        {
+                            "tooltlp": "Escapes the grammar that LESS does not recognize",
+                            "value": "~\"anything\""
+                        }
+                    ]
+                },
+                {
+                    "subject": "Comments",
+                    "list": [
+                        {
+                            "tooltlp": "comments defined using /* */ that are (usually) compiled to CSS, and comments defined using // that are not",
+                            "value": "Comment"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Namespaces and Accessors",
+                    "list": [
+                        {
+                            "tooltlp": "Namespaces are used to group the mixins under a common name",
+                            "value": "Namespaces"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Scope",
+                    "list": [
+                        {
+                            "tooltlp": "Variable scope specifies the place of the available variable. The variables will be searched from the local scope and if they are not available, then compiler will search from the parent scope",
+                            "value": "Scope"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Style-Rules",
+            "items": [
+                {
+                    "subject": "Interpolation",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#variables-feature-variable-interpolation",
+                            "tooltlp": "can put variable values anywhere in your code using \"@{}\"",
+                            "value": "@{variable}"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Parent Selectors",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#parent-selectors-feature-multiple-",
+                            "tooltlp": "It possible to repeatedly refer to a parent selector",
+                            "value": "Multiple &"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#parent-selectors-feature-changing-selector-order",
+                            "tooltlp": "It can be useful to prepend a selector to the inherited (parent) selectors",
+                            "value": "Changing Selector Order"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#parent-selectors-feature-combinatorial-explosion",
+                            "tooltlp": "& can also be used to generate every possible permutation of selectors in a comma separated list",
+                            "value": "Combinatorial Explosion"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Variables",
+            "items": [
+                {
+                    "subject": "Variable",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#variables-feature-variable-variables",
+                            "tooltlp": "define a variable's name using another variable",
+                            "value": "@variable"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Lazy Evaluation",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#variables-feature-lazy-evaluation",
+                            "tooltlp": "Variables do not have to be declared before being used",
+                            "value": "Declared"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Properties as Variables",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#variables-feature-properties-as-variables-new-",
+                            "tooltlp": "easily treat properties like variables using the $prop syntax",
+                            "value": "$prop"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Default Variables",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#variables-feature-default-variables",
+                            "tooltlp": "an ability to set a variable only if it is not already se",
+                            "value": "Reassignment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "At-Rules",
+            "items": [
+                {
+                    "subject": "Rules",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#extend-feature",
+                            "tooltlp": "\":extend()\" which merges the selector it is put on with ones that match what it references",
+                            "value": "Extend"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#merge-feature",
+                            "tooltlp": "allows for aggregating values from multiple properties into a comma or space separated list under a single property",
+                            "value": "Merge"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#mixins-feature",
+                            "tooltlp": "define a group of CSS declarations to be reused throughout the stylesheet",
+                            "value": "Mixins"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#css-guards-feature",
+                            "tooltlp": "can also be applied to css selectors, which is syntactic sugar for declaring the mixin and then calling it immediately",
+                            "value": "CSS Guards"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#import-atrules-feature",
+                            "tooltlp": "Import styles from other style sheets",
+                            "value": "@import"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#plugin-atrules-feature",
+                            "tooltlp": "Import JavaScript plugins to add Less.js functions and features",
+                            "value": "@plugin"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#maps-feature",
+                            "tooltlp": "Use rulesets and mixins as maps of values",
+                            "value": "Maps"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Detached Rulesets",
+            "items": [
+                {
+                    "subject": "Ruleset",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#detached-rulesets-feature-scoping",
+                            "tooltlp": "A detached ruleset can use all variables and mixins accessible where it is defined and where it is called",
+                            "value": "Scoping"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#detached-rulesets-feature-property-variable-accessors",
+                            "tooltlp": "can use property/variable accessors (also called \"lookups\") to select a value from variable (detached) rulesets",
+                            "value": "Property / variable accessors"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Operators",
+            "items": [
+                {
+                    "subject": "Equality",
+                    "list": [
+                        {
+                            "tooltlp": "Returns whether the two values are equal",
+                            "value": "==, !="
+                        }
+                    ]
+                },
+                {
+                    "subject": "Relational",
+                    "list": [
+                        {
+                            "tooltlp": "determine whether the numbers are greater or lesser than each other",
+                            "value": ">, <, >=, <="
+                        }
+                    ]
+                },
+                {
+                    "subject": "Numeric",
+                    "list": [
+                        {
+                            "tooltlp": "supports the standard set of mathematical operators for numbers",
+                            "value": "+, -, *, /, %"
+                        }
+                    ]
+                },
+                {
+                    "subject": "String",
+                    "list": [
+                        {
+                            "tooltlp": "supports a few operators that generate strings",
+                            "value": "\"expression\" + \"expression\""
+                        }
+                    ]
+                },
+                {
+                    "subject": "Boolean",
+                    "list": [
+                        {
+                            "tooltlp": "uses words rather than symbols for its boolean operators",
+                            "value": "true and true, true or false"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Built-in Functions",
+            "items": [
+                {
+                    "subject": "Logical Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#logical-functions-if",
+                            "tooltlp": "Returns one of two values depending on a condition",
+                            "value": "if()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#logical-functions-boolean",
+                            "tooltlp": "Evaluates to true or false",
+                            "value": "boolean"
+                        }
+                    ]
+                },
+                {
+                    "subject": "String Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#string-functions-escape",
+                            "tooltlp": "Applies \"URL-encoding\" to special characters found in the input string",
+                            "value": "escape()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#string-functions-e",
+                            "tooltlp": "String escaping",
+                            "value": "e()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#string-functions--format",
+                            "tooltlp": "The function \"%(string, arguments ...)\" formats a string",
+                            "value": "%()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#string-functions-replace",
+                            "tooltlp": "Replaces a text within a string",
+                            "value": "replace()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "List Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#list-functions-length",
+                            "tooltlp": "Returns the number of elements in a value list",
+                            "value": "escape()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#list-functions-extract",
+                            "tooltlp": "Returns the value at a specified position in a list",
+                            "value": "extract()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#list-functions-range",
+                            "tooltlp": "Generate a list spanning a range of values",
+                            "value": "range()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#list-functions-each",
+                            "tooltlp": "Bind the evaluation of a ruleset to each member of a list",
+                            "value": "each()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Math Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-ceil",
+                            "tooltlp": "Rounds up to the next highest integer",
+                            "value": "ceil()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-floor",
+                            "tooltlp": "Rounds down to the next lowest integer",
+                            "value": "floor()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-percentage",
+                            "tooltlp": "Converts a floating point number into a percentage string",
+                            "value": "percentage()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-round",
+                            "tooltlp": "Applies rounding",
+                            "value": "round()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-sqrt",
+                            "tooltlp": "Calculates square root of a number. Keeps units as they are",
+                            "value": "sqrt()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-abs",
+                            "tooltlp": "Calculates absolute value of a number. Keeps units as they are",
+                            "value": "abs()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-sin",
+                            "tooltlp": "Calculates sine function",
+                            "value": "sin()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-asin",
+                            "tooltlp": "Calculates arcsine (inverse of sine) function",
+                            "value": "asin()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-cos",
+                            "tooltlp": "Calculates cosine function",
+                            "value": "cos()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-acos",
+                            "tooltlp": "Calculates arccosine (inverse of cosine) function",
+                            "value": "acos()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-tan",
+                            "tooltlp": "Calculates tangent function",
+                            "value": "tan()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-atan",
+                            "tooltlp": "Calculates arctangent (inverse of tangent) function",
+                            "value": "atan()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-pi",
+                            "tooltlp": "Returns π (pi)",
+                            "value": "pi()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-pow",
+                            "tooltlp": "Returns the value of the first argument raised to the power of the second argument",
+                            "value": "pow()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-mod",
+                            "tooltlp": "Returns the value of the first argument modulus second argument",
+                            "value": "mod()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-min",
+                            "tooltlp": "Returns the lowest of one or more values",
+                            "value": "min()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-max",
+                            "tooltlp": "Returns the highest of one or more values",
+                            "value": "max()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Type Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-isnumber",
+                            "tooltlp": "Returns true if a value is a number, false otherwise",
+                            "value": "isnumber()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-isstring",
+                            "tooltlp": "Returns true if a value is a string, false otherwise",
+                            "value": "isstring()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-iscolor",
+                            "tooltlp": "Returns true if a value is a color, false otherwise",
+                            "value": "iscolor()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-iskeyword",
+                            "tooltlp": "Returns true if a value is a keyword, false otherwise",
+                            "value": "iskeyword()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-isurl",
+                            "tooltlp": "Returns true if a value is a url, false otherwise",
+                            "value": "isurl()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-ispixel",
+                            "tooltlp": "Returns true if a value is a number in pixels, false otherwise",
+                            "value": "ispixel()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-isem",
+                            "tooltlp": "Returns true if a value is an em value, false otherwise",
+                            "value": "isem()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-ispercentage",
+                            "tooltlp": "Returns true if a value is a percentage value, false otherwise",
+                            "value": "ispercentage()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-isunit",
+                            "tooltlp": "Returns true if a value is a number in specified units, false otherwise",
+                            "value": "isunit()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-isruleset",
+                            "tooltlp": "Returns true if a value is a ruleset, false otherwise",
+                            "value": "isruleset()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Misc Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-color",
+                            "tooltlp": "Parses a color, so a string representing a color becomes a color",
+                            "value": "color()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-image-size",
+                            "tooltlp": "Gets the image dimensions from a file",
+                            "value": "image-size()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-image-width",
+                            "tooltlp": "Gets the image width from a file",
+                            "value": "image-width()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-image-height",
+                            "tooltlp": "Gets the image height from a file",
+                            "value": "image-height()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-convert",
+                            "tooltlp": "Convert a number from one unit into another",
+                            "value": "convert()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-data-uri",
+                            "tooltlp": "Inlines a resource and falls back to \"url()\" if the ieCompat option is on and the resource is too large, or if you use the function in the browser",
+                            "value": "data-uri()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-default",
+                            "tooltlp": "Available only inside guard conditions and returns true only if no other mixin matches, false otherwise",
+                            "value": "default()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-unit",
+                            "tooltlp": "Remove or change the unit of a dimension",
+                            "value": "unit()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-get-unit",
+                            "tooltlp": "Returns units of a number",
+                            "value": "get-unit()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-svg-gradient",
+                            "tooltlp": "Generates multi-stop svg gradients",
+                            "value": "svg-gradient()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Color Definition Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-rgb",
+                            "tooltlp": "Creates an opaque color object from decimal red, green and blue (RGB) values",
+                            "value": "rgb()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-rgba",
+                            "tooltlp": "Creates a transparent color object from decimal red, green, blue and alpha (RGBA) values",
+                            "value": "rgba()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-argb",
+                            "tooltlp": "Creates a hex representation of a color in #AARRGGBB format (NOT #RRGGBBAA!)",
+                            "value": "argb()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-hsl",
+                            "tooltlp": "Creates an opaque color object from hue, saturation and lightness (HSL) values",
+                            "value": "hsl()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-hsla",
+                            "tooltlp": "Creates a transparent color object from hue, saturation, lightness and alpha (HSLA) values",
+                            "value": "hsla()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-hsv",
+                            "tooltlp": "Creates an opaque color object from hue, saturation and value (HSV) values",
+                            "value": "hsv()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-hsva",
+                            "tooltlp": "Creates a transparent color object from hue, saturation, value and alpha (HSVA) values",
+                            "value": "hsva()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Color Channel Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-hue",
+                            "tooltlp": "Extracts the hue channel of a color object in the HSL color space",
+                            "value": "hue()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-saturation",
+                            "tooltlp": "Extracts the saturation channel of a color object in the HSL color space",
+                            "value": "saturation()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-lightness",
+                            "tooltlp": "Extracts the lightness channel of a color object in the HSL color space",
+                            "value": "lightness()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-hsvhue",
+                            "tooltlp": "Extracts the hue channel of a color object in the HSV color space",
+                            "value": "hsvhue()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-hsvsaturation",
+                            "tooltlp": "Extracts the saturation channel of a color object in the HSV color space",
+                            "value": "hsvsaturation()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-hsvvalue",
+                            "tooltlp": "Extracts the value channel of a color object in the HSV color space",
+                            "value": "hsvvalue()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-red",
+                            "tooltlp": "Extracts the red channel of a color object",
+                            "value": "red()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-green",
+                            "tooltlp": "Extracts the green channel of a color object",
+                            "value": "green()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-blue",
+                            "tooltlp": "Extracts the blue channel of a color object",
+                            "value": "blue()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-alpha",
+                            "tooltlp": "Extracts the alpha channel of a color object",
+                            "value": "alpha()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-luma",
+                            "tooltlp": "Calculates the \"luma\" (perceptual brightness) of a color object",
+                            "value": "luma()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-luminance",
+                            "tooltlp": "Calculates the value of the luma without gamma correction",
+                            "value": "luminance()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Color Operation Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-saturate",
+                            "tooltlp": "Increase the saturation of a color in the HSL color space by an absolute amount",
+                            "value": "saturate()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-desaturate",
+                            "tooltlp": "Decrease the saturation of a color in the HSL color space by an absolute amount",
+                            "value": "desaturate()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-lighten",
+                            "tooltlp": "Increase the lightness of a color in the HSL color space by an absolute amount",
+                            "value": "lighten()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-darken",
+                            "tooltlp": "Decrease the lightness of a color in the HSL color space by an absolute amount",
+                            "value": "darken()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-fadein",
+                            "tooltlp": "Decrease the transparency (or increase the opacity) of a color, making it more opaque",
+                            "value": "fadein()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-fadeout",
+                            "tooltlp": "Increase the transparency (or decrease the opacity) of a color, making it less opaque",
+                            "value": "fadeout()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-fade",
+                            "tooltlp": "Set the absolute opacity of a color",
+                            "value": "fade()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-spin",
+                            "tooltlp": "Rotate the hue angle of a color in either direction",
+                            "value": "spin()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-mix",
+                            "tooltlp": "Mix two colors together in variable proportion. Opacity is included in the calculations",
+                            "value": "mix()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-tint",
+                            "tooltlp": "Mix color with white in variable proportion. It is the same as calling ",
+                            "value": "tint()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-shade",
+                            "tooltlp": "Mix color with black in variable proportion. It is the same as calling ",
+                            "value": "shade()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-greyscale",
+                            "tooltlp": "Remove all saturation from a color in the HSL color space",
+                            "value": "greyscale()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-contrast",
+                            "tooltlp": "Choose which of two colors provides the greatest contrast with another",
+                            "value": "contrast()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Color Blending Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-multiply",
+                            "tooltlp": "Multiply two colors.",
+                            "value": "multiply()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-screen",
+                            "tooltlp": "Do the opposite of \"multiply\"",
+                            "value": "screen()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-overlay",
+                            "tooltlp": "Combines the effects of both \"multiply\" and \"screen\"",
+                            "value": "overlay()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-softlight",
+                            "tooltlp": "Similar to overlay but avoids pure black resulting in pure black, and pure white resulting in pure white",
+                            "value": "softlight()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-hardlight",
+                            "tooltlp": "The same as \"overlay\" but with the color roles reversed",
+                            "value": "hardlight()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-difference",
+                            "tooltlp": "Subtracts the second color from the first color on a channel-by-channel basis",
+                            "value": "difference()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-exclusion",
+                            "tooltlp": "A similar effect to \"difference\" with lower contrast",
+                            "value": "exclusion()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-average",
+                            "tooltlp": "Compute the average of two colors on a per-channel (RGB) basis",
+                            "value": "average()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-negation",
+                            "tooltlp": "Do the opposite effect to \"difference\"",
+                            "value": "negation()"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

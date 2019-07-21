@@ -1,0 +1,857 @@
+{
+    "cards": [
+        {
+            "title": "Syntax",
+            "items": [
+                {
+                    "subject": "Statements",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#universal-statements",
+                            "tooltlp": "used anywhere in the Sass stylesheet",
+                            "value": "Universal"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#css-statements",
+                            "tooltlp": "they can be used anywhere except within a \"@function\"",
+                            "value": "CSS"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#top-level-statements",
+                            "tooltlp": "used at the top level of a stylesheet, or nested within a CSS statement at the top level",
+                            "value": "Top-Level"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#other-statements",
+                            "value": "Other"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Expressions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#literals",
+                            "tooltlp": "The simplest expressions just represent static values",
+                            "value": "Literalsv"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#operations",
+                            "tooltlp": "defines syntax for a number of operations",
+                            "value": "Operations"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#other-expressions",
+                            "value": "Other"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Comments",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/comments",
+                            "tooltlp": "comments defined using /* */ that are (usually) compiled to CSS, and comments defined using // that are not",
+                            "value": "Comment"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Special Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/special-functions#url",
+                            "tooltlp": "it can take either a quoted or unquoted URL",
+                            "value": "url()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/special-functions#calc-element-progid-and-expression",
+                            "tooltlp": "can be used to inject dynamic values",
+                            "value": "expression()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Built-in Functions",
+            "items": [
+                {
+                    "subject": "Number Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#abs",
+                            "tooltlp": "Returns the absolute value of $number",
+                            "value": "abs()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#ceil",
+                            "tooltlp": "Rounds $number up to the next highest whole number",
+                            "value": "ceil()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#comparable",
+                            "tooltlp": "Returns whether $number1 and $number2 have compatible units",
+                            "value": "comparable()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#floor",
+                            "tooltlp": "Rounds $number down to the next lowest whole number",
+                            "value": "floor()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#max",
+                            "tooltlp": "Returns the highest of one or more numbers",
+                            "value": "max()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#min",
+                            "tooltlp": "Returns the lowest of one or more numbers",
+                            "value": "min()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#percentage",
+                            "tooltlp": "Converts a unitless \"$number(usually a decimal between 0 and 1)\" to a percentage",
+                            "value": "percentage()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#random",
+                            "tooltlp": "If $limit is null, returns a random decimal number between 0 and 1",
+                            "value": "random()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#round",
+                            "tooltlp": "Rounds $number to the nearest whole number",
+                            "value": "round()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#unit",
+                            "tooltlp": "Returns a string representation of $number's units",
+                            "value": "unit()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#unitless",
+                            "tooltlp": "Returns whether $number has no units",
+                            "value": "unitless()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "String Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#quote",
+                            "tooltlp": "Returns $string as a quoted string",
+                            "value": "quote()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#str-index",
+                            "tooltlp": "Returns the first index of $substring in $string, or null if $string doesn’t contain $substring",
+                            "value": "str-index()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#str-insert",
+                            "tooltlp": "Returns a copy of $string with $insert inserted at $index",
+                            "value": "str-insert()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#str-length",
+                            "tooltlp": "Returns the number of characters in $string",
+                            "value": "str-length()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#str-slice",
+                            "tooltlp": "Returns the slice of $string starting at index $start-at and ending at index $end-at (both inclusive)",
+                            "value": "str-slice()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#to-upper-case",
+                            "tooltlp": "Returns a copy of $string with the ASCII letters converted to upper case",
+                            "value": "to-upper-case()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#to-lower-case",
+                            "tooltlp": "Returns a copy of $string with the ASCII letters converted to lower case",
+                            "value": "to-lower-case()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#unique-id",
+                            "tooltlp": "Returns a randomly-generated unquoted string that’s guaranteed to be a valid CSS identifier and to be unique within the current Sass compilation",
+                            "value": "unique-id()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#unquote",
+                            "tooltlp": "Returns $string as an unquoted string",
+                            "value": "unquote()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Color Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#adjust-color",
+                            "tooltlp": "Increases or decreases one or more properties of $color by fixed amounts",
+                            "value": "adjust-color()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#adjust-hue",
+                            "tooltlp": "Increases or decreases $color’s hue",
+                            "value": "adjust-hue()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#alpha",
+                            "tooltlp": "Returns the alpha channel of $color as a number between 0 and 1",
+                            "value": "alpha(), opacity()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#blue",
+                            "tooltlp": "Returns the blue channel of $color as a number between 0 and 255",
+                            "value": "blue()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#change-color",
+                            "tooltlp": "Sets one or more properties of a color to new values",
+                            "value": "change-color()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#complement",
+                            "tooltlp": "Returns the RGB complement of $color",
+                            "value": "complement()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#darken",
+                            "tooltlp": "Makes $color darker",
+                            "value": "darken()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#desaturate",
+                            "tooltlp": "Makes $color less saturated",
+                            "value": "desaturate()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#grayscale",
+                            "tooltlp": "Returns a gray color with the same lightness as $color",
+                            "value": "grayscale()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#green",
+                            "tooltlp": "Returns the green channel of $color as a number between 0 and 255",
+                            "value": "green()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#hsl",
+                            "tooltlp": "Returns a color with the given hue, saturation, and lightness and the given alpha channel",
+                            "value": "hsl(), hsla()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#hue",
+                            "tooltlp": "Returns the hue of $color as a number between 0deg and 255deg",
+                            "value": "hue()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#ie-hex-str",
+                            "tooltlp": "Returns an unquoted string that represents $color in the #AARRGGBB format expected by Internet Explorer’s -ms-filter property",
+                            "value": "ie-hex-str()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#invert",
+                            "tooltlp": "Returns the inverse or negative of $color",
+                            "value": "invert()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#lighten",
+                            "tooltlp": "Makes $color lighter",
+                            "value": "lighten()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#lightness",
+                            "tooltlp": "Returns the HSL lightness of $color as a number between 0% and 100%",
+                            "value": "lightness()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#mix",
+                            "tooltlp": "Returns a number that’s a mixture of $color1 and $color2",
+                            "value": "mix()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#opacify",
+                            "tooltlp": "Makes $color more opaque",
+                            "value": "opacify(), fade-in()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#red",
+                            "tooltlp": "Returns the red channel of $color as a number between 0 and 255",
+                            "value": "red()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#rgb",
+                            "tooltlp": "If $red, $green, $blue, and optionally $alpha are passed, returns a color with the given red, green, blue, and alpha channels",
+                            "value": "rgb(), rgba()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#saturate",
+                            "tooltlp": "Makes $color more saturated",
+                            "value": "saturate()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#saturation",
+                            "tooltlp": "Returns the HSL saturation of $color as a number between 0% and 100%",
+                            "value": "saturation()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#scale-color",
+                            "tooltlp": "Fluidly scales one or more properties of $color",
+                            "value": "scale-color()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#transparentize",
+                            "tooltlp": "Makes $color more transparent",
+                            "value": "transparentize(), fade-out()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "List Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#append",
+                            "tooltlp": "Returns a copy of $list with $val added to the end",
+                            "value": "append()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#index",
+                            "tooltlp": "Returns the index of $value in $list",
+                            "value": "index()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#is-bracketed",
+                            "tooltlp": "Returns whether $list has square brackets",
+                            "value": "is-bracketed()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#join",
+                            "tooltlp": "Returns a new list containing the elements of $list1 followed by the elements of $list2",
+                            "value": "join()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#length",
+                            "tooltlp": "Returns the length of $list",
+                            "value": "length()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#list-separator",
+                            "tooltlp": "Returns the name of the separator used by $list, either space or comma",
+                            "value": "list-separator()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#nth",
+                            "tooltlp": "Returns the element of $list at index $n",
+                            "value": "nth()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#set-nth",
+                            "tooltlp": "Returns a copy of $list with the element at index $n replaced with $value",
+                            "value": "set-nth()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#zip",
+                            "tooltlp": "Combines every list in $lists into a single list of sub-lists",
+                            "value": "zip()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Map Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#keywords",
+                            "tooltlp": "Returns the keywords passed to a mixin or function that takes arbitrary arguments",
+                            "value": "keywords()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#map-get",
+                            "tooltlp": "Returns the value in $map associated with $key",
+                            "value": "map-get()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#map-has-key",
+                            "tooltlp": "Returns whether $map contains a value associated with $key",
+                            "value": "map-has-key()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#map-keys",
+                            "tooltlp": "Returns a comma-separated list of all the keys in $map",
+                            "value": "map-keys()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#map-merge",
+                            "tooltlp": "Returns a new map with all the keys and values from both $map1 and $map2",
+                            "value": "map-merge()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#map-remove",
+                            "tooltlp": "Returns a copy of $map without any values associated with $keys",
+                            "value": "map-remove()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#map-values",
+                            "tooltlp": "Returns a comma-separated list of all the values in $map",
+                            "value": "map-values()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Selector Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#is-superselector",
+                            "tooltlp": "Returns whether the selector $super matches all the elements that the selector $sub matches",
+                            "value": "is-superselector()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#selector-append",
+                            "tooltlp": "Extends $selector as with the @extend rule",
+                            "value": "selector-extend()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#selector-nest",
+                            "tooltlp": "Combines $selectors as though they were nested within one another in the stylesheet",
+                            "value": "selector-nest()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#selector-parse",
+                            "tooltlp": "Returns $selector in the selector value format",
+                            "value": "selector-parse()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#selector-replace",
+                            "tooltlp": "Returns a copy of $selector with all instances of $original replaced by $replacement",
+                            "value": "selector-replace()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#selector-unify",
+                            "tooltlp": "Returns a selector that matches only elements matched by both $selector1 and $selector2",
+                            "value": "selector-unify()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#simple-selectors",
+                            "tooltlp": "Returns a list of simple selectors in $selector",
+                            "value": "simple-selectors()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Introspection Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#call",
+                            "tooltlp": "Invokes $function with $args and returns the result",
+                            "value": "call()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#content-exists",
+                            "tooltlp": "Returns whether the current mixin was passed a @content block",
+                            "value": "content-exists()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#feature-exists",
+                            "tooltlp": "Returns whether the current Sass implementation supports $feature",
+                            "value": "feature-exists()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#function-exists",
+                            "tooltlp": "Returns whether a function named $name is defined, either as a built-in function or a user-defined function",
+                            "value": "function-exists()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#get-function",
+                            "tooltlp": "Returns the function named $name",
+                            "value": "get-function()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#global-variable-exists",
+                            "tooltlp": "Returns whether a global variable named $name (without the $) exists",
+                            "value": "global-variable-exists()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#inspect",
+                            "tooltlp": "Returns a string representation of $value",
+                            "value": "inspect()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#mixin-exists",
+                            "tooltlp": "Returns whether a mixin named $name exists",
+                            "value": "mixin-exists()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#type-of",
+                            "tooltlp": "Returns the type of $value",
+                            "value": "type-of()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#variable-exists",
+                            "tooltlp": "Returns whether a variable named $name (without the $) exists in the current scope",
+                            "value": "variable-exists()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Style Rules",
+            "items": [
+                {
+                    "subject": "Property Declarations",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/style-rules/declarations#interpolation",
+                            "tooltlp": "a property’s \"#{name}\" can include interpolation, which makes it possible to dynamically generate properties as needed",
+                            "value": "Interpolation"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/style-rules/declarations#nesting",
+                            "tooltlp": "many CSS properties start with the same prefix that acts as a kind of namespace",
+                            "value": "Nesting"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/style-rules/declarations#hidden-declarations",
+                            "tooltlp": "a declaration’s value is null or an empty unquoted string, Sass won’t compile that declaration to CSS at all",
+                            "value": "Hidden Declarations"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/style-rules/declarations#custom-properties",
+                            "tooltlp": "they allow almost any text at all in their declaration values.",
+                            "value": "Custom Properties"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Parent Selector",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/style-rules/parent-selector",
+                            "tooltlp": "a special selector invented by Sass that’s used in nested selectors to refer to the outer selector",
+                            "value": "&Parent"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Placeholder Selectors",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/style-rules/placeholder-selectors",
+                            "tooltlp": "not included in the CSS output",
+                            "value": "%Placeholder"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Variables",
+            "items": [
+                {
+                    "subject": "Variable",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables",
+                            "tooltlp": "can specify a variable to be used repeatedly",
+                            "value": "$variable"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Default Values",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables#default-values",
+                            "tooltlp": "Sets the initial value of the unassigned variable",
+                            "value": "!default"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Scope",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables#scope",
+                            "tooltlp": "Completes the directional scope within the declared block \"{}\"",
+                            "value": "scope"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Shadowing",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables#shadowing",
+                            "tooltlp": "Local variables can even be declared with the same name as a global variable",
+                            "value": "Reassignment"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Global Values",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables#shadowing",
+                            "tooltlp": "the scope of the variable can be set to Global",
+                            "value": "!global"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Flow Control Scope",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables#flow-control-scope",
+                            "tooltlp": "they do not shadow variables at the same level as the flow control rule",
+                            "value": "Control Scope"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Advanced Funtions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables#advanced-variable-functions",
+                            "tooltlp": "returns whether a variable with the given name exists in the current scope",
+                            "value": "variable-exists()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "At-Rules",
+            "items": [
+                {
+                    "subject": "Rules",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/import",
+                            "tooltlp": "with the ability to import Sass and CSS stylesheets",
+                            "value": "@import"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/mixin",
+                            "tooltlp": "define a group of CSS declarations to be reused throughout the stylesheet",
+                            "value": "@mixin"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/mixin",
+                            "tooltlp": "\"@Include\" is required to use (include) a declared Mixin",
+                            "value": "@include"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/function",
+                            "tooltlp": "Functions can be defined and used",
+                            "value": "@function"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/extend",
+                            "tooltlp": "The selector's extensions are available",
+                            "value": "@extend"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/error",
+                            "tooltlp": "Prints the value of the expression with a stack trace that indicates how the current mixin or function was called",
+                            "value": "@error"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/warn",
+                            "tooltlp": "Prints the value of the expression for the user, along with a stack trace that shows how the current mixin or function was called",
+                            "value": "@warn"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/debug",
+                            "tooltlp": "Prints the value of the expression along with the file name and line number",
+                            "value": "@debug"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/at-root",
+                            "tooltlp": "The nested document is now emitted from the root",
+                            "value": "@at-root"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Flow Control",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/control/if",
+                            "tooltlp": "Returns only one of two expressions, depending on the value of the condition (true, false)",
+                            "value": "@if, @else"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/control/each",
+                            "tooltlp": "used to repeat List and Map data",
+                            "value": "@each"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/control/for",
+                            "tooltlp": "Repeats the style",
+                            "value": "@for"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/control/while",
+                            "tooltlp": "Repeat the content until the condition evaluates to false",
+                            "value": "@while"
+                        }
+                    ]
+                },
+                {
+                    "subject": "From CSS",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/css#media",
+                            "tooltlp": "SassScript expressions can be used directly in feature queries within media queries",
+                            "value": "@media"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/css#supports",
+                            "tooltlp": "allows SassScript expressions to be used in the declaration queries",
+                            "value": "@supports"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/css#keyframes",
+                            "tooltlp": "works just like a general at-rule, except that its child rules must be valid keyframe rules",
+                            "value": "@keyframes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Values",
+            "items": [
+                {
+                    "subject": "Data Types",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/values/numbers",
+                            "tooltlp": "Numbers have or do not have units",
+                            "value": "Numbers"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/strings",
+                            "tooltlp": "Characters have or do not have quotes",
+                            "value": "Strings"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/colors",
+                            "tooltlp": "Represents a color representation",
+                            "value": "Colors"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/lists",
+                            "tooltlp": "A list of values separated by spaces or \",(comma)\"",
+                            "value": "Lists"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/maps",
+                            "tooltlp": "Similar to Lists, but the value is Key: Value",
+                            "value": "Maps"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/booleans",
+                            "tooltlp": "is a logical operator",
+                            "value": "true, false"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/null",
+                            "tooltlp": "Do not compile if null is used as an attribute value",
+                            "value": "null"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/functions",
+                            "tooltlp": "function value exists, it can be called by passing it to the \"call()\" function",
+                            "value": "Functions"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Operators",
+            "items": [
+                {
+                    "subject": "Equality",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/operators/equality",
+                            "tooltlp": "Returns whether the two values are equal",
+                            "value": "==, !="
+                        }
+                    ]
+                },
+                {
+                    "subject": "Relational",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/operators/relational",
+                            "tooltlp": "determine whether the numbers are greater or lesser than each other",
+                            "value": ">, <, >=, <="
+                        }
+                    ]
+                },
+                {
+                    "subject": "Numeric",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/operators/numeric",
+                            "tooltlp": "supports the standard set of mathematical operators for numbers",
+                            "value": "+, -, *, /, %"
+                        }
+                    ]
+                },
+                {
+                    "subject": "String",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/operators/string",
+                            "tooltlp": "supports a few operators that generate strings",
+                            "value": "\"expression\" + \"expression\""
+                        }
+                    ]
+                },
+                {
+                    "subject": "Boolean",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/operators/boolean",
+                            "tooltlp": "uses words rather than symbols for its boolean operators",
+                            "value": "true and true, true or false"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Breaking Change",
+            "items": [
+                {
+                    "subject": "Extending Compound",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/breaking-changes/extend-compound",
+                            "tooltlp": "When one selector extends another, all elements that match the extender as though they also match the class being extended",
+                            "value": "Selectors"
+                        }
+                    ]
+                },
+                {
+                    "subject": "CSS Variable Syntax",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/breaking-changes/css-varsv",
+                            "tooltlp": "Parses a custom property declaration to accept a range of SassScript expressions as values",
+                            "value": "CSS Variable"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

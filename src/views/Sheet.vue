@@ -6,13 +6,20 @@
     width: unitsConverter(22);
     margin: unitsConverter(.8) unitsConverter(.8);
     border-radius: unitsConverter(.8);
+
+    /*@include media-breakpoint('tablet') {
+        width: 100%;
+    }*/
 }
 </style>
 
 <template>
-    <div v-masonry transition-duration="0.3s" item-selector=".item" fit-width="true" v-bind:style="{margin:'0 auto'}">
-        <div ref="cardItem" v-masonry-tile v-for="(card, index) in cards" v-bind:key="`card-${index}`" class="item">
-            <Cardbox v-bind="card" />
+    <div>
+        <Loader v-show="loading" />
+        <div v-show="!loading" v-masonry transition-duration="0.3s" item-selector=".item" fit-width="true" v-bind:style="{margin:'0 auto'}">
+            <div ref="cardItem" v-masonry-tile v-for="(card, index) in cards" v-bind:key="`card-${index}`" class="item">
+                <Cardbox v-bind="card" />
+            </div>
         </div>
     </div>
 </template>
@@ -21,6 +28,7 @@
 import Vue from 'vue';
 // import EventBus from '../EventBus';
 import { VueMasonryPlugin } from 'vue-masonry'; // [API] https://github.com/shershen08/vue-masonry
+import Loader from '@/components/Loader';
 import Cardbox from '@/components/Cardbox';
 
 Vue.use(VueMasonryPlugin);
@@ -28,6 +36,7 @@ Vue.use(VueMasonryPlugin);
 export default {
     name: 'Sheet',
     components: {
+        Loader,
         Cardbox
     },
     props: {
@@ -35,6 +44,7 @@ export default {
     },
     data () {
         return {
+            loading: true,
             cards: [],
             cardItemInactiveCounts: []
         };
@@ -43,6 +53,7 @@ export default {
         '$route': function (to) {
             const param = to.params.name;
 
+            this.loading = true;
             this.fetchDataLoaded(param);
             this.$emit('search-update', ''); // 부모 컴포넌트 v-on 연동 이벤트 트리거 호출, 파라미터값 전달
         },
@@ -61,7 +72,8 @@ export default {
                         }
                     });
 
-                    item.inactive = (inactiveCount > 0) ? false : true;
+                    // item.inactive = (inactiveCount > 0) ? false : true;
+                    item.inactive = (inactiveCount <= 0);
                 });
             });
         }
@@ -108,6 +120,7 @@ export default {
             this.fetchDataAPI(param)
                 .then((data) => {
                     this.cards = this.setInactiveInject(data);
+                    this.loading = false;
                 })
                 .then(() => {
                     this.setBgCard();
@@ -146,14 +159,17 @@ export default {
         setBgCard: function () {
             const charCode = window.location.pathname.substr(0).charCodeAt();
             const rgba = [
-                'rgba(251, 34, 240, .25)',
-                'rgba(214, 17, 21, .25)',
-                'rgba(14, 251, 252, .25)',
+                'rgba(250, 34, 240, .25)',
+                'rgba(214, 18, 22, .25)',
+                'rgba(16, 250, 252, .25)',
                 'rgba(158, 134, 255, .25)',
-                'rgba(60, 255, 20, .25)',
+                'rgba(60, 254, 20, .25)',
                 'rgba(44, 158, 52, .25)',
-                'rgba(225, 211, 20, .25)',
-                'rgba(100, 117, 121, .25)'
+                'rgba(225, 210, 20, .25)',
+                'rgba(70, 266, 14, .25)',
+                'rgba(100, 118, 122, .25)',
+                'rgba(96, 54, 44, .25)',
+                'rgba(204, 22, 230, .25)'
             ];
 
             this.$refs.cardItem.forEach((elem, index) => {

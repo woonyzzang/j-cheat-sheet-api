@@ -917,49 +917,134 @@
                     "subject": "Flexible Box",
                     "list": [
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-align",
-                            "tooltlp": "Specifies how to align the child elements of a box",
-                            "value": "box-align"
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex",
+                            "tooltlp": "sets how a flex item will grow or shrink to fit the space available in its flex container",
+                            "value": "flex"
                         },
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-direction",
-                            "tooltlp": "Specifies in which direction the children of a box are displayed",
-                            "value": "box-direction"
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex-basis",
+                            "tooltlp": "sets the initial main size of a flex item",
+                            "value": "flex-basis"
                         },
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-flex",
-                            "tooltlp": "Specifies whether the children of a box is flexible or inflexible in size",
-                            "value": "box-flex"
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex-direction",
+                            "tooltlp": "sets how flex items are placed in the flex container defining the main axis and the direction (normal or reversed)",
+                            "value": "flex-direction"
                         },
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-flex-group",
-                            "tooltlp": "Assigns flexible elements to flex groups",
-                            "value": "box-flex-group"
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex-flow",
+                            "tooltlp": "flex-direction and flex-wrap properties.",
+                            "value": "flex-flow"
                         },
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-lines",
-                            "tooltlp": "Specifies whether columns will go onto a new line whenever it runs out of space in the parent box",
-                            "value": "box-lines"
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex-grow",
+                            "tooltlp": "sets the flex grow factor of a flex item main size",
+                            "value": "flex-grow"
                         },
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-ordinal-group",
-                            "tooltlp": "Specifies the display order of the child elements of a box",
-                            "value": "box-ordinal-group"
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex-shrink",
+                            "tooltlp": "sets the flex shrink factor of a flex item. If the size of all flex items is larger than the flex container",
+                            "value": "flex-shrink"
                         },
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-orient",
-                            "tooltlp": "Specifies whether the children of a box should be laid out horizontally or vertically",
-                            "value": "box-orient"
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex-wrap",
+                            "tooltlp": "sets whether flex items are forced onto one line or can wrap onto multiple lines",
+                            "value": "flex-wrap"
                         },
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-pack",
-                            "tooltlp": "Specifies the horizontal position in horizontal boxes and the vertical position in vertical boxes",
-                            "value": "box-pack"
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/order",
+                            "tooltlp": "sets the order to lay out an item in a flex or grid container",
+                            "value": "order"
                         }
                     ]
                 },
                 {
-                    "subject": "Multi-column",
+                    "subject": "Grid Layout",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid",
+                            "tooltlp": "sets all of the explicit grid properties (grid-template-rows, grid-template-columns, and grid-template-areas), and all the implicit grid properties (grid-auto-rows, grid-auto-columns, and grid-auto-flow), in a single declaration",
+                            "value": "grid"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area",
+                            "tooltlp": "grid-row-start, grid-column-start, grid-row-end and grid-column-end, specifying a grid item’s size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the edges of its grid area",
+                            "value": "grid-area"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns",
+                            "tooltlp": "specifies the size of an implicitly-created grid column track",
+                            "value": "grid-auto-columns"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow",
+                            "tooltlp": "controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid",
+                            "value": "grid-auto-flow"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows",
+                            "tooltlp": "specifies the size of an implicitly-created grid row track",
+                            "value": "grid-auto-rows"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column",
+                            "tooltlp": " grid-column-start and grid-column-end specifying a grid item's size and location within the grid column by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start and inline-end edge of its grid area",
+                            "value": "grid-column"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-end",
+                            "tooltlp": "specifies a grid item’s end position within the grid column by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the block-end edge of its grid area",
+                            "value": "grid-column-end"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start",
+                            "tooltlp": "specifies a grid item’s start position within the grid column by contributing a line, a span, or nothing (automatic) to its grid placement. This start position defines the block-start edge of the grid area",
+                            "value": "grid-column-start"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/gap",
+                            "tooltlp": "sets the gaps (gutters) between rows and columns. It is a shorthand for row-gap and column-gap",
+                            "value": "grid-gap"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row",
+                            "tooltlp": "shorthand property for grid-row-start and grid-row-end specifying a grid item’s size and location within the grid row by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start and inline-end edge of its grid area",
+                            "value": "grid-row"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-end",
+                            "tooltlp": "specifies a grid item’s end position within the grid row by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-end edge of its grid area",
+                            "value": "grid-row-end"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-start",
+                            "tooltlp": "specifies a grid item’s start position within the grid row by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start edge of its grid area",
+                            "value": "grid-row-start"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template",
+                            "tooltlp": "shorthand property for defining grid columns, rows, and areas",
+                            "value": "grid-template"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas",
+                            "tooltlp": "specifies named grid areas",
+                            "value": "grid-template-areas"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns",
+                            "tooltlp": "defines the line names and track sizing functions of the grid columns",
+                            "value": "grid-template-columns"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows",
+                            "tooltlp": "defines the line names and track sizing functions of the grid rows",
+                            "value": "grid-template-rows"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Multi Column",
                     "list": [
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/CSS/column-count",
@@ -1021,11 +1106,6 @@
                 {
                     "subject": "Animation",
                     "list": [
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/@keyframes",
-                            "tooltlp": "Specifies the animation",
-                            "value": "@keyframes"
-                        },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/CSS/animation",
                             "tooltlp": "A shorthand property for all the animation properties below, except the animation-play-state property",
@@ -1144,6 +1224,72 @@
             "title": "Miscellaneous",
             "items": [
                 {
+                    "subject": "At-rule",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@charset",
+                            "tooltlp": "specifies the character encoding",
+                            "value": "@charset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@import",
+                            "tooltlp": "used to import style rules from other style sheets",
+                            "value": "@import"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace",
+                            "tooltlp": "that defines XML namespaces to be used in a CSS style sheet",
+                            "value": "@namespace"
+                        },
+
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media",
+                            "tooltlp": "can be used to apply part of a style sheet based on the result of one or more media queries",
+                            "value": "@media"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@supports",
+                            "tooltlp": "lets you specify declarations that depend on a browser's support for one or more specific CSS features",
+                            "value": "@supports"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@document",
+                            "tooltlp": "restricts the style rules contained within it based on the URL of the document",
+                            "value": "@document"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@page",
+                            "tooltlp": "used to modify some CSS properties when printing a document",
+                            "value": "@page"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face",
+                            "tooltlp": "specifies a custom font with which to display text",
+                            "value": "@font-face"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/@keyframes",
+                            "tooltlp": "Specifies the animation",
+                            "value": "@keyframes"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport",
+                            "tooltlp": "lets you configure the viewport through which the document is viewed",
+                            "value": "@viewport"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style",
+                            "tooltlp": "lets you define counter styles that are not part of the predefined set of styles",
+                            "value": "@counter-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-feature-values",
+                            "tooltlp": "lets you use a common name in the font-variant-alternates property for features activated differently in OpenType",
+                            "value": "@font-feature-values"
+                        }
+                    ]
+                },
+                {
                     "subject": "Print",
                     "list": [
                         {
@@ -1164,7 +1310,7 @@
                     ]
                 },
                 {
-                    "subject": "User-interface",
+                    "subject": "User Interface",
                     "list": [
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/CSS/appearance",

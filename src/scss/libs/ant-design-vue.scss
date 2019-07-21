@@ -1,4 +1,16 @@
-/* scope 속성으로 인해 vue 컴포넌트 파일 안에서 제어할 수 없는 스타일 정의 */
+/* [D] scope 속성으로 인해 vue 컴포넌트 파일 안에서 제어할 수 없는 스타일 정의 */
+
+.ant-layout-header {
+    .ant-input-search {
+        .ant-input {
+            width: unitsConverter(18);
+
+            &:focus {
+                width: unitsConverter(26);
+            }
+        }
+    }
+}
 
 .cardbox {
     .ant-card-head-title {

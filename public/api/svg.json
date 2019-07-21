@@ -1,0 +1,374 @@
+{
+    "cards": [
+        {
+            "title": "Graphics",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle",
+                            "tooltlp": "used to draw circles based on a center point and a radius",
+                            "value": "<circle>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/ellipse",
+                            "tooltlp": "used to create ellipses based on a center coordinate, and both their x and y radius",
+                            "value": "<ellipse>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line",
+                            "tooltlp": "used to create a line connecting two points",
+                            "value": "<line>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path",
+                            "tooltlp": "All the basic shapes can be created with a path element",
+                            "value": "<path>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polygon",
+                            "tooltlp": "defines a closed shape consisting of a set of connected straight line segments",
+                            "value": "<polygon>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polyline",
+                            "tooltlp": "creates straight lines connecting several points",
+                            "value": "<polyline>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect",
+                            "tooltlp": "defined by their position, width, and height",
+                            "value": "<rect>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/image",
+                            "tooltlp": "include images in SVG documents",
+                            "value": "<image>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use",
+                            "tooltlp": "takes nodes from within the SVG document",
+                            "value": "<use>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Text content",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text",
+                            "tooltlp": "draws a graphics element consisting of text",
+                            "value": "<text>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan",
+                            "tooltlp": "define a subtext within a \"<text>\" element or another \"<tspan>\" element",
+                            "value": "<tspan>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/textPath",
+                            "tooltlp": "To render text along the shape of a \"<path>\", enclose the text in a \"<textPath>\" element that has an href attribute with a reference to the \"<path>\" element",
+                            "value": "<textPath>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Container",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/a",
+                            "tooltlp": "creates a hyperlink to other web pages",
+                            "value": "<a>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/defs",
+                            "tooltlp": "used to store graphical objects that will be used at a later time",
+                            "value": "<defs>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g",
+                            "tooltlp": "container used to group other SVG elements",
+                            "value": "<g>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker",
+                            "tooltlp": "defines the graphic that is to be used for drawing arrowheads or polymarkers on a given \"<path>\", \"<line>\", \"<polyline>\" or \"<polygon>\" element",
+                            "value": "<marker>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/mask",
+                            "tooltlp": "defines an alpha mask for compositing the current object into the background",
+                            "value": "<mask>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/pattern",
+                            "tooltlp": "defines a graphics object which can be redrawn at repeated x and y-coordinate intervals (\"tiled\") to cover an area",
+                            "value": "<pattern>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg",
+                            "tooltlp": "container that defines a new coordinate system and viewport",
+                            "value": "<svg>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/switch",
+                            "tooltlp": "evaluates any requiredFeatures, requiredExtensions and systemLanguage attributes on its direct child elements in order, and then renders the first child where these attributes evaluate to true",
+                            "value": "<switch>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/symbol",
+                            "tooltlp": "used to define graphical template objects which can be instantiated by a \"<use>\" element",
+                            "value": "<symbol>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Descriptive",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/desc",
+                            "tooltlp": "provides an accessible, long-text description of any SVG container element or graphics element",
+                            "value": "<desc>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/metadata",
+                            "tooltlp": "adds metadata to SVG content",
+                            "value": "<metadata>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/title",
+                            "tooltlp": "provides an accessible, short-text description of any SVG container element or graphics element",
+                            "value": "<title>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Animation",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animate",
+                            "tooltlp": "used to animate an attribute or property of an element over time",
+                            "value": "<animate>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateMotion",
+                            "tooltlp": "causes a referenced element to move along a motion path",
+                            "value": "<animateMotion>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateTransform",
+                            "tooltlp": "animates a transformation attribute on its target element, thereby allowing animations to control translation, scaling, rotation, and/or skewing",
+                            "value": "<animateTransform>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/discard",
+                            "tooltlp": "The author can specify the time to delete a particular element, reducing the resources required by the SVG user agent",
+                            "value": "<discard>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/mpath",
+                            "tooltlp": "sub-element for the \"<animateMotion>\" element provides the ability to reference an external \"<path>\" element as the definition of a motion path",
+                            "value": "<mpath>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/set",
+                            "tooltlp": "provides a simple means of just setting the value of an attribute for a specified duration",
+                            "value": "<set>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Filter primitive",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feBlend",
+                            "tooltlp": "composes two objects together ruled by a certain blending mode",
+                            "value": "<feBlend>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feColorMatrix",
+                            "tooltlp": "changes colors based on a transformation matrix",
+                            "value": "<feColorMatrix>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feComponentTransfer",
+                            "tooltlp": "performs color-component-wise remapping of data for each pixel",
+                            "value": "<feComponentTransfer>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feComposite",
+                            "tooltlp": "performs the combination of two input images pixel-wise in image space using one of the Porter-Duff compositing operations: over, in, atop, out, xor, and lighter",
+                            "value": "<feComposite>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feConvolveMatrix",
+                            "tooltlp": "applies a matrix convolution filter effect",
+                            "value": "<feConvolveMatrix>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDiffuseLighting",
+                            "tooltlp": "lights an image using the alpha channel as a bump map",
+                            "value": "<feDiffuseLighting>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDisplacementMap",
+                            "tooltlp": "uses the pixel values from the image from in2 to spatially displace the image from in",
+                            "value": "<feDisplacementMap>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDropShadow",
+                            "tooltlp": "creates a drop shadow of the input image",
+                            "value": "<feDropShadow>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFlood",
+                            "tooltlp": "fills the filter subregion with the color and opacity defined by flood-color and flood-opacity",
+                            "value": "<feFlood>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncA",
+                            "tooltlp": "defines the transfer function for the alpha component of the input graphic of its parent \"<feComponentTransfer>\" element",
+                            "value": "<feFuncA>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncB",
+                            "tooltlp": "the transfer function for the blue component of the input graphic of its parent \"<feComponentTransfer>\" element",
+                            "value": "<feFuncB>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncG",
+                            "tooltlp": "defines the transfer function for the green component of the input graphic of its parent \"<feComponentTransfer>\" element",
+                            "value": "<feFuncG>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncR",
+                            "tooltlp": "defines the transfer function for the red component of the input graphic of its parent \"<feComponentTransfer>\" element",
+                            "value": "<feFuncR>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feGaussianBlur",
+                            "tooltlp": "blurs the input image by the amount specified in stdDeviation, which defines the bell-curve",
+                            "value": "<feGaussianBlur>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feImage",
+                            "tooltlp": "fetches image data from an external source and provides the pixel data as output",
+                            "value": "<feImage>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMerge",
+                            "tooltlp": "allows filter effects to be applied concurrently instead of sequentially",
+                            "value": "<feMerge>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMergeNode",
+                            "tooltlp": "Causes the parent <feMerge> to process the results of another filter",
+                            "value": "<feMergeNode>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMorphology",
+                            "tooltlp": "used to erode or dilate the input image",
+                            "value": "<feMorphology>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feOffset",
+                            "tooltlp": "allows to offset the input image",
+                            "value": "<feOffset>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feSpecularLighting",
+                            "tooltlp": "lights a source graphic using the alpha channel as a bump map",
+                            "value": "<feSpecularLighting>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTile",
+                            "tooltlp": "allows to fill a target rectangle with a repeated, tiled pattern of an input image",
+                            "value": "<feTile>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTurbulence",
+                            "tooltlp": "creates an image using the Perlin turbulence function",
+                            "value": "<feTurbulence>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Gradient",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/linearGradient",
+                            "tooltlp": "lets authors define linear gradients that can be applied to fill or stroke of graphical elements",
+                            "value": "<linearGradient>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/radialGradient",
+                            "tooltlp": "lets authors define radial gradients that can be applied to fill or stroke of graphical elements",
+                            "value": "<radialGradient>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/stop",
+                            "tooltlp": "defines a color and its position to use on a gradient",
+                            "value": "<stop>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Light source",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDistantLight",
+                            "tooltlp": "defines a distant light source that can be used within a lighting filter",
+                            "value": "<feDistantLight>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/fePointLight",
+                            "tooltlp": "defines a light source which allows to create a point light effect",
+                            "value": "<fePointLight>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feSpotLight",
+                            "tooltlp": "defines a light source which allows to create a spotlight effect",
+                            "value": "<feSpotLight>"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -518,67 +518,67 @@
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/abs",
                             "tooltlp": "Returns the absolute value of x",
-                            "value": "abs(x)"
+                            "value": "abs()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/acos",
                             "tooltlp": "Returns the arccosine of x, in radians",
-                            "value": "acos(x)"
+                            "value": "acos()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/asin",
                             "tooltlp": "Returns the arcsine of x, in radians",
-                            "value": "asin(x)"
+                            "value": "asin()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/atan",
                             "tooltlp": "Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radian",
-                            "value": "atan(x)"
+                            "value": "atan()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/atan2",
                             "tooltlp": "Returns the arctangent of the quotient of its arguments",
-                            "value": "atan2(y,x)"
+                            "value": "atan2()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/ceil",
                             "tooltlp": "Returns x, rounded upwards to the nearest integer",
-                            "value": "ceil(x)"
+                            "value": "ceil()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/cos",
                             "tooltlp": "Returns the cosine of x (x is in radians)",
-                            "value": "cos(x)"
+                            "value": "cos()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/exp",
                             "tooltlp": "Returns the value of Ex",
-                            "value": "exp(x)"
+                            "value": "exp()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/floor",
                             "tooltlp": "Returns x, rounded downwards to the nearest integer",
-                            "value": "floor(x)"
+                            "value": "floor()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/log",
                             "tooltlp": "Returns the natural logarithm (base E) of x",
-                            "value": "log(x)"
+                            "value": "log()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/max",
                             "tooltlp": "Returns the number with the highest value",
-                            "value": "max(x,y,z,...,n)"
+                            "value": "max()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/min",
                             "tooltlp": "Returns the number with the lowest value",
-                            "value": "min(x,y,z,...,n)"
+                            "value": "min()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/pow",
                             "tooltlp": "Returns the value of x to the power of y",
-                            "value": "pow(x,y)"
+                            "value": "pow()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/random",
@@ -588,22 +588,22 @@
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/round",
                             "tooltlp": "Rounds x to the nearest integer",
-                            "value": "round(x)"
+                            "value": "round()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/sin",
                             "tooltlp": "Returns the sine of x (x is in radians)",
-                            "value": "sin(x)"
+                            "value": "sin()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/sqrt",
                             "tooltlp": "Returns the square root of x",
-                            "value": "sqrt(x)"
+                            "value": "sqrt()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/tan",
                             "tooltlp": "Returns the tangent of an angle",
-                            "value": "tan(x)"
+                            "value": "tan()"
                         }
                     ]
                 },

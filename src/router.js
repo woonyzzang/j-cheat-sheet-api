@@ -11,12 +11,12 @@ export default new Router({
         {
             path: '/',
             name: 'root',
-            redirect: '/sheet/html'
+            redirect: '/sheet/html4'
         },
         {
             path: '/sheet',
             name: 'sheet',
-            component: Sheet
+            redirect: '/sheet/html4'
         },
         {
             path: '/sheet/:name',
