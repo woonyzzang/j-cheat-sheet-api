@@ -1,0 +1,2485 @@
+{
+    "cards": [
+        {
+            "title": "HTML DOM",
+            "items": [
+                {
+                    "subject": "Elements Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.accessKey",
+                            "tooltlp": "요소에 대한 액세스 키 설정 또는 반환",
+                            "value": "accessKey"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.className",
+                            "tooltlp": "요소의 클래스 속성 설정 또는 반환",
+                            "value": "className"
+                        },
+                        {
+                            "tooltlp": "페이지에 있는 콘텐츠의 보기 가능한 높이 반환(경계, 여백 또는 스크롤 막대 제외)",
+                            "value": "clientHeight"
+                        },
+                        {
+                            "tooltlp": "페이지에 있는 콘텐츠의 보기 가능한 높이 반환(경계, 여백 또는 스크롤 막대 제외)",
+                            "value": "clientWidth"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.dir",
+                            "tooltlp": "요소의 텍스트 방향 설정 또는 반환",
+                            "value": "dir"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.id",
+                            "tooltlp": "요소의 ID 설정 또는 반환",
+                            "value": "id"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.innerHTML",
+                            "tooltlp": "요소의 HTML 내용(+텍스트) 설정 또는 반환",
+                            "value": "innerHTML"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.lang",
+                            "tooltlp": "요소의 언어 코드 설정 또는 반환",
+                            "value": "lang"
+                        },
+                        {
+                            "tooltlp": "보더 및 패딩(있는 경우 패딩 포함)을 포함하되 여백은 포함하지 않는 요소의 높이 반환",
+                            "value": "offsetHeight"
+                        },
+                        {
+                            "tooltlp": "오프셋 컨테이너에 상대적인 현재 요소의 수평 오프셋 위치 반환",
+                            "value": "offsetLeft"
+                        },
+                        {
+                            "tooltlp": "요소의 컨테이너 오프셋 반환",
+                            "value": "offsetParent"
+                        },
+                        {
+                            "tooltlp": "오프셋 컨테이너에 상대적인 현재 요소의 수직 오프셋 위치 반환",
+                            "value": "offsetTop"
+                        },
+                        {
+                            "tooltlp": "경계 및 패딩(있는 경우 패딩 포함)을 포함하되 마진여백은 포함하지 않는 요소의 너비 반환",
+                            "value": "offsetWidth"
+                        },
+                        {
+                            "tooltlp": "요소의 전체 높이 반환(스크롤 막대로 숨겨진 영역 포함)",
+                            "value": "scrollHeight"
+                        },
+                        {
+                            "tooltlp": "요소의 실제 왼쪽 가장자리와 현재 뷰에 있는 왼쪽 가장자리 사이의 거리 반환",
+                            "value": "scrollLeft"
+                        },
+                        {
+                            "tooltlp": "요소의 실제 상단 가장자리와 현재 뷰에 있는 요소의 상단 가장자리 사이의 거리 반환",
+                            "value": "scrollTop"
+                        },
+                        {
+                            "tooltlp": "요소의 전체 너비 반환(스크롤 막대로 숨겨진 영역 포함)",
+                            "value": "scrollWidth"
+                        },
+                        {
+                            "tooltlp": "요소의 스타일 특성 설정 또는 반환",
+                            "value": "style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.tabIndex",
+                            "tooltlp": "요소의 탭 순서 설정 또는 반환",
+                            "value": "tabIndex"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.title",
+                            "tooltlp": "요소의 제목 특성 설정 또는 반환",
+                            "value": "title"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Elements Methods",
+                    "list": [
+                        {
+                            "tooltlp": "요소를 문자열로 변환",
+                            "value": "toString()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Document Properties",
+                    "list": [
+                        {
+                            "tooltlp": "문서의 모든 애플릿 컬렉션 반환",
+                            "value": "applets"
+                        },
+                        {
+                            "tooltlp": "문서의 본문 요소 반환",
+                            "value": "body"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.cookie",
+                            "tooltlp": "문서에 있는 모든 쿠키 이름/값 쌍 반환",
+                            "value": "cookie"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode",
+                            "tooltlp": "문서를 렌더링하는데 브라우저에서 사용하는 모드 반환",
+                            "value": "documentMode"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.domain",
+                            "tooltlp": "문서를 로드한 서버의 도메인 이름 반환",
+                            "value": "domain"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.forms",
+                            "tooltlp": "문서의 모든 양식 모음 반환",
+                            "value": "forms"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.images",
+                            "tooltlp": "문서에 있는 모든 이미지 모음 반환",
+                            "value": "images"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.lastModified",
+                            "tooltlp": "문서가 마지막으로 수정된 날짜 및 시간 반환",
+                            "value": "lastModified"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.links",
+                            "tooltlp": "문서에 있는 모든 링크 모음 반환",
+                            "value": "links"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.readyState",
+                            "tooltlp": "문서의 (로드)상태 반환",
+                            "value": "readyState"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.referrer",
+                            "tooltlp": "현재 문서를 로드한 문서의 URL 반환",
+                            "value": "referrer"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.title",
+                            "tooltlp": "문서 제목 설정 또는 반환",
+                            "value": "title"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.URL",
+                            "tooltlp": "문서의 전체 URL 반환",
+                            "value": "URL"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Document Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.close",
+                            "tooltlp": "이전에 열린 출력 스트림을 document.open()로 닫기",
+                            "value": "close()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.getElementsByName",
+                            "tooltlp": "지정된 이름을 사용하여 모든 요소 액세스",
+                            "value": "getElementsByName()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.open",
+                            "tooltlp": "document.write() 또는 document.writeln()에서 출력을 수집하기 위해 출력 스트림 열기",
+                            "value": "open()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.write",
+                            "tooltlp": "문서에 HTML 식 또는 JavaScript 코드 쓰기",
+                            "value": "write()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.writeln",
+                            "tooltlp": "write()와 동일하지만 각 문 뒤에 새 줄 문자 추가",
+                            "value": "writeln()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "HTML Object Properties",
+                    "list": [
+                        {
+                            "tooltlp": "주변 텍스트에 따라 객체의 정렬 설정 또는 반환",
+                            "value": "align"
+                        },
+                        {
+                            "tooltlp": "객체에 대한 고유한 아카이브 기능을 구현하는 데 사용할 수 있는 문자열 설정 또는 반환",
+                            "value": "archive"
+                        },
+                        {
+                            "tooltlp": "객체 주위의 보더 설정 또는 반환",
+                            "value": "border"
+                        },
+                        {
+                            "tooltlp": "컴파일된 Java 클래스가 포함된 파일의 URL 설정 또는 반환",
+                            "value": "code"
+                        },
+                        {
+                            "tooltlp": "구성 요소의 URL 설정 또는 반환",
+                            "value": "codeBase"
+                        },
+                        {
+                            "tooltlp": "객체가 사용해야 하는 애플리케이션의 MIME 유형(미디어 유형) 설정",
+                            "value": "codeType"
+                        },
+                        {
+                            "tooltlp": "객체의 데이터 위치 설정",
+                            "value": "data"
+                        },
+                        {
+                            "tooltlp": "객체가 선언에 불과할지 여부 설정(필요한 경우에만 다운로드됨)",
+                            "value": "declare"
+                        },
+                        {
+                            "tooltlp": "객체의 상위 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "tooltlp": "객체의 높이 설정 또는 반환",
+                            "value": "height"
+                        },
+                        {
+                            "tooltlp": "객체의 수평 여유 설정 또는 반환",
+                            "value": "hspace"
+                        },
+                        {
+                            "tooltlp": "객체 이름 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "tooltlp": "객체를 로드할 때 메시지 설정 또는 반환",
+                            "value": "standby"
+                        },
+                        {
+                            "tooltlp": "데이터 속성을 통해 다운로드한 데이터의 콘텐츠 유형 설정 또는 반환",
+                            "value": "type"
+                        },
+                        {
+                            "tooltlp": "이미지 맵으로 사용할 URL 설정",
+                            "value": "useMap"
+                        },
+                        {
+                            "tooltlp": "객체의 수직 여유 설정 또는 반환",
+                            "value": "vspace"
+                        },
+                        {
+                            "tooltlp": "객체의 너비 설정 또는 반환",
+                            "value": "width"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Area Object Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/area#attr-alt",
+                            "tooltlp": "영역의 alt 속성 값 설정 또는 반환",
+                            "value": "alt"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/area#attr-coords",
+                            "tooltlp": "영역의 coords 특성 값 설정 또는 반환",
+                            "value": "coords"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/area#attr-shape",
+                            "tooltlp": "영역의 shape 특성 값 설정 또는 반환",
+                            "value": "shape"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/area#attr-target",
+                            "tooltlp": "영역의 target 특성 값 설정 또는 반환",
+                            "value": "target"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Base Object Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_base_href.asp",
+                            "tooltlp": "기본 요소에서 href 속성 값을 설정하거나 반환",
+                            "value": "href"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location",
+                            "tooltlp": "href 속성 값의 고정 부분 설정 또는 반환",
+                            "value": "hash"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location",
+                            "tooltlp": "href 속성 값의 호스트명:포트 부분 설정 또는 반환",
+                            "value": "host"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location",
+                            "tooltlp": "href 속성 값의 호스트명 부분 설정 또는 반환",
+                            "value": "hostname"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location",
+                            "tooltlp": "영역의 href 속성 값 설정 또는 반환",
+                            "value": "href"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location",
+                            "tooltlp": "영역의 nohref 속성 값 설정 또는 반환",
+                            "value": "noHref"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location",
+                            "tooltlp": "href 속성 값의 경로명 부분 설정 또는 반환",
+                            "value": "pathname"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location",
+                            "tooltlp": "href 속성 값의 포트 부분 설정 또는 반환",
+                            "value": "port"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location",
+                            "tooltlp": "href 속성 값의 프로토콜 부분 설정 또는 반환",
+                            "value": "protocol"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location",
+                            "tooltlp": "href 속성 값의 쿼리 문자열 부분 설정 또는 반환",
+                            "value": "search"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Frame Object Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/iframe#attr-contentdocument",
+                            "tooltlp": "frame/iframe에서 생성된 문서 객체 반환",
+                            "value": "contentDocument"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/iframe#attr-height",
+                            "tooltlp": "iframe에서 높이 특성 값 설정 또는 반환",
+                            "value": "height"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/iframe#attr-name",
+                            "tooltlp": "frame/iframe에서 이름 특성 값 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/iframe#attr-src",
+                            "tooltlp": "frame/iframe에서 src 특성 값 설정 또는 반환",
+                            "value": "src"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/iframe#attr-width",
+                            "tooltlp": "iframe에서 폭 특성 값 설정 또는 반환",
+                            "value": "width"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Meta Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/meta#attr-content",
+                            "tooltlp": "메타 요소의 내용 속성 값 설정 또는 반환",
+                            "value": "content"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/meta#attr-http-equiv",
+                            "tooltlp": "내용 속성의 정보에 대한 HTTP 헤더 설정 또는 반환",
+                            "value": "httpEquiv"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/meta#attr-name",
+                            "tooltlp": "내용 속성의 정보 이름 설정 또는 반환",
+                            "value": "name"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "DOM Node",
+            "items": [
+                {
+                    "subject": "Node Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.attributes",
+                            "tooltlp": "노드의 특성 집합 반환",
+                            "value": "attributes"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.baseURI",
+                            "tooltlp": "노드의 베이스 URI 반환",
+                            "value": "baseURI"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.childNodes",
+                            "tooltlp": "노드에 대한 하위 노드의 NodeList 반환",
+                            "value": "childNodes"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.firstChild",
+                            "tooltlp": "노드의 첫 번째 하위 항목 반환",
+                            "value": "firstChild"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.lastChild",
+                            "tooltlp": "노드의 마지막 하위 항목 반환",
+                            "value": "lastChild"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.nextSibling",
+                            "tooltlp": "동일한 노드 트리 수준에서 다음 노드 반환",
+                            "value": "nextSibling"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.nodeName",
+                            "tooltlp": "노드의 유형에 따라 노드 이름 반환",
+                            "value": "nodeName"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.nodeType",
+                            "tooltlp": "노드 유형 반환",
+                            "value": "nodeType"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.nodeValue",
+                            "tooltlp": "노드의 유형에 따라 노드 값 설정 또는 반환",
+                            "value": "nodeValue"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.ownerDocument",
+                            "tooltlp": "노드의 루트 요소(문서 객체) 반환",
+                            "value": "ownerDocument"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.parentNode",
+                            "tooltlp": "노드의 상위 노드 반환",
+                            "value": "parentNode"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.previousSibling",
+                            "tooltlp": "동일한 노드 트리 수준에서 이전 노드 반환",
+                            "value": "previousSibling"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.textContent",
+                            "tooltlp": "노드 및 하위 항목의 텍스트 내용 설정 또는 반환",
+                            "value": "textContent"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Node Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.appendChild",
+                            "tooltlp": "새 하위 노드를 지정된 노드에 마지막 하위 노드로 추가",
+                            "value": "appendChild()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.cloneNode",
+                            "tooltlp": "노드 복제",
+                            "value": "cloneNode()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.compareDocumentPosition",
+                            "tooltlp": "두 노드의 문서 위치 비교",
+                            "value": "compareDocumentPosition()"
+                        },
+                        {
+                            "link": "Z",
+                            "tooltlp": "노드에 하위 노드가 있는 경우 true를 반환하고, 그렇지 않으면 false를 반환함",
+                            "value": "hasChildNodes()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.insertBefore",
+                            "tooltlp": "지정된 기존 하위 노드 앞에 새 하위 노드 삽입",
+                            "value": "insertBefore()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.isDefaultNamespace",
+                            "tooltlp": "지정된 네임스페이스 URI가 기본값인 경우 true를 반환하고 그렇지 않으면 false",
+                            "value": "isDefaultNamespace()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.isEqualNode",
+                            "tooltlp": "두 노드가 동일한지 확인",
+                            "value": "isEqualNode()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.isSameNode",
+                            "tooltlp": "두 노드가 동일한지 확인",
+                            "value": "isSameNode()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.lookupNamespaceURI",
+                            "tooltlp": "지정된 접두사와 일치하는 네임스페이스 URI 반환",
+                            "value": "lookupNamespaceURI()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.lookupPrefix",
+                            "tooltlp": "지정된 네임스페이스 URI와 일치하는 접두사 반환",
+                            "value": "lookupPrefix()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.normalize",
+                            "tooltlp": "인접한 텍스트 노드에 가입하고 빈 텍스트 노드 제거",
+                            "value": "normalize()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.removeChild",
+                            "tooltlp": "하위 노드 제거",
+                            "value": "removeChild()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Node.replaceChild",
+                            "tooltlp": "하위 노드 교체",
+                            "value": "replaceChild()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Node Types",
+                    "list": [
+                        {
+                            "tooltlp": "요소 표시",
+                            "value": "1. Element"
+                        },
+                        {
+                            "tooltlp": "속성 표시",
+                            "value": "2. Attr"
+                        },
+                        {
+                            "tooltlp": "요소 또는 속성의 텍스트 내용 표시",
+                            "value": "3. Text"
+                        },
+                        {
+                            "tooltlp": "문서에 CDATA 섹션 표시(파서 없이 구문)",
+                            "value": "4. CDATASection"
+                        },
+                        {
+                            "tooltlp": "엔티티 참조 표시",
+                            "value": "5. EntityReference"
+                        },
+                        {
+                            "tooltlp": "엔티티 표시",
+                            "value": "6. Entity"
+                        },
+                        {
+                            "tooltlp": "처리 명령 표시",
+                            "value": "7. ProcessingInstruction"
+                        },
+                        {
+                            "tooltlp": "주석 표시",
+                            "value": "8. Comment"
+                        },
+                        {
+                            "tooltlp": "전체 문서 표시(DOM 트리의 루트 노드)",
+                            "value": "9. Document"
+                        },
+                        {
+                            "tooltlp": "문서에 대해 정의된 엔티티에 대한 인터페이스 제공",
+                            "value": "10. DocumentType"
+                        },
+                        {
+                            "tooltlp": "문서의 일부를 저장할 수 있는 'lightweight' 문서 객체 표시",
+                            "value": "11. DocumentFragment"
+                        },
+                        {
+                            "tooltlp": "DTD에 선언된 표기법 표시",
+                            "value": "12. Notation"
+                        }
+                    ]
+                },
+                {
+                    "subject": "nodeName Returns",
+                    "list": [
+                        {
+                            "tooltlp": "요소명",
+                            "value": "Element"
+                        },
+                        {
+                            "tooltlp": "속성명",
+                            "value": "Attr"
+                        },
+                        {
+                            "tooltlp": "#text",
+                            "value": "Text"
+                        },
+                        {
+                            "tooltlp": "#cdata-section",
+                            "value": "CDATASection"
+                        },
+                        {
+                            "tooltlp": "엔티티 참조 이름",
+                            "value": "EntityReference"
+                        },
+                        {
+                            "tooltlp": "엔티티명",
+                            "value": "Entity"
+                        },
+                        {
+                            "tooltlp": "대상",
+                            "value": "ProcessingInstruction"
+                        },
+                        {
+                            "tooltlp": "#comment",
+                            "value": "Comment"
+                        },
+                        {
+                            "tooltlp": "#document",
+                            "value": "Document"
+                        },
+                        {
+                            "tooltlp": "doctype명",
+                            "value": "DocumentType"
+                        },
+                        {
+                            "tooltlp": "#document 문서",
+                            "value": "DocumentFragment"
+                        },
+                        {
+                            "tooltlp": "표기명",
+                            "value": "Notation"
+                        }
+                    ]
+                },
+                {
+                    "subject": "nodeValue Returns",
+                    "list": [
+                        {
+                            "tooltlp": "null",
+                            "value": "Element"
+                        },
+                        {
+                            "tooltlp": "속성값",
+                            "value": "Attr"
+                        },
+                        {
+                            "tooltlp": "노드 내용",
+                            "value": "Text"
+                        },
+                        {
+                            "tooltlp": "노드 내용",
+                            "value": "CDATASection"
+                        },
+                        {
+                            "tooltlp": "null",
+                            "value": "EntityReference"
+                        },
+                        {
+                            "tooltlp": "null",
+                            "value": "Entity"
+                        },
+                        {
+                            "tooltlp": "노드 내용",
+                            "value": "ProcessingInstruction"
+                        },
+                        {
+                            "tooltlp": "주석",
+                            "value": "Comment"
+                        },
+                        {
+                            "tooltlp": "null",
+                            "value": "Document"
+                        },
+                        {
+                            "tooltlp": "null",
+                            "value": "DocumentType"
+                        },
+                        {
+                            "tooltlp": "null",
+                            "value": "DocumentFragment"
+                        },
+                        {
+                            "tooltlp": "null",
+                            "value": "Notation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "DOM Events",
+            "items": [
+                {
+                    "subject": "Mouse Events",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/click",
+                            "tooltlp": "사용자가 요소를 클릭할 때 이벤트가 발생함",
+                            "value": "click"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/dblclick",
+                            "tooltlp": "사용자가 요소에서 두 번 클릭할 때 이벤트가 발생함",
+                            "value": "dblclick"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/mousedown",
+                            "tooltlp": "사용자가 요소 위로 마우스 버튼을 누를 때 이벤트가 발생함",
+                            "value": "mousedown"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/mousemove",
+                            "tooltlp": "사용자가 요소 위로 마우스 포인터를 이동할 때 이벤트가 발생함",
+                            "value": "mousemove"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/mouseover",
+                            "tooltlp": "사용자가 요소를 마우스로 가리키면 이벤트가 발생함",
+                            "value": "mouseover"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/mouseout",
+                            "tooltlp": "사용자가 요소에서 마우스 포인터를 이동할 때 이벤트가 발생함",
+                            "value": "mouseout"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/mouseup",
+                            "tooltlp": "사용자가 요소 위에 마우스 버튼을 놓으면 이벤트가 발생함",
+                            "value": "mouseup"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Keyboard Events",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/keydown",
+                            "tooltlp": "사용자가 키보드 키를 누를 때 이벤트가 발생함",
+                            "value": "keydown"
+                        },
+                        {
+                             "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/beforeinput_event",
+                             "tooltlp": "사용자가 입력폼의 요소 값을 변경하기 직전에 이벤트가 발생함",
+                             "value": "beforeinput_event"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/keyup",
+                            "tooltlp": "사용자가 키보드 키를 눌렀다 땠을 때 이벤트가 발생함",
+                            "value": "keyup"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Frame Events",
+                    "list": [
+                        {
+                            "tooltlp": "이미자가 완전히 로드되기 전에 로드되지 않을 때 이벤트가 발생함(<object>)",
+                            "value": "abort"
+                        },
+                        {
+                            "tooltlp": "이미지가 제대로 로드되지 않을 때 이벤트가 발생함",
+                            "value": "error"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/load",
+                            "tooltlp": "문서, frameset 또는 <object>가 로드되었을 때 이벤트가 발생함",
+                            "value": "load"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/resize",
+                            "tooltlp": "문서 보기의 크기를 조정할 때 이벤트가 발생함",
+                            "value": "resize"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/scroll",
+                            "tooltlp": "문서 보기를 스크롤할 때 이벤트가 발생함",
+                            "value": "scroll"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/unload",
+                            "tooltlp": "문서가 window창 또는 frame에서 제거될 때 이벤트가 발생함(<body>, <frameset>)",
+                            "value": "unload"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Form Events",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Mozilla_event_reference/blur_(event)",
+                            "tooltlp": "form요소가 초점을 잃었을 때 이벤트가 발생함",
+                            "value": "blur"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/change",
+                            "tooltlp": "폼의 내용, 선택 또는 선택한 상태가 변경되었을 때 이벤트가 발생함(<input>, <select>, <textarea>)",
+                            "value": "change"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Mozilla_event_reference/focus_(event)",
+                            "tooltlp": "요소가 초점을 맞출 때 발생(<label>, <input>, <select>, textarea>, <button>)",
+                            "value": "focus"
+                        },
+                        {
+                            "tooltlp": "리셋",
+                            "value": "reset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/select",
+                            "tooltlp": "사용자가 일부 텍스트를 선택할 때 이벤트가 발생함(<input>, <textarea>)",
+                            "value": "select"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/Mozilla_event_reference/submit",
+                            "tooltlp": "폼이 제출될 때 이벤트가 발생함",
+                            "value": "onsubmit"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Event Object Constant",
+                    "list": [
+                        {
+                            "tooltlp": "현재 이벤트는 목표 단계에 있고, 즉 이것은 이벤트 타깃에서 평가되고 있는 경우 (1)",
+                            "value": "AT_TARGET"
+                        },
+                        {
+                            "tooltlp": "현재 이벤트 단계는 버블링 단계 (2)",
+                            "value": "BUBBLING_PHASE"
+                        },
+                        {
+                            "tooltlp": "현재 이벤트 단계는 캡쳐 단계 (3)",
+                            "value": "CAPTURING_PHASE"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Event Object Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.bubbles",
+                            "tooltlp": "이벤트가 버블링 이벤트인지 여부 반환",
+                            "value": "bubbles"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.cancelable",
+                            "tooltlp": "이벤트의 기본 동작이 차단될 수 있는지 여부",
+                            "value": "cancelable"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.currentTarget",
+                            "tooltlp": "이벤트 리스너가 이벤트를 트리거한 요소 반환",
+                            "value": "currentTarget"
+                        },
+                        {
+                            "tooltlp": "현재 평가 중인 이벤트 흐름의 단계를 반환",
+                            "value": "eventPhase"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.target",
+                            "tooltlp": "이벤트를 트리거한 요소 반환",
+                            "value": "target"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.timeStamp",
+                            "tooltlp": "이벤트가 생성된 시간(초당 시간(밀리초)을 반환",
+                            "value": "timeStamp"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.type",
+                            "tooltlp": "이벤트명 반환",
+                            "value": "type"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Event Object Methods",
+                    "list": [
+                        {
+                            "tooltlp": "이벤트 유형, 이벤트가 버블을 일으킬 수 있는지 여부, 이벤트의 기본 동작을 방지할 수 있는지 여부를 지정",
+                            "value": "initEvent()"
+                        },
+                        {
+                            "tooltlp": "취소 가능한 경우 이벤트를 취소하려면, 일반적으로 이벤트의 결과로 구현된 기본 작업이 수행되지 않음을 의미",
+                            "value": "preventDefault()"
+                        },
+                        {
+                            "tooltlp": "이벤트 흐름 중에 이벤트가 더 전파되지 않도록 방지하려면",
+                            "value": "stopPropagation()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "EventTarget Object",
+                    "list": [
+                        {
+                            "tooltlp": "이벤트 대상에 이벤트 수신기 등록 허용(IE8 = attachEvent())",
+                            "value": "addEventListener()"
+                        },
+                        {
+                            "tooltlp": "구독된 이벤트 수신자에게 이벤트를 전송할 수 있음(IE8 = fireEvent())",
+                            "value": "dispatchEvent()"
+                        },
+                        {
+                            "tooltlp": "이벤트 대상의 이벤트 수신기 제거 허용(IE8 = detachEvent())",
+                            "value": "removeEventListener()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "EventListener Object",
+                    "list": [
+                        {
+                            "tooltlp": "EventListener 인터페이스가 등록된 이벤트 유형의 이벤트가 발생할 때마다 호출됨",
+                            "value": "handleEvent()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "MouseEvent/KeyboardEvent Object",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.altKey",
+                            "tooltlp": "이벤트가 트리거될 때 \"ALT\" 키를 눌렀는지 여부 반환",
+                            "value": "altKey"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.button",
+                            "tooltlp": "이벤트가 트리거될 때 클릭된 마우스 버튼 반환",
+                            "value": "button"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.clientX",
+                            "tooltlp": "이벤트가 트리거되었을 때 현재 창에 대해 마우스 포인터의 수평 좌표 반환",
+                            "value": "clientX"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.clientY",
+                            "tooltlp": "이벤트가 트리거된 경우 현재 창에 상대적인 마우스 포인터의 수직 좌표 반환",
+                            "value": "clientY"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.ctrlKey",
+                            "tooltlp": "이벤트가 트리거될 때 \"CTRL\" 키를 눌렀는지 여부 반환",
+                            "value": "ctrlKey"
+                        },
+                        {
+                            "tooltlp": "키 식별자 반환",
+                            "value": "keyIdentifier"
+                        },
+                        {
+                            "tooltlp": "키 위치 반환",
+                            "value": "keyLocation"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.metaKey",
+                            "tooltlp": "이벤트가 트리거될 때 \"meta\" 키를 눌렀는지 여부 반환",
+                            "value": "metaKey"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.relatedTarget",
+                            "tooltlp": "이벤트를 트리거한 요소와 관련된 요소 반환",
+                            "value": "relatedTarget"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.screenX",
+                            "tooltlp": "이벤트가 트리거되었을 때 화면과 관련하여 마우스 포인터의 수평 좌표 반환",
+                            "value": "screenX"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.screenY",
+                            "tooltlp": "이벤트가 트리거되었을 때 화면과 관련된 마우스 포인터의 수직 좌표 반환",
+                            "value": "screenY"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/event.shiftKey",
+                            "tooltlp": "이벤트가 트리거될 때 \"SHIFT\" 키를 눌렀는지 여부 반환",
+                            "value": "shiftKey"
+                        }
+                    ]
+                },
+                {
+                    "subject": "MouseEvent/KeyboardEvent Methods",
+                    "list": [
+                        {
+                            "tooltlp": "마우스 이벤트 객체의 값 초기화",
+                            "value": "initMouseEvent()"
+                        },
+                        {
+                            "tooltlp": "키보드 이벤트 객체의 값 초기화",
+                            "value": "initKeyboardEvent()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "DOM Input",
+            "items": [
+                {
+                    "subject": "Button Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/button#attr-disabled",
+                            "tooltlp": "버튼 사용 안 함 설정 또는 반환",
+                            "value": "disabled"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/button#attr-form",
+                            "tooltlp": "입력 버튼이 포함된 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/button#attr-name",
+                            "tooltlp": "입력 버튼의 이름 특성 값 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/button#attr-type",
+                            "tooltlp": "버튼이 어떤 폼 요소 유형인지 반환",
+                            "value": "type"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/button#attr-value",
+                            "tooltlp": "버튼의 값 속성 값 설정 또는 반환",
+                            "value": "value"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Checkbox Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/XUL/Attribute/disabled",
+                            "tooltlp": "확인란의 사용 안 함 여부를 설정하거나 반환",
+                            "value": "disabled"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/XUL/Property/checked",
+                            "tooltlp": "체크박스의 체크된 상태 설정 또는 반환",
+                            "value": "checked"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_checkbox_form.asp",
+                            "tooltlp": "확인란이 포함된 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_checkbox_name.asp",
+                            "tooltlp": "확인란의 이름 특성 값 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_checkbox_type.asp",
+                            "tooltlp": "확인란이 어떤 폼 요소 유형인지 반환",
+                            "value": "type"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_checkbox_value.asp",
+                            "tooltlp": "확인란의 값 속성 값 설정 또는 반환",
+                            "value": "value"
+                        }
+                    ]
+                },
+                {
+                    "subject": "File Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_fileupload_disabled.asp",
+                            "tooltlp": "fileUpload 버튼의 사용 안 함 여부를 설정 또는 반환",
+                            "value": "disabled"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_fileupload_accept.asp",
+                            "tooltlp": "허용된 콘텐츠 유형의 쉼표로 구분된 목록 설정 또는 반환",
+                            "value": "accept"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_fileupload_form.asp",
+                            "tooltlp": "FileUpload 객체가 포함된 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_fileupload_name.asp",
+                            "tooltlp": "FileUpload 객체의 이름 특성 값을 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_fileupload_type.asp",
+                            "tooltlp": "FileUpload 객체의 양식 요소 유형 반환",
+                            "value": "type"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_fileupload_value.asp",
+                            "tooltlp": "선택한 파일의 경로 또는 이름 반환",
+                            "value": "value"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Hidden Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_hidden_form.asp",
+                            "tooltlp": "숨겨진 입력 필드를 포함하는 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_hidden_name.asp",
+                            "tooltlp": "숨겨진 입력 필드의 이름 특성 값 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_hidden_type.asp",
+                            "tooltlp": "숨겨진 입력 필드가 어떤 폼 요소인지 반환",
+                            "value": "type"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_hidden_value.asp",
+                            "tooltlp": "숨겨진 입력 필드의 값 속성 값 설정 또는 반환",
+                            "value": "value"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Password Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_password_defaultvalue.asp",
+                            "tooltlp": "암호 필드의 기본값 설정 또는 반환",
+                            "value": "defaultValue"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_password_disabled.asp",
+                            "tooltlp": "암호 필드의 사용 안 함 여부를 설정 또는 반환",
+                            "value": "disabled"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_password_form.asp",
+                            "tooltlp": "암호 필드가 포함된 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_password_maxlength.asp",
+                            "tooltlp": "암호 필드에 허용되는 최대 문자 수 설정 또는 반환",
+                            "value": "maxlength"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_password_name.asp",
+                            "tooltlp": "암호 필드의 이름 특성 값 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_password_readonly.asp",
+                            "tooltlp": "암호 필드가 읽기 전용인지 여부 설정 또는 반환",
+                            "value": "readonly"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_password_size.asp",
+                            "tooltlp": "암호 필드의 너비 설정 또는 반환(문자 수)",
+                            "value": "size"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_password_type.asp",
+                            "tooltlp": "암호 필드의 양식 요소 유형 반환",
+                            "value": "type"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_password_value.asp",
+                            "tooltlp": "암호 필드의 값 속성 값 설정 또는 반환",
+                            "value": "value"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Password Methods",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/met_password_select.asp",
+                            "tooltlp": "암호 필드의 내용 선택",
+                            "value": "select()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Radio Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_radio_checked.asp",
+                            "tooltlp": "라디오 버튼의 점검된 상태 설정 또는 반환",
+                            "value": "checked"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_radio_defaultchecked.asp",
+                            "tooltlp": "선택한 특성의 기본값 반환",
+                            "value": "defaultChecked"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_radio_disabled.asp",
+                            "tooltlp": "라디오 버튼의 비활성화 여부 설정 또는 반환",
+                            "value": "disabled"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_radio_form.asp",
+                            "tooltlp": "라디오 버튼이 포함된 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_radio_name.asp",
+                            "tooltlp": "라디오 버튼의 이름 특성 값 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_radio_type.asp",
+                            "tooltlp": "라디오 버튼의 폼 요소 유형 반환",
+                            "value": "type"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_radio_value.asp",
+                            "tooltlp": "라디오 버튼의 값 속성 값 설정 또는 반환",
+                            "value": "value"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Reset Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_reset_disabled.asp",
+                            "tooltlp": "재설정 버튼의 사용 안 함 여부를 설정 또는 반환",
+                            "value": "disabled"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_reset_form.asp",
+                            "tooltlp": "재설정 버튼이 포함된 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_reset_name.asp",
+                            "tooltlp": "재설정 버튼의 이름 특성 값 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_reset_type.asp",
+                            "tooltlp": "재설정 버튼이 어떤 폼 요소 유형인지 반환",
+                            "value": "type"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_reset_value.asp",
+                            "tooltlp": "재설정 버튼의 값 속성 값 설정 또는 반환",
+                            "value": "value"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Submit Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_submit_disabled.asp",
+                            "tooltlp": "제출 버튼의 사용 안 함 여부를 설정 또는 반환",
+                            "value": "disabled"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_submit_form.asp",
+                            "tooltlp": "제출 버튼이 포함된 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_submit_name.asp",
+                            "tooltlp": "제출 버튼의 이름 특성 값 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_submit_type.asp",
+                            "tooltlp": "제출 버튼의 양식 요소 유형 반환",
+                            "value": "type"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_submit_value.asp",
+                            "tooltlp": "제출 버튼의 값 속성 값 설정 또는 반환",
+                            "value": "value"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Text Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_text_defaultvalue.asp",
+                            "tooltlp": "텍스트 필드의 기본값 설정 또는 반환",
+                            "value": "defaultValue"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_text_disabled.asp",
+                            "tooltlp": "텍스트 필드의 사용 안 함 여부 설정 또는 반환",
+                            "value": "disabled"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_text_form.asp",
+                            "tooltlp": "텍스트 필드가 포함된 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_text_maxlength.asp",
+                            "tooltlp": "텍스트 필드에 허용되는 최대 문자 수 설정 또는 반환",
+                            "value": "maxlength"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_text_name.asp",
+                            "tooltlp": "텍스트 필드의 이름 특성 값 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_text_readonly.asp",
+                            "tooltlp": "텍스트 필드가 읽기 전용인지 여부 설정 또는 반환",
+                            "value": "readonly"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_text_size.asp",
+                            "tooltlp": "텍스트 필드 너비 설정 또는 반환(문자 수)",
+                            "value": "size"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_text_type.asp",
+                            "tooltlp": "텍스트 필드의 양식 요소 유형 반환",
+                            "value": "type"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_text_value.asp",
+                            "tooltlp": "텍스트 필드의 값 속성 값 설정 또는 반환",
+                            "value": "value"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Text Methods",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/met_text_select.asp",
+                            "tooltlp": "텍스트 필드의 내용 선택",
+                            "value": "select()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Dom Elements",
+            "items": [
+                {
+                    "subject": "Anchor Object Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_anchor_charset.asp",
+                            "tooltlp": "링크의 charset 특성 값 설정 또는 반환",
+                            "value": "charset"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_anchor_href.asp",
+                            "tooltlp": "링크의 href 특성 값 설정 또는 반환",
+                            "value": "href"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_anchor_hreflang.asp",
+                            "tooltlp": "링크의 hreflang 특성 값 설정 또는 반환",
+                            "value": "hreflang"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_anchor_rel.asp",
+                            "tooltlp": "링크의 rel 특성 값 설정 또는 반환",
+                            "value": "rel"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_anchor_rel.asp",
+                            "tooltlp": "링크의 rev 특성 값 설정 또는 반환",
+                            "value": "rev"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_anchor_target.asp",
+                            "tooltlp": "링크의 대상 특성 값 설정 또는 반환",
+                            "value": "target"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_anchor_type.asp",
+                            "tooltlp": "링크의 유형 특성 값 설정 또는 반환",
+                            "value": "type"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Button Object Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_pushbutton_disabled.asp",
+                            "tooltlp": "버튼 사용 안 함 설정 또는 반환",
+                            "value": "disabled"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_pushbutton_form.asp",
+                            "tooltlp": "버튼이 포함된 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_pushbutton_name.asp",
+                            "tooltlp": "버튼의 이름 특성 값 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_pushbutton_type.asp",
+                            "tooltlp": "버튼 유형 설정 또는 반환",
+                            "value": "type"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_pushbutton_value.asp",
+                            "tooltlp": "버튼의 값 속성 값 설정 또는 반환",
+                            "value": "value"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Form Object Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_form_acceptcharset.asp",
+                            "tooltlp": "폼에서 accept-charset 속성 값 설정 또는 반환",
+                            "value": "acceptCharset"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_form_action.asp",
+                            "tooltlp": "폼에서 작업 속성 값 설정 또는 반환",
+                            "value": "action"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_form_enctype.asp",
+                            "tooltlp": "폼에서 enctype 속성의 값을 설정하거나 반환",
+                            "value": "enctype"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_form_length.asp",
+                            "tooltlp": "폼 요소 수 반환",
+                            "value": "length"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_form_method.asp",
+                            "tooltlp": "양식의 메서드 특성 값 설정 또는 반환",
+                            "value": "method"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_form_name.asp",
+                            "tooltlp": "폼의 이름 특성 값 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_form_target.asp",
+                            "tooltlp": "폼의 대상 특성 값 설정 또는 반환",
+                            "value": "target"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Form Object Methods",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/met_form_reset.asp",
+                            "tooltlp": "폼 리셋",
+                            "value": "reset()"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/met_form_submit.asp",
+                            "tooltlp": "폼 제출",
+                            "value": "submit()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Form Object Events",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/event_form_onreset.asp",
+                            "tooltlp": "리셋 버튼 클릭",
+                            "value": "onreset"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/event_form_onsubmit.asp",
+                            "tooltlp": "제출 버튼 클릭",
+                            "value": "onsubmit"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Image Object Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt",
+                            "tooltlp": "이미지의 alt 속성 값 설정 또는 반환",
+                            "value": "alt"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/complete",
+                            "tooltlp": "브라우저의 이미지 로딩 완료 여부 반환",
+                            "value": "complete"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/crossOrigin",
+                            "tooltlp": "이미지를 검색 할 때 사용할 CORS (Cross-Origin Resource Sharing) 설정을 지정",
+                            "value": "crossOrigin"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/currentSrc",
+                            "tooltlp": "이미지 요소에 현재 표시된 이미지의 URL 반환",
+                            "value": "currentSrc"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/decoding",
+                            "tooltlp": "이미지 디코딩 방법에 대한 브라우저의 힌트 반환",
+                            "value": "decoding"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/height",
+                            "tooltlp": "이미지의 높이 특성 값 설정 또는 반환",
+                            "value": "height"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/isMap",
+                            "tooltlp": "서버 측 이미지 맵이 사용된다는 것을 나타내는 불린값 반환",
+                            "value": "isMap"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/naturalHeight",
+                            "tooltlp": "이미지의 고유 높이 (CSS 픽셀)를 나타내는 정수 값 반환",
+                            "value": "naturalHeight"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/naturalWidth",
+                            "tooltlp": "이미지의 고유 넓이 (CSS 픽셀)를 나타내는 정수 값 반환",
+                            "value": "naturalWidth"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/referrerPolicy",
+                            "tooltlp": "리소스를 가져올 때 전송 될 referrer를 정의하는 요소의 HTML referrerpolicy속성을 반영",
+                            "value": "referrerPolicy"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/sizes",
+                            "tooltlp": "이미지의 각 미디어 조건 목록에 대한 이미지의 레이아웃 너비를 지정",
+                            "value": "sizes"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/sizes",
+                            "tooltlp": "이미지의 src 특성 값 설정 또는 반환",
+                            "value": "src"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset",
+                            "tooltlp": "주어진 상황에서 사용할 이미지 리소스를 지정하는 쉼표 (,)로 구분 된 하나 이상의 이미지 후보 문자열을 식별하는 문자열 반환",
+                            "value": "srcset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/useMap",
+                            "tooltlp": "이미지에 적용 할 클라이언트 측 이미지 맵의 이름을 제공하는 문자열 반환",
+                            "value": "useMap"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/width",
+                            "tooltlp": "영상의 폭 특성 값 설정 또는 반환",
+                            "value": "width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/x",
+                            "tooltlp": "이미지 상위 요소의 원점을 기준으로 요소의 왼쪽 테두리 가장자리의 x 좌표값 반환",
+                            "value": "x"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/y",
+                            "tooltlp": "이미지 상위 요소의 원점을 기준으로 요소의 왼쪽 테두리 가장자리의 y 좌표값 반환",
+                            "value": "y"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Image Object Events",
+                    "list": [
+                         {
+                             "link": "https://developer.mozilla.org/en-US/docs/Archive/Mozilla/XUL/Attribute/onerror",
+                             "tooltlp": "이미지를 로드할 때 오류가 발생함",
+                             "value": "onerror"
+                         },
+                         {
+                             "link": "https://developer.mozilla.org/en-US/docs/Archive/Mozilla/XUL/Attribute/image.onload",
+                             "tooltlp": "이미지 로딩 완료",
+                             "value": "onload"
+                         }
+                    ]
+                },
+                {
+                    "subject": "Link Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_link_href.asp",
+                            "tooltlp": "연결된 문서의 URL 설정 또는 반환",
+                            "value": "href"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_link_hreflang.asp",
+                            "tooltlp": "링크된 문서의 언어 코드 설정 또는 반환",
+                            "value": "hreflang"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_link_media.asp",
+                            "tooltlp": "링크 요소의 미디어 유형 설정 또는 반환",
+                            "value": "media"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_link_rel.asp",
+                            "tooltlp": "현재 문서와 연결된 문서 간의 관계 설정 또는 반환",
+                            "value": "rel"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_link_type.asp",
+                            "tooltlp": "연결된 문서의 내용 유형 설정 또는 반환",
+                            "value": "type"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Option Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_option_defaultselected.asp",
+                            "tooltlp": "선택한 속성의 기본값 반환",
+                            "value": "defaultSelected"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_option_disabled.asp",
+                            "tooltlp": "옵션 사용 안 함 설정 또는 반환",
+                            "value": "disabled"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_option_form.asp",
+                            "tooltlp": "옵션이 포함된 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_option_index.asp",
+                            "tooltlp": "드롭다운 목록에서 옵션의 인덱스 위치 설정 또는 반환",
+                            "value": "index"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_option_selected.asp",
+                            "tooltlp": "선택한 속성의 값 설정 또는 반환",
+                            "value": "selected"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_option_text.asp",
+                            "tooltlp": "옵션 요소의 텍스트 설정 또는 반환",
+                            "value": "text"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_option_value.asp",
+                            "tooltlp": "서버로 보낼 값 설정 또는 반환",
+                            "value": "value"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Select Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_select_disabled.asp",
+                            "tooltlp": "드롭다운 목록의 사용 안 함 여부 설정 또는 반환",
+                            "value": "disabled"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_select_form.asp",
+                            "tooltlp": "드롭다운 목록이 포함된 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_select_length.asp",
+                            "tooltlp": "드롭다운 목록의 옵션 수 반환",
+                            "value": "length"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_select_multiple.asp",
+                            "tooltlp": "드롭다운 목록에서 둘 이상의 항목을 선택할 수 있는지 여부 설정 또는 반환",
+                            "value": "multiple"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_select_name.asp",
+                            "tooltlp": "드롭다운 목록의 이름 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_select_selectedindex.asp",
+                            "tooltlp": "드롭다운 목록에서 선택한 옵션의 인덱스 설정 또는 반환",
+                            "value": "selectedIndex"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_select_size.asp",
+                            "tooltlp": "드롭다운 목록에서 표시되는 옵션 수 설정 또는 반환",
+                            "value": "size"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_select_type.asp",
+                            "tooltlp": "드롭다운 목록의 양식 요소 유형 반환",
+                            "value": "type"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Select Methods",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/met_select_add.asp",
+                            "tooltlp": "드롭다운 목록에 옵션 추가",
+                            "value": "add()"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/met_select_remove.asp",
+                            "tooltlp": "드롭다운 목록에서 옵션 제거",
+                            "value": "remove()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Textarea Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_textarea_cols.asp",
+                            "tooltlp": "텍스트 영역의 너비 설정 또는 반환",
+                            "value": "cols"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_textarea_defaultvalue.asp",
+                            "tooltlp": "텍스트 영역의 기본값 설정 또는 반환",
+                            "value": "defaultValue"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_textarea_disabled.asp",
+                            "tooltlp": "텍스트 영역의 사용 안 함 여부 설정 또는 반환",
+                            "value": "disabled"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_textarea_form.asp",
+                            "tooltlp": "텍스트 영역이 포함된 양식에 대한 참조 반환",
+                            "value": "form"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_textarea_name.asp",
+                            "tooltlp": "텍스트 영역의 이름 설정 또는 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_textarea_readonly.asp",
+                            "tooltlp": "텍스트 영역의 내용이 읽기 전용인지 여부 설정 또는 반환",
+                            "value": "readonly"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_textarea_rows.asp",
+                            "tooltlp": "텍스트 영역의 높이 설정 또는 반환",
+                            "value": "rows"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_textarea_type.asp",
+                            "tooltlp": "텍스트 영역이 있는 양식 요소의 유형을 반환",
+                            "value": "type"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_textarea_value.asp",
+                            "tooltlp": "텍스트 영역의 내용 설정 또는 반환",
+                            "value": "value"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Dom Style",
+            "items": [
+                {
+                    "subject": "Background Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_background.asp",
+                            "tooltlp": "하나의 선언에서 모든 배경 특성 설정 또는 반환",
+                            "value": "background"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_backgroundattachment.asp",
+                            "tooltlp": "배경 이미지의 고정 여부 또는 페이지와 함께 스크롤 여부 설정 또는 반환",
+                            "value": "backgroundAttachment"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_backgroundcolor.asp",
+                            "tooltlp": "요소의 배경색 설정 또는 반환",
+                            "value": "backgroundColor"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_backgroundimage.asp",
+                            "tooltlp": "요소의 배경 이미지 설정 또는 반환",
+                            "value": "backgroundImage"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_backgroundposition.asp",
+                            "tooltlp": "배경 이미지의 시작 위치 설정 또는 반환",
+                            "value": "backgroundPosition"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_backgroundrepeat.asp",
+                            "tooltlp": "배경 이미지를 반복(타일링)하는 방법 설정 또는 반",
+                            "value": "backgroundRepeat"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Border/Outline Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_border.asp",
+                            "tooltlp": "한 선언에서 테두리 폭, 테두리 스타일 및 테두리 색상을 설정 또는 반환",
+                            "value": "border"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderbottom.asp",
+                            "tooltlp": "하나의 선언에서 모든 directorBottom* 속성 설정 또는 반환",
+                            "value": "borderBottom"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderbottomcolor.asp",
+                            "tooltlp": "하단 테두리 색 설정 또는 반환",
+                            "value": "borderBottomColor"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderbottomstyle.asp",
+                            "tooltlp": "하단 테두리 스타일 설정 또는 반환",
+                            "value": "borderBottomStyle"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderbottomwidth.asp",
+                            "tooltlp": "하단 테두리 너비 설정 또는 반환",
+                            "value": "borderBottomWidth"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_bordercolor.asp",
+                            "tooltlp": "요소의 테두리 색 설정 또는 반환(최대 4개의 값을 가질 수 있음)",
+                            "value": "borderColor"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderleft.asp",
+                            "tooltlp": "하나의 선언에서 모든 테두리왼쪽* 속성을 하나의 선언으로 설정 또는 반환",
+                            "value": "borderLeft"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderleftcolor.asp",
+                            "tooltlp": "왼쪽 테두리 색 설정 또는 반환",
+                            "value": "borderLeftColor"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderleftstyle.asp",
+                            "tooltlp": "왼쪽 테두리 스타일 설정 또는 반환",
+                            "value": "borderLeftStyle"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderleftwidth.asp",
+                            "tooltlp": "왼쪽 테두리 너비 설정 또는 반환",
+                            "value": "borderLeftWidth"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderright.asp",
+                            "tooltlp": "모든 테두리 오른쪽* 속성을 하나의 선언으로 설정 또는 반환",
+                            "value": "borderRight"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderrightcolor.asp",
+                            "tooltlp": "오른쪽 테두리 색 설정 또는 반환",
+                            "value": "borderRightColor"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderrightstyle.asp",
+                            "tooltlp": "오른쪽 테두리 스타일 설정 또는 반환",
+                            "value": "borderRightStyle"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderrightwidth.asp",
+                            "tooltlp": "오른쪽 테두리 너비 설정 또는 반환",
+                            "value": "borderRightWidth"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderstyle.asp",
+                            "tooltlp": "요소의 경계 스타일 설정 또는 반환(최대 4개의 값을 가질 수 있음)",
+                            "value": "borderStyle"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_bordertop.asp",
+                            "tooltlp": "모든 테두리 상단* 속성을 하나의 선언으로 설정 또는 반환",
+                            "value": "borderTop"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_bordertopcolor.asp",
+                            "tooltlp": "상단 테두리 색 설정 또는 반환",
+                            "value": "borderTopColor"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_bordertopstyle.asp",
+                            "tooltlp": "단 테두리 스타일 설정 또는 반환",
+                            "value": "borderTopStyle"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_bordertopwidth.asp",
+                            "tooltlp": "상단 테두리 너비 설정 또는 반환",
+                            "value": "borderTopWidth"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderwidth.asp",
+                            "tooltlp": "요소의 테두리 너비 설정 또는 반환(최대 4개의 값을 가질 수 있음)",
+                            "value": "borderWidth"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_outline.asp",
+                            "tooltlp": "하나의 선언에서 모든 개요 속성 설정 또는 반환",
+                            "value": "outline"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_outlinecolor.asp",
+                            "tooltlp": "요소 주위에 윤곽선 색상을 설정 또는 반환",
+                            "value": "outlineColor"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_outlinestyle.asp",
+                            "tooltlp": "요소 주위에 윤곽선 스타일 설정 또는 반환",
+                            "value": "outlineStyle"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_outlinewidth.asp",
+                            "tooltlp": "요소 주위에 윤곽선 너비 설정 또는 반환",
+                            "value": "outlineWidth"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Generated Content Properties",
+                    "list": [
+                        {
+                            "tooltlp": "요소 전후에 생성된 내용 설정 또는 반환",
+                            "value": "content"
+                        },
+                        {
+                            "tooltlp": "카운터 및 증분 값 목록 설정 또는 반환",
+                            "value": "counterIncrement"
+                        },
+                        {
+                            "tooltlp": "카운터 목록 및 해당 초기 값 설정 또는 반환",
+                            "value": "counterReset"
+                        }
+                    ]
+                },
+                {
+                    "subject": "List Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_liststyle.asp",
+                            "tooltlp": "하나의 선언에서 list-style-image, list-style-position, list-style-type 설정 또는 반환",
+                            "value": "listStyle"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_liststyleimage.asp",
+                            "tooltlp": "이미지를 list-item marker로 설정 또는 반환",
+                            "value": "listStyleImage"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_liststyleposition.asp",
+                            "tooltlp": "list-item marker의 위치 설정 또는 반환",
+                            "value": "listStylePosition"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_liststyletype.asp",
+                            "tooltlp": "list-item marker 유형 설정 또는 반환",
+                            "value": "listStyleType"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Margin/Padding Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_margin.asp",
+                            "tooltlp": "요소의 여백 설정 또는 반환(최대 4개의 값을 가질 수 있음)",
+                            "value": "margin"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_marginbottom.asp",
+                            "tooltlp": "요소의 하단 여유 설정 또는 반환",
+                            "value": "marginBottom"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_marginleft.asp",
+                            "tooltlp": "요소의 왼쪽 여백 설정 또는 반환",
+                            "value": "marginLeft"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_marginright.asp",
+                            "tooltlp": "요소의 오른쪽 여백 설정 또는 반환",
+                            "value": "marginRight"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_margintop.asp",
+                            "tooltlp": "요소의 위쪽 여백 설정 또는 반환",
+                            "value": "marginTop"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_padding.asp",
+                            "tooltlp": "요소의 패딩 설정 또는 반환(최대 4개의 값을 가질 수 있음)",
+                            "value": "padding"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_paddingbottom.asp",
+                            "tooltlp": "요소의 하단 패딩 설정 또는 반환",
+                            "value": "paddingBottom"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_paddingleft.asp",
+                            "tooltlp": "요소의 왼쪽 패딩 설정 또는 반환",
+                            "value": "paddingLeft"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_paddingright.asp",
+                            "tooltlp": "요소의 오른쪽 패딩 설정 또는 반환",
+                            "value": "paddingRight"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_paddingtop.asp",
+                            "tooltlp": "요소의 상단 패딩 설정 또는 반환",
+                            "value": "paddingTop"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Misc Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_csstext.asp",
+                            "tooltlp": "스타일 선언의 내용을 문자열로 설정 또는 반환",
+                            "value": "cssText"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Positioning Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_bottom.asp",
+                            "tooltlp": "위치 요소의 하단 위치 설정 또는 반환",
+                            "value": "bottom"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_clear.asp",
+                            "tooltlp": "물체에 상대적인 요소의 위치를 설정하거나 반환함",
+                            "value": "clear"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_clip.asp",
+                            "tooltlp": "위치 요소의 볼 수 있는 부분을 설정하거나 반환",
+                            "value": "clip"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_cssfloat.asp",
+                            "tooltlp": "객체의 수평 정렬 설정 또는 반환",
+                            "value": "cssFloat"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_cursor.asp",
+                            "tooltlp": "마우스 포인터에 표시할 커서 유형 설정 또는 반환",
+                            "value": "cursor"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_display.asp",
+                            "tooltlp": "요소의 표시 유형 설정 또는 반환",
+                            "value": "display"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_height.asp",
+                            "tooltlp": "요소의 높이 설정 또는 반환",
+                            "value": "height"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_left.asp",
+                            "tooltlp": "위치 요소의 왼쪽 위치 설정 또는 반환",
+                            "value": "left"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_maxheight.asp",
+                            "tooltlp": "요소의 최대 높이 설정 또는 반환",
+                            "value": "maxHeight"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_maxwidth.asp",
+                            "tooltlp": "요소의 최대 너비 설정 또는 반환",
+                            "value": "maxWidth"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_minheight.asp",
+                            "tooltlp": "요소의 최소 높이 설정 또는 반환",
+                            "value": "minHeight"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_minwidth.asp",
+                            "tooltlp": "요소의 최소 너비 설정 또는 반환",
+                            "value": "minWidth"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_overflow.asp",
+                            "tooltlp": "요소 상자 외부에 렌더링되는 내용 설정 또는 반환",
+                            "value": "overflow"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_position.asp",
+                            "tooltlp": "요소에 사용되는 위치 지정 방법 유형 설정 또는 반환(static, relative, absolute, fixed)",
+                            "value": "position"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_right.asp",
+                            "tooltlp": "위치 요소의 올바른 위치 설정 또는 반환",
+                            "value": "right"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_top.asp",
+                            "tooltlp": "위치 요소의 상단 위치 설정 또는 반환",
+                            "value": "top"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_verticalalign.asp",
+                            "tooltlp": "요소의 내용 수직 정렬 설정 또는 반환",
+                            "value": "verticalAlign"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_visibility.asp",
+                            "tooltlp": "요소의 표시 여부 설정 또는 반환",
+                            "value": "visibility"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_width.asp",
+                            "tooltlp": "요소의 너비 설정 또는 반환",
+                            "value": "width"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_zindex.asp",
+                            "tooltlp": "배치 요소의 스택 순서 설정 또는 반환",
+                            "value": "zIndex"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Printing Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_orphans.asp",
+                            "tooltlp": "페이지 하단에 표시되어야 하는 요소의 최소 라인 수 설정 또는 반환",
+                            "value": "orphans"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_pagebreakafter.asp",
+                            "tooltlp": "요소 다음에 페이지 분리 동작 설정 또는 반환",
+                            "value": "pageBreakAfter"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_pagebreakbefore.asp",
+                            "tooltlp": "요소 앞에 페이지 분리 동작 설정 또는 반환",
+                            "value": "pageBreakBefore"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_pagebreakinside.asp",
+                            "tooltlp": "요소 내에서 페이지 분리 동작 설정 또는 반환",
+                            "value": "pageBreakInside"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_widows.asp",
+                            "tooltlp": "페이지 상단에 표시되어야 하는 요소의 최소 라인 수 설정 또는 반환",
+                            "value": "widows"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Table Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_bordercollapse.asp",
+                            "tooltlp": "테이블 테두리를 단일 테두리로 축소할지 여부 설정 또는 반환",
+                            "value": "borderCollapse"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_borderspacing.asp",
+                            "tooltlp": "테이블의 셀 간 공간 설정 또는 반환",
+                            "value": "borderSpacing"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_captionside.asp",
+                            "tooltlp": "테이블 캡션의 위치 설정 또는 반환",
+                            "value": "captionSide"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_emptycells.asp",
+                            "tooltlp": "빈 셀의 테두리 및 배경을 표시할지 여부 설정 또는 반환",
+                            "value": "emptyCells"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_tablelayout.asp",
+                            "tooltlp": "테이블 셀, 행 및 열을 배치하는 방법 설정 또는 반환",
+                            "value": "tableLayout"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Text Properties",
+                    "list": [
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_color.asp",
+                            "tooltlp": "텍스트 색 설정 또는 반환",
+                            "value": "color"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_direction.asp",
+                            "tooltlp": "텍스트 방향 설정 또는 반환",
+                            "value": "direction"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_font.asp",
+                            "tooltlp": "하나의 선언으로 font-style, font-variant, font-weight, font-size, line-height, font-family 설정 또는 반환",
+                            "value": "font"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_fontfamily.asp",
+                            "tooltlp": "텍스트의 글꼴 면 설정 또는 반환",
+                            "value": "fontFamily"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_fontsize.asp",
+                            "tooltlp": "텍스트의 글꼴 크기 설정 또는 반환",
+                            "value": "fontSize"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_fontsizeadjust.asp",
+                            "tooltlp": "글꼴 가로 세로 값 설정 또는 반환",
+                            "value": "fontSizeAdjust"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_fontstyle.asp",
+                            "tooltlp": "글꼴 스타일이 normal, italic 또는 oblique인지 설정 또는 반환",
+                            "value": "fontStyle"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_fontvariant.asp",
+                            "tooltlp": "글꼴을 작은 대문자로 표시할지 여부 설정 또는 반환",
+                            "value": "fontVariant"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_fontweight.asp",
+                            "tooltlp": "글꼴의 굵기 설정 또는 반환",
+                            "value": "fontWeight"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_letterspacing.asp",
+                            "tooltlp": "텍스트의 문자 간 공간 설정 또는 반환",
+                            "value": "letterSpacing"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_lineheight.asp",
+                            "tooltlp": "텍스트에서 선 사이의 거리 설정 또는 반환",
+                            "value": "lineHeight"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_quotes.asp",
+                            "tooltlp": "포함된 인용문에 대한 따옴표 유형 설정 또는 반환",
+                            "value": "quotes"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_textalign.asp",
+                            "tooltlp": "텍스트의 수평 정렬 설정 또는 반환",
+                            "value": "textAlign"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_textdecoration.asp",
+                            "tooltlp": "텍스트의 장식 설정 또는 반환",
+                            "value": "textDecoration"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_textindent.asp",
+                            "tooltlp": "텍스트의 첫 번째 줄에 대한 들여쓰기 설정 또는 반환",
+                            "value": "textIndent"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_textshadow.asp",
+                            "tooltlp": "텍스트의 섀도 효과 설정 또는 반환",
+                            "value": "textShadow"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_texttransform.asp",
+                            "tooltlp": "텍스트의 경우 설정 또는 반환",
+                            "value": "textTransform"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_unicodebidi.asp",
+                            "tooltlp": "동일한 문서에서 여러 언어를 지원하도록 텍스트를 재정의할지 여부를 설정 또는 반환",
+                            "value": "unicodeBidi"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_whitespace.asp",
+                            "tooltlp": "텍스트에서 탭, 줄 바꿈 및 공백 처리 방법 설정 또는 반환",
+                            "value": "whiteSpace"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/jsref/prop_style_wordspacing.asp",
+                            "tooltlp": "텍스트의 단어 간 간격 설정 또는 반환",
+                            "value": "wordSpacing"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Dom Table",
+            "items": [
+                {
+                    "subject": "Table Object Collections",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/rows",
+                            "tooltlp": "표에 있는 모든 tr 요소 집합 반환",
+                            "value": "rows"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/tBodies",
+                            "tooltlp": "표의 모든 tbody 요소 집합 반환",
+                            "value": "tBodies"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Table Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/caption",
+                            "tooltlp": "테이블 캡션 반환",
+                            "value": "caption"
+                        },
+                         {
+                             "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/cellPadding",
+                             "tooltlp": "셀 테두리와 셀 내용 사이의 공간 설정 또는 반환",
+                             "value": "cellPadding"
+                         },
+                         {
+                             "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/frame",
+                             "tooltlp": "표시할 외부 경계 설정 또는 반환",
+                             "value": "frame"
+                         },
+                         {
+                             "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/rules",
+                             "tooltlp": "표에 표시할 내경계(셀 간) 설정 또는 셀)",
+                             "value": "rules"
+                         },
+                         {
+                             "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/summary",
+                             "tooltlp": "테이블에서 데이터 설명 설정 또는 반환",
+                             "value": "summary"
+                         },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/tFoot",
+                            "tooltlp": "테이블의 tfoot 요소에 대한 참조 반환",
+                            "value": "tFoot"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/tHead",
+                            "tooltlp": "테이블의 thead 요소에 대한 참조 반환",
+                            "value": "tHead"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/tHead",
+                            "tooltlp": "테이블의 요소에 넓이값 반환",
+                            "value": "width"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Table Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/createCaption",
+                            "tooltlp": "빈 캡션 요소 작성 및 테이블에 추가",
+                            "value": "createCaption()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/createTFoot",
+                            "tooltlp": "빈 tfoot 요소를 작성하여 테이블에 추가",
+                            "value": "createTFoot()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/createTHead",
+                            "tooltlp": "빈 추가 요소 생성 및 테이블에 추가",
+                            "value": "createTHead()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/deleteCaption",
+                            "tooltlp": "테이블에서 첫 번째 캡션 요소 제거",
+                            "value": "deleteCaption()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/deleteRow",
+                            "tooltlp": "테이블에서 행 제거",
+                            "value": "deleteRow()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/deleteTFoot",
+                            "tooltlp": "테이블에서 tfoot 요소 제거",
+                            "value": "deleteTFoot()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/deleteTHead",
+                            "tooltlp": "테이블에서 thead 요소 제거",
+                            "value": "deleteTHead()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/insertRow",
+                            "tooltlp": "빈 tr 요소 작성 및 테이블에 추가",
+                            "value": "insertRow()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Th/Td Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#attr-abbr",
+                            "tooltlp": "데이터 셀 내용에 간단한 약어 버전 설정 또는 반환",
+                            "value": "abbr"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#attr-colspan",
+                            "tooltlp": "셀이 확장해야 하는 열 수 설정 또는 반환",
+                            "value": "colspan"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#attr-headers",
+                            "tooltlp": "현재 데이터 셀에 대한 헤더 셀 ID 목록 설정 또는 반환",
+                            "value": "headers"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#attr-rowspan",
+                            "tooltlp": "셀이 확장해야 하는 행 수 설정 또는 반환",
+                            "value": "rowspan"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#attr-scope",
+                            "tooltlp": "th 요소에 정의 된 셀을 정의",
+                            "value": "scope"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

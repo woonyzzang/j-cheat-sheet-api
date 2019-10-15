@@ -1,0 +1,857 @@
+{
+    "cards": [
+        {
+            "title": "Syntax",
+            "items": [
+                {
+                    "subject": "Statements",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#universal-statements",
+                            "tooltlp": "Sass 스타일시트의 아무 곳이나 사용",
+                            "value": "Universal"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#css-statements",
+                            "tooltlp": "\"@function\"을 제외한 어디에서나 사용할 수 있음 ",
+                            "value": "CSS"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#top-level-statements",
+                            "tooltlp": "스타일시트의 최상위 수준에서 사용되거나 최상위 수준에서 CSS 문 내에 내포됨",
+                            "value": "Top-Level"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#other-statements",
+                            "value": "Other"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Expressions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#literals",
+                            "tooltlp": "가장 간단한 표현식은 정적 값을 나타냄",
+                            "value": "Literalsv"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#operations",
+                            "tooltlp": "여러 작업에 대한 구문을 정의",
+                            "value": "Operations"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/structure#other-expressions",
+                            "value": "Other"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Comments",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/comments",
+                            "tooltlp": "CSS에 컴파일된 /* */를 사용하여 정의된 주석과 그렇지 않은 //를 사용하여 정의된 주석",
+                            "value": "Comment"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Special Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/special-functions#url",
+                            "tooltlp": "인용되거나 인용되지 않은 URL을 사용할 수 있음",
+                            "value": "url()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/syntax/special-functions#calc-element-progid-and-expression",
+                            "tooltlp": "동적 값을 주입하는 데 사용할 수 있음",
+                            "value": "expression()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Built-in Functions",
+            "items": [
+                {
+                    "subject": "Number Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#abs",
+                            "tooltlp": "절대값 $number 반환",
+                            "value": "abs()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#ceil",
+                            "tooltlp": "올림",
+                            "value": "ceil()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#comparable",
+                            "tooltlp": "$number1 및 $number2에 호환되는 유닛이 있는지 여부 반환",
+                            "value": "comparable()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#floor",
+                            "tooltlp": "내림",
+                            "value": "floor()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#max",
+                            "tooltlp": "하나 이상의 숫자 중 가장 높은 숫자 반환",
+                            "value": "max()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#min",
+                            "tooltlp": "하나 이상의 숫자 중 가장 낮은 숫자 반환",
+                            "value": "min()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#percentage",
+                            "tooltlp": "단위가없는 $number(보통 0과 1 사이의 10진수) 백분율로 변환",
+                            "value": "percentage()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#random",
+                            "tooltlp": "$limit가 null이면, 0과 1 사이의 임의의 진수를 반환",
+                            "value": "random()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#round",
+                            "tooltlp": "$number가장 가까운 정수로 반올림",
+                            "value": "round()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#unit",
+                            "tooltlp": "$number의 단위를 나타내는 문자열을 반환",
+                            "value": "unit()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/math#unitless",
+                            "tooltlp": "$number단위가 없는지 여부를 반환",
+                            "value": "unitless()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "String Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#quote",
+                            "tooltlp": "$string따옴표로 묶은 문자열로 반환",
+                            "value": "quote()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#str-index",
+                            "tooltlp": "$substring에 $substring의 첫 번째 인덱스 반환 또는 $substring에 $substring이 없는 경우 null 반환",
+                            "value": "str-index()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#str-insert",
+                            "tooltlp": "$index에 $insert가 삽입된 $string 사본 반환",
+                            "value": "str-insert()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#str-length",
+                            "tooltlp": "$string의 문자 수 반환",
+                            "value": "str-length()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#str-slice",
+                            "tooltlp": "$start-at 인덱스에서 시작하여 $end-at 인덱스에서 끝나는 $string 슬라이스 반환(둘 다 포함)",
+                            "value": "str-slice()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#to-upper-case",
+                            "tooltlp": "대문자로 변환된 ASCII 문자와 함께 $string 사본 반환",
+                            "value": "to-upper-case()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#to-lower-case",
+                            "tooltlp": "소문자로 변환된 ASCII 문자와 함께 $string 사본 반환",
+                            "value": "to-lower-case()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#unique-id",
+                            "tooltlp": "현재 Sass 컴파일 내에서 유효한 CSS 식별자로 보장되고 고유하도록 임의로 생성된 인용되지 않은 문자열 반환",
+                            "value": "unique-id()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/string#unquote",
+                            "tooltlp": "$string을 따옴표가 없는 문자열로 반환",
+                            "value": "unquote()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Color Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#adjust-color",
+                            "tooltlp": "$color고정 된 양 만큼 하나 이상의 속성을 증가 시키거나 감소시킴",
+                            "value": "adjust-color()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#adjust-hue",
+                            "tooltlp": "$color의 색채 증가 또는 감소",
+                            "value": "adjust-hue()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#alpha",
+                            "tooltlp": "알파 채널을 $color 0과 1 사이의 숫자로 반환",
+                            "value": "alpha(), opacity()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#blue",
+                            "tooltlp": "$color의 파란색 채널을 0에서 255 사이의 숫자로 반환",
+                            "value": "blue()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#change-color",
+                            "tooltlp": "색 속성을 하나 이상 새 값으로 설정",
+                            "value": "change-color()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#complement",
+                            "tooltlp": "$color의 RGB 보색값 찾음",
+                            "value": "complement()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#darken",
+                            "tooltlp": "$color를 어둡게 함",
+                            "value": "darken()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#desaturate",
+                            "tooltlp": "$color를 덜 포화 상태로 만듬",
+                            "value": "desaturate()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#grayscale",
+                            "tooltlp": "$color와 동일한 밝기의 회색 색상 반환",
+                            "value": "grayscale()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#green",
+                            "tooltlp": "$color의 녹색 채널을 0에서 255 사이의 숫자로 반환",
+                            "value": "green()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#hsl",
+                            "tooltlp": "지정된 색, 포화, 밝기 및 지정된 알파 채널이 있는 색상을 반환",
+                            "value": "hsl(), hsla()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#hue",
+                            "tooltlp": "$color의 색상을 0deg ~ 255deg 사이의 숫자로 반환",
+                            "value": "hue()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#ie-hex-str",
+                            "tooltlp": "nternet Explorer의 -ms 필터 속성으로 예상되는 #AARRGGBB 형식의 $color를 나타내는 지정되지 않은 문자열 반환",
+                            "value": "ie-hex-str()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#invert",
+                            "tooltlp": "$color의 역 또는 음수 반환",
+                            "value": "invert()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#lighten",
+                            "tooltlp": "$ color 더 밝게 만듬",
+                            "value": "lighten()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#lightness",
+                            "tooltlp": "0% ~ 100% 사이의 숫자로 $color의 HSL 밝기 반환",
+                            "value": "lightness()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#mix",
+                            "tooltlp": "$color1과 $color2를 혼합한 숫자 반환",
+                            "value": "mix()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#opacify",
+                            "tooltlp": "$color를 더욱 불투명하게 함",
+                            "value": "opacify(), fade-in()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#red",
+                            "tooltlp": "$color의 빨간색 채널을 0에서 255 사이의 숫자로 반환",
+                            "value": "red()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#rgb",
+                            "tooltlp": "$red, $green, $blue 및 선택적으로 $alpha를 통과하면 지정된 빨간색, 녹색, 파란색 및 알파 채널이 있는 색상을 반환",
+                            "value": "rgb(), rgba()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#saturate",
+                            "tooltlp": "$color를 더 포화 상태로 만듬",
+                            "value": "saturate()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#saturation",
+                            "tooltlp": "0% ~ 100% 사이의 숫자로 HSL 색상 포화 반환",
+                            "value": "saturation()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#scale-color",
+                            "tooltlp": "$color의 하나 이상의 속성을 유동적으로 확장",
+                            "value": "scale-color()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/color#transparentize",
+                            "tooltlp": "$color를 보다 투명하게 함",
+                            "value": "transparentize(), fade-out()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "List Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#append",
+                            "tooltlp": "끝에 $val이 추가된 $list 사본 반환",
+                            "value": "append()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#index",
+                            "tooltlp": "$list($list)의 $value($list)",
+                            "value": "index()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#is-bracketed",
+                            "tooltlp": "$list에 대괄호 포함 여부 반환",
+                            "value": "is-bracketed()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#join",
+                            "tooltlp": "$list1 요소 다음에 $list2 요소가 포함된 새 목록 반환",
+                            "value": "join()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#length",
+                            "tooltlp": "$list 길이 반환",
+                            "value": "length()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#list-separator",
+                            "tooltlp": "$list에서 사용된 구분자 이름(공백 또는 쉼표)",
+                            "value": "list-separator()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#nth",
+                            "tooltlp": "인덱스 $n에서 $list 요소 반환",
+                            "value": "nth()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#set-nth",
+                            "tooltlp": "인덱스 $n의 요소가 $value로 대체된 $list 사본 반환",
+                            "value": "set-nth()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/list#zip",
+                            "tooltlp": "$ lists의 모든 목록을 단일 하위 목록으로 결합",
+                            "value": "zip()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Map Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#keywords",
+                            "tooltlp": "임의 인수를 사용하는 믹스된 또는 함수에 전달된 키워드 반환",
+                            "value": "keywords()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#map-get",
+                            "tooltlp": "$key와 관련된 $map 값 반환",
+                            "value": "map-get()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#map-has-key",
+                            "tooltlp": "$map에 $key와 관련된 값이 포함되어 있는지 여부 반환",
+                            "value": "map-has-key()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#map-keys",
+                            "tooltlp": "$map에있는 모든 키의 쉼표로 구분 된 목록을 반환",
+                            "value": "map-keys()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#map-merge",
+                            "tooltlp": "$map1 및 $map2의 모든 키와 값이 포함 된 새 맵을 반환",
+                            "value": "map-merge()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#map-remove",
+                            "tooltlp": "$keys와 연결된 값이 없는 $map 사본 반환",
+                            "value": "map-remove()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/map#map-values",
+                            "tooltlp": "$map의 모든 값에 대한 쉼표로 구분된 목록 반환",
+                            "value": "map-values()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Selector Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#is-superselector",
+                            "tooltlp": "선택자 $sup이 선택자 $sub와 일치하는 모든 요소와 일치하는지 여부 반환",
+                            "value": "is-superselector()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#selector-append",
+                            "tooltlp": "@extend 규칙과 마찬가지로 $selector 확장",
+                            "value": "selector-extend()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#selector-nest",
+                            "tooltlp": "스타일 시트에서 $selector가 서로 중첩되어있는 것처럼 결합",
+                            "value": "selector-nest()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#selector-parse",
+                            "tooltlp": "선택 값 형식으로 $selector를 반환",
+                            "value": "selector-parse()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#selector-replace",
+                            "tooltlp": "$original의 모든 인스턴스가 $replacement로 대체 된 $selector의 사본을 반환",
+                            "value": "selector-replace()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#selector-unify",
+                            "tooltlp": "$selector1과 $selector2가 모두 일치하는 셀렉터를 반환",
+                            "value": "selector-unify()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/selector#simple-selectors",
+                            "tooltlp": "$selector의 단순 셀렉터 목록 반환",
+                            "value": "simple-selectors()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Introspection Functions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#call",
+                            "tooltlp": "$args와 함께 $function을 호출하고 결과를 반환",
+                            "value": "call()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#content-exists",
+                            "tooltlp": "현재 믹스 인에 @content 블록이 전달되었는지 여부를 반환",
+                            "value": "content-exists()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#feature-exists",
+                            "tooltlp": "현재 Sass 구현이 $feature를 지원하는지 여부 반환",
+                            "value": "feature-exists()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#function-exists",
+                            "tooltlp": "내장 함수 또는 사용자 정의 함수로 $name이라는 함수가 정의되어 있는지 여부를 리턴",
+                            "value": "function-exists()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#get-function",
+                            "tooltlp": "$name이라는 함수를 반환",
+                            "value": "get-function()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#global-variable-exists",
+                            "tooltlp": "$가없는 $name 전역 변수가 존재하는지 여부를 리턴",
+                            "value": "global-variable-exists()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#inspect",
+                            "tooltlp": "$value 문자열 표현 반환",
+                            "value": "inspect()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#mixin-exists",
+                            "tooltlp": "이름이 $name인 mixin이 있는지 여부를 리턴",
+                            "value": "mixin-exists()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#type-of",
+                            "tooltlp": "$value의 타입을 반환",
+                            "value": "type-of()"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/functions/meta#variable-exists",
+                            "tooltlp": "$가없는 $name 변수가 현재 범위에 있는지 여부를 반환",
+                            "value": "variable-exists()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Style Rules",
+            "items": [
+                {
+                    "subject": "Property Declarations",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/style-rules/declarations#interpolation",
+                            "tooltlp": "속성의 \"#{name}\"은 보간 기능을 포함할 수 있으므로 필요에 따라 동적으로 속성을 생성할 수 있음",
+                            "value": "Interpolation"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/style-rules/declarations#nesting",
+                            "tooltlp": "많은 CSS 속성은 네임스페이스의 일종으로 작용하는 동일한 접두사로 시작",
+                            "value": "Nesting"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/style-rules/declarations#hidden-declarations",
+                            "tooltlp": "선언의 값이 null이거나 인용되지 않은 빈 문자열, Sass는 해당 선언을 CSS에 전혀 컴파일하지 않음",
+                            "value": "Hidden Declarations"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/style-rules/declarations#custom-properties",
+                            "tooltlp": "그들은 그들의 선언적 가치에서 거의 모든 텍스트를 허용",
+                            "value": "Custom Properties"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Parent Selector",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/style-rules/parent-selector",
+                            "tooltlp": "중첩된 선택자에서 외부 선택자를 참조하기 위해 사용되는 Sass가 발명한 특수 셀렉터",
+                            "value": "&Parent"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Placeholder Selectors",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/style-rules/placeholder-selectors",
+                            "tooltlp": "CSS 출력에 포함되지 않음",
+                            "value": "%Placeholder"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Variables",
+            "items": [
+                {
+                    "subject": "Variable",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables",
+                            "tooltlp": "반복해서 사용할 변수를 지정할 수 있음",
+                            "value": "$variable"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Default Values",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables#default-values",
+                            "tooltlp": "할당되지 않은 변수의 초기 값 설정",
+                            "value": "!default"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Scope",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables#scope",
+                            "tooltlp": "선언된 블록 \"{}\"내에서 방향 범위 완료",
+                            "value": "scope"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Shadowing",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables#shadowing",
+                            "tooltlp": "로컬 변수는 글로벌 변수와 동일한 이름으로 선언할 수도 있음",
+                            "value": "Reassignment"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Global Values",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables#shadowing",
+                            "tooltlp": "변수의 범위를 Global로 설정할 수 있음",
+                            "value": "!global"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Flow Control Scope",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables#flow-control-scope",
+                            "tooltlp": "흐름 제어 규칙에 선언 된 변수 에는 특수한 범위 지정 규칙이 있음",
+                            "value": "Control Scope"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Advanced Funtions",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/variables#advanced-variable-functions",
+                            "tooltlp": "지정된 이름의 변수가 현재 범위에 있는지 여부 반환",
+                            "value": "variable-exists()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "At-Rules",
+            "items": [
+                {
+                    "subject": "Rules",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/import",
+                            "tooltlp": "Sass 및 CSS 스타일시트를 가져올 수 있는 기능",
+                            "value": "@import"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/mixin",
+                            "tooltlp": "스타일시트에서 재사용할 CSS 선언의 그룹을 정의",
+                            "value": "@mixin"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/mixin",
+                            "tooltlp": "\"@include\"는 선언된 Mixin을 사용(포함)하기 위해 필요",
+                            "value": "@include"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/function",
+                            "tooltlp": "기능을 정의하고 사용할 수 있음",
+                            "value": "@function"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/extend",
+                            "tooltlp": "셀렉터의 확장을 사용할 수 있음",
+                            "value": "@extend"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/error",
+                            "tooltlp": "현재 혼합 또는 함수의 호출 방식을 나타내는 스택 추적으로 표현식의 값 인쇄",
+                            "value": "@error"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/warn",
+                            "tooltlp": "현재 혼합 또는 기능이 호출된 방식을 보여주는 스택 추적과 함께 사용자에 대한 표현식 값 인쇄",
+                            "value": "@warn"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/debug",
+                            "tooltlp": "파일 이름 및 라인 번호와 함께 표현식 값 인쇄",
+                            "value": "@debug"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/at-root",
+                            "tooltlp": "중첩된 문서가 이제 루트로부터 방출됨",
+                            "value": "@at-root"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Flow Control",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/control/if",
+                            "tooltlp": "조건 값에 따라 두 표현식 중 하나만 반환(참, 거짓)",
+                            "value": "@if, @else"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/control/each",
+                            "tooltlp": "목록 및 지도 데이터를 반복하는 데 사용됨",
+                            "value": "@each"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/control/for",
+                            "tooltlp": "스타일을 반복",
+                            "value": "@for"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/control/while",
+                            "tooltlp": "조건이 거짓으로 평가될 때까지 내용을 반복",
+                            "value": "@while"
+                        }
+                    ]
+                },
+                {
+                    "subject": "From CSS",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/css#media",
+                            "tooltlp": "SassScript 식은 미디어 쿼리 내의 피쳐 쿼리에 직접 사용할 수 있음",
+                            "value": "@media"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/css#supports",
+                            "tooltlp": "SassScript 식을 선언 쿼리에 사용할 수 있도록 허용",
+                            "value": "@supports"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/at-rules/css#keyframes",
+                            "tooltlp": "자식 규칙이 유효한 키프레임 규칙이어야 한다는 점을 제외하면 일반 규칙과 똑같이 작동",
+                            "value": "@keyframes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Values",
+            "items": [
+                {
+                    "subject": "Data Types",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/values/numbers",
+                            "tooltlp": "숫자가 단위를 가지고 있거나 가지고 있지 않음",
+                            "value": "Numbers"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/strings",
+                            "tooltlp": "문자에 따옴표가 있거나 없는 경우",
+                            "value": "Strings"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/colors",
+                            "tooltlp": "색 표현을 나타냄",
+                            "value": "Colors"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/lists",
+                            "tooltlp": "공백 또는 \",(comma)\" 로 구분된 값 목록",
+                            "value": "Lists"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/maps",
+                            "tooltlp": "목록과 유사하지만 값은 키: 값",
+                            "value": "Maps"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/booleans",
+                            "tooltlp": "논리 연산자",
+                            "value": "true, false"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/null",
+                            "tooltlp": "ull이 속성 값으로 사용되는 경우 컴파일하지 않음",
+                            "value": "null"
+                        },
+                        {
+                            "link": "https://sass-lang.com/documentation/values/functions",
+                            "tooltlp": "함수 값이 존재하며, \"call()\" 함수에 전달하여 호출할 수 있음.",
+                            "value": "Functions"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Operators",
+            "items": [
+                {
+                    "subject": "Equality",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/operators/equality",
+                            "tooltlp": "두 값이 동일한지 여부 반환",
+                            "value": "==, !="
+                        }
+                    ]
+                },
+                {
+                    "subject": "Relational",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/operators/relational",
+                            "tooltlp": "숫자가 서로 큰지 작은지를 결정",
+                            "value": ">, <, >=, <="
+                        }
+                    ]
+                },
+                {
+                    "subject": "Numeric",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/operators/numeric",
+                            "tooltlp": "수학적 연산자의 표준 집합을 지원",
+                            "value": "+, -, *, /, %"
+                        }
+                    ]
+                },
+                {
+                    "subject": "String",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/operators/string",
+                            "tooltlp": "문자열을 생성하는 몇 개의 연산자를 지원",
+                            "value": "\"expression\" + \"expression\""
+                        }
+                    ]
+                },
+                {
+                    "subject": "Boolean",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/operators/boolean",
+                            "tooltlp": "부울 연산자를 위해 기호보다는 단어를 사용",
+                            "value": "true and true, true or false"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Breaking Change",
+            "items": [
+                {
+                    "subject": "Extending Compound",
+                    "list": [
+                        {
+                            "link": "https://sass-lang.com/documentation/breaking-changes/extend-compound",
+                            "tooltlp": "한 선택자가 다른 선택자를 확장하면 Sass는 확장하는 클래스와 일치하는 것처럼 확장기와 일치하는 모든 요소의 스타일을 지정",
+                            "value": "Selectors"
+                        }
+                    ]
+                },
+                 {
+                     "subject": "CSS Variable Syntax",
+                     "list": [
+                         {
+                             "link": "https://sass-lang.com/documentation/breaking-changes/css-vars",
+                             "tooltlp": "사용자 지정 속성 선언문을 구문 분석하여 다양한 SassScript 식을 값으로 수락",
+                             "value": "CSS Variable"
+                         }
+                     ]
+                 }
+            ]
+        }
+    ]
+}

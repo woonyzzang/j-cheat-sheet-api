@@ -1,0 +1,554 @@
+{
+    "cards": [
+        {
+            "title": "Core",
+            "items": [
+                {
+                    "subject": "Basic",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=23#constructor",
+                            "tooltlp": "코어명을 네이밍 반환",
+                            "value": "constructor"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=23#version",
+                            "tooltlp": "코어 버전 반환",
+                            "value": "version"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=23#tmpInput",
+                            "tooltlp": "input 요소의 특정속성 지원 여부 체크값 반환",
+                            "value": "tmpInput"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=23#tmpNode",
+                            "tooltlp": "CSS의 특정속성 지원 여부 체크값 반환",
+                            "value": "tmpNode"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=23#noConflict",
+                            "tooltlp": "코어 네이밍 식별자 변경",
+                            "value": "noConflict()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=23#define",
+                            "tooltlp": "코어 하위 name에 해당하는 확장 네임스페이스를 생성",
+                            "value": "define()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Core Expansion",
+            "items": [
+                {
+                    "subject": "Debug",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=88",
+                            "tooltlp": "console을 지원하지 않는 브라우저 환경 디버깅 지원 기능",
+                            "value": "log()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Async Import",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=86#loadcss",
+                            "tooltlp": "CSS 파일을 동적으로 로드",
+                            "value": "loadcss()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=86#loadjs",
+                            "tooltlp": "JS 파일을 동적으로 로드",
+                            "value": "loadjs()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=86#load",
+                            "tooltlp": "CSS, JS 파일을 동적으로 로드",
+                            "value": "load()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=86#addAliases",
+                            "tooltlp": "일부 별칭 네이밍을 사용하여 로드",
+                            "value": "addAliases()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Bind jQuery",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=84",
+                            "tooltlp": "Class를 jQuery 패턴화로 바인딩해서 플러그인으로 사용",
+                            "value": "bindjQuery()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Class",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=82",
+                            "tooltlp": "Class 문법 디자인 패턴 사용",
+                            "value": "Class()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Dependency",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=80",
+                            "tooltlp": "의존성 모듈 디자인 패턴 추가/사용",
+                            "value": "dependency()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Namespace",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=78",
+                            "tooltlp": "네임스페이스 공간을 생성하고 객체를 설정하며 \".\"을 구분자로 하여 하위 네임스페이스 생성",
+                            "value": "namespace()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "RGB to Hex",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=76",
+                            "tooltlp": "RGB 컬러값을 HEX 컬러값으로 변환",
+                            "value": "rgb2hex()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "DelayRun",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=74",
+                            "tooltlp": "시간을 지연하는 이벤트",
+                            "value": "delayRun()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Template",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=72",
+                            "tooltlp": "템플릿 생성 및 문자열 치환",
+                            "value": "template()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "browser",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "터치디바이스 지원 체크 반환",
+                            "value": "isTouch"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "레티나 디스플레이 지원 체크 반환",
+                            "value": "isRetina"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "모바일 디바이스 환경 체크 반환",
+                            "value": "isMobile"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Mac OS 환경 체크 반환",
+                            "value": "isMac"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Linux OS 환경 체크 반환",
+                            "value": "isLinux"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Windows OS 환경 체크 반환",
+                            "value": "isWin"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "64 비트 플랫폼 체크 반환",
+                            "value": "is64Bit"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "IE 브라우저 체크 반환",
+                            "value": "isIE"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "IE 브라우저 버전 반환",
+                            "value": "ieVersion"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Opera 브라우저 체크 반환",
+                            "value": "isOpera"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Chrome 브라우저 체크 반환",
+                            "value": "isChrome"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Safari 브라우저 체크 반환",
+                            "value": "isSafari"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Webkit 브라우저 계열 엔진 체크 반환",
+                            "value": "isWebKit"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Gecko 브라우저 계열 엔진 체크 반환",
+                            "value": "isGecko"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Trident 브라우저 계열 엔진 체크 반환",
+                            "value": "isIETri4"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Adobe Air 환경 체크 반환",
+                            "value": "isAir"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "IPhone, iPad 디바이스 환경 체크 반환",
+                            "value": "isIOS"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Android 디바이스 환경 체크 반환",
+                            "value": "isAndroid"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "IOS 버전 반환",
+                            "value": "iosVersion"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=70",
+                            "tooltlp": "Android 버전 반환",
+                            "value": "androidVersion"
+                        }
+                    ]
+                },
+                {
+                    "subject": "CSS3",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#prefix",
+                            "tooltlp": "주어진 css명 앞에 현재 브라우저에 해당하는 벤더 prefix 추가",
+                            "value": "prefix()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#support",
+                            "tooltlp": "CSS3의 지원여부 체크 반환",
+                            "value": "support"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#support3D",
+                            "tooltlp": "CSS3의 3D 지원여부 체크 반환",
+                            "value": "support3D"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#has",
+                            "tooltlp": "주어진 CSS 속성 지원여부 체크 반환",
+                            "value": "has()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transform",
+                            "tooltlp": "CSS3의 transform 속성의 벤더 prefix를 반환",
+                            "value": "transform"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transitionTimingFunction",
+                            "tooltlp": "CSS3의 transitionTimingFunction 속성의 벤더 prefix를 반환",
+                            "value": "transitionTimingFunction"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transitionDuration",
+                            "tooltlp": "CSS3의 transitionDuration 속성의 벤더 prefix를 반환",
+                            "value": "transitionDuration"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transitionDelay",
+                            "tooltlp": "RCSS3의 transitionDelay 속성의 벤더 prefix를 반환",
+                            "value": "transitionDelay"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transformOrigin",
+                            "tooltlp": "CSS3의 transformOrigin 속성의 벤더 prefix를 반환",
+                            "value": "transformOrigin"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transition",
+                            "tooltlp": "CSS3의 transition 속성의 벤더 prefix를 반환",
+                            "value": "transition"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#translateZ",
+                            "tooltlp": "CSS3의 translateZ 속성의 벤더 prefix를 반환",
+                            "value": "translateZ"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transitionEnd",
+                            "tooltlp": "CSS3의 transitionEnd 속성의 벤더 prefix를 반환",
+                            "value": "transitionEnd"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#position",
+                            "tooltlp": "엘리먼트 요소의 현재 위치 반환",
+                            "value": "position()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#move",
+                            "tooltlp": "CSS3 속성을 사용한 이동",
+                            "value": "move()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#animate",
+                            "tooltlp": "CSS3 속성을 사용한 애니메이션 모션화",
+                            "value": "animate()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=64#transitionStyle",
+                            "tooltlp": "지정한 엘리먼트에 css3 속성의 transitionStyle 추가",
+                            "value": "transitionStyle()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "jQuery Expansion",
+            "items": [
+                {
+                    "subject": "Plugin",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=98#cssPseudo",
+                            "tooltlp": "CSS 가상 선택자 \":after\", \":before\" 셀렉터 제어",
+                            "value": "cssPseudo()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=98#maxlengthNumber",
+                            "tooltlp": "input 타입이 number인 입력창 엘리먼트에 maxlength 속성 지원",
+                            "value": "maxlengthNumber()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Utility",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=96#$.version",
+                            "tooltlp": "jQuery의 버전을 확인",
+                            "value": "$.version"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=96#$.$",
+                            "tooltlp": "한번 탐색했던 요소를 다시 재탐색하지 않게 제어",
+                            "value": "$.$()"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=96#$.log",
+                            "tooltlp": "\"console.log\"와 같은 콘솔 메시지 노출",
+                            "value": "$.log()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Filter",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=92#focusable",
+                            "tooltlp": "포커스 속성이 있는 엘리먼트 제어",
+                            "value": "focusable"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=92#displays",
+                            "tooltlp": "display 속성값으로 엘리먼트 제어",
+                            "value": "displays"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Custom Event",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#resizeend",
+                            "tooltlp": "브라우저 리사이즈시 마지막 시점에 발생되는 이벤트 핸들러",
+                            "value": "resizeend"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#scrollend",
+                            "tooltlp": "스크롤 시 마지막 시점에 발생되는 이벤트 핸들러",
+                            "value": "scrollend"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#infinitescroll",
+                            "tooltlp": "하단에 스크롤 도달시 발생되는 이벤트 핸들러",
+                            "value": "infinitescroll"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#mouseleftclick",
+                            "tooltlp": "마우스 좌측 클릭 이벤트 핸들러",
+                            "value": "mouseleftclick"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#mouserightclick",
+                            "tooltlp": "마우스 우측 클릭 이벤트 핸들러",
+                            "value": "mouserightclick"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#mousewheelclick",
+                            "tooltlp": "마우스 휠 클릭 이벤트 핸들러",
+                            "value": "mousewheelclick"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#mousewheelup",
+                            "tooltlp": "마우스 휠 상단 이벤트 핸들러",
+                            "value": "mousewheelup"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=90#mousewheeldown",
+                            "tooltlp": "마우스 휠 하단 이벤트 핸들러",
+                            "value": "mousewheeldown"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Polyfill",
+            "items": [
+                {
+                    "subject": "Polyfill",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=124#picture",
+                            "tooltlp": "HTML5의 picture 엘리먼트 폴리필 기능 지원",
+                            "value": "<picture>"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=124#template",
+                            "tooltlp": "HTML5의 템플릿 엘리먼트 폴리필 기능 지원",
+                            "value": "<template>"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?page_id=124#matchMedia",
+                            "tooltlp": "미디어쿼리 폴리필 기능 지원",
+                            "value": "matchMedia()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Module",
+            "items": [
+                {
+                    "subject": "Component",
+                    "list": [
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=100",
+                            "tooltlp": "모바일 마크업 리스트맵에서 간편하게 확인 가능한 페이지 미리보기 기능",
+                            "value": "MobilePreview"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=102",
+                            "tooltlp": "모바일 디바이스 종류별, 버전별로 정보를 제공하여 분기처리하는 기능",
+                            "value": "MobileDeviceInfo"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=108",
+                            "tooltlp": "아코디언 형태의 리스트를 쉽게 구현 가능하도록 하는 기능",
+                            "value": "Accordion"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=110",
+                            "tooltlp": "롤링 슬라이드가 필요한 배너를 쉽게 구현 가능하도록 하는 기능",
+                            "value": "VisualRolling"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=112",
+                            "tooltlp": "탭메뉴를 쉽게 구현 가능하도록 하는 기능",
+                            "value": "TabMenu"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=796",
+                            "tooltlp": "모바일 전체 메뉴를 열고 닫는 버튼, 메뉴의 컨텐츠 노출까지 하도록 하는 기능",
+                            "value": "HamMenu"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=897",
+                            "tooltlp": "레이어팝업을 쉽게 구현 가능하도록 하는 기능",
+                            "value": "Modal"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=911",
+                            "tooltlp": "커스텀 셀렉트박스를 쉽게 구현 가능하도록 하는 기능",
+                            "value": "Selectbox"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=929",
+                            "tooltlp": "토스트팝업을 쉽게 구현 가능하도록 하는 기능",
+                            "value": "Toast"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=961",
+                            "tooltlp": "여러 체크박스의 전체선택을 구현 가능하도록 하는 기능",
+                            "value": "Checkboxes"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=989",
+                            "tooltlp": "커스텀된 스크롤바를 사용하는 기능",
+                            "value": "Scrolling"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=1154",
+                            "tooltlp": "아코디언 형태의 가로형타입 리스트 기능",
+                            "value": "AccordionCover"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=1167",
+                            "tooltlp": "아코디언 형태로 세로방향 스와이프 기능",
+                            "value": "AccordionSwipe"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=1353",
+                            "tooltlp": "스크롤시 진행률 바를 표시하는 기능",
+                            "value": "ProgressScrollIndicator"
+                        },
+                        {
+                            "link": "https://upleat.com/wp-uidev/?p=1515",
+                            "tooltlp": "테이블 요소 안에 thead, tfoot, column 부분을 고정하여 스크롤링을 가능하게 하는 기능",
+                            "value": "FreezeTable"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

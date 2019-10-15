@@ -1,0 +1,814 @@
+{
+    "cards": [
+        {
+            "title": "Global Attributes",
+            "items": [
+                {
+                    "subject": "Core",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*",
+                            "tooltlp": "사용자 정의 데이터 속성 요소",
+                            "value": "data-*"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/title",
+                            "tooltlp": "요소에 대한 추가 정보를 수집",
+                            "value": "title"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable",
+                            "tooltlp": "브라우저는 편집이 가능하도록 위젯을 수정",
+                            "value": "contenteditable"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable",
+                            "tooltlp": "요소를 드래그 할 수 있는지 여부를 나타내는 열거 된 속성",
+                            "value": "draggable"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden",
+                            "tooltlp": "부울 속성은 요소가 아직 구성되지 않았음을 나타냄",
+                            "value": "hidden"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode",
+                            "tooltlp": "이 요소 또는 해당 내용을 편집할 때 사용할 가상 키보드 구성 유형에 대한 힌트 제공",
+                            "value": "inputmode"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/is",
+                            "tooltlp": "표준 HTML 요소가 등록된 사용자 정의 기본 제공 요소처럼 동작하도록 지정할 수 있음",
+                            "value": "is"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemid",
+                            "tooltlp": "항목의 고유한 전역 식별자",
+                            "value": "itemid"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop",
+                            "tooltlp": "항목에 속성을 추가하는 데 사용. 모든 HTML 요소에는 \"itemprop\" 특성이 지정될 수 있음",
+                            "value": "itemprop"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemref",
+                            "tooltlp": "\"itemscope\" 특성을 가진 요소의 하위 속성이 아닌 속성은 \"itemref\"를 사용하여 항목과 연결할 수 있음",
+                            "value": "itemref"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemscope",
+                            "tooltlp": "\"itemscope\" (일반적으로) \"itemtype\"와 함께 작동하여 블록에 포함된 HTML이 특정 항목에 대한 것임을 지정함",
+                            "value": "itemscope"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemtype",
+                            "tooltlp": "데이터 구조에서 \"itemprops\"(항목 속성)을 정의하는 데 사용할 어휘의 URL 지정",
+                            "value": "itemtype"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/slot",
+                            "tooltlp": "섀도 DOM 섀도 트리의 슬롯을 요소에 할당",
+                            "value": "slot"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/spellcheck",
+                            "tooltlp": "열거된 속성은 요소를 철자 오류로 확인할 수 있는지 여부를 정의",
+                            "value": "spellcheck"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/translate",
+                            "tooltlp": "페이지를 현지화할 때 요소의 속성 값과 해당 \"Text\" 노드 하위 값을 변환할지 또는 변경하지 않고 그대로 둘지 여부를 지정하는 데 사용되는 열거된 속성",
+                            "value": "translate"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/ID_selectors",
+                            "tooltlp": "원소의 고유 ID를 확인",
+                            "value": "id"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Class_selectors",
+                            "tooltlp": "요소에 대해 하나 이상의 클래스 이름 지정(스타일 시트의 클래스 참조)",
+                            "value": "class"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/style",
+                            "tooltlp": "요소의 인라인 CSS 스타일을 지정",
+                            "value": "style"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Language",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.lang",
+                            "tooltlp": "내용의 언어를 정함",
+                            "value": "lang"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Keyboard",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.accessKey",
+                            "tooltlp": "요소를 활성화/초점할 바로 가기 키를 지정함",
+                            "value": "accesskey"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.tabIndex",
+                            "tooltlp": "요소의 탭 순서 지정",
+                            "value": "tabindex"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Main",
+            "items": [
+                {
+                    "subject": "Document",
+                    "list": [
+                        {
+                            "link": "http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-B63ED1A31",
+                            "tooltlp": "문서 유형 정의",
+                            "value": "<!DOCTYPE>"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Root",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html",
+                            "tooltlp": "HTML 문서 정의",
+                            "value": "<html>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Metadata",
+            "items": [
+                {
+                    "subject": "Meta Info",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head",
+                            "tooltlp": "문서에 대한 정보 정의",
+                            "value": "<head>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta",
+                            "tooltlp": "html 문서로부터 메타데이터 삭제",
+                            "value": "<meta>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title",
+                            "tooltlp": "문서 제목을 정의",
+                            "value": "<title>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base",
+                            "tooltlp": "문서의 모든 상대 URL에 대한 기본 URL/목표 지정",
+                            "value": "<base>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
+                            "tooltlp": "문서와 외부 리소스 간의 관계 정의",
+                            "value": "<link>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style",
+                            "tooltlp": "문서에 대한 스타일 정보 정의",
+                            "value": "<style>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Scripting",
+            "items": [
+                {
+                    "subject": "Programming",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas",
+                            "tooltlp": "문서를 그래픽과 애니메이션으로 그리는 방법을 정의",
+                            "value": "<canvas>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript",
+                            "tooltlp": "lient-side 스크립트를 지원하지 않는 사용자에 대한 대체 콘텐츠 정의",
+                            "value": "<noscript>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script",
+                            "tooltlp": "클라이언트측 스크립트를 정의",
+                            "value": "<script>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sectioning",
+            "items": [
+                {
+                    "subject": "Root",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body",
+                            "tooltlp": "문서 본문 정의",
+                            "value": "<body>"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Section",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header",
+                            "tooltlp": "헤더 정의",
+                            "value": "<header>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup",
+                            "tooltlp": "제목 그룹 정의",
+                            "value": "<hgroup>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1",
+                            "tooltlp": "헤딩 정의",
+                            "value": "<h1> ~ <h6>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav",
+                            "tooltlp": "네비게이션 정의",
+                            "value": "<nav>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main",
+                            "tooltlp": "메인 정의",
+                            "value": "<main>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article",
+                            "tooltlp": "아티클 정의",
+                            "value": "<article>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section",
+                            "tooltlp": "섹션 정의",
+                            "value": "<section>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside",
+                            "tooltlp": "어사이드 정의",
+                            "value": "<aside>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer",
+                            "tooltlp": "푸터 정의",
+                            "value": "<footer>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address",
+                            "tooltlp": "어드레스 정의",
+                            "value": "<address>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Content Grouping",
+            "items": [
+                {
+                    "subject": "Text Content",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote",
+                            "tooltlp": "긴 인용 정의",
+                            "value": "<blockquote>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div",
+                            "tooltlp": "문서에서 섹션을 정의",
+                            "value": "<div>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl",
+                            "tooltlp": "정의 목록을 정의",
+                            "value": "<dl>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt",
+                            "tooltlp": "정의 목록에서 항목 정의",
+                            "value": "<dt>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd",
+                            "tooltlp": "정의 목록에서 항목에 대한 설명 정의",
+                            "value": "<dd>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure",
+                            "tooltlp": "삽화, 도표, 사진 및 코드 리스트를 정의",
+                            "value": "<figure>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption",
+                            "tooltlp": "그림의 캡션(사진삽화 등에 붙인 설명)이나 legend를 묘사",
+                            "value": "<figcaption>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr",
+                            "tooltlp": "수평선 정의",
+                            "value": "<hr>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol",
+                            "tooltlp": "순서 목록을 정의",
+                            "value": "<ol>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul",
+                            "tooltlp": "순서없는 목록을 정의",
+                            "value": "<ul>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li",
+                            "tooltlp": "목록 항목을 정의",
+                            "value": "<li>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p",
+                            "tooltlp": "단락 정의",
+                            "value": "<p>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre",
+                            "tooltlp": "사전 포맷된 텍스트 정의",
+                            "value": "<pre>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Text Semantics",
+            "items": [
+                {
+                    "subject": "Inline Level",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a",
+                            "tooltlp": "앵커 정의",
+                            "value": "<a>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr",
+                            "tooltlp": "약어 정의",
+                            "value": "<abbr>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b",
+                            "tooltlp": "굵은 텍스트 정의",
+                            "value": "<b>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi",
+                            "tooltlp": "정의의 주요 객체 및 경계 정의",
+                            "value": "<bdi>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo",
+                            "tooltlp": "현재 텍스트 방향 재정의",
+                            "value": "<bdo>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br",
+                            "tooltlp": "단일 줄 바꿈 삽입",
+                            "value": "<br>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite",
+                            "tooltlp": "인용구 정의",
+                            "value": "<cite>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code",
+                            "tooltlp": "컴퓨터 코드 정의",
+                            "value": "<code>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data",
+                            "tooltlp": "내용에 따라 기계 번역 정의",
+                            "value": "<data>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn",
+                            "tooltlp": "정의 용어 정의",
+                            "value": "<dfn>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em",
+                            "tooltlp": "강조된 텍스트 정의",
+                            "value": "<em>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i",
+                            "tooltlp": "기울임꼴 텍스트 정의 또는 전문용어, 외국어 또는 가상 인물 사고 포함",
+                            "value": "<i>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd",
+                            "tooltlp": "키보드 입력 정의",
+                            "value": "<kbd>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark",
+                            "tooltlp": "프레젠테이션 또는 강조 표시의 맥락에서 지정된 경로의 관련성 또는 중요성, 참조 또는 표기법의 정의",
+                            "value": "<mark>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q",
+                            "tooltlp": "짧은 인용구 정의",
+                            "value": "<q>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rb",
+                            "tooltlp": "주석을 단 Ruby가 정의된 텍스트",
+                            "value": "<rb>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rp",
+                            "tooltlp": "주석을 단 Ruby가 정의된 텍스트",
+                            "value": "<rp>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rt",
+                            "tooltlp": "Ruby의 주석을 지원하지 않는 브라우저 괄호 정의",
+                            "value": "<rt>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rtc",
+                            "tooltlp": "Ruby 표시 문자의 의미 주석 정의",
+                            "value": "<rtc>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby",
+                            "tooltlp": "Ruby 주석 정의",
+                            "value": "<ruby>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp",
+                            "tooltlp": "컴퓨터 프로그램의 샘플 출력 정의",
+                            "value": "<samp>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small",
+                            "tooltlp": "작은 텍스트 정의",
+                            "value": "<small>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span",
+                            "tooltlp": "문서에서 섹션을 정의",
+                            "value": "<span>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong",
+                            "tooltlp": "의미 있는 강조 텍스트 정의",
+                            "value": "<strong>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub",
+                            "tooltlp": "아래 첨자 텍스트를 정의",
+                            "value": "<sub>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup",
+                            "tooltlp": "위첨자 텍스트를 정의",
+                            "value": "<sup>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time",
+                            "tooltlp": "특정 기간 정의",
+                            "value": "<time>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var",
+                            "tooltlp": "변수를 정의",
+                            "value": "<var>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr",
+                            "tooltlp": "텍스트에서 줄 바꿈을 추가할 수 있는 지정 위치 정의",
+                            "value": "<wbr>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Image/Multimedia",
+            "items": [
+                {
+                    "subject": "Image",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img",
+                            "tooltlp": "이미지 정의",
+                            "value": "<img>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map",
+                            "tooltlp": "이미지 맵 정의",
+                            "value": "<map>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area",
+                            "tooltlp": "이미지 맵 내부 영역 정의",
+                            "value": "<area>"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Multimedia",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio",
+                            "tooltlp": "문서의 소리 내용을 포함하는 을 정의",
+                            "value": "<audio>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track",
+                            "tooltlp": "자동 자막 처리와 같은 시간별 텍스트 트랙(또는 시간 기반 데이터) 정의",
+                            "value": "<track>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video",
+                            "tooltlp": "문서에 비디오 재생 미디어 플레이어 정의",
+                            "value": "<video>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Edits",
+            "items": [
+                {
+                    "subject": "Demarcating",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del",
+                            "tooltlp": "문서에서 삭제된 텍스트 정의",
+                            "value": "<del>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins",
+                            "tooltlp": "문서에 삽입된 텍스트 정의",
+                            "value": "<ins>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Tables",
+            "items": [
+                {
+                    "subject": "Table",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table",
+                            "tooltlp": "표를 정의",
+                            "value": "<table>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption",
+                            "tooltlp": "표의 캡션을 정의",
+                            "value": "<caption>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup",
+                            "tooltlp": "서식을 지정할 표의 열 그룹을 정의",
+                            "value": "<colgroup>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col",
+                            "tooltlp": "표에서 하나 이상의 열에 대한 속성 값을 정의",
+                            "value": "<col>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead",
+                            "tooltlp": "표에 헤더 내용을 그룹화",
+                            "value": "<thead>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody",
+                            "tooltlp": "본문 내용을 표에 그룹화",
+                            "value": "<tbody>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot",
+                            "tooltlp": "바닥 글 내용을 표에 그룹화",
+                            "value": "<tfoot>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr",
+                            "tooltlp": "표에서 행을 정의",
+                            "value": "<tr>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th",
+                            "tooltlp": "표에서 헤더 셀을 정의",
+                            "value": "<th>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td",
+                            "tooltlp": "표에서 셀을 정의",
+                            "value": "<td>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Forms",
+            "items": [
+                {
+                    "subject": "Control",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form",
+                            "tooltlp": "사용자 입력을 위한 html 양식 정의",
+                            "value": "<form>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset",
+                            "tooltlp": "어떤 형태로든 관련 요소들을 묶다",
+                            "value": "<fieldset>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend",
+                            "tooltlp": "<fieldset> 요소의 캡션을 정의",
+                            "value": "<legend>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label",
+                            "tooltlp": "<input> 요소의 라벨을 정의",
+                            "value": "<label>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input",
+                            "tooltlp": "입력 컨트롤을 정의",
+                            "value": "<input>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist",
+                            "tooltlp": "옵션 집합을 정의",
+                            "value": "<datalist>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select",
+                            "tooltlp": "드롭다운 목록을 정의",
+                            "value": "<select>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup",
+                            "tooltlp": "드롭다운 목록에서 관련 옵션 그룹 정의",
+                            "value": "<optgroup>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option",
+                            "tooltlp": "드롭다운 목록에서 옵션 정의",
+                            "value": "<option>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea",
+                            "tooltlp": "멀티라인 입력 컨트롤(텍스트 영역) 정의",
+                            "value": "<textarea>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button",
+                            "tooltlp": "클릭 가능한 버튼을 정의",
+                            "value": "<button>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter",
+                            "tooltlp": "스케일 정의",
+                            "value": "<meter>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output",
+                            "tooltlp": "계산 결과 정의",
+                            "value": "<output>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress",
+                            "tooltlp": "일의 진행률 정의",
+                            "value": "<progress>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Embedded",
+            "items": [
+                {
+                    "subject": "Embed",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed",
+                            "tooltlp": "임베디드 애플릿을 정의",
+                            "value": "<embed>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe",
+                            "tooltlp": "인라인 프레임 정의",
+                            "value": "<iframe>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object",
+                            "tooltlp": "내장된 오브젝트를 정의",
+                            "value": "<object>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param",
+                            "tooltlp": "객체에 대한 매개변수를 정의",
+                            "value": "<param>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture",
+                            "tooltlp": "사진을 정의",
+                            "value": "<picture>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source",
+                            "tooltlp": "사진의 출처를 정의",
+                            "value": "<source>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Interactive",
+            "items": [
+                {
+                    "subject": "Widget",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details",
+                            "tooltlp": "열거나 닫는 것을 나타내는 위젯",
+                            "value": "<details>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog",
+                            "tooltlp": "대화 상자 또는 연결 창과 같은 기타 대화형 요소 정의",
+                            "value": "<dialog>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu",
+                            "tooltlp": "활성화할 수 있는 명령어 그룹",
+                            "value": "<menu>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary",
+                            "tooltlp": "열거나 닫는 것을 나타내는 위젯 요약",
+                            "value": "<summary>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Web Components",
+            "items": [
+                {
+                    "subject": "Component",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot",
+                            "tooltlp": "별도의 DOM 트리 생성 및 재사용",
+                            "value": "<slot>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template",
+                            "tooltlp": "구성 요소의 골격은 사용될 때까지 비활성화됨",
+                            "value": "<template>"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,374 @@
+{
+    "cards": [
+        {
+            "title": "Graphics",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle",
+                            "tooltlp": "중심점과 반경에 기초하여 원을 그리는 데 사용",
+                            "value": "<circle>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/ellipse",
+                            "tooltlp": "중심 좌표와 x 및 y 반경을 기반으로 타원을 만드는 데 사용",
+                            "value": "<ellipse>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line",
+                            "tooltlp": "두 점을 연결하는 선을 만드는 데 사용",
+                            "value": "<line>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path",
+                            "tooltlp": "모든 기본 도형을 만드는 경로 요소",
+                            "value": "<path>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polygon",
+                            "tooltlp": "연결된 직선 세그먼트 세트로 구성된 닫힌 도형을 정의",
+                            "value": "<polygon>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polyline",
+                            "tooltlp": "여러 점을 연결하는 직선을 만듬",
+                            "value": "<polyline>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect",
+                            "tooltlp": "위치, 너비 및 높이로 정의",
+                            "value": "<rect>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/image",
+                            "tooltlp": "SVG 문서에 이미지 포함",
+                            "value": "<image>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use",
+                            "tooltlp": "SVG 문서 내에서 노드를 가져옴",
+                            "value": "<use>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Text content",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text",
+                            "tooltlp": "텍스트로 구성된 그래픽 요소를 그림",
+                            "value": "<text>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan",
+                            "tooltlp": "<text>요소 또는 <tspan> 요소 내에 하위 텍스트를 정의",
+                            "value": "<tspan>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/textPath",
+                            "tooltlp": "<path> 모양을 따라 텍스트를 렌더링하려면 <path> 요소에 대한 참조와 함께 href 속성이있는 <textPath> 요소에 텍스트를 넣음",
+                            "value": "<textPath>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Container",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/a",
+                            "tooltlp": "다른 웹 페이지에 대한 하이퍼 링크를 만듬",
+                            "value": "<a>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/defs",
+                            "tooltlp": "나중에 사용될 그래픽 요소를 저장하는데 사용",
+                            "value": "<defs>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g",
+                            "tooltlp": "SVG 요소들을 그룹화 시킴",
+                            "value": "<g>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/marker",
+                            "tooltlp": "<path>, <line>, <polyline> 또는 <polygon> 요소에 화살촉 또는 polymarkers를 그리는데 사용되는 그래픽을 정의 ",
+                            "value": "<marker>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/mask",
+                            "tooltlp": "현재 객체를 배경으로 합성하기 위한 알파 마스크를 정의",
+                            "value": "<mask>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/pattern",
+                            "tooltlp": "반복되는 x 및 y 좌표(바둑판)로 영역을 덮도록 그래픽 객체를 정의",
+                            "value": "<pattern>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg",
+                            "tooltlp": "새로운 좌표계와 viewport를 정의하는 컨테이너",
+                            "value": "<svg>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/switch",
+                            "tooltlp": "직접 하위 요소에서 requiredFeatures, requiredExtensions 및 systemLanguage 속성을 순서대로 평가 한 다음 이러한 속성이 true로 평가되는 첫 번째 하위를 렌더링",
+                            "value": "<switch>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/symbol",
+                            "tooltlp": "<use> 요소로 인스턴스화 할 수 있는 그래픽 템플릿 객체를 정의하는데 사용 ",
+                            "value": "<symbol>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Descriptive",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/desc",
+                            "tooltlp": "SVG 컨테이너 요소 또는 그래픽 요소에 대한 이해하기 쉽고, 긴 텍스트 설명을 제공",
+                            "value": "<desc>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/metadata",
+                            "tooltlp": "SVG 콘텐츠에 메타 데이터를 추가",
+                            "value": "<metadata>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/title",
+                            "tooltlp": "SVG 컨테이너 요소 또는 그래픽 요소에 대한 이해하기 쉽고, 짧은 텍스트 설명을 제공",
+                            "value": "<title>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Animation",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animate",
+                            "tooltlp": "특정 시간동안 요소의 특성 또는 속성을 애니메이션화",
+                            "value": "<animate>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateMotion",
+                            "tooltlp": "모션 경로를 따라 이동할 수 있도록 참조 요소를 만듬 ",
+                            "value": "<animateMotion>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateTransform",
+                            "tooltlp": "변환, 스케일링, 회전 또는 기울이기를 제어 할 수 있도록 요소에 애니메이션 변환 특성을 부여",
+                            "value": "<animateTransform>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/discard",
+                            "tooltlp": "사용자가 특정 요소를 버릴 시간을 지정하여 SVG 사용자 에이전트에 필요한 자원을 줄일 수 있음",
+                            "value": "<discard>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/mpath",
+                            "tooltlp": "<mpath>의 하위 요소인 <animateMotion>은 외부 <path>요소를 모션 경로의 정의로 참조하는 기능을 제공",
+                            "value": "<mpath>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/set",
+                            "tooltlp": "지정된 기간 동안 속성 값을 설정하는 간단의 방법을 제공",
+                            "value": "<set>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Filter primitive",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feBlend",
+                            "tooltlp": "특정 혼합 모드에 의해 지배되는 두 객체를 함께 구성",
+                            "value": "<feBlend>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feColorMatrix",
+                            "tooltlp": "변환 행렬에 기반한 색 변경",
+                            "value": "<feColorMatrix>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feComponentTransfer",
+                            "tooltlp": "각 픽셀에 대해 데이터를 색상별로 재 매핑",
+                            "value": "<feComponentTransfer>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feComposite",
+                            "tooltlp": "orter-Duff 합성 작업 중 하나를 사용하여 이미지 공간에서 두 개의 입력 이미지를 픽셀 단위로 조합 : over, in, atop, out, xor, lighter",
+                            "value": "<feComposite>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feConvolveMatrix",
+                            "tooltlp": "행렬 컨벌루션 필터 효과를 적용",
+                            "value": "<feConvolveMatrix>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDiffuseLighting",
+                            "tooltlp": "알파 채널을 범프 맵으로 사용하여 이미지를 조명",
+                            "value": "<feDiffuseLighting>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDisplacementMap",
+                            "tooltlp": "in2의 이미지에서 픽셀 값을 사용하여 이미지를 공간적으로 대체",
+                            "value": "<feDisplacementMap>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDropShadow",
+                            "tooltlp": "입력된 이미지의 그림자를 만듬",
+                            "value": "<feDropShadow>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFlood",
+                            "tooltlp": "flood-color 및 flood-opacity로 정의 된 색상 및 불투명도로 필터 하위 영역을 채움",
+                            "value": "<feFlood>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncA",
+                            "tooltlp": "상위 <feComponentTransfer> 요소의 입력 그래픽의 알파 구성 요소에 대한 전달 함수를 정의",
+                            "value": "<feFuncA>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncB",
+                            "tooltlp": "부모 <feComponentTransfer> 요소의 입력 그래픽에서 파란색 구성 요소에 대한 전달 함수를 정의",
+                            "value": "<feFuncB>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncG",
+                            "tooltlp": "부모 <feComponentTransfer> 요소의 입력 그래픽에서 녹색 구성 요소에 대한 전달 함수를 정의",
+                            "value": "<feFuncG>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feFuncR",
+                            "tooltlp": "부모 <feComponentTransfer> 요소의 입력 그래픽에서 빨간색 구성 요소에 대한 전달 함수를 정의",
+                            "value": "<feFuncR>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feGaussianBlur",
+                            "tooltlp": "벨 커브를 정의하는 stdDeviation에 지정된 양만큼 입력 이미지를 흐리게 함",
+                            "value": "<feGaussianBlur>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feImage",
+                            "tooltlp": "외부 소스에서 이미지 데이터를 가져 와서 픽셀 데이터를 출력",
+                            "value": "<feImage>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMerge",
+                            "tooltlp": "필터 효과를 순차적이 아닌 동시에 적용 할 수 있음",
+                            "value": "<feMerge>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMergeNode",
+                            "tooltlp": "부모 <feMerge>가 다른 필터의 결과를 처리하도록 함.",
+                            "value": "<feMergeNode>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feMorphology",
+                            "tooltlp": "입력 이미지를 부식시키거나 확장하는 데 사용",
+                            "value": "<feMorphology>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feOffset",
+                            "tooltlp": "입력 이미지를 오프셋 할 수 있음",
+                            "value": "<feOffset>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feSpecularLighting",
+                            "tooltlp": "알파 채널을 범프 맵으로 사용하여 소스 그래픽 조명",
+                            "value": "<feSpecularLighting>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTile",
+                            "tooltlp": "입력 이미지의 반복 된 타일 패턴으로 대상 사각형을 채움",
+                            "value": "<feTile>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feTurbulence",
+                            "tooltlp": "Perlin turbulence 기능을 이용한 이미지 생성",
+                            "value": "<feTurbulence>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Gradient",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/linearGradient",
+                            "tooltlp": "사용자가 그래픽 요소를 채우거나 선에 적용할 수 있는 선형 그라디언트를 정의",
+                            "value": "<linearGradient>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/radialGradient",
+                            "tooltlp": "사용자가 그래픽 요소를 채우거나 선에 적용할 수 있는 방사형 그라디언트를 정의",
+                            "value": "<radialGradient>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/stop",
+                            "tooltlp": "그라디언트에서 사용할 색과 위치를 정의",
+                            "value": "<stop>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Light source",
+            "items": [
+                {
+                    "subject": "Elements",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feDistantLight",
+                            "tooltlp": "조명 필터 내에서 사용할 수있는 원거리 광원을 정의",
+                            "value": "<feDistantLight>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/fePointLight",
+                            "tooltlp": "포인트 조명 효과를 만들 수있는 광원을 정의",
+                            "value": "<fePointLight>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/feSpotLight",
+                            "tooltlp": "스포트라이트 효과를 만드는 라이트 소스 정의",
+                            "value": "<feSpotLight>"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

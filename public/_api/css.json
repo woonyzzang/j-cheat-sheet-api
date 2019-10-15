@@ -1,0 +1,1344 @@
+{
+    "cards": [
+        {
+            "title": "Box Model",
+            "items": [
+                {
+                    "subject": "Margin",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/margin",
+                            "tooltlp": "한 번의 선언으로 모든 여백 속성을 설정",
+                            "value": "margin"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/margin-bottom",
+                            "tooltlp": "요소의 아래쪽 여백을 설정",
+                            "value": "margin-bottom"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/margin-left",
+                            "tooltlp": "요소의 왼쪽 여백을 설정",
+                            "value": "margin-left"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/margin-right",
+                            "tooltlp": "요소의 오른쪽 여백을 설정",
+                            "value": "margin-right"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/margin-top",
+                            "tooltlp": "요소의 위쪽 여백을 설정",
+                            "value": "margin-top"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Padding",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/padding",
+                            "tooltlp": "한 번의 선언으로 모든 패딩 속성을 설정",
+                            "value": "padding"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/padding-bottom",
+                            "tooltlp": "요소의 하단 패딩을 설정",
+                            "value": "padding-bottom"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/padding-left",
+                            "tooltlp": "요소의 왼쪽 패딩을 설정",
+                            "value": "padding-left"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/padding-right",
+                            "tooltlp": "요소의 오른쪽 패딩을 설정",
+                            "value": "padding-right"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/padding-top",
+                            "tooltlp": "요소의 위쪽 패딩을 설정",
+                            "value": "padding-top"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Dimension",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/height",
+                            "tooltlp": "요소의 높이를 설정",
+                            "value": "width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/width",
+                            "tooltlp": "요소의 넓이를 설정",
+                            "value": "height"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/max-height",
+                            "tooltlp": "요소의 최대 높이를 설정",
+                            "value": "max-height"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/max-width",
+                            "tooltlp": "요소의 최대 넓이를 설정",
+                            "value": "max-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/min-height",
+                            "tooltlp": "요소의 최소 높이를 설정",
+                            "value": "min-height"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/min-width",
+                            "tooltlp": "요소의 최소 넓이를 설정",
+                            "value": "min-width"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Border and Outline",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border",
+                            "tooltlp": "한 번의 선언으로 모든 테두리 속성을 설정",
+                            "value": "border"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-bottom",
+                            "tooltlp": "아래쪽 테두리 속성을 설정",
+                            "value": "border-bottom"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-bottom-color",
+                            "tooltlp": "아래쪽 테두리의 색상을 설정",
+                            "value": "border-bottom-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-bottom-style",
+                            "tooltlp": "아래쪽 테두리의 스타일을 설정",
+                            "value": "border-bottom-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-bottom-width",
+                            "tooltlp": "아래쪽 테두리의 너비를 설정",
+                            "value": "border-bottom-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-color",
+                            "tooltlp": "모든 테두리의 색상을 설정",
+                            "value": "border-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-left",
+                            "tooltlp": "왼쪽 테두리 속성을 설정",
+                            "value": "border-left"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-left-color",
+                            "tooltlp": "왼쪽 테두리의 색상을 설정",
+                            "value": "border-left-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-left-style",
+                            "tooltlp": "왼쪽 테두리의 스타일을 설정",
+                            "value": "border-left-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-left-width",
+                            "tooltlp": "왼쪽 테두리의 너비를 설정",
+                            "value": "border-left-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-right",
+                            "tooltlp": "오른쪽 테두리 속성을 설정",
+                            "value": "border-right"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-right-color",
+                            "tooltlp": "오른쪽 테두리의 색상을 설정",
+                            "value": "border-right-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-right-style",
+                            "tooltlp": "오른쪽 테두리의 스타일을 설정",
+                            "value": "border-right-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-right-width",
+                            "tooltlp": "오른쪽 테두리의 너비를 설정",
+                            "value": "border-right-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-style",
+                            "tooltlp": "모든 테두리의 스타일을 설정",
+                            "value": "border-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-top",
+                            "tooltlp": "상단 테두리 속성을 설정",
+                            "value": "border-top"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-top-color",
+                            "tooltlp": "상단 테두리의 색상을 설정",
+                            "value": "border-top-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-top-style",
+                            "tooltlp": "상단 테두리의 스타일을 설정",
+                            "value": "border-top-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-top-width",
+                            "tooltlp": "상단 테두리의 너비를 설정",
+                            "value": "border-top-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-width",
+                            "tooltlp": "모든 테두리의 너비를 설정",
+                            "value": "border-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/outline",
+                            "tooltlp": "한 번의 선언으로 모든 윤곽선 속성을 설정",
+                            "value": "outline"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/outline-color",
+                            "tooltlp": "윤곽선의 색상을 설정",
+                            "value": "outline-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/outline-style",
+                            "tooltlp": "윤곽선의 스타일을 설정",
+                            "value": "outline-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/outline-width",
+                            "tooltlp": "윤곽선의 너비를 설정",
+                            "value": "outline-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-bottom-left-radius",
+                            "tooltlp": "왼쪽 아래 모서리의 테두리 모양을 정의",
+                            "value": "border-bottom-left-radius"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-bottom-right-radius",
+                            "tooltlp": "오른쪽 아래 모서리의 테두리 모양을 정의",
+                            "value": "border-bottom-right-radius"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-image",
+                            "tooltlp": "모든 border-image- * 속성을 설정하기위한 속기 속성",
+                            "value": "border-image"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-image-outset",
+                            "tooltlp": "테두리 이미지 영역이 테두리 상자를 넘어 확장되는 정도를 지정",
+                            "value": "border-image-outset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-image-repeat",
+                            "tooltlp": "이미지 테두리를 반복, 반올림 또는 늘려야하는지 여부를 지정",
+                            "value": "border-image-repeat"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-image-slice",
+                            "tooltlp": "이미지 테두리의 안쪽 오프셋을 지정",
+                            "value": "border-image-slice"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-image-source",
+                            "tooltlp": "테두리로 사용할 이미지를 지정",
+                            "value": "border-image-source"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-image-width",
+                            "tooltlp": "이미지 테두리의 너비를 지정",
+                            "value": "border-image-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-radius",
+                            "tooltlp": "모든 테두리의 border-*-radius 속성을 모두 설정하는 속기 속성",
+                            "value": "border-radius"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-top-left-radius",
+                            "tooltlp": "왼쪽 상단 모서리의 테두리 모양을 정의",
+                            "value": "border-top-left-radius"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-top-right-radius",
+                            "tooltlp": "오른쪽 상단 모서리의 테두리 모양을 정의",
+                            "value": "border-top-right-radius"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-decoration-break",
+                            "tooltlp": "오른쪽 상단 모서리의 테두리 모양을 정의",
+                            "value": "box-decoration-break"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-shadow",
+                            "tooltlp": "상자에 하나 이상의 그림자를 설정",
+                            "value": "box-shadow"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Selectors",
+            "items": [
+                {
+                    "subject": "Basic Selectors",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Class_selectors",
+                            "tooltlp": "\"class\"명과 일치하는 선택자의 모든 요소를 선택",
+                            "value": ".class"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/ID_selectors",
+                            "tooltlp": "\"id\"명과 일치하는 선택자 요소를 선택",
+                            "value": "#id"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Universal_selectors",
+                            "tooltlp": "모든 요소를 선택",
+                            "value": "*"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Type_selectors",
+                            "tooltlp": "선택자와 일치하는 요소를 선택",
+                            "value": "element"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/cssref/sel_element_comma.asp",
+                            "tooltlp": "\",\" 기준으로 일치하는 선택자들의 모든 요소를 선택",
+                            "value": "element, element"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Descendant_selectors",
+                            "tooltlp": "선택자 요소 내의 모든 선택자 요소를 선택",
+                            "value": "element element"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Child_selectors",
+                            "tooltlp": "부모가 선택자 요소 인 모든 선택자 요소를 선택",
+                            "value": "element > element"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Adjacent_sibling_selectors",
+                            "tooltlp": "선택자 요소 바로 뒤에 배치 된 모든 선택자 요소를 선택",
+                            "value": "element + element"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors",
+                            "tooltlp": "선택자 속성이 있는 모든 요소를 선택",
+                            "value": "[attribute]"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors",
+                            "tooltlp": "선택자 속성 값이 \"{값}\"과 일치하는 모든 요소를 선택",
+                            "value": "[attribute=value]"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors",
+                            "tooltlp": "선택자 속성 값이 공백으로 구분된 \"{값}\"를 포함하는 속성을 가진 모든 요소를 선택",
+                            "value": "[attribute~=value]"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors",
+                            "tooltlp": "선택자 속성 값이 \"{값}\"으로 시작하는 속성 값을 가진 모든 요소를 선택",
+                            "value": "[attribute|=value]"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors",
+                            "tooltlp": "선택자 요소가 앞에 오는 모든 선택자 요소를 선택",
+                            "value": "element1 ~ element2"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors",
+                            "tooltlp": "선택자 속성 값이 \"{값}\"으로 시작하는 모든 선택자 요소를 선택",
+                            "value": "[attribute^=value]"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/cssref/sel_attr_end.asp",
+                            "tooltlp": "선택자 속성 값이 \"{값}\"으로 끝나는 모든 선택자 요소를 선택",
+                            "value": "[attribute$=value]"
+                        },
+                        {
+                            "link": "http://www.w3schools.com/cssref/sel_attr_contain.asp",
+                            "tooltlp": "선택자 속성 값이 \"{값}\"을 포함된 모든 선택자 요소를 선택",
+                            "value": "[attribute*=value]"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Pseudo-Selectors",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:link",
+                            "tooltlp": "방문하지 않은 모든 링크를 선택",
+                            "value": ":link"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:visited",
+                            "tooltlp": "방문한 모든 링크를 선택",
+                            "value": ":visited"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:active",
+                            "tooltlp": "활성 링크를 선택",
+                            "value": ":active"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:hover",
+                            "tooltlp": "마우스 오버 링크를 선택",
+                            "value": ":hover"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:focus",
+                            "tooltlp": "포커스가있는 입력 요소를 선택",
+                            "value": ":focus"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/::first-letter",
+                            "tooltlp": "선택자 요소의 첫 글자를 선택",
+                            "value": ":first-letter"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:first-line",
+                            "tooltlp": "선택자 요소의 첫 번째 줄을 선택",
+                            "value": ":first-line"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:first-child",
+                            "tooltlp": "부모의 첫 번째 자식 인 모든 선택자 요소를 선택",
+                            "value": ":first-child"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:before",
+                            "tooltlp": "선택자 요소 앞에 내용 삽입",
+                            "value": ":before"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:after",
+                            "tooltlp": "선택자 요소 뒤에 내용 삽입",
+                            "value": ":after"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:lang",
+                            "tooltlp": "lang 속성 값을 가진 선택자 요소를 선택",
+                            "value": ":lang(language)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:first-of-type",
+                            "tooltlp": "부모의 첫 번째 선택자 요소 인 모든 선택자 요소를 선택",
+                            "value": ":first-of-type"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:last-of-type",
+                            "tooltlp": "부모의 마지막 선택자 요소 인 모든 선택자 요소를 선택",
+                            "value": ":last-of-type"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:only-of-type",
+                            "tooltlp": "부모의 유일한 선택자 요소 인 모든 선택자 요소를 선택",
+                            "value": ":only-of-type"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:only-child",
+                            "tooltlp": "부모의 유일한 자식 인 모든 선택자 요소를 선택",
+                            "value": ":only-child"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:nth-child",
+                            "tooltlp": "부모의 두 번째 자식 인 모든 선택자 요소를 선택",
+                            "value": ":nth-child(n)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:nth-last-child",
+                            "tooltlp": "마지막 자식부터 세어 부모의 두 번째 자식 인 모든 선택자 요소를 선택",
+                            "value": ":nth-last-child(n)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:nth-of-type",
+                            "tooltlp": "부모의 두 번째 <p> 요소 인 모든 선택자 요소를 선택",
+                            "value": ":nth-of-type(n)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:last-child",
+                            "tooltlp": "부모의 마지막 자식 인 모든 선택자 요소를 선택",
+                            "value": ":last-child"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:not",
+                            "tooltlp": "인수로 표시되지 않은 요소를 선택",
+                            "value": ":not"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:root",
+                            "tooltlp": "문서의 루트 요소를 선택",
+                            "value": ":root"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:empty",
+                            "tooltlp": "자식이없는 모든 선택자 요소를 선택(텍스트 노드 포함)",
+                            "value": ":empty"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:target",
+                            "tooltlp": "현재 활성 #news 요소를 선택(해당 앵커 이름이 포함 된 URL을 클릭 함)",
+                            "value": ":target"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:enabled",
+                            "tooltlp": "활성화 된 모든 <input> 요소를 선택",
+                            "value": ":enabled"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:disabled",
+                            "tooltlp": "비활성화 된 모든 <input> 요소를 선택",
+                            "value": ":disabled"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/:checked",
+                            "tooltlp": "선택 된 모든 <input> 요소를 선택",
+                            "value": ":checked"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/::selection",
+                            "tooltlp": "사용자가 선택한 요소 부분을 선택",
+                            "value": "::selection"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Style",
+            "items": [
+                {
+                    "subject": "Background",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background",
+                            "tooltlp": "한 번의 선언으로 모든 배경 속성을 설정",
+                            "value": "background"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-attachment",
+                            "tooltlp": "배경 이미지를 고정할지 또는 나머지 페이지와 함께 스크롤 할지를 설정",
+                            "value": "background-attachment"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-color",
+                            "tooltlp": "요소의 배경색을 설정",
+                            "value": "background-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-image",
+                            "tooltlp": "요소의 배경 이미지를 설정",
+                            "value": "background-image"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-position",
+                            "tooltlp": "배경 이미지의 시작 위치를 설정",
+                            "value": "background-position"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-repeat",
+                            "tooltlp": "배경 이미지가 반복되는 방법을 설정",
+                            "value": "background-repeat"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-clip",
+                            "tooltlp": "배경의 페인팅 영역을 지정",
+                            "value": "background-clip"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-origin",
+                            "tooltlp": "배경 이미지의 위치 영역을 지정",
+                            "value": "background-origin"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/background-size",
+                            "tooltlp": "배경 이미지의 크기를 지정",
+                            "value": "background-size"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Color",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/opacity",
+                            "tooltlp": "요소의 불투명도 수준을 설정",
+                            "value": "opacity"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Font",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font",
+                            "tooltlp": "한 번의 선언으로 모든 글꼴 속성을 설정",
+                            "value": "font"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-family",
+                            "tooltlp": "텍스트의 폰트 패밀리를 지정",
+                            "value": "font-family"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-size",
+                            "tooltlp": "텍스트의 글꼴 크기를 지정",
+                            "value": "font-size"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-style",
+                            "tooltlp": "텍스트의 글꼴 스타일을 지정",
+                            "value": "font-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-variant",
+                            "tooltlp": "텍스트를 작은 대문자로 표시할지 여부를 지정",
+                            "value": "font-variant"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-weight",
+                            "tooltlp": "글꼴의 무게를 지정",
+                            "value": "font-weight"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/@font-face",
+                            "tooltlp": "웹 사이트가 \"web-safe\" 글꼴 이외의 글꼴을 다운로드하여 사용할 수있게하는 규칙",
+                            "value": "@font-face"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-size-adjust",
+                            "tooltlp": "글꼴 대체가 발생할 때 텍스트의 가독성 유지",
+                            "value": "font-size-adjust"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/font-stretch",
+                            "tooltlp": "서체 패밀리에서 일반, 압축 또는 확장면을 선택",
+                            "value": "font-stretch"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Positioning",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/bottom",
+                            "tooltlp": "배치 된 요소의 하단 위치를 지정",
+                            "value": "bottom"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/clear",
+                            "tooltlp": "다른 부동 요소가 허용되지 않는 요소의 측면을 지정",
+                            "value": "clear"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/cursor",
+                            "tooltlp": "표시 할 커서 유형을 지정",
+                            "value": "cursor"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/display",
+                            "tooltlp": "특정 HTML 요소를 표시하는 방법을 지정",
+                            "value": "display"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/float",
+                            "tooltlp": "상자를 띄울 지 여부를 지정",
+                            "value": "float"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/left",
+                            "tooltlp": "배치 된 요소의 왼쪽 위치를 지정",
+                            "value": "left"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/overflow",
+                            "tooltlp": "내용이 요소 상자에 넘칠 경우 발생하는 상황을 지정",
+                            "value": "overflow"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/position",
+                            "tooltlp": "요소에 사용되는 위치 결정 방법의 유형을 지정(static, relative, absolute, fixed)",
+                            "value": "position"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/right",
+                            "tooltlp": "배치 된 요소의 오른쪽 위치를 지정",
+                            "value": "right"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/top",
+                            "tooltlp": "배치 된 요소의 상단 위치를 지정",
+                            "value": "top"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/visibility",
+                            "tooltlp": "요소의 표시 여부를 지정",
+                            "value": "visibility"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/z-index",
+                            "tooltlp": "배치 된 요소의 스택 순서를 설정",
+                            "value": "z-index"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Elements",
+            "items": [
+                {
+                    "subject": "Hyperlink",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/a",
+                            "tooltlp": "target-name, target-new, target-position 속성을 설정하기위한 속기 속성",
+                            "value": "target"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Text",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/color",
+                            "tooltlp": "텍스트 색상을 설정",
+                            "value": "color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/direction",
+                            "tooltlp": "텍스트 방향/쓰기 방향을 지정",
+                            "value": "direction"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/letter-spacing",
+                            "tooltlp": "텍스트에서 문자 사이의 간격을 늘리거나 줄임",
+                            "value": "letter-spacing"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/line-height",
+                            "tooltlp": "선 높이를 설정",
+                            "value": "line-height"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-align",
+                            "tooltlp": "텍스트의 가로 맞춤을 지정",
+                            "value": "text-align"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-decoration",
+                            "tooltlp": "텍스트에 추가 된 장식을 지정",
+                            "value": "text-decoration"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-indent",
+                            "tooltlp": "텍스트 블록에서 첫 번째 줄의 들여 쓰기를 지정",
+                            "value": "text-indent"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-transform",
+                            "tooltlp": "텍스트의 대문자를 제어",
+                            "value": "text-transform"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/unicode-bidi",
+                            "tooltlp": "문서에서 양방향 텍스트를 처리하는 방법을 결정",
+                            "value": "unicode-bidi"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/vertical-align",
+                            "tooltlp": "요소의 수직 정렬을 설정",
+                            "value": "vertical-align"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/white-space",
+                            "tooltlp": "요소 내부의 공백 처리 방법을 지정",
+                            "value": "white-space"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/word-spacing",
+                            "tooltlp": "텍스트에서 단어 사이의 간격을 늘리거나 줄임",
+                            "value": "word-spacing"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-overflow",
+                            "tooltlp": "포함하는 요소에 텍스트가 넘칠 때 발생하는 동작을 지정",
+                            "value": "text-overflow"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-shadow",
+                            "tooltlp": "텍스트에 그림자를 추가",
+                            "value": "text-shadow"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-wrap",
+                            "tooltlp": "텍스트의 줄 바꿈 규칙을 지정",
+                            "value": "text-wrap"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/word-break",
+                            "tooltlp": "CJK 이외의 스크립트에 대한 줄 바꿈 규칙을 지정",
+                            "value": "word-break"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/word-wrap",
+                            "tooltlp": "길고 깨지지 않는 단어를 깨뜨리고 다음 줄로 줄 바꿈",
+                            "value": "word-wrap"
+                        }
+                    ]
+                },
+                {
+                    "subject": "List",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/list-style",
+                            "tooltlp": "한 번의 선언에서 목록의 모든 속성을 설정",
+                            "value": "list-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/list-style-image",
+                            "tooltlp": "이미지를 목록 항목 마커로 지정",
+                            "value": "list-style-image"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/list-style-position",
+                            "tooltlp": "목록 항목 마커가 컨텐츠 플로우 내부 또는 외부에 표시되어야하는지 여부를 지정",
+                            "value": "list-style-position"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/list-style-type",
+                            "tooltlp": "목록 항목 마커의 유형을 지정",
+                            "value": "list-style-type"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Table",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-collapse",
+                            "tooltlp": "테이블 테두리를 축소할지 여부를 지정",
+                            "value": "border-collapse"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/border-spacing",
+                            "tooltlp": "인접한 셀의 경계 사이의 거리를 지정",
+                            "value": "border-spacing"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/caption-side",
+                            "tooltlp": "테이블 캡션의 배치를 지정",
+                            "value": "caption-side"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/empty-cells",
+                            "tooltlp": "테이블의 빈 셀에 테두리 및 배경을 표시할지 여부를 지정",
+                            "value": "empty-cells"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/table-layout",
+                            "tooltlp": "테이블에 사용될 레이아웃 알고리즘을 설정",
+                            "value": "table-layout"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "CSS3 Box",
+            "items": [
+                {
+                    "subject": "Box",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/overflow-x",
+                            "tooltlp": "내용이 요소의 내용 영역을 오버플로하는 경우 내용의 왼쪽/오른쪽 가장자리를 자를 지 여부를 지정",
+                            "value": "overflow-x"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/overflow-y",
+                            "tooltlp": "내용이 요소의 내용 영역을 오버플로하는 경우 내용의 위쪽/아래쪽 가장자리를자를 지 여부를 지정",
+                            "value": "overflow-y"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/overflow",
+                            "tooltlp": "오버플로 된 요소에 대한 기본 스크롤 방법을 지정",
+                            "value": "overflow-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transform-function",
+                            "tooltlp": "rotation-point 속성으로 정의 된 지정된 점을 중심으로 요소를 회전",
+                            "value": "rotation"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Flexible Box",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex",
+                            "tooltlp": "플렉스 컨테이너에서 사용 가능한 공간에 맞게 플렉스 항목이 늘어나거나 줄어드는 방법을 설정",
+                            "value": "flex"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex-basis",
+                            "tooltlp": "플렉스 아이템의 초기 기본 크기를 설정",
+                            "value": "flex-basis"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex-direction",
+                            "tooltlp": "주축과 방향(정상 또는 반전)을 정의하는 플렉스 컨테이너에 플렉스 항목을 배치하는 방법을 설정",
+                            "value": "flex-direction"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex-flow",
+                            "tooltlp": "플렉스 방향 및 플렉스 랩 속성",
+                            "value": "flex-flow"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex-grow",
+                            "tooltlp": "플렉스 항목 기본 크기의 플렉스 성장 계수를 설정",
+                            "value": "flex-grow"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex-shrink",
+                            "tooltlp": "플렉스 아이템의 플렉스 수축 계수를 설정 모든 플렉스 아이템의 크기가 플렉스 컨테이너보다 큰 경우",
+                            "value": "flex-shrink"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/flex-wrap",
+                            "tooltlp": "플렉스 항목을 한 줄에 강제로 적용할지 아니면 여러 줄로 래핑 할 수 있는지 설정",
+                            "value": "flex-wrap"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/order",
+                            "tooltlp": "플렉스 또는 그리드 컨테이너에 항목 배치 순서를 설정",
+                            "value": "order"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Grid Layout",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid",
+                            "tooltlp": "모든 명시적 그리드 속성(grid-template-rows, grid-template-columns, grid-template-areas)과 모든 암시적 그리드 속성(grid-auto-rows, grid-auto-columns, grid-auto-flow)",
+                            "value": "grid"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area",
+                            "tooltlp": "grid-row-start, grid-column-start, grid-row-end, grid-column-end, 그리드에 선, 스팬 또는 아무것도 없는(자동)기능을 제공하여 그리드 내의 그리드 항목의 크기와 위치를 지정 그리드 영역의 가장자리를 지정하여 배치",
+                            "value": "grid-area"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns",
+                            "tooltlp": "내재적으로 작성된 그리드 열 트랙의 크기를 지정",
+                            "value": "grid-auto-columns"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow",
+                            "tooltlp": "자동 배치 알고리즘이 작동하는 방식을 제어하고, 자동 배치 된 항목이 그리드로 유입되는 방식을 정확하게 지정",
+                            "value": "grid-auto-flow"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows",
+                            "tooltlp": "내재적으로 작성된 그리드 행 트랙의 크기를 지정",
+                            "value": "grid-auto-rows"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column",
+                            "tooltlp": "그리드 배열, 스팬 또는 아무것도 없는(자동)기능을 그리드 배치에 기여하여 그리드 열 내의 그리드 항목의 크기와 위치를 지정하여 그리드 영역의 인라인 시작 및 인라인 끝 가장자리를 지정하는 grid-column-start 와 grid-column-end의 속기 속성",
+                            "value": "grid-column"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-end",
+                            "tooltlp": "선, 스팬 또는 아무것도 없는(자동)기능을 그리드 배치에 기여하여 그리드 열의 그리드 항목의 끝 위치를 지정하여 그리드 영역의 블록 끝 가장자리를 지정",
+                            "value": "grid-column-end"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start",
+                            "tooltlp": "그리드 위치에 선, 스팬 또는 아무것도 없는(자동)기능을 기여하여 그리드 열 내에서 그리드 항목의 시작 위치를 지정. 이 시작 위치는 그리드 영역의 블록 시작 가장자리를 정의",
+                            "value": "grid-column-start"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/gap",
+                            "tooltlp": "행과 열 사이의 간격(gutters)을 설정. row-gap 및 column-gap의 약어",
+                            "value": "grid-gap"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row",
+                            "tooltlp": "그리드 배치에 라인, 스팬 또는 아무것도 없는(자동)기능을 기여하고 그리드 영역의 인라인 시작 및 인라인 끝 가장자리를 지정함으로써 그리드 행 내의 그리드 항목의 크기와 위치를 지정하는 그리드 열 시작 및 그리드 행의 속기",
+                            "value": "grid-row"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-end",
+                            "tooltlp": "그리드 배치에 선, 스팬 또는 아무것도 없는(자동)기능을 기여하여 그리드 행 내의 그리드 항목의 끝 위치를 지정하여 그리드 영역의 인라인 끝 가장자리를 지정",
+                            "value": "grid-row-end"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-start",
+                            "tooltlp": "그리드 배치에 선, 스팬 또는 아무것도 없는(자동)기능을 기여하고 그리드 영역의 인라인 시작 가장자리를 지정하여 그리드 행 내에서 그리드 항목의 시작 위치를 지정",
+                            "value": "grid-row-start"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template",
+                            "tooltlp": "그리드 열, 행 및 영역을 정의하기위한 속기 속성",
+                            "value": "grid-template"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas",
+                            "tooltlp": "명명 된 그리드 영역을 지정",
+                            "value": "grid-template-areas"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns",
+                            "tooltlp": "그리드 열의 라인 이름 및 트랙 크기 조정 기능을 정의",
+                            "value": "grid-template-columns"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows",
+                            "tooltlp": "그리드 행의 라인 이름 및 트랙 크기 조정 기능을 정의",
+                            "value": "grid-template-rows"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Multi Column",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-count",
+                            "tooltlp": "요소를 나눌 열 수를 지정",
+                            "value": "column-count"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-fill",
+                            "tooltlp": "열을 채우는 방법을 지정",
+                            "value": "column-fill"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-gap",
+                            "tooltlp": "열 사이의 간격을 지정",
+                            "value": "column-gap"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-rule",
+                            "tooltlp": "모든 column-rule- * 속성을 설정하기위한 속기 속성",
+                            "value": "column-rule"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-rule-color",
+                            "tooltlp": "열 사이의 규칙 색상을 지정",
+                            "value": "column-rule-color"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-rule-style",
+                            "tooltlp": "열 사이의 규칙 스타일을 지정",
+                            "value": "column-rule-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-rule-width",
+                            "tooltlp": "열 사이의 규칙 너비를 지정",
+                            "value": "column-rule-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-span",
+                            "tooltlp": "요소가 몇 개의 열에 걸쳐 있어야하는지 지정",
+                            "value": "column-span"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/column-width",
+                            "tooltlp": "열 너비를 지정",
+                            "value": "column-width"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/columns",
+                            "tooltlp": "열 너비 및 열 수를 설정하기위한 속기 속성",
+                            "value": "columns"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Animation",
+            "items": [
+                {
+                    "subject": "Animation",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation",
+                            "tooltlp": "animation-play-state 속성을 제외한 아래의 모든 애니메이션 속성에 대한 속기 속성",
+                            "value": "animation"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-name",
+                            "tooltlp": "@keyframes 애니메이션의 이름을 지정",
+                            "value": "animation-name"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-duration",
+                            "tooltlp": "애니메이션이 한주기를 완료하는 데 걸리는 시간(초 또는 밀리 초)을 지정",
+                            "value": "animation-duration"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-timing-function",
+                            "tooltlp": "애니메이션의 속도 곡선을 지정",
+                            "value": "animation-timing-function"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-delay",
+                            "tooltlp": "애니메이션 시작 시간을 지정",
+                            "value": "animation-delay"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-fill-mode",
+                            "tooltlp": "애니메이션 실행 전후 애니메이션 애니메이션 적용 여부를 지정",
+                            "value": "animation-fill-mode"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-iteration-count",
+                            "tooltlp": "애니메이션을 재생할 횟수를 지정",
+                            "value": "animation-iteration-count"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-direction",
+                            "tooltlp": "대체주기에서 애니메이션을 반대로 재생할지 여부를 지정",
+                            "value": "animation-direction"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/animation-play-state",
+                            "tooltlp": "애니메이션이 실행 중인지 일시 중지되었는지를 지정",
+                            "value": "animation-play-state"
+                        }
+                    ]
+                },
+                {
+                    "subject": "2D/3D Transform",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transform",
+                            "tooltlp": "요소에 2D 또는 3D 변형을 적용",
+                            "value": "transform"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transform-origin",
+                            "tooltlp": "변환 된 요소의 위치를 ​​변경할 수 있음",
+                            "value": "transform-origin"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transform-style",
+                            "tooltlp": "3D 공간에서 중첩 요소를 렌더링하는 방법을 지정",
+                            "value": "transform-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/perspective",
+                            "tooltlp": "3D 요소를 보는 방법에 대한 관점을 지정",
+                            "value": "perspective"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/perspective-origin",
+                            "tooltlp": "3D 요소의 하단 위치를 지정",
+                            "value": "perspective-origin"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/backface-visibility",
+                            "tooltlp": "화면을 향하지 않을 때 요소를 표시해야하는지 여부를 정의",
+                            "value": "backface-visibility"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Transition",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transition",
+                            "tooltlp": "transition-property, transition-duration, transition-timing-function, transition-delay 속성을 설정하기위한 속기 속성",
+                            "value": "transition"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transition-property",
+                            "tooltlp": "전환 효과의 CSS 속성 이름을 지정",
+                            "value": "transition-property"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transition-duration",
+                            "tooltlp": "전환 효과를 완료하는 데 몇 초 또는 밀리 초를 지정",
+                            "value": "transition-duration"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transition-timing-function",
+                            "tooltlp": "전환 효과의 속도 곡선을 지정",
+                            "value": "transition-timing-function"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/transition-delay",
+                            "tooltlp": "전환 효과가 시작되는시기를 지정",
+                            "value": "transition-delay"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Miscellaneous",
+            "items": [
+                {
+                    "subject": "At-rule",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@charset",
+                            "tooltlp": "문자 인코딩을 지정",
+                            "value": "@charset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@import",
+                            "tooltlp": "다른 스타일 시트에서 스타일 규칙을 가져 오는 데 사용",
+                            "value": "@import"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace",
+                            "tooltlp": "CSS 스타일 시트에서 사용될 XML 네임 스페이스를 정의",
+                            "value": "@namespace"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media",
+                            "tooltlp": "하나 이상의 미디어 쿼리 결과를 기반으로 스타일 시트의 일부를 적용하는 데 사용할 수 있음",
+                            "value": "@media"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@supports",
+                            "tooltlp": "하나 이상의 특정 CSS 기능에 대한 브라우저의 지원에 의존하는 선언을 지정할 수 있음",
+                            "value": "@supports"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@document",
+                            "tooltlp": "문서의 URL을 기반으로 포함 된 스타일 규칙을 제한함",
+                            "value": "@document"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@page",
+                            "tooltlp": "문서를 인쇄 할 때 일부 CSS 속성을 수정하는 데 사용",
+                            "value": "@page"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face",
+                            "tooltlp": "텍스트를 표시 할 사용자 정의 글꼴을 지정",
+                            "value": "@font-face"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/@keyframes",
+                            "tooltlp": "애니메이션을 지정",
+                            "value": "@keyframes"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport",
+                            "tooltlp": "문서를 볼 수있는 뷰포트를 구성 할 수 있음",
+                            "value": "@viewport"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style",
+                            "tooltlp": "사전 정의 된 스타일 세트에 속하지 않는 카운터 스타일을 정의 할 수 있음",
+                            "value": "@counter-style"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-feature-values",
+                            "tooltlp": "OpenType에서 다르게 활성화 된 기능의 font-variant-alternates 속성에 공통 이름을 사용할 수 있음",
+                            "value": "@font-feature-values"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Print",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/break-after",
+                            "tooltlp": "요소 다음에 페이지 해제 동작 설정",
+                            "value": "break-after"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/break-before",
+                            "tooltlp": "요소 앞에 페이지 해제 동작 설정",
+                            "value": "reak-before"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/break-inside",
+                            "tooltlp": "요소 내부의 페이지 해제 동작 설정",
+                            "value": "break-inside"
+                        }
+                    ]
+                },
+                {
+                    "subject": "User Interface",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/appearance",
+                            "tooltlp": "요소를 표준 사용자 인터페이스 요소처럼 보이게 할 수 있음",
+                            "value": "appearance"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/box-sizing",
+                            "tooltlp": "특정 방식으로 영역에 맞게 특정 요소를 정의 할 수 있음",
+                            "value": "box-sizing"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/outline-offset",
+                            "tooltlp": "요소의 윤곽선과 가장자리 또는 테두리 사이의 공간을 설정",
+                            "value": "outline-offset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/resize",
+                            "tooltlp": "요소의 크기 조정 여부 및 크기 조정 여부 설정",
+                            "value": "resize"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Page",
+            "items": [
+                {
+                    "subject": "Generated Content",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/content",
+                            "tooltlp": "생성 된 컨텐츠를 삽입하기 위해 : before 및 : after 의사 요소와 함께 사용",
+                            "value": "content"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/counter-increment",
+                            "tooltlp": "하나 이상의 카운터 증가",
+                            "value": "counter-increment"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/counter-reset",
+                            "tooltlp": "하나 이상의 카운터를 만들거나 재설정",
+                            "value": "counter-reset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/quotes",
+                            "tooltlp": "따옴표 유형을 설정",
+                            "value": "quotes"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

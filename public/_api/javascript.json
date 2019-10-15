@@ -1,0 +1,1975 @@
+{
+    "cards": [
+        {
+            "title": "Core DOM",
+            "items": [
+                {
+                    "subject": "Nodelist Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NodeList#Properties",
+                            "tooltlp": "컬렉션의 노드 수를 반환",
+                            "value": "length"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Nodelist Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NodeList.item",
+                            "tooltlp": "지정된 인덱스의 노드를 노드리스트로 돌려줌",
+                            "value": "item()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "NamedNodeMap Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NamedNodeMap#Properties",
+                            "tooltlp": "컬렉션의 노드 수를 반환",
+                            "value": "length"
+                        }
+                    ]
+                },
+                {
+                    "subject": "NamedNodeMap Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NamedNodeMap#Methods",
+                            "tooltlp": "지정된 노드를 이름별로 반환",
+                            "value": "getNamedItem()"
+                        },
+                        {
+                            "tooltlp": "지정된 노드를 이름 및 네임 스페이스별로 반환합니다.",
+                            "value": "getNamedItemNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NamedNodeMap#Methods",
+                            "tooltlp": "namedNodeMap의 지정된 색인에있는 노드를 리턴",
+                            "value": "item()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NamedNodeMap#Methods",
+                            "tooltlp": "지정된 노드를 이름별로 제거",
+                            "value": "removeNamedItem()"
+                        },
+                        {
+                            "tooltlp": "지정된 노드를 이름 및 네임 스페이스별로 제거",
+                            "value": "removeNamedItemNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/NamedNodeMap#Methods",
+                            "tooltlp": "지정된 노드를 이름으로 설정",
+                            "value": "setNamedItem()"
+                        },
+                        {
+                            "tooltlp": "지정된 노드를 이름 및 네임 스페이스별로 설정",
+                            "value": "setNamedItemNS()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Document Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.doctype",
+                            "tooltlp": "document와 연관된 Document Type 선언을 리턴",
+                            "value": "doctype"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.documentElement",
+                            "tooltlp": "document의 document 요소 (HTML 요소)를 반환",
+                            "value": "documentElement"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.documentURI",
+                            "tooltlp": "document의 위치를 설정하거나 반환",
+                            "value": "documentURI"
+                        },
+                        {
+                            "tooltlp": "normalizeDocument()가 호출 될 때 사용 된 구성을 리턴",
+                            "value": "domConfig"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.implementation",
+                            "tooltlp": "문서를 처리하는 DOMImplementation 객체를 돌려줌",
+                            "value": "implementation"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.inputEncoding",
+                            "tooltlp": "document에 사용 된 인코딩, 문자열을 리턴",
+                            "value": "inputEncoding"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Document Methods",
+                    "list": [
+                        {
+                            "tooltlp": "document에서 다른 document를 채택하고 채택된 노드를 반환",
+                            "value": "adoptNode(node)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.createAttribute",
+                            "tooltlp": "속성 노드를 만듬",
+                            "value": "createAttribute()"
+                        },
+                        {
+                            "tooltlp": "지정된 이름과 namspaceURI로 속성을 만듬",
+                            "value": "createAttributeNS(URI,name)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.createCDATASection",
+                            "tooltlp": "지정된 텍스트로 CDATA노드를 작성. XML DOM 적용",
+                            "value": "createCDATASection()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.createComment",
+                            "tooltlp": "지정된 텍스트로 주석 노드를 작성",
+                            "value": "createComment()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.createDocumentFragment",
+                            "tooltlp": "빈 DocumentFragment 노드를 만듬",
+                            "value": "createDocumentFragment()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.createElement",
+                            "tooltlp": "요소 노드를 만듬",
+                            "value": "createElement()"
+                        },
+                        {
+                            "tooltlp": "지정된 네임 스페이스로 요소를 만듬",
+                            "value": "createElementNS()"
+                        },
+                        {
+                            "tooltlp": "EntityReference 노드를 만듬. XML DOM 전용",
+                            "value": "createProcessingInstruction()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.createTextNode",
+                            "tooltlp": "텍스트 노드를 만듬",
+                            "value": "createTextNode()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.getElementById",
+                            "tooltlp": "지정된 값을 가진 ID 속성을 가진 요소를 반환",
+                            "value": "getElementById()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.getElementsByTagName",
+                            "tooltlp": "지정된 태그 이름을 가진 모든 요소를 ​​포함하는 NodeList를 리턴",
+                            "value": "getElementsByTagName()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByName",
+                            "tooltlp": "(X)HTML 문서에서 주어진 이름을 가진 요소 목록을 반환",
+                            "value": "getElementsByName()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Document.querySelectorAll",
+                            "tooltlp": "지정된 CSS 선택기와 일치하는 모든 요소를 ​​포함하는 NodeList를 리턴",
+                            "value": "querySelectorAll()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Document.querySelector",
+                            "tooltlp": "지정된 CSS 선택기와 일치하는 첫 번째 요소를 반환",
+                            "value": "querySelector()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.getElementsByTagNameNS",
+                            "tooltlp": "지정된 namespaceURI 및 태그 이름을 가진 모든 요소를 ​​포함하는 NodeList를 리턴",
+                            "value": "getElementsByTagNameNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.importNode",
+                            "tooltlp": "다른 문서에서 노드를 가져옴",
+                            "value": "importNode()"
+                        },
+                        {
+                            "tooltlp": "빈 텍스트 노드를 제거하고 인접한 노드를 결합",
+                            "value": "normalizeDocument()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Element Properties",
+                    "list": [
+                        {
+                            "tooltlp": "요소의 타입 정보를 반환",
+                            "value": "schemaTypeInfo"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.tagName",
+                            "tooltlp": "요소의 태그 이름을 반환",
+                            "value": "tagName"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Element Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getAttribute",
+                            "tooltlp": "지정된 속성 값을 반환",
+                            "value": "getAttribute()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getAttributeNS",
+                            "tooltlp": "정된 네임 스페이스와 함께 지정된 속성 값을 반환. XML DOM 전용",
+                            "value": "getAttributeNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getAttributeNode",
+                            "tooltlp": "지정된 속성 노드를 반환",
+                            "value": "getAttributeNode()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getAttributeNodeNS",
+                            "tooltlp": "지정된 네임 스페이스와 함께 지정된 속성 노드를 반환. XML DOM 전용",
+                            "value": "getAttributeNodeNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getElementsByTagName",
+                            "tooltlp": "Returns a collection of all child elements with the specified tagname",
+                            "value": "getElementsByTagName()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getElementsByTagNameNS",
+                            "tooltlp": "지정된 태그 이름과 네임 스페이스를 가진 모든 하위 요소의 컬렉션을 반환. XML DOM 전용",
+                            "value": "getElementsByTagNameNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.hasAttribute",
+                            "tooltlp": "요소에 지정된 속성이 있으면 true를, 그렇지 않으면 false를 반환",
+                            "value": "hasAttribute()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.hasAttributeNS",
+                            "tooltlp": "요소에 지정된 네임 스페이스와 함께 지정된 특성이 있으면 true를, 그렇지 않으면 false를 반환. XML DOM 전용",
+                            "value": "hasAttributeNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.removeAttribute",
+                            "tooltlp": "지정된 속성을 제거",
+                            "value": "removeAttribute()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.removeAttributeNS",
+                            "tooltlp": "지정된 이름과 네임 스페이스를 가진 속성을 제거. XML DOM 전용",
+                            "value": "removeAttributeNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.removeAttributeNode",
+                            "tooltlp": "지정된 속성 노드를 제거하고 제거 된 노드를 반환",
+                            "value": "removeAttributeNode()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.setAttribute",
+                            "tooltlp": "지정된 속성을 지정된 값으로 설정하거나 변경",
+                            "value": "setAttribute()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.setAttributeNS",
+                            "tooltlp": "지정된 네임 스페이스를 사용하여 지정된 특성을 지정된 값으로 설정하거나 변경. XML DOM 전용",
+                            "value": "setAttributeNS()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.setAttributeNode",
+                            "tooltlp": "지정된 속성 노드를 설정하거나 변경",
+                            "value": "setAttributeNode()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/element.setAttribute",
+                            "tooltlp": "지정된 속성 노드를 설정하거나 변경",
+                            "value": "setAttributeNodeNS()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Attr Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Attr#Properties",
+                            "tooltlp": "반환",
+                            "value": "isId"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Attr#Properties",
+                            "tooltlp": "속성의 이름을 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Attr#Properties",
+                            "tooltlp": "이 속성이 속한 요소를 반환",
+                            "value": "ownerElement"
+                        },
+                        {
+                            "tooltlp": "속성의 타입 정보를 반환",
+                            "value": "schemaTypeInfo"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Attr#Properties",
+                            "tooltlp": "반환",
+                            "value": "specified"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/Attr#Properties",
+                            "tooltlp": "속성 값을 설정하거나 반환",
+                            "value": "value"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Basic Objects",
+            "items": [
+                {
+                    "subject": "Array Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/Constructor",
+                            "tooltlp": "Array 객체의 프로토 타입을 만든 함수를 반환",
+                            "value": "constructor"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/Length",
+                            "tooltlp": "배열의 요소 수를 설정하거나 반환",
+                            "value": "length"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/prototype",
+                            "tooltlp": "rray 객체에 속성과 메서드를 추가 할 수 있음",
+                            "value": "prototype"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Array Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/concat",
+                            "tooltlp": "둘 이상의 배열을 결합하고 결합 된 배열의 복사본을 반환",
+                            "value": "concat()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/indexOf",
+                            "tooltlp": "배열에서 요소를 검색하고 위치를 반환",
+                            "value": "indexOf()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/join",
+                            "tooltlp": "배열의 모든 요소를 ​​문자열로 결합",
+                            "value": "join()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/lastIndexOf",
+                            "tooltlp": "끝에서 시작하여 배열에서 요소를 검색하고 위치를 반환",
+                            "value": "lastIndexOf()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/pop",
+                            "tooltlp": "배열의 마지막 요소를 제거하고 해당 요소를 반환",
+                            "value": "pop()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/push",
+                            "tooltlp": "배열의 끝에 새로운 요소를 추가하고 새로운 길이를 반환",
+                            "value": "push()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/reverse",
+                            "tooltlp": "배열의 요소 순서를 반대로 바꿈",
+                            "value": "reverse()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/shift",
+                            "tooltlp": "배열의 첫 번째 요소를 제거하고 해당 요소를 반환",
+                            "value": "shift()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/slice",
+                            "tooltlp": "배열의 일부를 선택하고 새 배열을 반환",
+                            "value": "slice()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/sort",
+                            "tooltlp": "배열의 요소를 정렬",
+                            "value": "sort()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/splice",
+                            "tooltlp": "배열에서 요소를 추가/제거",
+                            "value": "splice()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/toString",
+                            "tooltlp": "배열을 문자열로 변환하고 결과를 반환",
+                            "value": "toString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/unshift",
+                            "tooltlp": "배열의 시작 부분에 새로운 요소를 추가하고 새로운 길이를 반환",
+                            "value": "unshift()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Object/valueOf",
+                            "tooltlp": "배열의 프리미티브 값을 반환",
+                            "value": "valueOf()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Boolean Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean/constructor",
+                            "tooltlp": "Boolean 객체의 프로토 타입을 만든 함수를 반환",
+                            "value": "constructor"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Boolean/prototype",
+                            "tooltlp": "Boolean 객체에 속성 및 메서드를 추가 할 수 있음",
+                            "value": "prototype"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Boolean Methods",
+                    "list": [
+                        {
+                            "link": "http://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/ToString",
+                            "tooltlp": "Boolean 값을 문자열로 변환하고 결과를 반환",
+                            "value": "toString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean/valueOf",
+                            "tooltlp": "부울 객체의 프리미티브 값을 반환",
+                            "value": "valueOf()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Math Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/E",
+                            "tooltlp": "Euler's number를 반환(약 2.718)",
+                            "value": "E"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/LN2",
+                            "tooltlp": "2의 자연 로그를 반환(약 0.693)",
+                            "value": "LN2"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/LN10",
+                            "tooltlp": "10의 자연 로그를 반환(약 2.302)",
+                            "value": "LN10"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/LOG2E",
+                            "tooltlp": "E의 밑이 2 인 로그 값을 반환(약 1.442)",
+                            "value": "LOG2E"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/LOG10E",
+                            "tooltlp": "E의 밑이 10 인 로그를 반환합(약 0.434)",
+                            "value": "LOG10E"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/PI",
+                            "tooltlp": "PI를 반환(약 3.14)",
+                            "value": "PI"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/SQRT1_2",
+                            "tooltlp": "1/2의 제곱근을 반환(약 0.707)",
+                            "value": "SQRT1_2"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/SQRT2",
+                            "tooltlp": "2의 제곱근을 반환(약 1.414)",
+                            "value": "SQRT2"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Math Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/abs",
+                            "tooltlp": "x의 절대 값을 반환",
+                            "value": "abs()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/acos",
+                            "tooltlp": "x의 arccosine을 radians로 반환",
+                            "value": "acos()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/asin",
+                            "tooltlp": "x의 arccosine을 radians로 반환",
+                            "value": "asin()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/atan",
+                            "tooltlp": "x의 arctangent를 -PI/2와 PI/2 radian 사이의 숫자 값으로 반환",
+                            "value": "atan()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/atan2",
+                            "tooltlp": "인수의 몫의 arctangent를 반환",
+                            "value": "atan2()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/ceil",
+                            "tooltlp": "가장 가까운 정수로 반올림 한 x를 반환",
+                            "value": "ceil()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/cos",
+                            "tooltlp": "x의 cosine을 반환(x는 radians)",
+                            "value": "cos()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/exp",
+                            "tooltlp": "Ex의 값을 반환",
+                            "value": "exp()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/floor",
+                            "tooltlp": "가장 가까운 정수로 내림차순으로 x를 반환",
+                            "value": "floor()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/log",
+                            "tooltlp": "x의 자연 로그(기본 E)를 반환",
+                            "value": "log()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/max",
+                            "tooltlp": "가장 높은 값을 가진 숫자를 반환",
+                            "value": "max()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/min",
+                            "tooltlp": "가장 낮은 값을 가진 숫자를 반환",
+                            "value": "min()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/pow",
+                            "tooltlp": "x의 값을 y의 거듭 제곱으로 반환",
+                            "value": "pow()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/random",
+                            "tooltlp": "0과 1 사이의 난수를 반환",
+                            "value": "random()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/round",
+                            "tooltlp": "x를 가장 가까운 정수로 반올림",
+                            "value": "round()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/sin",
+                            "tooltlp": "x의 sine을 반환(x는 radians)",
+                            "value": "sin()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/sqrt",
+                            "tooltlp": "x의 제곱근을 반환",
+                            "value": "sqrt()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Math/tan",
+                            "tooltlp": "각도의 탄젠트를 반환",
+                            "value": "tan()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Number Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/Constructor",
+                            "tooltlp": "Number객체의 프로토 타입을 만든 함수를 반환",
+                            "value": "constructor"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/MAX_VALUE",
+                            "tooltlp": "JavaScript에서 가능한 가장 큰 수를 반환",
+                            "value": "MAX_VALUE"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/MIN_VALUE",
+                            "tooltlp": "avaScript에서 가능한 가장 작은 수를 반환",
+                            "value": "MIN_VALUE"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/NEGATIVE_INFINITY",
+                            "tooltlp": "음의 무한대를 나타냄(overflow로 반환)",
+                            "value": "NEGATIVE_INFINITY"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/POSITIVE_INFINITY",
+                            "tooltlp": "무한대를 나타냄(overflow로 반환)",
+                            "value": "POSITIVE_INFINITY"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/prototype",
+                            "tooltlp": "객체에 속성과 메서드를 추가 할 수 있음",
+                            "value": "prototype"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Number Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/toExponential",
+                            "tooltlp": "숫자를 지수 표기법으로 변환",
+                            "value": "toExponential(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/toFixed",
+                            "tooltlp": "소수점 뒤에 x 자리 숫자로 숫자를 형식화함",
+                            "value": "toFixed(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/toPrecision",
+                            "tooltlp": "숫자를 x길이로 포맷",
+                            "value": "toPrecision(x)"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/toString",
+                            "tooltlp": "Number객체를 문자열로 변환",
+                            "value": "toString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Number/valueOf",
+                            "tooltlp": "Number객체의 프리미티브 값을 반환",
+                            "value": "valueOf()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "String Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/Constructor",
+                            "tooltlp": "String객체의 프로토 타입을 만든 함수를 반환",
+                            "value": "constructor"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/Length",
+                            "tooltlp": "문자열의 길이를 반환",
+                            "value": "length"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/Name",
+                            "tooltlp": "객체에 속성과 메서드를 추가 할 수 있음",
+                            "value": "prototype"
+                        }
+                    ]
+                },
+                {
+                    "subject": "String Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/charAt",
+                            "tooltlp": "지정된 인덱스의 문자를 반환",
+                            "value": "charAt()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/charCodeAt",
+                            "tooltlp": "지정된 색인에서 문자의 유니 코드를 리턴",
+                            "value": "charCodeAt()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/concat",
+                            "tooltlp": "둘 이상의 문자열을 결합하고 결합 된 문자열의 복사본을 반환",
+                            "value": "concat()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/fromCharCode",
+                            "tooltlp": "유니 코드 값을 문자로 변환",
+                            "value": "fromCharCode()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/indexOf",
+                            "tooltlp": "문자열에서 지정된 값이 처음 발견 된 위치를 반환",
+                            "value": "indexOf()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/lastIndexOf",
+                            "tooltlp": "문자열에서 지정된 값이 마지막으로 발견 된 위치를 반환",
+                            "value": "lastIndexOf()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/match",
+                            "tooltlp": "정규식과 문자열 사이의 일치를 검색하고 일치를 반환",
+                            "value": "match()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/replace",
+                            "tooltlp": "하위 문자열(또는 정규식)과 문자열 간의 일치를 검색하고 일치하는 하위 문자열을 새 하위 문자열로 바꿈",
+                            "value": "replace()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/search",
+                            "tooltlp": "정규식과 문자열 사이의 일치를 검색하고 일치 위치를 반환",
+                            "value": "search()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/slice",
+                            "tooltlp": "문자열의 일부를 추출하여 새 문자열을 반환",
+                            "value": "slice()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/split",
+                            "tooltlp": "문자열을 하위 문자열 배열로 분할",
+                            "value": "split()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/substr",
+                            "tooltlp": "지정된 시작 위치에서 시작하여 지정된 수의 문자를 통해 문자열에서 문자를 추출",
+                            "value": "substr()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/substring",
+                            "tooltlp": "지정된 두 인덱스 사이에서 문자열에서 문자를 추출",
+                            "value": "substring()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/toLowerCase",
+                            "tooltlp": "문자열을 소문자로 변환",
+                            "value": "toLowerCase()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/toUpperCase",
+                            "tooltlp": "문자열을 대문자로 변환",
+                            "value": "toUpperCase()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/valueOf",
+                            "tooltlp": "String 객체의 프리미티브 값을 반환",
+                            "value": "valueOf()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Global Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Infinity",
+                            "tooltlp": "양수/음수 무한대를 나타내는 숫자 값",
+                            "value": "InfinityInfinity"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/NaN",
+                            "tooltlp": "\"Not-a-Number\"값",
+                            "value": "NaN"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/undefined",
+                            "tooltlp": "변수에 값이 할당되지 않았 음을 나타냄",
+                            "value": "undefined"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Global Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/decodeURI",
+                            "tooltlp": "URI를 디코딩",
+                            "value": "decodeURI()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/decodeURIComponent",
+                            "tooltlp": "URI 구성 요소를 디코딩",
+                            "value": "decodeURIComponent()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/encodeURI",
+                            "tooltlp": "URI를 인코딩",
+                            "value": "encodeURI(()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/encodeURIComponent",
+                            "tooltlp": "URI 구성 요소를 인코딩",
+                            "value": "encodeURIComponent()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Functions?redirectlocale=en-US&redirectslug=Core_JavaScript_1.5_Guide%2FFunctions#escape_and_unescape_functions",
+                            "tooltlp": "문자열을 인코딩",
+                            "value": "escape()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/eval",
+                            "tooltlp": "문자열을 평가하여 마치 스크립트 코드 인 것처럼 실행",
+                            "value": "eval()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/isFinite",
+                            "tooltlp": "값이 유한하고 유효한 숫자인지 확인",
+                            "value": "isFinite()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/isNaN",
+                            "tooltlp": "값이 잘못된 숫자인지 확인",
+                            "value": "isNaN()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/parseFloat",
+                            "tooltlp": "객체의 값을 숫자로 변환",
+                            "value": "Number()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/parseFloat",
+                            "tooltlp": "문자열을 구문 분석하고 부동 소수점 숫자를 반환",
+                            "value": "parseFloat()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/parseInt",
+                            "tooltlp": "문자열을 파싱하고 정수를 반환",
+                            "value": "parseInt()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String",
+                            "tooltlp": "객체의 값을 문자열로 변환",
+                            "value": "String()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Guide/Functions?redirectlocale=en-US&redirectslug=Core_JavaScript_1.5_Guide%2FFunctions#escape_and_unescape_functions",
+                            "tooltlp": "인코딩 된 문자열을 디코딩",
+                            "value": "unescape()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Date Object",
+            "items": [
+                {
+                    "subject": "Date Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Date/constructor",
+                            "tooltlp": "Date 객체의 프로토 타입을 만든 함수를 반환",
+                            "value": "constructor"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/prototype",
+                            "tooltlp": "객체에 속성과 메서드를 추가 할 수 있음",
+                            "value": "prototype"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Date Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getDate",
+                            "tooltlp": "월의 일을 반환(1~31일)",
+                            "value": "getDate()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getDay",
+                            "tooltlp": "요일을 반환(0-6).",
+                            "value": "getDay()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getFullYear",
+                            "tooltlp": "연도를 반환(4자리).",
+                            "value": "getFullYear()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getHours",
+                            "tooltlp": "시간을 반환(0-23).",
+                            "value": "getHours()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getMilliseconds",
+                            "tooltlp": "밀리 초를 반환(0-999)",
+                            "value": "getMilliseconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getMinutes",
+                            "tooltlp": "분을 반환(0-59)",
+                            "value": "getMinutes()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getMonth",
+                            "tooltlp": "월을 반환(0-11)",
+                            "value": "getMonth()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getSeconds",
+                            "tooltlp": "초를 반환(0-59)",
+                            "value": "getSeconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getTime",
+                            "tooltlp": "1970년 1월 1일 자정 이후의 밀리 초 수를 반환",
+                            "value": "getTime()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset",
+                            "tooltlp": "GMT와 현지 시간의 시차를 분 단위로 반환",
+                            "value": "getTimezoneOffset()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCDate",
+                            "tooltlp": "1-31의 표준시를 기준으로 월의 일을 반환",
+                            "value": "getUTCDate()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCDay",
+                            "tooltlp": "표준시(0-6)에 따라 요일을 반환",
+                            "value": "getUTCDay()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCFullYear",
+                            "tooltlp": "표준시(4자리)에 따라 연도를 반환",
+                            "value": "getUTCFullYear()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCHours",
+                            "tooltlp": "표준시(0-23)에 따라 시간을 반환",
+                            "value": "getUTCHours()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCMilliseconds",
+                            "tooltlp": "표준시(0-999)에 따라 밀리 초를 반환",
+                            "value": "getUTCMilliseconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCMinutes",
+                            "tooltlp": "표준시(0-59)에 따라 분을 반환",
+                            "value": "getUTCMinutes()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCMonth",
+                            "tooltlp": "표준시(0 ~ 11)에 따라 월을 반환",
+                            "value": "getUTCMonth()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/getUTCSeconds",
+                            "tooltlp": "표준시(0-59)에 따라 초를 반환",
+                            "value": "getUTCSeconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/parse",
+                            "tooltlp": "1970년 1월 1일 자정 이후 날짜 문자열을 구문 분석하고 밀리 초 수를 반환",
+                            "value": "parse()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setDate",
+                            "tooltlp": "날짜 객체의 날짜를 설정",
+                            "value": "setDate()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setFullYear",
+                            "tooltlp": "날짜 객체의 연도(4자리)를 설정",
+                            "value": "setFullYear()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setHours",
+                            "tooltlp": "날짜 객체의 시간을 설정",
+                            "value": "setHours()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setMilliseconds",
+                            "tooltlp": "날짜 객체의 밀리 초를 설정",
+                            "value": "setMilliseconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setMinutes",
+                            "tooltlp": "날짜 객체의 분 설정",
+                            "value": "setMinutes()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setMonth",
+                            "tooltlp": "날짜 객체의 월을 설정",
+                            "value": "setMonth()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setSeconds",
+                            "tooltlp": "날짜 객체의 초를 설정",
+                            "value": "setSeconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setTime",
+                            "tooltlp": "1970년 1월 1일 자정에 지정된 밀리 초를 더하거나 빼서 날짜와 시간을 설정",
+                            "value": "setTime()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCDate",
+                            "tooltlp": "표준시에 따라 날짜 객체의 월의 날짜를 설정",
+                            "value": "setUTCDate()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCFullYear",
+                            "tooltlp": "표준시(4자리)에 따라 날짜 객체의 연도를 설정",
+                            "value": "setUTCFullYear()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCHours",
+                            "tooltlp": "표준시에 따라 날짜 객체의 시간을 설정",
+                            "value": "setUTCHours()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCMilliseconds",
+                            "tooltlp": "표준시에 따라 날짜 객체의 밀리 초를 설정",
+                            "value": "setUTCMilliseconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCMinutes",
+                            "tooltlp": "표준시에 따라 날짜 개체의 분을 설정",
+                            "value": "setUTCMinutes()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCMonth",
+                            "tooltlp": "표준시에 따라 날짜 객체의 월을 설정",
+                            "value": "setUTCMonth()"
+                        },{
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCSeconds",
+                            "tooltlp": "표준시에 따라 날짜 객체의 초를 설정",
+                            "value": "setUTCSeconds()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toDateString",
+                            "tooltlp": "Date객체의 날짜 부분을 읽을 수있는 문자열로 변환",
+                            "value": "toDateString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toISOString",
+                            "tooltlp": "ISO 표준을 사용하여 날짜를 문자열로 반환",
+                            "value": "toISOString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toJSON",
+                            "tooltlp": "JSON 날짜 형식의 날짜를 문자열로 반환",
+                            "value": "toJSON()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toLocaleDateString",
+                            "tooltlp": "로캘 규칙을 사용하여 Date객체의 날짜 부분을 문자열로 반환",
+                            "value": "toLocaleDateString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString",
+                            "tooltlp": "로캘 규칙을 사용하여 Date객체의 시간 부분을 문자열로 반환",
+                            "value": "toLocaleTimeString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toLocaleString",
+                            "tooltlp": "로캘 규칙을 사용하여 Date객체를 문자열로 변환",
+                            "value": "toLocaleString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toString",
+                            "tooltlp": "Date객체를 문자열로 변환",
+                            "value": "toString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toTimeString",
+                            "tooltlp": "Date객체의 시간 부분을 문자열로 변환",
+                            "value": "toTimeString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/toUTCString",
+                            "tooltlp": "표준시에 따라 Date객체를 문자열로 변환",
+                            "value": "toUTCString()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/UTC",
+                            "tooltlp": "1970년 1월 1일 자정 이후 날짜 문자열에서 밀리 초 수를 표준시로 반환",
+                            "value": "UTC()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/valueOf",
+                            "tooltlp": "Date객체의 프리미티브 값을 반환",
+                            "value": "valueOf()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Browser",
+            "items": [
+                {
+                    "subject": "Window Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.closed",
+                            "tooltlp": "윈도우가 닫혔는지 여부를 나타내는 부울 값을 반환",
+                            "value": "closed"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.defaultStatus",
+                            "tooltlp": "창의 상태 표시 줄에 기본 텍스트를 설정하거나 반환",
+                            "value": "defaultStatus"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.document",
+                            "tooltlp": "윈도우의 Document 객체를 반환",
+                            "value": "document"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.frames",
+                            "tooltlp": "현재 윈도우의 모든 프레임(iframe 포함)의 배열을 반환",
+                            "value": "frames"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.history",
+                            "tooltlp": "윈도우의 히스토리 오브젝트를 리턴",
+                            "value": "history"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.innerHeight",
+                            "tooltlp": "윈도우 내용 영역의 내부 높이를 설정하거나 반환",
+                            "value": "innerHeight"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.innerWidth",
+                            "tooltlp": "윈도우 내용 영역의 내부 너비를 설정하거나 반환",
+                            "value": "innerWidth"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.length",
+                            "tooltlp": "윈도우에서 프레임 수(iframe 포함)를 반환",
+                            "value": "length"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location",
+                            "tooltlp": "윈도우의 Location객체를 반환",
+                            "value": "location"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.name",
+                            "tooltlp": "윈도우의 이름을 설정하거나 반환",
+                            "value": "name"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator",
+                            "tooltlp": "윈도우의 네비게이터 객체를 반환",
+                            "value": "navigator"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.opener",
+                            "tooltlp": "윈도우을 만든 창에 대한 참조를 반환",
+                            "value": "opener"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.outerHeight",
+                            "tooltlp": "툴바/스크롤바를 포함하여 윈도우의 외부 높이를 설정하거나 반환",
+                            "value": "outerHeight"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.outerWidth",
+                            "tooltlp": "툴바/스크롤바를 포함하여 윈도우의 외부 너비를 설정하거나 반환",
+                            "value": "outerWidth"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.scrollX",
+                            "tooltlp": "윈도우의 왼쪽 위 모서리에서 현재 document가 가로로 스크롤 된 픽셀을 반환",
+                            "value": "pageXOffset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.scrollY",
+                            "tooltlp": "현재 document가 윈도우의 왼쪽 위 모서리에서(수직으로) 스크롤 된 픽셀을 반환",
+                            "value": "pageYOffset"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.parent",
+                            "tooltlp": "현재 window창의 부모 window창을 반환",
+                            "value": "parent"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.screen",
+                            "tooltlp": "의 Screen 객체를 반환",
+                            "value": "screen"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.screen.left",
+                            "tooltlp": "화면을 기준으로 window창의 x 좌표를 반환",
+                            "value": "screenLeft"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.screen.top",
+                            "tooltlp": "화면을 기준으로 window창의 y 좌표를 반환",
+                            "value": "screenTop"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.screenX",
+                            "tooltlp": "화면을 기준으로 window창의 x 좌표를 반환",
+                            "value": "screenX"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.screenY",
+                            "tooltlp": "화면을 기준으로 window창의 y 좌표를 반환",
+                            "value": "screenY"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.self",
+                            "tooltlp": "현재 window창을 반환",
+                            "value": "self"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.status",
+                            "tooltlp": "window창의 상태 표시 줄에 텍스트를 설정",
+                            "value": "status"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.top",
+                            "tooltlp": "최상위 브라우저 창을 반환",
+                            "value": "top"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Window Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.alert",
+                            "tooltlp": "메시지와 확인 버튼이있는 경고 상자를 표시",
+                            "value": "alert()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.blur",
+                            "tooltlp": "현재 창에서 초점을 제거",
+                            "value": "blur()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.clearInterval",
+                            "tooltlp": "setInterval()으로 설정된 타이머를 지움",
+                            "value": "clearInterval()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.clearTimeout",
+                            "tooltlp": "setTimeout()으로 설정된 타이머를 지움",
+                            "value": "clearTimeout()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.close",
+                            "tooltlp": "현재 창을 닫음",
+                            "value": "close()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.confirm",
+                            "tooltlp": "메시지와 확인 및 취소 버튼이있는 대화 상자를 표시",
+                            "value": "confirm()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.focus",
+                            "tooltlp": "현재 창에 초점을 설정",
+                            "value": "focus()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.moveBy",
+                            "tooltlp": "현재 위치를 기준으로 창을 이동",
+                            "value": "moveBy()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.moveTo",
+                            "tooltlp": "창을 지정된 위치로 이동",
+                            "value": "moveTo()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.open",
+                            "tooltlp": "새 브라우저 창 열기",
+                            "value": "open()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.print",
+                            "tooltlp": "현재 창의 내용을 인쇄",
+                            "value": "print()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.prompt",
+                            "tooltlp": "사용자에게 입력을 요구하는 대화 상자를 표시",
+                            "value": "prompt()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.resizeBy",
+                            "tooltlp": "지정된 픽셀로 window창 크기를 조정",
+                            "value": "resizeBy()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.resizeTo",
+                            "tooltlp": "window창을 지정된 너비와 높이로 조정",
+                            "value": "resizeTo()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.scrollBy",
+                            "tooltlp": "지정된 픽셀 수만큼 내용을 스크롤",
+                            "value": "scrollBy()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.scrollTo",
+                            "tooltlp": "내용을 지정된 좌표로 스크롤",
+                            "value": "scrollTo()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.setInterval",
+                            "tooltlp": "지정된 간격(밀리 초)으로 함수를 호출하거나 표현식을 평가",
+                            "value": "setInterval()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.setTimeout",
+                            "tooltlp": "지정된 밀리 초 후에 함수를 호출하거나 표현식을 평가",
+                            "value": "setTimeout()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Navigator Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.appCodeName",
+                            "tooltlp": "브라우저의 코드 이름을 반환",
+                            "value": "appCodeName"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.appName",
+                            "tooltlp": "브라우저의 이름을 반환",
+                            "value": "appName"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.appVersion",
+                            "tooltlp": "브라우저의 버전 정보를 반환",
+                            "value": "appVersion"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.cookieEnabled",
+                            "tooltlp": "브라우저에서 쿠키가 활성화되어 있는지 확인",
+                            "value": "cookieEnabled"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.platform",
+                            "tooltlp": "브라우저가 컴파일 된 플랫폼에 대한 리턴",
+                            "value": "platform"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.userAgent",
+                            "tooltlp": "브라우저가 서버로 보낸 사용자 에이전트 헤더를 반환",
+                            "value": "userAgent"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Navigator Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.javaEnabled",
+                            "tooltlp": "브라우저에 Java가 사용 가능한지 여부를 지정",
+                            "value": "javaEnabled()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/navigator.registerProtocolHandler",
+                            "tooltlp": "특정 프로토콜에 대해 가능한 처리기로 등록",
+                            "value": "registerProtocolHandler()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Screen Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en/DOM/window.screen.availWidth",
+                            "tooltlp": "화면 너비를 반환(Windows 작업 표시 줄 제외)",
+                            "value": "availWidth"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/DOM/window.screen.availHeight",
+                            "tooltlp": "화면 높이를 반환(Windows 작업 표시 줄 제외)",
+                            "value": "availHeight"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/DOM/window.screen.colorDepth",
+                            "tooltlp": "이미지를 표시하기위한 색상 표의 비트 심도를 반환",
+                            "value": "colorDepth"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/DOM/window.screen.height",
+                            "tooltlp": "화면의 총 높이를 반환",
+                            "value": "height"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/DOM/window.screen.pixelDepth",
+                            "tooltlp": "화면의 색상 해상도(픽셀 당 비트 수)를 반환",
+                            "value": "pixelDepth"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en/DOM/window.screen.width",
+                            "tooltlp": "화면의 총 너비를 반환",
+                            "value": "width"
+                        }
+                    ]
+                },
+                {
+                    "subject": "History Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.history",
+                            "tooltlp": "기록 목록의 URL 수를 반환",
+                            "value": "length"
+                        }
+                    ]
+                },
+                {
+                    "subject": "History Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.history",
+                            "tooltlp": "히스토리 목록에서 이전 URL을로드함",
+                            "value": "back()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.history",
+                            "tooltlp": "기록 목록에서 다음 URL을로드함",
+                            "value": "forward()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.history",
+                            "tooltlp": "히스토리 목록에서 특정 URL을로드함",
+                            "value": "go()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Location Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "URL의 앵커 부분을 반환",
+                            "value": "hash"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "URL의 호스트 이름과 포트를 반환",
+                            "value": "host"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "URL의 호스트 이름을 반환",
+                            "value": "hostname"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "전체 URL을 반환",
+                            "value": "href"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "URL의 경로 이름을 반환",
+                            "value": "pathname"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "서버가 URL에 사용하는 포트 번호를 반환",
+                            "value": "port"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "URL의 프로토콜을 반환",
+                            "value": "protocol"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "URL의 쿼리 부분을 반환",
+                            "value": "search"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Location Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Methods",
+                            "tooltlp": "새 document를 로드",
+                            "value": "assign()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Methods",
+                            "tooltlp": "현재 document를 새로 고침",
+                            "value": "reload()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Methods",
+                            "tooltlp": "현재 document를 새 document로 교체",
+                            "value": "replace()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Graphics",
+            "items": [
+                {
+                    "subject": "CanvasRenderingContext2D Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#arc()",
+                            "tooltlp": "startAngle에서 시작하고 endAngle에서 끝나는 방향으로 중심이(x, y) 위치에있는 경로에 호를 추가하여 반 시계 방향으로 주어진 방향으로 이동(기본값은 시계 방향)",
+                            "value": "arc()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#arcTo()",
+                            "tooltlp": "주어진 제어점과 반지름으로 호를 추가하고 직선으로 이전 점에 연결",
+                            "value": "arcTo()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#beginPath()",
+                            "tooltlp": "하위 경로 목록을 재설정하여 새 경로를 시작. 새 경로를 만들려면이 메서드를 호출",
+                            "value": "beginPath()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#bezierCurveTo()",
+                            "tooltlp": "bezierCurveTo (in float cp1x, in float cp1y, in float cp2x, in float cp2y, in float x, in float y) 실행",
+                            "value": "bezierCurveTo()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#clearRect()",
+                            "tooltlp": "(x, y)에서 시작점으로 정의된 직사각형을 지우고 w 너비와 h 높이를 가짐",
+                            "value": "clearRect()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#clip()",
+                            "tooltlp": "현재 하위 경로에서 클리핑 경로를 만듬. clip()이 호출 된 후 그려진 모든 내용은 클리핑 경로에만 나타남. 예를 들어, 캔버스 자습서의 클리핑 경로를 참조",
+                            "value": "clip()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#closePath()",
+                            "tooltlp": "현재 점에서 시작점까지 직선을 그리려고 시도함. 도형이 이미 닫혀 있거나 하나의 점만있는 경우이 함수는 아무 작업도 수행하지 않음",
+                            "value": "closePath()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#createImageData()",
+                            "tooltlp": "지정된 크기로 비어있는 새 ImageData 객체를 만듭니다. 새 객체의 모든 픽셀은 검은 색으로 투명함",
+                            "value": "createImageData()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#createLinearGradient()",
+                            "tooltlp": "nsIDOMCanvasGradient createLinearGradient (in float x0, in float y0, in float x1, in float y1)",
+                            "value": "createLinearGradient()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#createPattern()",
+                            "tooltlp": "sIDOMCanvasPattern createPattern (in nsIDOMHTMLElement image, in DOMString repetition)",
+                            "value": "createPattern()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#createRadialGradient()",
+                            "tooltlp": "nsIDOMCanvasGradient createRadialGradient (in float x0, in float y0, in float r0, in float x1, in float y1, in float r1)",
+                            "value": "createRadialGradient()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#drawCustomFocusRing()",
+                            "tooltlp": "drawCustomFocusRing(Element element) 불연산자",
+                            "value": "drawCustomFocusRing()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#drawImage()",
+                            "tooltlp": "지정된 이미지를 그림. 이 방법은 여러 형식으로 제공되므로 사용시 유연성이 크게 향상됨",
+                            "value": "drawImage()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#drawSystemFocusRing()",
+                            "tooltlp": "drawSystemFocusRing(Element element) 실행",
+                            "value": "drawSystemFocusRing()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#fill()",
+                            "tooltlp": "서브 패스를 현재 채우기 스타일로 채움",
+                            "value": "fill()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#fillRect()",
+                            "tooltlp": "너비와 높이로 크기가 결정되는 (x, y) 위치에 채워진 사각형을 그림",
+                            "value": "fillRect()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#fillText()",
+                            "tooltlp": "fillText (in DOMString text, in float x, in float y, in float maxWidth [optional]) 실행",
+                            "value": "fillText()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#getImageData()",
+                            "tooltlp": "(sx, sy)로 시작하고 sw 너비와 sh 높이를 갖는 사각형으로 표시되는 캔버스 영역의 기본 픽셀 데이터를 나타내는 ImageData 객체를 반환",
+                            "value": "getImageData()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#getLineDash()",
+                            "tooltlp": "음수가 아닌 짝수를 포함하는 대시리스트 배열을 반환",
+                            "value": "getLineDash()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#isPointInPath()",
+                            "tooltlp": "지정된 점이 현재 경로에 포함되어 있는지 여부를 보고함",
+                            "value": "isPointInPath()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#lineTo()",
+                            "tooltlp": "하위 경로의 마지막 점을 x, y 좌표에 직선으로 연결",
+                            "value": "lineTo()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#measureText()",
+                            "tooltlp": "nsIDOMTextMetrics measureText (in DOMString text) 실행",
+                            "value": "measureText()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#moveTo()",
+                            "tooltlp": "새 서브 패스의 시작점을 (x, y) 좌표로 이동",
+                            "value": "moveTomoveTo()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#putImageData()",
+                            "tooltlp": "putImageData (in long x, in long y, in unsigned long width, in unsigned long height, [array, size_is(dataLen)] in octet dataPtr, in unsigned long dataLen, in boolean hasDirtyRect, in long dirtyX, [optional] in long dirtyY, [optional] in long dirtyWidth, [optional] in long dirtyHeight [optional]) 실행",
+                            "value": "putImageData()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#quadraticCurveTo()",
+                            "tooltlp": "quadraticCurveTo (in float cpx, in float cpy, in float x, in float y) 실행",
+                            "value": "quadraticCurveTo()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#rect()",
+                            "tooltlp": "rect (in float x, in float y, in float w, in float h) 실행",
+                            "value": "rect()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#restore()",
+                            "tooltlp": "save()에 의해 저장된 '상태 스택'의 마지막 요소에 도면 스타일 상태를 복원",
+                            "value": "restore()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#rotate()",
+                            "tooltlp": "rotate (in float angle) 실행",
+                            "value": "rotate()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#save()",
+                            "tooltlp": "스택을 사용하여 현재 도면 스타일 상태를 저장하므로 restore()를 사용하여 변경 한 내용을 되돌릴 수 있음",
+                            "value": "save()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#scale()",
+                            "tooltlp": "scale (in float x, in float y) 실행",
+                            "value": "scale()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#scrollPathIntoView()",
+                            "tooltlp": "scrollPathIntoView() 실행",
+                            "value": "scrollPathIntoView()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#setLineDash()",
+                            "tooltlp": "setLineDash (sequence segments) 실행",
+                            "value": "setLineDash()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#setTransform()",
+                            "tooltlp": "setTransform (in float m11, in float m12, in float m21, in float m22, in float dx, in float dy) 실행",
+                            "value": "setTransform()"
+                        },{
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#stroke()",
+                            "tooltlp": "현재 선 스타일로 하위 경로 입력",
+                            "value": "stroke()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#strokeRect()",
+                            "tooltlp": "현재 획 스타일을 사용하여 시작점이 (x, y)이고 너비와 높이가 w 인 사각형을 그림",
+                            "value": "strokeRect()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#strokeText()",
+                            "tooltlp": "strokeText (in DOMString text, in float x, in float y, in float maxWidth [optional]) 실행",
+                            "value": "strokeText()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#transform()",
+                            "tooltlp": "transform (in float m11, in float m12, in float m21, in float m22, in float dx, in float dy) 실행",
+                            "value": "transform()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#translate()",
+                            "tooltlp": "컨텍스트의 원점을 (x, y)로 이동",
+                            "value": "translate()"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "RegExp",
+            "items": [
+                {
+                    "subject": "Modifiers",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Parameters",
+                            "tooltlp": "대소 문자를 구분하지 않는 match 수행",
+                            "value": "i"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Parameters",
+                            "tooltlp": "global match를 수행(첫 번째 match 이후에 멈추지 않고 모든 match를 찾음)",
+                            "value": "g"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Parameters",
+                            "tooltlp": "여러 줄 match 수행",
+                            "value": "m"
+                        }
+
+                    ]
+                },
+                {
+                    "subject": "Brackets",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "대괄호 사이의 문자를 찾기",
+                            "value": "[abc]"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "괄호 사이에없는 문자를 찾기",
+                            "value": "[^abc]"
+                        },
+                        {
+                            "tooltlp": "0에서 9까지의 숫자 찾기",
+                            "value": "[0-9]"
+                        },
+                        {
+                            "tooltlp": "대문자 A에서 대문자 Z까지의 문자 찾기",
+                            "value": "[A-Z]"
+                        },
+                        {
+                            "tooltlp": "소문자 a에서 소문자 z까지의 모든 문자를 찾기",
+                            "value": "[a-z]"
+                        },
+                        {
+                            "tooltlp": "대문자 A에서 소문자 z까지의 모든 문자를 찾기",
+                            "value": "[A-z]"
+                        },
+                        {
+                            "tooltlp": "주어진 세트에서 문자를 찾기",
+                            "value": "[adgk]"
+                        },
+                        {
+                            "tooltlp": "주어진 세트 밖의 문자를 찾기",
+                            "value": "[^adgk]"
+                        },
+                        {
+                            "tooltlp": "지정된 대안을 찾기",
+                            "value": "(red|blue|green)"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Metacharacters",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "줄 바꾸기 또는 줄 종결자를 제외한 단일 문자 찾기",
+                            "value": "."
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "단어 문자 찾기",
+                            "value": "\\w"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "단어가 아닌 문자 찾기",
+                            "value": "\\W"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "숫자 찾기",
+                            "value": "\\d"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "숫자가 아닌 문자 찾기",
+                            "value": "\\D"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "공백 문자 찾기",
+                            "value": "\\s"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "공백이 아닌 문자 찾기",
+                            "value": "\\S"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "단어의 시작/끝에서 일치하는 항목 찾기",
+                            "value": "\\b"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "단어의 시작/끝이 아닌 일치 항목 찾기",
+                            "value": "\\B"
+                        },
+                        {
+                            "tooltlp": "NUL 문자 찾기",
+                            "value": "\\0"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "줄 바꾸기 문자 찾기",
+                            "value": "\\n"
+                        },
+                        {
+                            "tooltlp": "form feed 문자 찾기",
+                            "value": "\\f"
+                        },
+                        {
+                            "tooltlp": "캐리지 리턴 문자 찾기",
+                            "value": "\\r"
+                        },
+                        {
+                            "tooltlp": "탭 문자 찾기",
+                            "value": "\\t"
+                        },
+                        {
+                            "tooltlp": "세로 탭 문자 찾기",
+                            "value": "\\v"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "8진수로 지정된 문자 찾기",
+                            "value": "\\xxx"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "16 진수로 지정된 문자 찾기",
+                            "value": "\\xdd"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "16 진수로 지정된 유니 코드 문자 찾기",
+                            "value": "\\uxxxx"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Quantifiers",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "하나 이상의 n을 포함하는 모든 문자열 찾기",
+                            "value": "n+"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "n이 0 이상인 문자열 찾기",
+                            "value": "n*"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "n이 0 또는 1 번 포함 된 문자열 찾기",
+                            "value": "n?"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "X n의 시퀀스를 포함하는 모든 문자열 찾기",
+                            "value": "n{X}"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "X에서 Y n의 시퀀스를 포함하는 모든 문자열 찾기",
+                            "value": "n{X,Y}"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "Matches any string that contains a sequence of at least X n's",
+                            "value": "n{X,}"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "문자열 끝에 n과 일치하는 문자열 찾기",
+                            "value": "n$"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "문자열의 시작 부분에 n이있는 문자열 찾기",
+                            "value": "^n"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "특정 문자열n 다음에 오는 문자열 찾기",
+                            "value": "?=n"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
+                            "tooltlp": "특정 문자열n 다음에 오는 문자열 찾기",
+                            "value": "?!n"
+                        }
+                    ]
+                },
+                {
+                    "subject": "RegExp Properties",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/global",
+                            "tooltlp": "\"g\" 수정자가 설정되어 있는지 여부를 지정",
+                            "value": "global"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/ignoreCase",
+                            "tooltlp": "\"i\" 수정자가 설정되어 있는지 여부를 지정",
+                            "value": "ignoreCase"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/lastIndex",
+                            "tooltlp": "다음에 시작하는 인덱스 찾기",
+                            "value": "lastIndex"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/multiline",
+                            "tooltlp": "\"m\" 수정자가 설정되어 있는지 여부를 지정",
+                            "value": "multiline"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/source",
+                            "tooltlp": "RegExp 패턴의 텍스트",
+                            "value": "source"
+                        }
+                    ]
+                },
+                {
+                    "subject": "RegExp Methods",
+                    "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/exec",
+                            "tooltlp": "문자열에서 일치를 테스트. 첫 번째 일치를 반환",
+                            "value": "exec()"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/test",
+                            "tooltlp": "문자열에서 일치를 테스트. 참 또는 거짓을 반환",
+                            "value": "test()"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

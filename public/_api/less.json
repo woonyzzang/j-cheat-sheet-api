@@ -1,0 +1,735 @@
+{
+    "cards": [
+        {
+            "title": "Syntax",
+            "items": [
+                {
+                    "subject": "Escaping",
+                    "list": [
+                        {
+                            "tooltlp": "LESS가 인식하지 못하는 문법을 개선",
+                            "value": "~\"anything\""
+                        }
+                    ]
+                },
+                {
+                    "subject": "Comments",
+                    "list": [
+                        {
+                            "tooltlp": "CSS에 컴파일된 /* */를 사용하여 정의된 주석과 그렇지 않은 //를 사용하여 정의된 주석",
+                            "value": "Comment"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Namespaces and Accessors",
+                    "list": [
+                        {
+                            "tooltlp": "네임스페이스는 공통 이름으로 혼합물을 그룹화하는 데 사용",
+                            "value": "Namespaces"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Scope",
+                    "list": [
+                        {
+                            "tooltlp": "가변 범위에서는 사용 가능한 변수의 위치를 지정. 변수는 로컬 범위에서 검색되고, 사용할 수 없는 경우, 컴파일러는 상위 범위에서 검색",
+                            "value": "Scope"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Style-Rules",
+            "items": [
+                {
+                    "subject": "Interpolation",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#variables-feature-variable-interpolation",
+                            "tooltlp": "\"@{}\"을(를) 사용하여 코드의 아무 곳에나 변수 값을 넣을 수 있음",
+                            "value": "@{variable}"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Parent Selectors",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#parent-selectors-feature-multiple-",
+                            "tooltlp": "상위 셀렉터를 반복적으로 참조할 수 있음",
+                            "value": "Multiple &"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#parent-selectors-feature-changing-selector-order",
+                            "tooltlp": "셀렉터를 상속된(상위) 셀렉터에 미리 추가하는 것이 유용할 수 있음",
+                            "value": "Changing Selector Order"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#parent-selectors-feature-combinatorial-explosion",
+                            "tooltlp": "& 또한 쉼표로 구분 된 목록에서 선택자의 가능한 모든 순열을 생성하는 데 사용할 수 있음",
+                            "value": "Combinatorial Explosion"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Variables",
+            "items": [
+                {
+                    "subject": "Variable",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#variables-feature-variable-variables",
+                            "tooltlp": "다른 변수를 사용하여 변수의 이름을 정의",
+                            "value": "@variable"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Lazy Evaluation",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#variables-feature-lazy-evaluation",
+                            "tooltlp": "변수를 사용하기 전에 선언할 필요가 없음",
+                            "value": "Declared"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Properties as Variables",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#variables-feature-properties-as-variables-new-",
+                            "tooltlp": "$prop 구문을 사용하여 속성을 변수처럼 쉽게 처리",
+                            "value": "$prop"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Default Variables",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#variables-feature-default-variables",
+                            "tooltlp": "변수가 아직 설정되지 않은 경우에만 변수를 설정하는 기능",
+                            "value": "Reassignment"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "At-Rules",
+            "items": [
+                {
+                    "subject": "Rules",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#extend-feature",
+                            "tooltlp": "\":extend()\"셀렉터가 참조하는 것과 일치하는 셀렉터를 병합",
+                            "value": "Extend"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#merge-feature",
+                            "tooltlp": "여러 속성의 값을 단일 속성 아래의 쉼표 또는 공간 구분 목록으로 집계할 수 있도록 허용",
+                            "value": "Merge"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#mixins-feature",
+                            "tooltlp": "스타일시트에서 재사용할 CSS 선언의 그룹을 정의",
+                            "value": "Mixins"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#css-guards-feature",
+                            "tooltlp": "css 선택자에 적용 할 수 있음, 이는 mixin을 선언한 다음 즉시 호출하기 위한 syntactic sugar",
+                            "value": "CSS Guards"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#import-atrules-feature",
+                            "tooltlp": "다른 스타일 시트에서 스타일 가져 오기",
+                            "value": "@import"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#plugin-atrules-feature",
+                            "tooltlp": "Less.js 함수 및 기능을 추가하기 위해 JavaScript 플러그인 가져 오기",
+                            "value": "@plugin"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#maps-feature",
+                            "tooltlp": "rulesets와 mixins을 값 맵으로 사용",
+                            "value": "Maps"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Detached Rulesets",
+            "items": [
+                {
+                    "subject": "Ruleset",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/features/#detached-rulesets-feature-scoping",
+                            "tooltlp": "분리된 규칙 집합은 모든 변수 및 혼합물을 정의되는 위치와 호출되는 위치에 액세스할 수 있음",
+                            "value": "Scoping"
+                        },
+                        {
+                            "link": "http://lesscss.org/features/#detached-rulesets-feature-property-variable-accessors",
+                            "tooltlp": "속성/변수 액세스자(\"lookups\")를 사용하여 변수(상세된) 규칙 집합에서 값을 선택할 수 있음",
+                            "value": "Property / variable accessors"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Operators",
+            "items": [
+                {
+                    "subject": "Equality",
+                    "list": [
+                        {
+                            "tooltlp": "두 값이 동일한지 여부 반환",
+                            "value": "==, !="
+                        }
+                    ]
+                },
+                {
+                    "subject": "Relational",
+                    "list": [
+                        {
+                            "tooltlp": "숫자가 서로 큰지 작은지를 결정",
+                            "value": ">, <, >=, <="
+                        }
+                    ]
+                },
+                {
+                    "subject": "Numeric",
+                    "list": [
+                        {
+                            "tooltlp": "수학적 연산자의 표준 집합을 지원",
+                            "value": "+, -, *, /, %"
+                        }
+                    ]
+                },
+                {
+                    "subject": "String",
+                    "list": [
+                        {
+                            "tooltlp": "문자열을 생성하는 몇 개의 연산자를 지원",
+                            "value": "\"expression\" + \"expression\""
+                        }
+                    ]
+                },
+                {
+                    "subject": "Boolean",
+                    "list": [
+                        {
+                            "tooltlp": "부울 연산자를 위해 기호보다는 단어를 사용",
+                            "value": "true and true, true or false"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Built-in Functions",
+            "items": [
+                {
+                    "subject": "Logical Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#logical-functions-if",
+                            "tooltlp": "조건에 따라 두 값 중 하나를 반환",
+                            "value": "if()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#logical-functions-boolean",
+                            "tooltlp": "참 또는 거짓으로 평가",
+                            "value": "boolean"
+                        }
+                    ]
+                },
+                {
+                    "subject": "String Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#string-functions-escape",
+                            "tooltlp": "입력 문자열에있는 특수 문자에 \"URL-encoding\"을 적용합",
+                            "value": "escape()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#string-functions-e",
+                            "tooltlp": "이스케이프 할 문자열",
+                            "value": "e()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#string-functions--format",
+                            "tooltlp": "함수 \"%(string, arguments ...)\" 문자열을 포맷",
+                            "value": "%()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#string-functions-replace",
+                            "tooltlp": "문자열 내에서 텍스트를 대체",
+                            "value": "replace()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "List Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#list-functions-length",
+                            "tooltlp": "값 목록의 요소 수를 반환",
+                            "value": "escape()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#list-functions-extract",
+                            "tooltlp": "목록에서 지정된 위치의 값을 반환",
+                            "value": "extract()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#list-functions-range",
+                            "tooltlp": "다양한 값에 걸친 목록 생성",
+                            "value": "range()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#list-functions-each",
+                            "tooltlp": "규칙 세트의 평가를 목록의 각 구성원에게 바인드",
+                            "value": "each()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Math Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-ceil",
+                            "tooltlp": "올림",
+                            "value": "ceil()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-floor",
+                            "tooltlp": "내림",
+                            "value": "floor()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-percentage",
+                            "tooltlp": "부동 소수점 숫자를 백분율 문자열로 변환",
+                            "value": "percentage()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-round",
+                            "tooltlp": "반올림",
+                            "value": "round()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-sqrt",
+                            "tooltlp": "숫자의 제곱근을 계산. 유닛을 그대로 유지",
+                            "value": "sqrt()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-abs",
+                            "tooltlp": "숫자의 절대 값을 계산. 유닛을 그대로 유지",
+                            "value": "abs()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-sin",
+                            "tooltlp": "사인 함수를 계산",
+                            "value": "sin()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-asin",
+                            "tooltlp": "아크 사인(사인의 역함수) 함수를 계산",
+                            "value": "asin()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-cos",
+                            "tooltlp": "코사인 함수를 계산",
+                            "value": "cos()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-acos",
+                            "tooltlp": "아크 코사인(코사인의 역) 함수를 계산",
+                            "value": "acos()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-tan",
+                            "tooltlp": "탄젠트 함수를 계산",
+                            "value": "tan()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-atan",
+                            "tooltlp": "아크 탄젠트(탄젠트의 역) 함수를 계산",
+                            "value": "atan()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-pi",
+                            "tooltlp": "π(pi)를 반환",
+                            "value": "pi()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-pow",
+                            "tooltlp": "첫 번째 인수의 값을 두 번째 인수의 거듭 제곱으로 올림",
+                            "value": "pow()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-mod",
+                            "tooltlp": "첫 번째 인수 계수 두 번째 인수의 값 반환",
+                            "value": "mod()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-min",
+                            "tooltlp": "하나 이상의 값 중 가장 낮은 값을 반환",
+                            "value": "min()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#math-functions-max",
+                            "tooltlp": "하나 이상의 값 중 가장 높은 값을 반환",
+                            "value": "max()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Type Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-isnumber",
+                            "tooltlp": "값이 숫자일 경우 true, 그렇지 않으면 false 반환",
+                            "value": "isnumber()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-isstring",
+                            "tooltlp": "값이 문자열이면 true, 그렇지 않으면 false 반환",
+                            "value": "isstring()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-iscolor",
+                            "tooltlp": "값이 색이면 true, 그렇지 않으면 false 반환",
+                            "value": "iscolor()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-iskeyword",
+                            "tooltlp": "값이 키워드일 경우 true, 그렇지 않으면 false 반환",
+                            "value": "iskeyword()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-isurl",
+                            "tooltlp": "값이 url이면 true, 그렇지 않으면 false 반환",
+                            "value": "isurl()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-ispixel",
+                            "tooltlp": "값이 픽셀 수인 경우 true를 반환하고 그렇지 않으면 false",
+                            "value": "ispixel()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-isem",
+                            "tooltlp": "값이 em 값이면 true, 그렇지 않으면 false 반환",
+                            "value": "isem()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-ispercentage",
+                            "tooltlp": "값이 백분율 값이면 true, 그렇지 않으면 false 반환",
+                            "value": "ispercentage()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-isunit",
+                            "tooltlp": "값이 지정된 단위의 숫자일 경우 true를 반환하고 그렇지 않으면 false를 반환함",
+                            "value": "isunit()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#type-functions-isruleset",
+                            "tooltlp": "값이 규칙 집합이면 true, 그렇지 않으면 false 반환",
+                            "value": "isruleset()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Misc Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-color",
+                            "tooltlp": "색상을 구문 분석하여 색을 나타내는 문자열이 색상이 됨",
+                            "value": "color()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-image-size",
+                            "tooltlp": "파일에서 이미지 치수 가져오기",
+                            "value": "image-size()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-image-width",
+                            "tooltlp": "파일에서 이미지 너비 가져오기",
+                            "value": "image-width()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-image-height",
+                            "tooltlp": "파일에서 이미지 높이 가져오기",
+                            "value": "image-height()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-convert",
+                            "tooltlp": "숫자를 한 단위에서 다른 단위로 변환",
+                            "value": "convert()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-data-uri",
+                            "tooltlp": "ieCompat 옵션이 켜져 있고 리소스가 너무 크거나 브라우저에서 기능을 사용하는 경우 리소스를 인라인으로 지정하고 url()로 돌아감",
+                            "value": "data-uri()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-default",
+                            "tooltlp": "가드 조건 내에서만 사용 가능, 다른 혼합물이 일치하지 않을 경우에만 참으로 반환, 그렇지 않을 경우 거짓",
+                            "value": "default()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-unit",
+                            "tooltlp": "치수 단위 제거 또는 변경",
+                            "value": "unit()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-get-unit",
+                            "tooltlp": "숫자의 단위를 반환",
+                            "value": "get-unit()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#misc-functions-svg-gradient",
+                            "tooltlp": "multi-stop svg 그라데이션 생성",
+                            "value": "svg-gradient()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Color Definition Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-rgb",
+                            "tooltlp": "10진수 빨간색, 녹색 및 파란색(RGB) 값으로 불투명 색상 객체 생성",
+                            "value": "rgb()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-rgba",
+                            "tooltlp": "10진수 빨간색, 녹색, 파란색 및 알파(RGBA) 값으로 투명 색상 객체 생성",
+                            "value": "rgba()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-argb",
+                            "tooltlp": "#AARRGGBB 형식(NOT #RRGGBBAA!)으로 색상의 16진수 표시 생성",
+                            "value": "argb()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-hsl",
+                            "tooltlp": "색상, 채도 및 광도(HSL) 값에서 불투명 색상 객체 생성",
+                            "value": "hsl()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-hsla",
+                            "tooltlp": "색상, 채도, 밝기 및 알파(HSLA) 값에서 투명 색상 객체 생성",
+                            "value": "hsla()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-hsv",
+                            "tooltlp": "색상, 채도 및 값(HSV) 값에서 불투명 색상 객체 생성",
+                            "value": "hsv()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-definition-hsva",
+                            "tooltlp": "색상, 채도, 값 및 알파(HSVA) 값에서 투명 색상 객체 생성",
+                            "value": "hsva()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Color Channel Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-hue",
+                            "tooltlp": "HSL 색 공간에서 색 객체의 색 채널 추출",
+                            "value": "hue()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-saturation",
+                            "tooltlp": "HSL 색 공간에서 색 물체의 포화 채널 추출",
+                            "value": "saturation()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-lightness",
+                            "tooltlp": "HSL 색 공간에서 색 물체의 광도 채널 추출",
+                            "value": "lightness()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-hsvhue",
+                            "tooltlp": "HSV 색 공간에서 색 객체의 색 채널 추출",
+                            "value": "hsvhue()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-hsvsaturation",
+                            "tooltlp": "HSV 색 공간에서 색 물체의 포화 채널 추출",
+                            "value": "hsvsaturation()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-hsvvalue",
+                            "tooltlp": "HSV 색 공간에서 색 객체의 값 채널 추출",
+                            "value": "hsvvalue()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-red",
+                            "tooltlp": "색상 객체의 빨간색 채널 추출",
+                            "value": "red()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-green",
+                            "tooltlp": "색 객체의 녹색 채널 추출",
+                            "value": "green()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-blue",
+                            "tooltlp": "색상 객체의 파란색 채널 추출",
+                            "value": "blue()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-alpha",
+                            "tooltlp": "색상 객체의 알파 채널 추출",
+                            "value": "alpha()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-luma",
+                            "tooltlp": "색상 객체의 \"luma\"(인식 밝기) 계산",
+                            "value": "luma()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-channel-luminance",
+                            "tooltlp": "감마 보정 없이 루마 값 계산",
+                            "value": "luminance()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Color Operation Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-saturate",
+                            "tooltlp": "HSL 색 공간의 색 채도를 절대적 양만큼 증가",
+                            "value": "saturate()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-desaturate",
+                            "tooltlp": "HSL 색 공간의 색 채도 절대적 양만큼 감소",
+                            "value": "desaturate()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-lighten",
+                            "tooltlp": "HSL 색 공간에서 색상의 밝기를 절대적 양만큼 증가",
+                            "value": "lighten()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-darken",
+                            "tooltlp": "HSL 색 공간에서 색상의 밝기를 절대적 양으로 감소",
+                            "value": "darken()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-fadein",
+                            "tooltlp": "색상의 투명도를 낮추거나 불투명도를 높임",
+                            "value": "fadein()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-fadeout",
+                            "tooltlp": "색상의 투명도(또는 불투명도 감소)를 높여 불투명도가 낮아짐",
+                            "value": "fadeout()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-fade",
+                            "tooltlp": "색상의 불투명도 설정",
+                            "value": "fade()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-spin",
+                            "tooltlp": "색상의 색조 각도를 어느 방향 으로든 회전",
+                            "value": "spin()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-mix",
+                            "tooltlp": "두 가지 색을 가변 비율로 섞음. 불투명도 계산에 포함됨",
+                            "value": "mix()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-tint",
+                            "tooltlp": "가변 비율의 흰색과 혼합. mix(#ffffff, @color, @weight)와 같음",
+                            "value": "tint()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-shade",
+                            "tooltlp": "가변 비율의 검정색과 혼합. mix(#000000, @color, @weight)와 같음",
+                            "value": "shade()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-greyscale",
+                            "tooltlp": "HSL 색 공간의 색상에서 모든 포화 제거",
+                            "value": "greyscale()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-operations-contrast",
+                            "tooltlp": "두 가지 색상 중 다른 색상과 가장 큰 대비를 제공하는 색상 선택",
+                            "value": "contrast()"
+                        }
+                    ]
+                },
+                {
+                    "subject": "Color Blending Functions",
+                    "list": [
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-multiply",
+                            "tooltlp": "두 가지 색을 곱하기",
+                            "value": "multiply()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-screen",
+                            "tooltlp": "\"multiply\"의 반대 작업을 수행",
+                            "value": "screen()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-overlay",
+                            "tooltlp": "\"multiply\"와 \"screen\" 효과를 결합",
+                            "value": "overlay()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-softlight",
+                            "tooltlp": "오버레이와 유사하지만 순수한 검은색은 순수한 검은색을 피하고 순백은 순백의 결과를 낳음",
+                            "value": "softlight()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-hardlight",
+                            "tooltlp": "\"overlay\"와 동일하지만 색상 역할이 반대로 적용됨",
+                            "value": "hardlight()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-difference",
+                            "tooltlp": "채널별 첫 번째 색상에서 두 번째 색상을 빼기",
+                            "value": "difference()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-exclusion",
+                            "tooltlp": "낮은 대비로 \"difference\"와 유사한 효과",
+                            "value": "exclusion()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-average",
+                            "tooltlp": "채널당(RGB) 기준으로 두 색상의 평균 계산",
+                            "value": "average()"
+                        },
+                        {
+                            "link": "http://lesscss.org/functions/#color-blending-negation",
+                            "tooltlp": "\"difference\"와 반대 효과 수행",
+                            "value": "negation()"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
