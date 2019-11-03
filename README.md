@@ -1,4 +1,4 @@
-# j-cheat-sheet-api
+# J Cheat Sheet API
 > 각종 프로그래밍 언어별 차트시트 관련 API 웹 어플리케이션 입니다.
 
 ## preview
