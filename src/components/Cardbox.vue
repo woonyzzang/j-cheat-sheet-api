@@ -79,6 +79,7 @@
 <script>
 // import EventBus from '../EventBus';
 import Vue from 'vue';
+import VueTypes from 'vue-types';
 import { Card, Icon, Tooltip } from 'ant-design-vue';
 
 import 'ant-design-vue/lib/card/style/index.css';
@@ -95,9 +96,9 @@ export default {
         'a-tooltip': Tooltip
     },
     props: {
-        title: String,
-        subject: String,
-        items: Array
+        title: VueTypes.string,
+        subject: VueTypes.string,
+        items: VueTypes.array
     }
 };
 </script>

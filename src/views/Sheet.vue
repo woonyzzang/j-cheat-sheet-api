@@ -26,6 +26,7 @@
 
 <script>
 import Vue from 'vue';
+import VueTypes from 'vue-types';
 // import EventBus from '../EventBus';
 import { VueMasonryPlugin } from 'vue-masonry'; // [API] https://github.com/shershen08/vue-masonry
 import Loader from '@/components/Loader';
@@ -40,7 +41,7 @@ export default {
         Cardbox
     },
     props: {
-        searchMessage: String
+        searchMessage: VueTypes.string
     },
     data () {
         return {
