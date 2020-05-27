@@ -812,7 +812,7 @@
                         {
                             "link": "https://sass-lang.com/documentation/operators/string",
                             "tooltlp": "문자열을 생성하는 몇 개의 연산자를 지원",
-                            "value": "\"expression\" + \"expression\""
+                            "value": "expression + expression"
                         }
                     ]
                 },

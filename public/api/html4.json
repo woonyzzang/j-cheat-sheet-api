@@ -97,11 +97,6 @@
                             "value": "<li>"
                         },
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/dir",
-                            "tooltlp": "deprecated.defines a directory list",
-                            "value": "<dir>"
-                        },
-                        {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/dl",
                             "tooltlp": "defines a definition list",
                             "value": "<dl>"
@@ -115,11 +110,6 @@
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/dd",
                             "tooltlp": "defines a description of an item in a definition list",
                             "value": "<dd>"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/menu",
-                            "tooltlp": "deprecated.defines a menu list",
-                            "value": "<menu>"
                         }
                     ]
                 }
@@ -167,11 +157,6 @@
                             "value": "<blockquote>"
                         },
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/center",
-                            "tooltlp": "Deprecated.Defines centered text",
-                            "value": "<center>"
-                        },
-                        {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/cite",
                             "tooltlp": "Defines a citation",
                             "value": "<cite>"
@@ -195,11 +180,6 @@
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/em",
                             "tooltlp": "Defines emphasized text",
                             "value": "<em>"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/font",
-                            "tooltlp": "Deprecated.Defines font, color, and size for text",
-                            "value": "<font>"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/i",
@@ -227,11 +207,6 @@
                             "value": "<q>"
                         },
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/s",
-                            "tooltlp": "Deprecated.Defines strikethrough text",
-                            "value": "<s>"
-                        },
-                        {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/samp",
                             "tooltlp": "Defines sample output from a computer program",
                             "value": "<samp>"
@@ -240,11 +215,6 @@
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/samll",
                             "tooltlp": "Defines smaller text",
                             "value": "<small>"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/strike",
-                            "tooltlp": "Deprecated.Defines strikethrough text",
-                            "value": "<strike>"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/strong",
@@ -267,19 +237,9 @@
                             "value": "<tt>"
                         },
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/u",
-                            "tooltlp": "Deprecated.Defines underlined text",
-                            "value": "<u>"
-                        },
-                        {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/var",
                             "tooltlp": "Defines a variable",
                             "value": "<var>"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/xmp",
-                            "tooltlp": "Deprecated.Defines preformatted text",
-                            "value": "<xmp>"
                         }
                     ]
                 }
@@ -498,12 +458,12 @@
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/div",
-                            "tooltlp": "defines a section in a document",
+                            "tooltlp": "defines a block section in a document",
                             "value": "<div>"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/span",
-                            "tooltlp": "defines a section in a document",
+                            "tooltlp": "defines a inline section in a document",
                             "value": "<span>"
                         }
                     ]
@@ -530,11 +490,6 @@
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/base",
                             "tooltlp": "specifies the base url/target for all relative urls in a document",
                             "value": "<base>"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/basefont",
-                            "tooltlp": "deprecated. specifies a default color, size,or font for all the text in a document",
-                            "value": "<basefont>"
                         }
                     ]
                 },
@@ -550,11 +505,6 @@
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/noscript",
                             "tooltlp": "defines an alternate content for users that do not support lient-side scripts",
                             "value": "<noscript>"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/applet",
-                            "tooltlp": "deprecated. defines an embedded applet",
-                            "value": "<applet>"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/object",

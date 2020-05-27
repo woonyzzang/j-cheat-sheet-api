@@ -3,7 +3,7 @@ module.exports = {
     env: {
         node: true
     },
-    'extends': [
+    extends: [
         'plugin:vue/essential',
         '@vue/standard'
     ],
@@ -14,7 +14,7 @@ module.exports = {
         // 'linebreak-style': ['error', 'unix'],
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
-        'no-tabs': ['error', { 'allowIndentationTabs': true }]
+        'no-tabs': ['error', {'allowIndentationTabs': true}]
     },
     parserOptions: {
         parser: 'babel-eslint'

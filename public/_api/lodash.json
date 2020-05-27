@@ -9,132 +9,158 @@
                         {
                             "link": "https://lodash.com/docs/#countBy",
                             "tooltlp": "크기 길이로 분할된 요소 배열 생성. 배열을 고르게 분할할 수 없는 경우 최종 청크는 나머지 요소가 됨",
-                            "value": "_.countBy()"
+                            "value": "_.countBy()",
+                            "exceptionValue": "{{_countBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#forEach",
                             "tooltlp": "요소 collection을 반복하고 각 요소에 대해 반복 실행",
-                            "value": "_.forEach()"
+                            "value": "_.forEach()",
+                            "exceptionValue": "{{_forEach()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#forEachRight",
                             "tooltlp": "이 메서드는 오른쪽에서 왼쪽으로 요소 collection을 반복하는 것을 제외하고 \"_.forEach\"와 같음",
-                            "value": "_.forEachRight()"
+                            "value": "_.forEachRight()",
+                            "exceptionValue": "{{_forEachRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#every",
                             "tooltlp": "모든 collection 요소에 대해 속성이 true를 반환하는지 점검. 반복이 중지되면 false를 반환",
-                            "value": "_.every()"
+                            "value": "_.every()",
+                            "exceptionValue": "{{_every()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#filter",
                             "tooltlp": "collection의 모든 요소의 배열을 반환하여 속성에 true를 반환",
-                            "value": "_.filter()"
+                            "value": "_.filter()",
+                            "exceptionValue": "{{_filter()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#find",
                             "tooltlp": "collection 요소를 반복하여 첫 번째 요소 속성에 true를 반환",
-                            "value": "_.find()"
+                            "value": "_.find()",
+                            "exceptionValue": "{{_find()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#findLast",
                             "tooltlp": "이 메서드는 오른쪽에서 왼쪽으로 collection 요소를 반복하는 것을 제외하고는 \"_.find\" 와 같음",
-                            "value": "_.findLast()"
+                            "value": "_.findLast()",
+                            "exceptionValue": "{{_findLast()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#flatMap",
                             "tooltlp": "각 요소를 반복적으로 수집하고 매핑된 결과를 평탄화하여 평탄화된 값 배열 작성",
-                            "value": "_.flatMap()"
+                            "value": "_.flatMap()",
+                            "exceptionValue": "{{_flatMap()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#flatMapDeep",
                             "tooltlp": "이 메서드는 매핑된 결과를 반복적으로 플랫한다는 점을 제외하면 \"_.flatMap\" 와 같음",
-                            "value": "_.flatMapDeep()"
+                            "value": "_.flatMapDeep()",
+                            "exceptionValue": "{{_flatMapDeep()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#flatMapDepth",
                             "tooltlp": "이 메서드는 매핑된 결과를 최대 깊이 시간까지 반복적으로 평탄화한다는 점을 제외하면 \"_.flatMap\" 와 같음",
-                            "value": "_.flatMapDepth()"
+                            "value": "_.flatMapDepth()",
+                            "exceptionValue": "{{_flatMapDepth()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#groupBy",
                             "tooltlp": "반복적으로 collection 각 요소를 실행한 결과에서 생성된 키로 구성된 객체 생성",
-                            "value": "_.groupBy()"
+                            "value": "_.groupBy()",
+                            "exceptionValue": "{{_groupBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#includes",
                             "tooltlp": "값이 collection에 있는지 확인. collection이 문자열인 경우, 값의 하위 문자열을 확인하며, 그렇지 않으면 SameValueZero가 평등한 비교에 사용",
-                            "value": "_.includes()"
+                            "value": "_.includes()",
+                            "exceptionValue": "{{_includes()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#invokeMap",
                             "tooltlp": "collection에서 각 요소의 경로에서 메서드를 호출하고, 호출된 각 메서드의 결과 배열을 반환",
-                            "value": "_.invokeMap()"
+                            "value": "_.invokeMap()",
+                            "exceptionValue": "{{_invokeMap()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#keyBy",
                             "tooltlp": "반복적으로 collection의 각 요소를 실행한 결과에서 생성된 키로 구성된 객체 생성",
-                            "value": "_.keyBy()"
+                            "value": "_.keyBy()",
+                            "exceptionValue": "{{_keyBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#map",
                             "tooltlp": "반복을 통해 각 요소를 실행하여 값 배열 생성",
-                            "value": "_.map()"
+                            "value": "_.map()",
+                            "exceptionValue": "{{_map()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#orderBy",
                             "tooltlp": "이 메서드는 정렬할 반복자의 정렬 순서를 지정할 수 있다는 점을 제외하면 \"_.sortBy\" 와 같음. 주문이 불특정되면 모든 값이 오름차순으로 정렬. 그렇지 않은 경우, 내림차순의 경우 \"desc\" 또는 해당 값의 오름차순의 경우 \"asc\" 순서를 지정",
-                            "value": "_.orderBy()"
+                            "value": "_.orderBy()",
+                            "exceptionValue": "{{_orderBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#partition",
                             "tooltlp": "두 그룹으로 분할된 요소의 배열(첫 번째 그룹에는 true라는 속성이 포함됨), 두 번째 그룹에는 false라는 속성이 포함되어 있음)",
-                            "value": "_.partition()"
+                            "value": "_.partition()",
+                            "exceptionValue": "{{_partition()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#reduce",
                             "tooltlp": "각 연속적인 호출이 이전 값의 반환 값을 제공하는 컬렉션에서 각 요소를 실행한 누적 결과인 값으로 컬렉션을 감소시킴. 축열조가 제공되지 않으면 collection의 첫 번째 요소가 초기 값으로 사용",
-                            "value": "_.reduce()"
+                            "value": "_.reduce()",
+                            "exceptionValue": "{{_reduce()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#reduceRight",
                             "tooltlp": "이 방법은 오른쪽에서 왼쪽으로 'collection'의 요소를 반복하는 것을 제외하고는 \"_.reduce\" 와 같음",
-                            "value": "_.reduceRight()"
+                            "value": "_.reduceRight()",
+                            "exceptionValue": "{{_reduceRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#reject",
                             "tooltlp": "\"_.filter\" 의 반대인 이 메서드는 속성이 true로 반환되지 않는 수집 요소를 반환",
-                            "value": "_.reject()"
+                            "value": "_.reject()",
+                            "exceptionValue": "{{_reject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sample",
                             "tooltlp": "집합에서 랜덤 요소 가져오기",
-                            "value": "_.sample()"
+                            "value": "_.sample()",
+                            "exceptionValue": "{{_sample()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sampleSize",
                             "tooltlp": "집합에서 집합 크기까지의 고유 키에서 임의 요소 n개 가져오기",
-                            "value": "_.sampleSize()"
+                            "value": "_.sampleSize()",
+                            "exceptionValue": "{{_sampleSize()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#shuffle",
                             "tooltlp": "축소된 값 배열 생성",
-                            "value": "_.shuffle()"
+                            "value": "_.shuffle()",
+                            "exceptionValue": "{{_shuffle()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#size",
                             "tooltlp": "collection배열과 같은 값의 길이 또는 객체의 열거 가능한 문자열 키 속성 수를 반환 하여 크기를 가져옴",
-                            "value": "_.size()"
+                            "value": "_.size()",
+                            "exceptionValue": "{{_size()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#some",
                             "tooltlp": "collection 요소에 대해 속성이 true로 반환되는지 점검한다. 속성 true로 반환되면 반복이 중지됨",
-                            "value": "_.some()"
+                            "value": "_.some()",
+                            "exceptionValue": "{{_some()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortBy",
                             "tooltlp": "각 반복을 통해 집합에서 각 요소를 실행한 결과에 따라 오름차순으로 정렬된 요소 배열 생성",
-                            "value": "_.sortBy()"
+                            "value": "_.sortBy()",
+                            "exceptionValue": "{{_sortBy()}}"
                         }
                     ]
                 }
@@ -149,307 +175,362 @@
                         {
                             "link": "https://lodash.com/docs/#chunk",
                             "tooltlp": "크기 길이로 분할된 요소 배열 생성 배열을 고르게 분할할 수 없는 경우 최종 청크는 나머지 요소가 됨",
-                            "value": "_.chunk()"
+                            "value": "_.chunk()",
+                            "exceptionValue": "{{_chunk()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#compact",
                             "tooltlp": "모든 거짓 값이 제거된 배열을 생성. false, null, 0, \"\", 정의되지 않음 및 NaN이 false 임",
-                            "value": "_.compact()"
+                            "value": "_.compact()",
+                            "exceptionValue": "{{_compact()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#concat",
                             "tooltlp": "추가 베열 및/또는 값을 포함하는 새 베열 생성",
-                            "value": "_.concat()"
+                            "value": "_.concat()",
+                            "exceptionValue": "{{_concat()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#difference",
                             "tooltlp": "동일 비교를 위해 \"SameValueZero\"를 사용하여 다른 지정된 베열에 포함되지 않은 베열 값 배열 생성",
-                            "value": "_.difference()"
+                            "value": "_.difference()",
+                            "exceptionValue": "{{_difference()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#differenceBy",
                             "tooltlp": "이 메서드는 베열 및 값의 각 요소에 대해 호출되는 반복을 수용하여 비교되는 기준을 생성한다는 점을 제외하면 \"_.difference\" 와 같음",
-                            "value": "_.differenceBy()"
+                            "value": "_.differenceBy()",
+                            "exceptionValue": "{{_differenceBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#differenceWith",
                             "tooltlp": "이 메서드는 배열 요소를 값과 비교하기 위해 호출되는 비교기를 받아들인다는 점을 제외하면 \"_.difference\" 와 같음",
-                            "value": "_.differenceWith()"
+                            "value": "_.differenceWith()",
+                            "exceptionValue": "{{_differenceWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#drop",
                             "tooltlp": "처음부터 삭제된 요소가 n개인 배열의 슬라이스 생성",
-                            "value": "_.drop()"
+                            "value": "_.drop()",
+                            "exceptionValue": "{{_drop()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#dropRight",
                             "tooltlp": "끝단에서 삭제된 요소가 n개인 배열 슬라이스",
-                            "value": "_.dropRight()"
+                            "value": "_.dropRight()",
+                            "exceptionValue": "{{_dropRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#dropRightWhile",
                             "tooltlp": "끝에서 삭제된 요소를 제외한 배열의 슬라이스를 생성. 속성이 false를 반환할 때까지 요소가 삭제됨",
-                            "value": "_.dropRightWhile()"
+                            "value": "_.dropRightWhile()",
+                            "exceptionValue": "{{_dropRightWhile()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#fill",
                             "tooltlp": "처음부터 끝까지 값이 있는 베열 요소 채우기",
-                            "value": "_.fill()"
+                            "value": "_.fill()",
+                            "exceptionValue": "{{_fill()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#findIndex",
                             "tooltlp": "이 메서드는 요소 자체 대신 첫 번째 속성 요소가 반환의 인덱스를 true로 반환한다는 점을 제외하면 \"_.find\" 와 같음",
-                            "value": "_.findIndex()"
+                            "value": "_.findIndex()",
+                            "exceptionValue": "{{_findIndex()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#head",
                             "tooltlp": "배열의 첫 번째 요소 가져오기",
-                            "value": "_.head()"
+                            "value": "_.head()",
+                            "exceptionValue": "{{_head()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#flatten",
                             "tooltlp": "단일 레벨 깊이의 플랫 베열",
-                            "value": "_.flatten()"
+                            "value": "_.flatten()",
+                            "exceptionValue": "{{_flatten()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#flattenDeep",
                             "tooltlp": "베열를 다시 평평하게 함",
-                            "value": "_.flattenDeep()"
+                            "value": "_.flattenDeep()",
+                            "exceptionValue": "{{_flattenDeep()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#fromPairs",
                             "tooltlp": "\"_.toPairs\"의 역방향 이 메서드는 키-값 쌍으로 구성된 객체를 반환함",
-                            "value": "_.fromPairs()"
+                            "value": "_.fromPairs()",
+                            "exceptionValue": "{{_fromPairs()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#indexOf",
                             "tooltlp": "동일 비교를 위해 \"SameValueZero\"를 사용하여 배열에서 값의 첫 번째 발생 지수를 가져옴",
-                            "value": "_.indexOf()"
+                            "value": "_.indexOf()",
+                            "exceptionValue": "{{_indexOf()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#initial",
                             "tooltlp": "베열의 마지막 요소를 제외한 모든 요소 가져오기",
-                            "value": "_.initial()"
+                            "value": "_.initial()",
+                            "exceptionValue": "{{_initial()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#intersection",
                             "tooltlp": "동일 비교를 위해 \"SameValueZero\"를 사용하여 지정된 모든 베열에 포함된 고유한 값의 배열 생성",
-                            "value": "_.intersection()"
+                            "value": "_.intersection()",
+                            "exceptionValue": "{{_intersection()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#intersectionBy",
                             "tooltlp": "이 메서드는 \"_.intersection\"와 같으며, 각 베열의 각 요소에 대해 호출되는 반복을 수용하여 비교되는 기준을 생성한다는 점을 제외",
-                            "value": "_.intersectionBy()"
+                            "value": "_.intersectionBy()",
+                            "exceptionValue": "{{_intersectionBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#intersectionWith",
                             "tooltlp": "이 메서드는 베열의 요소를 비교하기 위해 호출되는 비교기를 받아들인다는 점을 제외하면 \"_.intersection\" 와 같음",
-                            "value": "_.intersectionWith()"
+                            "value": "_.intersectionWith()",
+                            "exceptionValue": "{{_intersectionWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#join",
                             "tooltlp": "배열의 모든 요소를 구분 기호로 구분된 문자열로 변환",
-                            "value": "_.join()"
+                            "value": "_.join()",
+                            "exceptionValue": "{{_join()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#last",
                             "tooltlp": "배열의 마지막 요소 가져오기",
-                            "value": "_.last()"
+                            "value": "_.last()",
+                            "exceptionValue": "{{_last()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#lastIndexOf",
                             "tooltlp": "이 메서드는 오른쪽에서 왼쪽으로 배열 요소 위에 반복된다는 점을 제외하면 \"_.indexOf\" 와 같음",
-                            "value": "_.lastIndexOf()"
+                            "value": "_.lastIndexOf()",
+                            "exceptionValue": "{{_lastIndexOf()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#nth",
                             "tooltlp": "배열의 색인 n에서 요소를 가져옴. n이 음이면 끝에서 n번째 요소가 반환",
-                            "value": "_.nth()"
+                            "value": "_.nth()",
+                            "exceptionValue": "{{_nth()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pull",
                             "tooltlp": "동일 비교를 위해 \"SameValueZero\"를 사용하여 베열에서 지정된 모든 값 제거",
-                            "value": "_.pull()"
+                            "value": "_.pull()",
+                            "exceptionValue": "{{_pull()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pullAll",
                             "tooltlp": "이 메서드는 제거할 값의 배열을 받아들인다는 점을 제외하면 \"_.pull\" 와 같음",
-                            "value": "_.pullAll()"
+                            "value": "_.pullAll()",
+                            "exceptionValue": "{{_pullAll()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pullAllBy",
                             "tooltlp": "이 메서드는 베열 및 값의 각 요소에 대해 호출되는 반복을 수용하여 비교되는 기준을 생성한다는 점을 제외하면 \"_.pullAll\" 와 같음",
-                            "value": "_.pullAllBy()"
+                            "value": "_.pullAllBy()",
+                            "exceptionValue": "{{_pullAllBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pullAllWith",
                             "tooltlp": "이 메서드는 배열 요소를 값과 비교하기 위해 호출되는 비교기를 받아들인다는 점을 제외하면 \"_.pullAll\" 와 같음",
-                            "value": "_.pullAllWith()"
+                            "value": "_.pullAllWith()",
+                            "exceptionValue": "{{_pullAllWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pullAt",
                             "tooltlp": "인덱스에 해당하는 배열에서 요소 제거 및 제거된 요소의 배열 반환",
-                            "value": "_.pullAt()"
+                            "value": "_.pullAt()",
+                            "exceptionValue": "{{_pullAt()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#remove",
                             "tooltlp": "true를 반환하는 속성이 있는 베열에서 모든 요소들을 제거하고 제거된 요소들의 베열를 반환",
-                            "value": "_.remove()"
+                            "value": "_.remove()",
+                            "exceptionValue": "{{_remove()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#reverse",
                             "tooltlp": "배열을 역전시켜 첫 번째 요소가 마지막이 되고, 두 번째 요소가 두 번째에서 마지막이 되도록 함",
-                            "value": "_.reverse()"
+                            "value": "_.reverse()",
+                            "exceptionValue": "{{_reverse()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#slice",
                             "tooltlp": "처음부터 끝까지 베열 슬라이스 생성",
-                            "value": "_.slice()"
+                            "value": "_.slice()",
+                            "exceptionValue": "{{_slice()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedIndex",
                             "tooltlp": "바이너리 검색을 사용하여 정렬 순서를 유지하기 위해 베열에 값을 삽입해야 하는 가장 낮은 인덱스 결정",
-                            "value": "_.sortedIndex()"
+                            "value": "_.sortedIndex()",
+                            "exceptionValue": "{{_sortedIndex()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedIndexBy",
                             "tooltlp": "값과 배열의 각 요소에 대해 호출되는 반복을 허용하여 정렬 순위를 계산하는 점을 제외하면 \"_.sortedIndex\" 와 같음",
-                            "value": "_.sortedIndexBy()"
+                            "value": "_.sortedIndexBy()",
+                            "exceptionValue": "{{_sortedIndexBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedIndexOf",
                             "tooltlp": "이 메서드는 정렬된 배열에서 이진 검색을 수행한다는 점을 제외하면 \"_.indexOf\" 와 같음",
-                            "value": "_.sortedIndexOf()"
+                            "value": "_.sortedIndexOf()",
+                            "exceptionValue": "{{_sortedIndexOf()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedLastIndex",
                             "tooltlp": "이 메서드는 순서를 유지하기 위해 배열에 값을 삽입해야하는 가장 높은 인덱스를 반환하는 것을 제외하면 \"_.sortedIndex\" 와 같음",
-                            "value": "_.sortedLastIndex()"
+                            "value": "_.sortedLastIndex()",
+                            "exceptionValue": "{{_sortedLastIndex()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedLastIndexBy",
                             "tooltlp": "이 메서드는 값과 배열의 각 요소가 정렬 순위를 계산하기 위해 호출되는 반복을 받아들인다는 점을 제외하면 \"_.sortedLastIndex\" 와 같음",
-                            "value": "_.sortedLastIndexBy()"
+                            "value": "_.sortedLastIndexBy()",
+                            "exceptionValue": "{{_sortedLastIndexBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedLastIndexOf",
                             "tooltlp": "이 메서드는 정렬된 배열에서 이진 검색을 수행한다는 점을 제외하면 \"_.lastIndexOf\" 와 같음",
-                            "value": "_.sortedLastIndexOf()"
+                            "value": "_.sortedLastIndexOf()",
+                            "exceptionValue": "{{_sortedLastIndexOf()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedUniq",
                             "tooltlp": "이 메서드는 정렬된 베열에 맞게 설계되고 최적화되었다는 점을 제외하면 \"_.uniq\" 와 같음",
-                            "value": "_.sortedUniq()"
+                            "value": "_.sortedUniq()",
+                            "exceptionValue": "{{_sortedUniq()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedUniqBy",
                             "tooltlp": "이 메서드는 정렬된 베열에 맞게 설계되고 최적화되었다는 점을 제외하면 \"_.uniqBy\" 와 같음",
-                            "value": "_.sortedUniqBy()"
+                            "value": "_.sortedUniqBy()",
+                            "exceptionValue": "{{_sortedUniqBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#tail",
                             "tooltlp": "배열의 첫 번째 요소를 제외한 모든 요소 가져오기",
-                            "value": "_.tail()"
+                            "value": "_.tail()",
+                            "exceptionValue": "{{_tail()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#take",
                             "tooltlp": "처음부터 가져온 요소가 n개인 배열 조각 생성",
-                            "value": "_.take()"
+                            "value": "_.take()",
+                            "exceptionValue": "{{_take()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#takeRight",
                             "tooltlp": "끝에서 가져온 요소가 n개인 배열 조각 생성",
-                            "value": "_.takeRight()"
+                            "value": "_.takeRight()",
+                            "exceptionValue": "{{_takeRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#takeRightWhile",
                             "tooltlp": "끝에서 가져온 요소를 사용하여 배열 조각을 생성. 속성이 거짓으로 반환될 때까지 요소를 취함",
-                            "value": "_.takeRightWhile()"
+                            "value": "_.takeRightWhile()",
+                            "exceptionValue": "{{_takeRightWhile()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#takeWhile",
                             "tooltlp": "처음부터 가져온 요소로 배열 한 조각을 생성. 속성이 거짓으로 반환될 때까지 요소를 취함",
-                            "value": "_.takeWhile()"
+                            "value": "_.takeWhile()",
+                            "exceptionValue": "{{_takeWhile()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#union",
                             "tooltlp": "동일 비교를 위해 \"SameValueZero\"를 사용하여 지정된 모든 베열에서 고유한 값의 배열 생성",
-                            "value": "_.union()"
+                            "value": "_.union()",
+                            "exceptionValue": "{{_union()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#unionBy",
                             "tooltlp": "이 메서드는 각 베열의 각 요소에 대해 호출되는 반복을 수용하여 고유성이 계산되는 기준을 생성한다는 점을 제외하면 \"_.union\" 와 같음",
-                            "value": "_.unionBy()"
+                            "value": "_.unionBy()",
+                            "exceptionValue": "{{_unionBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#unionWith",
                             "tooltlp": "이 메서드는 베열의 요소를 비교하기 위해 호출되는 비교기를 받아들인다는 점을 제외하면 \"_.union\" 와 같음",
-                            "value": "_.unionWith()"
+                            "value": "_.unionWith()",
+                            "exceptionValue": "{{_unionWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#uniq",
                             "tooltlp": "동일 비교를 위해 \"SameValueZero\"를 사용하여 중복되지 않는 베열 버전 생성",
-                            "value": "_.uniq()"
+                            "value": "_.uniq()",
+                            "exceptionValue": "{{_uniq()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#uniqBy",
                             "tooltlp": "이 메서드는 고유성이 계산되는 기준을 생성하기 위해 배열의 각 요소에 대해 호출되는 반복을 받아들인다는 점을 제외하면 \"_.uniq\" 와 같음",
-                            "value": "_.uniqBy()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#unionWith",
-                            "tooltlp": "이 메서드는 베열의 요소를 비교하기 위해 호출되는 비교기를 받아들인다는 점을 제외하면 \"_.union\" 과 같음",
-                            "value": "_.unionWith()"
+                            "value": "_.uniqBy()",
+                            "exceptionValue": "{{_uniqBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#unzip",
                             "tooltlp": "이 메서드는 그룹화된 요소의 배열을 수용하고 요소를 압축하기 전의 구성으로 다시 구성하는 배열을 생성한다는 점을 제외하면 \"_.zip\" 과 같음",
-                            "value": "_.unzip()"
+                            "value": "_.unzip()",
+                            "exceptionValue": "{{_unzip()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#unzipWith",
                             "tooltlp": "이 메서드는 재조립된 값을 어떻게 조합해야 하는지를 지정하기 위해 반복적으로 허용한다는 점을 제외하면 \"_.unzip\" 과 같음. 이 메서드는 재조립된 값을 어떻게 조합해야 하는지를 지정하기 위해 반복실험을 받아들인다는 점을 제외하면 _.unzip 과 같음",
-                            "value": "_.unzipWith()"
+                            "value": "_.unzipWith()",
+                            "exceptionValue": "{{_unzipWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#without",
                             "tooltlp": "동일 비교를 위해 \"SameValueZero\"를 사용하여 지정된 모든 값을 제외한 배열 생성",
-                            "value": "_.without()"
+                            "value": "_.without()",
+                            "exceptionValue": "{{_without()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#xor",
                             "tooltlp": "지정된 배열의 \"symmetric difference\" 인 고유한 값의 배열 생성",
-                            "value": "_.xor()"
+                            "value": "_.xor()",
+                            "exceptionValue": "{{_xor()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#xorBy",
                             "tooltlp": "각 베열의 각 요소에 대해 호출된 반복을 통해 비교되는 기준을 생성한다는 점을 제외하면 \"_.xor\" 와 같음",
-                            "value": "_.xorBy()"
+                            "value": "_.xorBy()",
+                            "exceptionValue": "{{_xorBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#xorWith",
                             "tooltlp": "이 메서드는 베열의 요소를 비교하기 위해 호출되는 비교기를 받아들인다는 점을 제외하면 \"_.xor\" 와 같음",
-                            "value": "_.xorWith()"
+                            "value": "_.xorWith()",
+                            "exceptionValue": "{{_xorWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#zip",
                             "tooltlp": "그룹화된 요소의 배열을 생성하며, 첫 번째 배열에 지정된 배열의 첫 번째 요소, 두 번째 배열에 지정된 배열의 두 번째 요소 등이 포함됨",
-                            "value": "_.zip()"
+                            "value": "_.zip()",
+                            "exceptionValue": "{{_zip()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#zipObject",
                             "tooltlp": "이 메서드는 두 개의 배열(속성 식별자 중 하나와 해당 값 중 하나)을 받아들인다는 점을 제외하면 \"_.fromPairs\" 와 같음",
-                            "value": "_.zipObject()"
+                            "value": "_.zipObject()",
+                            "exceptionValue": "{{_zipObject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#zipObjectDeep",
                             "tooltlp": "이 메서드는 속성 경로를 지원하는 것을 제외하고 \"_.zipObject\" 와 같음",
-                            "value": "_.zipObjectDeep()"
+                            "value": "_.zipObjectDeep()",
+                            "exceptionValue": "{{_zipObjectDeep()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#zipWith",
                             "tooltlp": "이 메서드는 그룹화된 값의 조합 메서드을 지정하기 위해 반복실험을 받아들인다는 점을 제외하면 \"_.zip\" 와 같음",
-                            "value": "_.zipWith()"
+                            "value": "_.zipWith()",
+                            "exceptionValue": "{{_zipWith()}}"
                         }
                     ]
                 }
@@ -464,7 +545,8 @@
                         {
                             "link": "https://lodash.com/docs/#now",
                             "tooltlp": "Unix 시대(1970년 1월 00:00:00 UTC) 이후 경과된 시간(밀리초)의 타임스탬프 가져오기",
-                            "value": "_.now()"
+                            "value": "_.now()",
+                            "exceptionValue": "{{_now()}}"
                         }
                     ]
                 }
@@ -479,117 +561,140 @@
                         {
                             "link": "https://lodash.com/docs/#after",
                             "tooltlp": "\"_.before\"와 반대인 이 메서드는 n번 이상 호출되면 func를 호출하는 기능을 만듬",
-                            "value": "_.after()"
+                            "value": "_.after()",
+                            "exceptionValue": "{{_after()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#ary",
                             "tooltlp": "추가 인수를 무시하고 최대 n개의 인수로 func를 호출하는 함수 생성",
-                            "value": "_.ary()"
+                            "value": "_.ary()",
+                            "exceptionValue": "{{_ary()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#before",
                             "tooltlp": "생성된 함수의 이 바인딩과 인수를 사용하여 func를 호출하는 함수를 생성하는 동시에 n번 미만으로 호출. 생성된 함수에 대한 후속 호출은 마지막 func 호출의 결과를 반환.생성된 함수의 이 바인딩과 인수를 사용하여 func를 호출하는 함수를 생성하는 동시에 n번 미만으로 호출. 생성된 함수에 대한 후속 호출이 마지막 func 호출의 결과를 반환",
-                            "value": "_.before()"
+                            "value": "_.before()",
+                            "exceptionValue": "{{_before()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#bind",
                             "tooltlp": "이 Arg의 바인딩으로 func를 호출하는 함수 생성 및 수신되는 인수에 미리 추가된 부분",
-                            "value": "_.bind()"
+                            "value": "_.bind()",
+                            "exceptionValue": "{{_bind()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#bindKey",
                             "tooltlp": "수신되는 인수에 부분적인 부분만 추가된 객체[key]에서 메서드를 호출하는 함수 생성",
-                            "value": "_.bindKey()"
+                            "value": "_.bindKey()",
+                            "exceptionValue": "{{_bindKey()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#curry",
                             "tooltlp": "적어도 열성 인수가 제공된 경우 func의 인수를 수락하고 결과를 반환하는 func를 호출하거나, 나머지 func 인수를 수락하는 함수를 반환하는 함수를 생성. func.length가 충분하지 않을 경우 func의 arity를 지정할 수 있음",
-                            "value": "_.curry()"
+                            "value": "_.curry()",
+                            "exceptionValue": "{{_curry()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#curryRight",
                             "tooltlp": "인수가 \"_.partialright\"가 아닌 \"_.partialright\" 방식으로 func에 적용된다는 점을 제외하면 이 메서드는 \"_.curry\"와 같음",
-                            "value": "_.curryRight()"
+                            "value": "_.curryRight()",
+                            "exceptionValue": "{{_curryRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#debounce",
                             "tooltlp": "디바운딩된 함수가 마지막으로 호출된 이후 대기 밀리초가 경과한 후까지 호출이 지연되는 디바운딩된 함수를 생성. 디바운딩된 기능에는 지연된 펑크 요청을 취소하는 취소 메서드과 즉시 호출하는 플러시 메서드이 있음. 대기 시간 제한의 선행 및/또는 후행 에지에서 func를 호출할지 여부를 나타내는 옵션을 제공. func는 deballed 함수에 제공된 마지막 인수와 함께 호출. 이후 중단된 함수에 대한 호출은 마지막 func 호출의 결과를 반환함",
-                            "value": "_.debounce()"
+                            "value": "_.debounce()",
+                            "exceptionValue": "{{_debounce()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#defer",
                             "tooltlp": "현재 통화 스택이 지워질 때까지 func 호출 지연. 추가 인수가 호출될 때 func에 제공됨",
-                            "value": "_.defer()"
+                            "value": "_.defer()",
+                            "exceptionValue": "{{_defer()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#delay",
                             "tooltlp": "대기 시간(밀리초) 후 func를 호출. 추가 인수가 호출될 때 func에 제공됨",
-                            "value": "_.delay()"
+                            "value": "_.delay()",
+                            "exceptionValue": "{{_delay()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#flip",
                             "tooltlp": "인수를 반대로 하여 func를 호출하는 함수 생성",
-                            "value": "_.flip()"
+                            "value": "_.flip()",
+                            "exceptionValue": "{{_flip()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#memoize",
                             "tooltlp": "func의 결과를 메모하는 기능을 만듬. 해결사가 제공되는 경우, 메모된 함수에 제공된 인수에 따라 결과를 저장하는 캐시 키를 결정. 기본적으로 메모화 함수에 제공된 첫 번째 인수는 지도 캐시 키로 사용. Func는 메모된 기능의 바인딩으로 호출",
-                            "value": "_.memoize()"
+                            "value": "_.memoize()",
+                            "exceptionValue": "{{_memoize()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#negate",
                             "tooltlp": "속성 func 결과를 무효화하는 함수를 작성. func 속성은 생성된 함수의 이 바인딩과 인수로 호출",
-                            "value": "_.negate()"
+                            "value": "_.negate()",
+                            "exceptionValue": "{{_negate()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#once",
                             "tooltlp": "func를 한 번 호출하도록 제한되는 기능을 생성. 함수에 대해 호출을 반복하면 첫 번째 호출의 값이 반환. func는 생성된 함수의 바인딩과 인수로 호출",
-                            "value": "_.once()"
+                            "value": "_.once()",
+                            "exceptionValue": "{{_once()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#overArgs",
                             "tooltlp": "변환된 인수로 func를 호출하는 함수 생성",
-                            "value": "_.overArgs()"
+                            "value": "_.overArgs()",
+                            "exceptionValue": "{{_overArgs()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#partial",
                             "tooltlp": "수신하는 인수에 편중된 func를 호출하는 함수를 생성. 이 메서드는 이 바인딩을 변경하지 않는 경우를 제외하고 \"_.bind\" 와 같음",
-                            "value": "_.partial()"
+                            "value": "_.partial()",
+                            "exceptionValue": "{{_partial()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#partialRight",
                             "tooltlp": "이 메서드는 부분적으로 적용된 인수가 수신되는 인수에 추가되는 것을 제외하고 \"_.partial\" 와 같음",
-                            "value": "_.partialRight()"
+                            "value": "_.partialRight()",
+                            "exceptionValue": "{{_partialRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#rearg",
                             "tooltlp": "첫 번째 인덱스의 인수 값이 첫 번째 인수로 제공되고 두 번째 인덱스의 인수 값이 두 번째 인수로 제공되는 등 지정된 인덱스에 따라 배열된 인수로 func를 호출하는 함수를 생성",
-                            "value": "_.rearg()"
+                            "value": "_.rearg()",
+                            "exceptionValue": "{{_rearg()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#rest",
                             "tooltlp": "생성된 함수 및 인수의 바인딩으로 func를 호출하는 함수 생성",
-                            "value": "_.rest()"
+                            "value": "_.rest()",
+                            "exceptionValue": "{{_rest()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#spread",
                             "tooltlp": "생성 함수의 이 바인딩과 \"Function#apply\"와 매우 유사한 인수 배열을 사용하여 func를 호출하는 함수 생성",
-                            "value": ""
+                            "value": "_.spread()",
+                            "exceptionValue": "{{_spread()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#throttle",
                             "tooltlp": "대기 밀리초당 최대 한 번만 func를 호출하는 조절 함수를 생성. 조절 기능에는 지연된 펑크 요청을 취소하는 취소 메서드과 즉시 호출하는 플러시 메서드이 있음. 대기 시간 제한의 선행 및/또는 후행 에지에서 func를 호출할지 여부를 나타내는 옵션을 제공. func는 조절 기능에 제공된 마지막 인수로 호출된다. 조절 기능에 대한 후속 호출이 마지막 func 호출의 결과를 반환",
-                            "value": "_.throttle()"
+                            "value": "_.throttle()",
+                            "exceptionValue": "{{_throttle()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#unary",
                             "tooltlp": "추가 인수를 무시하고 최대 하나의 인수를 허용하는 함수 생성",
-                            "value": "_.unary()"
+                            "value": "_.unary()",
+                            "exceptionValue": "{{_unary()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#wrap",
                             "tooltlp": "래퍼에 값을 제공하는 함수를 첫 번째 인수로 만듬. 기능에 제공된 추가 인수는 포장지에 제공된 인자에 추가됨. 래퍼는 생성된 함수의 이 바인딩으로 호출",
-                            "value": "_.wrap()"
+                            "value": "_.wrap()",
+                            "exceptionValue": "{{_wrap()}}"
                         }
                     ]
                 }
@@ -604,282 +709,338 @@
                         {
                             "link": "https://lodash.com/docs/#castArray",
                             "tooltlp": "값이 하나가 아닌 경우 베열로 지정",
-                            "value": "_.castArray()"
+                            "value": "_.castArray()",
+                            "exceptionValue": "{{_castArray()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#clone",
                             "tooltlp": "값 복제 생성",
-                            "value": "_.clone()"
+                            "value": "_.clone()",
+                            "exceptionValue": "{{_clone()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#cloneDeep",
-                            "tooltlp": " 메서드는 값을 반복적으로 복제하는 것을 제외하고는 \"_.clone\" 와 같음",
-                            "value": "_.cloneDeep()"
+                            "tooltlp": "메서드는 값을 반복적으로 복제하는 것을 제외하고는 \"_.clone\" 와 같음",
+                            "value": "_.cloneDeep()",
+                            "exceptionValue": "{{_cloneDeep()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#cloneDeepWith",
                             "tooltlp": "이 메서드는 값을 반복적으로 복제하는 것을 제외하고는 \"_.cloneWith\" 와 같음",
-                            "value": "_.cloneDeepWith()"
+                            "value": "_.cloneDeepWith()",
+                            "exceptionValue": "{{_cloneDeepWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#cloneWith",
                             "tooltlp": "이 메서드는 복제된 값을 생성하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 \"_.clone\" 와 같음. 사용자 정의가 되지 않은 상태로 반환되는 경우, 대신 메서드으로 복제를 처리함",
-                            "value": "_.cloneWith()"
+                            "value": "_.cloneWith()",
+                            "exceptionValue": "{{_cloneWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#conformsTo",
                             "tooltlp": "소스의 속성을 객체의 해당 속성 값으로 호출하여 객체가 소스에 적합한지 확인",
-                            "value": "_.conformsTo()"
+                            "value": "_.conformsTo()",
+                            "exceptionValue": "{{_conformsTo()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#eq",
                             "tooltlp": "두 값 간에 \"SameValueZero\" 비교를 수행하여 등가 여부를 확인",
-                            "value": "_.eq()"
+                            "value": "_.eq()",
+                            "exceptionValue": "{{_eq()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#gt",
                             "tooltlp": "값이 다른 값보다 큰지 확인",
-                            "value": "_.gt()"
+                            "value": "_.gt()",
+                            "exceptionValue": "{{_gt()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#gte",
                             "tooltlp": "값이 다른 값보다 크거나 같은지 확인",
-                            "value": "_.gte()"
+                            "value": "_.gte()",
+                            "exceptionValue": "{{_gte()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isArguments",
                             "tooltlp": "값이 인수 객체일 가능성이 있는지 확인",
-                            "value": "_.isArguments()"
+                            "value": "_.isArguments()",
+                            "exceptionValue": "{{_isArguments()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isArray",
                             "tooltlp": "값이 배열 객체로 분류되는지 확인",
-                            "value": "_.isArray()"
+                            "value": "_.isArray()",
+                            "exceptionValue": "{{_isArray()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isArrayBuffer",
                             "tooltlp": "값이 ArrayBuffer 객체로 분류되는지 확인",
-                            "value": "_.isArrayBuffer()"
+                            "value": "_.isArrayBuffer()",
+                            "exceptionValue": "{{_isArrayBuffer()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isArrayLike",
                             "tooltlp": "값이 배열과 유사한지 확인. 값이 함수가 아니고 0보다 크거나 같고 숫자보다 작거나 같은 정수인 value.length를 갖는 경우 배열과 같은 값으로 간주. MAX_SAFE_INTEGER",
-                            "value": "_.isArrayLike()"
+                            "value": "_.isArrayLike()",
+                            "exceptionValue": "{{_isArrayLike()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isArrayLikeObject",
                             "tooltlp": "이 메서드는 값이 객체인지 확인하는 것을 제외하고 \"_.isArrayLike\" 와 같음",
-                            "value": "_.isArrayLikeObject()"
+                            "value": "_.isArrayLikeObject()",
+                            "exceptionValue": "{{_isArrayLikeObject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isBoolean",
                             "tooltlp": "값이 초기의 boolean 또는 객체로 분류되는지 확인",
-                            "value": "_.isBoolean()"
+                            "value": "_.isBoolean()",
+                            "exceptionValue": "{{_isBoolean()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isBuffer",
                             "tooltlp": "값이 버퍼인지 확인",
-                            "value": "_.isBuffer()"
+                            "value": "_.isBuffer()",
+                            "exceptionValue": "{{_isBuffer()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isDate",
                             "tooltlp": "값이 날짜 객체로 분류되는지 확인",
-                            "value": "_.isDate()"
+                            "value": "_.isDate()",
+                            "exceptionValue": "{{_isDate()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isElement",
                             "tooltlp": "값이 DOM 요소일 가능성이 있는지 확인",
-                            "value": "_.isElement()"
+                            "value": "_.isElement()",
+                            "exceptionValue": "{{_isElement()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isEmpty",
                             "tooltlp": "값이 비어 있는 객체, collection, map 또는 set 인지 확인",
-                            "value": "_.isEmpty()"
+                            "value": "_.isEmpty()",
+                            "exceptionValue": "{{_isEmpty()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isEqual",
                             "tooltlp": "두 값 사이의 깊은 비교를 수행하여 동등 여부를 확인",
-                            "value": "_.isEqual()"
+                            "value": "_.isEqual()",
+                            "exceptionValue": "{{_isEqual()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isEqualWith",
                             "tooltlp": "이 메서드는 값을 비교하기 위해 호출되는 사용자 정의을 받아들인다는 점을 제외하면 \"_.isEqual\"와 같음. 사용자 정의 리턴이 정의되지 않은 경우, 비교는 대신 메서드로 처리",
-                            "value": "_.isEqualWith()"
+                            "value": "_.isEqualWith()",
+                            "exceptionValue": "{{_isEqualWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isError",
                             "tooltlp": "값이 오류, EvalError, RangeError, ReferenceError, SyntaxError, TypeError 또는 URIError 객체인지 확인",
-                            "value": "_.isError()"
+                            "value": "_.isError()",
+                            "exceptionValue": "{{_isError()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isFinite",
                             "tooltlp": "값이 한정된 초기 숫자인지 확인",
-                            "value": "_.isFinite()"
+                            "value": "_.isFinite()",
+                            "exceptionValue": "{{_isFinite()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isFunction",
                             "tooltlp": "값이 기능 객체로 분류되는지 확인",
-                            "value": "_.isFunction()"
+                            "value": "_.isFunction()",
+                            "exceptionValue": "{{_isFunction()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isInteger",
                             "tooltlp": "값이 정수인지 확인",
-                            "value": "_.isInteger()"
+                            "value": "_.isInteger()",
+                            "exceptionValue": "{{_isInteger()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isLength",
                             "tooltlp": "값이 올바른 배열과 유사한 길이인지 확인",
-                            "value": "_.isLength()"
+                            "value": "_.isLength()",
+                            "exceptionValue": "{{_isLength()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isMap",
                             "tooltlp": "값이 맵 객체로 분류되는지 확인",
-                            "value": "_.isMap()"
+                            "value": "_.isMap()",
+                            "exceptionValue": "{{_isMap()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isMatch",
                             "tooltlp": "객체와 소스 간의 부분 심층 비교를 수행하여 객체에 등가 속성 값이 포함되어 있는지 확인",
-                            "value": "_.isMatch()"
+                            "value": "_.isMatch()",
+                            "exceptionValue": "{{_isMatch()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isMatchWith",
                             "tooltlp": "이 메서드는 값을 비교하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 \"_.isMatch\"와 같음. 사용자 정의가 되지 않은 상태로 반환되는 경우 대신 메서드으로 비교 처리",
-                            "value": "_.isMatchWith()"
+                            "value": "_.isMatchWith()",
+                            "exceptionValue": "{{_isMatchWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isNaN",
                             "tooltlp": "값이 NaN인지 확인",
-                            "value": "_.isNaN()"
+                            "value": "_.isNaN()",
+                            "exceptionValue": "{{_isNaN()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isNative",
                             "tooltlp": "값이 원래 native 기능인지 확인",
-                            "value": "_.isNative()"
+                            "value": "_.isNative()",
+                            "exceptionValue": "{{_isNative()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isNil",
                             "tooltlp": "값이 null인지 또는 정의되지 않았는지 확인",
-                            "value": "_.isNil()"
+                            "value": "_.isNil()",
+                            "exceptionValue": "{{_isNil()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isNull",
                             "tooltlp": "값이 null인지 확인",
-                            "value": "_.isNull()"
+                            "value": "_.isNull()",
+                            "exceptionValue": "{{_isNull()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isNumber",
                             "tooltlp": "값이 Number private 또는 object로 분류되는지 확인",
-                            "value": "_.isNumber()"
+                            "value": "_.isNumber()",
+                            "exceptionValue": "{{_isNumber()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isObject",
                             "tooltlp": "값이 객체의 \"language type\"인지 확인",
-                            "value": "_.isObject()"
+                            "value": "_.isObject()",
+                            "exceptionValue": "{{_isObject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isObjectLike",
                             "tooltlp": "값이 물체와 유사한지 점검. 값이 null이 아니고 \"object\"의 결과 유형이 있는 경우 값은 객체와 유사함",
-                            "value": "_.isObjectLike()"
+                            "value": "_.isObjectLike()",
+                            "exceptionValue": "{{_isObjectLike()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isPlainObject",
                             "tooltlp": "값이 일반 객체인지, 즉 객체 생성자가 생성한 객체인지, 또는 [[Prototype]]이 null인 객체인지 확인",
-                            "value": "_.isPlainObject()"
+                            "value": "_.isPlainObject()",
+                            "exceptionValue": "{{_isPlainObject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isRegExp",
                             "tooltlp": "값이 RegExp 객체로 분류되는지 확인",
-                            "value": "_.isRegExp()"
+                            "value": "_.isRegExp()",
+                            "exceptionValue": "{{_isRegExp()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isSafeInteger",
                             "tooltlp": "값이 안전한 정수인지 확인. 정수는 안전하지 않은 정수의 결과가 아닌 IEEE-754 이중 정밀도 번호일 경우 안전함",
-                            "value": "_.isSafeInteger()"
+                            "value": "_.isSafeInteger()",
+                            "exceptionValue": "{{_isSafeInteger()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isSet",
                             "tooltlp": "값이 Set 객체로 분류되는지 확인",
-                            "value": "_.isSet()"
+                            "value": "_.isSet()",
+                            "exceptionValue": "{{_isSet()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isString",
                             "tooltlp": "값이 문자열 원시 또는 객체로 분류되는지 확인",
-                            "value": "_.isString()"
+                            "value": "_.isString()",
+                            "exceptionValue": "{{_isString()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isSymbol",
                             "tooltlp": "값이 기호 원시 또는 객체로 분류되는지 확인",
-                            "value": "_.isSymbol()"
+                            "value": "_.isSymbol()",
+                            "exceptionValue": "{{_isSymbol()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isTypedArray",
                             "tooltlp": "값이 입력된 배열로 분류되는지 확인",
-                            "value": "_.isTypedArray()"
+                            "value": "_.isTypedArray()",
+                            "exceptionValue": "{{_isTypedArray()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isUndefined",
                             "tooltlp": "값이 정의되지 않은지 확인",
-                            "value": "_.isUndefined()"
+                            "value": "_.isUndefined()",
+                            "exceptionValue": "{{_isUndefined()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isWeakMap",
                             "tooltlp": "값이 WeakMap 객체로 분류되는지 확인",
-                            "value": "_.isWeakMap()"
+                            "value": "_.isWeakMap()",
+                            "exceptionValue": "{{_isWeakMap()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isWeakSet",
                             "tooltlp": "값이 WeakSet 객체로 분류되는지 확인",
-                            "value": "_.isWeakSet()"
+                            "value": "_.isWeakSet()",
+                            "exceptionValue": "{{_isWeakSet()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#lt",
                             "tooltlp": "값이 다른 값보다 작은지 확인",
-                            "value": "_.lt()"
+                            "value": "_.lt()",
+                            "exceptionValue": "{{_lt()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#lte",
                             "tooltlp": "값이 다른 값보다 작거나 같은지 확인",
-                            "value": "_.lte()"
+                            "value": "_.lte()",
+                            "exceptionValue": "{{_lte()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toArray",
                             "tooltlp": "값을 배열로 변환",
-                            "value": "_.toArray()"
+                            "value": "_.toArray()",
+                            "exceptionValue": "{{_toArray()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toFinite",
                             "tooltlp": "값을 유한 숫자로 변환",
-                            "value": "_.toFinite()"
+                            "value": "_.toFinite()",
+                            "exceptionValue": "{{_toFinite()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toInteger",
                             "tooltlp": "값을 정수로 변환",
-                            "value": "_.toInteger()"
+                            "value": "_.toInteger()",
+                            "exceptionValue": "{{_toInteger()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toLength",
                             "tooltlp": "값을 배열과 같은 객체의 길이로 사용하기 적합한 정수로 변환",
-                            "value": "_.toLength()"
+                            "value": "_.toLength()",
+                            "exceptionValue": "{{_toLength()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toNumber",
                             "tooltlp": "값을 숫자로 변환",
-                            "value": "_.toNumber()"
+                            "value": "_.toNumber()",
+                            "exceptionValue": "{{_toNumber()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toPlainObject",
                             "tooltlp": "값을 일반 객체로 변환하여 상속된 열거형 문자열 키로 된 특성을 일반 객체의 고유한 속성으로 변환",
-                            "value": "_.toPlainObject()"
+                            "value": "_.toPlainObject()",
+                            "exceptionValue": "{{_toPlainObject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toSafeInteger",
                             "tooltlp": "값을 안전한 정수로 변환. 안전한 정수를 비교하고 올바르게 나타낼 수 있음",
-                            "value": "_.toSafeInteger()"
+                            "value": "_.toSafeInteger()",
+                            "exceptionValue": "{{_toSafeInteger()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toString",
                             "tooltlp": "값을 문자열로 변환. null 값과 정의되지 않은 값에 대해 빈 문자열이 반환됨 -0의 기호는 보존",
-                            "value": "_.toString()"
+                            "value": "_.toString()",
+                            "exceptionValue": "{{_toString()}}"
                         }
                     ]
                 }
@@ -894,87 +1055,92 @@
                         {
                             "link": "https://lodash.com/docs/#add",
                             "tooltlp": "숫자 두 개 추가",
-                            "value": "_.add()"
+                            "value": "_.add()",
+                            "exceptionValue": "{{_add()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#ceil",
                             "tooltlp": "반올림된 숫자를 정밀도로 계산",
-                            "value": "_.ceil()"
+                            "value": "_.ceil()",
+                            "exceptionValue": "{{_ceil()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#divide",
                             "tooltlp": "두 숫자를 나누기",
-                            "value": "_.divide()"
+                            "value": "_.divide()",
+                            "exceptionValue": "{{_divide()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#floor",
                             "tooltlp": "반올림된 숫자를 정밀도로 계산",
-                            "value": "_.floor()"
+                            "value": "_.floor()",
+                            "exceptionValue": "{{_floor()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#max",
                             "tooltlp": "배열의 최대값을 계산. 베열가 비어 있거나 잘못된 경우 정의되지 않은 상태로 반환됨",
-                            "value": "_.max()"
+                            "value": "_.max()",
+                            "exceptionValue": "{{_max()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#maxBy",
                             "tooltlp": "이 메서드는 값이 순위를 매기는 기준을 생성하기 위해 배열의 각 요소에 대해 호출되는 반복을 받아들인다는 점을 제외하면 \"_.max\" 와 같음",
-                            "value": "_.maxBy()"
+                            "value": "_.maxBy()",
+                            "exceptionValue": "{{_maxBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#mean",
                             "tooltlp": "배열 값의 평균 계산",
-                            "value": "_.mean()"
+                            "value": "_.mean()",
+                            "exceptionValue": "{{_mean()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#meanBy",
                             "tooltlp": "이 메서드는 평균화할 값을 생성하기 위해 배열의 각 요소에 대해 호출되는 반복을 받아들인다는 점을 제외하면 \"_.mean\" 와 같음",
-                            "value": "_.meanBy()"
+                            "value": "_.meanBy()",
+                            "exceptionValue": "{{_meanBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#min",
                             "tooltlp": "베열의 최소값 계산. 배열이 비어 있거나 거짓이면 정의되지 않은 상태로 반환",
-                            "value": "_.min()"
+                            "value": "_.min()",
+                            "exceptionValue": "{{_min()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#minBy",
                             "tooltlp": "이 메서드는 배열의 각 요소에 대해 호출되는 반복을 허용하여 값이 나열되는 기준을 생성한다는 점을 제외하면 \"_.min\" 와 같음",
-                            "value": "_.minBy()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#min",
-                            "tooltlp": "베열의 최소값 계산. 베열가 비어 있거나 잘못된 경우 정의되지 않은 상태로 반환",
-                            "value": "_.min()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#minBy",
-                            "tooltlp": "이 메서드는 배열의 각 요소에 대해 호출되는 반복을 허용하여 값이 나열되는 기준을 생성한다는 점을 제외하면 \"_.min\" 와 같음",
-                            "value": "_.minBy()"
+                            "value": "_.minBy()",
+                            "exceptionValue": "{{_minBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#multiplyv",
                             "tooltlp": "두 수 곱하기",
-                            "value": "_.multiply()"
+                            "value": "_.multiply()",
+                            "exceptionValue": "{{_multiply()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#round",
                             "tooltlp": "정밀도로 반올림된 숫자를 계산",
-                            "value": "_.round()"
+                            "value": "_.round()",
+                            "exceptionValue": "{{_round()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#subtract",
                             "tooltlp": "숫자 두 개 빼기",
-                            "value": "_.subtract()"
+                            "value": "_.subtract()",
+                            "exceptionValue": "{{_subtract()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sum",
                             "tooltlp": "배열의 값 합계를 계산",
-                            "value": "_.sum()"
+                            "value": "_.sum()",
+                            "exceptionValue": "{{_sum()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sumBy",
                             "tooltlp": "이 메서드는 요약할 값을 생성하기 위해 배열의 각 요소에 대해 호출되는 반복을 받아들인다는 점을 제외하면 \"_.sum\" 과 같음",
-                            "value": "_.sumBy()"
+                            "value": "_.sumBy()",
+                            "exceptionValue": "{{_sumBy()}}"
                         }
                     ]
                 }
@@ -989,17 +1155,20 @@
                         {
                             "link": "https://lodash.com/docs/#clamp",
                             "tooltlp": "포함 하한 및 상한 내 클램프 수",
-                            "value": "_.clamp()"
+                            "value": "_.clamp()",
+                            "exceptionValue": "{{_clamp()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#inRange",
                             "tooltlp": "n이 시작과 종료 사이에 있는지 확인하지만 포함되지는 않음. 끝이 지정되지 않은 경우, 시작과 함께 시작한 다음 0으로 설정. 시작이 끝보다 클 경우, 모수가 음의 범위를 지원하도록 바뀜",
-                            "value": "_.inRange()"
+                            "value": "_.inRange()",
+                            "exceptionValue": "{{_inRange()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#random",
                             "tooltlp": "포함 하한과 상한 사이에 임의의 숫자를 생성. 하나의 인수만 제공되면 0과 주어진 숫자 사이의 숫자를 반환. 부동이 참이거나 하한 또는 상한이 부동일 경우, 정수 대신 부동 소수점 번호가 반환",
-                            "value": "_.random()"
+                            "value": "_.random()",
+                            "exceptionValue": "{{_random()}}"
                         }
                     ]
                 }
@@ -1014,152 +1183,182 @@
                         {
                             "link": "https://lodash.com/docs/#camelCase",
                             "tooltlp": "문자열을 \"camel case\"로 변환",
-                            "value": "_.camelCase()"
+                            "value": "_.camelCase()",
+                            "exceptionValue": "{{_camelCase()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#capitalize",
                             "tooltlp": "문자열의 첫 번째 문자를 대문자로 변환하고 나머지 문자를 \"lower case\"",
-                            "value": "_.capitalize()"
+                            "value": "_.capitalize()",
+                            "exceptionValue": "{{_capitalize()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#deburr",
                             "tooltlp": "기본 라틴 문자에 \"converting Latin-1\"와 \"Latin Extended-A\"를 제거하고 \"combining diacritical marks\"로 문자열을 삭제",
-                            "value": "_.deburr()"
+                            "value": "_.deburr()",
+                            "exceptionValue": "{{_deburr()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#endsWith",
                             "tooltlp": "문자열이 지정된 대상 문자열로 끝나는지 확인",
-                            "value": "_.endsWith()"
+                            "value": "_.endsWith()",
+                            "exceptionValue": "{{_endsWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#escape",
                             "tooltlp": "문자열로 된 \"&\", \">\", '\" 및 \"\"\"\"\"\"을 해당하는 HTML 엔티티로 변환",
-                            "value": "_.escape()"
+                            "value": "_.escape()",
+                            "exceptionValue": "{{_escape()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#escapeRegExp",
                             "tooltlp": "RegExp 특수 문자 \"^\", \"$\", \"\", \".\", \"*\", \"+\", \"?\", \"(\", \")\", \"[\", \"]\", \"{\", \"}\", \"|\" 을 문자열에서 차례로 표시함",
-                            "value": "_.escapeRegExp()"
+                            "value": "_.escapeRegExp()",
+                            "exceptionValue": "{{_escapeRegExp()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#kebabCase",
                             "tooltlp": "문자열을 \"kebab case\"로 변환",
-                            "value": "_.kebabCase()"
+                            "value": "_.kebabCase()",
+                            "exceptionValue": "{{_kebabCase()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#lowerCase",
                             "tooltlp": "공백으로 구분된 단어로 문자열을 소문자로 변환",
-                            "value": "_.lowerCase()"
+                            "value": "_.lowerCase()",
+                            "exceptionValue": "{{_lowerCase()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#lowerFirst",
                             "tooltlp": "문자열의 첫 번째 문자를 소문자로 변환",
-                            "value": "_.lowerFirst()"
+                            "value": "_.lowerFirst()",
+                            "exceptionValue": "{{_lowerFirst()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#pad",
                             "tooltlp": "길이보다 짧으면 좌우에 줄을 달았다. 패딩 문자를 길이로 균등하게 나눌 수 없는 경우 잘림",
-                            "value": "_.pad()"
+                            "value": "_.pad()",
+                            "exceptionValue": "{{_pad()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#padEnd",
                             "tooltlp": "길이보다 짧으면 오른편에 줄을 달린다. 패딩 문자가 길이를 초과할 경우 잘림",
-                            "value": "_.padEnd()"
+                            "value": "_.padEnd()",
+                            "exceptionValue": "{{_padEnd()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#padStart",
                             "tooltlp": "왼쪽 끈이 길이보다 짧으면 패드 스트링. 패딩 문자가 길이를 초과할 경우 잘림",
-                            "value": "_.padStart()"
+                            "value": "_.padStart()",
+                            "exceptionValue": "{{_padStart()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#parseInt",
                             "tooltlp": "라디스가 정의되지 않았거나 0일 경우, 10의 라디스가 16진수 값이며, 이 경우 리드가 16진수로 사용",
-                            "value": "_.parseInt()"
+                            "value": "_.parseInt()",
+                            "exceptionValue": "{{_parseInt()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#repeat",
                             "tooltlp": "지정된 문자열 n번 반복",
-                            "value": "_.repeat()"
+                            "value": "_.repeat()",
+                            "exceptionValue": "{{_repeat()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#replace",
                             "tooltlp": "문자열 패턴에 대한 일치 항목을 교체",
-                            "value": "_.replace()"
+                            "value": "_.replace()",
+                            "exceptionValue": "{{_replace()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#snakeCase",
                             "tooltlp": "문자열을 \"snake case\"로 변환",
-                            "value": "_.snakeCase()"
+                            "value": "_.snakeCase()",
+                            "exceptionValue": "{{_snakeCase()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#split",
                             "tooltlp": "구분 기호로 문자열 분할",
-                            "value": "_.split()"
+                            "value": "_.split()",
+                            "exceptionValue": "{{_split()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#startCase",
                             "tooltlp": "문자열을 \"start case\"로 변환",
-                            "value": "_.startCase()"
+                            "value": "_.startCase()",
+                            "exceptionValue": "{{_startCase()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#startsWith",
                             "tooltlp": "문자열이 지정된 대상 문자열로 시작되는지 확인",
-                            "value": "_.startsWith()"
+                            "value": "_.startsWith()",
+                            "exceptionValue": "{{_startsWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#template",
                             "tooltlp": "\"interpolate\" 구분자의 데이터 속성, \"escape\" 구분자의 HTML-escape 보간 데이터 속성, \"evaluate\" 구분자의 JavaScript를 실행할 수 있는 컴파일된 템플릿 함수를 생성. 데이터 속성은 템플릿에서 사용 가능한 변수로 액세스할 수 있음. 설정 객체가 주어진 경우 \"_.templateSettings\" 값보다 우선함",
-                            "value": "_.template()"
+                            "value": "_.template()",
+                            "exceptionValue": "{{_template()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#toLower",
                             "tooltlp": "문자열 전체를 \"String#toLowerCase\"와 같이 소문자로 변환",
-                            "value": "_.toLower()"
+                            "value": "_.toLower()",
+                            "exceptionValue": "{{_toLower()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#toUpper",
                             "tooltlp": "\"String#toUpperCase\"처럼 문자열 전체를 대문자로 변환",
-                            "value": "_.toUpper()"
+                            "value": "_.toUpper()",
+                            "exceptionValue": "{{_toUpper()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#trim",
                             "tooltlp": "선행 및 후행 공백 또는 문자열에서 지정된 문자 제거",
-                            "value": "_.trim()"
+                            "value": "_.trim()",
+                            "exceptionValue": "{{_trim()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#trimEnd",
                             "tooltlp": "자열에서 후행 공백 또는 지정된 문자 제거",
-                            "value": "_.trimEnd()"
+                            "value": "_.trimEnd()",
+                            "exceptionValue": "{{_trimEnd()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#trimStart",
                             "tooltlp": "선행 백스페이스 또는 지정된 문자를 문자열에서 제거",
-                            "value": "_.trimStart()"
+                            "value": "_.trimStart()",
+                            "exceptionValue": "{{_trimStart()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#truncate",
                             "tooltlp": "지정된 최대 문자열 길이보다 긴 문자열 잘라내기 잘린 문자열의 마지막 문자가 기본적으로 \"...\" 로 설정된 생략 문자열로 대체됨",
-                            "value": "_.truncate()"
+                            "value": "_.truncate()",
+                            "exceptionValue": "{{_truncate()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#unescape",
                             "tooltlp": "\"_.escape\"의 역방향 이 메서드는 HTML 엔티티 &amp;, &lt;, &gt;, &quot;, &#39;를 문자열로 변환하여 해당하는 문자로 변환",
-                            "value": "_.unescape()"
+                            "value": "_.unescape()",
+                            "exceptionValue": "{{_unescape()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#upperCase",
                             "tooltlp": "공백으로 구분된 단어로 문자열을 대문자로 변환",
-                            "value": "_.upperCase()"
+                            "value": "_.upperCase()",
+                            "exceptionValue": "{{_upperCase()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#upperFirst",
                             "tooltlp": "문자열의 첫 번째 문자를 대문자로 변환",
-                            "value": "_.upperFirst()"
+                            "value": "_.upperFirst()",
+                            "exceptionValue": "{{_upperFirst()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#words",
                             "tooltlp": "문자열을 단어 배열로 분할",
-                            "value": "_.words()"
+                            "value": "_.words()",
+                            "exceptionValue": "{{_words()}}"
                         }
                     ]
                 }
@@ -1174,237 +1373,260 @@
                         {
                             "link": "https://lodash.com/docs/#assign",
                             "tooltlp": "소스 객체의 열거 가능한 문자열 키 지정 속성을 대상 객체에 할당. 소스 객체는 왼쪽에서 오른쪽으로 적용. 이후 원본이 이전 원본의 속성 할당 덮어쓰기",
-                            "value": "_.assign()"
+                            "value": "_.assign()",
+                            "exceptionValue": "{{_assign()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#assignIn",
                             "tooltlp": "이 메서드는 자체 및 상속된 소스 속성 위에 반복된다는 점을 제외하면 \"_.assign\" 와 같음",
-                            "value": "_.assignIn()"
+                            "value": "_.assignIn()",
+                            "exceptionValue": "{{_assignIn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#assignInWith",
                             "tooltlp": "이 메서드는 할당된 값을 생성하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 \"_.assignIn\" 와 같음. 사용자 정의가 되지 않은 상태로 반환되는 경우 대신 메서드로 할당 처리",
-                            "value": "_.assignInWith()"
+                            "value": "_.assignInWith()",
+                            "exceptionValue": "{{_assignInWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#assignWith",
                             "tooltlp": "이 메서드는 할당된 값을 생성하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 \"_.assign\" 와 같음. 사용자 정의가 되지 않은 상태로 반환되는 경우 대신 메서드로 할당 처리",
-                            "value": "_.assignWith()"
+                            "value": "_.assignWith()",
+                            "exceptionValue": "{{_assignWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#at",
                             "tooltlp": "객체의 경로에 해당하는 값 배열 생성",
-                            "value": "_.at()"
+                            "value": "_.at()",
+                            "exceptionValue": "{{_at()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#create",
                             "tooltlp": "프로토타입 객체로부터 상속되는 객체 생성. 속성 객체가 지정된 경우, 자체 열거형 문자열 키로 된 속성이 생성된 객체에 할당됨",
-                            "value": "_.create()"
+                            "value": "_.create()",
+                            "exceptionValue": "{{_create()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#defaults",
                             "tooltlp": "정의되지 않음으로 확인된 모든 대상 속성에 대해 소스 객체의 자체 및 상속된 열거형 문자열 키 속성을 대상 객체에 할당 소스 객체는 왼쪽에서 오른쪽으로 적용. 속성이 설정되면 동일한 속성의 추가 값이 무시됨",
-                            "value": "_.defaults()"
+                            "value": "_.defaults()",
+                            "exceptionValue": "{{_defaults()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#defaultsDeep",
                             "tooltlp": "이 메서드는 기본 속성을 재귀적으로 할당하는 것을 제외하고는 \"_.defaults\" 와 같음",
-                            "value": "_.defaultsDeep()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#toPairs",
-                            "tooltlp": "\"_.fromPairs\"에서 사용할 수 있는 객체에 대해 열거 가능한 문자열 키-값 쌍의 배열 생성. 객체가 지도 또는 세트인 경우 해당 항목이 반환됨",
-                            "value": "_.toPairs()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#toPairsIn",
-                            "tooltlp": "\"_.fromPairs\"에서 사용할 수 있는 객체에 대해 상속된 열거형 문자열 키 값 쌍으로 배열 생성. 객체가 지도 또는 세트인 경우 해당 항목이 반환됨",
-                            "value": "_.toPairsIn()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#assignIn",
-                            "tooltlp": "이 메서드는 자체 및 상속된 소스 속성 위에 반복된다는 점을 제외하면 \"_.assign\" 와 같음",
-                            "value": "_.assignIn()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#assignInWith",
-                            "tooltlp": "이 메서드는 할당된 값을 생성하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 \"_.assignIn\" 와 같음. 사용자 정의 되지 않은 상태로 반환되는 경우 대신 메서드로 할당 처리",
-                            "value": "_.assignInWith()"
+                            "value": "_.defaultsDeep()",
+                            "exceptionValue": "{{_defaultsDeep()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#findKey",
                             "tooltlp": "이 메서드는 첫 번째 요소의 키를 요소 자체 대신 true로 반환하는 것을 제외하고 \"_.find\" 와 같음",
-                            "value": "_.findKey()"
+                            "value": "_.findKey()",
+                            "exceptionValue": "{{_findKey()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#findLastKey",
                             "tooltlp": "이 메서드는 반대 순서로 컬렉션 요소 위에 반복된다는 점을 제외하면 \"_.findKey\" 와 같음",
-                            "value": "_.findLastKey()"
+                            "value": "_.findLastKey()",
+                            "exceptionValue": "{{_findLastKey()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#forIn",
                             "tooltlp": "객체 및 상속된 열거형 문자열 키 속성을 반복하고 각 속성에 대해 반복 실행",
-                            "value": "_.forIn()"
+                            "value": "_.forIn()",
+                            "exceptionValue": "{{_forIn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#forInRight",
                             "tooltlp": "이 메서드는 반대 순서로 객체의 속성을 반복하는 것을 제외하고 \"_.forIn\" 와 같음",
-                            "value": "_.forInRight()"
+                            "value": "_.forInRight()",
+                            "exceptionValue": "{{_forInRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#forOwn",
                             "tooltlp": "객체 키 속성을 열거할 수 있는 자체 문자열에서 반복하고 각 속성에 대해 반복 실행",
-                            "value": "_.forOwn()"
+                            "value": "_.forOwn()",
+                            "exceptionValue": "{{_forOwn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#forOwnRight",
                             "tooltlp": "이 메서드는 반대 순서로 객체의 속성을 반복하는 것을 제외하고 \"_.forOwn\" 와 같음",
-                            "value": "_.forOwnRight()"
+                            "value": "_.forOwnRight()",
+                            "exceptionValue": "{{_forOwnRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#functions",
                             "tooltlp": "객체의 열거 가능한 속성에서 함수 속성 이름 배열 생성",
-                            "value": "_.functions()"
+                            "value": "_.functions()",
+                            "exceptionValue": "{{_functions()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#functionsIn",
                             "tooltlp": "객체의 자체 및 상속된 열거형 특성에서 함수 속성 이름 배열 생성",
-                            "value": "_.functionsIn()"
+                            "value": "_.functionsIn()",
+                            "exceptionValue": "{{_functionsIn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#get",
                             "tooltlp": "객체의 경로에서 값을 가져오십시오. 확인된 값이 정의되지 않은 경우 defaultValue가 해당 위치에 반환됨",
-                            "value": "_.get()"
+                            "value": "_.get()",
+                            "exceptionValue": "{{_get()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#has",
                             "tooltlp": "경로가 객체의 직접 속성인지 확인",
-                            "value": "_.has()"
+                            "value": "_.has()",
+                            "exceptionValue": "{{_has()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#hasIn",
                             "tooltlp": "경로가 객체의 직접 또는 상속된 속성인지 확인",
-                            "value": "_.hasIn()"
+                            "value": "_.hasIn()",
+                            "exceptionValue": "{{_hasIn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#invert",
                             "tooltlp": "반전 키와 객체 값으로 구성된 객체 생성 객체가 중복된 값을 포함하는 경우 이후 값은 이전 값의 속성 할당을 덮어씀",
-                            "value": "_.invert()"
+                            "value": "_.invert()",
+                            "exceptionValue": "{{_invert()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#invertBy",
                             "tooltlp": "이 메서드는 객체의 각 요소를 반복적으로 실행한 결과에서 반전된 객체가 생성된다는 점을 제외하면 \"_.invert\" 와 같음. 각 반전 키의 해당 반전 값은 반전 값 생성을 담당하는 키의 배열 임",
-                            "value": "_.invertBy()"
+                            "value": "_.invertBy()",
+                            "exceptionValue": "{{_invertBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#invoke",
                             "tooltlp": "객체 경로에서 메서드 호출",
-                            "value": "_.invoke()"
+                            "value": "_.invoke()",
+                            "exceptionValue": "{{_invoke()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#keys",
                             "tooltlp": "객체의 열거 가능한 자체 속성 이름 배열 생성",
-                            "value": "_.keys()"
+                            "value": "_.keys()",
+                            "exceptionValue": "{{_keys()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#keysIn",
                             "tooltlp": "객체의 자체 및 상속된 열거형 속성 이름 배열 생성",
-                            "value": "_.keysIn()"
+                            "value": "_.keysIn()",
+                            "exceptionValue": "{{_keysIn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#mapKeys",
                             "tooltlp": "\"_.mapValues\"의 반대인 이 메서드는 반복적으로 객체의 각 열거형 문자열 키 속성을 실행하여 생성된 객체 및 키와 동일한 값을 가진 객체를 생성",
-                            "value": "_.mapKeys()"
+                            "value": "_.mapKeys()",
+                            "exceptionValue": "{{_mapKeys()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#mapValues",
                             "tooltlp": "객체와 동일한 키를 가진 객체 및 반복실험에서 객체 키 속성 각각을 실행하여 생성된 값의 객체 생성",
-                            "value": "_.mapValues()"
+                            "value": "_.mapValues()",
+                            "exceptionValue": "{{_mapValues()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#merge",
                             "tooltlp": "이 메서드는 소스 객체의 키 입력 특성을 대상 객체에 반복적으로 병합하는 것을 제외하고 \"_.assign\" 과 같음. 대상 값이 있는 경우 정의되지 않음으로 확인된 원본 속성은 건너뜀. 배열 및 일반 객체 속성은 다시 병합. 다른 객체와 값 유형은 할당에 의해 재정의. 소스 객체는 왼쪽에서 오른쪽으로 적용. 이후 원본이 이전 원본의 속성 할당 덮어쓰기",
-                            "value": "_.merge()"
+                            "value": "_.merge()",
+                            "exceptionValue": "{{_merge()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#mergeWith",
                             "tooltlp": "이 메서드는 대상 및 소스 속성의 병합된 값을 생성하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 \"_.merge\" 와 같음. 사용자 정의가 되지 않은 상태로 반환되는 경우, 대신 메서드에서 병합",
-                            "value": "_.mergeWith()"
+                            "value": "_.mergeWith()",
+                            "exceptionValue": "{{_mergeWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#omit",
                             "tooltlp": "\"_.pick\"의 반대인 이 메서드는 누락되지 않은 객체의 상속된 열거 가능한 속성 경로로 구성된 객체를 생성",
-                            "value": "_.omit()"
+                            "value": "_.omit()",
+                            "exceptionValue": "{{_omit()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#omitBy",
                             "tooltlp": "\"_.pickBy\"의 반대인 이 메서드는 다음과 같이 속성이 true로 반환되지 않는 객체의 상속된 열거형 문자열 키로 구성된 객체를 생성",
-                            "value": "_.omitBy()"
+                            "value": "_.omitBy()",
+                            "exceptionValue": "{{_omitBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pick",
                             "tooltlp": "선택한 객체 속성으로 구성된 객체 생성",
-                            "value": "_.pick()"
+                            "value": "_.pick()",
+                            "exceptionValue": "{{_pick()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pickBy",
                             "tooltlp": "객체 속성으로 구성된 객체 생성 true 반환",
-                            "value": "_.pickBy()"
+                            "value": "_.pickBy()",
+                            "exceptionValue": "{{_pickBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#result",
                             "tooltlp": "분해된 값이 상위 객체의 이 바인딩으로 호출되고 결과가 반환되는 경우를 제외하면 \"_.get\" 와 같음",
-                            "value": "_.result()"
+                            "value": "_.result()",
+                            "exceptionValue": "{{_result()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#set",
                             "tooltlp": "객체의 경로에서 값을 설정. 만약 경로의 일부가 존재하지 않는다면, 그것은 생성. 누락된 인덱스 속성에 대해 배열이 생성되고 다른 모든 누락된 속성에 대해 객체가 생성. \"_.setWith\"를 사용하여 경로 생성 사용자 정의",
-                            "value": "_.set()"
+                            "value": "_.set()",
+                            "exceptionValue": "{{_set()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#setWith",
                             "tooltlp": "이 메서드는 경로 객체를 생산하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 _.set 와 같음. 사용자 정의가 되지 않은 경로 생성을 반환하는 경우 대신 메서드에서 처리",
-                            "value": "_.setWith()"
+                            "value": "_.setWith()",
+                            "exceptionValue": "{{_setWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toPairs",
                             "tooltlp": "\"_fromPairs\"에서 사용할 수 있는 객체에 대해 열거 가능한 문자열 키-값 쌍의 배열 생성. 객체가 지도 또는 세트인 경우 해당 항목이 반환됨",
-                            "value": "_.toPairs()"
+                            "value": "_.toPairs()",
+                            "exceptionValue": "{{_toPairs()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toPairsIn",
                             "tooltlp": "\"_fromPairs\"에서 사용할 수 있는 객체에 대해 상속된 열거형 문자열 키 값 쌍으로 배열 생성. 객체가 지도 또는 세트인 경우 해당 항목이 반환됨",
-                            "value": "_.toPairsIn()"
+                            "value": "_.toPairsIn()",
+                            "exceptionValue": "{{_toPairsIn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#transform",
                             "tooltlp": "_.reduce\"의 대안으로, 이 메서드는 객체를 새로운 축열조 객체로 변환하며, 각 호출은 축열조 객체가 잠재적으로 변질될 수 있는 각 열거 문자열 키 속성을 반복적으로 실행한 결과물. 축열조가 제공되지 않을 경우 동일한 [[Prototype]]를 가진 새 객체가 사용",
-                            "value": "_.transform()"
+                            "value": "_.transform()",
+                            "exceptionValue": "{{_transform()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#unset",
                             "tooltlp": "객체 경로에서 속성 제거",
-                            "value": "_.unset()"
+                            "value": "_.unset()",
+                            "exceptionValue": "{{_unset()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#update",
                             "tooltlp": "설정할 값을 생성하기 위해 업데이트 프로그램을 허용하는 것을 제외 \"_.set\" 와 같음. 사용경로 생성을 사용자 정의하려면 \"_.updateWith\"를 사용",
-                            "value": "_.update()"
+                            "value": "_.update()",
+                            "exceptionValue": "{{_update()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#updateWith",
                             "tooltlp": "이 메서드는 경로 객체를 생성하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 \"_.update\" 와 같음. 사용자 정의가 되지 않은 경로 생성을 반환하는 경우 대신 메서드에서 처리",
-                            "value": "_.updateWith()"
+                            "value": "_.updateWith()",
+                            "exceptionValue": "{{_updateWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#values",
                             "tooltlp": "객체의 열거형 문자열 키 속성 값의 배열 생성",
-                            "value": "_.values()"
+                            "value": "_.values()",
+                            "exceptionValue": "{{_values()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#valuesIn",
                             "tooltlp": "객체의 자체 및 상속된 열거형 문자열 키 속성 값의 배열 생성",
-                            "value": "_.valuesIn()"
+                            "value": "_.valuesIn()",
+                            "exceptionValue": "{{_valuesIn()}}"
                         }
                     ]
                 }
@@ -1419,172 +1641,206 @@
                         {
                             "link": "https://lodash.com/docs/4.17.14#attempt",
                             "tooltlp": "결과 또는 걸린 오류 객체를 반환하여 func를 호출하려고 시도함. 추가 인수가 호출될 때 func에 제공됨",
-                            "value": "_.attempt()"
+                            "value": "_.attempt()",
+                            "exceptionValue": "{{_attempt()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#bindAll",
                             "tooltlp": "객체의 메서드를 객체 자체에 바인딩하여 기존 메서드를 덮어씀.",
-                            "value": "_.bindAll()"
+                            "value": "_.bindAll()",
+                            "exceptionValue": "{{_bindAll()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#cond",
                             "tooltlp": "쌍에 걸쳐 반복하는 함수를 생성하고 첫 번째 속성에 해당 함수를 호출하여 ture를 반환. 속성 함수 쌍은 생성된 함수의 이 바인딩과 인수로 호출",
-                            "value": "_.cond()"
+                            "value": "_.cond()",
+                            "exceptionValue": "{{_cond()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#conforms",
                             "tooltlp": "주어진 객체의 해당 속성 값으로 소스의 특성을 호출하여 모든 속성이 true로 반환되는 경우 true로 반환하고, 그렇지 않으면 false로 반환하는 함수 생성",
-                            "value": "_.conforms()"
+                            "value": "_.conforms()",
+                            "exceptionValue": "{{_conforms()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#constant",
                             "tooltlp": "값을 반환하는 함수 생성",
-                            "value": "_.constant()"
+                            "value": "_.constant()",
+                            "exceptionValue": "{{_constant()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#defaultTo",
                             "tooltlp": "기본값을 제자리에 반환해야 하는지 여부를 확인하려면 값을 확인. 값이 NaN, null 또는 정의되지 않은 경우 defaultValue가 반환됨",
-                            "value": "_.defaultTo()"
+                            "value": "_.defaultTo()",
+                            "exceptionValue": "{{_defaultTo()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#flow",
                             "tooltlp": "생성된 함수의 이 바인딩으로 주어진 함수의 호출 결과를 반환하는 함수를 생성하며, 여기서 각 연속 호출은 이전 함수의 반환 값을 제공",
-                            "value": "_.flow()"
+                            "value": "_.flow()",
+                            "exceptionValue": "{{_flow()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#flowRight",
                             "tooltlp": "This method is like \"_.flow\" except that it creates a function that invokes the given functions from right to left.",
-                            "value": "_.flowRight()"
+                            "value": "_.flowRight()",
+                            "exceptionValue": "{{_flowRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#identity",
                             "tooltlp": "이 메서드는 받는 첫 번째 인수를 반환",
-                            "value": "_.identity()"
+                            "value": "_.identity()",
+                            "exceptionValue": "{{_identity()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#iteratee",
                             "tooltlp": "생성된 함수의 인수로 func를 호출하는 함수를 생성. func가 속성 이름인 경우 생성된 함수는 지정된 요소에 대한 속성 값을 반환. func가 배열 또는 객체인 경우, 생성된 함수는 동등한 소스 속성을 포함하는 요소에 대해 true를 반환하고, 그렇지 않으면 false를 반환",
-                            "value": "_.iteratee()"
+                            "value": "_.iteratee()",
+                            "exceptionValue": "{{_iteratee()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#matches",
                             "tooltlp": "지정된 객체와 소스의 부분 깊은 비교를 수행하여 지정된 객체에 등가 속성 값이 있는 경우 true를 반환하고, 그렇지 않은 경우 false를 반환하는 함수를 생성",
-                            "value": "_.matches()"
+                            "value": "_.matches()",
+                            "exceptionValue": "{{_matches()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#matchesProperty",
                             "tooltlp": "지정된 객체의 경로에 있는 값과 srcValue 간의 부분 깊은 비교를 수행하는 함수를 생성하며, 객체 값이 동일한 경우 true를 반환하고, 그렇지 않으면 false",
-                            "value": "_.matchesProperty()"
+                            "value": "_.matchesProperty()",
+                            "exceptionValue": "{{_matchesProperty()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#method",
                             "tooltlp": "지정된 객체의 경로에서 메서드를 호출하는 함수를 생성. 호출된 메서드에 추가 인수가 제공됨",
-                            "value": "_.method()"
+                            "value": "_.method()",
+                            "exceptionValue": "{{_method()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#methodOf",
                             "tooltlp": "\"_.method\"의 반대인 이 메서드는 주어진 객체의 경로에서 메서드를 호출하는 함수를 만듬. 호출된 메서드에 추가 인수가 제공됨",
-                            "value": "_.methodOf()"
+                            "value": "_.methodOf()",
+                            "exceptionValue": "{{_methodOf()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#mixin",
                             "tooltlp": "소스 객체의 열거 가능한 모든 문자열 키 지정 함수 속성을 대상 객체에 추가. 물체가 함수인 경우, 그 시제품에도 메서드이 추가",
-                            "value": "_.mixin()"
+                            "value": "_.mixin()",
+                            "exceptionValue": "{{_mixin()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#noConflict",
                             "tooltlp": "_ 변수를 이전 값으로 되돌리고 lodash 함수에 대한 참조 반환",
-                            "value": "_.noConflict()"
+                            "value": "_.noConflict()",
+                            "exceptionValue": "{{_noConflict()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#noop",
                             "tooltlp": "undefined를 반환",
-                            "value": "_.noop()"
+                            "value": "_.noop()",
+                            "exceptionValue": "{{_noop()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#nthArg",
                             "tooltlp": "인덱스 n에서 인수를 가져오는 함수를 생성. n이 negative이면 끝에서 n번째 인수가 반환",
-                            "value": "_.nthArg()"
+                            "value": "_.nthArg()",
+                            "exceptionValue": "{{_nthArg()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#over",
                             "tooltlp": "받는 인수로 반복해서 호출하고 결과를 반환하는 함수 생성",
-                            "value": "_.over()"
+                            "value": "_.over()",
+                            "exceptionValue": "{{_over()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#overEvery",
                             "tooltlp": "받는 인수와 함께 호출될 때 모든 속성들이 true로 반환되는지 확인하는 함수 생성",
-                            "value": "_.overEvery()"
+                            "value": "_.overEvery()",
+                            "exceptionValue": "{{_overEvery()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#overSome",
                             "tooltlp": "받는 인수와 함께 호출될 때 속성들이 true로 반환되는지 확인하는 함수 생성",
-                            "value": "_.overSome()"
+                            "value": "_.overSome()",
+                            "exceptionValue": "{{_overSome()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#property",
                             "tooltlp": "지정된 객체의 경로에서 값을 반환하는 함수 생성",
-                            "value": "_.property()"
+                            "value": "_.property()",
+                            "exceptionValue": "{{_property()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#propertyOf",
                             "tooltlp": "\"_.property\"의 반대 메서드인 이 메서드는 주어진 객체 경로에서 값을 반환하는 함수를 생성",
-                            "value": "_.propertyOf()"
+                            "value": "_.propertyOf()",
+                            "exceptionValue": "{{_propertyOf()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#range",
                             "tooltlp": "처음부터 끝까지 진행하되 포함하지 않는 일련의 숫자(양수 및/또는 음수)를 생성. -1단계는 끝 또는 단계 없이 음의 시작을 지정하는 경우에 사용. 엔드가 지정되지 않은 경우, 시작과 함께 시작한 다음 0으로 설정됨",
-                            "value": "_.range()"
+                            "value": "_.range()",
+                            "exceptionValue": "{{_range()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#rangeRight",
                             "tooltlp": "값을 내림차순으로 채우는 것을 제외하고 \"_.range\"와 같음",
-                            "value": "_.rangeRight()"
+                            "value": "_.rangeRight()",
+                            "exceptionValue": "{{_rangeRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#runInContext",
                             "tooltlp": "컨텍스트 객체를 사용하여 새 lodash 기능 생성",
-                            "value": "_.runInContext()"
+                            "value": "_.runInContext()",
+                            "exceptionValue": "{{_runInContext()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#stubArray",
                             "tooltlp": "새로운 빈 배열 반환",
-                            "value": "_.stubArray()"
+                            "value": "_.stubArray()",
+                            "exceptionValue": "{{_stubArray()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#stubFalse",
                             "tooltlp": "false를 반환",
-                            "value": "_.stubFalse()"
+                            "value": "_.stubFalse()",
+                            "exceptionValue": "{{_stubFalse()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#stubObject",
                             "tooltlp": "새로운 빈 객체 반환",
-                            "value": "_.stubObject()"
+                            "value": "_.stubObject()",
+                            "exceptionValue": "{{_stubObject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#stubString",
                             "tooltlp": "빈 string 반환",
-                            "value": "_.stubString()"
+                            "value": "_.stubString()",
+                            "exceptionValue": "{{_stubString()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#stubTrue",
                             "tooltlp": "true를 반환",
-                            "value": "_.stubTrue()"
+                            "value": "_.stubTrue()",
+                            "exceptionValue": "{{_stubTrue()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#times",
                             "tooltlp": "반복 횟수 n회 호출하여 각 호출 결과의 배열 반환",
-                            "value": "_.times()"
+                            "value": "_.times()",
+                            "exceptionValue": "{{_times()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#toPath",
                             "tooltlp": "값을 속성 경로 배열로 변환",
-                            "value": "_.toPath()"
+                            "value": "_.toPath()",
+                            "exceptionValue": "{{_toPath()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#uniqueId",
                             "tooltlp": "고유 한 ID를 생성. prefix가 주어진다면 ID에 추가",
-                            "value": "_.uniqueId()"
+                            "value": "_.uniqueId()",
+                            "exceptionValue": "{{_uniqueId()}}"
                         }
                     ]
                 }

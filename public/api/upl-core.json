@@ -364,17 +364,20 @@
                         {
                             "link": "https://upleat.com/wp-uidev/?p=96#$.version",
                             "tooltlp": "Check the version of jQuery",
-                            "value": "$.version"
+                            "value": "$.version",
+                            "exceptionValue": "{{$version}}"
                         },
                         {
                             "link": "https://upleat.com/wp-uidev/?p=96#$.$",
                             "tooltlp": "Do not rediscover the element that was searched once when searching for elements",
-                            "value": "$.$()"
+                            "value": "$.$()",
+                            "exceptionValue": "{{$$()}}"
                         },
                         {
                             "link": "https://upleat.com/wp-uidev/?p=96#$.log",
                             "tooltlp": "Shows the console history, such as \"console.log\"",
-                            "value": "$.log()"
+                            "value": "$.log()",
+                            "exceptionValue": "{{$log()}}"
                         }
                     ]
                 },

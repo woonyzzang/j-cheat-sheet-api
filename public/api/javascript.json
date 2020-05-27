@@ -101,16 +101,6 @@
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/document.inputEncoding",
                             "tooltlp": "Returns the encoding, character set, used for the document",
                             "value": "inputEncoding"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.xmlEncoding",
-                            "tooltlp": "Returns the XML encoding of the XML documen",
-                            "value": "xmlEncoding"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/DOM/document.xmlVersion",
-                            "tooltlp": "Sets or returns the XML version of the XML document",
-                            "value": "xmlVersion"
                         }
                     ]
                 },
@@ -228,77 +218,77 @@
                     "list": [
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getAttribute",
-                            "tooltlp": "",
+                            "tooltlp": "Returns the value of the specified property",
                             "value": "getAttribute()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getAttributeNS",
-                            "tooltlp": "",
+                            "tooltlp": "Returns the value of the specified property with the specified namespace. XML DOM only",
                             "value": "getAttributeNS()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getAttributeNode",
-                            "tooltlp": "",
+                            "tooltlp": "Returns the specified property node",
                             "value": "getAttributeNode()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getAttributeNodeNS",
-                            "tooltlp": "",
+                            "tooltlp": "Returns the specified property node with the specified namespace. XML DOM only",
                             "value": "getAttributeNodeNS()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getElementsByTagName",
-                            "tooltlp": "",
+                            "tooltlp": "Returns a collection of all child elements with the specified tagname",
                             "value": "getElementsByTagName()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.getElementsByTagNameNS",
-                            "tooltlp": "",
+                            "tooltlp": "Returns a collection of all child elements with the specified tag name and namespace. XML DOM only",
                             "value": "getElementsByTagNameNS()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.hasAttribute",
-                            "tooltlp": "",
+                            "tooltlp": "Returns true if the element has the specified attribute, false otherwise.",
                             "value": "hasAttribute()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.hasAttributeNS",
-                            "tooltlp": "",
+                            "tooltlp": "Returns true if the element has the specified attribute along with the specified namespace, false otherwise. XML DOM only",
                             "value": "hasAttributeNS()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.removeAttribute",
-                            "tooltlp": "",
+                            "tooltlp": "Remove specified attribute",
                             "value": "removeAttribute()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.removeAttributeNS",
-                            "tooltlp": "",
+                            "tooltlp": "Remove the attribute with the specified name and namespace. XML DOM only",
                             "value": "removeAttributeNS()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.removeAttributeNode",
-                            "tooltlp": "",
+                            "tooltlp": "Removes the specified attribute node and returns the removed node",
                             "value": "removeAttributeNode()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.setAttribute",
-                            "tooltlp": "",
+                            "tooltlp": "Sets or changes the specified attribute to the specified value",
                             "value": "setAttribute()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.setAttributeNS",
-                            "tooltlp": "",
+                            "tooltlp": "Sets or changes the specified property to the specified value using the specified namespace. XML DOM only",
                             "value": "setAttributeNS()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.setAttributeNode",
-                            "tooltlp": "",
+                            "tooltlp": "Sets or changes the specified attribute node",
                             "value": "setAttributeNode()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.setAttribute",
-                            "tooltlp": "",
+                            "tooltlp": "Sets or changes the specified attribute node. XML DOM only",
                             "value": "setAttributeNodeNS()"
                         }
                     ]
@@ -778,76 +768,6 @@
                     ]
                 },
                 {
-                    "subject": "String HTML Wrapper Methods",
-                    "list": [
-                        {
-                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/anchor",
-                            "tooltlp": "Creates an anchor",
-                            "value": "anchor()"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/big",
-                            "tooltlp": "Displays a string using a big font",
-                            "value": "big()"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/blink",
-                            "tooltlp": "Displays a blinking string",
-                            "value": "blink()"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/bold",
-                            "tooltlp": "Displays a string in bold",
-                            "value": "bold()"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/fixed",
-                            "tooltlp": "Displays a string using a fixed-pitch font",
-                            "value": "fixed()"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/fontcolor",
-                            "tooltlp": "Displays a string using a specified color",
-                            "value": "fontcolor()"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/fontsize",
-                            "tooltlp": "Displays a string using a specified size",
-                            "value": "fontsize()"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/italics",
-                            "tooltlp": "Displays a string in italic",
-                            "value": "italics()"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/link",
-                            "tooltlp": "Displays a string as a hyperlink",
-                            "value": "link()"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/small",
-                            "tooltlp": "Displays a string using a small font",
-                            "value": "small()"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/strike",
-                            "tooltlp": "Displays a string with a strikethrough",
-                            "value": "strike()"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/sub",
-                            "tooltlp": "Displays a string as subscript text",
-                            "value": "sub()"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String/sup",
-                            "tooltlp": "Displays a string as superscript text",
-                            "value": "sup()"
-                        }
-                    ]
-                },
-                {
                     "subject": "Global Properties",
                     "list": [
                         {
@@ -883,7 +803,7 @@
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/encodeURI",
                             "tooltlp": "Encodes a URI",
-                            "value": "encodeURI(()"
+                            "value": "encodeURI()"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/encodeURIComponent",
@@ -1124,7 +1044,8 @@
                             "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCMonth",
                             "tooltlp": "Sets the month of a date object, according to universal time",
                             "value": "setUTCMonth()"
-                        },{
+                        },
+                        {
                             "link": "https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Date/setUTCSeconds",
                             "tooltlp": "Set the seconds of a date object, according to universal time",
                             "value": "setUTCSeconds()"
@@ -1325,93 +1246,93 @@
                     "subject": "Window Methods",
                     "list": [
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.alert",
+                            "tooltlp": "Display warning box with message and ok button",
                             "value": "alert()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.blur",
+                            "tooltlp": "Remove focus from current window",
                             "value": "blur()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.clearInterval",
+                            "tooltlp": "Clear timer set with setInterval()",
                             "value": "clearInterval()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.clearTimeout",
+                            "tooltlp": "Clear timer set with setTimeout()",
                             "value": "clearTimeout()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.close",
+                            "tooltlp": "Close the current window",
                             "value": "close()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.confirm",
+                            "tooltlp": "Displays a dialog box with a message and OK and Cancel buttons",
                             "value": "confirm()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.focus",
+                            "tooltlp": "Set focus to current window",
                             "value": "focus()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.moveBy",
+                            "tooltlp": "Move window based on current location",
                             "value": "moveBy()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.moveTo",
+                            "tooltlp": "Move the window to a specified location",
                             "value": "moveTo()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.open",
+                            "tooltlp": "Open a new browser window",
                             "value": "open()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.print",
+                            "tooltlp": "Print the contents of the current window",
                             "value": "print()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.prompt",
+                            "tooltlp": "Displays a dialog box asking the user for input",
                             "value": "prompt()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.resizeBy",
+                            "tooltlp": "Resize window window to specified pixel",
                             "value": "resizeBy()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.resizeTo",
+                            "tooltlp": "window Adjust the window to the specified width and height.",
                             "value": "resizeTo()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.scrollBy",
+                            "tooltlp": "Scroll content by the specified number of pixels",
                             "value": "scrollBy()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.scrollTo",
+                            "tooltlp": "Scroll content to specified coordinates",
                             "value": "scrollTo()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.setInterval",
+                            "tooltlp": "Call a function or evaluate an expression at specified intervals (milliseconds)",
                             "value": "setInterval()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.setTimeout",
+                            "tooltlp": "Call function or evaluate expression after specified milliseconds",
                             "value": "setTimeout()"
                         }
                     ]
@@ -1420,33 +1341,33 @@
                     "subject": "Navigator Properties",
                     "list": [
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.appCodeName",
+                            "tooltlp": "Returns the browser's code name",
                             "value": "appCodeName"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.appName",
+                            "tooltlp": "Returns the browser's name",
                             "value": "appName"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.appVersion",
+                            "tooltlp": "Returns the browser version information",
                             "value": "appVersion"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.cookieEnabled",
+                            "tooltlp": "Make sure cookies are enabled in your browser",
                             "value": "cookieEnabled"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.platform",
+                            "tooltlp": "Return to platform where browser is compiled",
                             "value": "platform"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.userAgent",
+                            "tooltlp": "Returns the user agent header sent by the browser to the server",
                             "value": "userAgent"
                         }
                     ]
@@ -1455,18 +1376,13 @@
                     "subject": "Navigator Methods",
                     "list": [
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.navigator.javaEnabled",
+                            "tooltlp": "Specifies whether Java is enabled for the browser",
                             "value": "javaEnabled()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
-                            "value": "registerContentHandler()"
-                        },
-                        {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/navigator.registerProtocolHandler",
+                            "tooltlp": "Register as a possible handler for a specific protocol",
                             "value": "registerProtocolHandler()"
                         }
                     ]
@@ -1475,38 +1391,33 @@
                     "subject": "Screen Properties",
                     "list": [
                         {
-                            "link": "",
-                            "tooltlp": "",
-                            "value": "availHeight"
-                        },
-                        {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en/DOM/window.screen.availWidth",
+                            "tooltlp": "Returns the screen width (except the Windows taskbar)",
                             "value": "availWidth"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en/DOM/window.screen.availHeight",
+                            "tooltlp": "Returns screen height (except Windows taskbar)",
                             "value": "availHeight"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en/DOM/window.screen.colorDepth",
+                            "tooltlp": "Returns the bit depth of the color table for displaying images",
                             "value": "colorDepth"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en/DOM/window.screen.height",
+                            "tooltlp": "Returns the total height of the screen",
                             "value": "height"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en/DOM/window.screen.pixelDepth",
+                            "tooltlp": "Returns the color resolution of the screen (bits per pixel)",
                             "value": "pixelDepth"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en/DOM/window.screen.width",
+                            "tooltlp": "Returns the total width of the screen",
                             "value": "width"
                         }
                     ]
@@ -1515,8 +1426,8 @@
                     "subject": "History Properties",
                     "list": [
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.history",
+                            "tooltlp": "Returns the number of URLs in the history list",
                             "value": "length"
                         }
                     ]
@@ -1525,18 +1436,18 @@
                     "subject": "History Methods",
                     "list": [
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.history",
+                            "tooltlp": "Loading the old URL from the history list",
                             "value": "back()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.history",
+                            "tooltlp": "Load the following URL from the history list",
                             "value": "forward()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.history",
+                            "tooltlp": "Load a specific URL from the history list",
                             "value": "go()"
                         }
                     ]
@@ -1545,43 +1456,43 @@
                     "subject": "Location Properties",
                     "list": [
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "Return the anchor part of the URL",
                             "value": "hash"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "Return the host name and port of the URL",
                             "value": "host"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "Returns the host name of the URL",
                             "value": "hostname"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "Return full URL",
                             "value": "href"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "Returns the path name of the URL",
                             "value": "pathname"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "Returns the port number used by the server in the URL",
                             "value": "port"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "Return the protocol of the URL",
                             "value": "protocol"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Properties",
+                            "tooltlp": "Returns the query part of the URL",
                             "value": "search"
                         }
                     ]
@@ -1590,18 +1501,18 @@
                     "subject": "Location Methods",
                     "list": [
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Methods",
+                            "tooltlp": "Load new document",
                             "value": "assign()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Methods",
+                            "tooltlp": "Refresh the current document",
                             "value": "reload()"
                         },
                         {
-                            "link": "",
-                            "tooltlp": "",
+                            "link": "https://developer.mozilla.org/en-US/docs/DOM/window.location#Methods",
+                            "tooltlp": "Replace current document with new document",
                             "value": "replace()"
                         }
                     ]
@@ -1778,7 +1689,8 @@
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#setTransform()",
                             "tooltlp": "void setTransform (in float m11, in float m12, in float m21, in float m22, in float dx, in float dy)",
                             "value": "setTransform()"
-                        },{
+                        },
+                        {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/CanvasRenderingContext2D#stroke()",
                             "tooltlp": "Strokes the subpaths with the current stroke style",
                             "value": "stroke()"
@@ -1828,7 +1740,6 @@
                             "tooltlp": "Perform multiline matching",
                             "value": "m"
                         }
-
                     ]
                 },
                 {
@@ -1837,40 +1748,48 @@
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
                             "tooltlp": "Find any character between the brackets",
-                            "value": "[abc]"
+                            "value": "[abc]",
+                            "exceptionValue": "{{abc}}"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
                             "tooltlp": "Find any character not between the brackets",
-                            "value": "[^abc]"
+                            "value": "[^abc]",
+                            "exceptionValue": "{{^abc}}"
                         },
                         {
                             "tooltlp": "Find any digit from 0 to 9",
-                            "value": "[0-9]"
+                            "value": "[0-9]",
+                            "exceptionValue": "{{0-9}}"
                         },
                         {
                             "tooltlp": "Find any character from uppercase A to uppercase Z",
-                            "value": "[A-Z]"
+                            "value": "[A-Z]",
+                            "exceptionValue": "{{A-Z}}"
                         },
                         {
                             "tooltlp": "Find any character from lowercase a to lowercase z",
-                            "value": "[a-z]"
+                            "value": "[a-z]",
+                            "exceptionValue": "{{a-z}}"
                         },
                         {
                             "tooltlp": "Find any character from uppercase A to lowercase z",
-                            "value": "[A-z]"
+                            "value": "[A-z]",
+                            "exceptionValue": "{{A-z}}"
                         },
                         {
                             "tooltlp": "Find any character in the given set",
-                            "value": "[adgk]"
+                            "value": "[adgk]",
+                            "exceptionValue": "{{adgk}}"
                         },
                         {
                             "tooltlp": "Find any character outside the given set",
-                            "value": "[^adgk]"
+                            "value": "[^adgk]",
+                            "exceptionValue": "{{^adgk}}"
                         },
                         {
                             "tooltlp": "Find any of the alternatives specified",
-                            "value": "(red|blue|green)"
+                            "exceptionValue": "(red|blue|green)"
                         }
                     ]
                 },
@@ -1880,7 +1799,8 @@
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",
                             "tooltlp": "Find a single character, except newline or line terminator",
-                            "value": "."
+                            "value": ".",
+                            "exceptionValue": "{{dot}}"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp#Special_characters_in_regular_expressions",

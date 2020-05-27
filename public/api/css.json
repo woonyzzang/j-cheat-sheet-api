@@ -797,11 +797,6 @@
                             "value": "word-spacing"
                         },
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/text-outline",
-                            "tooltlp": "Specifies a text outline",
-                            "value": "text-outline"
-                        },
-                        {
                             "link": "https://developer.mozilla.org/en-US/docs/CSS/text-overflow",
                             "tooltlp": "Specifies what should happen when text overflows the containing element",
                             "value": "text-overflow"
@@ -988,7 +983,7 @@
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column",
-                            "tooltlp": " grid-column-start and grid-column-end specifying a grid item's size and location within the grid column by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start and inline-end edge of its grid area",
+                            "tooltlp": "grid-column-start and grid-column-end specifying a grid item's size and location within the grid column by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start and inline-end edge of its grid area",
                             "value": "grid-column"
                         },
                         {
@@ -1241,7 +1236,6 @@
                             "tooltlp": "that defines XML namespaces to be used in a CSS style sheet",
                             "value": "@namespace"
                         },
-
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media",
                             "tooltlp": "can be used to apply part of a style sheet based on the result of one or more media queries",
@@ -1321,36 +1315,6 @@
                             "link": "https://developer.mozilla.org/en-US/docs/CSS/box-sizing",
                             "tooltlp": "Allows you to define certain elements to fit an area in a certain way",
                             "value": "box-sizing"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/icon",
-                            "tooltlp": "Provides the author the ability to style an element with an iconic equivalent",
-                            "value": "icon"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/nav-down",
-                            "tooltlp": "Specifies where to navigate when using the arrow-down navigation key",
-                            "value": "nav-down"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/nav-index",
-                            "tooltlp": "Specifies the tabbing order for an element",
-                            "value": "nav-index"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/nav-left",
-                            "tooltlp": "Specifies where to navigate when using the arrow-left navigation key",
-                            "value": "nav-left"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/nav-right",
-                            "tooltlp": "Specifies where to navigate when using the arrow-right navigation key",
-                            "value": "nav-right"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/CSS/nav-up",
-                            "tooltlp": "Specifies where to navigate when using the arrow-up navigation key",
-                            "value": "nav-up"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/CSS/outline-offset",

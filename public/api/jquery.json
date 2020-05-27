@@ -9,47 +9,56 @@
                         {
                             "link": "http://api.jquery.com/attribute-contains-prefix-selector/",
                             "tooltlp": "Selects elements that have the specified attribute with a value either equal to a given string or starting with that string followed by a hyphen (-).",
-                            "value": "[name|=\"value\"]"
+                            "value": "[name|=\"value\"]",
+                            "exceptionValue": "{{name|=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/attribute-contains-selector/",
                             "tooltlp": "Selects elements that have the specified attribute with a value containing the a given substring.",
-                            "value": "[name*=\"value\"]"
+                            "value": "[name*=\"value\"]",
+                            "exceptionValue": "{{name*=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/attribute-contains-word-selector/",
                             "tooltlp": "Selects elements that have the specified attribute with a value containing a given word, delimited by spaces.",
-                            "value": "[name~=\"value\"]"
+                            "value": "[name~=\"value\"]",
+                            "exceptionValue": "{{name~=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/attribute-ends-with-selector/",
                             "tooltlp": "Selects elements that have the specified attribute with a value ending exactly with a given string. The comparison is case sensitive.",
-                            "value": "[name$=\"value\"]"
+                            "value": "[name$=\"value\"]",
+                            "exceptionValue": "{{name$=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/attribute-equals-selector/",
                             "tooltlp": "Selects elements that have the specified attribute with a value exactly equal to a certain value.",
-                            "value": "[name=\"value\"]"
+                            "value": "[name=\"value\"]",
+                            "exceptionValue": "{{name=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/attribute-not-equal-selector/",
                             "tooltlp": "Select elements that either don't have the specified attribute, or do have the specified attribute but not with a certain value.",
-                            "value": "[name!=\"value\"]"
+                            "value": "[name!=\"value\"]",
+                            "exceptionValue": "{{name!=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/attribute-starts-with-selector/",
                             "tooltlp": "Selects elements that have the specified attribute with a value beginning exactly with a given string.",
-                            "value": "[name^=\"value\"]"
+                            "value": "[name^=\"value\"]",
+                            "exceptionValue": "{{name^=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/has-attribute-selector/",
                             "tooltlp": "Selects elements that have the specified attribute, with any value.",
-                            "value": "[name]"
+                            "value": "[name]",
+                            "exceptionValue": "{{name}}"
                         },
                         {
                             "link": "http://api.jquery.com/multiple-attribute-selector/",
                             "tooltlp": "Matches elements that match all of the specified attribute filters.",
-                            "value": "[name=\"value\"][name2=\"value2\"]"
+                            "value": "[name=\"value\"][name2=\"value2\"]",
+                            "exceptionValue": "{{name=value}}{{name2=value2}}"
                         }
                     ]
                 },
@@ -144,7 +153,8 @@
                         {
                             "link": "http://api.jquery.com/class-selector/",
                             "tooltlp": "Selects all elements with the given class.",
-                            "value": ".class"
+                            "value": ".class",
+                            "exceptionValue": "{{class}}"
                         },
                         {
                             "link": "http://api.jquery.com/element-selector/",
@@ -159,7 +169,8 @@
                         {
                             "link": "http://api.jquery.com/multiple-selector/",
                             "tooltlp": "Selects the combined results of all the specified selectors.",
-                            "value": "selector1, selectorN, ..."
+                            "value": "selector1, selectorN, ...",
+                            "exceptionValue": "{{selectorN}}"
                         }
                     ]
                 },
@@ -319,27 +330,32 @@
                         {
                             "link": "http://api.jquery.com/attr/",
                             "tooltlp": "Get the value of an attribute for the first element in the set of matched elements.",
-                            "value": ".attr()"
+                            "value": ".attr()",
+                            "exceptionValue": "{{attr()}}"
                         },
                         {
                             "link": "http://api.jquery.com/prop/",
                             "tooltlp": "Get the value of a property for the first element in the set of matched elements.",
-                            "value": ".prop()"
+                            "value": ".prop()",
+                            "exceptionValue": "{{prop()}}"
                         },
                         {
                             "link": "http://api.jquery.com/removeAttr/",
                             "tooltlp": "Remove an attribute from each element in the set of matched elements.",
-                            "value": ".removeAttr()"
+                            "value": ".removeAttr()",
+                            "exceptionValue": "{{removeAttr()}}"
                         },
                         {
                             "link": "http://api.jquery.com/removeProp/",
                             "tooltlp": "Remove a property for the set of matched elements.",
-                            "value": ".removeProp()"
+                            "value": ".removeProp()",
+                            "exceptionValue": "{{removeProp()}}"
                         },
                         {
                             "link": "http://api.jquery.com/val/",
                             "tooltlp": "Get the current value of the first element in the set of matched elements.",
-                            "value": ".val()"
+                            "value": ".val()",
+                            "exceptionValue": "{{val()}}"
                         }
                     ]
                 },
@@ -384,32 +400,38 @@
                         {
                             "link": "http://api.jquery.com/height/",
                             "tooltlp": "Get the current computed height for the first element in the set of matched elements.",
-                            "value": ".height()"
+                            "value": ".height()",
+                            "exceptionValue": "{{height()}}"
                         },
                         {
                             "link": "http://api.jquery.com/innerHeight/",
                             "tooltlp": "Get the current computed height for the first element in the set of matched elements, including padding but not border.",
-                            "value": ".innerHeight()"
+                            "value": ".innerHeight()",
+                            "exceptionValue": "{{innerHeight()}}"
                         },
                         {
                             "link": "http://api.jquery.com/innerWidth/",
                             "tooltlp": "Get the current computed width for the first element in the set of matched elements, including padding but not border.",
-                            "value": ".innerWidth()"
+                            "value": ".innerWidth()",
+                            "exceptionValue": "{{innerWidth()}}"
                         },
                         {
                             "link": "http://api.jquery.com/outerHeight/",
                             "tooltlp": "Get the current computed height for the first element in the set of matched elements, including padding, border, and optionally margin.",
-                            "value": ".outerHeight()"
+                            "value": ".outerHeight()",
+                            "exceptionValue": "{{outerHeight()}}"
                         },
                         {
                             "link": "http://api.jquery.com/outerWidth/",
                             "tooltlp": "Get the current computed width for the first element in the set of matched elements, including padding and border.",
-                            "value": ".outerWidth()"
+                            "value": ".outerWidth()",
+                            "exceptionValue": "{{outerWidth()}}"
                         },
                         {
                             "link": "http://api.jquery.com/width/",
                             "tooltlp": "Get the current computed width for the first element in the set of matched elements.",
-                            "value": ".width()"
+                            "value": ".width()",
+                            "exceptionValue": "{{width()}}"
                         }
                     ]
                 },
@@ -419,27 +441,32 @@
                         {
                             "link": "http://api.jquery.com/offset/",
                             "tooltlp": "Get the current coordinates of the first element in the set of matched elements, relative to the document.",
-                            "value": ".offset()"
+                            "value": ".offset()",
+                            "exceptionValue": "{{offset()}}"
                         },
                         {
                             "link": "http://api.jquery.com/offsetParent/",
                             "tooltlp": "Get the closest ancestor element that is positioned.",
-                            "value": ".offsetParent()"
+                            "value": ".offsetParent()",
+                            "exceptionValue": "{{offsetParent()}}"
                         },
                         {
                             "link": "http://api.jquery.com/position/",
                             "tooltlp": "Get the current coordinates of the first element in the set of matched elements, relative to the offset parent.",
-                            "value": ".position()"
+                            "value": ".position()",
+                            "exceptionValue": "{{position()}}"
                         },
                         {
                             "link": "http://api.jquery.com/scrollLeft/",
                             "tooltlp": "Get the current horizontal position of the scroll bar for the first element in the set of matched elements.",
-                            "value": ".scrollLeft()"
+                            "value": ".scrollLeft()",
+                            "exceptionValue": "{{scrollLeft()}}"
                         },
                         {
                             "link": "http://api.jquery.com/scrollTop/",
                             "tooltlp": "Get the current vertical position of the scroll bar for the first element in the set of matched elements.",
-                            "value": ".scrollTop()"
+                            "value": ".scrollTop()",
+                            "exceptionValue": "{{scrollTop()}}"
                         }
                     ]
                 },
@@ -454,7 +481,8 @@
                         {
                             "link": "href=\"http://api.jquery.com/data/",
                             "tooltlp": "Store arbitrary data associated with the matched elements.",
-                            "value": ".data()"
+                            "value": ".data()",
+                            "exceptionValue": "{{data()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.hasData/",
@@ -469,7 +497,8 @@
                         {
                             "link": "http://api.jquery.com/removeData/",
                             "tooltlp": "Remove a previously-stored piece of data.",
-                            "value": ".removeData()"
+                            "value": ".removeData()",
+                            "exceptionValue": "{{removeData()}}"
                         }
                     ]
                 }
@@ -484,7 +513,8 @@
                         {
                             "link": "http://api.jquery.com/clone/",
                             "tooltlp": "Create a deep copy of the set of matched elements.",
-                            "value": ".clone()"
+                            "value": ".clone()",
+                            "exceptionValue": "{{clone()}}"
                         }
                     ]
                 },
@@ -494,17 +524,20 @@
                         {
                             "link": "http://api.jquery.com/wrap/",
                             "tooltlp": "Wrap an HTML structure around each element in the set of matched elements.",
-                            "value": ".wrap()"
+                            "value": ".wrap()",
+                            "exceptionValue": "{{wrap()}}"
                         },
                         {
                             "link": "http://api.jquery.com/wrapAll/",
                             "tooltlp": "Wrap an HTML structure around all elements in the set of matched elements.",
-                            "value": ".wrapAll()"
+                            "value": ".wrapAll()",
+                            "exceptionValue": "{{wrapAll()}}"
                         },
                         {
                             "link": "http://api.jquery.com/wrapInner/",
                             "tooltlp": "Wrap an HTML structure around the content of each element in the set of matched elements.",
-                            "value": ".wrapInner()"
+                            "value": ".wrapInner()",
+                            "exceptionValue": "{{wrapInner()}}"
                         }
                     ]
                 },
@@ -514,32 +547,38 @@
                         {
                             "link": "http://api.jquery.com/append/",
                             "tooltlp": "Insert content, specified by the parameter, to the end of each element in the set of matched elements.",
-                            "value": ".append()"
+                            "value": ".append()",
+                            "exceptionValue": "{{append()}}"
                         },
                         {
                             "link": "http://api.jquery.com/appendTo/",
                             "tooltlp": "Insert every element in the set of matched elements to the end of the target.",
-                            "value": ".appendTo()"
+                            "value": ".appendTo()",
+                            "exceptionValue": "{{appendTo()}}"
                         },
                         {
                             "link": "http://api.jquery.com/html/",
                             "tooltlp": "Get the HTML contents of the first element in the set of matched elements.",
-                            "value": ".html()"
+                            "value": ".html()",
+                            "exceptionValue": "{{html()}}"
                         },
                         {
                             "link": "http://api.jquery.com/prepend/",
                             "tooltlp": "Insert content, specified by the parameter, to the beginning of each element in the set of matched elements.",
-                            "value": ".prepend()"
+                            "value": ".prepend()",
+                            "exceptionValue": "{{prepend()}}"
                         },
                         {
                             "link": "http://api.jquery.com/prependTo/",
                             "tooltlp": "Insert every element in the set of matched elements to the beginning of the target.",
-                            "value": ".prependTo()"
+                            "value": ".prependTo()",
+                            "exceptionValue": "{{prependTo()}}"
                         },
                         {
                             "link": "http://api.jquery.com/text/",
                             "tooltlp": "Get the combined text contents of each element in the set of matched elements, including their descendants.",
-                            "value": ".text()"
+                            "value": ".text()",
+                            "exceptionValue": "{{text()}}"
                         }
                     ]
                 },
@@ -549,22 +588,26 @@
                         {
                             "link": "http://api.jquery.com/after/",
                             "tooltlp": "Insert content, specified by the parameter, after each element in the set of matched elements.",
-                            "value": ".after()"
+                            "value": ".after()",
+                            "exceptionValue": "{{after()}}"
                         },
                         {
                             "link": "http://api.jquery.com/before/",
                             "tooltlp": "Insert content, specified by the parameter, before each element in the set of matched elements.",
-                            "value": ".before()"
+                            "value": ".before()",
+                            "exceptionValue": "{{before()}}"
                         },
                         {
                             "link": "http://api.jquery.com/insertAfter/",
                             "tooltlp": "Insert every element in the set of matched elements after the target.",
-                            "value": ".insertAfter()"
+                            "value": ".insertAfter()",
+                            "exceptionValue": "{{insertAfter()}}"
                         },
                         {
                             "link": "http://api.jquery.com/insertBefore/",
                             "tooltlp": "Insert every element in the set of matched elements before the target.",
-                            "value": ".insertBefore()"
+                            "value": ".insertBefore()",
+                            "exceptionValue": "{{insertBefore()}}"
                         }
                     ]
                 },
@@ -574,22 +617,26 @@
                         {
                             "link": "http://api.jquery.com/detach/",
                             "tooltlp": "Remove the set of matched elements from the DOM.",
-                            "value": ".detach()"
+                            "value": ".detach()",
+                            "exceptionValue": "{{detach()}}"
                         },
                         {
                             "link": "http://api.jquery.com/empty/",
                             "tooltlp": "Remove all child nodes of the set of matched elements from the DOM.",
-                            "value": ".empty()"
+                            "value": ".empty()",
+                            "exceptionValue": "{{empty()}}"
                         },
                         {
                             "link": "http://api.jquery.com/remove/",
                             "tooltlp": "Remove the set of matched elements from the DOM",
-                            "value": ".remove()"
+                            "value": ".remove()",
+                            "exceptionValue": "{{remove()}}"
                         },
                         {
                             "link": "http://api.jquery.com/unwrap/",
                             "tooltlp": "Remove the parents of the set of matched elements from the DOM, leaving the matched elements in their place.",
-                            "value": ".unwrap()"
+                            "value": ".unwrap()",
+                            "exceptionValue": "{{unwrap()}}"
                         }
                     ]
                 },
@@ -599,12 +646,14 @@
                         {
                             "link": "http://api.jquery.com/replaceAll/",
                             "tooltlp": "Replace each target element with the set of matched elements.",
-                            "value": ".replaceAll()"
+                            "value": ".replaceAll()",
+                            "exceptionValue": "{{replaceAll()}}"
                         },
                         {
                             "link": "http://api.jquery.com/replaceWith/",
                             "tooltlp": "Replace each element in the set of matched elements with the provided new content.",
-                            "value": ".replaceWith()"
+                            "value": ".replaceWith()",
+                            "exceptionValue": "{{replaceWith()}}"
                         }
                     ]
                 }
@@ -619,47 +668,56 @@
                         {
                             "link": "http://api.jquery.com/eq/",
                             "tooltlp": "Reduce the set of matched elements to the one at the specified index.",
-                            "value": ".eq()"
+                            "value": ".eq()",
+                            "exceptionValue": "{{eq()}}"
                         },
                         {
                             "link": "http://api.jquery.com/filter/",
                             "tooltlp": "Reduce the set of matched elements to those that match the selector or pass the function's test.",
-                            "value": ".filter()"
+                            "value": ".filter()",
+                            "exceptionValue": "{{filter()}}"
                         },
                         {
                             "link": "http://api.jquery.com/first/",
                             "tooltlp": "Reduce the set of matched elements to the first in the set.",
-                            "value": ".first()"
+                            "value": ".first()",
+                            "exceptionValue": "{{first()}}"
                         },
                         {
                             "link": "http://api.jquery.com/has/",
                             "tooltlp": "Reduce the set of matched elements to those that have a descendant that matches the selector or DOM element.",
-                            "value": ".has()"
+                            "value": ".has()",
+                            "exceptionValue": "{{has()}}"
                         },
                         {
                             "link": "http://api.jquery.com/is/",
                             "tooltlp": "Check the current matched set of elements against a selector and return true if at least one of these elements matches the selector.",
-                            "value": ".is()"
+                            "value": ".is()",
+                            "exceptionValue": "{{is()}}"
                         },
                         {
                             "link": "http://api.jquery.com/last/",
                             "tooltlp": "Reduce the set of matched elements to the final one in the set.",
-                            "value": ".last()"
+                            "value": ".last()",
+                            "exceptionValue": "{{last()}}"
                         },
                         {
                             "link": "http://api.jquery.com/map/",
                             "tooltlp": "Pass each element in the current matched set through a function, producing a new jQuery object containing the return values.",
-                            "value": ".map()"
+                            "value": ".map()",
+                            "exceptionValue": "{{map()}}"
                         },
                         {
                             "link": "http://api.jquery.com/not/",
                             "tooltlp": "Remove elements from the set of matched elements.",
-                            "value": ".not()"
+                            "value": ".not()",
+                            "exceptionValue": "{{not()}}"
                         },
                         {
                             "link": "http://api.jquery.com/slice/",
                             "tooltlp": "Reduce the set of matched elements to a subset specified by a range of indices.",
-                            "value": ".slice()"
+                            "value": ".slice()",
+                            "exceptionValue": "{{slice()}}"
                         }
                     ]
                 },
@@ -669,22 +727,26 @@
                         {
                             "link": "http://api.jquery.com/add/",
                             "tooltlp": "Add elements to the set of matched elements.",
-                            "value": ".add()"
+                            "value": ".add()",
+                            "exceptionValue": "{{add()}}"
                         },
                         {
                             "link": "http://api.jquery.com/andSelf/",
                             "tooltlp": "Add the previous set of elements on the stack to the current set.",
-                            "value": ".andSelf()"
+                            "value": ".andSelf()",
+                            "exceptionValue": "{{andSelf()}}"
                         },
                         {
                             "link": "http://api.jquery.com/contents/",
                             "tooltlp": "Get the children of each element in the set of matched elements, including text and comment nodes.",
-                            "value": ".contents()"
+                            "value": ".contents()",
+                            "exceptionValue": "{{contents()}}"
                         },
                         {
                             "link": "http://api.jquery.com/end/",
                             "tooltlp": "End the most recent filtering operation in the current chain and return the set of matched elements to its previous state.",
-                            "value": ".end()"
+                            "value": ".end()",
+                            "exceptionValue": "{{end()}}"
                         }
                     ]
                 },
@@ -694,67 +756,80 @@
                         {
                             "link": "http://api.jquery.com/children/",
                             "tooltlp": "Get the children of each element in the set of matched elements, optionally filtered by a selector.",
-                            "value": ".children()"
+                            "value": ".children()",
+                            "exceptionValue": "{{children()}}"
                         },
                         {
                             "link": "http://api.jquery.com/closest/",
                             "tooltlp": "Get the first ancestor element that matches the selector, beginning at the current element and progressing up through the DOM tree.",
-                            "value": ".closest()"
+                            "value": ".closest()",
+                            "exceptionValue": "{{closest()}}"
                         },
                         {
                             "link": "http://api.jquery.com/find/",
                             "tooltlp": "Get the descendants of each element in the current set of matched elements, filtered by a selector.",
-                            "value": ".find()"
+                            "value": ".find()",
+                            "exceptionValue": "{{find()}}"
                         },
                         {
                             "link": "http://api.jquery.com/next/",
                             "tooltlp": "Get the immediately following sibling of each element in the set of matched elements. If a selector is provided, it retrieves the next sibling only if it matches that selector.",
-                            "value": ".next()"
+                            "value": ".next()",
+                            "exceptionValue": "{{next()}}"
                         },
                         {
                             "link": "http://api.jquery.com/nextAll/",
                             "tooltlp": "Get all following siblings of each element in the set of matched elements, optionally filtered by a selector.",
-                            "value": ".nextAll()"
+                            "value": ".nextAll()",
+                            "exceptionValue": "{{nextAll()}}"
                         },
                         {
                             "link": "http://api.jquery.com/nextUntil/",
                             "tooltlp": "Get all following siblings of each element up to but not including the element matched by the selector.",
-                            "value": ".nextUntil()"
+                            "value": ".nextUntil()",
+                            "exceptionValue": "{{nextUntil()}}"
                         },
                         {
                             "link": "http://api.jquery.com/parent/",
                             "tooltlp": "Get the parent of each element in the current set of matched elements, optionally filtered by a selector.",
-                            "value": ".parent()"
+                            "value": ".parent()",
+                            "exceptionValue": "{{parent()}}"
                         },
                         {
                             "link": "http://api.jquery.com/parents/",
                             "tooltlp": "Get the ancestors of each element in the current set of matched elements, optionally filtered by a selector.",
-                            "value": ".parents()"
+                            "value": ".parents()",
+                            "exceptionValue": "{{parents()}}"
                         },
                         {
                             "link": "http://api.jquery.com/parentsUntil/",
                             "tooltlp": "Get the ancestors of each element in the current set of matched elements, up to but not including the element matched by the selector.",
-                            "value": ".parentsUntil()"
+                            "value": ".parentsUntil()",
+                            "exceptionValue": "{{parentsUntil()}}"
                         },
                         {
                             "link": "http://api.jquery.com/prev/",
                             "tooltlp": "Get the immediately preceding sibling of each element in the set of matched elements, optionally filtered by a selector.",
-                            "value": ".prev()"
+                            "value": ".prev()",
+                            "exceptionValue": "{{prev()}}"
                         },
                         {
                             "link": "http://api.jquery.com/prevAll/",
                             "tooltlp": "Get all preceding siblings of each element in the set of matched elements, optionally filtered by a selector.",
-                            "value": ".prevAll()"
+                            "value": ".prevAll()",
+                            "exceptionValue": "{{prevAll()}}"
                         },
                         {
                             "link": "http://api.jquery.com/prevUntil/",
                             "tooltlp": "Get all preceding siblings of each element up to but not including the element matched by the selector.",
-                            "value": ".prevUntil()"
+                            "value": ".prevUntil()",
+                            "exceptionValue": "{{prevUntil()}}"
                         },
                         {
                             "link": "http://api.jquery.com/siblings/",
                             "tooltlp": "Get the siblings of each element in the set of matched elements, optionally filtered by a selector.",
-                            "value": ".siblings()"
+                            "value": ".siblings()",
+                            "exceptionValue": "{{siblings()}}"
                         }
                     ]
                 }
@@ -769,87 +844,104 @@
                         {
                             "link": "http://api.jquery.com/event.currentTarget/",
                             "tooltlp": "The current DOM element within the event bubbling phase.",
-                            "value": "event.currentTarget"
+                            "value": "event.currentTarget",
+                            "exceptionValue": "{{event-currentTarget}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.data/",
                             "tooltlp": "The optional data passed to jQuery.fn.bind when the current executing handler was bound.",
-                            "value": "event.data"
+                            "value": "event.data",
+                            "exceptionValue": "{{event-data}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.isDefaultPrevented/",
                             "tooltlp": "Returns whether event.preventDefault() was ever called on this event object.",
-                            "value": "event.isDefaultPrevented()"
+                            "value": "event.isDefaultPrevented()",
+                            "exceptionValue": "{{event-isDefaultPrevented()}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.isImmediatePropagationStopped/",
                             "tooltlp": "Returns whether event.stopImmediatePropagation() was ever called on this event object.",
-                            "value": "event.isImmediatePropagationStopped()"
+                            "value": "event.isImmediatePropagationStopped()",
+                            "exceptionValue": "{{event-isImmediatePropagationStopped()}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.isPropagationStopped/",
                             "tooltlp": "Returns whether event.stopPropagation() was ever called on this event object.",
-                            "value": "event.isPropagationStopped()"
+                            "value": "event.isPropagationStopped()",
+                            "exceptionValue": "{{event-isPropagationStopped()}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.namespace/",
                             "tooltlp": "The namespace specified when the event was triggered.",
-                            "value": "event.namespace"
+                            "value": "event.namespace",
+                            "exceptionValue": "{{event-namespace}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.pageX/",
                             "tooltlp": "The mouse position relative to the left edge of the document.",
-                            "value": "event.pageX"
+                            "value": "event.pageX",
+                            "exceptionValue": "{{event-pageX}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.pageY/",
                             "tooltlp": "The mouse position relative to the top edge of the document.",
-                            "value": "event.pageY"
+                            "value": "event.pageY",
+                            "exceptionValue": "{{event-pageY}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.preventDefault/",
                             "tooltlp": "If this method is called, the default action of the event will not be triggered.",
-                            "value": "event.preventDefault()"
+                            "value": "event.preventDefault()",
+                            "exceptionValue": "{{event-preventDefault()}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.relatedTarget/",
                             "tooltlp": "The other DOM element involved in the event, if any.",
-                            "value": "event.relatedTarget"
+                            "value": "event.relatedTarget",
+                            "exceptionValue": "{{event-relatedTarget}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.result/",
                             "tooltlp": "The last value returned by an event handler that was triggered by this event, unless the value was undefined",
-                            "value": "event.result"
+                            "value": "event.result",
+                            "exceptionValue": "{{event-result}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.stopImmediatePropagation/",
                             "tooltlp": "Prevents other event handlers from being called.",
-                            "value": "event.stopImmediatePropagation()"
+                            "value": "event.stopImmediatePropagation()",
+                            "exceptionValue": "{{event-stopImmediatePropagation()}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.stopPropagation/",
                             "tooltlp": "Prevents the event from bubbling up the DOM tree, preventing any parent handlers from being notified of the event.",
-                            "value": "event.stopPropagation()"
+                            "value": "event.stopPropagation()",
+                            "exceptionValue": "{{event-stopPropagation()}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.target/",
                             "tooltlp": "The DOM element that initiated the event.",
-                            "value": "event.target"
+                            "value": "event.target",
+                            "exceptionValue": "{{event-target}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.timeStamp/",
                             "tooltlp": "The difference in milliseconds between the time an event is triggered and January 1, 1970.",
-                            "value": "event.timeStamp"
+                            "value": "event.timeStamp",
+                            "exceptionValue": "{{event-timeStamp}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.type/",
                             "tooltlp": "Describes the nature of the event.",
-                            "value": "event.type"
+                            "value": "event.type",
+                            "exceptionValue": "{{event-type}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.which/",
                             "tooltlp": "For key or button events, this attribute indicates the specific button or key that was pressed.",
-                            "value": "event.which"
+                            "value": "event.which",
+                            "exceptionValue": "{{event-which}}"
                         }
                     ]
                 },
@@ -859,67 +951,80 @@
                         {
                             "link": "http://api.jquery.com/click/",
                             "tooltlp": "Bind an event handler to the 'click' JavaScript event, or trigger that event on an element.",
-                            "value": ".click()"
+                            "value": ".click()",
+                            "exceptionValue": "{{click()}}"
                         },
                         {
                             "link": "http://api.jquery.com/dblclick/",
                             "tooltlp": "Bind an event handler to the 'dblclick' JavaScript event, or trigger that event on an element.",
-                            "value": ".dblclick()"
+                            "value": ".dblclick()",
+                            "exceptionValue": "{{dblclick()}}"
                         },
                         {
                             "link": "http://api.jquery.com/focusin/",
                             "tooltlp": "Bind an event handler to the 'focusin' JavaScript event.",
-                            "value": ".focusin()"
+                            "value": ".focusin()",
+                            "exceptionValue": "{{focusin()}}"
                         },
                         {
                             "link": "http://api.jquery.com/focusout/",
                             "tooltlp": "Bind an event handler to the 'focusout' JavaScript event.",
-                            "value": ".focusout()"
+                            "value": ".focusout()",
+                            "exceptionValue": "{{focusout()}}"
                         },
                         {
                             "link": "http://api.jquery.com/hover/",
                             "tooltlp": "Bind two handlers to the matched elements, to be executed when the mouse pointer enters and leaves the elements.",
-                            "value": ".hover()"
+                            "value": ".hover()",
+                            "exceptionValue": "{{hover()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mousedown/",
                             "tooltlp": "Bind an event handler to the 'mousedown' JavaScript event, or trigger that event on an element.",
-                            "value": ".mousedown()"
+                            "value": ".mousedown()",
+                            "exceptionValue": "{{mousedown()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mouseenter/",
                             "tooltlp": "Bind an event handler to be fired when the mouse enters an element, or trigger that handler on an element.",
-                            "value": ".mouseenter()"
+                            "value": ".mouseenter()",
+                            "exceptionValue": "{{mouseenter()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mouseleave/",
                             "tooltlp": "Bind an event handler to be fired when the mouse leaves an element, or trigger that handler on an element.",
-                            "value": ".mouseleave()"
+                            "value": ".mouseleave()",
+                            "exceptionValue": "{{mouseleave()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mousemove/",
                             "tooltlp": "Bind an event handler to the 'mousemove' JavaScript event, or trigger that event on an element.",
-                            "value": ".mousemove()"
+                            "value": ".mousemove()",
+                            "exceptionValue": "{{mousemove()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mouseout/",
                             "tooltlp": "Bind an event handler to the 'mouseout' JavaScript event, or trigger that event on an element.",
-                            "value": ".mouseout()"
+                            "value": ".mouseout()",
+                            "exceptionValue": "{{mouseout()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mouseover/",
                             "tooltlp": "Bind an event handler to the 'mouseover' JavaScript event, or trigger that event on an element.",
-                            "value": ".mouseover()"
+                            "value": ".mouseover()",
+                            "exceptionValue": "{{mouseover()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mouseup/",
                             "tooltlp": "Bind an event handler to the 'mouseup' JavaScript event, or trigger that event on an element.",
-                            "value": ".mouseup()"
+                            "value": ".mouseup()",
+                            "exceptionValue": "{{mouseup()}}"
                         },
                         {
                             "link": "http://api.jquery.com/toggle-event/",
                             "tooltlp": "Bind two or more handlers to the matched elements, to be executed on alternate clicks.",
-                            "value": ".toggle()"
+                            "value": ".toggle()",
+                            "exceptionValue": "{{toggle()}}"
                         }
                     ]
                 },
@@ -929,17 +1034,20 @@
                         {
                             "link": "http://api.jquery.com/error/",
                             "tooltlp": "Bind an event handler to the 'error' JavaScript event.",
-                            "value": ".error()"
+                            "value": ".error()",
+                            "exceptionValue": "{{error()}}"
                         },
                         {
                             "link": "http://api.jquery.com/resize/",
                             "tooltlp": "Bind an event handler to the 'resize' JavaScript event, or trigger that event on an element.",
-                            "value": ".resize()"
+                            "value": ".resize()",
+                            "exceptionValue": "{{resize()}}"
                         },
                         {
                             "link": "http://api.jquery.com/scroll/",
                             "tooltlp": "Bind an event handler to the 'scroll' JavaScript event, or trigger that event on an element.",
-                            "value": ".scroll()"
+                            "value": ".scroll()",
+                            "exceptionValue": "{{scroll()}}"
                         }
                     ]
                 },
@@ -949,22 +1057,26 @@
                         {
                             "link": "http://api.jquery.com/jQuery.holdReady/",
                             "tooltlp": "Holds or releases the execution of jQuery's ready event.",
-                            "value": ".holdReady()"
+                            "value": ".holdReady()",
+                            "exceptionValue": "{{holdReady()}}"
                         },
                         {
                             "link": "http://api.jquery.com/load-event/",
                             "tooltlp": "Bind an event handler to the 'load' JavaScript event.",
-                            "value": ".load()"
+                            "value": ".load()",
+                            "exceptionValue": "{{load()}}"
                         },
                         {
                             "link": "http://api.jquery.com/ready/",
                             "tooltlp": "Specify a function to execute when the DOM is fully loaded.",
-                            "value": ".ready()"
+                            "value": ".ready()",
+                            "exceptionValue": "{{ready()}}"
                         },
                         {
                             "link": "http://api.jquery.com/unload/",
                             "tooltlp": "Bind an event handler to the 'unload' JavaScript event.",
-                            "value": ".unload()"
+                            "value": ".unload()",
+                            "exceptionValue": "{{unload()}}"
                         }
                     ]
                 },
@@ -972,59 +1084,34 @@
                     "subject": "Event Handler Attachment",
                     "list": [
                         {
-                            "link": "http://api.jquery.com/bind/",
-                            "tooltlp": "Attach a handler to an event for the elements.",
-                            "value": ".bind()"
-                        },
-                        {
-                            "link": "http://api.jquery.com/delegate/",
-                            "tooltlp": "Attach a handler to one or more events for all elements that match the selector, now or in the future, based on a specific set of root elements.",
-                            "value": ".delegate()"
-                        },
-                        {
-                            "link": "http://api.jquery.com/die/",
-                            "tooltlp": "Remove all event handlers previously attached using .live() from the elements.",
-                            "value": ".die()"
-                        },
-                        {
-                            "link": "http://api.jquery.com/live/",
-                            "tooltlp": "Attach a handler to the event for all elements which match the current selector, now and in the future.",
-                            "value": ".live()"
-                        },
-                        {
                             "link": "http://api.jquery.com/off/",
                             "tooltlp": "Remove an event handler.",
-                            "value": ".off()"
+                            "value": ".off()",
+                            "exceptionValue": "{{off()}}"
                         },
                         {
                             "link": "http://api.jquery.com/on/",
                             "tooltlp": "Attach an event handler function for one or more events to the selected elements.",
-                            "value": ".on()"
+                            "value": ".on()",
+                            "exceptionValue": "{{on()}}"
                         },
                         {
                             "link": "href=\"http://api.jquery.com/one/",
                             "tooltlp": "Attach a handler to an event for the elements. The handler is executed at most once per element.",
-                            "value": ".one()"
+                            "value": ".one()",
+                            "exceptionValue": "{{one()}}"
                         },
                         {
                             "link": "http://api.jquery.com/trigger/",
                             "tooltlp": "Execute all handlers and behaviors attached to the matched elements for the given event type.",
-                            "value": ".trigger()"
+                            "value": ".trigger()",
+                            "exceptionValue": "{{trigger()}}"
                         },
                         {
                             "link": "http://api.jquery.com/triggerHandler/",
                             "tooltlp": "Execute all handlers attached to an element for an event.",
-                            "value": ".triggerHandler()"
-                        },
-                        {
-                            "link": "http://api.jquery.com/unbind/",
-                            "tooltlp": "Remove a previously-attached event handler from the elements.",
-                            "value": ".unbind()"
-                        },
-                        {
-                            "link": "http://api.jquery.com/undelegate/",
-                            "tooltlp": "Remove a handler from the event for all elements which match the current selector, now or in the future, based upon a specific set of root elements.",
-                            "value": ".undelegate()"
+                            "value": ".triggerHandler()",
+                            "exceptionValue": "{{triggerHandler()}}"
                         }
                     ]
                 },
@@ -1034,27 +1121,32 @@
                         {
                             "link": "http://api.jquery.com/blur/",
                             "tooltlp": "Bind an event handler to the 'blur' JavaScript event, or trigger that event on an element.",
-                            "value": ".blur()"
+                            "value": ".blur()",
+                            "exceptionValue": "{{blur()}}"
                         },
                         {
                             "link": "http://api.jquery.com/change/",
                             "tooltlp": "Bind an event handler to the 'change' JavaScript event, or trigger that event on an element.",
-                            "value": ".change()"
+                            "value": ".change()",
+                            "exceptionValue": "{{change()}}"
                         },
                         {
                             "link": "http://api.jquery.com/focus/",
                             "tooltlp": "Bind an event handler to the 'focus' JavaScript event, or trigger that event on an element.",
-                            "value": ".focus()"
+                            "value": ".focus()",
+                            "exceptionValue": "{{focus()}}"
                         },
                         {
                             "link": "http://api.jquery.com/select/",
                             "tooltlp": "Bind an event handler to the 'select' JavaScript event, or trigger that event on an element.",
-                            "value": ".select()"
+                            "value": ".select()",
+                            "exceptionValue": "{{select()}}"
                         },
                         {
                             "link": "http://api.jquery.com/submit/",
                             "tooltlp": "Bind an event handler to the 'submit' JavaScript event, or trigger that event on an element.",
-                            "value": ".submit()"
+                            "value": ".submit()",
+                            "exceptionValue": "{{submit()}}"
                         }
                     ]
                 },
@@ -1064,17 +1156,20 @@
                         {
                             "link": "http://api.jquery.com/keydown/",
                             "tooltlp": "Bind an event handler to the 'keydown' JavaScript event, or trigger that event on an element.",
-                            "value": ".keydown()"
+                            "value": ".keydown()",
+                            "exceptionValue": "{{keydown()}}"
                         },
                         {
                             "link": "http://api.jquery.com/keypress/",
                             "tooltlp": "Bind an event handler to the 'keypress' JavaScript event, or trigger that event on an element.",
-                            "value": ".keypress()"
+                            "value": ".keypress()",
+                            "exceptionValue": "{{keypress()}}"
                         },
                         {
                             "link": "http://api.jquery.com/keyup/",
                             "tooltlp": "Bind an event handler to the 'keyup' JavaScript event, or trigger that event on an element.",
-                            "value": ".keyup()"
+                            "value": ".keyup()",
+                            "exceptionValue": "{{keyup()}}"
                         }
                     ]
                 }
@@ -1089,17 +1184,20 @@
                         {
                             "link": "http://api.jquery.com/hide/",
                             "tooltlp": "Hide the matched elements.",
-                            "value": ".hide()"
+                            "value": ".hide()",
+                            "exceptionValue": "{{hide()}}"
                         },
                         {
                             "link": "http://api.jquery.com/show/",
                             "tooltlp": "Display the matched elements.",
-                            "value": ".show()"
+                            "value": ".show()",
+                            "exceptionValue": "{{show()}}"
                         },
                         {
                             "link": "http://api.jquery.com/toggle/",
                             "tooltlp": "Display or hide the matched elements.",
-                            "value": ".toggle()"
+                            "value": ".toggle()",
+                            "exceptionValue": "{{toggle()}}"
                         }
                     ]
                 },
@@ -1109,52 +1207,62 @@
                         {
                             "link": "http://api.jquery.com/animate",
                             "tooltlp": "Perform a custom animation of a set of CSS properties.",
-                            "value": ".animate()"
+                            "value": ".animate()",
+                            "exceptionValue": "{{animate()}}"
                         },
                         {
                             "link": "http://api.jquery.com/clearQueue",
                             "tooltlp": "Remove from the queue all items that have not yet been run.",
-                            "value": ".clearQueue()"
+                            "value": ".clearQueue()",
+                            "exceptionValue": "{{clearQueue()}}"
                         },
                         {
                             "link": "http://api.jquery.com/delay",
                             "tooltlp": "Set a timer to delay execution of subsequent items in the queue.",
-                            "value": ".delay()"
+                            "value": ".delay()",
+                            "exceptionValue": "{{delay()}}"
                         },
                         {
                             "link": "http://api.jquery.com/dequeue",
                             "tooltlp": "Execute the next function on the queue for the matched elements.",
-                            "value": ".dequeue()"
+                            "value": ".dequeue()",
+                            "exceptionValue": "{{dequeue()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.dequeue/",
                             "tooltlp": "Execute the next function on the queue for the matched element.",
-                            "value": "jQuery.dequeue()"
+                            "value": "jQuery.dequeue()",
+                            "exceptionValue": "{{jQuery-dequeue()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.fx.interval",
                             "tooltlp": "The rate (in milliseconds) at which animations fire.",
-                            "value": "jQuery.fx.interval"
+                            "value": "jQuery.fx.interval",
+                            "exceptionValue": "{{jQuery-fx-interval}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.fx.off",
                             "tooltlp": "Globally disable all animations.",
-                            "value": "jQuery.fx.off"
+                            "value": "jQuery.fx.off",
+                            "exceptionValue": "{{jQuery-fx-off}}"
                         },
                         {
                             "link": "http://api.jquery.com/queue",
                             "tooltlp": "Show the queue of functions to be executed on the matched elements.",
-                            "value": ".queue()"
+                            "value": ".queue()",
+                            "exceptionValue": "{{queue()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.queue/",
                             "tooltlp": "Show the queue of functions to be executed on the matched elements.",
-                            "value": "jQuery.queue()"
+                            "value": "jQuery.queue()",
+                            "exceptionValue": "{{jQuery-queue()}}"
                         },
                         {
                             "link": "http://api.jquery.com/stop",
                             "tooltlp": "Stop the currently-running animation on the matched elements.",
-                            "value": ".stop()"
+                            "value": ".stop()",
+                            "exceptionValue": "{{stop()}}"
                         }
                     ]
                 },
@@ -1164,22 +1272,26 @@
                         {
                             "link": "http://api.jquery.com/fadeIn/",
                             "tooltlp": "Display the matched elements by fading them to opaque.",
-                            "value": ".fadeIn()"
+                            "value": ".fadeIn()",
+                            "exceptionValue": "{{fadeIn()}}"
                         },
                         {
                             "link": "http://api.jquery.com/fadeOut/",
                             "tooltlp": "Hide the matched elements by fading them to transparent.",
-                            "value": ".fadeOut()"
+                            "value": ".fadeOut()",
+                            "exceptionValue": "{{fadeOut()}}"
                         },
                         {
                             "link": "http://api.jquery.com/fadeTo/",
                             "tooltlp": "Adjust the opacity of the matched elements.",
-                            "value": ".fadeTo()"
+                            "value": ".fadeTo()",
+                            "exceptionValue": "{{fadeTo()}}"
                         },
                         {
                             "link": "http://api.jquery.com/fadeToggle/",
                             "tooltlp": "Display or hide the matched elements by animating their opacity.",
-                            "value": ".fadeToggle()"
+                            "value": ".fadeToggle()",
+                            "exceptionValue": "{{fadeToggle()}}"
                         }
                     ]
                 },
@@ -1189,17 +1301,20 @@
                         {
                             "link": "http://api.jquery.com/slideDown",
                             "tooltlp": "Display the matched elements with a sliding motion.",
-                            "value": ".slideDown()"
+                            "value": ".slideDown()",
+                            "exceptionValue": "{{slideDown()}}"
                         },
                         {
                             "link": "http://api.jquery.com/slideToggle",
                             "tooltlp": "Display or hide the matched elements with a sliding motion.",
-                            "value": ".slideToggle()"
+                            "value": ".slideToggle()",
+                            "exceptionValue": "{{slideToggle()}}"
                         },
                         {
                             "link": "http://api.jquery.com/slideUp",
                             "tooltlp": "Hide the matched elements with a sliding motion.",
-                            "value": ".slideUp()"
+                            "value": ".slideUp()",
+                            "exceptionValue": "{{slideUp()}}"
                         }
                     ]
                 }
@@ -1214,32 +1329,38 @@
                         {
                             "link": "http://api.jquery.com/ajaxComplete/",
                             "tooltlp": "Register a handler to be called when Ajax requests complete. This is an Ajax Event.",
-                            "value": ".ajaxComplete()"
+                            "value": ".ajaxComplete()",
+                            "exceptionValue": "{{ajaxComplete()}}"
                         },
                         {
                             "link": "http://api.jquery.com/ajaxError/",
                             "tooltlp": "Register a handler to be called when Ajax requests complete with an error. This is an Ajax Event.",
-                            "value": ".ajaxError()"
+                            "value": ".ajaxError()",
+                            "exceptionValue": "{{ajaxError()}}"
                         },
                         {
                             "link": "http://api.jquery.com/ajaxSend/",
                             "tooltlp": "Attach a function to be executed before an Ajax request is sent. This is an Ajax Event.",
-                            "value": ".ajaxSend()"
+                            "value": ".ajaxSend()",
+                            "exceptionValue": "{{ajaxSend()}}"
                         },
                         {
                             "link": "http://api.jquery.com/ajaxStart/",
                             "tooltlp": "Register a handler to be called when the first Ajax request begins. This is an Ajax Event.",
-                            "value": ".ajaxStart()"
+                            "value": ".ajaxStart()",
+                            "exceptionValue": "{{ajaxStart()}}"
                         },
                         {
                             "link": "http://api.jquery.com/ajaxStop/",
                             "tooltlp": "Register a handler to be called when all Ajax requests have completed. This is an Ajax Event.",
-                            "value": ".ajaxStop()"
+                            "value": ".ajaxStop()",
+                            "exceptionValue": "{{ajaxStop()}}"
                         },
                         {
                             "link": "http://api.jquery.com/ajaxSuccess/",
                             "tooltlp": "Attach a function to be executed whenever an Ajax request completes successfully. This is an Ajax Event.",
-                            "value": ".ajaxSuccess()"
+                            "value": ".ajaxSuccess()",
+                            "exceptionValue": "{{ajaxSuccess()}}"
                         }
                     ]
                 },
@@ -1249,17 +1370,20 @@
                         {
                             "link": "http://api.jquery.com/jQuery.param/",
                             "tooltlp": "Create a serialized representation of an array or object, suitable for use in a URL query string or Ajax request.",
-                            "value": "jQuery.param()"
+                            "value": "jQuery.param()",
+                            "exceptionValue": "{{jQuery-param()}}"
                         },
                         {
                             "link": "http://api.jquery.com/serialize/",
                             "tooltlp": "Encode a set of form elements as a string for submission.",
-                            "value": ".serialize()"
+                            "value": ".serialize()",
+                            "exceptionValue": "{{serialize()}}"
                         },
                         {
                             "link": "http://api.jquery.com/serializeArray/",
                             "tooltlp": "Encode a set of form elements as an array of names and values.",
-                            "value": ".serializeArray()"
+                            "value": ".serializeArray()",
+                            "exceptionValue": "{{serializeArray()}}"
                         }
                     ]
                 },
@@ -1269,12 +1393,14 @@
                         {
                             "link": "http://api.jquery.com/jQuery.ajax/",
                             "tooltlp": "Perform an asynchronous HTTP (Ajax) request.",
-                            "value": "jQuery.ajax()"
+                            "value": "jQuery.ajax()",
+                            "exceptionValue": "{{jQuery-ajax()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.ajaxSetup",
                             "tooltlp": "Set default values for future Ajax requests.",
-                            "value": "jQuery.ajaxSetup()"
+                            "value": "jQuery.ajaxSetup()",
+                            "exceptionValue": "{{jQuery-ajaxSetup()}}"
                         }
                     ]
                 },
@@ -1284,27 +1410,32 @@
                         {
                             "link": "http://api.jquery.com/jQuery.get/",
                             "tooltlp": "Load data from the server using a HTTP GET request.",
-                            "value": "jQuery.get()"
+                            "value": "jQuery.get()",
+                            "exceptionValue": "{{jQuery-get()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.getJSON/",
                             "tooltlp": "Load JSON-encoded data from the server using a GET HTTP request.",
-                            "value": "jQuery.getJSON()"
+                            "value": "jQuery.getJSON()",
+                            "exceptionValue": "{{jQuery-getJSON()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.getScript/",
                             "tooltlp": "Load a JavaScript file from the server using a GET HTTP request, then execute it.",
-                            "value": "jQuery.getScript()"
+                            "value": "jQuery.getScript()",
+                            "exceptionValue": "{{jQuery-getScript()}}"
                         },
                         {
                             "link": "http://api.jquery.com/load/",
                             "tooltlp": "Load data from the server and place the returned HTML into the matched element.",
-                            "value": ".load()"
+                            "value": ".load()",
+                            "exceptionValue": "{{load()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.post/",
                             "tooltlp": "Load data from the server using a HTTP POST request.",
-                            "value": "jQuery.post()"
+                            "value": "jQuery.post()",
+                            "exceptionValue": "{{jQuery-post()}}"
                         }
                     ]
                 }
@@ -1324,17 +1455,20 @@
                         {
                             "link": "http://api.jquery.com/jQuery.noConflict/",
                             "tooltlp": "Relinquish jQuery's control of the $ variable.",
-                            "value": "jQuery.noConflict()"
+                            "value": "jQuery.noConflict()",
+                            "exceptionValue": "{{jQuery-noConflict()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.sub/",
                             "tooltlp": "Creates a new copy of jQuery whose properties and methods can be modified without affecting the original jQuery object.",
-                            "value": "jQuery.sub()"
+                            "value": "jQuery.sub()",
+                            "exceptionValue": "{{jQuery-sub()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.when/",
                             "tooltlp": "Provides a way to execute callback functions based on one or more objects, usually Deferred objects that represent asynchronous events.",
-                            "value": "jQuery.when()"
+                            "value": "jQuery.when()",
+                            "exceptionValue": "{{jQuery-when()}}"
                         }
                     ]
                 },
@@ -1344,17 +1478,20 @@
                         {
                             "link": "http://api.jquery.com/get/",
                             "tooltlp": "Retrieve the DOM elements matched by the jQuery object.",
-                            "value": ".get()"
+                            "value": ".get()",
+                            "exceptionValue": "{{get()}}"
                         },
                         {
                             "link": "http://api.jquery.com/index/",
                             "tooltlp": "Search for a given element from among the matched elements.",
-                            "value": ".index()"
+                            "value": ".index()",
+                            "exceptionValue": "{{index()}}"
                         },
                         {
                             "link": "http://api.jquery.com/size/",
                             "tooltlp": "Return the number of elements in the jQuery object.",
-                            "value": ".size()"
+                            "value": ".size()",
+                            "exceptionValue": "{{size()}}"
                         },
                         {
                             "link": "http://api.jquery.com/toArray/",
@@ -1367,34 +1504,34 @@
                     "subject": "Internals",
                     "list": [
                         {
-                            "link": "http://api.jquery.com/.jquery/",
-                            "tooltlp": "A string containing the jQuery version number.",
-                            "value": ".jquery"
-                        },
-                        {
                             "link": "http://api.jquery.com/context/",
                             "tooltlp": "The DOM node context originally passed to jQuery(); if none was passed then context will likely be the document.",
-                            "value": ".context"
+                            "value": ".context",
+                            "exceptionValue": "{{context}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.error/",
                             "tooltlp": "Takes a string and throws an exception containing it.",
-                            "value": "jQuery.error"
+                            "value": "jQuery.error",
+                            "exceptionValue": "{{jQuery-error}}"
                         },
                         {
                             "link": "http://api.jquery.com/length/",
                             "tooltlp": "The number of elements in the jQuery object.",
-                            "value": ".length"
+                            "value": ".length",
+                            "exceptionValue": "{{length}}"
                         },
                         {
                             "link": "http://api.jquery.com/pushStack/",
                             "tooltlp": "Add a collection of DOM elements onto the jQuery stack.",
-                            "value": ".pushStack()"
+                            "value": ".pushStack()",
+                            "exceptionValue": "{{pushStack()}}"
                         },
                         {
                             "link": "http://api.jquery.com/selector/",
                             "tooltlp": "A selector representing selector originally passed to jQuery().",
-                            "value": ".selector"
+                            "value": ".selector",
+                            "exceptionValue": "{{selector}}"
                         }
                     ]
                 },
@@ -1404,87 +1541,104 @@
                         {
                             "link": "http://api.jquery.com/deferred.always/",
                             "tooltlp": "Add handlers to be called when the Deferred object is either resolved or rejected.",
-                            "value": "deferred.always()"
+                            "value": "deferred.always()",
+                            "exceptionValue": "{{deferred-always()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.done/",
                             "tooltlp": "Add handlers to be called when the Deferred object is resolved.",
-                            "value": "deferred.done()"
+                            "value": "deferred.done()",
+                            "exceptionValue": "{{deferred-done()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.fail/",
                             "tooltlp": "Add handlers to be called when the Deferred object is rejected.",
-                            "value": "deferred.fail()"
+                            "value": "deferred.fail()",
+                            "exceptionValue": "{{deferred-fail()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.isRejected/",
                             "tooltlp": "Determine whether a Deferred object has been rejected.",
-                            "value": "deferred.isRejected()"
+                            "value": "deferred.isRejected()",
+                            "exceptionValue": "{{deferred-isRejected()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.isResolved/",
                             "tooltlp": "Determine whether a Deferred object has been resolved.",
-                            "value": "deferred.isResolved()"
+                            "value": "deferred.isResolved()",
+                            "exceptionValue": "{{deferred-isResolved()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.notify/",
                             "tooltlp": "Call the progressCallbacks on a Deferred object with the given args.",
-                            "value": "deferred.notify()"
+                            "value": "deferred.notify()",
+                            "exceptionValue": "{{deferred-notify()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.notifyWith/",
                             "tooltlp": "Call the progressCallbacks on a Deferred object with the given context and args.",
-                            "value": "deferred.notifyWith()"
+                            "value": "deferred.notifyWith()",
+                            "exceptionValue": "{{deferred-notifyWith()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.pipe/",
                             "tooltlp": "Utility method to filter and/or chain Deferreds.",
-                            "value": "deferred.pipe()"
+                            "value": "deferred.pipe()",
+                            "exceptionValue": "{{deferred-pipe()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.progress/",
                             "tooltlp": "Add handlers to be called when the Deferred object generates progress notifications.",
-                            "value": "deferred.progress()"
+                            "value": "deferred.progress()",
+                            "exceptionValue": "{{deferred-progress()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.promise/",
                             "tooltlp": "Return a Deferred's Promise object.",
-                            "value": "deferred.promise()"
+                            "value": "deferred.promise()",
+                            "exceptionValue": "{{deferred-promise()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.reject/",
                             "tooltlp": "Reject a Deferred object and call any failCallbacks with the given args.",
-                            "value": "deferred.reject()"
+                            "value": "deferred.reject()",
+                            "exceptionValue": "{{deferred-reject()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.rejectWith/",
                             "tooltlp": "Reject a Deferred object and call any failCallbacks with the given context and args.",
-                            "value": "deferred.rejectWith()"
+                            "value": "deferred.rejectWith()",
+                            "exceptionValue": "{{deferred-rejectWith()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.resolve/",
                             "tooltlp": "Resolve a Deferred object and call any doneCallbacks with the given args.",
-                            "value": "deferred.resolve()"
+                            "value": "deferred.resolve()",
+                            "exceptionValue": "{{deferred-resolve()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.resolveWith/",
                             "tooltlp": "Resolve a Deferred object and call any doneCallbacks with the given context and args.",
-                            "value": "deferred.resolveWith()"
+                            "value": "deferred.resolveWith()",
+                            "exceptionValue": "{{deferred-resolveWith()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.state/",
                             "tooltlp": "Determine the current state of a Deferred object.",
-                            "value": "deferred.state()"
+                            "value": "deferred.state()",
+                            "exceptionValue": "{{deferred-state()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.then/",
                             "tooltlp": "Add handlers to be called when the Deferred object is resolved or rejected.",
-                            "value": "deferred.then()"
+                            "value": "deferred.then()",
+                            "exceptionValue": "{{deferred-then()}}"
                         },
                         {
                             "link": "http://api.jquery.com/promise/",
                             "tooltlp": "Return a Promise object to observe when all actions of a certain type bound to the collection, queued or not, have finished.",
-                            "value": ".promise()"
+                            "value": ".promise()",
+                            "exceptionValue": "{{promise()}}"
                         }
                     ]
                 },
@@ -1494,57 +1648,68 @@
                         {
                             "link": "http://api.jquery.com/jQuery.Callbacks/",
                             "tooltlp": "A multi-purpose callbacks list object that provides a powerful way to manage callback lists.",
-                            "value": "jQuery.Callbacks()"
+                            "value": "jQuery.Callbacks()",
+                            "exceptionValue": "{{jQuery-Callbacks()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.add/",
                             "tooltlp": "Add a callback or a collection of callbacks to a callback list.",
-                            "value": "callbacks.add()"
+                            "value": "callbacks.add()",
+                            "exceptionValue": "{{callbacks-add()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.disable/",
                             "tooltlp": "Disable a callback list from doing anything more.",
-                            "value": "callbacks.disable()"
+                            "value": "callbacks.disable()",
+                            "exceptionValue": "{{callbacks-disable()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.empty/",
                             "tooltlp": "Remove all of the callbacks from a list.",
-                            "value": "callbacks.empty()"
+                            "value": "callbacks.empty()",
+                            "exceptionValue": "{{callbacks-empty()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.fire/",
                             "tooltlp": "Call all of the callbacks with the given arguments.",
-                            "value": "callbacks.fire()"
+                            "value": "callbacks.fire()",
+                            "exceptionValue": "{{callbacks-fire()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.fired/",
                             "tooltlp": "Determine if the callbacks have already been called at least once.",
-                            "value": "callbacks.fired()"
+                            "value": "callbacks.fired()",
+                            "exceptionValue": "{{callbacks-fired()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.fireWith/",
                             "tooltlp": "Call all callbacks in a list with the given context and arguments.",
-                            "value": "callbacks.fireWith()"
+                            "value": "callbacks.fireWith()",
+                            "exceptionValue": "{{callbacks-fireWith()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.has/",
                             "tooltlp": "Determine whether a supplied callback is in a list.",
-                            "value": "callbacks.has()"
+                            "value": "callbacks.has()",
+                            "exceptionValue": "{{callbacks-has()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.lock/",
                             "tooltlp": "Lock a callback list in its current state.",
-                            "value": "callbacks.lock()"
+                            "value": "callbacks.lock()",
+                            "exceptionValue": "{{callbacks-lock()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.locked/",
                             "tooltlp": "Determine if the callbacks list has been locked.",
-                            "value": "callbacks.locked()"
+                            "value": "callbacks.locked()",
+                            "exceptionValue": "{{callbacks-locked()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.remove/",
                             "tooltlp": "Remove a callback or a collection of callbacks from a callback list.",
-                            "value": "callbacks.remove()"
+                            "value": "callbacks.remove()",
+                            "exceptionValue": "{{callbacks-remove()}}"
                         }
                     ]
                 }
@@ -1557,139 +1722,160 @@
                     "subject": "Utilities",
                     "list": [
                         {
-                            "link": "http://api.jquery.com/jQuery.browser/",
-                            "tooltlp": "Contains flags for the useragent, read from navigator.userAgent. We recommend against using this property; please try to use feature detection instead (see jQuery.support). jQuery.browser may be moved to a plugin in a future release of jQuery.",
-                            "value": "jQuery.browser"
-                        },
-                        {
                             "link": "http://api.jquery.com/jQuery.contains/",
                             "tooltlp": "Check to see if a DOM node is within another DOM node.",
-                            "value": "jQuery.contains()"
+                            "value": "jQuery.contains()",
+                            "exceptionValue": "{{jQuery-contains()}}"
                         },
                         {
                             "link": "http://api.jquery.com/each/",
                             "tooltlp": "Iterate over a jQuery object, executing a function for each matched element.",
-                            "value": ".each()"
+                            "value": ".each()",
+                            "exceptionValue": "{{each()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.each/",
                             "tooltlp": "A generic iterator function, which can be used to seamlessly iterate over both objects and arrays. Arrays and array-like objects with a length property (such as a function's arguments object) are iterated by numeric index, from 0 to length-1. Other objects are iterated via their named properties.",
-                            "value": "jQuery.each()"
+                            "value": "jQuery.each()",
+                            "exceptionValue": "{{jQuery-each()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.extend/",
                             "tooltlp": "Merge the contents of two or more objects together into the first object.",
-                            "value": "jQuery.extend()"
+                            "value": "jQuery.extend()",
+                            "exceptionValue": "{{jQuery-extend()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.globalEval/",
                             "tooltlp": "Execute some JavaScript code globally.",
-                            "value": "jQuery.globalEval()"
+                            "value": "jQuery.globalEval()",
+                            "exceptionValue": "{{jQuery-globalEval()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.grep/",
                             "tooltlp": "Finds the elements of an array which satisfy a filter function. The original array is not affected.",
-                            "value": "jQuery.grep()"
+                            "value": "jQuery.grep()",
+                            "exceptionValue": "{{jQuery-grep()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.inArray/",
                             "tooltlp": "Search for a specified value within an array and return its index (or -1 if not found).",
-                            "value": "jQuery.inArray()"
+                            "value": "jQuery.inArray()",
+                            "exceptionValue": "{{jQuery-inArray()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isArray/",
                             "tooltlp": "Determine whether the argument is an array.",
-                            "value": "jQuery.isArray()"
+                            "value": "jQuery.isArray()",
+                            "exceptionValue": "{{jQuery-isArray()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isEmptyObject/",
                             "tooltlp": "Check to see if an object is empty (contains no properties).",
-                            "value": "jQuery.isEmptyObject()"
+                            "value": "jQuery.isEmptyObject()",
+                            "exceptionValue": "{{jQuery-isEmptyObject()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isFunction/",
                             "tooltlp": "Determine if the argument passed is a Javascript function object.",
-                            "value": "jQuery.isFunction()"
+                            "value": "jQuery.isFunction()",
+                            "exceptionValue": "{{jQuery-isFunction()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isNumeric/",
                             "tooltlp": "Determines whether its argument is a number.",
-                            "value": "jQuery.isNumeric()"
+                            "value": "jQuery.isNumeric()",
+                            "exceptionValue": "{{jQuery-isNumeric()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isPlainObject/",
                             "tooltlp": "Check to see if an object is a plain object (created using '{}' or 'new Object').",
-                            "value": "jQuery.isPlainObject()"
+                            "value": "jQuery.isPlainObject()",
+                            "exceptionValue": "{{jQuery-isPlainObject()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isWindow/",
                             "tooltlp": "Determine whether the argument is a window.",
-                            "value": "jQuery.isWindow()"
+                            "value": "jQuery.isWindow()",
+                            "exceptionValue": "{{jQuery-isWindow()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isXMLDoc/",
                             "tooltlp": "Check to see if a DOM node is within an XML document (or is an XML document).",
-                            "value": "jQuery.isXMLDoc()"
+                            "value": "jQuery.isXMLDoc()",
+                            "exceptionValue": "{{jQuery-isXMLDoc()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.makeArray/",
                             "tooltlp": "Convert an array-like object into a true JavaScript array.",
-                            "value": "jQuery.makeArray()"
+                            "value": "jQuery.makeArray()",
+                            "exceptionValue": "{{jQuery-makeArray()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.map/",
                             "tooltlp": "Translate all items in an array or array-like object to another array of items.",
-                            "value": "jQuery.map()"
+                            "value": "jQuery.map()",
+                            "exceptionValue": "{{jQuery-map()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.merge/",
                             "tooltlp": "Merge the contents of two arrays together into the first array.",
-                            "value": "jQuery.merge()"
+                            "value": "jQuery.merge()",
+                            "exceptionValue": "{{jQuery-merge()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.noop/",
                             "tooltlp": "An empty function.",
-                            "value": "jQuery.noop()"
+                            "value": "jQuery.noop()",
+                            "exceptionValue": "{{jQuery-noop()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.now/",
                             "tooltlp": "Return a number representing the current time.",
-                            "value": "jQuery.now()"
+                            "value": "jQuery.now()",
+                            "exceptionValue": "{{jQuery-now()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.parseJSON/",
                             "tooltlp": "Takes a well-formed JSON string and returns the resulting JavaScript object.",
-                            "value": "jQuery.parseJSON()"
+                            "value": "jQuery.parseJSON()",
+                            "exceptionValue": "{{jQuery-parseJSON()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.parseXML/",
                             "tooltlp": "Parses a string into an XML document.",
-                            "value": "jQuery.parseXML()"
+                            "value": "jQuery.parseXML()",
+                            "exceptionValue": "{{jQuery-parseXML()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.proxy",
                             "tooltlp": "Takes a function and returns a new one that will always have a particular context.",
-                            "value": "jQuery.proxy()"
+                            "value": "jQuery.proxy()",
+                            "exceptionValue": "{{jQuery-proxy()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.support/",
                             "tooltlp": "A collection of properties that represent the presence of different browser features or bugs.",
-                            "value": "jQuery.support"
+                            "value": "jQuery.support",
+                            "exceptionValue": "{{jQuery-support}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.trim/",
                             "tooltlp": "Remove the whitespace from the beginning and end of a string.",
-                            "value": "jQuery.trim()"
+                            "value": "jQuery.trim()",
+                            "exceptionValue": "{{jQuery-trim()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.type/",
                             "tooltlp": "Determine the internal JavaScript [[Class]] of an object.",
-                            "value": "jQuery.type()"
+                            "value": "jQuery.type()",
+                            "exceptionValue": "{{jQuery-type()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.unique/",
                             "tooltlp": "Sorts an array of DOM elements, in place, with the duplicates removed. Note that this only works on arrays of DOM elements, not strings or numbers.",
-                            "value": "jQuery.unique()"
+                            "value": "jQuery.unique()",
+                            "exceptionValue": "{{jQuery-unique()}}"
                         }
                     ]
                 }

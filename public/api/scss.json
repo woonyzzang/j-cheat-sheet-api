@@ -812,7 +812,7 @@
                         {
                             "link": "https://sass-lang.com/documentation/operators/string",
                             "tooltlp": "supports a few operators that generate strings",
-                            "value": "\"expression\" + \"expression\""
+                            "value": "expression + expression"
                         }
                     ]
                 },

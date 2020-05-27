@@ -1,0 +1,3076 @@
+{
+    "__HTML4.01__": "HTML4.01",
+    "Basic Tags": {
+        "Basic": {
+            "<!DOCTYPE>": "문서 유형 정의",
+            "<html>": "HTML 문서 정의",
+            "<body>": "문서 본문 정의",
+            "<h1> ~ <h6>": "HTML 헤딩 정의",
+            "<p>": "단락 정의",
+            "<br>": "단일 줄 바꿈 삽입",
+            "<hr>": "수평선 정의"
+        },
+        "Images": {
+            "<img>": "이미지 정의",
+            "<map>": "이미지 맵 정의",
+            "<area>": "이미지 맵 내부 영역 정의"
+        },
+        "Links": {
+            "<a>": "앵커 정의",
+            "<link>": "문서와 외부 리소스 간의 관계 정의"
+        },
+        "Lists": {
+            "<ul>": "순서없는 목록을 정의",
+            "<ol>": "순서 목록을 정의",
+            "<li>": "목록 항목을 정의",
+            "<dl>": "정의 목록을 정의",
+            "<dt>": "정의 목록에서 항목 정의",
+            "<dd>": "정의 목록에서 항목에 대한 설명 정의"
+        }
+    },
+
+    "Formatting": {
+        "Format": {
+            "<acronym>": "머리글자를 이용한 축약어 정의",
+            "<abbr>": "축약어 정의",
+            "<address>": "문서 작성자/소유자에 대한 연락처 정의",
+            "<b>": "굵은 텍스트 정의",
+            "<bdo>": "현재 텍스트 방향 재정의",
+            "<big>": "큰 텍스트 정의",
+            "<blockquote>": "긴 인용구 정의",
+            "<cite>": "인용구 정의",
+            "<code>": "컴퓨터 코드 정의",
+            "<del>": "문서에서 삭제된 텍스트 정의",
+            "<dfn>": "정의 용어 정의",
+            "<em>": "강조된 텍스트 정의",
+            "<i>": "기울임꼴 텍스트 정의",
+            "<ins>": "문서에 삽입된 텍스트 정의",
+            "<kbd>": "키보드 입력 정의",
+            "<pre>": "사전 포맷된 텍스트 정의",
+            "<q>": "짧은 인용구 정의",
+            "<samp>": "컴퓨터 프로그램의 샘플 출력 정의",
+            "<small>": "작은 텍스트 정의",
+            "<strong>": "강조된 텍스트 정의",
+            "<sub>": "아래 첨자 텍스트를 정의",
+            "<sup>": "위첨자 텍스트를 정의",
+            "<tt>": "텔레타이프 텍스트 정의",
+            "<var>": "변수를 정의"
+        }
+    },
+
+    "Form/Table": {
+        "Forms": {
+            "<form>": "사용자 입력을 위한 html 양식 정의",
+            "<input>": "입력 컨트롤을 정의",
+            "<textarea>": "멀티라인 입력 컨트롤(텍스트 영역) 정의",
+            "<button>": "클릭 가능한 버튼을 정의",
+            "<select>": "드롭다운 목록을 정의",
+            "<optgroup>": "드롭다운 목록에서 관련 옵션 그룹 정의",
+            "<option>": "드롭다운 목록에서 옵션 정의",
+            "<label>": "<input> 요소의 라벨을 정의",
+            "<fieldset>": "어떤 형태로든 관련 요소들을 묶음",
+            "<legend>": "<fieldset> 요소의 캡션을 정의"
+        },
+        "Tables": {
+            "<table>": "표를 정의",
+            "<caption>": "표의 캡션을 정의",
+            "<th>": "표에서 헤더 셀을 정의",
+            "<tr>": "표에서 행을 정의",
+            "<td>": "표에서 셀을 정의",
+            "<thead>": "표에 헤더 내용을 그룹화",
+            "<tbody>": "본문 내용을 표에 그룹화",
+            "<tfoot>": "바닥 글 내용을 표에 그룹화",
+            "<col>": "표에서 하나 이상의 열에 대한 속성 값을 정의",
+            "<colgroup>": "서식을 지정할 표의 열 그룹을 정의"
+        },
+        "Frames": {
+            "<frame>": "프레임셋에 창(프레임) 정의",
+            "<frameset>": "프레임 집합 정의",
+            "<noframes>": "프레임을 지원하지 않는 사용자를 위한 대체 콘텐츠 정의",
+            "<iframe>": "인라인 프레임 정의"
+        }
+    },
+
+    "Attributes": {
+        "Core": {
+            "class": "요소에 대해 하나 이상의 클래스 이름 지정(스타일 시트의 클래스 참조)",
+            "id": "요소에 대해 하나의 고유 ID 이름 지정",
+            "style": "요소의 인라인 CSS 스타일을 지정",
+            "title": "요소에 대한 추가 정보를 수집"
+        },
+        "Language": {
+            "dir": "텍스트의 방향을 지정",
+            "lang": "내용의 언어를 정함"
+        },
+        "Keyboard": {
+            "accesskey": "요소를 활성화/초점할 바로 가기 키를 지정함",
+            "tabindex": "요소의 탭 순서 지정"
+        }
+    },
+
+    "Others": {
+        "Styles": {
+            "<style>": "문서에 대한 스타일 정의",
+            "<div>": "문서에서 block 섹션을 정의",
+            "<span>": "문서에서 inline 섹션을 정의"
+        },
+        "Meta Info": {
+            "<head>": "문서에 대한 정보 정의",
+            "<title>": "문서 제목을 정의",
+            "<meta>": "html 문서에 대한 메타데이터 정의",
+            "<base>": "문서의 모든 상대 URL에 대한 기본 URL/대상을 지정"
+        },
+        "Programming": {
+            "<script>": "클라이언트 사이드 스크립트를 정의",
+            "<noscript>": "스크립트를 지원하지 않는 사용자에 대한 대체 콘텐츠 정의",
+            "<object>": "내장된 오브젝트를 정의",
+            "<param>": "객체에 대한 매개변수를 정의"
+        }
+    },
+
+    "__HTML5__": "HTML5",
+    "Global Attributes": {
+        "Core": {
+            "data-*": "사용자 정의 데이터 속성 요소",
+            "title": "요소에 대한 추가 정보를 수집",
+            "contenteditable": "브라우저는 편집이 가능하도록 위젯을 수정",
+            "draggable": "요소를 드래그 할 수 있는지 여부를 나타내는 열거 된 속성",
+            "hidden": "부울 속성은 요소가 아직 구성되지 않았음을 나타냄",
+            "inputmode": "이 요소 또는 해당 내용을 편집할 때 사용할 가상 키보드 구성 유형에 대한 힌트 제공",
+            "is": "표준 HTML 요소가 등록된 사용자 정의 기본 제공 요소처럼 동작하도록 지정할 수 있음",
+            "itemid": "항목의 고유한 전역 식별자",
+            "itemprop": "항목에 속성을 추가하는 데 사용. 모든 HTML 요소에는 \"itemprop\" 특성이 지정될 수 있음",
+            "itemref": "\"itemscope\" 특성을 가진 요소의 하위 속성이 아닌 속성은 \"itemref\"를 사용하여 항목과 연결할 수 있음",
+            "itemscope": "\"itemscope\" (일반적으로) \"itemtype\"와 함께 작동하여 블록에 포함된 HTML이 특정 항목에 대한 것임을 지정함",
+            "itemtype": "데이터 구조에서 \"itemprops\"(항목 속성)을 정의하는 데 사용할 어휘의 URL 지정",
+            "slot": "섀도 DOM 섀도 트리의 슬롯을 요소에 할당",
+            "spellcheck": "열거된 속성은 요소를 철자 오류로 확인할 수 있는지 여부를 정의",
+            "translate": "페이지를 현지화할 때 요소의 속성 값과 해당 \"Text\" 노드 하위 값을 변환할지 또는 변경하지 않고 그대로 둘지 여부를 지정하는 데 사용되는 열거된 속성",
+            "id": "요소에 대해 하나의 고유 ID 이름 지정",
+            "class": "요소에 대해 하나 이상의 클래스 이름 지정(스타일 시트의 클래스 참조)",
+            "style": "요소의 인라인 CSS 스타일을 지정"
+        },
+        "Language": {
+            "lang": "내용의 언어를 정함"
+        },
+        "Keyboard": {
+            "accesskey": "요소를 활성화/초점할 바로 가기 키를 지정함",
+            "tabindex": "요소의 탭 순서 지정"
+        }
+    },
+
+    "Main": {
+        "Document": {
+            "<!DOCTYPE>": "문서 유형 정의"
+        },
+        "Root": {
+            "<html>": "HTML 문서 정의"
+        }
+    },
+
+    "Metadata": {
+        "Meta Info": {
+            "<head>": "문서에 대한 정보 정의",
+            "<meta>": "html 문서로부터 메타데이터 삭제",
+            "<title>": "문서 제목을 정의",
+            "<base>": "문서의 모든 상대 URL에 대한 기본 URL/목표 지정",
+            "<link>": "문서와 외부 리소스 간의 관계 정의",
+            "<style>": "문서에 대한 스타일 정보 정의"
+        }
+    },
+
+    "Scripting": {
+        "Programming": {
+            "<canvas>": "문서를 그래픽과 애니메이션으로 그리는 방법을 정의",
+            "<noscript>": "lient-side 스크립트를 지원하지 않는 사용자에 대한 대체 콘텐츠 정의",
+            "<script>": "클라이언트측 스크립트를 정의"
+        }
+    },
+
+    "Sectioning": {
+        "Root": {
+            "<body>": "문서 본문 정의"
+        },
+        "Section": {
+            "<header>": "헤더 정의",
+            "<hgroup>": "제목 그룹 정의",
+            "<h1> ~ <h6>": "헤딩 정의",
+            "<nav>": "네비게이션 정의",
+            "<main>": "메인 정의",
+            "<article>": "아티클 정의",
+            "<section>": "섹션 정의",
+            "<aside>": "어사이드 정의",
+            "<footer>": "푸터 정의",
+            "<address>": "어드레스 정의"
+        }
+    },
+
+    "Content Grouping": {
+        "Text Content": {
+            "<blockquote>": "긴 인용 정의",
+            "<div>": "문서에서 섹션을 정의",
+            "<dl>": "정의 목록을 정의",
+            "<dt>": "정의 목록에서 항목 정의",
+            "<dd>": "정의 목록에서 항목에 대한 설명 정의",
+            "<figure>": "삽화, 도표, 사진 및 코드 리스트를 정의",
+            "<figcaption>": "그림의 캡션(사진삽화 등에 붙인 설명)이나 legend를 묘사",
+            "<hr>": "수평선 정의",
+            "<ol>": "순서 목록을 정의",
+            "<ul>": "순서없는 목록을 정의",
+            "<li>": "목록 항목을 정의",
+            "<p>": "단락 정의",
+            "<pre>": "사전 포맷된 텍스트 정의"
+        }
+    },
+
+    "Text Semantics": {
+        "Inline Level": {
+            "<a>": "앵커 정의",
+            "<abbr>": "약어 정의",
+            "<b>": "굵은 텍스트 정의",
+            "<bdi>": "정의의 주요 객체 및 경계 정의",
+            "<bdo>": "현재 텍스트 방향 재정의",
+            "<br>": "단일 줄 바꿈 삽입",
+            "<cite>": "인용구 정의",
+            "<code>": "컴퓨터 코드 정의",
+            "<data>": "내용에 따라 기계 번역 정의",
+            "<dfn>": "정의 용어 정의",
+            "<em>": "강조된 텍스트 정의",
+            "<i>": "기울임꼴 텍스트 정의 또는 전문용어, 외국어 또는 가상 인물 사고 포함",
+            "<kbd>": "키보드 입력 정의",
+            "<mark>": "프레젠테이션 또는 강조 표시의 맥락에서 지정된 경로의 관련성 또는 중요성, 참조 또는 표기법의 정의",
+            "<q>": "짧은 인용구 정의",
+            "<rb>": "주석을 단 Ruby가 정의된 텍스트",
+            "<rp>": "주석을 단 Ruby가 정의된 텍스트",
+            "<rt>": "Ruby의 주석을 지원하지 않는 브라우저 괄호 정의",
+            "<rtc>": "Ruby 표시 문자의 의미 주석 정의",
+            "<ruby>": "Ruby 주석 정의",
+            "<samp>": "컴퓨터 프로그램의 샘플 출력 정의",
+            "<small>": "작은 텍스트 정의",
+            "<span>": "문서에서 섹션을 정의",
+            "<strong>": "의미 있는 강조 텍스트 정의",
+            "<sub>": "아래 첨자 텍스트를 정의",
+            "<sup>": "위첨자 텍스트를 정의",
+            "<time>": "특정 기간 정의",
+            "<var>": "변수를 정의",
+            "<wbr>": "텍스트에서 줄 바꿈을 추가할 수 있는 지정 위치 정의"
+        }
+    },
+
+    "Image/Multimedia": {
+        "Image": {
+            "<img>": "이미지 정의",
+            "<map>": "이미지 맵 정의",
+            "<area>": "이미지 맵 내부 영역 정의"
+        },
+        "Multimedia": {
+            "<audio>": "문서의 소리 내용을 포함하는 을 정의",
+            "<track>": "자동 자막 처리와 같은 시간별 텍스트 트랙(또는 시간 기반 데이터) 정의",
+            "<video>": "문서에 비디오 재생 미디어 플레이어 정의"
+        }
+    },
+
+    "Edits": {
+        "Demarcating": {
+            "<del>": "문서에서 삭제된 텍스트 정의",
+            "<ins>": "문서에 삽입된 텍스트 정의"
+        }
+    },
+
+    "Tables": {
+        "Table": {
+            "<table>": "표를 정의",
+            "<caption>": "표의 캡션을 정의",
+            "<colgroup>": "서식을 지정할 표의 열 그룹을 정의",
+            "<col>": "표에서 하나 이상의 열에 대한 속성 값을 정의",
+            "<thead>": "표에 헤더 내용을 그룹화",
+            "<tbody>": "본문 내용을 표에 그룹화",
+            "<tfoot>": "바닥 글 내용을 표에 그룹화",
+            "<tr>": "표에서 행을 정의",
+            "<th>": "표에서 헤더 셀을 정의",
+            "<td>": "표에서 셀을 정의"
+        }
+    },
+
+    "Forms": {
+        "Control": {
+            "<form>": "사용자 입력을 위한 html 양식 정의",
+            "<fieldset>": "어떤 형태로든 관련 요소들을 묶다",
+            "<legend>": "<fieldset> 요소의 캡션을 정의",
+            "<label>": "<input> 요소의 라벨을 정의",
+            "<input>": "입력 컨트롤을 정의",
+            "<datalist>": "옵션 집합을 정의",
+            "<select>": "드롭다운 목록을 정의",
+            "<optgroup>": "드롭다운 목록에서 관련 옵션 그룹 정의",
+            "<option>": "드롭다운 목록에서 옵션 정의",
+            "<textarea>": "멀티라인 입력 컨트롤(텍스트 영역) 정의",
+            "<button>": "클릭 가능한 버튼을 정의",
+            "<meter>": "스케일 정의",
+            "<output>": "계산 결과 정의",
+            "<progress>": "일의 진행률 정의"
+        }
+    },
+
+    "Embedded": {
+        "Embed": {
+            "<embed>": "임베디드 애플릿을 정의",
+            "<iframe>": "인라인 프레임 정의",
+            "<object>": "내장된 오브젝트를 정의",
+            "<param>": "객체에 대한 매개변수를 정의",
+            "<picture>": "사진을 정의",
+            "<source>": "사진의 출처를 정의"
+        }
+    },
+
+    "Interactive": {
+        "Widget": {
+            "<details>": "열거나 닫는 것을 나타내는 위젯",
+            "<dialog>": "대화 상자 또는 연결 창과 같은 기타 대화형 요소 정의",
+            "<menu>": "활성화할 수 있는 명령어 그룹",
+            "<summary>": "열거나 닫는 것을 나타내는 위젯 요약"
+        }
+    },
+
+    "Web Components": {
+        "<slot>": "별도의 DOM 트리 생성 및 재사용",
+        "<template>": "구성 요소의 골격은 사용될 때까지 비활성화됨"
+    },
+
+    "__CSS3__": "CSS3",
+    "Box Model": {
+        "Margin": {
+            "margin": "한 번의 선언으로 모든 여백 속성을 설정",
+            "margin-bottom": "요소의 아래쪽 여백을 설정",
+            "margin-left": "요소의 왼쪽 여백을 설정",
+            "margin-right": "요소의 오른쪽 여백을 설정",
+            "margin-top": "요소의 위쪽 여백을 설정"
+        },
+        "Padding": {
+            "padding": "한 번의 선언으로 모든 패딩 속성을 설정",
+            "padding-bottom": "요소의 하단 패딩을 설정",
+            "padding-left": "요소의 왼쪽 패딩을 설정",
+            "padding-right": "요소의 오른쪽 패딩을 설정",
+            "padding-top": "요소의 위쪽 패딩을 설정"
+        },
+        "Dimension": {
+            "width": "요소의 높이를 설정",
+            "height": "요소의 넓이를 설정",
+            "max-height": "요소의 최대 높이를 설정",
+            "max-width": "요소의 최대 넓이를 설정",
+            "min-height": "요소의 최소 높이를 설정",
+            "min-width": "요소의 최소 넓이를 설정"
+        },
+        "Border and Outline": {
+            "border": "한 번의 선언으로 모든 테두리 속성을 설정",
+            "border-bottom": "아래쪽 테두리 속성을 설정",
+            "border-bottom-color": "아래쪽 테두리의 색상을 설정",
+            "border-bottom-style": "아래쪽 테두리의 스타일을 설정",
+            "border-bottom-width": "아래쪽 테두리의 너비를 설정",
+            "border-color": "모든 테두리의 색상을 설정",
+            "border-left": "왼쪽 테두리 속성을 설정",
+            "border-left-color": "왼쪽 테두리의 색상을 설정",
+            "border-left-style": "왼쪽 테두리의 스타일을 설정",
+            "border-left-width": "왼쪽 테두리의 너비를 설정",
+            "border-right": "오른쪽 테두리 속성을 설정",
+            "border-right-color": "오른쪽 테두리의 색상을 설정",
+            "border-right-style": "오른쪽 테두리의 스타일을 설정",
+            "border-right-width": "오른쪽 테두리의 너비를 설정",
+            "border-style": "모든 테두리의 스타일을 설정",
+            "border-top": "상단 테두리 속성을 설정",
+            "border-top-color": "상단 테두리의 색상을 설정",
+            "border-top-style": "상단 테두리의 스타일을 설정",
+            "border-top-width": "상단 테두리의 너비를 설정",
+            "border-width": "모든 테두리의 너비를 설정",
+            "outline": "한 번의 선언으로 모든 윤곽선 속성을 설정",
+            "outline-color": "윤곽선의 색상을 설정",
+            "outline-style": "윤곽선의 스타일을 설정",
+            "outline-width": "윤곽선의 너비를 설정",
+            "border-bottom-left-radius": "왼쪽 아래 모서리의 테두리 모양을 정의",
+            "border-bottom-right-radius": "오른쪽 아래 모서리의 테두리 모양을 정의",
+            "border-image": "모든 border-image- * 속성을 설정하기위한 속기 속성",
+            "border-image-outset": "테두리 이미지 영역이 테두리 상자를 넘어 확장되는 정도를 지정",
+            "border-image-repeat": "이미지 테두리를 반복, 반올림 또는 늘려야하는지 여부를 지정",
+            "border-image-slice": "이미지 테두리의 안쪽 오프셋을 지정",
+            "border-image-source": "테두리로 사용할 이미지를 지정",
+            "border-image-width": "이미지 테두리의 너비를 지정",
+            "border-radius": "모든 테두리의 border-*-radius 속성을 모두 설정하는 속기 속성",
+            "border-top-left-radius": "왼쪽 상단 모서리의 테두리 모양을 정의",
+            "border-top-right-radius": "오른쪽 상단 모서리의 테두리 모양을 정의",
+            "box-decoration-break": "오른쪽 상단 모서리의 테두리 모양을 정의",
+            "box-shadow": "상자에 하나 이상의 그림자를 설정"
+        }
+    },
+
+    "Selectors": {
+        "Basic Selectors": {
+            ".class": "\"class\"명과 일치하는 선택자의 모든 요소를 선택",
+            "#id": "\"id\"명과 일치하는 선택자 요소를 선택",
+            "*": "모든 요소를 선택",
+            "element": "선택자와 일치하는 요소를 선택",
+            "element, element": "\",\" 기준으로 일치하는 선택자들의 모든 요소를 선택",
+            "element element": "선택자 요소 내의 모든 선택자 요소를 선택",
+            "element > element": "부모가 선택자 요소 인 모든 선택자 요소를 선택",
+            "element + element": "선택자 요소 바로 뒤에 배치 된 모든 선택자 요소를 선택",
+            "[attribute]": "선택자 속성이 있는 모든 요소를 선택",
+            "[attribute=value]": "선택자 속성 값이 \"{값}\"과 일치하는 모든 요소를 선택",
+            "[attribute~=value]": "선택자 속성 값이 공백으로 구분된 \"{값}\"를 포함하는 속성을 가진 모든 요소를 선택",
+            "[attribute|=value]": "선택자 속성 값이 \"{값}\"으로 시작하는 속성 값을 가진 모든 요소를 선택",
+            "element1 ~ element2": "선택자 요소가 앞에 오는 모든 선택자 요소를 선택",
+            "[attribute^=value]": "선택자 속성 값이 \"{값}\"으로 시작하는 모든 선택자 요소를 선택",
+            "[attribute$=value]": "선택자 속성 값이 \"{값}\"으로 끝나는 모든 선택자 요소를 선택",
+            "[attribute*=value]": "선택자 속성 값이 \"{값}\"을 포함된 모든 선택자 요소를 선택"
+        },
+        "Pseudo-Selectors": {
+            ":link": "방문하지 않은 모든 링크를 선택",
+            ":visited": "방문한 모든 링크를 선택",
+            ":active": "활성 링크를 선택",
+            ":hover": "마우스 오버 링크를 선택",
+            ":focus": "포커스가있는 입력 요소를 선택",
+            ":first-letter": "선택자 요소의 첫 글자를 선택",
+            ":first-line": "선택자 요소의 첫 번째 줄을 선택",
+            ":first-child": "부모의 첫 번째 자식 인 모든 선택자 요소를 선택",
+            ":before": "선택자 요소 앞에 내용 삽입",
+            ":after": "선택자 요소 뒤에 내용 삽입",
+            ":lang(language)": "lang 속성 값을 가진 선택자 요소를 선택",
+            ":first-of-type": "부모의 첫 번째 선택자 요소 인 모든 선택자 요소를 선택",
+            ":last-of-type": "부모의 마지막 선택자 요소 인 모든 선택자 요소를 선택",
+            ":only-of-type": "부모의 유일한 선택자 요소 인 모든 선택자 요소를 선택",
+            ":only-child": "부모의 유일한 자식 인 모든 선택자 요소를 선택",
+            ":nth-child(n)": "부모의 두 번째 자식 인 모든 선택자 요소를 선택",
+            ":nth-last-child(n)": "마지막 자식부터 세어 부모의 두 번째 자식 인 모든 선택자 요소를 선택",
+            ":nth-of-type(n)": "부모의 두 번째 <p> 요소 인 모든 선택자 요소를 선택",
+            ":last-child": "부모의 마지막 자식 인 모든 선택자 요소를 선택",
+            ":not": "인수로 표시되지 않은 요소를 선택",
+            ":root": "문서의 루트 요소를 선택",
+            ":empty": "자식이없는 모든 선택자 요소를 선택(텍스트 노드 포함)",
+            ":target": "현재 활성 #news 요소를 선택(해당 앵커 이름이 포함 된 URL을 클릭 함)",
+            ":enabled": "활성화 된 모든 <input> 요소를 선택",
+            ":disabled": "비활성화 된 모든 <input> 요소를 선택",
+            ":checked": "선택 된 모든 <input> 요소를 선택",
+            "::selection": "사용자가 선택한 요소 부분을 선택"
+        }
+    },
+
+    "Style": {
+        "Background": {
+            "background": "한 번의 선언으로 모든 배경 속성을 설정",
+            "background-attachment": "배경 이미지를 고정할지 또는 나머지 페이지와 함께 스크롤 할지를 설정",
+            "background-color": "요소의 배경색을 설정",
+            "background-image": "요소의 배경 이미지를 설정",
+            "background-position": "배경 이미지의 시작 위치를 설정",
+            "background-repeat": "배경 이미지가 반복되는 방법을 설정",
+            "background-clip": "배경의 페인팅 영역을 지정",
+            "background-origin": "배경 이미지의 위치 영역을 지정",
+            "background-size": "배경 이미지의 크기를 지정"
+        },
+        "Color": {
+            "opacity": "요소의 불투명도 수준을 설정"
+        },
+        "Font": {
+            "font": "한 번의 선언으로 모든 글꼴 속성을 설정",
+            "font-family": "텍스트의 폰트 패밀리를 지정",
+            "font-size": "텍스트의 글꼴 크기를 지정",
+            "font-style": "텍스트의 글꼴 스타일을 지정",
+            "font-variant": "텍스트를 작은 대문자로 표시할지 여부를 지정",
+            "font-weight": "글꼴의 무게를 지정",
+            "@font-face": "웹 사이트가 \"web-safe\" 글꼴 이외의 글꼴을 다운로드하여 사용할 수있게하는 규칙",
+            "font-size-adjust": "글꼴 대체가 발생할 때 텍스트의 가독성 유지",
+            "font-stretch": "서체 패밀리에서 일반, 압축 또는 확장면을 선택"
+        },
+        "Positioning": {
+            "bottom": "배치 된 요소의 하단 위치를 지정",
+            "clear": "다른 부동 요소가 허용되지 않는 요소의 측면을 지정",
+            "clip": "절대 위치 요소를 자릅니다",
+            "cursor": "표시 할 커서 유형을 지정",
+            "display": "특정 HTML 요소를 표시하는 방법을 지정",
+            "float": "상자를 띄울 지 여부를 지정",
+            "left": "배치 된 요소의 왼쪽 위치를 지정",
+            "overflow": "내용이 요소 상자에 넘칠 경우 발생하는 상황을 지정",
+            "position": "요소에 사용되는 위치 결정 방법의 유형을 지정(static, relative, absolute, fixed)",
+            "right": "배치 된 요소의 오른쪽 위치를 지정",
+            "top": "배치 된 요소의 상단 위치를 지정",
+            "visibility": "요소의 표시 여부를 지정",
+            "z-index": "배치 된 요소의 스택 순서를 설정"
+        }
+    },
+
+    "Elements": {
+        "Hyperlink": {
+            "target": "target-name, target-new 및 target-position 속성을 설정하기 위한 단축 속성",
+            "target-name": "링크를 열 위치를 지정 (대상 목적지)",
+            "target-new": "새 대상 링크를 새 창에서 열지 또는 기존 창의 새 탭에서 열지 여부를 지정",
+            "target-position": "새 대상 링크를 배치 할 위치를 지정"
+        },
+        "Text": {
+            "color": "텍스트 색상을 설정",
+            "direction": "텍스트 방향/쓰기 방향을 지정",
+            "letter-spacing": "텍스트에서 문자 사이의 간격을 늘리거나 줄임",
+            "line-height": "선 높이를 설정",
+            "text-align": "텍스트의 가로 맞춤을 지정",
+            "text-decoration": "텍스트에 추가 된 장식을 지정",
+            "text-indent": "텍스트 블록에서 첫 번째 줄의 들여 쓰기를 지정",
+            "text-transform": "텍스트의 대문자를 제어",
+            "unicode-bidi": "문서에서 양방향 텍스트를 처리하는 방법을 결정",
+            "vertical-align": "요소의 수직 정렬을 설정",
+            "white-space": "요소 내부의 공백 처리 방법을 지정",
+            "word-spacing": "텍스트에서 단어 사이의 간격을 늘리거나 줄임",
+            "text-overflow": "포함하는 요소에 텍스트가 넘칠 때 발생하는 동작을 지정",
+            "text-shadow": "텍스트에 그림자를 추가",
+            "text-wrap": "텍스트의 줄 바꿈 규칙을 지정",
+            "word-break": "CJK 이외의 스크립트에 대한 줄 바꿈 규칙을 지정",
+            "word-wrap": "길고 깨지지 않는 단어를 깨뜨리고 다음 줄로 줄 바꿈"
+        },
+        "List": {
+            "list-style": "한 번의 선언에서 목록의 모든 속성을 설정",
+            "list-style-image": "이미지를 목록 항목 마커로 지정",
+            "list-style-position": "목록 항목 마커가 컨텐츠 플로우 내부 또는 외부에 표시되어야하는지 여부를 지정",
+            "list-style-type": "목록 항목 마커의 유형을 지정"
+        },
+        "Table": {
+            "border-collapse": "테이블 테두리를 축소할지 여부를 지정",
+            "border-spacing": "인접한 셀의 경계 사이의 거리를 지정",
+            "caption-side": "테이블 캡션의 배치를 지정",
+            "empty-cells": "테이블의 빈 셀에 테두리 및 배경을 표시할지 여부를 지정",
+            "table-layout": "테이블에 사용될 레이아웃 알고리즘을 설정"
+        }
+    },
+
+    "CSS3 Box": {
+        "Box": {
+            "overflow-x": "내용이 요소의 내용 영역을 오버플로하는 경우 내용의 왼쪽/오른쪽 가장자리를 자를 지 여부를 지정",
+            "overflow-y": "내용이 요소의 내용 영역을 오버플로하는 경우 내용의 위쪽/아래쪽 가장자리를자를 지 여부를 지정",
+            "overflow-style": "오버플로 된 요소에 대한 기본 스크롤 방법을 지정",
+            "rotation": "rotation-point 속성으로 정의 된 지정된 점을 중심으로 요소를 회전"
+        },
+        "Flexible Box": {
+            "flex": "플렉스 컨테이너에서 사용 가능한 공간에 맞게 플렉스 항목이 늘어나거나 줄어드는 방법을 설정",
+            "flex-basis": "플렉스 아이템의 초기 기본 크기를 설정",
+            "flex-direction": "주축과 방향(정상 또는 반전)을 정의하는 플렉스 컨테이너에 플렉스 항목을 배치하는 방법을 설정",
+            "flex-flow": "플렉스 방향 및 플렉스 랩 속성",
+            "flex-grow": "플렉스 항목 기본 크기의 플렉스 성장 계수를 설정",
+            "flex-shrink": "플렉스 아이템의 플렉스 수축 계수를 설정 모든 플렉스 아이템의 크기가 플렉스 컨테이너보다 큰 경우",
+            "flex-wrap": "플렉스 항목을 한 줄에 강제로 적용할지 아니면 여러 줄로 래핑 할 수 있는지 설정",
+            "order": "플렉스 또는 그리드 컨테이너에 항목 배치 순서를 설정"
+        },
+        "Grid Layout": {
+            "grid": "모든 명시적 그리드 속성(grid-template-rows, grid-template-columns, grid-template-areas)과 모든 암시적 그리드 속성(grid-auto-rows, grid-auto-columns, grid-auto-flow)",
+            "grid-area": "grid-row-start, grid-column-start, grid-row-end, grid-column-end, 그리드에 선, 스팬 또는 아무것도 없는(자동)기능을 제공하여 그리드 내의 그리드 항목의 크기와 위치를 지정 그리드 영역의 가장자리를 지정하여 배치",
+            "grid-auto-columns": "내재적으로 작성된 그리드 열 트랙의 크기를 지정",
+            "grid-auto-flow": "자동 배치 알고리즘이 작동하는 방식을 제어하고, 자동 배치 된 항목이 그리드로 유입되는 방식을 정확하게 지정",
+            "grid-auto-rows": "내재적으로 작성된 그리드 행 트랙의 크기를 지정",
+            "grid-column": "그리드 배열, 스팬 또는 아무것도 없는(자동)기능을 그리드 배치에 기여하여 그리드 열 내의 그리드 항목의 크기와 위치를 지정하여 그리드 영역의 인라인 시작 및 인라인 끝 가장자리를 지정하는 grid-column-start 와 grid-column-end의 속기 속성",
+            "grid-column-end": "선, 스팬 또는 아무것도 없는(자동)기능을 그리드 배치에 기여하여 그리드 열의 그리드 항목의 끝 위치를 지정하여 그리드 영역의 블록 끝 가장자리를 지정",
+            "grid-column-start": "그리드 위치에 선, 스팬 또는 아무것도 없는(자동)기능을 기여하여 그리드 열 내에서 그리드 항목의 시작 위치를 지정. 이 시작 위치는 그리드 영역의 블록 시작 가장자리를 정의",
+            "grid-gap": "행과 열 사이의 간격(gutters)을 설정. row-gap 및 column-gap의 약어",
+            "grid-row": "그리드 배치에 라인, 스팬 또는 아무것도 없는(자동)기능을 기여하고 그리드 영역의 인라인 시작 및 인라인 끝 가장자리를 지정함으로써 그리드 행 내의 그리드 항목의 크기와 위치를 지정하는 그리드 열 시작 및 그리드 행의 속기",
+            "grid-row-end": "그리드 배치에 선, 스팬 또는 아무것도 없는(자동)기능을 기여하여 그리드 행 내의 그리드 항목의 끝 위치를 지정하여 그리드 영역의 인라인 끝 가장자리를 지정",
+            "grid-row-start": "그리드 배치에 선, 스팬 또는 아무것도 없는(자동)기능을 기여하고 그리드 영역의 인라인 시작 가장자리를 지정하여 그리드 행 내에서 그리드 항목의 시작 위치를 지정",
+            "grid-template": "그리드 열, 행 및 영역을 정의하기위한 속기 속성",
+            "grid-template-areas": "명명 된 그리드 영역을 지정",
+            "grid-template-columns": "그리드 열의 라인 이름 및 트랙 크기 조정 기능을 정의",
+            "grid-template-rows": "그리드 행의 라인 이름 및 트랙 크기 조정 기능을 정의"
+        },
+        "Multi Column": {
+            "column-count": "요소를 나눌 열 수를 지정",
+            "column-fill": "열을 채우는 방법을 지정",
+            "column-gap": "열 사이의 간격을 지정",
+            "column-rule": "모든 column-rule- * 속성을 설정하기위한 속기 속성",
+            "column-rule-color": "열 사이의 규칙 색상을 지정",
+            "column-rule-style": "열 사이의 규칙 스타일을 지정",
+            "column-rule-width": "열 사이의 규칙 너비를 지정",
+            "column-span": "요소가 몇 개의 열에 걸쳐 있어야하는지 지정",
+            "column-width": "열 너비를 지정",
+            "columns": "열 너비 및 열 수를 설정하기위한 속기 속성"
+        }
+    },
+
+    "Animation": {
+        "Animation": {
+            "animation": "animation-play-state 속성을 제외한 아래의 모든 애니메이션 속성에 대한 속기 속성",
+            "animation-name": "@keyframes 애니메이션의 이름을 지정",
+            "animation-duration": "애니메이션이 한주기를 완료하는 데 걸리는 시간(초 또는 밀리 초)을 지정",
+            "animation-timing-function": "애니메이션의 속도 곡선을 지정",
+            "animation-delay": "애니메이션 시작 시간을 지정",
+            "animation-fill-mode": "애니메이션 실행 전후 애니메이션 애니메이션 적용 여부를 지정",
+            "animation-iteration-count": "애니메이션을 재생할 횟수를 지정",
+            "animation-direction": "대체주기에서 애니메이션을 반대로 재생할지 여부를 지정",
+            "animation-play-state": "애니메이션이 실행 중인지 일시 중지되었는지를 지정"
+        },
+        "2D/3D Transform": {
+            "transform": "요소에 2D 또는 3D 변형을 적용",
+            "transform-origin": "변환 된 요소의 위치를 ​​변경할 수 있음",
+            "transform-style": "3D 공간에서 중첩 요소를 렌더링하는 방법을 지정",
+            "perspective": "3D 요소를 보는 방법에 대한 관점을 지정",
+            "perspective-origin": "3D 요소의 하단 위치를 지정",
+            "backface-visibility": "화면을 향하지 않을 때 요소를 표시해야하는지 여부를 정의"
+        },
+        "Transition": {
+            "transition": "transition-property, transition-duration, transition-timing-function, transition-delay 속성을 설정하기위한 속기 속성",
+            "transition-property": "전환 효과의 CSS 속성 이름을 지정",
+            "transition-duration": "전환 효과를 완료하는 데 몇 초 또는 밀리 초를 지정",
+            "transition-timing-function": "전환 효과의 속도 곡선을 지정",
+            "transition-delay": "전환 효과가 시작되는시기를 지정"
+        }
+    },
+
+    "Miscellaneous": {
+        "At-rule": {
+            "@charset": "문자 인코딩을 지정",
+            "@import": "다른 스타일 시트에서 스타일 규칙을 가져 오는 데 사용",
+            "@namespace": "CSS 스타일 시트에서 사용될 XML 네임 스페이스를 정의",
+            "@media": "하나 이상의 미디어 쿼리 결과를 기반으로 스타일 시트의 일부를 적용하는 데 사용할 수 있음",
+            "@supports": "하나 이상의 특정 CSS 기능에 대한 브라우저의 지원에 의존하는 선언을 지정할 수 있음",
+            "@document": "문서의 URL을 기반으로 포함 된 스타일 규칙을 제한함",
+            "@page": "문서를 인쇄 할 때 일부 CSS 속성을 수정하는 데 사용",
+            "@font-face": "텍스트를 표시 할 사용자 정의 글꼴을 지정",
+            "@keyframes": "애니메이션을 지정",
+            "@viewport": "문서를 볼 수있는 뷰포트를 구성 할 수 있음",
+            "@counter-style": "사전 정의 된 스타일 세트에 속하지 않는 카운터 스타일을 정의 할 수 있음",
+            "@font-feature-values": "OpenType에서 다르게 활성화 된 기능의 font-variant-alternates 속성에 공통 이름을 사용할 수 있음"
+        },
+        "Print": {
+            "break-after": "요소 다음에 페이지 해제 동작 설정",
+            "reak-before": "요소 앞에 페이지 해제 동작 설정",
+            "break-inside": "요소 내부의 페이지 해제 동작 설정"
+        },
+        "User Interface": {
+            "appearance": "요소를 표준 사용자 인터페이스 요소처럼 보이게 할 수 있음",
+            "box-sizing": "특정 방식으로 영역에 맞게 특정 요소를 정의 할 수 있음",
+            "icon": "작성자에게 상징적인 요소로 요소의 스타일을 지정할 수있는 기능을 제공",
+            "nav-down": "화살표 아래 탐색 키를 사용할 때 탐색 할 위치를 지정",
+            "nav-index": "요소의 탭 순서를 지정",
+            "nav-left": "화살표 왼쪽 탐색 키를 사용할 때 탐색 할 위치를 지정",
+            "nav-right": "화살표 오른쪽 탐색 키를 사용할 때 탐색 할 위치를 지정",
+            "nav-up": "화살표 탐색 키를 사용할 때 탐색 할 위치를 지정",
+            "outline-offset": "요소의 윤곽선과 가장자리 또는 테두리 사이의 공간을 설정",
+            "resize": "요소의 크기 조정 여부 및 크기 조정 여부 설정"
+        }
+    },
+
+    "Page": {
+        "Generated Content": {
+            "content": "생성 된 컨텐츠를 삽입하기 위해 : before 및 : after 의사 요소와 함께 사용",
+            "counter-increment": "하나 이상의 카운터 증가",
+            "counter-reset": "하나 이상의 카운터를 만들거나 재설정",
+            "quotes": "따옴표 유형을 설정"
+        }
+    },
+
+    "__PAGE__": "SCSS",
+    "Syntax": {
+        "Statements": {
+            "Universal": "Sass 스타일시트의 아무 곳이나 사용",
+            "CSS": "\"@function\"을 제외한 어디에서나 사용할 수 있음 ",
+            "Top-Level": "스타일시트의 최상위 수준에서 사용되거나 최상위 수준에서 CSS 문 내에 내포됨"
+        },
+        "Expressions": {
+            "Literalsv": "가장 간단한 표현식은 정적 값을 나타냄",
+            "Operations": "여러 작업에 대한 구문을 정의"
+        },
+        "Comments": {
+            "Comment": "CSS에 컴파일된 /* */를 사용하여 정의된 주석과 그렇지 않은 //를 사용하여 정의된 주석"
+        },
+        "Special Functions": {
+            "url()": "인용되거나 인용되지 않은 URL을 사용할 수 있음",
+            "expression()": "동적 값을 주입하는 데 사용할 수 있음"
+        }
+    },
+
+    "Built-in Functions": {
+        "Number Functions": {
+            "abs()": "절대값 $number 반환",
+            "ceil()": "올림",
+            "comparable()": "$number1 및 $number2에 호환되는 유닛이 있는지 여부 반환",
+            "floor()": "내림",
+            "max()": "하나 이상의 숫자 중 가장 높은 숫자 반환",
+            "min()": "하나 이상의 숫자 중 가장 낮은 숫자 반환",
+            "percentage()": "단위가없는 $number(보통 0과 1 사이의 10진수) 백분율로 변환",
+            "random()": "$limit가 null이면, 0과 1 사이의 임의의 진수를 반환",
+            "round()": "$number가장 가까운 정수로 반올림",
+            "unit()": "$number의 단위를 나타내는 문자열을 반환",
+            "unitless()": "$number단위가 없는지 여부를 반환"
+        },
+        "String Functions": {
+            "quote()": "$string따옴표로 묶은 문자열로 반환",
+            "str-index()": "$substring에 $substring의 첫 번째 인덱스 반환 또는 $substring에 $substring이 없는 경우 null 반환",
+            "str-insert()": "$index에 $insert가 삽입된 $string 사본 반환",
+            "str-length()": "$string의 문자 수 반환",
+            "str-slice()": "$start-at 인덱스에서 시작하여 $end-at 인덱스에서 끝나는 $string 슬라이스 반환(둘 다 포함)",
+            "to-upper-case()": "대문자로 변환된 ASCII 문자와 함께 $string 사본 반환",
+            "to-lower-case()": "소문자로 변환된 ASCII 문자와 함께 $string 사본 반환",
+            "unique-id()": "현재 Sass 컴파일 내에서 유효한 CSS 식별자로 보장되고 고유하도록 임의로 생성된 인용되지 않은 문자열 반환",
+            "unquote()": "$string을 따옴표가 없는 문자열로 반환"
+        },
+        "Color Functions": {
+            "adjust-color()": "$color고정 된 양 만큼 하나 이상의 속성을 증가 시키거나 감소시킴",
+            "adjust-hue()": "$color의 색채 증가 또는 감소",
+            "alpha(), opacity()": "알파 채널을 $color 0과 1 사이의 숫자로 반환",
+            "blue()": "$color의 파란색 채널을 0에서 255 사이의 숫자로 반환",
+            "change-color()": "색 속성을 하나 이상 새 값으로 설정",
+            "complement()": "$color의 RGB 보색값 찾음",
+            "darken()": "$color를 어둡게 함",
+            "desaturate()": "$color를 덜 포화 상태로 만듬",
+            "grayscale()": "$color와 동일한 밝기의 회색 색상 반환",
+            "green()": "$color의 녹색 채널을 0에서 255 사이의 숫자로 반환",
+            "hsl(), hsla()": "지정된 색, 포화, 밝기 및 지정된 알파 채널이 있는 색상을 반환",
+            "hue()": "$color의 색상을 0deg ~ 255deg 사이의 숫자로 반환",
+            "ie-hex-str()": "nternet Explorer의 -ms 필터 속성으로 예상되는 #AARRGGBB 형식의 $color를 나타내는 지정되지 않은 문자열 반환",
+            "invert()": "$color의 역 또는 음수 반환",
+            "lighten()": "$ color 더 밝게 만듬",
+            "lightness()": "0% ~ 100% 사이의 숫자로 $color의 HSL 밝기 반환",
+            "mix()": "$color1과 $color2를 혼합한 숫자 반환",
+            "opacify(), fade-in()": "$color를 더욱 불투명하게 함",
+            "red()": "$color의 빨간색 채널을 0에서 255 사이의 숫자로 반환",
+            "rgb(), rgba()": "$red, $green, $blue 및 선택적으로 $alpha를 통과하면 지정된 빨간색, 녹색, 파란색 및 알파 채널이 있는 색상을 반환",
+            "saturate()": "$color를 더 포화 상태로 만듬",
+            "saturation()": "0% ~ 100% 사이의 숫자로 HSL 색상 포화 반환",
+            "scale-color()": "$color의 하나 이상의 속성을 유동적으로 확장",
+            "transparentize(), fade-out()": "$color를 보다 투명하게 함"
+        },
+        "List Functions": {
+            "append()": "끝에 $val이 추가된 $list 사본 반환",
+            "index()": "$list($list)의 $value($list)",
+            "is-bracketed()": "$list에 대괄호 포함 여부 반환",
+            "join()": "$list1 요소 다음에 $list2 요소가 포함된 새 목록 반환",
+            "length()": "$list 길이 반환",
+            "list-separator()": "$list에서 사용된 구분자 이름(공백 또는 쉼표)",
+            "nth()": "인덱스 $n에서 $list 요소 반환",
+            "set-nth()": "인덱스 $n의 요소가 $value로 대체된 $list 사본 반환",
+            "zip()": "$ lists의 모든 목록을 단일 하위 목록으로 결합"
+        },
+        "Map Functions": {
+            "keywords()": "임의 인수를 사용하는 믹스된 또는 함수에 전달된 키워드 반환",
+            "map-get()": "$key와 관련된 $map 값 반환",
+            "map-has-key()": "$map에 $key와 관련된 값이 포함되어 있는지 여부 반환",
+            "map-keys()": "$map에있는 모든 키의 쉼표로 구분 된 목록을 반환",
+            "map-merge()": "$map1 및 $map2의 모든 키와 값이 포함 된 새 맵을 반환",
+            "map-remove()": "$keys와 연결된 값이 없는 $map 사본 반환",
+            "map-values()": "$map의 모든 값에 대한 쉼표로 구분된 목록 반환"
+        },
+        "Selector Functions": {
+            "is-superselector()": "선택자 $sup이 선택자 $sub와 일치하는 모든 요소와 일치하는지 여부 반환",
+            "selector-extend()": "@extend 규칙과 마찬가지로 $selector 확장",
+            "selector-nest()": "스타일 시트에서 $selector가 서로 중첩되어있는 것처럼 결합",
+            "selector-parse()": "선택 값 형식으로 $selector를 반환",
+            "selector-replace()": "$original의 모든 인스턴스가 $replacement로 대체 된 $selector의 사본을 반환",
+            "selector-unify()": "$selector1과 $selector2가 모두 일치하는 셀렉터를 반환",
+            "simple-selectors()": "$selector의 단순 셀렉터 목록 반환"
+        },
+        "Introspection Functions": {
+            "call()": "$args와 함께 $function을 호출하고 결과를 반환",
+            "content-exists()": "현재 믹스 인에 @content 블록이 전달되었는지 여부를 반환",
+            "feature-exists()": "현재 Sass 구현이 $feature를 지원하는지 여부 반환",
+            "function-exists()": "내장 함수 또는 사용자 정의 함수로 $name이라는 함수가 정의되어 있는지 여부를 리턴",
+            "get-function()": "$name이라는 함수를 반환",
+            "global-variable-exists()": "$가없는 $name 전역 변수가 존재하는지 여부를 리턴",
+            "inspect()": "$value 문자열 표현 반환",
+            "mixin-exists()": "이름이 $name인 mixin이 있는지 여부를 리턴",
+            "type-of()": "$value의 타입을 반환",
+            "variable-exists()": "$가없는 $name 변수가 현재 범위에 있는지 여부를 반환"
+        }
+    },
+
+    "Style Rules": {
+        "Property Declarations": {
+            "Interpolation": "속성의 \"#{name}\"은 보간 기능을 포함할 수 있으므로 필요에 따라 동적으로 속성을 생성할 수 있음",
+            "Nesting": "많은 CSS 속성은 네임스페이스의 일종으로 작용하는 동일한 접두사로 시작",
+            "Hidden Declarations": "선언의 값이 null이거나 인용되지 않은 빈 문자열, Sass는 해당 선언을 CSS에 전혀 컴파일하지 않음",
+            "Custom Properties": "그들은 그들의 선언적 가치에서 거의 모든 텍스트를 허용"
+        },
+        "Parent Selector": {
+            "&Parent": "중첩된 선택자에서 외부 선택자를 참조하기 위해 사용되는 Sass가 발명한 특수 셀렉터"
+        },
+        "Placeholder Selectors": {
+            "%Placeholder": "CSS 출력에 포함되지 않음"
+        }
+    },
+
+    "Variables": {
+        "Variable": {
+            "$variable": "반복해서 사용할 변수를 지정할 수 있음"
+        },
+        "Default Values": {
+            "!default": "할당되지 않은 변수의 초기 값 설정"
+        },
+        "Scope": {
+            "scope": "선언된 블록 \"{}\"내에서 방향 범위 완료"
+        },
+        "Shadowing": {
+            "Reassignment": "로컬 변수는 글로벌 변수와 동일한 이름으로 선언할 수도 있음"
+        },
+        "Global Values": {
+            "!global": "변수의 범위를 Global로 설정할 수 있음"
+        },
+        "Flow Control Scope": {
+            "Control Scope": "흐름 제어 규칙에 선언 된 변수 에는 특수한 범위 지정 규칙이 있음"
+        },
+        "Advanced Funtions": {
+            "variable-exists()": "지정된 이름의 변수가 현재 범위에 있는지 여부 반환"
+        }
+    },
+
+    "At-Rules": {
+        "Rules": {
+            "@import": "Sass 및 CSS 스타일시트를 가져올 수 있는 기능",
+            "@mixin": "스타일시트에서 재사용할 CSS 선언의 그룹을 정의",
+            "@include": "\"@include\"는 선언된 Mixin을 사용(포함)하기 위해 필요",
+            "@function": "기능을 정의하고 사용할 수 있음",
+            "@extend": "셀렉터의 확장을 사용할 수 있음",
+            "@error": "현재 혼합 또는 함수의 호출 방식을 나타내는 스택 추적으로 표현식의 값 인쇄",
+            "@warn": "현재 혼합 또는 기능이 호출된 방식을 보여주는 스택 추적과 함께 사용자에 대한 표현식 값 인쇄",
+            "@debug": "파일 이름 및 라인 번호와 함께 표현식 값 인쇄",
+            "@at-root": "중첩된 문서가 이제 루트로부터 방출됨"
+        },
+        "Flow Control": {
+            "@if, @else": "조건 값에 따라 두 표현식 중 하나만 반환(참, 거짓)",
+            "@each": "목록 및 지도 데이터를 반복하는 데 사용됨",
+            "@for": "스타일을 반복",
+            "@while": "조건이 거짓으로 평가될 때까지 내용을 반복"
+        },
+        "From CSS": {
+            "@media": "SassScript 식은 미디어 쿼리 내의 피쳐 쿼리에 직접 사용할 수 있음",
+            "@supports": "SassScript 식을 선언 쿼리에 사용할 수 있도록 허용",
+            "@keyframes": "자식 규칙이 유효한 키프레임 규칙이어야 한다는 점을 제외하면 일반 규칙과 똑같이 작동"
+        }
+    },
+
+    "Values": {
+        "Data Types": {
+            "Numbers": "숫자가 단위를 가지고 있거나 가지고 있지 않음",
+            "Strings": "문자에 따옴표가 있거나 없는 경우",
+            "Colors": "색 표현을 나타냄",
+            "Lists": "공백 또는 \",(comma)\" 로 구분된 값 목록",
+            "Maps": "목록과 유사하지만 값은 키: 값",
+            "true, false": "논리 연산자",
+            "null": "ull이 속성 값으로 사용되는 경우 컴파일하지 않음",
+            "Functions": "함수 값이 존재하며, \"call()\" 함수에 전달하여 호출할 수 있음."
+        }
+    },
+
+    "Operators": {
+        "Equality": {
+            "==, !=": "두 값이 동일한지 여부 반환"
+        },
+        "Relational": {
+            ">, <, >=, <=": "숫자가 서로 큰지 작은지를 결정"
+        },
+        "Numeric": {
+            "+, -, *, /, %": "수학적 연산자의 표준 집합을 지원"
+        },
+        "String": {
+            "expression + expression": "문자열을 생성하는 몇 개의 연산자를 지원"
+        },
+        "Boolean": {
+            "true and true, true or false": "부울 연산자를 위해 기호보다는 단어를 사용"
+        }
+    },
+
+    "Breaking Change": {
+        "Extending Compound": {
+            "Selectors": "한 선택자가 다른 선택자를 확장하면 Sass는 확장하는 클래스와 일치하는 것처럼 확장기와 일치하는 모든 요소의 스타일을 지정"
+        },
+        "CSS Variable Syntax": {
+            "CSS Variable": "사용자 지정 속성 선언문을 구문 분석하여 다양한 SassScript 식을 값으로 수락"
+        }
+    },
+
+    "__PAGE__": "LESS",
+    "Syntax": {
+        "Escaping": {
+            "~anything": "LESS가 인식하지 못하는 문법을 개선"
+        },
+        "Comments": {
+            "Comment": "CSS에 컴파일된 /* */를 사용하여 정의된 주석과 그렇지 않은 //를 사용하여 정의된 주석"
+        },
+        "Namespaces and Accessors": {
+            "Namespaces": "네임스페이스는 공통 이름으로 혼합물을 그룹화하는 데 사용"
+        },
+        "Scope": {
+            "Scope": "가변 범위에서는 사용 가능한 변수의 위치를 지정. 변수는 로컬 범위에서 검색되고, 사용할 수 없는 경우, 컴파일러는 상위 범위에서 검색"
+        }
+    },
+
+    "Style-Rules": {
+        "Interpolation": {
+            "@{variable}": "\"@{}\"을(를) 사용하여 코드의 아무 곳에나 변수 값을 넣을 수 있음"
+        },
+        "Parent Selectors": {
+            "Multiple &": "상위 셀렉터를 반복적으로 참조할 수 있음",
+            "Changing Selector Order": "셀렉터를 상속된(상위) 셀렉터에 미리 추가하는 것이 유용할 수 있음",
+            "Combinatorial Explosion": "& 또한 쉼표로 구분 된 목록에서 선택자의 가능한 모든 순열을 생성하는 데 사용할 수 있음"
+        }
+    },
+
+    "Variables": {
+        "Variable": {
+            "@variable": "다른 변수를 사용하여 변수의 이름을 정의"
+        },
+        "Lazy Evaluation": {
+            "Declared": "변수를 사용하기 전에 선언할 필요가 없음"
+        },
+        "Properties as Variables": {
+            "$prop": "$prop 구문을 사용하여 속성을 변수처럼 쉽게 처리"
+        },
+        "Default Variables": {
+            "Reassignment": "변수가 아직 설정되지 않은 경우에만 변수를 설정하는 기능"
+        }
+    },
+
+    "At-Rules": {
+        "Rules": {
+            "Extend": "\":extend()\"셀렉터가 참조하는 것과 일치하는 셀렉터를 병합",
+            "Merge": "여러 속성의 값을 단일 속성 아래의 쉼표 또는 공간 구분 목록으로 집계할 수 있도록 허용",
+            "Mixins": "스타일시트에서 재사용할 CSS 선언의 그룹을 정의",
+            "CSS Guards": "css 선택자에 적용 할 수 있음, 이는 mixin을 선언한 다음 즉시 호출하기 위한 syntactic sugar",
+            "@import": "다른 스타일 시트에서 스타일 가져 오기",
+            "@plugin": "Less.js 함수 및 기능을 추가하기 위해 JavaScript 플러그인 가져 오기",
+            "Maps": "rulesets와 mixins을 값 맵으로 사용"
+        }
+    },
+
+    "Detached Rulesets": {
+        "Ruleset": {
+            "Scoping": "분리된 규칙 집합은 모든 변수 및 혼합물을 정의되는 위치와 호출되는 위치에 액세스할 수 있음",
+            "Property / variable accessors": "속성/변수 액세스자(\"lookups\")를 사용하여 변수(상세된) 규칙 집합에서 값을 선택할 수 있음"
+        }
+    },
+
+    "Operators": {
+        "Equality": {
+            "==, !=": "두 값이 동일한지 여부 반환"
+        },
+        "Relational": {
+            ">, <, >=, <=": "숫자가 서로 큰지 작은지를 결정"
+        },
+        "Numeric": {
+            "+, -, *, /, %": "수학적 연산자의 표준 집합을 지원"
+        },
+        "String": {
+            "expression + expression": "문자열을 생성하는 몇 개의 연산자를 지원"
+        },
+        "Boolean": {
+            "true and true, true or false": "부울 연산자를 위해 기호보다는 단어를 사용"
+        }
+    },
+
+    "Built-in Functions": {
+        "Logical Functions": {
+            "if()": "조건에 따라 두 값 중 하나를 반환",
+            "boolean": "참 또는 거짓으로 평가"
+        },
+        "String Functions": {
+            "escape()": "입력 문자열에있는 특수 문자에 \"URL-encoding\"을 적용합",
+            "e()": "이스케이프 할 문자열",
+            "%()": "함수 \"%(string, arguments ...)\" 문자열을 포맷",
+            "replace()": "문자열 내에서 텍스트를 대체"
+        },
+        "List Functions": {
+            "escape()": "값 목록의 요소 수를 반환",
+            "extract()": "목록에서 지정된 위치의 값을 반환",
+            "range()": "다양한 값에 걸친 목록 생성",
+            "each()": "규칙 세트의 평가를 목록의 각 구성원에게 바인드"
+        },
+        "Math Functions": {
+            "ceil()": "올림",
+            "floor()": "내림",
+            "percentage()": "부동 소수점 숫자를 백분율 문자열로 변환",
+            "round()": "반올림",
+            "sqrt()": "숫자의 제곱근을 계산. 유닛을 그대로 유지",
+            "abs()": "숫자의 절대 값을 계산. 유닛을 그대로 유지",
+            "sin()": "사인 함수를 계산",
+            "asin()": "아크 사인(사인의 역함수) 함수를 계산",
+            "cos()": "코사인 함수를 계산",
+            "acos()": "아크 코사인(코사인의 역) 함수를 계산",
+            "tan()": "탄젠트 함수를 계산",
+            "atan()": "아크 탄젠트(탄젠트의 역) 함수를 계산",
+            "pi()": "π(pi)를 반환",
+            "pow()": "첫 번째 인수의 값을 두 번째 인수의 거듭 제곱으로 올림",
+            "mod()": "첫 번째 인수 계수 두 번째 인수의 값 반환",
+            "min()": "하나 이상의 값 중 가장 낮은 값을 반환",
+            "max()": "하나 이상의 값 중 가장 높은 값을 반환"
+        },
+        "Type Functions": {
+            "isnumber()": "값이 숫자일 경우 true, 그렇지 않으면 false 반환",
+            "isstring()": "값이 문자열이면 true, 그렇지 않으면 false 반환",
+            "iscolor()": "값이 색이면 true, 그렇지 않으면 false 반환",
+            "iskeyword()": "값이 키워드일 경우 true, 그렇지 않으면 false 반환",
+            "isurl()": "값이 url이면 true, 그렇지 않으면 false 반환",
+            "ispixel()": "값이 픽셀 수인 경우 true를 반환하고 그렇지 않으면 false",
+            "isem()": "값이 em 값이면 true, 그렇지 않으면 false 반환",
+            "ispercentage()": "값이 백분율 값이면 true, 그렇지 않으면 false 반환",
+            "isunit()": "값이 지정된 단위의 숫자일 경우 true를 반환하고 그렇지 않으면 false를 반환함",
+            "isruleset()": "값이 규칙 집합이면 true, 그렇지 않으면 false 반환"
+        },
+        "Misc Functions": {
+            "color()": "색상을 구문 분석하여 색을 나타내는 문자열이 색상이 됨",
+            "image-size()": "파일에서 이미지 치수 가져오기",
+            "image-width()": "파일에서 이미지 너비 가져오기",
+            "image-height()": "파일에서 이미지 높이 가져오기",
+            "convert()": "숫자를 한 단위에서 다른 단위로 변환",
+            "data-uri()": "ieCompat 옵션이 켜져 있고 리소스가 너무 크거나 브라우저에서 기능을 사용하는 경우 리소스를 인라인으로 지정하고 url()로 돌아감",
+            "default()": "가드 조건 내에서만 사용 가능, 다른 혼합물이 일치하지 않을 경우에만 참으로 반환, 그렇지 않을 경우 거짓",
+            "unit()": "치수 단위 제거 또는 변경",
+            "get-unit()": "숫자의 단위를 반환",
+            "svg-gradient()": "multi-stop svg 그라데이션 생성"
+        },
+        "Color Definition Functions": {
+            "rgb()": "10진수 빨간색, 녹색 및 파란색(RGB) 값으로 불투명 색상 객체 생성",
+            "rgba()": "10진수 빨간색, 녹색, 파란색 및 알파(RGBA) 값으로 투명 색상 객체 생성",
+            "argb()": "#AARRGGBB 형식(NOT #RRGGBBAA!)으로 색상의 16진수 표시 생성",
+            "hsl()": "색상, 채도 및 광도(HSL) 값에서 불투명 색상 객체 생성",
+            "hsla()": "색상, 채도, 밝기 및 알파(HSLA) 값에서 투명 색상 객체 생성",
+            "hsv()": "색상, 채도 및 값(HSV) 값에서 불투명 색상 객체 생성",
+            "hsva()": "색상, 채도, 값 및 알파(HSVA) 값에서 투명 색상 객체 생성"
+        },
+        "Color Channel Functions": {
+            "hue()": "HSL 색 공간에서 색 객체의 색 채널 추출",
+            "saturation()": "HSL 색 공간에서 색 물체의 포화 채널 추출",
+            "lightness()": "HSL 색 공간에서 색 물체의 광도 채널 추출",
+            "hsvhue()": "HSV 색 공간에서 색 객체의 색 채널 추출",
+            "hsvsaturation()": "HSV 색 공간에서 색 물체의 포화 채널 추출",
+            "hsvvalue()": "HSV 색 공간에서 색 객체의 값 채널 추출",
+            "red()": "색상 객체의 빨간색 채널 추출",
+            "green()": "색 객체의 녹색 채널 추출",
+            "blue()": "색상 객체의 파란색 채널 추출",
+            "alpha()": "색상 객체의 알파 채널 추출",
+            "luma()": "색상 객체의 \"luma\"(인식 밝기) 계산",
+            "luminance()": "감마 보정 없이 루마 값 계산"
+        },
+        "Color Operation Functions": {
+            "saturate()": "HSL 색 공간의 색 채도를 절대적 양만큼 증가",
+            "desaturate()": "HSL 색 공간의 색 채도 절대적 양만큼 감소",
+            "lighten()": "HSL 색 공간에서 색상의 밝기를 절대적 양만큼 증가",
+            "darken()": "HSL 색 공간에서 색상의 밝기를 절대적 양으로 감소",
+            "fadein()": "색상의 투명도를 낮추거나 불투명도를 높임",
+            "fadeout()": "색상의 투명도(또는 불투명도 감소)를 높여 불투명도가 낮아짐",
+            "fade()": "색상의 불투명도 설정",
+            "spin()": "색상의 색조 각도를 어느 방향 으로든 회전",
+            "mix()": "두 가지 색을 가변 비율로 섞음. 불투명도 계산에 포함됨",
+            "tint()": "가변 비율의 흰색과 혼합. mix(#ffffff, @color, @weight)와 같음",
+            "shade()": "가변 비율의 검정색과 혼합. mix(#000000, @color, @weight)와 같음",
+            "greyscale()": "HSL 색 공간의 색상에서 모든 포화 제거",
+            "contrast()": "두 가지 색상 중 다른 색상과 가장 큰 대비를 제공하는 색상 선택"
+        },
+        "Color Blending Functions": {
+            "multiply()": "두 가지 색을 곱하기",
+            "screen()": "\"multiply\"의 반대 작업을 수행",
+            "overlay()": "\"multiply\"와 \"screen\" 효과를 결합",
+            "softlight()": "오버레이와 유사하지만 순수한 검은색은 순수한 검은색을 피하고 순백은 순백의 결과를 낳음",
+            "hardlight()": "\"overlay\"와 동일하지만 색상 역할이 반대로 적용됨",
+            "difference()": "채널별 첫 번째 색상에서 두 번째 색상을 빼기",
+            "exclusion()": "낮은 대비로 \"difference\"와 유사한 효과",
+            "average()": "채널당(RGB) 기준으로 두 색상의 평균 계산",
+            "negation()": "\"difference\"와 반대 효과 수행"
+        }
+    },
+
+    "__PAGE__": "DOM",
+    "HTML DOM": {
+        "Elements Properties": {
+            "accessKey": "요소에 대한 액세스 키 설정 또는 반환",
+            "className": "요소의 클래스 속성 설정 또는 반환",
+            "clientHeight": "페이지에 있는 콘텐츠의 보기 가능한 높이 반환(경계, 여백 또는 스크롤 막대 제외)",
+            "clientWidth": "페이지에 있는 콘텐츠의 보기 가능한 높이 반환(경계, 여백 또는 스크롤 막대 제외)",
+            "dir": "요소의 텍스트 방향 설정 또는 반환",
+            "id": "요소의 ID 설정 또는 반환",
+            "innerHTML": "요소의 HTML 내용(+텍스트) 설정 또는 반환",
+            "lang": "요소의 언어 코드 설정 또는 반환",
+            "offsetHeight": "보더 및 패딩(있는 경우 패딩 포함)을 포함하되 여백은 포함하지 않는 요소의 높이 반환",
+            "offsetLeft": "오프셋 컨테이너에 상대적인 현재 요소의 수평 오프셋 위치 반환",
+            "offsetParent": "요소의 컨테이너 오프셋 반환",
+            "offsetTop": "오프셋 컨테이너에 상대적인 현재 요소의 수직 오프셋 위치 반환",
+            "offsetWidth": "경계 및 패딩(있는 경우 패딩 포함)을 포함하되 마진여백은 포함하지 않는 요소의 너비 반환",
+            "scrollHeight": "요소의 전체 높이 반환(스크롤 막대로 숨겨진 영역 포함)",
+            "scrollLeft": "요소의 실제 왼쪽 가장자리와 현재 뷰에 있는 왼쪽 가장자리 사이의 거리 반환",
+            "scrollTop": "요소의 실제 상단 가장자리와 현재 뷰에 있는 요소의 상단 가장자리 사이의 거리 반환",
+            "scrollWidth": "요소의 전체 너비 반환(스크롤 막대로 숨겨진 영역 포함)",
+            "style": "요소의 스타일 특성 설정 또는 반환",
+            "tabIndex": "요소의 탭 순서 설정 또는 반환",
+            "title": "요소의 제목 특성 설정 또는 반환"
+        },
+        "Elements Methods": {
+            "toString()": "요소를 문자열로 변환"
+        },
+        "Document Properties": {
+            "applets": "문서의 모든 애플릿 컬렉션 반환",
+            "body": "문서의 본문 요소 반환",
+            "cookie": "문서에 있는 모든 쿠키 이름/값 쌍 반환",
+            "documentMode": "문서를 렌더링하는데 브라우저에서 사용하는 모드 반환",
+            "domain": "문서를 로드한 서버의 도메인 이름 반환",
+            "forms": "문서의 모든 양식 모음 반환",
+            "images": "문서에 있는 모든 이미지 모음 반환",
+            "lastModified": "문서가 마지막으로 수정된 날짜 및 시간 반환",
+            "links": "문서에 있는 모든 링크 모음 반환",
+            "readyState": "문서의 (로드)상태 반환",
+            "referrer": "현재 문서를 로드한 문서의 URL 반환",
+            "title": "문서 제목 설정 또는 반환",
+            "URL": "문서의 전체 URL 반환"
+        },
+        "Document Methods": {
+            "close()": "이전에 열린 출력 스트림을 document.open()로 닫기",
+            "getElementsByName()": "지정된 이름을 사용하여 모든 요소 액세스",
+            "open()": "document.write() 또는 document.writeln()에서 출력을 수집하기 위해 출력 스트림 열기",
+            "write()": "문서에 HTML 식 또는 JavaScript 코드 쓰기",
+            "writeln()": "write()와 동일하지만 각 문 뒤에 새 줄 문자 추가"
+        },
+        "HTML Object Properties": {
+            "align": "주변 텍스트에 따라 객체의 정렬 설정 또는 반환",
+            "archive": "객체에 대한 고유한 아카이브 기능을 구현하는 데 사용할 수 있는 문자열 설정 또는 반환",
+            "border": "객체 주위의 보더 설정 또는 반환",
+            "code": "컴파일된 Java 클래스가 포함된 파일의 URL 설정 또는 반환",
+            "codeBase": "구성 요소의 URL 설정 또는 반환",
+            "codeType": "객체가 사용해야 하는 애플리케이션의 MIME 유형(미디어 유형) 설정",
+            "data": "객체의 데이터 위치 설정",
+            "declare": "객체가 선언에 불과할지 여부 설정(필요한 경우에만 다운로드됨)",
+            "form": "객체의 상위 양식에 대한 참조 반환",
+            "height": "객체의 높이 설정 또는 반환",
+            "hspace": "객체의 수평 여유 설정 또는 반환",
+            "name": "객체 이름 설정 또는 반환",
+            "standby": "객체를 로드할 때 메시지 설정 또는 반환",
+            "type": "데이터 속성을 통해 다운로드한 데이터의 콘텐츠 유형 설정 또는 반환",
+            "useMap": "이미지 맵으로 사용할 URL 설정",
+            "vspace": "객체의 수직 여유 설정 또는 반환",
+            "width": "객체의 너비 설정 또는 반환"
+        },
+        "Area Object Properties": {
+            "alt": "영역의 alt 속성 값 설정 또는 반환",
+            "coords": "영역의 coords 특성 값 설정 또는 반환",
+            "shape": "영역의 shape 특성 값 설정 또는 반환",
+            "target": "영역의 target 특성 값 설정 또는 반환"
+        },
+        "Base Object Properties": {
+            "hash": "href 속성 값의 고정 부분 설정 또는 반환",
+            "host": "href 속성 값의 호스트명:포트 부분 설정 또는 반환",
+            "hostname": "href 속성 값의 호스트명 부분 설정 또는 반환",
+            "href": "기본 요소에서 href 속성 값을 설정하거나 반환",
+            "noHref": "영역의 nohref 속성 값 설정 또는 반환",
+            "pathname": "href 속성 값의 경로명 부분 설정 또는 반환",
+            "port": "href 속성 값의 포트 부분 설정 또는 반환",
+            "protocol": "href 속성 값의 프로토콜 부분 설정 또는 반환",
+            "search": "href 속성 값의 쿼리 문자열 부분 설정 또는 반환"
+        },
+        "Frame Object Properties": {
+            "contentDocument": "frame/iframe에서 생성된 문서 객체 반환",
+            "height": "iframe에서 높이 특성 값 설정 또는 반환",
+            "name": "frame/iframe에서 이름 특성 값 설정 또는 반환",
+            "src": "frame/iframe에서 src 특성 값 설정 또는 반환",
+            "width": "iframe에서 폭 특성 값 설정 또는 반환"
+        },
+        "Meta Properties": {
+            "content": "메타 요소의 내용 속성 값 설정 또는 반환",
+            "httpEquiv": "내용 속성의 정보에 대한 HTTP 헤더 설정 또는 반환",
+            "name": "내용 속성의 정보 이름 설정 또는 반환"
+        }
+    },
+
+    "DOM Node": {
+        "Node Properties": {
+            "attributes": "노드의 특성 집합 반환",
+            "baseURI": "노드의 베이스 URI 반환",
+            "childNodes": "노드에 대한 하위 노드의 NodeList 반환",
+            "firstChild": "노드의 첫 번째 하위 항목 반환",
+            "lastChild": "노드의 마지막 하위 항목 반환",
+            "nextSibling": "동일한 노드 트리 수준에서 다음 노드 반환",
+            "nodeName": "노드의 유형에 따라 노드 이름 반환",
+            "nodeType": "노드 유형 반환",
+            "nodeName": "노드의 유형에 따라 이름을 반환",
+            "nodeValue": "노드의 유형에 따라 노드 값 설정 또는 반환",
+            "ownerDocument": "노드의 루트 요소(문서 객체) 반환",
+            "parentNode": "노드의 상위 노드 반환",
+            "previousSibling": "동일한 노드 트리 수준에서 이전 노드 반환",
+            "textContent": "노드 및 하위 항목의 텍스트 내용 설정 또는 반환"
+        },
+        "Node Methods": {
+            "appendChild()": "새 하위 노드를 지정된 노드에 마지막 하위 노드로 추가",
+            "cloneNode()": "노드 복제",
+            "compareDocumentPosition()": "두 노드의 문서 위치 비교",
+            "hasChildNodes()": "노드에 하위 노드가 있는 경우 true를 반환하고, 그렇지 않으면 false를 반환함",
+            "insertBefore()": "지정된 기존 하위 노드 앞에 새 하위 노드 삽입",
+            "isDefaultNamespace()": "지정된 네임스페이스 URI가 기본값인 경우 true를 반환하고 그렇지 않으면 false",
+            "isEqualNode()": "두 노드가 동일한지 확인",
+            "isSameNode()": "두 노드가 동일한지 확인",
+            "lookupNamespaceURI()": "지정된 접두사와 일치하는 네임스페이스 URI 반환",
+            "lookupPrefix()": "지정된 네임스페이스 URI와 일치하는 접두사 반환",
+            "normalize()": "인접한 텍스트 노드에 가입하고 빈 텍스트 노드 제거",
+            "removeChild()": "하위 노드 제거",
+            "replaceChild()": "하위 노드 교체"
+        },
+        "Node Types": {
+            "1. Element": "요소 표시",
+            "2. Attr": "속성 표시",
+            "3. Text": "요소 또는 속성의 텍스트 내용 표시",
+            "4. CDATASection": "문서에 CDATA 섹션 표시(파서 없이 구문)",
+            "5. EntityReference": "엔티티 참조 표시",
+            "6. Entity": "엔티티 표시",
+            "7. ProcessingInstruction": "처리 명령 표시",
+            "8. Comment": "주석 표시",
+            "9. Document": "전체 문서 표시(DOM 트리의 루트 노드)",
+            "10. DocumentType": "문서에 대해 정의된 엔티티에 대한 인터페이스 제공",
+            "11. DocumentFragment": "문서의 일부를 저장할 수 있는 'lightweight' 문서 객체 표시",
+            "12. Notation": "DTD에 선언된 표기법 표시"
+        },
+        "nodeName Returns": {
+            "Element": "요소명",
+            "Attr": "속성명",
+            "Text": "#text",
+            "CDATASection": "#cdata-section",
+            "EntityReference": "엔티티 참조 이름",
+            "Entity": "엔티티명",
+            "ProcessingInstruction": "대상",
+            "Comment": "#comment",
+            "Document": "#document",
+            "DocumentType": "doctype명",
+            "DocumentFragment": "#document 문서",
+            "Notation": "표기명"
+        },
+        "nodeValue Returns": {
+            "Element": "null",
+            "Attr": "속성값",
+            "Text": "노드 내용",
+            "CDATASection": "노드 내용",
+            "EntityReference": "null",
+            "Entity": "null",
+            "ProcessingInstruction": "노드 내용",
+            "Comment": "주석",
+            "Document": "null",
+            "DocumentType": "null",
+            "DocumentFragment": "null",
+            "Notation": "null"
+        }
+    },
+
+    "DOM Events": {
+        "Mouse Events": {
+            "click": "사용자가 요소를 클릭할 때 이벤트가 발생함",
+            "dblclick": "사용자가 요소에서 두 번 클릭할 때 이벤트가 발생함",
+            "mousedown": "사용자가 요소 위로 마우스 버튼을 누를 때 이벤트가 발생함",
+            "mousemove": "사용자가 요소 위로 마우스 포인터를 이동할 때 이벤트가 발생함",
+            "mouseover": "사용자가 요소를 마우스로 가리키면 이벤트가 발생함",
+            "mouseout": "사용자가 요소에서 마우스 포인터를 이동할 때 이벤트가 발생함",
+            "mouseup": "사용자가 요소 위에 마우스 버튼을 놓으면 이벤트가 발생함"
+        },
+        "Keyboard Events": {
+            "keydown": "사용자가 키보드 키를 누를 때 이벤트가 발생함",
+            "beforeinput_event": "사용자가 입력폼의 요소 값을 변경하기 직전에 이벤트가 발생함",
+            "keyup": "사용자가 키보드 키를 눌렀다 땠을 때 이벤트가 발생함"
+        },
+        "Frame Events": {
+            "abort": "이미자가 완전히 로드되기 전에 로드되지 않을 때 이벤트가 발생함(<object>)",
+            "error": "이미지가 제대로 로드되지 않을 때 이벤트가 발생함",
+            "load": "문서, frameset 또는 <object>가 로드되었을 때 이벤트가 발생함",
+            "resize": "문서 보기의 크기를 조정할 때 이벤트가 발생함",
+            "scroll": "문서 보기를 스크롤할 때 이벤트가 발생함",
+            "unload": "문서가 window창 또는 frame에서 제거될 때 이벤트가 발생함(<body>, <frameset>)"
+        },
+        "Form Events": {
+            "blur": "form요소가 초점을 잃었을 때 이벤트가 발생함",
+            "change": "폼의 내용, 선택 또는 선택한 상태가 변경되었을 때 이벤트가 발생함(<input>, <select>, <textarea>)",
+            "focus": "요소가 초점을 맞출 때 발생(<label>, <input>, <select>, textarea>, <button>)",
+            "reset": "리셋",
+            "select": "사용자가 일부 텍스트를 선택할 때 이벤트가 발생함(<input>, <textarea>)",
+            "onsubmit": "폼이 제출될 때 이벤트가 발생함"
+        },
+        "Event Object Constant": {
+            "AT_TARGET": "현재 이벤트는 목표 단계에 있고, 즉 이것은 이벤트 타깃에서 평가되고 있는 경우 (1)",
+            "BUBBLING_PHASE": "현재 이벤트 단계는 버블링 단계 (2)",
+            "CAPTURING_PHASE": "현재 이벤트 단계는 캡쳐 단계 (3)"
+        },
+        "Event Object Properties": {
+            "bubbles": "이벤트가 버블링 이벤트인지 여부 반환",
+            "cancelable": "이벤트의 기본 동작이 차단될 수 있는지 여부",
+            "currentTarget": "이벤트 리스너가 이벤트를 트리거한 요소 반환",
+            "eventPhase": "현재 평가 중인 이벤트 흐름의 단계를 반환",
+            "target": "이벤트를 트리거한 요소 반환",
+            "timeStamp": "이벤트가 생성된 시간(초당 시간(밀리초)을 반환",
+            "type": "이벤트명 반환"
+        },
+        "Event Object Methods": {
+            "initEvent()": "이벤트 유형, 이벤트가 버블을 일으킬 수 있는지 여부, 이벤트의 기본 동작을 방지할 수 있는지 여부를 지정",
+            "preventDefault()": "취소 가능한 경우 이벤트를 취소하려면, 일반적으로 이벤트의 결과로 구현된 기본 작업이 수행되지 않음을 의미",
+            "stopPropagation()": "이벤트 흐름 중에 이벤트가 더 전파되지 않도록 방지"
+        },
+        "EventTarget Object": {
+            "addEventListener()": "이벤트 대상에 이벤트 수신기 등록 허용(IE8 = attachEvent())",
+            "dispatchEvent()": "구독된 이벤트 수신자에게 이벤트를 전송할 수 있음(IE8 = fireEvent())",
+            "removeEventListener()": "이벤트 대상의 이벤트 수신기 제거 허용(IE8 = detachEvent())"
+        },
+        "EventListener Object": {
+            "handleEvent()": "EventListener 인터페이스가 등록된 이벤트 유형의 이벤트가 발생할 때마다 호출됨"
+        },
+        "MouseEvent/KeyboardEvent Object": {
+            "altKey": "이벤트가 트리거될 때 \"ALT\" 키를 눌렀는지 여부 반환",
+            "button": "이벤트가 트리거될 때 클릭된 마우스 버튼 반환",
+            "clientX": "이벤트가 트리거되었을 때 현재 창에 대해 마우스 포인터의 수평 좌표 반환",
+            "clientY": "이벤트가 트리거된 경우 현재 창에 상대적인 마우스 포인터의 수직 좌표 반환",
+            "ctrlKey": "이벤트가 트리거될 때 \"CTRL\" 키를 눌렀는지 여부 반환",
+            "keyIdentifier": "키 식별자 반환",
+            "keyLocation": "키 위치 반환",
+            "metaKey": "이벤트가 트리거될 때 \"meta\" 키를 눌렀는지 여부 반환",
+            "relatedTarget": "이벤트를 트리거한 요소와 관련된 요소 반환",
+            "screenX": "이벤트가 트리거되었을 때 화면과 관련하여 마우스 포인터의 수평 좌표 반환",
+            "screenY": "이벤트가 트리거되었을 때 화면과 관련된 마우스 포인터의 수직 좌표 반환",
+            "shiftKey": "이벤트가 트리거될 때 \"SHIFT\" 키를 눌렀는지 여부 반환"
+        },
+        "MouseEvent/KeyboardEvent Methods": {
+            "initMouseEvent()": "마우스 이벤트 객체의 값 초기화",
+            "initKeyboardEvent()": "키보드 이벤트 객체의 값 초기화"
+        }
+    },
+
+    "DOM Input": {
+        "Button Properties": {
+            "disabled": "버튼 사용 안 함 설정 또는 반환",
+            "form": "입력 버튼이 포함된 양식에 대한 참조 반환",
+            "name": "입력 버튼의 이름 특성 값 설정 또는 반환",
+            "type": "버튼이 어떤 폼 요소 유형인지 반환",
+            "value": "버튼의 값 속성 값 설정 또는 반환"
+        },
+        "Checkbox Properties": {
+            "disabled": "확인란의 사용 안 함 여부를 설정하거나 반환",
+            "checked": "체크박스의 체크된 상태 설정 또는 반환",
+            "form": "확인란이 포함된 양식에 대한 참조 반환",
+            "name": "확인란의 이름 특성 값 설정 또는 반환",
+            "type": "확인란이 어떤 폼 요소 유형인지 반환",
+            "value": "확인란의 값 속성 값 설정 또는 반환"
+        },
+        "File Properties": {
+            "disabled": "fileUpload 버튼의 사용 안 함 여부를 설정 또는 반환",
+            "accept": "허용된 콘텐츠 유형의 쉼표로 구분된 목록 설정 또는 반환",
+            "form": "FileUpload 객체가 포함된 양식에 대한 참조 반환",
+            "name": "FileUpload 객체의 이름 특성 값을 설정 또는 반환",
+            "type": "FileUpload 객체의 양식 요소 유형 반환",
+            "value": "선택한 파일의 경로 또는 이름 반환"
+        },
+        "Hidden Properties": {
+            "form": "숨겨진 입력 필드를 포함하는 양식에 대한 참조 반환",
+            "name": "숨겨진 입력 필드의 이름 특성 값 설정 또는 반환",
+            "type": "숨겨진 입력 필드가 어떤 폼 요소인지 반환",
+            "value": "숨겨진 입력 필드의 값 속성 값 설정 또는 반환"
+        },
+        "Password Properties": {
+            "defaultValue": "암호 필드의 기본값 설정 또는 반환",
+            "disabled": "암호 필드의 사용 안 함 여부를 설정 또는 반환",
+            "form": "암호 필드가 포함된 양식에 대한 참조 반환",
+            "maxlength": "암호 필드에 허용되는 최대 문자 수 설정 또는 반환",
+            "name": "암호 필드의 이름 특성 값 설정 또는 반환",
+            "readonly": "암호 필드가 읽기 전용인지 여부 설정 또는 반환",
+            "size": "암호 필드의 너비 설정 또는 반환(문자 수)",
+            "type": "암호 필드의 양식 요소 유형 반환",
+            "value": "암호 필드의 값 속성 값 설정 또는 반환"
+        },
+        "Password Methods": {
+            "select()": "암호 필드의 내용 선택"
+        },
+        "Radio Properties": {
+            "checked": "라디오 버튼의 점검된 상태 설정 또는 반환",
+            "defaultChecked": "선택한 특성의 기본값 반환",
+            "disabled": "라디오 버튼의 비활성화 여부 설정 또는 반환",
+            "form": "라디오 버튼이 포함된 양식에 대한 참조 반환",
+            "name": "라디오 버튼의 이름 특성 값 설정 또는 반환",
+            "type": "라디오 버튼의 폼 요소 유형 반환",
+            "value": "라디오 버튼의 값 속성 값 설정 또는 반환"
+        },
+        "Reset Properties": {
+            "disabled": "재설정 버튼의 사용 안 함 여부를 설정 또는 반환",
+            "form": "재설정 버튼이 포함된 양식에 대한 참조 반환",
+            "name": "재설정 버튼의 이름 특성 값 설정 또는 반환",
+            "type": "재설정 버튼이 어떤 폼 요소 유형인지 반환",
+            "value": "재설정 버튼의 값 속성 값 설정 또는 반환"
+        },
+        "Submit Properties": {
+            "disabled": "제출 버튼의 사용 안 함 여부를 설정 또는 반환",
+            "form": "제출 버튼이 포함된 양식에 대한 참조 반환",
+            "name": "제출 버튼의 이름 특성 값 설정 또는 반환",
+            "type": "제출 버튼의 양식 요소 유형 반환",
+            "value": "제출 버튼의 값 속성 값 설정 또는 반환"
+        },
+        "Text Properties": {
+            "defaultValue": "텍스트 필드의 기본값 설정 또는 반환",
+            "disabled": "텍스트 필드의 사용 안 함 여부 설정 또는 반환",
+            "form": "텍스트 필드가 포함된 양식에 대한 참조 반환",
+            "maxlength": "텍스트 필드에 허용되는 최대 문자 수 설정 또는 반환",
+            "name": "텍스트 필드의 이름 특성 값 설정 또는 반환",
+            "readonly": "텍스트 필드가 읽기 전용인지 여부 설정 또는 반환",
+            "size": "텍스트 필드 너비 설정 또는 반환(문자 수)",
+            "type": "텍스트 필드의 양식 요소 유형 반환",
+            "value": "텍스트 필드의 값 속성 값 설정 또는 반환"
+        },
+        "Text Methods": {
+            "select()": "텍스트 필드의 내용 선택"
+        }
+    },
+
+    "Dom Elements": {
+        "Anchor Object Properties": {
+            "charset": "링크의 charset 특성 값 설정 또는 반환",
+            "href": "링크의 href 특성 값 설정 또는 반환",
+            "hreflang": "링크의 hreflang 특성 값 설정 또는 반환",
+            "rel": "링크의 rel 특성 값 설정 또는 반환",
+            "rev": "링크의 rev 특성 값 설정 또는 반환",
+            "target": "링크의 대상 특성 값 설정 또는 반환",
+            "type": "링크의 유형 특성 값 설정 또는 반환"
+        },
+        "Button Object Properties": {
+            "disabled": "버튼 사용 안 함 설정 또는 반환",
+            "form": "버튼이 포함된 양식에 대한 참조 반환",
+            "name": "버튼의 이름 특성 값 설정 또는 반환",
+            "type": "버튼 유형 설정 또는 반환",
+            "value": "버튼의 값 속성 값 설정 또는 반환"
+        },
+        "Form Object Properties": {
+            "acceptCharset": "폼에서 accept-charset 속성 값 설정 또는 반환",
+            "action": "폼에서 작업 속성 값 설정 또는 반환",
+            "enctype": "폼에서 enctype 속성의 값을 설정하거나 반환",
+            "length": "폼 요소 수 반환",
+            "method": "양식의 메서드 특성 값 설정 또는 반환",
+            "name": "폼의 이름 특성 값 설정 또는 반환",
+            "target": "폼의 대상 특성 값 설정 또는 반환"
+        },
+        "Form Object Methods": {
+            "reset()": "폼 리셋",
+            "submit()": "폼 제출"
+        },
+        "Form Object Events": {
+            "onreset": "리셋 버튼 클릭",
+            "onsubmit": "제출 버튼 클릭"
+        },
+        "Image Object Properties": {
+            "alt": "이미지의 alt 속성 값 설정 또는 반환",
+            "complete": "브라우저의 이미지 로딩 완료 여부 반환",
+            "crossOrigin": "이미지를 검색 할 때 사용할 CORS (Cross-Origin Resource Sharing) 설정을 지정",
+            "currentSrc": "이미지 요소에 현재 표시된 이미지의 URL 반환",
+            "decoding": "이미지 디코딩 방법에 대한 브라우저의 힌트 반환",
+            "height": "이미지의 높이 특성 값 설정 또는 반환",
+            "isMap": "서버 측 이미지 맵이 사용된다는 것을 나타내는 불린값 반환",
+            "naturalHeight": "이미지의 고유 높이 (CSS 픽셀)를 나타내는 정수 값 반환",
+            "naturalWidth": "이미지의 고유 넓이 (CSS 픽셀)를 나타내는 정수 값 반환",
+            "referrerPolicy": "리소스를 가져올 때 전송 될 referrer를 정의하는 요소의 HTML referrerpolicy속성을 반영",
+            "sizes": "이미지의 각 미디어 조건 목록에 대한 이미지의 레이아웃 너비를 지정",
+            "src": "이미지의 src 특성 값 설정 또는 반환",
+            "srcset": "주어진 상황에서 사용할 이미지 리소스를 지정하는 쉼표 (,)로 구분 된 하나 이상의 이미지 후보 문자열을 식별하는 문자열 반환",
+            "useMap": "이미지에 적용 할 클라이언트 측 이미지 맵의 이름을 제공하는 문자열 반환",
+            "width": "영상의 폭 특성 값 설정 또는 반환"
+        },
+        "Image Object Events": {
+            "onerror": "이미지를 로드할 때 오류가 발생함",
+            "onload": "이미지 로딩 완료"
+        },
+        "Link Properties": {
+            "href": "연결된 문서의 URL 설정 또는 반환",
+            "hreflang": "링크된 문서의 언어 코드 설정 또는 반환",
+            "media": "링크 요소의 미디어 유형 설정 또는 반환",
+            "rel": "현재 문서와 연결된 문서 간의 관계 설정 또는 반환",
+            "type": "연결된 문서의 내용 유형 설정 또는 반환"
+        },
+        "Option Properties": {
+            "defaultSelected": "선택한 속성의 기본값 반환",
+            "disabled": "옵션 사용 안 함 설정 또는 반환",
+            "form": "옵션이 포함된 양식에 대한 참조 반환",
+            "index": "드롭다운 목록에서 옵션의 인덱스 위치 설정 또는 반환",
+            "selected": "선택한 속성의 값 설정 또는 반환",
+            "text": "옵션 요소의 텍스트 설정 또는 반환",
+            "value": "서버로 보낼 값 설정 또는 반환"
+        },
+        "Select Properties": {
+            "disabled": "드롭다운 목록의 사용 안 함 여부 설정 또는 반환",
+            "form": "드롭다운 목록이 포함된 양식에 대한 참조 반환",
+            "length": "드롭다운 목록의 옵션 수 반환",
+            "multiple": "드롭다운 목록에서 둘 이상의 항목을 선택할 수 있는지 여부 설정 또는 반환",
+            "name": "드롭다운 목록의 이름 설정 또는 반환",
+            "selectedIndex": "드롭다운 목록에서 선택한 옵션의 인덱스 설정 또는 반환",
+            "size": "드롭다운 목록에서 표시되는 옵션 수 설정 또는 반환",
+            "type": "드롭다운 목록의 양식 요소 유형 반환"
+        },
+        "Select Methods": {
+            "add()": "드롭다운 목록에 옵션 추가",
+            "remove()": "드롭다운 목록에서 옵션 제거"
+        },
+        "Textarea Properties": {
+            "cols": "텍스트 영역의 너비 설정 또는 반환",
+            "defaultValue": "텍스트 영역의 기본값 설정 또는 반환",
+            "disabled": "텍스트 영역의 사용 안 함 여부 설정 또는 반환",
+            "form": "텍스트 영역이 포함된 양식에 대한 참조 반환",
+            "name": "텍스트 영역의 이름 설정 또는 반환",
+            "readonly": "텍스트 영역의 내용이 읽기 전용인지 여부 설정 또는 반환",
+            "rows": "텍스트 영역의 높이 설정 또는 반환",
+            "type": "텍스트 영역이 있는 양식 요소의 유형을 반환",
+            "value": "텍스트 영역의 내용 설정 또는 반환"
+        }
+    },
+
+    "Dom Style": {
+        "Background Properties": {
+            "background": "하나의 선언에서 모든 배경 특성 설정 또는 반환",
+            "backgroundAttachment": "배경 이미지의 고정 여부 또는 페이지와 함께 스크롤 여부 설정 또는 반환",
+            "backgroundColor": "요소의 배경색 설정 또는 반환",
+            "backgroundImage": "요소의 배경 이미지 설정 또는 반환",
+            "backgroundPosition": "배경 이미지의 시작 위치 설정 또는 반환",
+            "backgroundRepeat": "배경 이미지를 반복(타일링)하는 방법 설정 또는 반"
+        },
+        "Border/Outline Properties": {
+            "border": "한 선언에서 테두리 폭, 테두리 스타일 및 테두리 색상을 설정 또는 반환",
+            "borderBottom": "하나의 선언에서 모든 directorBottom* 속성 설정 또는 반환",
+            "borderBottomColor": "하단 테두리 색 설정 또는 반환",
+            "borderBottomStyle": "하단 테두리 스타일 설정 또는 반환",
+            "borderBottomWidth": "하단 테두리 너비 설정 또는 반환",
+            "borderColor": "요소의 테두리 색 설정 또는 반환(최대 4개의 값을 가질 수 있음)",
+            "borderLeft": "하나의 선언에서 모든 테두리왼쪽* 속성을 하나의 선언으로 설정 또는 반환",
+            "borderLeftColor": "왼쪽 테두리 색 설정 또는 반환",
+            "borderLeftStyle": "왼쪽 테두리 스타일 설정 또는 반환",
+            "borderLeftWidth": "왼쪽 테두리 너비 설정 또는 반환",
+            "borderRight": "모든 테두리 오른쪽* 속성을 하나의 선언으로 설정 또는 반환",
+            "borderRightColor": "오른쪽 테두리 색 설정 또는 반환",
+            "borderRightStyle": "오른쪽 테두리 스타일 설정 또는 반환",
+            "borderRightWidth": "오른쪽 테두리 너비 설정 또는 반환",
+            "borderStyle": "요소의 경계 스타일 설정 또는 반환(최대 4개의 값을 가질 수 있음)",
+            "borderTop": "모든 테두리 상단* 속성을 하나의 선언으로 설정 또는 반환",
+            "borderTopColor": "상단 테두리 색 설정 또는 반환",
+            "borderTopStyle": "단 테두리 스타일 설정 또는 반환",
+            "borderTopWidth": "상단 테두리 너비 설정 또는 반환",
+            "borderWidth": "요소의 테두리 너비 설정 또는 반환(최대 4개의 값을 가질 수 있음)",
+            "outline": "하나의 선언에서 모든 개요 속성 설정 또는 반환",
+            "outlineColor": "요소 주위에 윤곽선 색상을 설정 또는 반환",
+            "outlineStyle": "요소 주위에 윤곽선 스타일 설정 또는 반환",
+            "outlineWidth": "요소 주위에 윤곽선 너비 설정 또는 반환"
+        },
+        "Generated Content Properties": {
+            "content": "요소 전후에 생성된 내용 설정 또는 반환",
+            "counterIncrement": "카운터 및 증분 값 목록 설정 또는 반환",
+            "counterReset": "카운터 목록 및 해당 초기 값 설정 또는 반환"
+        },
+        "List Properties": {
+            "listStyle": "하나의 선언에서 list-style-image, list-style-position, list-style-type 설정 또는 반환",
+            "listStyleImage": "이미지를 list-item marker로 설정 또는 반환",
+            "listStylePosition": "list-item marker의 위치 설정 또는 반환",
+            "listStyleType": "list-item marker 유형 설정 또는 반환"
+        },
+        "Margin/Padding Properties": {
+            "margin": "요소의 여백 설정 또는 반환(최대 4개의 값을 가질 수 있음)",
+            "marginBottom": "요소의 하단 여유 설정 또는 반환",
+            "marginLeft": "요소의 왼쪽 여백 설정 또는 반환",
+            "marginRight": "요소의 오른쪽 여백 설정 또는 반환",
+            "marginTop": "요소의 위쪽 여백 설정 또는 반환",
+            "padding": "요소의 패딩 설정 또는 반환(최대 4개의 값을 가질 수 있음)",
+            "paddingBottom": "요소의 하단 패딩 설정 또는 반환",
+            "paddingLeft": "요소의 왼쪽 패딩 설정 또는 반환",
+            "paddingRight": "요소의 오른쪽 패딩 설정 또는 반환",
+            "paddingTop": "요소의 상단 패딩 설정 또는 반환"
+        },
+        "Misc Properties": {
+            "cssText": "스타일 선언의 내용을 문자열로 설정 또는 반환"
+        },
+        "Positioning Properties": {
+            "bottom": "위치 요소의 하단 위치 설정 또는 반환",
+            "clear": "물체에 상대적인 요소의 위치를 설정하거나 반환함",
+            "clip": "위치 요소의 볼 수 있는 부분을 설정하거나 반환",
+            "cssFloat": "객체의 수평 정렬 설정 또는 반환",
+            "cursor": "마우스 포인터에 표시할 커서 유형 설정 또는 반환",
+            "display": "요소의 표시 유형 설정 또는 반환",
+            "height": "요소의 높이 설정 또는 반환",
+            "left": "위치 요소의 왼쪽 위치 설정 또는 반환",
+            "maxHeight": "요소의 최대 높이 설정 또는 반환",
+            "maxWidth": "요소의 최대 너비 설정 또는 반환",
+            "minHeight": "요소의 최소 높이 설정 또는 반환",
+            "minWidth": "요소의 최소 너비 설정 또는 반환",
+            "overflow": "요소 상자 외부에 렌더링되는 내용 설정 또는 반환",
+            "position": "요소에 사용되는 위치 지정 방법 유형 설정 또는 반환(static, relative, absolute, fixed)",
+            "right": "위치 요소의 올바른 위치 설정 또는 반환",
+            "top": "위치 요소의 상단 위치 설정 또는 반환",
+            "verticalAlign": "요소의 내용 수직 정렬 설정 또는 반환",
+            "visibility": "요소의 표시 여부 설정 또는 반환",
+            "width": "요소의 너비 설정 또는 반환",
+            "zIndex": "배치 요소의 스택 순서 설정 또는 반환"
+        },
+        "Printing Properties": {
+            "orphans": "페이지 하단에 표시되어야 하는 요소의 최소 라인 수 설정 또는 반환",
+            "pageBreakAfter": "요소 다음에 페이지 분리 동작 설정 또는 반환",
+            "pageBreakBefore": "요소 앞에 페이지 분리 동작 설정 또는 반환",
+            "pageBreakInside": "요소 내에서 페이지 분리 동작 설정 또는 반환",
+            "widows": "페이지 상단에 표시되어야 하는 요소의 최소 라인 수 설정 또는 반환"
+        },
+        "Table Properties": {
+            "borderCollapse": "테이블 테두리를 단일 테두리로 축소할지 여부 설정 또는 반환",
+            "borderSpacing": "테이블의 셀 간 공간 설정 또는 반환",
+            "captionSide": "테이블 캡션의 위치 설정 또는 반환",
+            "emptyCells": "빈 셀의 테두리 및 배경을 표시할지 여부 설정 또는 반환",
+            "tableLayout": "테이블 셀, 행 및 열을 배치하는 방법 설정 또는 반환"
+        },
+        "Text Properties": {
+            "color": "텍스트 색 설정 또는 반환",
+            "direction": "텍스트 방향 설정 또는 반환",
+            "font": "하나의 선언으로 font-style, font-variant, font-weight, font-size, line-height, font-family 설정 또는 반환",
+            "fontFamily": "텍스트의 글꼴 면 설정 또는 반환",
+            "fontSize": "텍스트의 글꼴 크기 설정 또는 반환",
+            "fontSizeAdjust": "글꼴 가로 세로 값 설정 또는 반환",
+            "fontStyle": "글꼴 스타일이 normal, italic 또는 oblique인지 설정 또는 반환",
+            "fontVariant": "글꼴을 작은 대문자로 표시할지 여부 설정 또는 반환",
+            "fontWeight": "글꼴의 굵기 설정 또는 반환",
+            "letterSpacing": "텍스트의 문자 간 공간 설정 또는 반환",
+            "lineHeight": "텍스트에서 선 사이의 거리 설정 또는 반환",
+            "quotes": "포함된 인용문에 대한 따옴표 유형 설정 또는 반환",
+            "textAlign": "텍스트의 수평 정렬 설정 또는 반환",
+            "textDecoration": "텍스트의 장식 설정 또는 반환",
+            "textIndent": "텍스트의 첫 번째 줄에 대한 들여쓰기 설정 또는 반환",
+            "textShadow": "텍스트의 섀도 효과 설정 또는 반환",
+            "textTransform": "텍스트의 경우 설정 또는 반환",
+            "unicodeBidi": "동일한 문서에서 여러 언어를 지원하도록 텍스트를 재정의할지 여부를 설정 또는 반환",
+            "whiteSpace": "텍스트에서 탭, 줄 바꿈 및 공백 처리 방법 설정 또는 반환",
+            "wordSpacing": "텍스트의 단어 간 간격 설정 또는 반환"
+        }
+    },
+
+    "Dom Table": {
+        "Table Object Collections": {
+            "rows": "표에 있는 모든 tr 요소 집합 반환",
+            "tBodies": "표의 모든 tbody 요소 집합 반환"
+        },
+        "Table Properties": {
+            "caption": "테이블 캡션 반환",
+            "cellPadding": "셀 테두리와 셀 내용 사이의 공간 설정 또는 반환",
+            "frame": "표시할 외부 경계 설정 또는 반환",
+            "rules": "표에 표시할 내경계(셀 간) 설정 또는 셀)",
+            "summary": "테이블에서 데이터 설명 설정 또는 반환",
+            "tFoot": "테이블의 tfoot 요소에 대한 참조 반환",
+            "tHead": "테이블의 thead 요소에 대한 참조 반환"
+        },
+        "Table Methods": {
+            "createCaption()": "빈 캡션 요소 작성 및 테이블에 추가",
+            "createTFoot()": "빈 tfoot 요소를 작성하여 테이블에 추가",
+            "createTHead()": "빈 추가 요소 생성 및 테이블에 추가",
+            "deleteCaption()": "테이블에서 첫 번째 캡션 요소 제거",
+            "deleteRow()": "테이블에서 행 제거",
+            "deleteTFoot()": "테이블에서 tfoot 요소 제거",
+            "deleteTHead()": "테이블에서 thead 요소 제거",
+            "insertRow()": "빈 tr 요소 작성 및 테이블에 추가"
+        },
+        "Td/Th Properties": {
+            "abbr": "데이터 셀 내용에 간단한 약어 버전 설정 또는 반환",
+            "colspan": "셀이 확장해야 하는 열 수 설정 또는 반환",
+            "headers": "현재 데이터 셀에 대한 헤더 셀 ID 목록 설정 또는 반환",
+            "rowspan": "셀이 확장해야 하는 행 수 설정 또는 반환",
+            "scope": "th 요소에 정의 된 셀을 정의"
+        }
+    },
+
+    "__PAGE__": "SVG",
+    "Graphics": {
+        "Elements": {
+            "<circle>": "중심점과 반경에 기초하여 원을 그리는 데 사용",
+            "<ellipse>": "중심 좌표와 x 및 y 반경을 기반으로 타원을 만드는 데 사용",
+            "<line>": "두 점을 연결하는 선을 만드는 데 사용",
+            "<path>": "모든 기본 도형을 만드는 경로 요소",
+            "<polygon>": "연결된 직선 세그먼트 세트로 구성된 닫힌 도형을 정의",
+            "<polyline>": "여러 점을 연결하는 직선을 만듬",
+            "<rect>": "위치, 너비 및 높이로 정의",
+            "<image>": "SVG 문서에 이미지 포함",
+            "<use>": "SVG 문서 내에서 노드를 가져옴"
+        }
+    },
+
+    "Text content": {
+        "Elements": {
+            "<text>": "텍스트로 구성된 그래픽 요소를 그림",
+            "<tspan>": "<text>요소 또는 <tspan> 요소 내에 하위 텍스트를 정의",
+            "<textPath>": "<path> 모양을 따라 텍스트를 렌더링하려면 <path> 요소에 대한 참조와 함께 href 속성이있는 <textPath> 요소에 텍스트를 넣음"
+        }
+    },
+
+    "Container": {
+        "Elements": {
+            "<a>": "다른 웹 페이지에 대한 하이퍼 링크를 만듬",
+            "<defs>": "나중에 사용될 그래픽 요소를 저장하는데 사용",
+            "<g>": "SVG 요소들을 그룹화 시킴",
+            "<marker>": "<path>, <line>, <polyline> 또는 <polygon> 요소에 화살촉 또는 polymarkers를 그리는데 사용되는 그래픽을 정의 ",
+            "<mask>": "현재 객체를 배경으로 합성하기 위한 알파 마스크를 정의",
+            "<pattern>": "반복되는 x 및 y 좌표(바둑판)로 영역을 덮도록 그래픽 객체를 정의",
+            "<svg>": "새로운 좌표계와 viewport를 정의하는 컨테이너",
+            "<switch>": "직접 하위 요소에서 requiredFeatures, requiredExtensions 및 systemLanguage 속성을 순서대로 평가 한 다음 이러한 속성이 true로 평가되는 첫 번째 하위를 렌더링",
+            "<symbol>": "<use> 요소로 인스턴스화 할 수 있는 그래픽 템플릿 객체를 정의하는데 사용 "
+        }
+    },
+
+    "Descriptive": {
+        "Elements": {
+            "<desc>": "SVG 컨테이너 요소 또는 그래픽 요소에 대한 이해하기 쉽고, 긴 텍스트 설명을 제공",
+            "<metadata>": "SVG 콘텐츠에 메타 데이터를 추가",
+            "<title>": "SVG 컨테이너 요소 또는 그래픽 요소에 대한 이해하기 쉽고, 짧은 텍스트 설명을 제공"
+        }
+    },
+
+    "Animation": {
+        "Elements": {
+            "<animate>": "특정 시간동안 요소의 특성 또는 속성을 애니메이션화",
+            "<animateMotion>": "모션 경로를 따라 이동할 수 있도록 참조 요소를 만듬 ",
+            "<animateTransform>": "변환, 스케일링, 회전 또는 기울이기를 제어 할 수 있도록 요소에 애니메이션 변환 특성을 부여",
+            "<discard>": "사용자가 특정 요소를 버릴 시간을 지정하여 SVG 사용자 에이전트에 필요한 자원을 줄일 수 있음",
+            "<mpath>": "<mpath>의 하위 요소인 <animateMotion>은 외부 <path>요소를 모션 경로의 정의로 참조하는 기능을 제공",
+            "<set>": "지정된 기간 동안 속성 값을 설정하는 간단의 방법을 제공"
+        }
+    },
+
+    "Filter primitive": {
+        "Elements": {
+            "<feBlend>": "특정 혼합 모드에 의해 지배되는 두 객체를 함께 구성",
+            "<feColorMatrix>": "변환 행렬에 기반한 색 변경",
+            "<feComponentTransfer>": "각 픽셀에 대해 데이터를 색상별로 재 매핑",
+            "<feComposite>": "orter-Duff 합성 작업 중 하나를 사용하여 이미지 공간에서 두 개의 입력 이미지를 픽셀 단위로 조합 : over, in, atop, out, xor, lighter",
+            "<feConvolveMatrix>": "행렬 컨벌루션 필터 효과를 적용",
+            "<feDiffuseLighting>": "알파 채널을 범프 맵으로 사용하여 이미지를 조명",
+            "<feDisplacementMap>": "in2의 이미지에서 픽셀 값을 사용하여 이미지를 공간적으로 대체",
+            "<feDropShadow>": "입력된 이미지의 그림자를 만듬",
+            "<feFlood>": "flood-color 및 flood-opacity로 정의 된 색상 및 불투명도로 필터 하위 영역을 채움",
+            "<feFuncA>": "상위 <feComponentTransfer> 요소의 입력 그래픽의 알파 구성 요소에 대한 전달 함수를 정의",
+            "<feFuncB>": "부모 <feComponentTransfer> 요소의 입력 그래픽에서 파란색 구성 요소에 대한 전달 함수를 정의",
+            "<feFuncG>": "부모 <feComponentTransfer> 요소의 입력 그래픽에서 녹색 구성 요소에 대한 전달 함수를 정의",
+            "<feFuncR>": "부모 <feComponentTransfer> 요소의 입력 그래픽에서 빨간색 구성 요소에 대한 전달 함수를 정의",
+            "<feGaussianBlur>": "벨 커브를 정의하는 stdDeviation에 지정된 양만큼 입력 이미지를 흐리게 함",
+            "<feImage>": "외부 소스에서 이미지 데이터를 가져 와서 픽셀 데이터를 출력",
+            "<feMerge>": "필터 효과를 순차적이 아닌 동시에 적용 할 수 있음",
+            "<feMergeNode>": "부모 <feMerge>가 다른 필터의 결과를 처리하도록 함.",
+            "<feMorphology>": "입력 이미지를 부식시키거나 확장하는 데 사용",
+            "<feOffset>": "입력 이미지를 오프셋 할 수 있음",
+            "<feSpecularLighting>": "알파 채널을 범프 맵으로 사용하여 소스 그래픽 조명",
+            "<feTile>": "입력 이미지의 반복 된 타일 패턴으로 대상 사각형을 채움",
+            "<feTurbulence>": "Perlin turbulence 기능을 이용한 이미지 생성"
+        }
+    },
+
+    "Gradient": {
+        "Elements": {
+            "<linearGradient>": "사용자가 그래픽 요소를 채우거나 선에 적용할 수 있는 선형 그라디언트를 정의",
+            "<radialGradient>": "사용자가 그래픽 요소를 채우거나 선에 적용할 수 있는 방사형 그라디언트를 정의",
+            "<stop>": "그라디언트에서 사용할 색과 위치를 정의"
+        }
+    },
+
+    "Light source": {
+        "Elements": {
+            "<feDistantLight>": "조명 필터 내에서 사용할 수있는 원거리 광원을 정의",
+            "<fePointLight>": "포인트 조명 효과를 만들 수있는 광원을 정의",
+            "<feSpotLight>": "스포트라이트 효과를 만드는 라이트 소스 정의"
+        }
+    },
+
+    "__PAGE__": "JavaScript",
+    "Core DOM": {
+        "Nodelist Properties": {
+            "length": "컬렉션의 노드 수를 반환"
+        },
+        "Nodelist Methods": {
+            "item()": "Returns the node at the specified index in a node list"
+        },
+        "NamedNodeMap Properties": {
+            "length": "컬렉션의 노드 수를 반환"
+        },
+        "NamedNodeMap Methods": {
+            "getNamedItem()": "지정된 노드를 이름별로 반환",
+            "getNamedItemNS()": "지정된 노드를 이름 및 네임 스페이스별로 반환",
+            "item()": "namedNodeMap의 지정된 색인에있는 노드를 반환",
+            "removeNamedItem()": "지정된 노드를 이름별로 제거",
+            "removeNamedItemNS()": "지정된 노드를 이름 및 네임 스페이스별로 제거",
+            "setNamedItem()": "지정된 노드를 이름으로 설정",
+            "setNamedItemNS()": "지정된 노드를 이름 및 네임 스페이스별로 설정"
+        },
+        "Document Properties": {
+            "doctype": "document와 연관된 Document Type 선언을 반환",
+            "documentElement": "document의 document 요소 (HTML 요소)를 반환",
+            "documentURI": "document의 위치를 설정하거나 반환",
+            "domConfig": "normalizeDocument()가 호출 될 때 사용 된 구성을 반환",
+            "implementation": "문서를 처리하는 DOMImplementation 객체를 반환",
+            "inputEncoding": "document에 사용 된 인코딩, 문자열을 반환"
+        },
+        "Document Methods": {
+            "adoptNode(node)": "document에서 다른 document를 채택하고 채택된 노드를 반환",
+            "createAttribute()": "속성 노드를 생성",
+            "createAttributeNS(URI,name)": "지정된 이름과 namspaceURI로 속성을 생성",
+            "createCDATASection()": "지정된 텍스트로 CDATA노드를 작성. XML DOM 적용",
+            "createComment()": "지정된 텍스트로 주석 노드를 생성",
+            "createDocumentFragment()": "빈 DocumentFragment 노드를 생성",
+            "createElement()": "요소 노드를 생성",
+            "createElementNS()": "지정된 네임 스페이스로 요소를 생성",
+            "createProcessingInstruction()": "EntityReference 노드를 만듬. XML DOM 전용",
+            "createTextNode()": "텍스트 노드를 생성",
+            "getElementById()": "지정된 값을 가진 ID 속성을 가진 요소를 반환",
+            "getElementsByTagName()": "지정된 태그 이름을 가진 모든 요소를 포함하는 NodeList를 반환",
+            "getElementsByName()": "(X)HTML 문서에서 주어진 이름을 가진 요소 목록을 반환",
+            "querySelectorAll()": "지정된 CSS 선택기와 일치하는 모든 요소를 포함하는 NodeList를 반환",
+            "querySelector()": "지정된 CSS 선택기와 일치하는 첫 번째 요소를 반환",
+            "getElementsByTagNameNS()": "지정된 namespaceURI 및 태그 이름을 가진 모든 요소를 포함하는 NodeList를 반환",
+            "importNode()": "다른 문서에서 노드를 가져옴",
+            "normalizeDocument()": "빈 텍스트 노드를 제거하고 인접한 노드를 결합"
+        },
+        "Element Properties": {
+            "schemaTypeInfo": "요소의 타입 정보를 반환",
+            "tagName": "요소의 태그 이름을 반환"
+        },
+        "Element Methods": {
+            "getAttribute()": "지정된 속성 값을 반환",
+            "getAttributeNS()": "지정된 네임 스페이스와 함께 지정된 속성 값을 반환. XML DOM 전용",
+            "getAttributeNode()": "지정된 속성 노드를 반환",
+            "getAttributeNodeNS()": "지정된 네임 스페이스와 함께 지정된 속성 노드를 반환. XML DOM 전용",
+            "getElementsByTagName()": "지정된 태그 이름을 가진 모든 자식 요소의 컬렉션을 반환",
+            "getElementsByTagNameNS()": "지정된 태그 이름과 네임 스페이스를 가진 모든 하위 요소의 컬렉션을 반환. XML DOM 전용",
+            "hasAttribute()": "요소에 지정된 속성이 있으면 true를, 그렇지 않으면 false를 반환",
+            "hasAttributeNS()": "요소에 지정된 네임 스페이스와 함께 지정된 특성이 있으면 true를, 그렇지 않으면 false를 반환. XML DOM 전용",
+            "removeAttribute()": "지정된 속성을 제거",
+            "removeAttributeNS()": "지정된 이름과 네임 스페이스를 가진 속성을 제거. XML DOM 전용",
+            "removeAttributeNode()": "지정된 속성 노드를 제거하고 제거 된 노드를 반환",
+            "setAttribute()": "지정된 속성을 지정된 값으로 설정하거나 변경",
+            "setAttributeNS()": "지정된 네임 스페이스를 사용하여 지정된 특성을 지정된 값으로 설정하거나 변경. XML DOM 전용",
+            "setAttributeNode()": "지정된 속성 노드를 설정하거나 변경",
+            "setAttributeNodeNS()": "지정된 속성 노드를 설정하거나 변경. XML DOM 전용"
+        },
+        "Attr Properties": {
+            "isId": "반환",
+            "name": "속성의 이름을 반환",
+            "ownerElement": "이 속성이 속한 요소를 반환",
+            "schemaTypeInfo": "속성의 타입 정보를 반환",
+            "specified": "반환",
+            "value": "속성 값을 설정하거나 반환"
+        }
+    },
+
+    "Basic Objects": {
+        "Array Properties": {
+            "constructor": "Array 객체의 프로토 타입을 만든 함수를 반환",
+            "length": "배열의 요소 수를 설정하거나 반환",
+            "prototype": "rray 객체에 속성과 메서드를 추가 할 수 있음"
+        },
+        "Array Methods": {
+            "concat()": "둘 이상의 배열을 결합하고 결합 된 배열의 복사본을 반환",
+            "indexOf()": "배열에서 요소를 검색하고 위치를 반환",
+            "join()": "배열의 모든 요소를 ​​문자열로 결합",
+            "lastIndexOf()": "끝에서 시작하여 배열에서 요소를 검색하고 위치를 반환",
+            "pop()": "배열의 마지막 요소를 제거하고 해당 요소를 반환",
+            "push()": "배열의 끝에 새로운 요소를 추가하고 새로운 길이를 반환",
+            "reverse()": "배열의 요소 순서를 반대로 바꿈",
+            "shift()": "배열의 첫 번째 요소를 제거하고 해당 요소를 반환",
+            "slice()": "배열의 일부를 선택하고 새 배열을 반환",
+            "sort()": "배열의 요소를 정렬",
+            "splice()": "배열에서 요소를 추가/제거",
+            "toString()": "배열을 문자열로 변환하고 결과를 반환",
+            "unshift()": "배열의 시작 부분에 새로운 요소를 추가하고 새로운 길이를 반환",
+            "valueOf()": "배열의 프리미티브 값을 반환"
+        },
+        "Boolean Properties": {
+            "constructor": "Boolean 객체의 프로토 타입을 만든 함수를 반환",
+            "prototype": "Boolean 객체에 속성 및 메서드를 추가 할 수 있음"
+        },
+        "Boolean Methods": {
+            "toString()": "Boolean 값을 문자열로 변환하고 결과를 반환",
+            "valueOf()": "부울 객체의 프리미티브 값을 반환"
+        },
+        "Math Properties": {
+            "E": "Euler's number를 반환(약 2.718)",
+            "LN2": "2의 자연 로그를 반환(약 0.693)",
+            "LN10": "10의 자연 로그를 반환(약 2.302)",
+            "LOG2E": "E의 밑이 2 인 로그 값을 반환(약 1.442)",
+            "LOG10E": "E의 밑이 10 인 로그를 반환합(약 0.434)",
+            "PI": "PI를 반환(약 3.14)",
+            "SQRT1_2": "1/2의 제곱근을 반환(약 0.707)",
+            "SQRT2": "2의 제곱근을 반환(약 1.414)"
+        },
+        "Math Methods": {
+            "abs()": "x의 절대 값을 반환",
+            "acos()": "x의 arccosine을 radians로 반환",
+            "asin()": "x의 arccosine을 radians로 반환",
+            "atan()": "x의 arctangent를 -PI/2와 PI/2 radian 사이의 숫자 값으로 반환",
+            "atan2()": "인수의 몫의 arctangent를 반환",
+            "ceil()": "가장 가까운 정수로 반올림 한 x를 반환",
+            "cos()": "x의 cosine을 반환(x는 radians)",
+            "exp()": "Ex의 값을 반환",
+            "floor()": "가장 가까운 정수로 내림차순으로 x를 반환",
+            "log()": "x의 자연 로그(기본 E)를 반환",
+            "max()": "가장 높은 값을 가진 숫자를 반환",
+            "min()": "가장 낮은 값을 가진 숫자를 반환",
+            "pow()": "x의 값을 y의 거듭 제곱으로 반환",
+            "random()": "0과 1 사이의 난수를 반환",
+            "round()": "x를 가장 가까운 정수로 반올림",
+            "sin()": "x의 sine을 반환(x는 radians)",
+            "sqrt()": "x의 제곱근을 반환",
+            "tan()": "각도의 탄젠트를 반환"
+        },
+        "Number Properties": {
+            "constructor": "Number객체의 프로토 타입을 만든 함수를 반환",
+            "MAX_VALUE": "JavaScript에서 가능한 가장 큰 수를 반환",
+            "MIN_VALUE": "avaScript에서 가능한 가장 작은 수를 반환",
+            "NEGATIVE_INFINITY": "음의 무한대를 나타냄(overflow로 반환)",
+            "POSITIVE_INFINITY": "무한대를 나타냄(overflow로 반환)",
+            "prototype": "객체에 속성과 메서드를 추가 할 수 있음"
+        },
+        "Number Methods": {
+            "toExponential(x)": "숫자를 지수 표기법으로 변환",
+            "toFixed(x)": "소수점 뒤에 x 자리 숫자로 숫자를 형식화함",
+            "toPrecision(x)": "숫자를 x길이로 포맷",
+            "toString()": "Number객체를 문자열로 변환",
+            "valueOf()": "Number객체의 프리미티브 값을 반환"
+        },
+        "String Properties": {
+            "constructor": "String객체의 프로토 타입을 만든 함수를 반환",
+            "length": "문자열의 길이를 반환",
+            "prototype": "객체에 속성과 메서드를 추가 할 수 있음"
+        },
+        "String Methods": {
+            "charAt()": "지정된 인덱스의 문자를 반환",
+            "charCodeAt()": "지정된 색인에서 문자의 유니 코드를 반환",
+            "concat()": "둘 이상의 문자열을 결합하고 결합 된 문자열의 복사본을 반환",
+            "fromCharCode()": "유니 코드 값을 문자로 변환",
+            "indexOf()": "문자열에서 지정된 값이 처음 발견 된 위치를 반환",
+            "lastIndexOf()": "문자열에서 지정된 값이 마지막으로 발견 된 위치를 반환",
+            "match()": "정규식과 문자열 사이의 일치를 검색하고 일치를 반환",
+            "replace()": "하위 문자열(또는 정규식)과 문자열 간의 일치를 검색하고 일치하는 하위 문자열을 새 하위 문자열로 변경",
+            "search()": "정규식과 문자열 사이의 일치를 검색하고 일치 위치를 반환",
+            "slice()": "문자열의 일부를 추출하여 새 문자열을 반환",
+            "split()": "문자열을 하위 문자열 배열로 분할",
+            "substr()": "지정된 시작 위치에서 시작하여 지정된 수의 문자를 통해 문자열에서 문자를 추출",
+            "substring()": "지정된 두 인덱스 사이에서 문자열에서 문자를 추출",
+            "toLowerCase()": "문자열을 소문자로 변환",
+            "toUpperCase()": "문자열을 대문자로 변환",
+            "valueOf()": "String 객체의 프리미티브 값을 반환"
+        },
+        "String HTML Wrapper Methods": {
+            "InfinityInfinity": "양수/음수 무한대를 나타내는 숫자 값",
+            "NaN": "\"Not-a-Number\"값",
+            "undefined": "변수에 값이 할당되지 않았 음을 나타냄"
+        },
+        "Global Methods": {
+            "decodeURI()": "URI를 디코딩",
+            "decodeURIComponent()": "URI 구성 요소를 디코딩",
+            "encodeURI()": "URI를 인코딩",
+            "encodeURIComponent()": "URI 구성 요소를 인코딩",
+            "escape()": "문자열을 인코딩",
+            "eval()": "문자열을 평가하여 마치 스크립트 코드 인 것처럼 실행",
+            "isFinite()": "값이 유한하고 유효한 숫자인지 확인",
+            "isNaN()": "값이 잘못된 숫자인지 확인",
+            "Number()": "객체의 값을 숫자로 변환",
+            "parseFloat()": "문자열을 구문 분석하고 부동 소수점 숫자를 반환",
+            "parseInt()": "문자열을 파싱하고 정수를 반환",
+            "String()": "객체의 값을 문자열로 변환",
+            "unescape()": "인코딩 된 문자열을 디코딩"
+        }
+    },
+
+    "Date Object": {
+        "Date Properties": {
+            "constructor": "Date 객체의 프로토 타입을 만든 함수를 반환",
+            "prototype": "객체에 속성과 메서드를 추가 할 수 있음"
+        },
+        "Date Methods": {
+            "getDate()": "월의 일을 반환(1~31일)",
+            "getDay()": "요일을 반환(0-6).",
+            "getFullYear()": "연도를 반환(4자리).",
+            "getHours()": "시간을 반환(0-23).",
+            "getMilliseconds()": "밀리 초를 반환(0-999)",
+            "getMinutes()": "분을 반환(0-59)",
+            "getMonth()": "월을 반환(0-11)",
+            "getSeconds()": "초를 반환(0-59)",
+            "getTime()": "1970년 1월 1일 자정 이후의 밀리 초 수를 반환",
+            "getTimezoneOffset()": "GMT와 현지 시간의 시차를 분 단위로 반환",
+            "getUTCDate()": "1-31의 표준시를 기준으로 월의 일을 반환",
+            "getUTCDay()": "표준시(0-6)에 따라 요일을 반환",
+            "getUTCFullYear()": "표준시(4자리)에 따라 연도를 반환",
+            "getUTCHours()": "표준시(0-23)에 따라 시간을 반환",
+            "getUTCMilliseconds()": "표준시(0-999)에 따라 밀리 초를 반환",
+            "getUTCMinutes()": "표준시(0-59)에 따라 분을 반환",
+            "getUTCMonth()": "표준시(0 ~ 11)에 따라 월을 반환",
+            "getUTCSeconds()": "표준시(0-59)에 따라 초를 반환",
+            "parse()": "1970년 1월 1일 자정 이후 날짜 문자열을 구문 분석하고 밀리 초 수를 반환",
+            "setDate()": "날짜 객체의 날짜를 설정",
+            "setFullYear()": "날짜 객체의 연도(4자리)를 설정",
+            "setHours()": "날짜 객체의 시간을 설정",
+            "setMilliseconds()": "날짜 객체의 밀리 초를 설정",
+            "setMinutes()": "날짜 객체의 분 설정",
+            "setMonth()": "날짜 객체의 월을 설정",
+            "setSeconds()": "날짜 객체의 초를 설정",
+            "setTime()": "1970년 1월 1일 자정에 지정된 밀리 초를 더하거나 빼서 날짜와 시간을 설정",
+            "setUTCDate()": "표준시에 따라 날짜 객체의 월의 날짜를 설정",
+            "setUTCFullYear()": "표준시(4자리)에 따라 날짜 객체의 연도를 설정",
+            "setUTCHours()": "표준시에 따라 날짜 객체의 시간을 설정",
+            "setUTCMilliseconds()": "표준시에 따라 날짜 객체의 밀리 초를 설정",
+            "setUTCMinutes()": "표준시에 따라 날짜 개체의 분을 설정",
+            "setUTCMonth()": "표준시에 따라 날짜 객체의 월을 설정",
+            "setUTCSeconds()": "표준시에 따라 날짜 객체의 초를 설정",
+            "toDateString()": "Date객체의 날짜 부분을 읽을 수있는 문자열로 변환",
+            "toISOString()": "ISO 표준을 사용하여 날짜를 문자열로 반환",
+            "toJSON()": "JSON 날짜 형식의 날짜를 문자열로 반환",
+            "toLocaleDateString()": "로캘 규칙을 사용하여 Date객체의 날짜 부분을 문자열로 반환",
+            "toLocaleTimeString()": "로캘 규칙을 사용하여 Date객체의 시간 부분을 문자열로 반환",
+            "toLocaleString()": "로캘 규칙을 사용하여 Date객체를 문자열로 변환",
+            "toString()": "Date객체를 문자열로 변환",
+            "toTimeString()": "Date객체의 시간 부분을 문자열로 변환",
+            "toUTCString()": "표준시에 따라 Date객체를 문자열로 변환",
+            "UTC()": "1970년 1월 1일 자정 이후 날짜 문자열에서 밀리 초 수를 표준시로 반환",
+            "valueOf()": "Date객체의 프리미티브 값을 반환"
+        }
+    },
+
+    "Browser": {
+        "Window Properties": {
+            "closed": "윈도우가 닫혔는지 여부를 나타내는 부울 값을 반환",
+            "defaultStatus": "창의 상태 표시 줄에 기본 텍스트를 설정하거나 반환",
+            "document": "윈도우의 Document 객체를 반환",
+            "frames": "현재 윈도우의 모든 프레임(iframe 포함)의 배열을 반환",
+            "history": "윈도우의 히스토리 오브젝트를 리턴",
+            "innerHeight": "윈도우 내용 영역의 내부 높이를 설정하거나 반환",
+            "innerWidth": "윈도우 내용 영역의 내부 너비를 설정하거나 반환",
+            "length": "윈도우에서 프레임 수(iframe 포함)를 반환",
+            "location": "윈도우의 Location객체를 반환",
+            "name": "윈도우의 이름을 설정하거나 반환",
+            "navigator": "윈도우의 네비게이터 객체를 반환",
+            "opener": "윈도우을 만든 창에 대한 참조를 반환",
+            "outerHeight": "툴바/스크롤바를 포함하여 윈도우의 외부 높이를 설정하거나 반환",
+            "outerWidth": "툴바/스크롤바를 포함하여 윈도우의 외부 너비를 설정하거나 반환",
+            "pageXOffset": "윈도우의 왼쪽 위 모서리에서 현재 document가 가로로 스크롤 된 픽셀을 반환",
+            "pageYOffset": "현재 document가 윈도우의 왼쪽 위 모서리에서(수직으로) 스크롤 된 픽셀을 반환",
+            "parent": "현재 window창의 부모 window창을 반환",
+            "screen": "의 Screen 객체를 반환",
+            "screenLeft": "화면을 기준으로 window창의 x 좌표를 반환",
+            "screenTop": "화면을 기준으로 window창의 y 좌표를 반환",
+            "screenX": "화면을 기준으로 window창의 x 좌표를 반환",
+            "screenY": "화면을 기준으로 window창의 y 좌표를 반환",
+            "self": "현재 window창을 반환",
+            "status": "window창의 상태 표시 줄에 텍스트를 설정",
+            "top": "최상위 브라우저 창을 반환"
+        },
+        "Window Methods": {
+            "alert()": "메시지와 확인 버튼이있는 경고 상자를 표시",
+            "blur()": "현재 창에서 초점을 제거",
+            "clearInterval()": "setInterval()으로 설정된 타이머를 지움",
+            "clearTimeout()": "setTimeout()으로 설정된 타이머를 지움",
+            "close()": "현재 창을 닫음",
+            "confirm()": "메시지와 확인 및 취소 버튼이있는 대화 상자를 표시",
+            "focus()": "현재 창에 초점을 설정",
+            "moveBy()": "현재 위치를 기준으로 창을 이동",
+            "moveTo()": "창을 지정된 위치로 이동",
+            "open()": "새 브라우저 창 열기",
+            "print()": "현재 창의 내용을 인쇄",
+            "prompt()": "사용자에게 입력을 요구하는 대화 상자를 표시",
+            "resizeBy()": "지정된 픽셀로 window창 크기를 조정",
+            "resizeTo()": "window창을 지정된 너비와 높이로 조정",
+            "scrollBy()": "지정된 픽셀 수만큼 내용을 스크롤",
+            "scrollTo()": "내용을 지정된 좌표로 스크롤",
+            "setInterval()": "지정된 간격(밀리 초)으로 함수를 호출하거나 표현식을 평가",
+            "setTimeout()": "지정된 밀리 초 후에 함수를 호출하거나 표현식을 평가"
+        },
+        "Navigator Properties": {
+            "appCodeName": "브라우저의 코드 이름을 반환",
+            "appName": "브라우저의 이름을 반환",
+            "appVersion": "브라우저의 버전 정보를 반환",
+            "cookieEnabled": "브라우저에서 쿠키가 활성화되어 있는지 확인",
+            "platform": "브라우저가 컴파일 된 플랫폼에 대한 리턴",
+            "userAgent": "브라우저가 서버로 보낸 사용자 에이전트 헤더를 반환"
+        },
+        "Navigator Methods": {
+            "javaEnabled()": "브라우저에 Java가 사용 가능한지 여부를 지정",
+            "registerProtocolHandler()": "특정 프로토콜에 대해 가능한 처리기로 등록"
+        },
+        "Screen Properties": {
+            "availWidth": "화면 너비를 반환(Windows 작업 표시 줄 제외)",
+            "availHeight": "화면 높이를 반환(Windows 작업 표시 줄 제외)",
+            "colorDepth": "이미지를 표시하기위한 색상 표의 비트 심도를 반환",
+            "height": "화면의 총 높이를 반환",
+            "pixelDepth": "화면의 색상 해상도(픽셀 당 비트 수)를 반환",
+            "width": "화면의 총 너비를 반환"
+        },
+        "History Properties": {
+            "length": "기록 목록의 URL 수를 반환"
+        },
+        "History Methods": {
+            "back()": "히스토리 목록에서 이전 URL을 로드함",
+            "forward()": "기록 목록에서 다음 URL을 로드함",
+            "go()": "히스토리 목록에서 특정 URL을 로드함"
+        },
+        "Location Properties": {
+            "hash": "URL의 앵커 부분을 반환",
+            "host": "URL의 호스트 이름과 포트를 반환",
+            "hostname": "URL의 호스트 이름을 반환",
+            "href": "전체 URL을 반환",
+            "pathname": "URL의 경로 이름을 반환",
+            "port": "서버가 URL에 사용하는 포트 번호를 반환",
+            "protocol": "URL의 프로토콜을 반환",
+            "search": "URL의 쿼리 부분을 반환"
+        },
+        "Location Methods": {
+            "assign()": "새 document를 로드",
+            "reload()": "현재 document를 새로 고침",
+            "replace()": "현재 document를 새 document로 교체"
+        }
+    },
+
+    "Graphics": {
+        "CanvasRenderingContext2D Methods": {
+            "arc()": "startAngle에서 시작하고 endAngle에서 끝나는 방향으로 중심이(x, y) 위치에있는 경로에 호를 추가하여 반 시계 방향으로 주어진 방향으로 이동(기본값은 시계 방향)",
+            "arcTo()": "주어진 제어점과 반지름으로 호를 추가하고 직선으로 이전 점에 연결",
+            "beginPath()": "하위 경로 목록을 재설정하여 새 경로를 시작. 새 경로를 만들려면이 메서드를 호출",
+            "bezierCurveTo()": "bezierCurveTo (in float cp1x, in float cp1y, in float cp2x, in float cp2y, in float x, in float y) 실행",
+            "clearRect()": "(x, y)에서 시작점으로 정의된 직사각형을 지우고 w 너비와 h 높이를 가짐",
+            "clip()": "현재 하위 경로에서 클리핑 경로를 만듬. clip()이 호출 된 후 그려진 모든 내용은 클리핑 경로에만 나타남. 예를 들어, 캔버스 자습서의 클리핑 경로를 참조",
+            "closePath()": "현재 점에서 시작점까지 직선을 그리려고 시도함. 도형이 이미 닫혀 있거나 하나의 점만있는 경우이 함수는 아무 작업도 수행하지 않음",
+            "createImageData()": "지정된 크기로 비어있는 새 ImageData 객체를 만듭니다. 새 객체의 모든 픽셀은 검은 색으로 투명함",
+            "createLinearGradient()": "nsIDOMCanvasGradient createLinearGradient (in float x0, in float y0, in float x1, in float y1)",
+            "createPattern()": "sIDOMCanvasPattern createPattern (in nsIDOMHTMLElement image, in DOMString repetition)",
+            "createRadialGradient()": "nsIDOMCanvasGradient createRadialGradient (in float x0, in float y0, in float r0, in float x1, in float y1, in float r1)",
+            "drawCustomFocusRing()": "drawCustomFocusRing(Element element) 불연산자",
+            "drawImage()": "지정된 이미지를 그림. 이 방법은 여러 형식으로 제공되므로 사용시 유연성이 크게 향상됨",
+            "drawSystemFocusRing()": "drawSystemFocusRing(Element element) 실행",
+            "fill()": "서브 패스를 현재 채우기 스타일로 채움",
+            "fillRect()": "너비와 높이로 크기가 결정되는 (x, y) 위치에 채워진 사각형을 그림",
+            "fillText()": "fillText (in DOMString text, in float x, in float y, in float maxWidth [optional]) 실행",
+            "getImageData()": "(sx, sy)로 시작하고 sw 너비와 sh 높이를 갖는 사각형으로 표시되는 캔버스 영역의 기본 픽셀 데이터를 나타내는 ImageData 객체를 반환",
+            "getLineDash()": "음수가 아닌 짝수를 포함하는 대시리스트 배열을 반환",
+            "isPointInPath()": "지정된 점이 현재 경로에 포함되어 있는지 여부를 보고함",
+            "lineTo()": "하위 경로의 마지막 점을 x, y 좌표에 직선으로 연결",
+            "measureText()": "nsIDOMTextMetrics measureText (in DOMString text) 실행",
+            "moveTomoveTo()": "새 서브 패스의 시작점을 (x, y) 좌표로 이동",
+            "putImageData()": "putImageData (in long x, in long y, in unsigned long width, in unsigned long height, [array, size_is(dataLen)] in octet dataPtr, in unsigned long dataLen, in boolean hasDirtyRect, in long dirtyX, [optional] in long dirtyY, [optional] in long dirtyWidth, [optional] in long dirtyHeight [optional]) 실행",
+            "quadraticCurveTo()": "quadraticCurveTo (in float cpx, in float cpy, in float x, in float y) 실행",
+            "rect()": "rect (in float x, in float y, in float w, in float h) 실행",
+            "restore()": "save()에 의해 저장된 '상태 스택'의 마지막 요소에 도면 스타일 상태를 복원",
+            "rotate()": "rotate (in float angle) 실행",
+            "save()": "스택을 사용하여 현재 도면 스타일 상태를 저장하므로 restore()를 사용하여 변경 한 내용을 되돌릴 수 있음",
+            "scale()": "scale (in float x, in float y) 실행",
+            "scrollPathIntoView()": "scrollPathIntoView() 실행",
+            "setLineDash()": "setLineDash (sequence segments) 실행",
+            "setTransform()": "setTransform (in float m11, in float m12, in float m21, in float m22, in float dx, in float dy) 실행",
+            "stroke()": "현재 선 스타일로 하위 경로 입력",
+            "strokeRect()": "현재 획 스타일을 사용하여 시작점이 (x, y)이고 너비와 높이가 w 인 사각형을 그림",
+            "strokeText()": "strokeText (in DOMString text, in float x, in float y, in float maxWidth [optional]) 실행",
+            "transform()": "transform (in float m11, in float m12, in float m21, in float m22, in float dx, in float dy) 실행",
+            "translate()": "컨텍스트의 원점을 (x, y)로 이동"
+        }
+    },
+
+    "RegExp": {
+        "Modifiers": {
+            "i": "대소 문자를 구분하지 않는 match 수행",
+            "g": "global match를 수행(첫 번째 match 이후에 멈추지 않고 모든 match를 찾음)",
+            "m": "여러 줄 match 수행"
+        },
+        "Brackets": {
+            "{{abc}}": "대괄호 사이의 문자를 찾기",
+            "{{^abc}}": "괄호 사이에없는 문자를 찾기",
+            "{{0-9}}": "0에서 9까지의 숫자 찾기",
+            "{{A-Z}}": "대문자 A에서 대문자 Z까지의 문자 찾기",
+            "{{a-z}}": "소문자 a에서 소문자 z까지의 모든 문자를 찾기",
+            "{{A-z}}": "대문자 A에서 소문자 z까지의 모든 문자를 찾기",
+            "{{adgk}}": "주어진 세트에서 문자를 찾기",
+            "{{^adgk}}": "주어진 세트 밖의 문자를 찾기",
+            "(red|blue|green)": "지정된 대안을 찾기"
+        },
+        "Metacharacters": {
+            "{{dot}}": "줄 바꾸기 또는 줄 종결자를 제외한 단일 문자 찾기",
+            "\\w": "단어 문자 찾기",
+            "\\W": "단어가 아닌 문자 찾기",
+            "\\d": "숫자 찾기",
+            "\\D": "숫자가 아닌 문자 찾기",
+            "\\s": "공백 문자 찾기",
+            "\\S": "공백이 아닌 문자 찾기",
+            "\\b": "단어의 시작/끝에서 일치하는 항목 찾기",
+            "\\B": "단어의 시작/끝이 아닌 일치 항목 찾기",
+            "\\0": "NUL 문자 찾기",
+            "\\n": "줄 바꾸기 문자 찾기",
+            "\\f": "form feed 문자 찾기",
+            "\\r": "캐리지 리턴 문자 찾기",
+            "\\t": "탭 문자 찾기",
+            "\\v": "세로 탭 문자 찾기",
+            "\\xxx": "8진수로 지정된 문자 찾기",
+            "\\xdd": "16 진수로 지정된 문자 찾기",
+            "\\uxxxx": "16 진수로 지정된 유니 코드 문자 찾기"
+        },
+        "Quantifiers": {
+            "n+": "하나 이상의 n을 포함하는 모든 문자열 찾기",
+            "n*": "n이 0 이상인 문자열 찾기",
+            "n?": "n이 0 또는 1 번 포함 된 문자열 찾기",
+            "n{X}": "X n의 시퀀스를 포함하는 모든 문자열 찾기",
+            "n{X,Y}": "X에서 Y n의 시퀀스를 포함하는 모든 문자열 찾기",
+            "n{X,}": "Matches any string that contains a sequence of at least X n's",
+            "n$": "문자열 끝에 n과 일치하는 문자열 찾기",
+            "^n": "문자열의 시작 부분에 n이있는 문자열 찾기",
+            "?=n": "특정 문자열n 다음에 오는 문자열 찾기",
+            "?!n": "특정 문자열n 다음에 오는 문자열 찾기"
+        },
+        "RegExp Properties": {
+            "global": "\"g\" 수정자가 설정되어 있는지 여부를 지정",
+            "ignoreCase": "\"i\" 수정자가 설정되어 있는지 여부를 지정",
+            "lastIndex": "다음에 시작하는 인덱스 찾기",
+            "multiline": "\"m\" 수정자가 설정되어 있는지 여부를 지정",
+            "source": "RegExp 패턴의 텍스트"
+        },
+        "RegExp Methods": {
+            "exec()": "문자열에서 일치를 테스트. 첫 번째 일치를 반환",
+            "test()": "문자열에서 일치를 테스트. 참 또는 거짓을 반환"
+        }
+    },
+
+    "__PAGE__": "jQuery",
+    "Selectors": {
+        "Attribute": {
+            "{{name|=value}}": "지정된 속성의 값이 지정된 문자열과 같거나 해당 문자열 뒤에 하이픈(-)이 있는 요소를 선택",
+            "{{name*=value}}": "지정된 하위 문자열을 포함하는 값으로 지정된 속성을 가진 요소 선택",
+            "{{name~=value}}": "지정된 단어가 포함된 값으로 지정된 속성을 가진 요소 선택(공백으로 구분)",
+            "{{name$=value}}": "지정된 속성이 지정된 문자열로 정확히 끝나는 값을 가진 요소를 선택. 비교는 대소문자를 구분",
+            "{{name=value}}": "값이 특정 값과 정확히 같은 지정된 속성을 가진 요소 선택",
+            "{{name!=value}}": "지정된 특성이 없거나 지정된 특성이 있지만 특정 값이 없는 요소를 선택",
+            "{{name^=value}}": "지정된 문자열로 정확히 시작하는 값으로 지정된 속성을 가진 요소 선택",
+            "{{name}}": "값이 지정된 특성을 가진 요소 선택",
+            "{{name=value}}{{name2=value2}}": "지정된 모든 특성 필터와 일치하는 요소 선택"
+        },
+        "Forms": {
+            ":button": "유형 버튼의 모든 버튼 요소 및 요소를 선택",
+            ":checkbox": "유형의 모든 요소 확인란을 선택",
+            ":checked": "검사된 모든 요소 일치",
+            ":disabled": "비활성화된 모든 요소를 선택",
+            ":enabled": "활성화된 요소를 모두 선택",
+            ":focus": "현재 초점을 맞추고 있는 요소를 선택",
+            ":file": "파일유형 모든 요소를 선택",
+            ":image": "이미지의 모든 요소를 선택",
+            ":input": "모든 input, textarea, select, button 요소 선택",
+            ":password": "암호 유형의 모든 요소를 선택",
+            ":radio": "라디오 유형의 모든 요소를 선택",
+            ":reset": "모든 유형의 재설정 요소 선택",
+            ":selected": "선택한 모든 요소를 선택",
+            ":submit": "제출 유형의 모든 요소를 선택",
+            ":text": "텍스트 유형의 모든 요소를 선택"
+        },
+        "Basics": {
+            "*": "모든 요소를 선택",
+            ".class": "지정된 클래스로 모든 요소를 선택",
+            "element": "지정된 태그 이름을 가진 모든 요소를 선택",
+            "#id": "지정된 ID 속성을 가진 단일 요소를 선택",
+            "selector1, selectorN, ...": "지정된 모든 선택자의 결합된 결과 선택"
+        },
+        "Visibility Filters": {
+            ":hidden": "숨겨진 모든 요소 선택",
+            ":visible": "표시되는 모든 요소 선택"
+        },
+        "Basic Filters": {
+            ":animated": "선택자가 실행될 때 애니메이션이 진행 중인 모든 요소 선택",
+            ":eq()": "일치하는 세트 내의 색인 n에서 요소 선택",
+            ":even": "0인치로 표시된 짝수 요소 선택 또한 홀수를 참조",
+            ":first": "첫 번째 일치하는 요소를 선택",
+            ":gt()": "일치하는 세트 내의 인덱스보다 큰 인덱스에서 모든 요소를 선택",
+            ":header": "헤더인 모든 요소(예: h1, h2, h3 등)를 선택",
+            ":last": "마지막으로 일치하는 요소 선택",
+            ":lt()": "일치하는 세트 내의 인덱스보다 작은 인덱스에서 모든 요소를 선택",
+            ":not()": "지정된 선택자와 일치하지 않는 모든 요소를 선택",
+            ":odd": "0인치로 구분된 홀수 요소 선택 참고 항목 짝수"
+        },
+        "Child Filters": {
+            ":first-child": "부모의 첫 번째 자식인 모든 요소 선택",
+            ":last-child": "부모의 마지막 자녀인 모든 요소 선택",
+            ":nth-child()": "해당 부모의 n번째 자식인 모든 요소 선택",
+            ":only-child": "부모의 유일한 자식인 모든 요소 선택"
+        },
+        "Content Filters": {
+            ":contains()": "지정된 텍스트를 포함하는 모든 요소 선택",
+            ":empty": "하위 항목이 없는 모든 요소 선택(텍스트 노드 포함)",
+            ":has()": "지정된 선택자와 일치하는 요소를 하나 이상 포함하는 요소 선택",
+            ":parent": "텍스트 노드를 포함하여 다른 요소의 상위인 모든 요소 선택"
+        },
+        "Hierarchy": {
+            "parent > child": "'parent'로 지정된 요소의 'child'로 지정된 모든 직접 하위 요소 선택",
+            "ancestor descendant": "지정된 조상의 하위 항목인 모든 요소 선택",
+            "prev + next": "형제 'prev' 바로 앞에 있는 'next'과 일치하는 다음 요소를 모두 선택",
+            "prev ~ siblings": "'prev' 요소 다음에 이어지는 모든 형제 요소를 선택하고, 동일한 부모를 가졌으며, 필터링 'siblings' 셀렉터와 일치"
+        }
+    },
+
+    "Attributes / CSS": {
+        "Attributes": {
+            "{{attr()}}": "일치하는 요소 집합의 첫 번째 요소에 대한 특성 값 가져오기",
+            "{{prop()}}": "일치하는 요소 집합의 첫 번째 요소에 대한 속성 값 가져오기",
+            "{{removeAttr()}}": "일치하는 요소 집합의 각 요소에서 특성 제거",
+            "{{removeProp()}}": "일치하는 요소 집합에 대한 속성 제거",
+            "{{val()}}": "일치하는 요소 집합에서 첫 번째 요소의 현재 값 가져오기"
+        },
+        "CSS": {
+            "{{addClass()}}": "일치하는 각 요소 집합에 지정된 클래스 추가",
+            "{{css()}}": "일치하는 요소 집합의 첫 번째 요소에 대한 스타일 특성 값 가져오기",
+            "jQuery.cssHooks": "특정 CSS 속성을 검색하거나 설정하는 방법을 재정의하기 위해 jQuery에 직접 연결할 수 있는 방법을 제공. 다른 용도 중에서도 cssHook을 사용하여 박스 쉐도우 및 그라데이션과 같은 CSS3 기능에 대한 사용자 지정 브라우저 정규화된 속성을 만들 수 있음",
+            "{{hasClass()}}": "일치하는 요소가 지정된 클래스에 할당되었는지 확인",
+            "{{removeClass()}}": "일치하는 요소 집합의 각 요소에서 단일 클래스, 다중 클래스 또는 모든 클래스 제거",
+            "{{toggleClass()}}": "일치 요소 집합의 각 요소에서 클래스의 존재 또는 스위치 인자의 값에 따라 하나 이상의 클래스를 추가하거나 제거"
+        },
+        "Dimensions": {
+            "{{height()}}": "일치하는 요소 집합의 첫 번째 요소에 대한 현재 계산된 높이 가져오기",
+            "{{innerHeight()}}": "패딩을 포함하지만 테두리가 아닌 일치 요소 집합의 첫 번째 요소에 대해 현재 계산된 높이 가져오기",
+            "{{innerWidth()}}": "패딩을 포함하되 테두리는 포함하지 않는 일치 요소 집합의 첫 번째 요소에 대한 현재 계산된 너비",
+            "{{outerHeight()}}": "패딩, 테두리 및 선택적 여유 등 일치하는 요소 집합의 첫 번째 요소에 대한 현재 계산된 높이 가져오기",
+            "{{outerWidth()}}": "패딩 및 테두리를 포함하여 일치하는 요소 집합의 첫 번째 요소에 대한 현재 계산된 폭 가져오기",
+            "{{width()}}": "일치하는 요소 집합의 첫 번째 요소에 대한 현재 계산된 폭 가져오기."
+        },
+        "Offset": {
+            "{{offset()}}": "일치하는 요소 집합에서 문서를 기준으로 첫 번째 요소의 현재 좌표 가져오기",
+            "{{offsetParent()}}": "배치되는 가장 가까운 상위 요소 가져오기",
+            "{{position()}}": "일치하는 요소 집합에서 간격띄우기 상위 집합을 기준으로 첫 번째 요소의 현재 좌표 가져오기",
+            "{{scrollLeft()}}": "일치하는 요소 집합의 첫 번째 요소에 대한 스크롤 막대의 현재 수평 위치 가져오기",
+            "{{scrollTop()}}": "일치하는 요소 집합의 첫 번째 요소에 대한 스크롤 막대의 현재 수직 위치 가져오기"
+        },
+        "Data": {
+            "jQuery.data()": "지정된 요소와 연결된 임의 데이터 저장",
+            "{{data()}}": "일치하는 요소와 연결된 임의 데이터 저장",
+            "jQuery.hasData()": "요소에 관련된 jQuery 데이터가 있는지 확인",
+            "jQuery.removeData()": "이전에 저장된 데이터 조각 제거",
+            "{{removeData()}}": "이전에 저장된 데이터 조각 제거"
+        }
+    },
+
+    "Manipulation": {
+        "Copying": {
+            "{{clone()}}": "일치하는 요소 집합의 깊은 사본 생성"
+        },
+        "DOM Insertion, Around": {
+            "{{wrap()}}": "일치하는 요소 집합의 각 요소 주위에 HTML 구조 배치",
+            "{{wrapAll()}}": "일치하는 요소 집합의 모든 요소 주위에 HTML 구조 배치",
+            "{{wrapInner()}}": "일치하는 요소 집합에서 각 요소의 내용 주위에 HTML 구조 배치"
+        },
+        "DOM Insertion, Inside": {
+            "{{append()}}": "일치하는 요소 집합의 각 요소 끝에 매개변수로 지정된 내용을 삽입",
+            "{{appendTo()}}": "일치하는 요소 집합의 모든 요소를 대상 끝에 삽입",
+            "{{html()}}": "일치하는 요소 집합에서 첫 번째 요소의 HTML 내용 가져오기",
+            "{{prepend()}}": "일치하는 요소 집합의 각 요소의 시작 부분에 매개변수로 지정된 내용 삽입",
+            "{{prependTo()}}": "일치하는 요소 집합의 모든 요소를 대상의 시작 부분에 삽입",
+            "{{text()}}": "일치하는 요소 집합에서 하위 항목을 포함하여 각 요소의 결합된 텍스트 내용 가져오기"
+        },
+        "DOM Insertion, Outside": {
+            "{{after()}}": "일치하는 요소 집합의 각 요소 뒤에 매개변수로 지정된 내용을 삽입",
+            "{{before()}}": "일치하는 요소 집합의 각 요소 앞에 매개변수로 지정된 내용을 삽입",
+            "{{insertAfter()}}": "대상 뒤에 일치하는 요소 집합의 모든 요소를 삽입",
+            "{{insertBefore()}}": "일치하는 요소 집합의 모든 요소를 대상 앞에 삽입"
+        },
+        "DOM Removal": {
+            "{{detach()}}": "DOM에서 일치하는 요소 집합을 제거",
+            "{{empty()}}": "일치하는 요소 집합의 모든 하위 노드를 DOM에서 제거",
+            "{{remove()}}": "DOM에서 일치하는 요소 집합 제거",
+            "{{unwrap()}}": "일치하는 요소 집합의 부모들을 DOM에서 제거하여 일치하는 요소를 제자리에 두십"
+        },
+        "DOM Replacement": {
+            "{{replaceAll()}}": "각 대상 요소를 일치된 요소 집합으로 교체",
+            "{{replaceWith()}}": "일치하는 요소 집합의 각 요소를 제공된 새 컨텐츠로 교체"
+        }
+    },
+
+    "Traversing": {
+        "Filtering": {
+            "{{eq()}}": "일치하는 요소 집합을 지정된 색인에 있는 것으로 줄임",
+            "{{filter()}}": "일치하는 요소 집합을 선택자와 일치하거나 기능의 테스트를 통과한 요소 집합으로 줄임",
+            "{{first()}}": "일치하는 요소 집합을 세트의 첫 번째 항목으로 축소",
+            "{{has()}}": "일치하는 요소 집합을 선택자 또는 DOM 요소와 일치하는 하위 항목으로 축소",
+            "{{is()}}": "셀렉터에 대해 현재 일치하는 요소 집합을 확인하고 이러한 요소 중 하나 이상이 셀렉터와 일치할 경우 true를 반환",
+            "{{last()}}": "일치하는 요소 집합을 세트의 마지막 요소 집합으로 축소",
+            "{{map()}}": "현재 일치된 세트의 각 요소를 함수를 통과시켜 반환 값을 포함하는 새로운 jQuery 객체를 생성",
+            "{{not()}}": "일치하는 요소 집합에서 요소를 제거",
+            "{{slice()}}": "일치하는 요소 집합을 지수 범위에 의해 지정된 부분 집합으로 축소"
+        },
+        "Miscellaneous Traversing": {
+            "{{add()}}": "일치하는 요소 집합에 요소를 추가",
+            "{{andSelf()}}": "스택의 이전 요소 세트를 현재 세트에 추가",
+            "{{contents()}}": "텍스트 및 설명 노드를 포함하여 일치하는 요소 집합에서 각 요소의 하위 항목을 가져옴",
+            "{{end()}}": "현재 체인의 최근 필터링 작업을 종료하고 일치하는 요소 집합을 이전 상태로 되돌림"
+        },
+        "Tree Traversal": {
+            "{{children()}}": "선택적으로 셀렉터에 의해 필터링된 일치하는 요소 집합의 각 요소의 하위 항목을 가져옴",
+            "{{closest()}}": "현재 요소에서 시작하여 DOM 트리를 통해 위로 진행하면서 셀렉터와 일치하는 첫 번째 조상 요소를 가져옴",
+            "{{find()}}": "현재 일치하는 요소 집합에서 선택자로 필터링한 각 요소의 하위 집합을 가져옴",
+            "{{next()}}": "일치하는 요소 집합에서 각 요소의 바로 뒤에 있는 형제를 선택. 선택자가 제공된 경우, 선택자와 일치하는 경우에만 다음 형제를 검색",
+            "{{nextAll()}}": "선택적으로 셀렉터에 의해 필터링된 일치 요소 집합에서 각 요소의 다음 형제자매를 모두 가져옴",
+            "{{nextUntil()}}": "셀렉터에 일치하는 요소를 포함하지 않고 각 요소의 후속 형제자매 모두를 위로 이동시킴",
+            "{{parent()}}": "선택적으로 셀렉터에 의해 필터링된 일치 요소의 현재 집합에서 각 요소의 상위 항목을 가져옴",
+            "{{parents()}}": "선택적으로 셀렉터에 의해 필터링된 현재 일치하는 요소 집합에서 각 요소의 조상을 구함",
+            "{{parentsUntil()}}": "선택자와 일치하는 요소를 포함하지 않고 현재 일치하는 요소 집합에서 각 요소의 조상을 구함",
+            "{{prev()}}": "선택적으로 셀렉터에 의해 필터링된 일치 요소 집합에서 각 요소의 바로 앞의 형제 가져옴",
+            "{{prevAll()}}": "선택적으로 셀렉터에 의해 필터링된 일치 요소 집합에서 각 요소의 모든 선행 형제자매를 가져옴",
+            "{{prevUntil()}}": "각 요소의 모든 이전 형제자매에게 선택자와 일치하는 요소를 포함하지 않도록 함",
+            "{{siblings()}}": "선택적으로 셀렉터에 의해 필터링된 일치하는 요소 집합의 각 요소의 형제자매를 가져옴"
+        }
+    },
+
+    "Events": {
+        "Event Object": {
+            "{{event-currentTarget}}": "이벤트 버블화 단계 내의 현재 DOM 요소",
+            "{{event-data}}": "선택적 데이터는 현재 실행 중인 처리기가 바인딩되었을 때 jQuery.fn.bind로 전달",
+            "{{event-isDefaultPrevented()}}": "event.preventDefault()가 이 이벤트 객체에 대해 호출되었는지 여부를 반환",
+            "{{event-isImmediatePropagationStopped()}}": "event.stopImjimmediatePropagation()이 이 이벤트 객체에 대해 호출되었는지 여부를 반환",
+            "{{event-isPropagationStopped()}}": "event.stopPropagation()이 이 이벤트 객체에 대해 호출되었는지 여부를 반환",
+            "{{event-namespace}}": "이벤트가 트리거될 때 지정된 네임스페이스",
+            "{{event-pageX}}": "문서의 왼쪽 가장자리에 대한 마우스 위치",
+            "{{event-pageY}}": "문서의 맨 위 가장자리에 대한 마우스 위치",
+            "{{event-preventDefault()}}": "이 메서드를 호출하면 이벤트의 기본 조치가 트리거되지 않음",
+            "{{event-relatedTarget}}": "다른 DOM 요소(있는 경우)",
+            "{{event-result}}": "값이 정의되지 않은 경우를 제외하고 이 이벤트에 의해 트리거된 이벤트 핸들러가 반환한 마지막 값",
+            "{{event-stopImmediatePropagation()}}": "다른 이벤트 핸들러가 호출되는 것을 방지",
+            "{{event-stopPropagation()}}": "이벤트가 DOM 트리가 거품이 나는 것을 방지하여 부모 핸들러가 이벤트에 대한 통지를 받지 못하게 함",
+            "{{event-target}}": "이벤트를 시작한 DOM 요소",
+            "{{event-timeStamp}}": "이벤트가 트리거된 시간과 1970년 1월 1일 사이의 밀리초 차이",
+            "{{event-type}}": "이벤트의 본질을 기술",
+            "{{event-which}}": "키 또는 버튼 이벤트의 경우 이 특성은 누른 특정 버튼 또는 키를 나타냄"
+        },
+        "Mouse Events": {
+            "{{click()}}": "이벤트 핸들러를 'click' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
+            "{{dblclick()}}": "이벤트 핸들러를 'dblclick' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
+            "{{focusin()}}": "이벤트 핸들러를 'focusin' JavaScript 이벤트에 바인딩",
+            "{{focusout()}}": "이벤트 핸들러를 'focusout' JavaScript 이벤트에 바인딩",
+            "{{hover()}}": "마우스 포인터가 요소를 들어오고 나갈 때 실행할 두 핸들러를 일치하는 요소에 바인딩",
+            "{{mousedown()}}": "이벤트 핸들러를 'mousedown' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
+            "{{mouseenter()}}": "마우스가 요소에 들어갈 때 발사할 이벤트 핸들러를 바인딩하거나 해당 핸들러를 소자에 트리거",
+            "{{mouseleave()}}": "마우스가 요소를 떠날 때 발사할 이벤트 핸들러를 바인딩하거나 해당 핸들러를 소자에 트리거",
+            "{{mousemove()}}": "이벤트 핸들러를 'mousemove' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
+            "{{mouseout()}}": "이벤트 핸들러를 'mouseout' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
+            "{{mouseover()}}": "이벤트 핸들러를 'mouseover' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
+            "{{mouseup()}}": "이벤트 핸들러를 'mouseup' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
+            "{{toggle()}}": "두 개 이상의 처리기를 일치하는 요소에 바인딩하여 다른 클릭으로 실행"
+        },
+        "Browser Events": {
+            "{{error()}}": "이벤트 핸들러를 'error' JavaScript 이벤트에 바인딩",
+            "{{resize()}}": "이벤트 핸들러를 'resize' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
+            "{{scroll()}}": "이벤트 핸들러를 'scroll' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거"
+        },
+        "Document Loading": {
+            "{{holdReady()}}": "jQuery의 준비 이벤트 실행 보류 또는 해제",
+            "{{load()}}": "이벤트 핸들러를 JavaScript 이벤트에 바인딩",
+            "{{ready()}}": "DOM이 완전히 로드되었을 때 실행할 함수를 지정",
+            "{{unload()}}": "이벤트 핸들러를 'unload' JavaScript 이벤트에 바인딩"
+        },
+        "Event Handler Attachment": {
+            "{{off()}}": "이벤트 핸들러를 제거",
+            "{{on()}}": "하나 이상의 이벤트에 대한 이벤트 핸들러 기능을 선택한 요소에 부착",
+            "{{one()}}": "요소를 위한 이벤트에 핸들러를 부착하십시오. 처리기는 요소당 한 번 이상 실행",
+            "{{trigger()}}": "지정된 이벤트 유형에 대해 일치하는 요소에 연결된 모든 핸들러 및 동작을 실행",
+            "{{triggerHandler()}}": "이벤트에 대해 요소에 연결된 모든 핸들러를 실행"
+        },
+        "Form Events": {
+            "{{blur()}}": "이벤트 핸들러를 'blur' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
+            "{{change()}}": "이벤트 핸들러를 'change' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
+            "{{focus()}}": "이벤트 핸들러를 'focus' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
+            "{{select()}}": "이벤트 핸들러를 'select' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
+            "{{submit()}}": "이벤트 핸들러를 'submit' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거"
+        },
+        "Keyboard Events": {
+            "{{keydown()}}": "이벤트 핸들러를 'keydown' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
+            "{{keypress()}}": "이벤트 핸들러를 '키프레스' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
+            "{{keyup()}}": "이벤트 핸들러를 '키업' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거"
+        }
+    },
+
+    "Effects": {
+        "Basics": {
+            "{{hide()}}": "일치하는 요소를 숨김",
+            "{{show()}}": "일치하는 요소를 표시",
+            "{{toggle()}}": "일치하는 요소를 표시하거나 숨김"
+        },
+        "Custom": {
+            "{{animate()}}": "CSS 속성 집합의 사용자 지정 애니메이션을 수행",
+            "{{clearQueue()}}": "아직 실행되지 않은 모든 항목을 대기열에서 제거",
+            "{{delay()}}": "대기열에서 후속 항목의 실행을 지연하도록 타이머를 설정",
+            "{{dequeue()}}": "일치하는 요소에 대해 대기열에서 다음 기능을 실행",
+            "{{jQuery-dequeue()}}": "일치하는 요소에 대해 대기열에서 다음 기능을 실행",
+            "{{jQuery-fx-interval}}": "애니메이션이 실행되는 속도(밀리초)",
+            "{{jQuery-fx-off}}": "전 세계적으로 모든 애니메이션을 비활성화",
+            "{{queue()}}": "일치하는 요소에서 실행할 기능의 대기열을 표시",
+            "{{jQuery-queue()}}": "일치하는 요소에서 실행할 기능의 대기열을 표시",
+            "{{stop()}}": "일치하는 요소에 대해 현재 실행 중인 애니메이션을 중지"
+        },
+        "Fading": {
+            "{{fadeIn()}}": "일치하는 요소를 서서히 나타나게 하여 표시",
+            "{{fadeOut()}}": "일치하는 요소를 서서히 사라지게 하여 숨김",
+            "{{fadeTo()}}": "일치하는 요소의 불투명도를 조정",
+            "{{fadeToggle()}}": "불투명도 애니메이션을 통해 일치하는 요소를 표시하거나 숨김"
+        },
+        "Sliding": {
+            "{{slideDown()}}": "슬라이딩 동작으로 일치하는 요소를 표시",
+            "{{slideToggle()}}": "일치하는 요소를 슬라이딩 동작으로 표시하거나 숨김",
+            "{{slideUp()}}": "일치하는 요소를 슬라이딩 동작으로 숨김"
+        }
+    },
+
+    "Ajax": {
+        "Global Ajax Event Handlers": {
+            "{{ajaxComplete()}}": "Ajax가 요청할 때 호출할 처리기를 등록. Ajax 이벤트",
+            "{{ajaxError()}}": "Ajax가 오류와 함께 완료 요청을 할 때 호출할 처리기를 등록. Ajax 이벤트",
+            "{{ajaxSend()}}": "Ajax 요청이 전송되기 전에 실행할 함수를 첨부. Ajax 이벤트",
+            "{{ajaxStart()}}": "첫 번째 Ajax 요청이 시작될 때 호출할 처리기를 등록. Ajax 이벤트",
+            "{{ajaxStop()}}": "모든 Ajax 요청이 완료되면 호출할 처리기를 등록. Ajax 이벤트",
+            "{{ajaxSuccess()}}": "Ajax 요청이 성공적으로 완료될 때마다 실행할 함수를 첨부. Ajax 이벤트"
+        },
+        "Helper Functions": {
+            "{{jQuery-param()}}": "URL 쿼리 문자열 또는 Ajax 요청에 사용하기에 적합한 배열 또는 객체의 일련화된 표현을 생성",
+            "{{serialize()}}": "양식 요소 집합을 제출할 문자열로 인코딩",
+            "{{serializeArray()}}": "이름 및 값의 배열로 양식 요소 집합을 인코딩"
+        },
+        "Low-Level Interface": {
+            "{{jQuery-ajax()}}": "비동기식 HTTP(Ajax) 요청을 수행",
+            "{{jQuery-ajaxSetup()}}": "이후 Ajax 요청에 대한 기본값을 설정"
+        },
+        "Shorthand Methods": {
+            "{{jQuery-get()}}": "HTTP GET 요청을 사용하여 서버에서 데이터를 로드",
+            "{{jQuery-getJSON()}}": "GET HTTP 요청을 사용하여 서버에서 JSON 인코딩된 데이터를 로드",
+            "{{jQuery-getScript()}}": "GET HTTP 요청을 사용하여 서버에서 JavaScript 파일을 로드한 다음 실행",
+            "{{load()}}": "서버에서 데이터를 로드하고 반환된 HTML을 일치하는 요소에 배치",
+            "{{jQuery-post()}}": "HTTP POST 요청을 사용하여 서버에서 데이터를 로드"
+        }
+    },
+
+    "Core": {
+        "jQuery Object": {
+            "jQuery()": "일련의 요소와 일치시키는 데 사용되는 CSS 선택자가 포함된 문자열을 수락",
+            "{{jQuery-noConflict()}}": "달러 변수에 대한 jQuery의 통제를 포기",
+            "{{jQuery-sub()}}": "원래 jQuery 객체에 영향을 주지 않고 특성 및 메서드를 수정할 수 있는 jQuery의 새 사본을 작성",
+            "{{jQuery-when()}}": "하나 이상의 객체(대개 비동기 이벤트를 나타내는 지연 객체)를 기반으로 콜백 기능을 실행할 수 있는 방법을 제공"
+        },
+        "DOM Element Methods": {
+            "{{get()}}": "jQuery 객체와 일치하는 DOM 요소를 검색",
+            "{{index()}}": "일치하는 요소 중에서 지정된 요소를 검색",
+            "{{size()}}": "jQuery 객체의 요소 수를 반환",
+            "toArray()": "jQuery 세트에 포함된 모든 DOM 요소를 배열로 검색"
+        },
+        "Internals": {
+            "{{context}}": "DOM 노드 컨텍스트는 원래 jQuery()로 전달. 아무것도 전달되지 않은 경우, 컨텍스트는 문서가 될 가능성이 높음",
+            "{{jQuery-error}}": "문자열을 가져다가 해당 문자열을 포함하는 예외를 던짐",
+            "{{length}}": "jQuery 객체의 요소 갯수",
+            "{{pushStack}}": "JQuery 스택에 DOM 요소 집합 추가",
+            "{{selector}}": "선택자를 나타내는 선택자가 원래 jQuery()로 전달"
+        },
+        "Deferred Object": {
+            "{{deferred-always()}}": "지연된 객체가 확인되거나 거부될 때 호출할 처리기 추가",
+            "{{deferred-done()}}": "지연된 객체가 확인될 때 호출할 처리기 추가",
+            "{{deferred-fail()}}": "지연된 객체가 거부될 때 호출할 처리기 추가",
+            "{{deferred-isRejected()}}": "지연된 객체가 거부되었는지 여부를 결정",
+            "{{deferred-isResolved()}}": "지연된 객체가 해결되었는지 여부를 확인",
+            "{{deferred-notify()}}": "주어진 args가 있는 지연된 객체에 대해 progressCallbacks를 호출",
+            "{{deferred-notifyWith()}}": "지정된 컨텍스트와 args를 사용하여 지연된 객체에 대해 progressCallbacks를 호출",
+            "{{deferred-pipe()}}": "필터링 및/또는 체인 지연을 위한 유틸리티 방법",
+            "{{deferred-progress()}}": "지연된 객체가 진행률 알림을 생성할 때 호출할 처리기 추가",
+            "{{deferred-promise()}}": "지연된 약속 객체를 반환",
+            "{{deferred-reject()}}": "지연된 객체를 거부하고 지정된 args를 사용하여 failCallbacks를 호출",
+            "{{deferred-rejectWith()}}": "지연된 객체를 거부하고 지정된 컨텍스트와 args를 사용하여 failCallbacks를 호출",
+            "{{deferred-resolve()}}": "지연된 객체를 해결하고 지정된 args로 doneCallbacks를 호출",
+            "{{deferred-resolveWith()}}": "지연된 객체를 해결하고 지정된 컨텍스트와 args를 사용하여 완료된Callbacks를 호출",
+            "{{deferred-state()}}": "지연된 객체의 현재 상태를 결정",
+            "{{deferred-then()}}": "지연된 객체가 확인되거나 거부될 때 호출할 처리기 추가",
+            "{{promise}}": "컬렉션에 바인딩된 특정 유형의 모든 작업이 대기 중이거나 완료되지 않은 경우를 관찰하려면 약속 객체를 반환"
+        },
+        "Callbacks Object": {
+            "{{jQuery-Callbacks()}}": "콜백 목록을 관리할 수 있는 강력한 방법을 제공하는 다목적 콜백 목록 객체",
+            "{{callbacks-add()}}": "콜백 목록에 콜백 또는 콜백 컬렉션을 추가",
+            "{{callbacks-disable()}}": "콜백 목록을 사용하지 않도록 설정",
+            "{{callbacks-empty()}}": "목록에서 콜백을 모두 제거",
+            "{{callbacks-fire()}}": "주어진 주장으로 모든 콜백을 부름",
+            "{{callbacks-fired()}}": "콜백은 이미 한 번 이상 호출되었는지 확인",
+            "{{callbacks-fireWith()}}": "주어진 컨텍스트와 인자가 있는 목록의 모든 콜백을 호출",
+            "{{callbacks-has()}}": "제공된 콜백이 목록에 있는지 확인",
+            "{{callbacks-lock()}}": "콜백 리스트를 현재 상태로 잠금",
+            "{{callbacks-locked()}}": "콜백 리스트가 잠겼는지 여부를 결정",
+            "{{callbacks-remove()}}": "콜백 목록에서 콜백 또는 콜백 컬렉션을 제거"
+        }
+    },
+
+    "Utilities": {
+        "Utilities": {
+            "{{jQuery-contains()}}": "DOM 노드가 다른 DOM 노드 내에 있는지 확인",
+            "{{each()}}": "jQuery 객체에 반복하여 일치하는 각 요소에 대한 함수를 실행",
+            "{{jQuery-each()}}": "객체와 배열 모두에 대해 매끄럽게 반복하는 데 사용할 수 있는 일반 반복기 기능. 길이 특성(함수의 인자 객체 등)을 갖는 배열 및 배열 유사 객체는 숫자 색인으로 반복되며, 0부터 길이-1까지. 다른 객체는 명명된 속성을 통해 반복",
+            "{{jQuery-extend()}}": "두 개 이상의 객체의 내용을 첫 번째 객체에 병합",
+            "{{jQuery-globalEval()}}": "일부 JavaScript 코드를 전체적으로 실행",
+            "{{jQuery-grep()}}": "필터 기능을 만족하는 배열 요소를 찾음. 원래 배열은 영향을 받지 않음",
+            "{{jQuery-inArray()}}": "배열내에서 지정된 값을 검색하고 인덱스를 반환(또는 찾을 수 없는 경우 -1)",
+            "{{jQuery-isArray()}}": "인자가 배열인지 여부를 결정",
+            "{{jQuery-isEmptyObject()}}": "객체가 비어 있는지 확인(속성이 포함되어 있지 않음)",
+            "{{jQuery-isFunction()}}": "전달된 인자가 Javascript 함수 객체인지 여부를 결정",
+            "{{jQuery-isNumeric()}}": "숫자인지 아닌지 확인",
+            "{{jQuery-isPlainObject()}}": "객체가 일반 객체인지 확인('{}' 또는 'new object'를 사용하여 생성)",
+            "{{jQuery-isWindow()}}": "window창인지 아닌지 확인",
+            "{{jQuery-isXMLDoc()}}": "DOM 노드가 XML 문서(또는 XML 문서) 내에 있는지 확인",
+            "{{jQuery-makeArray()}}": "배열과 유사한 객체를 실제 JavaScript 배열로 변환",
+            "{{jQuery-map()}}": "배열 또는 배열과 같은 객체의 모든 항목을 다른 배열의 항목으로 변환",
+            "{{jQuery-merge()}}": "두 배열의 내용을 첫 번째 배열로 병합",
+            "{{jQuery-noop()}}": "빈 기능",
+            "{{jQuery-now()}}": "현재 시간을 나타내는 숫자를 반환",
+            "{{jQuery-parseJSON()}}": "잘 구성된 JSON 문자열을 가져와서 결과 JavaScript 객체를 반환",
+            "{{jQuery-parseXML()}}": "XML 문서에 문자열을 구문 분석",
+            "{{jQuery-proxy()}}": "기능을 가져다가 항상 특정 컨텍스트를 갖는 새로운 기능을 반환",
+            "{{jQuery-support}}": "다양한 브라우저 기능 또는 버그가 있는 속성을 나타내는 속성 모음",
+            "{{jQuery-trim()}}": "문자열의 시작과 끝에서 공백을 제거",
+            "{{jQuery-type()}}": "객체의 내부 JavaScript [[Class]]를 결정",
+            "{{jQuery-unique()}}": "중복 항목이 제거된 상태에서 DOM 요소 배열 정렬 이 기능은 문자열이나 숫자가 아닌 DOM 요소의 배열에서만 작동한다는 점에 유의"
+        },
+
+        "__PAGE__": "Lodash",
+        "Collection": {
+            "{{_countBy()}}": "크기 길이로 분할된 요소 배열 생성. 배열을 고르게 분할할 수 없는 경우 최종 청크는 나머지 요소가 됨",
+            "{{_forEach()}}": "요소 collection을 반복하고 각 요소에 대해 반복 실행",
+            "{{_forEachRight()}}": "이 메서드는 오른쪽에서 왼쪽으로 요소 collection을 반복하는 것을 제외하고 \"_.forEach\"와 같음",
+            "{{_every()}}": "모든 collection 요소에 대해 속성이 true를 반환하는지 점검. 반복이 중지되면 false를 반환",
+            "{{_filter()}}": "collection의 모든 요소의 배열을 반환하여 속성에 true를 반환",
+            "{{_find()}}": "collection 요소를 반복하여 첫 번째 요소 속성에 true를 반환",
+            "{{_findLast()}}": "이 메서드는 오른쪽에서 왼쪽으로 collection 요소를 반복하는 것을 제외하고는 \"_.find\" 와 같음",
+            "{{_flatMap()}}": "각 요소를 반복적으로 수집하고 매핑된 결과를 평탄화하여 평탄화된 값 배열 작성",
+            "{{_flatMapDeep()}}": "이 메서드는 매핑된 결과를 반복적으로 플랫한다는 점을 제외하면 \"_.flatMap\" 와 같음",
+            "{{_flatMapDepth()}}": "이 메서드는 매핑된 결과를 최대 깊이 시간까지 반복적으로 평탄화한다는 점을 제외하면 \"_.flatMap\" 와 같음",
+            "{{_groupBy()}}": "반복적으로 collection 각 요소를 실행한 결과에서 생성된 키로 구성된 객체 생성",
+            "{{_includes()}}": "값이 collection에 있는지 확인. collection이 문자열인 경우, 값의 하위 문자열을 확인하며, 그렇지 않으면 SameValueZero가 평등한 비교에 사용",
+            "{{_invokeMap()}}": "collection에서 각 요소의 경로에서 메서드를 호출하고, 호출된 각 메서드의 결과 배열을 반환",
+            "{{_keyBy()}}": "반복적으로 collection의 각 요소를 실행한 결과에서 생성된 키로 구성된 객체 생성",
+            "{{_map()}}": "반복을 통해 각 요소를 실행하여 값 배열 생성",
+            "{{_orderBy()}}": "이 메서드는 정렬할 반복자의 정렬 순서를 지정할 수 있다는 점을 제외하면 \"_.sortBy\" 와 같음. 주문이 불특정되면 모든 값이 오름차순으로 정렬. 그렇지 않은 경우, 내림차순의 경우 \"desc\" 또는 해당 값의 오름차순의 경우 \"asc\" 순서를 지정",
+            "{{_partition()}}": "두 그룹으로 분할된 요소의 배열(첫 번째 그룹에는 true라는 속성이 포함됨), 두 번째 그룹에는 false라는 속성이 포함되어 있음)",
+            "{{_reduce()}}": "각 연속적인 호출이 이전 값의 반환 값을 제공하는 컬렉션에서 각 요소를 실행한 누적 결과인 값으로 컬렉션을 감소시킴. 축열조가 제공되지 않으면 collection의 첫 번째 요소가 초기 값으로 사용",
+            "{{_reduceRight()}}": "이 방법은 오른쪽에서 왼쪽으로 'collection'의 요소를 반복하는 것을 제외하고는 \"_.reduce\" 와 같음",
+            "{{_reject()}}": "\"_.filter\" 의 반대인 이 메서드는 속성이 true로 반환되지 않는 수집 요소를 반환",
+            "{{_sample()}}": "집합에서 랜덤 요소 가져오기",
+            "{{_sampleSize()}}": "집합에서 집합 크기까지의 고유 키에서 임의 요소 n개 가져오기",
+            "{{_shuffle()}}": "축소된 값 배열 생성",
+            "{{_size()}}": "collection배열과 같은 값의 길이 또는 객체의 열거 가능한 문자열 키 속성 수를 반환 하여 크기를 가져옴",
+            "{{_some()}}": "collection 요소에 대해 속성이 true로 반환되는지 점검한다. 속성 true로 반환되면 반복이 중지됨",
+            "{{_sortBy()}}": "각 반복을 통해 집합에서 각 요소를 실행한 결과에 따라 오름차순으로 정렬된 요소 배열 생성"
+        }
+    },
+
+    "Array": {
+        "Array Functions": {
+            "{{_chunk()}}": "크기 길이로 분할된 요소 배열 생성 배열을 고르게 분할할 수 없는 경우 최종 청크는 나머지 요소가 됨",
+            "{{_compact()}}": "모든 거짓 값이 제거된 배열을 생성. false, null, 0, \"\", 정의되지 않음 및 NaN이 false 임",
+            "{{_concat()}}": "추가 베열 및/또는 값을 포함하는 새 베열 생성",
+            "{{_difference()}}": "동일 비교를 위해 \"SameValueZero\"를 사용하여 다른 지정된 베열에 포함되지 않은 베열 값 배열 생성",
+            "{{_differenceBy()}}": "이 메서드는 베열 및 값의 각 요소에 대해 호출되는 반복을 수용하여 비교되는 기준을 생성한다는 점을 제외하면 \"_.difference\" 와 같음",
+            "{{_differenceWith()}}": "이 메서드는 배열 요소를 값과 비교하기 위해 호출되는 비교기를 받아들인다는 점을 제외하면 \"_.difference\" 와 같음",
+            "{{_drop()}}": "처음부터 삭제된 요소가 n개인 배열의 슬라이스 생성",
+            "{{_dropRight()}}": "끝단에서 삭제된 요소가 n개인 배열 슬라이스",
+            "{{_dropRightWhile()}}": "끝에서 삭제된 요소를 제외한 배열의 슬라이스를 생성. 속성이 false를 반환할 때까지 요소가 삭제됨",
+            "{{_fill()}}": "처음부터 끝까지 값이 있는 베열 요소 채우기",
+            "{{_findIndex()}}": "이 메서드는 요소 자체 대신 첫 번째 속성 요소가 반환의 인덱스를 true로 반환한다는 점을 제외하면 \"_.find\" 와 같음",
+            "{{_head()}}": "배열의 첫 번째 요소 가져오기",
+            "{{_flatten()}}": "단일 레벨 깊이의 플랫 베열",
+            "{{_flattenDeep()}}": "베열를 다시 평평하게 함",
+            "{{_fromPairs()}}": "\"_.toPairs\"의 역방향 이 메서드는 키-값 쌍으로 구성된 객체를 반환함",
+            "{{_indexOf()}}": "동일 비교를 위해 \"SameValueZero\"를 사용하여 배열에서 값의 첫 번째 발생 지수를 가져옴",
+            "{{_initial()}}": "베열의 마지막 요소를 제외한 모든 요소 가져오기",
+            "{{_intersection()}}": "동일 비교를 위해 \"SameValueZero\"를 사용하여 지정된 모든 베열에 포함된 고유한 값의 배열 생성",
+            "{{_intersectionBy()}}": "이 메서드는 \"_.intersection\"와 같으며, 각 베열의 각 요소에 대해 호출되는 반복을 수용하여 비교되는 기준을 생성한다는 점을 제외",
+            "{{_intersectionWith()}}": "이 메서드는 베열의 요소를 비교하기 위해 호출되는 비교기를 받아들인다는 점을 제외하면 \"_.intersection\" 와 같음",
+            "{{_join()}}": "배열의 모든 요소를 구분 기호로 구분된 문자열로 변환",
+            "{{_last()}}": "배열의 마지막 요소 가져오기",
+            "{{_lastIndexOf()}}": "이 메서드는 오른쪽에서 왼쪽으로 배열 요소 위에 반복된다는 점을 제외하면 \"_.indexOf\" 와 같음",
+            "{{_nth()}}": "배열의 색인 n에서 요소를 가져옴. n이 음이면 끝에서 n번째 요소가 반환",
+            "{{_pull()}}": "동일 비교를 위해 \"SameValueZero\"를 사용하여 베열에서 지정된 모든 값 제거",
+            "{{_pullAll()}}": "이 메서드는 제거할 값의 배열을 받아들인다는 점을 제외하면 \"_.pull\" 와 같음",
+            "{{_pullAllBy()}}": "이 메서드는 베열 및 값의 각 요소에 대해 호출되는 반복을 수용하여 비교되는 기준을 생성한다는 점을 제외하면 \"_.pullAll\" 와 같음",
+            "{{_pullAllWith()}}": "이 메서드는 배열 요소를 값과 비교하기 위해 호출되는 비교기를 받아들인다는 점을 제외하면 \"_.pullAll\" 와 같음",
+            "{{_pullAt()}}": "인덱스에 해당하는 배열에서 요소 제거 및 제거된 요소의 배열 반환",
+            "{{_remove()}}": "true를 반환하는 속성이 있는 베열에서 모든 요소들을 제거하고 제거된 요소들의 베열를 반환",
+            "{{_reverse()}}": "배열을 역전시켜 첫 번째 요소가 마지막이 되고, 두 번째 요소가 두 번째에서 마지막이 되도록 함",
+            "{{_slice()}}": "처음부터 끝까지 베열 슬라이스 생성",
+            "{{_sortedIndex()}}": "바이너리 검색을 사용하여 정렬 순서를 유지하기 위해 베열에 값을 삽입해야 하는 가장 낮은 인덱스 결정",
+            "{{_sortedIndexBy()}}": "값과 배열의 각 요소에 대해 호출되는 반복을 허용하여 정렬 순위를 계산하는 점을 제외하면 \"_.sortedIndex\" 와 같음",
+            "{{_sortedIndexOf()}}": "이 메서드는 정렬된 배열에서 이진 검색을 수행한다는 점을 제외하면 \"_.indexOf\" 와 같음",
+            "{{_sortedLastIndex()}}": "이 메서드는 순서를 유지하기 위해 배열에 값을 삽입해야하는 가장 높은 인덱스를 반환하는 것을 제외하면 \"_.sortedIndex\" 와 같음",
+            "{{_sortedLastIndexBy()}}": "이 메서드는 값과 배열의 각 요소가 정렬 순위를 계산하기 위해 호출되는 반복을 받아들인다는 점을 제외하면 \"_.sortedLastIndex\" 와 같음",
+            "{{_sortedLastIndexOf()}}": "이 메서드는 정렬된 배열에서 이진 검색을 수행한다는 점을 제외하면 \"_.lastIndexOf\" 와 같음",
+            "{{_sortedUniq()}}": "이 메서드는 정렬된 베열에 맞게 설계되고 최적화되었다는 점을 제외하면 \"_.uniq\" 와 같음",
+            "{{_sortedUniqBy()}}": "이 메서드는 정렬된 베열에 맞게 설계되고 최적화되었다는 점을 제외하면 \"_.uniqBy\" 와 같음",
+            "{{_tail()}}": "배열의 첫 번째 요소를 제외한 모든 요소 가져오기",
+            "{{_take()}}": "처음부터 가져온 요소가 n개인 배열 조각 생성",
+            "{{_takeRight()}}": "끝에서 가져온 요소가 n개인 배열 조각 생성",
+            "{{_takeRightWhile()}}": "끝에서 가져온 요소를 사용하여 배열 조각을 생성. 속성이 거짓으로 반환될 때까지 요소를 취함",
+            "{{_takeWhile()}}": "처음부터 가져온 요소로 배열 한 조각을 생성. 속성이 거짓으로 반환될 때까지 요소를 취함",
+            "{{_union()}}": "동일 비교를 위해 \"SameValueZero\"를 사용하여 지정된 모든 베열에서 고유한 값의 배열 생성",
+            "{{_unionBy()}}": "이 메서드는 각 베열의 각 요소에 대해 호출되는 반복을 수용하여 고유성이 계산되는 기준을 생성한다는 점을 제외하면 \"_.union\" 와 같음",
+            "{{_unionWith()}}": "이 메서드는 베열의 요소를 비교하기 위해 호출되는 비교기를 받아들인다는 점을 제외하면 \"_.union\" 와 같음",
+            "{{_uniq()}}": "동일 비교를 위해 \"SameValueZero\"를 사용하여 중복되지 않는 베열 버전 생성",
+            "{{_uniqBy()}}": "이 메서드는 고유성이 계산되는 기준을 생성하기 위해 배열의 각 요소에 대해 호출되는 반복을 받아들인다는 점을 제외하면 \"_.uniq\" 와 같음",
+            "{{_unzip()}}": "이 메서드는 그룹화된 요소의 배열을 수용하고 요소를 압축하기 전의 구성으로 다시 구성하는 배열을 생성한다는 점을 제외하면 \"_.zip\" 과 같음",
+            "{{_unzipWith()}}": "이 메서드는 재조립된 값을 어떻게 조합해야 하는지를 지정하기 위해 반복적으로 허용한다는 점을 제외하면 \"_.unzip\" 과 같음. 이 메서드는 재조립된 값을 어떻게 조합해야 하는지를 지정하기 위해 반복실험을 받아들인다는 점을 제외하면 _.unzip 과 같음",
+            "{{_without()}}": "동일 비교를 위해 \"SameValueZero\"를 사용하여 지정된 모든 값을 제외한 배열 생성",
+            "{{_xor()}}": "지정된 배열의 \"symmetric difference\" 인 고유한 값의 배열 생성",
+            "{{_xorBy()}}": "각 베열의 각 요소에 대해 호출된 반복을 통해 비교되는 기준을 생성한다는 점을 제외하면 \"_.xor\" 와 같음",
+            "{{_xorWith()}}": "이 메서드는 베열의 요소를 비교하기 위해 호출되는 비교기를 받아들인다는 점을 제외하면 \"_.xor\" 와 같음",
+            "{{_zip()}}": "그룹화된 요소의 배열을 생성하며, 첫 번째 배열에 지정된 배열의 첫 번째 요소, 두 번째 배열에 지정된 배열의 두 번째 요소 등이 포함됨",
+            "{{_zipObject()}}": "이 메서드는 두 개의 배열(속성 식별자 중 하나와 해당 값 중 하나)을 받아들인다는 점을 제외하면 \"_.fromPairs\" 와 같음",
+            "{{_zipObjectDeep()}}": "이 메서드는 속성 경로를 지원하는 것을 제외하고 \"_.zipObject\" 와 같음",
+            "{{_zipWith()}}": "이 메서드는 그룹화된 값의 조합 메서드을 지정하기 위해 반복실험을 받아들인다는 점을 제외하면 \"_.zip\" 와 같음"
+        }
+    },
+
+    "Date": {
+        "Date Functions": {
+            "{{_now()}}": "Unix 시대(1970년 1월 00:00:00 UTC) 이후 경과된 시간(밀리초)의 타임스탬프 가져오기"
+        }
+    },
+
+    "Function": {
+        "Function Functions": {
+            "{{_after()}}": "\"_.before\"와 반대인 이 메서드는 n번 이상 호출되면 func를 호출하는 기능을 만듬",
+            "{{_ary()}}": "추가 인수를 무시하고 최대 n개의 인수로 func를 호출하는 함수 생성",
+            "{{_before()}}": "생성된 함수의 이 바인딩과 인수를 사용하여 func를 호출하는 함수를 생성하는 동시에 n번 미만으로 호출. 생성된 함수에 대한 후속 호출은 마지막 func 호출의 결과를 반환.생성된 함수의 이 바인딩과 인수를 사용하여 func를 호출하는 함수를 생성하는 동시에 n번 미만으로 호출. 생성된 함수에 대한 후속 호출이 마지막 func 호출의 결과를 반환",
+            "{{_bind()}}": "이 Arg의 바인딩으로 func를 호출하는 함수 생성 및 수신되는 인수에 미리 추가된 부분",
+            "{{_bindKey()}}": "수신되는 인수에 부분적인 부분만 추가된 객체[key]에서 메서드를 호출하는 함수 생성",
+            "{{_curry()}}": "적어도 열성 인수가 제공된 경우 func의 인수를 수락하고 결과를 반환하는 func를 호출하거나, 나머지 func 인수를 수락하는 함수를 반환하는 함수를 생성. func.length가 충분하지 않을 경우 func의 arity를 지정할 수 있음",
+            "{{_curryRight()}}": "인수가 \"_.partialright\"가 아닌 \"_.partialright\" 방식으로 func에 적용된다는 점을 제외하면 이 메서드는 \"_.curry\"와 같음",
+            "{{_debounce()}}": "디바운딩된 함수가 마지막으로 호출된 이후 대기 밀리초가 경과한 후까지 호출이 지연되는 디바운딩된 함수를 생성. 디바운딩된 기능에는 지연된 펑크 요청을 취소하는 취소 메서드과 즉시 호출하는 플러시 메서드이 있음. 대기 시간 제한의 선행 및/또는 후행 에지에서 func를 호출할지 여부를 나타내는 옵션을 제공. func는 deballed 함수에 제공된 마지막 인수와 함께 호출. 이후 중단된 함수에 대한 호출은 마지막 func 호출의 결과를 반환함",
+            "{{_defer()}}": "현재 통화 스택이 지워질 때까지 func 호출 지연. 추가 인수가 호출될 때 func에 제공됨",
+            "{{_delay()}}": "대기 시간(밀리초) 후 func를 호출. 추가 인수가 호출될 때 func에 제공됨",
+            "{{_flip()}}": "인수를 반대로 하여 func를 호출하는 함수 생성",
+            "{{_memoize()}}": "func의 결과를 메모하는 기능을 만듬. 해결사가 제공되는 경우, 메모된 함수에 제공된 인수에 따라 결과를 저장하는 캐시 키를 결정. 기본적으로 메모화 함수에 제공된 첫 번째 인수는 지도 캐시 키로 사용. Func는 메모된 기능의 바인딩으로 호출",
+            "{{_negate()}}": "속성 func 결과를 무효화하는 함수를 작성. func 속성은 생성된 함수의 이 바인딩과 인수로 호출",
+            "{{_once()}}": "func를 한 번 호출하도록 제한되는 기능을 생성. 함수에 대해 호출을 반복하면 첫 번째 호출의 값이 반환. func는 생성된 함수의 바인딩과 인수로 호출",
+            "{{_overArgs()}}": "변환된 인수로 func를 호출하는 함수 생성",
+            "{{_partial()}}": "수신하는 인수에 편중된 func를 호출하는 함수를 생성. 이 메서드는 이 바인딩을 변경하지 않는 경우를 제외하고 \"_.bind\" 와 같음",
+            "{{_partialRight()}}": "이 메서드는 부분적으로 적용된 인수가 수신되는 인수에 추가되는 것을 제외하고 \"_.partial\" 와 같음",
+            "{{_rearg()}}": "첫 번째 인덱스의 인수 값이 첫 번째 인수로 제공되고 두 번째 인덱스의 인수 값이 두 번째 인수로 제공되는 등 지정된 인덱스에 따라 배열된 인수로 func를 호출하는 함수를 생성",
+            "{{_rest()}}": "생성된 함수 및 인수의 바인딩으로 func를 호출하는 함수 생성",
+            "{{_spread()}}": "생성 함수의 이 바인딩과 \"Function#apply\"와 매우 유사한 인수 배열을 사용하여 func를 호출하는 함수 생성",
+            "{{_throttle()}}": "대기 밀리초당 최대 한 번만 func를 호출하는 조절 함수를 생성. 조절 기능에는 지연된 펑크 요청을 취소하는 취소 메서드과 즉시 호출하는 플러시 메서드이 있음. 대기 시간 제한의 선행 및/또는 후행 에지에서 func를 호출할지 여부를 나타내는 옵션을 제공. func는 조절 기능에 제공된 마지막 인수로 호출된다. 조절 기능에 대한 후속 호출이 마지막 func 호출의 결과를 반환",
+            "{{_unary()}}": "추가 인수를 무시하고 최대 하나의 인수를 허용하는 함수 생성",
+            "{{_wrap()}}": "래퍼에 값을 제공하는 함수를 첫 번째 인수로 만듬. 기능에 제공된 추가 인수는 포장지에 제공된 인자에 추가됨. 래퍼는 생성된 함수의 이 바인딩으로 호출"
+        }
+    },
+
+    "Lang": {
+        "Lang Functions": {
+            "{{_castArray()}}": "값이 하나가 아닌 경우 베열로 지정",
+            "{{_clone()}}": "값 복제 생성",
+            "{{_cloneDeep()}}": "메서드는 값을 반복적으로 복제하는 것을 제외하고는 \"_.clone\" 와 같음",
+            "{{_cloneDeepWith()}}": "이 메서드는 값을 반복적으로 복제하는 것을 제외하고는 \"_.cloneWith\" 와 같음",
+            "{{_cloneWith()}}": "이 메서드는 복제된 값을 생성하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 \"_.clone\" 와 같음. 사용자 정의가 되지 않은 상태로 반환되는 경우, 대신 메서드으로 복제를 처리함",
+            "{{_conformsTo()}}": "소스의 속성을 객체의 해당 속성 값으로 호출하여 객체가 소스에 적합한지 확인",
+            "{{_eq()}}": "두 값 간에 \"SameValueZero\" 비교를 수행하여 등가 여부를 확인",
+            "{{_gt()}}": "값이 다른 값보다 큰지 확인",
+            "{{_gte()}}": "값이 다른 값보다 크거나 같은지 확인",
+            "{{_isArguments()}}": "값이 인수 객체일 가능성이 있는지 확인",
+            "{{_isArray()}}": "값이 배열 객체로 분류되는지 확인",
+            "{{_isArrayBuffer()}}": "값이 ArrayBuffer 객체로 분류되는지 확인",
+            "{{_isArrayLike()}}": "값이 배열과 유사한지 확인. 값이 함수가 아니고 0보다 크거나 같고 숫자보다 작거나 같은 정수인 value.length를 갖는 경우 배열과 같은 값으로 간주. MAX_SAFE_INTEGER",
+            "{{_isArrayLikeObject()}}": "이 메서드는 값이 객체인지 확인하는 것을 제외하고 \"_.isArrayLike\" 와 같음",
+            "{{_isBoolean()}}": "값이 초기의 boolean 또는 객체로 분류되는지 확인",
+            "{{_isBuffer()}}": "값이 버퍼인지 확인",
+            "{{_isDate()}}": "값이 날짜 객체로 분류되는지 확인",
+            "{{_isElement()}}": "값이 DOM 요소일 가능성이 있는지 확인",
+            "{{_isEmpty()}}": "값이 비어 있는 객체, collection, map 또는 set 인지 확인",
+            "{{_isEqual()}}": "두 값 사이의 깊은 비교를 수행하여 동등 여부를 확인",
+            "{{_isEqualWith()}}": "이 메서드는 값을 비교하기 위해 호출되는 사용자 정의을 받아들인다는 점을 제외하면 \"_.isEqual\"와 같음. 사용자 정의 리턴이 정의되지 않은 경우, 비교는 대신 메서드로 처리",
+            "{{_isError()}}": "값이 오류, EvalError, RangeError, ReferenceError, SyntaxError, TypeError 또는 URIError 객체인지 확인",
+            "{{_isFinite()}}": "값이 한정된 초기 숫자인지 확인",
+            "{{_isFunction()}}": "값이 기능 객체로 분류되는지 확인",
+            "{{_isInteger()}}": "값이 정수인지 확인",
+            "{{_isLength()}}": "값이 올바른 배열과 유사한 길이인지 확인",
+            "{{_isMap()}}": "값이 맵 객체로 분류되는지 확인",
+            "{{_isMatch()}}": "객체와 소스 간의 부분 심층 비교를 수행하여 객체에 등가 속성 값이 포함되어 있는지 확인",
+            "{{_isMatchWith()}}": "이 메서드는 값을 비교하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 \"_.isMatch\"와 같음. 사용자 정의가 되지 않은 상태로 반환되는 경우 대신 메서드으로 비교 처리",
+            "{{_isNaN()}}": "값이 NaN인지 확인",
+            "{{_isNative()}}": "값이 원래 native 기능인지 확인",
+            "{{_isNil()}}": "값이 null인지 또는 정의되지 않았는지 확인",
+            "{{_isNull()}}": "값이 null인지 확인",
+            "{{_isNumber()}}": "값이 Number private 또는 object로 분류되는지 확인",
+            "{{_isObject()}}": "값이 객체의 \"language type\"인지 확인",
+            "{{_isObjectLike()}}": "값이 물체와 유사한지 점검. 값이 null이 아니고 \"object\"의 결과 유형이 있는 경우 값은 객체와 유사함",
+            "{{_isPlainObject()}}": "값이 일반 객체인지, 즉 객체 생성자가 생성한 객체인지, 또는 [[Prototype]]이 null인 객체인지 확인",
+            "{{_isRegExp()}}": "값이 RegExp 객체로 분류되는지 확인",
+            "{{_isSafeInteger()}}": "값이 안전한 정수인지 확인. 정수는 안전하지 않은 정수의 결과가 아닌 IEEE-754 이중 정밀도 번호일 경우 안전함",
+            "{{_isSet()}}": "값이 Set 객체로 분류되는지 확인",
+            "{{_isString()}}": "값이 문자열 원시 또는 객체로 분류되는지 확인",
+            "{{_isSymbol()}}": "값이 기호 원시 또는 객체로 분류되는지 확인",
+            "{{_isTypedArray()}}": "값이 입력된 배열로 분류되는지 확인",
+            "{{_isUndefined()}}": "값이 정의되지 않은지 확인",
+            "{{_isWeakMap()}}": "값이 WeakMap 객체로 분류되는지 확인",
+            "{{_isWeakSet()}}": "값이 WeakSet 객체로 분류되는지 확인",
+            "{{_lt()}}": "값이 다른 값보다 작은지 확인",
+            "{{_lte()}}": "값이 다른 값보다 작거나 같은지 확인",
+            "{{_toArray()}}": "값을 배열로 변환",
+            "{{_toFinite()}}": "값을 유한 숫자로 변환",
+            "{{_toInteger()}}": "값을 정수로 변환",
+            "{{_toLength()}}": "값을 배열과 같은 객체의 길이로 사용하기 적합한 정수로 변환",
+            "{{_toNumber()}}": "값을 숫자로 변환",
+            "{{_toPlainObject()}}": "값을 일반 객체로 변환하여 상속된 열거형 문자열 키로 된 특성을 일반 객체의 고유한 속성으로 변환",
+            "{{_toSafeInteger()}}": "값을 안전한 정수로 변환. 안전한 정수를 비교하고 올바르게 나타낼 수 있음",
+            "{{_toString()}}": "값을 문자열로 변환. null 값과 정의되지 않은 값에 대해 빈 문자열이 반환됨 -0의 기호는 보존"
+        }
+    },
+
+    "Math": {
+        "Math Functions": {
+            "{{_add()}}": "숫자 두 개 추가",
+            "{{_ceil()}}": "반올림된 숫자를 정밀도로 계산",
+            "{{_divide()}}": "두 숫자를 나누기",
+            "{{_floor()}}": "반올림된 숫자를 정밀도로 계산",
+            "{{_max()}}": "배열의 최대값을 계산. 베열가 비어 있거나 잘못된 경우 정의되지 않은 상태로 반환됨",
+            "{{_maxBy()}}": "이 메서드는 값이 순위를 매기는 기준을 생성하기 위해 배열의 각 요소에 대해 호출되는 반복을 받아들인다는 점을 제외하면 \"_.max\" 와 같음",
+            "{{_mean()}}": "배열 값의 평균 계산",
+            "{{_meanBy()}}": "이 메서드는 평균화할 값을 생성하기 위해 배열의 각 요소에 대해 호출되는 반복을 받아들인다는 점을 제외하면 \"_.mean\" 와 같음",
+            "{{_min()}}": "베열의 최소값 계산. 배열이 비어 있거나 거짓이면 정의되지 않은 상태로 반환",
+            "{{_minBy()}}": "이 메서드는 배열의 각 요소에 대해 호출되는 반복을 허용하여 값이 나열되는 기준을 생성한다는 점을 제외하면 \"_.min\" 와 같음",
+            "{{_multiply()}}": "두 수 곱하기",
+            "{{_round()}}": "정밀도로 반올림된 숫자를 계산",
+            "{{_subtract()}}": "숫자 두 개 빼기",
+            "{{_sum()}}": "배열의 값 합계를 계산",
+            "{{_sumBy()}}": "이 메서드는 요약할 값을 생성하기 위해 배열의 각 요소에 대해 호출되는 반복을 받아들인다는 점을 제외하면 \"_.sum\" 과 같음"
+        }
+    },
+
+    "Number": {
+        "Number Functions": {
+            "{{_clamp()}}": "포함 하한 및 상한 내 클램프 수",
+            "{{_inRange()}}": "n이 시작과 종료 사이에 있는지 확인하지만 포함되지는 않음. 끝이 지정되지 않은 경우, 시작과 함께 시작한 다음 0으로 설정. 시작이 끝보다 클 경우, 모수가 음의 범위를 지원하도록 바뀜",
+            "{{_random()}}": "포함 하한과 상한 사이에 임의의 숫자를 생성. 하나의 인수만 제공되면 0과 주어진 숫자 사이의 숫자를 반환. 부동이 참이거나 하한 또는 상한이 부동일 경우, 정수 대신 부동 소수점 번호가 반환"
+        }
+    },
+
+    "String": {
+        "String Functions": {
+            "{{_camelCase()}}": "문자열을 \"camel case\"로 변환",
+            "{{_capitalize()}}": "문자열의 첫 번째 문자를 대문자로 변환하고 나머지 문자를 \"lower case\"",
+            "{{_deburr()}}": "기본 라틴 문자에 \"converting Latin-1\"와 \"Latin Extended-A\"를 제거하고 \"combining diacritical marks\"로 문자열을 삭제",
+            "{{_endsWith()}}": "문자열이 지정된 대상 문자열로 끝나는지 확인",
+            "{{_escape()}}": "문자열로 된 \"&\", \">\", '\" 및 \"\"\"\"\"\"을 해당하는 HTML 엔티티로 변환",
+            "{{_escapeRegExp()}}": "RegExp 특수 문자 \"^\", \"$\", \"\", \".\", \"*\", \"+\", \"?\", \"(\", \")\", \"[\", \"]\", \"{\", \"}\", \"|\" 을 문자열에서 차례로 표시함",
+            "{{_kebabCase()}}": "문자열을 \"kebab case\"로 변환",
+            "{{_lowerCase()}}": "공백으로 구분된 단어로 문자열을 소문자로 변환",
+            "{{_lowerFirst()}}": "문자열의 첫 번째 문자를 소문자로 변환",
+            "{{_pad()}}": "길이보다 짧으면 좌우에 줄을 달았다. 패딩 문자를 길이로 균등하게 나눌 수 없는 경우 잘림",
+            "{{_padEnd()}}": "길이보다 짧으면 오른편에 줄을 달린다. 패딩 문자가 길이를 초과할 경우 잘림",
+            "{{_padStart()}}": "왼쪽 끈이 길이보다 짧으면 패드 스트링. 패딩 문자가 길이를 초과할 경우 잘림",
+            "{{_parseInt()}}": "라디스가 정의되지 않았거나 0일 경우, 10의 라디스가 16진수 값이며, 이 경우 리드가 16진수로 사용",
+            "{{_repeat()}}": "지정된 문자열 n번 반복",
+            "{{_replace()}}": "문자열 패턴에 대한 일치 항목을 교체",
+            "{{_snakeCase()}}": "문자열을 \"snake case\"로 변환",
+            "{{_split()}}": "구분 기호로 문자열 분할",
+            "{{_startCase()}}": "문자열을 \"start case\"로 변환",
+            "{{_startsWith()}}": "문자열이 지정된 대상 문자열로 시작되는지 확인",
+            "{{_template()}}": "\"interpolate\" 구분자의 데이터 속성, \"escape\" 구분자의 HTML-escape 보간 데이터 속성, \"evaluate\" 구분자의 JavaScript를 실행할 수 있는 컴파일된 템플릿 함수를 생성. 데이터 속성은 템플릿에서 사용 가능한 변수로 액세스할 수 있음. 설정 객체가 주어진 경우 \"_.templateSettings\" 값보다 우선함",
+            "{{_toLower()}}": "문자열 전체를 \"String#toLowerCase\"와 같이 소문자로 변환",
+            "{{_toUpper()}}": "\"String#toUpperCase\"처럼 문자열 전체를 대문자로 변환",
+            "{{_trim()}}": "선행 및 후행 공백 또는 문자열에서 지정된 문자 제거",
+            "{{_trimEnd()}}": "자열에서 후행 공백 또는 지정된 문자 제거",
+            "{{_trimStart()}}": "선행 백스페이스 또는 지정된 문자를 문자열에서 제거",
+            "{{_truncate()}}": "지정된 최대 문자열 길이보다 긴 문자열 잘라내기 잘린 문자열의 마지막 문자가 기본적으로 \"...\" 로 설정된 생략 문자열로 대체됨",
+            "{{_unescape()}}": "\"_.escape\"의 역방향 이 메서드는 HTML 엔티티 &amp;, &lt;, &gt;, &quot;, &#39;를 문자열로 변환하여 해당하는 문자로 변환",
+            "{{_upperCase()}}": "공백으로 구분된 단어로 문자열을 대문자로 변환",
+            "{{_upperFirst()}}": "문자열의 첫 번째 문자를 대문자로 변환",
+            "{{_words()}}": "문자열을 단어 배열로 분할"
+        }
+    },
+
+    "Object": {
+        "Object Functions": {
+            "{{_assign()}}": "소스 객체의 열거 가능한 문자열 키 지정 속성을 대상 객체에 할당. 소스 객체는 왼쪽에서 오른쪽으로 적용. 이후 원본이 이전 원본의 속성 할당 덮어쓰기",
+            "{{_assignIn()}}": "이 메서드는 자체 및 상속된 소스 속성 위에 반복된다는 점을 제외하면 \"_.assign\" 와 같음",
+            "{{_assignInWith()}}": "이 메서드는 할당된 값을 생성하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 \"_.assignIn\" 와 같음. 사용자 정의가 되지 않은 상태로 반환되는 경우 대신 메서드로 할당 처리",
+            "{{_assignWith()}}": "이 메서드는 할당된 값을 생성하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 \"_.assign\" 와 같음. 사용자 정의가 되지 않은 상태로 반환되는 경우 대신 메서드로 할당 처리",
+            "{{_at()}}": "객체의 경로에 해당하는 값 배열 생성",
+            "{{_create()}}": "프로토타입 객체로부터 상속되는 객체 생성. 속성 객체가 지정된 경우, 자체 열거형 문자열 키로 된 속성이 생성된 객체에 할당됨",
+            "{{_defaults()}}": "정의되지 않음으로 확인된 모든 대상 속성에 대해 소스 객체의 자체 및 상속된 열거형 문자열 키 속성을 대상 객체에 할당 소스 객체는 왼쪽에서 오른쪽으로 적용. 속성이 설정되면 동일한 속성의 추가 값이 무시됨",
+            "{{_defaultsDeep()}}": "이 메서드는 기본 속성을 재귀적으로 할당하는 것을 제외하고는 \"_.defaults\" 와 같음",
+            "{{_findKey()}}": "이 메서드는 첫 번째 요소의 키를 요소 자체 대신 true로 반환하는 것을 제외하고 \"_.find\" 와 같음",
+            "{{_findLastKey()}}": "이 메서드는 반대 순서로 컬렉션 요소 위에 반복된다는 점을 제외하면 \"_.findKey\" 와 같음",
+            "{{_forIn()}}": "객체 및 상속된 열거형 문자열 키 속성을 반복하고 각 속성에 대해 반복 실행",
+            "{{_forInRight()}}": "이 메서드는 반대 순서로 객체의 속성을 반복하는 것을 제외하고 \"_.forIn\" 와 같음",
+            "{{_forOwn()}}": "객체 키 속성을 열거할 수 있는 자체 문자열에서 반복하고 각 속성에 대해 반복 실행",
+            "{{_forOwnRight()}}": "이 메서드는 반대 순서로 객체의 속성을 반복하는 것을 제외하고 \"_.forOwn\" 와 같음",
+            "{{_functions()}}": "객체의 열거 가능한 속성에서 함수 속성 이름 배열 생성",
+            "{{_functionsIn()}}": "객체의 자체 및 상속된 열거형 특성에서 함수 속성 이름 배열 생성",
+            "{{_get()}}": "객체의 경로에서 값을 가져오십시오. 확인된 값이 정의되지 않은 경우 defaultValue가 해당 위치에 반환됨",
+            "{{_has()}}": "경로가 객체의 직접 속성인지 확인",
+            "{{_hasIn()}}": "경로가 객체의 직접 또는 상속된 속성인지 확인",
+            "{{_invert()}}": "반전 키와 객체 값으로 구성된 객체 생성 객체가 중복된 값을 포함하는 경우 이후 값은 이전 값의 속성 할당을 덮어씀",
+            "{{_invertBy()}}": "이 메서드는 객체의 각 요소를 반복적으로 실행한 결과에서 반전된 객체가 생성된다는 점을 제외하면 \"_.invert\" 와 같음. 각 반전 키의 해당 반전 값은 반전 값 생성을 담당하는 키의 배열 임",
+            "{{_invoke()}}": "객체 경로에서 메서드 호출",
+            "{{_keys()}}": "객체의 열거 가능한 자체 속성 이름 배열 생성",
+            "{{_keysIn()}}": "객체의 자체 및 상속된 열거형 속성 이름 배열 생성",
+            "{{_mapKeys()}}": "\"_.mapValues\"의 반대인 이 메서드는 반복적으로 객체의 각 열거형 문자열 키 속성을 실행하여 생성된 객체 및 키와 동일한 값을 가진 객체를 생성",
+            "{{_mapValues()}}": "객체와 동일한 키를 가진 객체 및 반복실험에서 객체 키 속성 각각을 실행하여 생성된 값의 객체 생성",
+            "{{_merge()}}": "이 메서드는 소스 객체의 키 입력 특성을 대상 객체에 반복적으로 병합하는 것을 제외하고 \"_.assign\" 과 같음. 대상 값이 있는 경우 정의되지 않음으로 확인된 원본 속성은 건너뜀. 배열 및 일반 객체 속성은 다시 병합. 다른 객체와 값 유형은 할당에 의해 재정의. 소스 객체는 왼쪽에서 오른쪽으로 적용. 이후 원본이 이전 원본의 속성 할당 덮어쓰기",
+            "{{_mergeWith()}}": "이 메서드는 대상 및 소스 속성의 병합된 값을 생성하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 \"_.merge\" 와 같음. 사용자 정의가 되지 않은 상태로 반환되는 경우, 대신 메서드에서 병합",
+            "{{_omit()}}": "\"_.pick\"의 반대인 이 메서드는 누락되지 않은 객체의 상속된 열거 가능한 속성 경로로 구성된 객체를 생성",
+            "{{_omitBy()}}": "\"_.pickBy\"의 반대인 이 메서드는 다음과 같이 속성이 true로 반환되지 않는 객체의 상속된 열거형 문자열 키로 구성된 객체를 생성",
+            "{{_pick()}}": "선택한 객체 속성으로 구성된 객체 생성",
+            "{{_pickBy()}}": "객체 속성으로 구성된 객체 생성 true 반환",
+            "{{_result()}}": "분해된 값이 상위 객체의 이 바인딩으로 호출되고 결과가 반환되는 경우를 제외하면 \"_.get\" 와 같음",
+            "{{_set()}}": "객체의 경로에서 값을 설정. 만약 경로의 일부가 존재하지 않는다면, 그것은 생성. 누락된 인덱스 속성에 대해 배열이 생성되고 다른 모든 누락된 속성에 대해 객체가 생성. \"_.setWith\"를 사용하여 경로 생성 사용자 정의",
+            "{{_setWith()}}": "이 메서드는 경로 객체를 생산하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 _.set 와 같음. 사용자 정의가 되지 않은 경로 생성을 반환하는 경우 대신 메서드에서 처리",
+            "{{_toPairs()}}": "\"_fromPairs\"에서 사용할 수 있는 객체에 대해 열거 가능한 문자열 키-값 쌍의 배열 생성. 객체가 지도 또는 세트인 경우 해당 항목이 반환됨",
+            "{{_toPairsIn()}}": "\"_fromPairs\"에서 사용할 수 있는 객체에 대해 상속된 열거형 문자열 키 값 쌍으로 배열 생성. 객체가 지도 또는 세트인 경우 해당 항목이 반환됨",
+            "{{_transform()}}": "_.reduce\"의 대안으로, 이 메서드는 객체를 새로운 축열조 객체로 변환하며, 각 호출은 축열조 객체가 잠재적으로 변질될 수 있는 각 열거 문자열 키 속성을 반복적으로 실행한 결과물. 축열조가 제공되지 않을 경우 동일한 [[Prototype]]를 가진 새 객체가 사용",
+            "{{_unset()}}": "객체 경로에서 속성 제거",
+            "{{_update()}}": "설정할 값을 생성하기 위해 업데이트 프로그램을 허용하는 것을 제외 \"_.set\" 와 같음. 사용경로 생성을 사용자 정의하려면 \"_.updateWith\"를 사용",
+            "{{_updateWith()}}": "이 메서드는 경로 객체를 생성하기 위해 호출되는 사용자 정의를 받아들인다는 점을 제외하면 \"_.update\" 와 같음. 사용자 정의가 되지 않은 경로 생성을 반환하는 경우 대신 메서드에서 처리",
+            "{{_values()}}": "객체의 열거형 문자열 키 속성 값의 배열 생성",
+            "{{_valuesIn()}}": "객체의 자체 및 상속된 열거형 문자열 키 속성 값의 배열 생성"
+        }
+    },
+
+    "Util": {
+        "Utility Functions": {
+            "{{_attempt()}}": "결과 또는 걸린 오류 객체를 반환하여 func를 호출하려고 시도함. 추가 인수가 호출될 때 func에 제공됨",
+            "{{_bindAll()}}": "객체의 메서드를 객체 자체에 바인딩하여 기존 메서드를 덮어씀.",
+            "{{_cond()}}": "쌍에 걸쳐 반복하는 함수를 생성하고 첫 번째 속성에 해당 함수를 호출하여 ture를 반환. 속성 함수 쌍은 생성된 함수의 이 바인딩과 인수로 호출",
+            "{{_conforms()}}": "주어진 객체의 해당 속성 값으로 소스의 특성을 호출하여 모든 속성이 true로 반환되는 경우 true로 반환하고, 그렇지 않으면 false로 반환하는 함수 생성",
+            "{{_constant()}}": "값을 반환하는 함수 생성",
+            "{{_defaultTo()}}": "기본값을 제자리에 반환해야 하는지 여부를 확인하려면 값을 확인. 값이 NaN, null 또는 정의되지 않은 경우 defaultValue가 반환됨",
+            "{{_flow()}}": "생성된 함수의 이 바인딩으로 주어진 함수의 호출 결과를 반환하는 함수를 생성하며, 여기서 각 연속 호출은 이전 함수의 반환 값을 제공",
+            "{{_flowRight()}}": "This method is like \"_.flow\" except that it creates a function that invokes the given functions from right to left.",
+            "{{_identity()}}": "이 메서드는 받는 첫 번째 인수를 반환",
+            "{{_iteratee()}}": "생성된 함수의 인수로 func를 호출하는 함수를 생성. func가 속성 이름인 경우 생성된 함수는 지정된 요소에 대한 속성 값을 반환. func가 배열 또는 객체인 경우, 생성된 함수는 동등한 소스 속성을 포함하는 요소에 대해 true를 반환하고, 그렇지 않으면 false를 반환",
+            "{{_matches()}}": "지정된 객체와 소스의 부분 깊은 비교를 수행하여 지정된 객체에 등가 속성 값이 있는 경우 true를 반환하고, 그렇지 않은 경우 false를 반환하는 함수를 생성",
+            "{{_matchesProperty()}}": "지정된 객체의 경로에 있는 값과 srcValue 간의 부분 깊은 비교를 수행하는 함수를 생성하며, 객체 값이 동일한 경우 true를 반환하고, 그렇지 않으면 false",
+            "{{_method()}}": "지정된 객체의 경로에서 메서드를 호출하는 함수를 생성. 호출된 메서드에 추가 인수가 제공됨",
+            "{{_methodOf()}}": "\"_.method\"의 반대인 이 메서드는 주어진 객체의 경로에서 메서드를 호출하는 함수를 만듬. 호출된 메서드에 추가 인수가 제공됨",
+            "{{_mixin()}}": "소스 객체의 열거 가능한 모든 문자열 키 지정 함수 속성을 대상 객체에 추가. 물체가 함수인 경우, 그 시제품에도 메서드이 추가",
+            "{{_noConflict()}}": "_ 변수를 이전 값으로 되돌리고 lodash 함수에 대한 참조 반환",
+            "{{_noop()}}": "undefined를 반환",
+            "{{_nthArg()}}": "인덱스 n에서 인수를 가져오는 함수를 생성. n이 negative이면 끝에서 n번째 인수가 반환",
+            "{{_over()}}": "받는 인수로 반복해서 호출하고 결과를 반환하는 함수 생성",
+            "{{_overEvery()}}": "받는 인수와 함께 호출될 때 모든 속성들이 true로 반환되는지 확인하는 함수 생성",
+            "{{_overSome()}}": "받는 인수와 함께 호출될 때 속성들이 true로 반환되는지 확인하는 함수 생성",
+            "{{_property()}}": "지정된 객체의 경로에서 값을 반환하는 함수 생성",
+            "{{_propertyOf()}}": "\"_.property\"의 반대 메서드인 이 메서드는 주어진 객체 경로에서 값을 반환하는 함수를 생성",
+            "{{_range()}}": "처음부터 끝까지 진행하되 포함하지 않는 일련의 숫자(양수 및/또는 음수)를 생성. -1단계는 끝 또는 단계 없이 음의 시작을 지정하는 경우에 사용. 엔드가 지정되지 않은 경우, 시작과 함께 시작한 다음 0으로 설정됨",
+            "{{_rangeRight()}}": "값을 내림차순으로 채우는 것을 제외하고 \"_.range\"와 같음",
+            "{{_runInContext()}}": "컨텍스트 객체를 사용하여 새 lodash 기능 생성",
+            "{{_stubArray()}}": "새로운 빈 배열 반환",
+            "{{_stubFalse()}}": "false를 반환",
+            "{{_stubObject()}}": "새로운 빈 객체 반환",
+            "{{_stubString()}}": "빈 string 반환",
+            "{{_stubTrue()}}": "true를 반환",
+            "{{_times()}}": "반복 횟수 n회 호출하여 각 호출 결과의 배열 반환",
+            "{{_toPath()}}": "값을 속성 경로 배열로 변환",
+            "{{_uniqueId()}}": "고유 한 ID를 생성. prefix가 주어진다면 ID에 추가"
+        }
+    },
+
+    "__PAGE__": "UPL Core",
+    "Core": {
+        "Basic": {
+            "constructor": "코어명을 네이밍 반환",
+            "version": "코어 버전 반환",
+            "tmpInput": "input 요소의 특정속성 지원 여부 체크값 반환",
+            "tmpNode": "CSS의 특정속성 지원 여부 체크값 반환",
+            "noConflict()": "코어 네이밍 식별자 변경",
+            "define()": "코어 하위 name에 해당하는 확장 네임스페이스를 생성"
+        }
+    },
+
+    "Core Expansion": {
+        "Debug": {
+            "log()": "console을 지원하지 않는 브라우저 환경 디버깅 지원 기능"
+        },
+        "Async Import": {
+            "loadcss()": "CSS 파일을 동적으로 로드",
+            "loadjs()": "JS 파일을 동적으로 로드",
+            "load()": "CSS, JS 파일을 동적으로 로드",
+            "addAliases()": "일부 별칭 네이밍을 사용하여 로드"
+        },
+        "Bind jQuery": {
+            "bindjQuery()": "Class를 jQuery 패턴화로 바인딩해서 플러그인으로 사용"
+        },
+        "Class": {
+            "Class()": "Class 문법 디자인 패턴 사용"
+        },
+        "Dependency": {
+            "dependency()": "의존성 모듈 디자인 패턴 추가/사용"
+        },
+        "Namespace": {
+            "namespace()": "네임스페이스 공간을 생성하고 객체를 설정하며 \".\"을 구분자로 하여 하위 네임스페이스 생성"
+        },
+        "RGB to Hex": {
+            "rgb2hex()": "RGB 컬러값을 HEX 컬러값으로 변환"
+        },
+        "DelayRun": {
+            "delayRun()": "시간을 지연하는 이벤트"
+        },
+        "Template": {
+            "template()": "템플릿 생성 및 문자열 치환"
+        },
+        "browser": {
+            "isTouch": "터치디바이스 지원 체크 반환",
+            "isRetina": "레티나 디스플레이 지원 체크 반환",
+            "isMobile": "모바일 디바이스 환경 체크 반환",
+            "isMac": "Mac OS 환경 체크 반환",
+            "isLinux": "Linux OS 환경 체크 반환",
+            "isWin": "Windows OS 환경 체크 반환",
+            "is64Bit": "64 비트 플랫폼 체크 반환",
+            "isIE": "IE 브라우저 체크 반환",
+            "ieVersion": "IE 브라우저 버전 반환",
+            "isOpera": "Opera 브라우저 체크 반환",
+            "isChrome": "Chrome 브라우저 체크 반환",
+            "isSafari": "Safari 브라우저 체크 반환",
+            "isWebKit": "Webkit 브라우저 계열 엔진 체크 반환",
+            "isGecko": "Gecko 브라우저 계열 엔진 체크 반환",
+            "isIETri4": "Trident 브라우저 계열 엔진 체크 반환",
+            "isAir": "Adobe Air 환경 체크 반환",
+            "isIOS": "IPhone, iPad 디바이스 환경 체크 반환",
+            "isAndroid": "Android 디바이스 환경 체크 반환",
+            "iosVersion": "IOS 버전 반환",
+            "androidVersion": "Android 버전 반환"
+        },
+        "CSS3": {
+            "prefix()": "주어진 css명 앞에 현재 브라우저에 해당하는 벤더 prefix 추가",
+            "support": "CSS3의 지원여부 체크 반환",
+            "support3D": "CSS3의 3D 지원여부 체크 반환",
+            "has()": "주어진 CSS 속성 지원여부 체크 반환",
+            "transform": "CSS3의 transform 속성의 벤더 prefix를 반환",
+            "transitionTimingFunction": "CSS3의 transitionTimingFunction 속성의 벤더 prefix를 반환",
+            "transitionDuration": "CSS3의 transitionDuration 속성의 벤더 prefix를 반환",
+            "transitionDelay": "RCSS3의 transitionDelay 속성의 벤더 prefix를 반환",
+            "transformOrigin": "CSS3의 transformOrigin 속성의 벤더 prefix를 반환",
+            "transition": "CSS3의 transition 속성의 벤더 prefix를 반환",
+            "translateZ": "CSS3의 translateZ 속성의 벤더 prefix를 반환",
+            "transitionEnd": "CSS3의 transitionEnd 속성의 벤더 prefix를 반환",
+            "position()": "엘리먼트 요소의 현재 위치 반환",
+            "move()": "CSS3 속성을 사용한 이동",
+            "animate()": "CSS3 속성을 사용한 애니메이션 모션화",
+            "transitionStyle()": "지정한 엘리먼트에 css3 속성의 transitionStyle 추가"
+        }
+    },
+
+    "jQuery Expansion": {
+        "Plugin": {
+            "cssPseudo()": "CSS 가상 선택자 \":after\", \":before\" 셀렉터 제어",
+            "maxlengthNumber()": "input 타입이 number인 입력창 엘리먼트에 maxlength 속성 지원"
+        },
+        "Utility": {
+            "{{$version}}": "jQuery의 버전을 확인",
+            "{{$$()}}": "한번 탐색했던 요소를 다시 재탐색하지 않게 제어",
+            "{{$log()}}": "\"console.log\"와 같은 콘솔 메시지 노출"
+        },
+        "Filter": {
+            "focusable": "포커스 속성이 있는 엘리먼트 제어",
+            "displays": "display 속성값으로 엘리먼트 제어"
+        },
+        "Custom Event": {
+            "resizeend": "브라우저 리사이즈시 마지막 시점에 발생되는 이벤트 핸들러",
+            "scrollend": "스크롤 시 마지막 시점에 발생되는 이벤트 핸들러",
+            "infinitescroll": "하단에 스크롤 도달시 발생되는 이벤트 핸들러",
+            "mouseleftclick": "마우스 좌측 클릭 이벤트 핸들러",
+            "mouserightclick": "마우스 우측 클릭 이벤트 핸들러",
+            "mousewheelclick": "마우스 휠 클릭 이벤트 핸들러",
+            "mousewheelup": "마우스 휠 상단 이벤트 핸들러",
+            "mousewheeldown": "마우스 휠 하단 이벤트 핸들러"
+        }
+    },
+
+    "Polyfill": {
+        "Polyfill": {
+            "<picture>": "HTML5의 picture 엘리먼트 폴리필 기능 지원",
+            "<template>": "HTML5의 템플릿 엘리먼트 폴리필 기능 지원",
+            "matchMedia()": "미디어쿼리 폴리필 기능 지원"
+        }
+    },
+
+    "Module": {
+        "Component": {
+            "MobilePreview": "모바일 마크업 리스트맵에서 간편하게 확인 가능한 페이지 미리보기 기능",
+            "MobileDeviceInfo": "모바일 디바이스 종류별, 버전별로 정보를 제공하여 분기처리하는 기능",
+            "Accordion": "아코디언 형태의 리스트를 쉽게 구현 가능하도록 하는 기능",
+            "VisualRolling": "롤링 슬라이드가 필요한 배너를 쉽게 구현 가능하도록 하는 기능",
+            "TabMenu": "탭메뉴를 쉽게 구현 가능하도록 하는 기능",
+            "HamMenu": "모바일 전체 메뉴를 열고 닫는 버튼, 메뉴의 컨텐츠 노출까지 하도록 하는 기능",
+            "Modal": "레이어팝업을 쉽게 구현 가능하도록 하는 기능",
+            "Selectbox": "커스텀 셀렉트박스를 쉽게 구현 가능하도록 하는 기능",
+            "Toast": "토스트팝업을 쉽게 구현 가능하도록 하는 기능",
+            "Checkboxes": "여러 체크박스의 전체선택을 구현 가능하도록 하는 기능",
+            "Scrolling": "커스텀된 스크롤바를 사용하는 기능",
+            "AccordionCover": "아코디언 형태의 가로형타입 리스트 기능",
+            "AccordionSwipe": "아코디언 형태로 세로방향 스와이프 기능",
+            "ProgressScrollIndicator": "스크롤시 진행률 바를 표시하는 기능",
+            "FreezeTable": "테이블 요소 안에 thead, tfoot, column 부분을 고정하여 스크롤링을 가능하게 하는 기능"
+        }
+    }
+}

@@ -9,47 +9,56 @@
                         {
                             "link": "http://api.jquery.com/attribute-contains-prefix-selector/",
                             "tooltlp": "지정된 속성의 값이 지정된 문자열과 같거나 해당 문자열 뒤에 하이픈(-)이 있는 요소를 선택",
-                            "value": "[name|=\"value\"]"
+                            "value": "[name|=\"value\"]",
+                            "exceptionValue": "{{name|=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/attribute-contains-selector/",
                             "tooltlp": "지정된 하위 문자열을 포함하는 값으로 지정된 속성을 가진 요소 선택",
-                            "value": "[name*=\"value\"]"
+                            "value": "[name*=\"value\"]",
+                            "exceptionValue": "{{name*=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/attribute-contains-word-selector/",
                             "tooltlp": "지정된 단어가 포함된 값으로 지정된 속성을 가진 요소 선택(공백으로 구분)",
-                            "value": "[name~=\"value\"]"
+                            "value": "[name~=\"value\"]",
+                            "exceptionValue": "{{name~=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/attribute-ends-with-selector/",
                             "tooltlp": "지정된 속성이 지정된 문자열로 정확히 끝나는 값을 가진 요소를 선택. 비교는 대소문자를 구분",
-                            "value": "[name$=\"value\"]"
+                            "value": "[name$=\"value\"]",
+                            "exceptionValue": "{{name$=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/attribute-equals-selector/",
                             "tooltlp": "값이 특정 값과 정확히 같은 지정된 속성을 가진 요소 선택",
-                            "value": "[name=\"value\"]"
+                            "value": "[name=\"value\"]",
+                            "exceptionValue": "{{name=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/attribute-not-equal-selector/",
                             "tooltlp": "지정된 특성이 없거나 지정된 특성이 있지만 특정 값이 없는 요소를 선택",
-                            "value": "[name!=\"value\"]"
+                            "value": "[name!=\"value\"]",
+                            "exceptionValue": "{{name!=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/attribute-starts-with-selector/",
                             "tooltlp": "지정된 문자열로 정확히 시작하는 값으로 지정된 속성을 가진 요소 선택",
-                            "value": "[name^=\"value\"]"
+                            "value": "[name^=\"value\"]",
+                            "exceptionValue": "{{name^=value}}"
                         },
                         {
                             "link": "http://api.jquery.com/has-attribute-selector/",
                             "tooltlp": "값이 지정된 특성을 가진 요소 선택",
-                            "value": "[name]"
+                            "value": "[name]",
+                            "exceptionValue": "{{name}}"
                         },
                         {
                             "link": "http://api.jquery.com/multiple-attribute-selector/",
                             "tooltlp": "지정된 모든 특성 필터와 일치하는 요소 선택",
-                            "value": "[name=\"value\"][name2=\"value2\"]"
+                            "value": "[name=\"value\"][name2=\"value2\"]",
+                            "exceptionValue": "{{name=value}}{{name2=value2}}"
                         }
                     ]
                 },
@@ -144,7 +153,8 @@
                         {
                             "link": "http://api.jquery.com/class-selector/",
                             "tooltlp": "지정된 클래스로 모든 요소를 선택",
-                            "value": ".class"
+                            "value": ".class",
+                            "exceptionValue": "{{class}}"
                         },
                         {
                             "link": "http://api.jquery.com/element-selector/",
@@ -159,7 +169,8 @@
                         {
                             "link": "http://api.jquery.com/multiple-selector/",
                             "tooltlp": "지정된 모든 선택자의 결합된 결과 선택",
-                            "value": "selector1, selectorN, ..."
+                            "value": "selector1, selectorN, ...",
+                            "exceptionValue": "{{selectorN}}"
                         }
                     ]
                 },
@@ -384,32 +395,38 @@
                         {
                             "link": "http://api.jquery.com/height/",
                             "tooltlp": "일치하는 요소 집합의 첫 번째 요소에 대한 현재 계산된 높이 가져오기",
-                            "value": ".height()"
+                            "value": ".height()",
+                            "exceptionValue": "{{height()}}"
                         },
                         {
                             "link": "http://api.jquery.com/innerHeight/",
                             "tooltlp": "패딩을 포함하지만 테두리가 아닌 일치 요소 집합의 첫 번째 요소에 대해 현재 계산된 높이 가져오기",
-                            "value": ".innerHeight()"
+                            "value": ".innerHeight()",
+                            "exceptionValue": "{{innerHeight()}}"
                         },
                         {
                             "link": "http://api.jquery.com/innerWidth/",
                             "tooltlp": "패딩을 포함하되 테두리는 포함하지 않는 일치 요소 집합의 첫 번째 요소에 대한 현재 계산된 너비",
-                            "value": ".innerWidth()"
+                            "value": ".innerWidth()",
+                            "exceptionValue": "{{innerWidth()}}"
                         },
                         {
                             "link": "http://api.jquery.com/outerHeight/",
                             "tooltlp": "패딩, 테두리 및 선택적 여유 등 일치하는 요소 집합의 첫 번째 요소에 대한 현재 계산된 높이 가져오기",
-                            "value": ".outerHeight()"
+                            "value": ".outerHeight()",
+                            "exceptionValue": "{{outerHeight()}}"
                         },
                         {
                             "link": "http://api.jquery.com/outerWidth/",
                             "tooltlp": "패딩 및 테두리를 포함하여 일치하는 요소 집합의 첫 번째 요소에 대한 현재 계산된 폭 가져오기",
-                            "value": ".outerWidth()"
+                            "value": ".outerWidth()",
+                            "exceptionValue": "{{outerWidth()}}"
                         },
                         {
                             "link": "http://api.jquery.com/width/",
                             "tooltlp": "일치하는 요소 집합의 첫 번째 요소에 대한 현재 계산된 폭 가져오기",
-                            "value": ".width()"
+                            "value": ".width()",
+                            "exceptionValue": "{{width()}}"
                         }
                     ]
                 },
@@ -419,27 +436,32 @@
                         {
                             "link": "http://api.jquery.com/offset/",
                             "tooltlp": "일치하는 요소 집합에서 문서를 기준으로 첫 번째 요소의 현재 좌표 가져오기",
-                            "value": ".offset()"
+                            "value": ".offset()",
+                            "exceptionValue": "{{offset()}}"
                         },
                         {
                             "link": "http://api.jquery.com/offsetParent/",
                             "tooltlp": "배치되는 가장 가까운 상위 요소 가져오기",
-                            "value": ".offsetParent()"
+                            "value": ".offsetParent()",
+                            "exceptionValue": "{{offsetParent()}}"
                         },
                         {
                             "link": "http://api.jquery.com/position/",
                             "tooltlp": "일치하는 요소 집합에서 간격띄우기 상위 집합을 기준으로 첫 번째 요소의 현재 좌표 가져오기",
-                            "value": ".position()"
+                            "value": ".position()",
+                            "exceptionValue": "{{position()}}"
                         },
                         {
                             "link": "http://api.jquery.com/scrollLeft/",
                             "tooltlp": "일치하는 요소 집합의 첫 번째 요소에 대한 스크롤 막대의 현재 수평 위치 가져오기",
-                            "value": ".scrollLeft()"
+                            "value": ".scrollLeft()",
+                            "exceptionValue": "{{scrollLeft()}}"
                         },
                         {
                             "link": "http://api.jquery.com/scrollTop/",
                             "tooltlp": "일치하는 요소 집합의 첫 번째 요소에 대한 스크롤 막대의 현재 수직 위치 가져오기",
-                            "value": ".scrollTop()"
+                            "value": ".scrollTop()",
+                            "exceptionValue": "{{scrollTop()}}"
                         }
                     ]
                 },
@@ -454,7 +476,8 @@
                         {
                             "link": "http://api.jquery.com/data/",
                             "tooltlp": "일치하는 요소와 연결된 임의 데이터 저장",
-                            "value": ".data()"
+                            "value": ".data()",
+                            "exceptionValue": "{{data()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.hasData/",
@@ -469,7 +492,8 @@
                         {
                             "link": "http://api.jquery.com/removeData/",
                             "tooltlp": "이전에 저장된 데이터 조각 제거",
-                            "value": ".removeData()"
+                            "value": ".removeData()",
+                            "exceptionValue": "{{removeData()}}"
                         }
                     ]
                 }
@@ -483,8 +507,9 @@
                     "list": [
                         {
                             "link": "http://api.jquery.com/clone/",
-                            "tooltlp": "일치하는 요소 집합의 깊은 사본 작성",
-                            "value": ".clone()"
+                            "tooltlp": "일치하는 요소 집합의 깊은 사본 생성",
+                            "value": ".clone()",
+                            "exceptionValue": "{{clone()}}"
                         }
                     ]
                 },
@@ -494,17 +519,20 @@
                         {
                             "link": "http://api.jquery.com/wrap/",
                             "tooltlp": "일치하는 요소 집합의 각 요소 주위에 HTML 구조 배치",
-                            "value": ".wrap()"
+                            "value": ".wrap()",
+                            "exceptionValue": "{{wrap()}}"
                         },
                         {
                             "link": "http://api.jquery.com/wrapAll/",
                             "tooltlp": "일치하는 요소 집합의 모든 요소 주위에 HTML 구조 배치",
-                            "value": ".wrapAll()"
+                            "value": ".wrapAll()",
+                            "exceptionValue": "{{wrapAll()}}"
                         },
                         {
                             "link": "http://api.jquery.com/wrapInner/",
                             "tooltlp": "일치하는 요소 집합에서 각 요소의 내용 주위에 HTML 구조 배치",
-                            "value": ".wrapInner()"
+                            "value": ".wrapInner()",
+                            "exceptionValue": "{{wrapInner()}}"
                         }
                     ]
                 },
@@ -514,32 +542,38 @@
                         {
                             "link": "http://api.jquery.com/append/",
                             "tooltlp": "일치하는 요소 집합의 각 요소 끝에 매개변수로 지정된 내용을 삽입",
-                            "value": ".append()"
+                            "value": ".append()",
+                            "exceptionValue": "{{append()}}"
                         },
                         {
                             "link": "http://api.jquery.com/appendTo/",
                             "tooltlp": "일치하는 요소 집합의 모든 요소를 대상 끝에 삽입",
-                            "value": ".appendTo()"
+                            "value": ".appendTo()",
+                            "exceptionValue": "{{appendTo()}}"
                         },
                         {
                             "link": "http://api.jquery.com/html/",
                             "tooltlp": "일치하는 요소 집합에서 첫 번째 요소의 HTML 내용 가져오기",
-                            "value": ".html()"
+                            "value": ".html()",
+                            "exceptionValue": "{{html()}}"
                         },
                         {
                             "link": "http://api.jquery.com/prepend/",
                             "tooltlp": "일치하는 요소 집합의 각 요소의 시작 부분에 매개변수로 지정된 내용 삽입",
-                            "value": ".prepend()"
+                            "value": ".prepend()",
+                            "exceptionValue": "{{prepend()}}"
                         },
                         {
                             "link": "http://api.jquery.com/prependTo/",
                             "tooltlp": "일치하는 요소 집합의 모든 요소를 대상의 시작 부분에 삽입",
-                            "value": ".prependTo()"
+                            "value": ".prependTo()",
+                            "exceptionValue": "{{prependTo()}}"
                         },
                         {
                             "link": "http://api.jquery.com/text/",
                             "tooltlp": "일치하는 요소 집합에서 하위 항목을 포함하여 각 요소의 결합된 텍스트 내용 가져오기",
-                            "value": ".text()"
+                            "value": ".text()",
+                            "exceptionValue": "{{text()}}"
                         }
                     ]
                 },
@@ -549,22 +583,26 @@
                         {
                             "link": "http://api.jquery.com/after/",
                             "tooltlp": "일치하는 요소 집합의 각 요소 뒤에 매개변수로 지정된 내용을 삽입",
-                            "value": ".after()"
+                            "value": ".after()",
+                            "exceptionValue": "{{after()}}"
                         },
                         {
                             "link": "http://api.jquery.com/before/",
                             "tooltlp": "일치하는 요소 집합의 각 요소 앞에 매개변수로 지정된 내용을 삽입",
-                            "value": ".before()"
+                            "value": ".before()",
+                            "exceptionValue": "{{before()}}"
                         },
                         {
                             "link": "http://api.jquery.com/insertAfter/",
                             "tooltlp": "대상 뒤에 일치하는 요소 집합의 모든 요소를 삽입",
-                            "value": ".insertAfter()"
+                            "value": ".insertAfter()",
+                            "exceptionValue": "{{insertAfter()}}"
                         },
                         {
                             "link": "http://api.jquery.com/insertBefore/",
                             "tooltlp": "일치하는 요소 집합의 모든 요소를 대상 앞에 삽입",
-                            "value": ".insertBefore()"
+                            "value": ".insertBefore()",
+                            "exceptionValue": "{{insertBefore()}}"
                         }
                     ]
                 },
@@ -574,22 +612,26 @@
                         {
                             "link": "http://api.jquery.com/detach/",
                             "tooltlp": "DOM에서 일치하는 요소 집합을 제거",
-                            "value": ".detach()"
+                            "value": ".detach()",
+                            "exceptionValue": "{{detach()}}"
                         },
                         {
                             "link": "http://api.jquery.com/empty/",
                             "tooltlp": "일치하는 요소 집합의 모든 하위 노드를 DOM에서 제거",
-                            "value": ".empty()"
+                            "value": ".empty()",
+                            "exceptionValue": "{{empty()}}"
                         },
                         {
                             "link": "http://api.jquery.com/remove/",
                             "tooltlp": "DOM에서 일치하는 요소 집합 제거",
-                            "value": ".remove()"
+                            "value": ".remove()",
+                            "exceptionValue": "{{remove()}}"
                         },
                         {
                             "link": "http://api.jquery.com/unwrap/",
                             "tooltlp": "일치하는 요소 집합의 부모들을 DOM에서 제거하여 일치하는 요소를 제자리에 두십",
-                            "value": ".unwrap()"
+                            "value": ".unwrap()",
+                            "exceptionValue": "{{unwrap()}}"
                         }
                     ]
                 },
@@ -599,12 +641,14 @@
                         {
                             "link": "http://api.jquery.com/replaceAll/",
                             "tooltlp": "각 대상 요소를 일치된 요소 집합으로 교체",
-                            "value": ".replaceAll()"
+                            "value": ".replaceAll()",
+                            "exceptionValue": "{{replaceAll()}}"
                         },
                         {
                             "link": "http://api.jquery.com/replaceWith/",
                             "tooltlp": "일치하는 요소 집합의 각 요소를 제공된 새 컨텐츠로 교체",
-                            "value": ".replaceWith()"
+                            "value": ".replaceWith()",
+                            "exceptionValue": "{{replaceWith()}}"
                         }
                     ]
                 }
@@ -619,47 +663,56 @@
                         {
                             "link": "http://api.jquery.com/eq/",
                             "tooltlp": "일치하는 요소 집합을 지정된 색인에 있는 것으로 줄임",
-                            "value": ".eq()"
+                            "value": ".eq()",
+                            "exceptionValue": "{{eq()}}"
                         },
                         {
                             "link": "http://api.jquery.com/filter/",
                             "tooltlp": "일치하는 요소 집합을 선택자와 일치하거나 기능의 테스트를 통과한 요소 집합으로 줄임",
-                            "value": ".filter()"
+                            "value": ".filter()",
+                            "exceptionValue": "{{filter()}}"
                         },
                         {
                             "link": "http://api.jquery.com/first/",
                             "tooltlp": "일치하는 요소 집합을 세트의 첫 번째 항목으로 축소",
-                            "value": ".first()"
+                            "value": ".first()",
+                            "exceptionValue": "{{first()}}"
                         },
                         {
                             "link": "http://api.jquery.com/has/",
                             "tooltlp": "일치하는 요소 집합을 선택자 또는 DOM 요소와 일치하는 하위 항목으로 축소",
-                            "value": ".has()"
+                            "value": ".has()",
+                            "exceptionValue": "{{has()}}"
                         },
                         {
                             "link": "http://api.jquery.com/is/",
                             "tooltlp": "셀렉터에 대해 현재 일치하는 요소 집합을 확인하고 이러한 요소 중 하나 이상이 셀렉터와 일치할 경우 true를 반환",
-                            "value": ".is()"
+                            "value": ".is()",
+                            "exceptionValue": "{{is()}}"
                         },
                         {
                             "link": "http://api.jquery.com/last/",
                             "tooltlp": "일치하는 요소 집합을 세트의 마지막 요소 집합으로 축소",
-                            "value": ".last()"
+                            "value": ".last()",
+                            "exceptionValue": "{{last()}}"
                         },
                         {
                             "link": "http://api.jquery.com/map/",
                             "tooltlp": "현재 일치된 세트의 각 요소를 함수를 통과시켜 반환 값을 포함하는 새로운 jQuery 객체를 생성",
-                            "value": ".map()"
+                            "value": ".map()",
+                            "exceptionValue": "{{map()}}"
                         },
                         {
                             "link": "http://api.jquery.com/not/",
                             "tooltlp": "일치하는 요소 집합에서 요소를 제거",
-                            "value": ".not()"
+                            "value": ".not()",
+                            "exceptionValue": "{{not()}}"
                         },
                         {
                             "link": "http://api.jquery.com/slice/",
                             "tooltlp": "일치하는 요소 집합을 지수 범위에 의해 지정된 부분 집합으로 축소",
-                            "value": ".slice()"
+                            "value": ".slice()",
+                            "exceptionValue": "{{slice()}}"
                         }
                     ]
                 },
@@ -669,17 +722,26 @@
                         {
                             "link": "http://api.jquery.com/add/",
                             "tooltlp": "일치하는 요소 집합에 요소를 추가",
-                            "value": ".add()"
+                            "value": ".add()",
+                            "exceptionValue": "{{add()}}"
+                        },
+                        {
+                            "link": "http://api.jquery.com/andSelf/",
+                            "tooltlp": "스택의 이전 요소 세트를 현재 세트에 추가",
+                            "value": ".andSelf()",
+                            "exceptionValue": "{{andSelf()}}"
                         },
                         {
                             "link": "http://api.jquery.com/contents/",
                             "tooltlp": "텍스트 및 설명 노드를 포함하여 일치하는 요소 집합에서 각 요소의 하위 항목을 가져옴",
-                            "value": ".contents()"
+                            "value": ".contents()",
+                            "exceptionValue": "{{contents()}}"
                         },
                         {
                             "link": "http://api.jquery.com/end/",
                             "tooltlp": "현재 체인의 최근 필터링 작업을 종료하고 일치하는 요소 집합을 이전 상태로 되돌림",
-                            "value": ".end()"
+                            "value": ".end()",
+                            "exceptionValue": "{{end()}}"
                         }
                     ]
                 },
@@ -689,67 +751,80 @@
                         {
                             "link": "http://api.jquery.com/children/",
                             "tooltlp": "선택적으로 셀렉터에 의해 필터링된 일치하는 요소 집합의 각 요소의 하위 항목을 가져옴",
-                            "value": ".children()"
+                            "value": ".children()",
+                            "exceptionValue": "{{children()}}"
                         },
                         {
                             "link": "http://api.jquery.com/closest/",
                             "tooltlp": "현재 요소에서 시작하여 DOM 트리를 통해 위로 진행하면서 셀렉터와 일치하는 첫 번째 조상 요소를 가져옴",
-                            "value": ".closest()"
+                            "value": ".closest()",
+                            "exceptionValue": "{{closest()}}"
                         },
                         {
                             "link": "http://api.jquery.com/find/",
                             "tooltlp": "현재 일치하는 요소 집합에서 선택자로 필터링한 각 요소의 하위 집합을 가져옴",
-                            "value": ".find()"
+                            "value": ".find()",
+                            "exceptionValue": "{{find()}}"
                         },
                         {
                             "link": "http://api.jquery.com/next/",
                             "tooltlp": "일치하는 요소 집합에서 각 요소의 바로 뒤에 있는 형제를 선택. 선택자가 제공된 경우, 선택자와 일치하는 경우에만 다음 형제를 검색",
-                            "value": ".next()"
+                            "value": ".next()",
+                            "exceptionValue": "{{next()}}"
                         },
                         {
                             "link": "http://api.jquery.com/nextAll/",
                             "tooltlp": "선택적으로 셀렉터에 의해 필터링된 일치 요소 집합에서 각 요소의 다음 형제자매를 모두 가져옴",
-                            "value": ".nextAll()"
+                            "value": ".nextAll()",
+                            "exceptionValue": "{{nextAll()}}"
                         },
                         {
                             "link": "http://api.jquery.com/nextUntil/",
                             "tooltlp": "셀렉터에 일치하는 요소를 포함하지 않고 각 요소의 후속 형제자매 모두를 위로 이동시킴",
-                            "value": ".nextUntil()"
+                            "value": ".nextUntil()",
+                            "exceptionValue": "{{nextUntil()}}"
                         },
                         {
                             "link": "http://api.jquery.com/parent/",
                             "tooltlp": "선택적으로 셀렉터에 의해 필터링된 일치 요소의 현재 집합에서 각 요소의 상위 항목을 가져옴",
-                            "value": ".parent()"
+                            "value": ".parent()",
+                            "exceptionValue": "{{parent()}}"
                         },
                         {
                             "link": "http://api.jquery.com/parents/",
                             "tooltlp": "선택적으로 셀렉터에 의해 필터링된 현재 일치하는 요소 집합에서 각 요소의 조상을 구함",
-                            "value": ".parents()"
+                            "value": ".parents()",
+                            "exceptionValue": "{{parents()}}"
                         },
                         {
                             "link": "http://api.jquery.com/parentsUntil/",
                             "tooltlp": "선택자와 일치하는 요소를 포함하지 않고 현재 일치하는 요소 집합에서 각 요소의 조상을 구함",
-                            "value": ".parentsUntil()"
+                            "value": ".parentsUntil()",
+                            "exceptionValue": "{{parentsUntil()}}"
                         },
                         {
                             "link": "http://api.jquery.com/prev/",
                             "tooltlp": "선택적으로 셀렉터에 의해 필터링된 일치 요소 집합에서 각 요소의 바로 앞의 형제 가져옴",
-                            "value": ".prev()"
+                            "value": ".prev()",
+                            "exceptionValue": "{{prev()}}"
                         },
                         {
                             "link": "http://api.jquery.com/prevAll/",
                             "tooltlp": "선택적으로 셀렉터에 의해 필터링된 일치 요소 집합에서 각 요소의 모든 선행 형제자매를 가져옴",
-                            "value": ".prevAll()"
+                            "value": ".prevAll()",
+                            "exceptionValue": "{{prevAll()}}"
                         },
                         {
                             "link": "http://api.jquery.com/prevUntil/",
                             "tooltlp": "각 요소의 모든 이전 형제자매에게 선택자와 일치하는 요소를 포함하지 않도록 함",
-                            "value": ".prevUntil()"
+                            "value": ".prevUntil()",
+                            "exceptionValue": "{{prevUntil()}}"
                         },
                         {
                             "link": "http://api.jquery.com/siblings/",
                             "tooltlp": "선택적으로 셀렉터에 의해 필터링된 일치하는 요소 집합의 각 요소의 형제자매를 가져옴",
-                            "value": ".siblings()"
+                            "value": ".siblings()",
+                            "exceptionValue": "{{siblings()}}"
                         }
                     ]
                 }
@@ -764,87 +839,105 @@
                         {
                             "link": "http://api.jquery.com/event.currentTarget/",
                             "tooltlp": "이벤트 버블화 단계 내의 현재 DOM 요소",
-                            "value": "event.currentTarget"
+                            "value": "event.currentTarget",
+                            "exceptionValue": "{{event-currentTarget}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.data/",
                             "tooltlp": "선택적 데이터는 현재 실행 중인 처리기가 바인딩되었을 때 jQuery.fn.bind로 전달",
-                            "value": "event.data"
+                            "value": "event.data",
+                            "exceptionValue": "{{event-data}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.isDefaultPrevented/",
                             "tooltlp": "event.preventDefault()가 이 이벤트 객체에 대해 호출되었는지 여부를 반환",
-                            "value": "event.isDefaultPrevented()"
+                            "value": "event.isDefaultPrevented()",
+                            "exceptionValue": "{{event-isDefaultPrevented()}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.isImmediatePropagationStopped/",
                             "tooltlp": "event.stopImjimmediatePropagation()이 이 이벤트 객체에 대해 호출되었는지 여부를 반환",
-                            "value": "event.isImmediatePropagationStopped()"
+                            "value": "event.isImmediatePropagationStopped()",
+                            "exceptionValue": "{{event-isImmediatePropagationStopped()}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.isPropagationStopped/",
                             "tooltlp": "event.stopPropagation()이 이 이벤트 객체에 대해 호출되었는지 여부를 반환",
-                            "value": "event.isPropagationStopped()"
+                            "value": "event.isPropagationStopped()",
+                            "exceptionValue": "{{event-isPropagationStopped()}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.namespace/",
                             "tooltlp": "이벤트가 트리거될 때 지정된 네임스페이스",
-                            "value": "event.namespace"
+                            "value": "event.namespace",
+                            "exceptionValue": "{{event-namespace}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.pageX/",
                             "tooltlp": "문서의 왼쪽 가장자리에 대한 마우스 위치",
-                            "value": "event.pageX"
+                            "value": "event.pageX",
+                            "exceptionValue": "{{event-pageX}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.pageY/",
                             "tooltlp": "문서의 맨 위 가장자리에 대한 마우스 위치",
-                            "value": "event.pageY"
+                            "value": "event.pageY",
+                            "exceptionValue": "{{event-pageY}}"
+
                         },
                         {
                             "link": "http://api.jquery.com/event.preventDefault/",
                             "tooltlp": "이 메서드를 호출하면 이벤트의 기본 조치가 트리거되지 않음",
-                            "value": "event.preventDefault()"
+                            "value": "event.preventDefault()",
+                            "exceptionValue": "{{event-preventDefault()}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.relatedTarget/",
                             "tooltlp": "다른 DOM 요소(있는 경우)",
-                            "value": "event.relatedTarget"
+                            "value": "event.relatedTarget",
+                            "exceptionValue": "{{event-relatedTarget}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.result/",
                             "tooltlp": "값이 정의되지 않은 경우를 제외하고 이 이벤트에 의해 트리거된 이벤트 핸들러가 반환한 마지막 값",
-                            "value": "event.result"
+                            "value": "event.result",
+                            "exceptionValue": "{{event-result}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.stopImmediatePropagation/",
                             "tooltlp": "다른 이벤트 핸들러가 호출되는 것을 방지",
-                            "value": "event.stopImmediatePropagation()"
+                            "value": "event.stopImmediatePropagation()",
+                            "exceptionValue": "{{event-stopImmediatePropagation()}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.stopPropagation/",
                             "tooltlp": "이벤트가 DOM 트리가 거품이 나는 것을 방지하여 부모 핸들러가 이벤트에 대한 통지를 받지 못하게 함",
-                            "value": "event.stopPropagation()"
+                            "value": "event.stopPropagation()",
+                            "exceptionValue": "{{event-stopPropagation()}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.target/",
                             "tooltlp": "이벤트를 시작한 DOM 요소",
-                            "value": "event.target"
+                            "value": "event.target",
+                            "exceptionValue": "{{event-target}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.timeStamp/",
                             "tooltlp": "이벤트가 트리거된 시간과 1970년 1월 1일 사이의 밀리초 차이",
-                            "value": "event.timeStamp"
+                            "value": "event.timeStamp",
+                            "exceptionValue": "{{event-timeStamp}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.type/",
                             "tooltlp": "이벤트의 본질을 기술",
-                            "value": "event.type"
+                            "value": "event.type",
+                            "exceptionValue": "{{event-type}}"
                         },
                         {
                             "link": "http://api.jquery.com/event.which/",
                             "tooltlp": "키 또는 버튼 이벤트의 경우 이 특성은 누른 특정 버튼 또는 키를 나타냄",
-                            "value": "event.which"
+                            "value": "event.which",
+                            "exceptionValue": "{{event-which}}"
                         }
                     ]
                 },
@@ -854,67 +947,80 @@
                         {
                             "link": "http://api.jquery.com/click/",
                             "tooltlp": "이벤트 핸들러를 'click' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
-                            "value": ".click()"
+                            "value": ".click()",
+                            "exceptionValue": "{{click()}}"
                         },
                         {
                             "link": "http://api.jquery.com/dblclick/",
                             "tooltlp": "이벤트 핸들러를 'dblclick' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
-                            "value": ".dblclick()"
+                            "value": ".dblclick()",
+                            "exceptionValue": "{{dblclick()}}"
                         },
                         {
                             "link": "http://api.jquery.com/focusin/",
                             "tooltlp": "이벤트 핸들러를 'focusin' JavaScript 이벤트에 바인딩",
-                            "value": ".focusin()"
+                            "value": ".focusin()",
+                            "exceptionValue": "{{focusin()}}"
                         },
                         {
                             "link": "http://api.jquery.com/focusout/",
                             "tooltlp": "이벤트 핸들러를 'focusout' JavaScript 이벤트에 바인딩",
-                            "value": ".focusout()"
+                            "value": ".focusout()",
+                            "exceptionValue": "{{focusout()}}"
                         },
                         {
                             "link": "http://api.jquery.com/hover/",
                             "tooltlp": "마우스 포인터가 요소를 들어오고 나갈 때 실행할 두 핸들러를 일치하는 요소에 바인딩",
-                            "value": ".hover()"
+                            "value": ".hover()",
+                            "exceptionValue": "{{hover()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mousedown/",
                             "tooltlp": "이벤트 핸들러를 'mousedown' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
-                            "value": ".mousedown()"
+                            "value": ".mousedown()",
+                            "exceptionValue": "{{mousedown()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mouseenter/",
                             "tooltlp": "마우스가 요소에 들어갈 때 발사할 이벤트 핸들러를 바인딩하거나 해당 핸들러를 소자에 트리거",
-                            "value": ".mouseenter()"
+                            "value": ".mouseenter()",
+                            "exceptionValue": "{{mouseenter()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mouseleave/",
                             "tooltlp": "마우스가 요소를 떠날 때 발사할 이벤트 핸들러를 바인딩하거나 해당 핸들러를 소자에 트리거",
-                            "value": ".mouseleave()"
+                            "value": ".mouseleave()",
+                            "exceptionValue": "{{mouseleave()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mousemove/",
                             "tooltlp": "이벤트 핸들러를 'mousemove' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
-                            "value": ".mousemove()"
+                            "value": ".mousemove()",
+                            "exceptionValue": "{{mousemove()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mouseout/",
                             "tooltlp": "이벤트 핸들러를 'mouseout' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
-                            "value": ".mouseout()"
+                            "value": ".mouseout()",
+                            "exceptionValue": "{{mouseout()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mouseover/",
                             "tooltlp": "이벤트 핸들러를 'mouseover' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
-                            "value": ".mouseover()"
+                            "value": ".mouseover()",
+                            "exceptionValue": "{{mouseover()}}"
                         },
                         {
                             "link": "http://api.jquery.com/mouseup/",
                             "tooltlp": "이벤트 핸들러를 'mouseup' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
-                            "value": ".mouseup()"
+                            "value": ".mouseup()",
+                            "exceptionValue": "{{mouseup()}}"
                         },
                         {
                             "link": "http://api.jquery.com/toggle-event/",
                             "tooltlp": "두 개 이상의 처리기를 일치하는 요소에 바인딩하여 다른 클릭으로 실행",
-                            "value": ".toggle()"
+                            "value": ".toggle()",
+                            "exceptionValue": "{{toggle()}}"
                         }
                     ]
                 },
@@ -924,17 +1030,20 @@
                         {
                             "link": "http://api.jquery.com/error/",
                             "tooltlp": "이벤트 핸들러를 'error' JavaScript 이벤트에 바인딩",
-                            "value": ".error()"
+                            "value": ".error()",
+                            "exceptionValue": "{{error()}}"
                         },
                         {
                             "link": "http://api.jquery.com/resize/",
                             "tooltlp": "이벤트 핸들러를 'resize' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
-                            "value": ".resize()"
+                            "value": ".resize()",
+                            "exceptionValue": "{{resize()}}"
                         },
                         {
                             "link": "http://api.jquery.com/scroll/",
                             "tooltlp": "이벤트 핸들러를 'scroll' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
-                            "value": ".scroll()"
+                            "value": ".scroll()",
+                            "exceptionValue": "{{scroll()}}"
                         }
                     ]
                 },
@@ -944,22 +1053,26 @@
                         {
                             "link": "http://api.jquery.com/jQuery.holdReady/",
                             "tooltlp": "jQuery의 준비 이벤트 실행 보류 또는 해제",
-                            "value": ".holdReady()"
+                            "value": ".holdReady()",
+                            "exceptionValue": "{{holdReady()}}"
                         },
                         {
                             "link": "http://api.jquery.com/load-event/",
                             "tooltlp": "이벤트 핸들러를 JavaScript 이벤트에 바인딩",
-                            "value": ".load()"
+                            "value": ".load()",
+                            "exceptionValue": "{{load()}}"
                         },
                         {
                             "link": "http://api.jquery.com/ready/",
                             "tooltlp": "DOM이 완전히 로드되었을 때 실행할 함수를 지정",
-                            "value": ".ready()"
+                            "value": ".ready()",
+                            "exceptionValue": "{{ready()}}"
                         },
                         {
                             "link": "http://api.jquery.com/unload/",
                             "tooltlp": "이벤트 핸들러를 'unload' JavaScript 이벤트에 바인딩",
-                            "value": ".unload()"
+                            "value": ".unload()",
+                            "exceptionValue": "{{unload()}}"
                         }
                     ]
                 },
@@ -969,27 +1082,32 @@
                         {
                             "link": "http://api.jquery.com/off/",
                             "tooltlp": "이벤트 핸들러를 제거",
-                            "value": ".off()"
+                            "value": ".off()",
+                            "exceptionValue": "{{off()}}"
                         },
                         {
                             "link": "http://api.jquery.com/on/",
                             "tooltlp": "하나 이상의 이벤트에 대한 이벤트 핸들러 기능을 선택한 요소에 부착",
-                            "value": ".on()"
+                            "value": ".on()",
+                            "exceptionValue": "{{on()}}"
                         },
                         {
                             "link": "http://api.jquery.com/one/",
                             "tooltlp": "요소를 위한 이벤트에 핸들러를 부착하십시오. 처리기는 요소당 한 번 이상 실행",
-                            "value": ".one()"
+                            "value": ".one()",
+                            "exceptionValue": "{{one()}}"
                         },
                         {
                             "link": "http://api.jquery.com/trigger/",
                             "tooltlp": "지정된 이벤트 유형에 대해 일치하는 요소에 연결된 모든 핸들러 및 동작을 실행",
-                            "value": ".trigger()"
+                            "value": ".trigger()",
+                            "exceptionValue": "{{trigger()}}"
                         },
                         {
                             "link": "http://api.jquery.com/triggerHandler/",
                             "tooltlp": "이벤트에 대해 요소에 연결된 모든 핸들러를 실행",
-                            "value": ".triggerHandler()"
+                            "value": ".triggerHandler()",
+                            "exceptionValue": "{{triggerHandler()}}"
                         }
                     ]
                 },
@@ -999,27 +1117,32 @@
                         {
                             "link": "http://api.jquery.com/blur/",
                             "tooltlp": "이벤트 핸들러를 'blur' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
-                            "value": ".blur()"
+                            "value": ".blur()",
+                            "exceptionValue": "{{blur()}}"
                         },
                         {
                             "link": "http://api.jquery.com/change/",
                             "tooltlp": "이벤트 핸들러를 'change' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
-                            "value": ".change()"
+                            "value": ".change()",
+                            "exceptionValue": "{{change()}}"
                         },
                         {
                             "link": "http://api.jquery.com/focus/",
                             "tooltlp": "이벤트 핸들러를 'focus' JavaScript 이벤트에 바인딩하거나 해당 이벤트를 요소에 트리거",
-                            "value": ".focus()"
+                            "value": ".focus()",
+                            "exceptionValue": "{{focus()}}"
                         },
                         {
                             "link": "http://api.jquery.com/select/",
                             "tooltlp": "이벤트 핸들러를 'select' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
-                            "value": ".select()"
+                            "value": ".select()",
+                            "exceptionValue": "{{select()}}"
                         },
                         {
                             "link": "http://api.jquery.com/submit/",
                             "tooltlp": "이벤트 핸들러를 'submit' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
-                            "value": ".submit()"
+                            "value": ".submit()",
+                            "exceptionValue": "{{submit()}}"
                         }
                     ]
                 },
@@ -1029,17 +1152,20 @@
                         {
                             "link": "http://api.jquery.com/keydown/",
                             "tooltlp": "이벤트 핸들러를 'keydown' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
-                            "value": ".keydown()"
+                            "value": ".keydown()",
+                            "exceptionValue": "{{keydown()}}"
                         },
                         {
                             "link": "http://api.jquery.com/keypress/",
                             "tooltlp": "이벤트 핸들러를 '키프레스' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
-                            "value": ".keypress()"
+                            "value": ".keypress()",
+                            "exceptionValue": "{{keypress()}}"
                         },
                         {
                             "link": "http://api.jquery.com/keyup/",
                             "tooltlp": "이벤트 핸들러를 '키업' JavaScript 이벤트에 바인딩하거나 요소에서 해당 이벤트를 트리거",
-                            "value": ".keyup()"
+                            "value": ".keyup()",
+                            "exceptionValue": "{{keyup()}}"
                         }
                     ]
                 }
@@ -1054,17 +1180,20 @@
                         {
                             "link": "http://api.jquery.com/hide/",
                             "tooltlp": "일치하는 요소를 숨김",
-                            "value": ".hide()"
+                            "value": ".hide()",
+                            "exceptionValue": "{{hide()}}"
                         },
                         {
                             "link": "http://api.jquery.com/show/",
                             "tooltlp": "일치하는 요소를 표시",
-                            "value": ".show()"
+                            "value": ".show()",
+                            "exceptionValue": "{{show()}}"
                         },
                         {
                             "link": "http://api.jquery.com/toggle/",
                             "tooltlp": "일치하는 요소를 표시하거나 숨김",
-                            "value": ".toggle()"
+                            "value": ".toggle()",
+                            "exceptionValue": "{{toggle()}}"
                         }
                     ]
                 },
@@ -1074,52 +1203,62 @@
                         {
                             "link": "http://api.jquery.com/animate",
                             "tooltlp": "CSS 속성 집합의 사용자 지정 애니메이션을 수행",
-                            "value": ".animate()"
+                            "value": ".animate()",
+                            "exceptionValue": "{{animate()}}"
                         },
                         {
                             "link": "http://api.jquery.com/clearQueue",
                             "tooltlp": "아직 실행되지 않은 모든 항목을 대기열에서 제거",
-                            "value": ".clearQueue()"
+                            "value": ".clearQueue()",
+                            "exceptionValue": "{{clearQueue()}}"
                         },
                         {
                             "link": "http://api.jquery.com/delay",
                             "tooltlp": "대기열에서 후속 항목의 실행을 지연하도록 타이머를 설정",
-                            "value": ".delay()"
+                            "value": ".delay()",
+                            "exceptionValue": "{{delay()}}"
                         },
                         {
                             "link": "http://api.jquery.com/dequeue",
                             "tooltlp": "일치하는 요소에 대해 대기열에서 다음 기능을 실행",
-                            "value": ".dequeue()"
+                            "value": ".dequeue()",
+                            "exceptionValue": "{{dequeue()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.dequeue/",
                             "tooltlp": "일치하는 요소에 대해 대기열에서 다음 기능을 실행",
-                            "value": "jQuery.dequeue()"
+                            "value": "jQuery.dequeue()",
+                            "exceptionValue": "{{jQuery-dequeue()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.fx.interval",
                             "tooltlp": "애니메이션이 실행되는 속도(밀리초)",
-                            "value": "jQuery.fx.interval"
+                            "value": "jQuery.fx.interval",
+                            "exceptionValue": "{{jQuery-fx-interval}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.fx.off",
                             "tooltlp": "전 세계적으로 모든 애니메이션을 비활성화",
-                            "value": "jQuery.fx.off"
+                            "value": "jQuery.fx.off",
+                            "exceptionValue": "{{jQuery-fx-off}}"
                         },
                         {
                             "link": "http://api.jquery.com/queue",
                             "tooltlp": "일치하는 요소에서 실행할 기능의 대기열을 표시",
-                            "value": ".queue()"
+                            "value": ".queue()",
+                            "exceptionValue": "{{queue()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.queue/",
                             "tooltlp": "일치하는 요소에서 실행할 기능의 대기열을 표시",
-                            "value": "jQuery.queue()"
+                            "value": "jQuery.queue()",
+                            "exceptionValue": "{{jQuery-queue()}}"
                         },
                         {
                             "link": "http://api.jquery.com/stop",
                             "tooltlp": "일치하는 요소에 대해 현재 실행 중인 애니메이션을 중지",
-                            "value": ".stop()"
+                            "value": ".stop()",
+                            "exceptionValue": "{{stop()}}"
                         }
                     ]
                 },
@@ -1129,22 +1268,26 @@
                         {
                             "link": "http://api.jquery.com/fadeIn/",
                             "tooltlp": "일치하는 요소를 서서히 나타나게 하여 표시",
-                            "value": ".fadeIn()"
+                            "value": ".fadeIn()",
+                            "exceptionValue": "{{fadeIn()}}"
                         },
                         {
                             "link": "http://api.jquery.com/fadeOut/",
                             "tooltlp": "일치하는 요소를 서서히 사라지게 하여 숨김",
-                            "value": ".fadeOut()"
+                            "value": ".fadeOut()",
+                            "exceptionValue": "{{fadeOut()}}"
                         },
                         {
                             "link": "http://api.jquery.com/fadeTo/",
                             "tooltlp": "일치하는 요소의 불투명도를 조정",
-                            "value": ".fadeTo()"
+                            "value": ".fadeTo()",
+                            "exceptionValue": "{{fadeTo()}}"
                         },
                         {
                             "link": "http://api.jquery.com/fadeToggle/",
                             "tooltlp": "불투명도 애니메이션을 통해 일치하는 요소를 표시하거나 숨김",
-                            "value": ".fadeToggle()"
+                            "value": ".fadeToggle()",
+                            "exceptionValue": "{{fadeToggle()}}"
                         }
                     ]
                 },
@@ -1154,17 +1297,20 @@
                         {
                             "link": "http://api.jquery.com/slideDown",
                             "tooltlp": "슬라이딩 동작으로 일치하는 요소를 표시",
-                            "value": ".slideDown()"
+                            "value": ".slideDown()",
+                            "exceptionValue": "{{slideDown()}}"
                         },
                         {
                             "link": "http://api.jquery.com/slideToggle",
                             "tooltlp": "일치하는 요소를 슬라이딩 동작으로 표시하거나 숨김",
-                            "value": ".slideToggle()"
+                            "value": ".slideToggle()",
+                            "exceptionValue": "{{slideToggle()}}"
                         },
                         {
                             "link": "http://api.jquery.com/slideUp",
                             "tooltlp": "일치하는 요소를 슬라이딩 동작으로 숨김",
-                            "value": ".slideUp()"
+                            "value": ".slideUp()",
+                            "exceptionValue": "{{slideUp()}}"
                         }
                     ]
                 }
@@ -1179,32 +1325,38 @@
                         {
                             "link": "http://api.jquery.com/ajaxComplete/",
                             "tooltlp": "Ajax가 요청할 때 호출할 처리기를 등록. Ajax 이벤트",
-                            "value": ".ajaxComplete()"
+                            "value": ".ajaxComplete()",
+                            "exceptionValue": "{{ajaxComplete()}}"
                         },
                         {
                             "link": "http://api.jquery.com/ajaxError/",
                             "tooltlp": "Ajax가 오류와 함께 완료 요청을 할 때 호출할 처리기를 등록. Ajax 이벤트",
-                            "value": ".ajaxError()"
+                            "value": ".ajaxError()",
+                            "exceptionValue": "{{ajaxError()}}"
                         },
                         {
                             "link": "http://api.jquery.com/ajaxSend/",
                             "tooltlp": "Ajax 요청이 전송되기 전에 실행할 함수를 첨부. Ajax 이벤트",
-                            "value": ".ajaxSend()"
+                            "value": ".ajaxSend()",
+                            "exceptionValue": "{{ajaxSend()}}"
                         },
                         {
                             "link": "http://api.jquery.com/ajaxStart/",
                             "tooltlp": "첫 번째 Ajax 요청이 시작될 때 호출할 처리기를 등록. Ajax 이벤트",
-                            "value": ".ajaxStart()"
+                            "value": ".ajaxStart()",
+                            "exceptionValue": "{{ajaxStart()}}"
                         },
                         {
                             "link": "http://api.jquery.com/ajaxStop/",
                             "tooltlp": "모든 Ajax 요청이 완료되면 호출할 처리기를 등록. Ajax 이벤트",
-                            "value": ".ajaxStop()"
+                            "value": ".ajaxStop()",
+                            "exceptionValue": "{{ajaxStop()}}"
                         },
                         {
                             "link": "http://api.jquery.com/ajaxSuccess/",
                             "tooltlp": "Ajax 요청이 성공적으로 완료될 때마다 실행할 함수를 첨부. Ajax 이벤트",
-                            "value": ".ajaxSuccess()"
+                            "value": ".ajaxSuccess()",
+                            "exceptionValue": "{{ajaxSuccess()}}"
                         }
                     ]
                 },
@@ -1214,17 +1366,20 @@
                         {
                             "link": "http://api.jquery.com/jQuery.param/",
                             "tooltlp": "URL 쿼리 문자열 또는 Ajax 요청에 사용하기에 적합한 배열 또는 객체의 일련화된 표현을 생성",
-                            "value": "jQuery.param()"
+                            "value": "jQuery.param()",
+                            "exceptionValue": "{{jQuery-param()}}"
                         },
                         {
                             "link": "http://api.jquery.com/serialize/",
                             "tooltlp": "양식 요소 집합을 제출할 문자열로 인코딩",
-                            "value": ".serialize()"
+                            "value": ".serialize()",
+                            "exceptionValue": "{{serialize()}}"
                         },
                         {
                             "link": "http://api.jquery.com/serializeArray/",
                             "tooltlp": "이름 및 값의 배열로 양식 요소 집합을 인코딩",
-                            "value": ".serializeArray()"
+                            "value": ".serializeArray()",
+                            "exceptionValue": "{{serializeArray()}}"
                         }
                     ]
                 },
@@ -1234,12 +1389,14 @@
                         {
                             "link": "http://api.jquery.com/jQuery.ajax/",
                             "tooltlp": "비동기식 HTTP(Ajax) 요청을 수행",
-                            "value": "jQuery.ajax()"
+                            "value": "jQuery.ajax()",
+                            "exceptionValue": "{{jQuery-ajax()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.ajaxSetup",
                             "tooltlp": "이후 Ajax 요청에 대한 기본값을 설정",
-                            "value": "jQuery.ajaxSetup()"
+                            "value": "jQuery.ajaxSetup()",
+                            "exceptionValue": "{{jQuery-ajaxSetup()}}"
                         }
                     ]
                 },
@@ -1249,27 +1406,32 @@
                         {
                             "link": "http://api.jquery.com/jQuery.get/",
                             "tooltlp": "HTTP GET 요청을 사용하여 서버에서 데이터를 로드",
-                            "value": "jQuery.get()"
+                            "value": "jQuery.get()",
+                            "exceptionValue": "{{jQuery-get()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.getJSON/",
                             "tooltlp": "GET HTTP 요청을 사용하여 서버에서 JSON 인코딩된 데이터를 로드",
-                            "value": "jQuery.getJSON()"
+                            "value": "jQuery.getJSON()",
+                            "exceptionValue": "{{jQuery-getJSON()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.getScript/",
                             "tooltlp": "GET HTTP 요청을 사용하여 서버에서 JavaScript 파일을 로드한 다음 실행",
-                            "value": "jQuery.getScript()"
+                            "value": "jQuery.getScript()",
+                            "exceptionValue": "{{jQuery-getScript()}}"
                         },
                         {
                             "link": "http://api.jquery.com/load/",
                             "tooltlp": "서버에서 데이터를 로드하고 반환된 HTML을 일치하는 요소에 배치",
-                            "value": ".load()"
+                            "value": ".load()",
+                            "exceptionValue": "{{load()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.post/",
                             "tooltlp": "HTTP POST 요청을 사용하여 서버에서 데이터를 로드",
-                            "value": "jQuery.post()"
+                            "value": "jQuery.post()",
+                            "exceptionValue": "{{jQuery-post()}}"
                         }
                     ]
                 }
@@ -1289,17 +1451,20 @@
                         {
                             "link": "http://api.jquery.com/jQuery.noConflict/",
                             "tooltlp": "달러 변수에 대한 jQuery의 통제를 포기",
-                            "value": "jQuery.noConflict()"
+                            "value": "jQuery.noConflict()",
+                            "exceptionValue": "{{jQuery-noConflict()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.sub/",
                             "tooltlp": "원래 jQuery 객체에 영향을 주지 않고 특성 및 메서드를 수정할 수 있는 jQuery의 새 사본을 작성",
-                            "value": "jQuery.sub()"
+                            "value": "jQuery.sub()",
+                            "exceptionValue": "{{jQuery-sub()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.when/",
                             "tooltlp": "하나 이상의 객체(대개 비동기 이벤트를 나타내는 지연 객체)를 기반으로 콜백 기능을 실행할 수 있는 방법을 제공",
-                            "value": "jQuery.when()"
+                            "value": "jQuery.when()",
+                            "exceptionValue": "{{jQuery-when()}}"
                         }
                     ]
                 },
@@ -1309,17 +1474,20 @@
                         {
                             "link": "http://api.jquery.com/get/",
                             "tooltlp": "jQuery 객체와 일치하는 DOM 요소를 검색",
-                            "value": ".get()"
+                            "value": ".get()",
+                            "exceptionValue": "{{get()}}"
                         },
                         {
                             "link": "http://api.jquery.com/index/",
                             "tooltlp": "일치하는 요소 중에서 지정된 요소를 검색",
-                            "value": ".index()"
+                            "value": ".index()",
+                            "exceptionValue": "{{index()}}"
                         },
                         {
                             "link": "http://api.jquery.com/size/",
                             "tooltlp": "jQuery 객체의 요소 수를 반환",
-                            "value": ".size()"
+                            "value": ".size()",
+                            "exceptionValue": "{{size()}}"
                         },
                         {
                             "link": "http://api.jquery.com/toArray/",
@@ -1334,27 +1502,32 @@
                         {
                             "link": "http://api.jquery.com/context/",
                             "tooltlp": "DOM 노드 컨텍스트는 원래 jQuery()로 전달. 아무것도 전달되지 않은 경우, 컨텍스트는 문서가 될 가능성이 높음",
-                            "value": ".context"
+                            "value": ".context",
+                            "exceptionValue": "{{context}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.error/",
                             "tooltlp": "문자열을 가져다가 해당 문자열을 포함하는 예외를 던짐",
-                            "value": "jQuery.error"
+                            "value": "jQuery.error",
+                            "exceptionValue": "{{jQuery-error}}"
                         },
                         {
                             "link": "http://api.jquery.com/length/",
-                            "tooltlp": "jQuery 객체의 요소 수",
-                            "value": ".length"
+                            "tooltlp": "jQuery 객체의 요소 갯수",
+                            "value": ".length",
+                            "exceptionValue": "{{length}}"
                         },
                         {
                             "link": "http://api.jquery.com/pushStack/",
                             "tooltlp": "JQuery 스택에 DOM 요소 집합 추가",
-                            "value": ".pushStack()"
+                            "value": ".pushStack()",
+                            "exceptionValue": "{{pushStack}}"
                         },
                         {
                             "link": "http://api.jquery.com/selector/",
                             "tooltlp": "선택자를 나타내는 선택자가 원래 jQuery()로 전달",
-                            "value": ".selector"
+                            "value": ".selector",
+                            "exceptionValue": "{{selector}}"
                         }
                     ]
                 },
@@ -1364,87 +1537,104 @@
                         {
                             "link": "http://api.jquery.com/deferred.always/",
                             "tooltlp": "지연된 객체가 확인되거나 거부될 때 호출할 처리기 추가",
-                            "value": "deferred.always()"
+                            "value": "deferred.always()",
+                            "exceptionValue": "{{deferred-always()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.done/",
                             "tooltlp": "지연된 객체가 확인될 때 호출할 처리기 추가",
-                            "value": "deferred.done()"
+                            "value": "deferred.done()",
+                            "exceptionValue": "{{deferred-done()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.fail/",
                             "tooltlp": "지연된 객체가 거부될 때 호출할 처리기 추가",
-                            "value": "deferred.fail()"
+                            "value": "deferred.fail()",
+                            "exceptionValue": "{{deferred-fail()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.isRejected/",
                             "tooltlp": "지연된 객체가 거부되었는지 여부를 결정",
-                            "value": "deferred.isRejected()"
+                            "value": "deferred.isRejected()",
+                            "exceptionValue": "{{deferred-isRejected()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.isResolved/",
                             "tooltlp": "지연된 객체가 해결되었는지 여부를 확인",
-                            "value": "deferred.isResolved()"
+                            "value": "deferred.isResolved()",
+                            "exceptionValue": "{{deferred-isResolved()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.notify/",
                             "tooltlp": "주어진 args가 있는 지연된 객체에 대해 progressCallbacks를 호출",
-                            "value": "deferred.notify()"
+                            "value": "deferred.notify()",
+                            "exceptionValue": "{{deferred-notify()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.notifyWith/",
                             "tooltlp": "지정된 컨텍스트와 args를 사용하여 지연된 객체에 대해 progressCallbacks를 호출",
-                            "value": "deferred.notifyWith()"
+                            "value": "deferred.notifyWith()",
+                            "exceptionValue": "{{deferred-notifyWith()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.pipe/",
                             "tooltlp": "필터링 및/또는 체인 지연을 위한 유틸리티 방법",
-                            "value": "deferred.pipe()"
+                            "value": "deferred.pipe()",
+                            "exceptionValue": "{{deferred-pipe()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.progress/",
                             "tooltlp": "지연된 객체가 진행률 알림을 생성할 때 호출할 처리기 추가",
-                            "value": "deferred.progress()"
+                            "value": "deferred.progress()",
+                            "exceptionValue": "{{deferred-progress()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.promise/",
                             "tooltlp": "지연된 약속 객체를 반환",
-                            "value": "deferred.promise()"
+                            "value": "deferred.promise()",
+                            "exceptionValue": "{{deferred-promise()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.reject/",
                             "tooltlp": "지연된 객체를 거부하고 지정된 args를 사용하여 failCallbacks를 호출",
-                            "value": "deferred.reject()"
+                            "value": "deferred.reject()",
+                            "exceptionValue": "{{deferred-reject()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.rejectWith/",
                             "tooltlp": "지연된 객체를 거부하고 지정된 컨텍스트와 args를 사용하여 failCallbacks를 호출",
-                            "value": "deferred.rejectWith()"
+                            "value": "deferred.rejectWith()",
+                            "exceptionValue": "{{deferred-rejectWith()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.resolve/",
                             "tooltlp": "지연된 객체를 해결하고 지정된 args로 doneCallbacks를 호출",
-                            "value": "deferred.resolve()"
+                            "value": "deferred.resolve()",
+                            "exceptionValue": "{{deferred-resolve()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.resolveWith/",
                             "tooltlp": "지연된 객체를 해결하고 지정된 컨텍스트와 args를 사용하여 완료된Callbacks를 호출",
-                            "value": "deferred.resolveWith()"
+                            "value": "deferred.resolveWith()",
+                            "exceptionValue": "{{deferred-resolveWith()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.state/",
                             "tooltlp": "지연된 객체의 현재 상태를 결정",
-                            "value": "deferred.state()"
+                            "value": "deferred.state()",
+                            "exceptionValue": "{{deferred-state()}}"
                         },
                         {
                             "link": "http://api.jquery.com/deferred.then/",
                             "tooltlp": "지연된 객체가 확인되거나 거부될 때 호출할 처리기 추가",
-                            "value": "deferred.then()"
+                            "value": "deferred.then()",
+                            "exceptionValue": "{{deferred-then()}}"
                         },
                         {
                             "link": "http://api.jquery.com/promise/",
                             "tooltlp": "컬렉션에 바인딩된 특정 유형의 모든 작업이 대기 중이거나 완료되지 않은 경우를 관찰하려면 약속 객체를 반환",
-                            "value": ".promise()"
+                            "value": ".promise()",
+                            "exceptionValue": "{{promise}}"
                         }
                     ]
                 },
@@ -1454,57 +1644,68 @@
                         {
                             "link": "http://api.jquery.com/jQuery.Callbacks/",
                             "tooltlp": "콜백 목록을 관리할 수 있는 강력한 방법을 제공하는 다목적 콜백 목록 객체",
-                            "value": "jQuery.Callbacks()"
+                            "value": "jQuery.Callbacks()",
+                            "exceptionValue": "{{jQuery-Callbacks()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.add/",
                             "tooltlp": "콜백 목록에 콜백 또는 콜백 컬렉션을 추가",
-                            "value": "callbacks.add()"
+                            "value": "callbacks.add()",
+                            "exceptionValue": "{{callbacks-add()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.disable/",
                             "tooltlp": "콜백 목록을 사용하지 않도록 설정",
-                            "value": "callbacks.disable()"
+                            "value": "callbacks.disable()",
+                            "exceptionValue": "{{callbacks-disable()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.empty/",
                             "tooltlp": "목록에서 콜백을 모두 제거",
-                            "value": "callbacks.empty()"
+                            "value": "callbacks.empty()",
+                            "exceptionValue": "{{callbacks-empty()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.fire/",
                             "tooltlp": "주어진 주장으로 모든 콜백을 부름",
-                            "value": "callbacks.fire()"
+                            "value": "callbacks.fire()",
+                            "exceptionValue": "{{callbacks-fire()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.fired/",
                             "tooltlp": "콜백은 이미 한 번 이상 호출되었는지 확인",
-                            "value": "callbacks.fired()"
+                            "value": "callbacks.fired()",
+                            "exceptionValue": "{{callbacks-fired()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.fireWith/",
                             "tooltlp": "주어진 컨텍스트와 인자가 있는 목록의 모든 콜백을 호출",
-                            "value": "callbacks.fireWith()"
+                            "value": "callbacks.fireWith()",
+                            "exceptionValue": "{{callbacks-fireWith()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.has/",
                             "tooltlp": "제공된 콜백이 목록에 있는지 확인",
-                            "value": "callbacks.has()"
+                            "value": "callbacks.has()",
+                            "exceptionValue": "{{callbacks-has()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.lock/",
                             "tooltlp": "콜백 리스트를 현재 상태로 잠금",
-                            "value": "callbacks.lock()"
+                            "value": "callbacks.lock()",
+                            "exceptionValue": "{{callbacks-lock()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.locked/",
                             "tooltlp": "콜백 리스트가 잠겼는지 여부를 결정",
-                            "value": "callbacks.locked()"
+                            "value": "callbacks.locked()",
+                            "exceptionValue": "{{callbacks-locked()}}"
                         },
                         {
                             "link": "http://api.jquery.com/callbacks.remove/",
                             "tooltlp": "콜백 목록에서 콜백 또는 콜백 컬렉션을 제거",
-                            "value": "callbacks.remove()"
+                            "value": "callbacks.remove()",
+                            "exceptionValue": "{{callbacks-remove()}}"
                         }
                     ]
                 }
@@ -1519,132 +1720,158 @@
                         {
                             "link": "http://api.jquery.com/jQuery.contains/",
                             "tooltlp": "DOM 노드가 다른 DOM 노드 내에 있는지 확인",
-                            "value": "jQuery.contains()"
+                            "value": "jQuery.contains()",
+                            "exceptionValue": "{{jQuery-contains()}}"
                         },
                         {
                             "link": "http://api.jquery.com/each/",
                             "tooltlp": "jQuery 객체에 반복하여 일치하는 각 요소에 대한 함수를 실행",
-                            "value": ".each()"
+                            "value": ".each()",
+                            "exceptionValue": "{{each()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.each/",
                             "tooltlp": "객체와 배열 모두에 대해 매끄럽게 반복하는 데 사용할 수 있는 일반 반복기 기능. 길이 특성(함수의 인자 객체 등)을 갖는 배열 및 배열 유사 객체는 숫자 색인으로 반복되며, 0부터 길이-1까지. 다른 객체는 명명된 속성을 통해 반복",
-                            "value": "jQuery.each()"
+                            "value": "jQuery.each()",
+                            "exceptionValue": "{{jQuery-each()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.extend/",
                             "tooltlp": "두 개 이상의 객체의 내용을 첫 번째 객체에 병합",
-                            "value": "jQuery.extend()"
+                            "value": "jQuery.extend()",
+                            "exceptionValue": "{{jQuery-extend()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.globalEval/",
                             "tooltlp": "일부 JavaScript 코드를 전체적으로 실행",
-                            "value": "jQuery.globalEval()"
+                            "value": "jQuery.globalEval()",
+                            "exceptionValue": "{{jQuery-globalEval()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.grep/",
                             "tooltlp": "필터 기능을 만족하는 배열 요소를 찾음. 원래 배열은 영향을 받지 않음",
-                            "value": "jQuery.grep()"
+                            "value": "jQuery.grep()",
+                            "exceptionValue": "{{jQuery-grep()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.inArray/",
                             "tooltlp": "배열내에서 지정된 값을 검색하고 인덱스를 반환(또는 찾을 수 없는 경우 -1)",
-                            "value": "jQuery.inArray()"
+                            "value": "jQuery.inArray()",
+                            "exceptionValue": "{{jQuery-inArray()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isArray/",
                             "tooltlp": "인자가 배열인지 여부를 결정",
-                            "value": "jQuery.isArray()"
+                            "value": "jQuery.isArray()",
+                            "exceptionValue": "{{jQuery-isArray()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isEmptyObject/",
                             "tooltlp": "객체가 비어 있는지 확인(속성이 포함되어 있지 않음)",
-                            "value": "jQuery.isEmptyObject()"
+                            "value": "jQuery.isEmptyObject()",
+                            "exceptionValue": "{{jQuery-isEmptyObject()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isFunction/",
                             "tooltlp": "전달된 인자가 Javascript 함수 객체인지 여부를 결정",
-                            "value": "jQuery.isFunction()"
+                            "value": "jQuery.isFunction()",
+                            "exceptionValue": "{{jQuery-isFunction()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isNumeric/",
                             "tooltlp": "숫자인지 아닌지 확인",
-                            "value": "jQuery.isNumeric()"
+                            "value": "jQuery.isNumeric()",
+                            "exceptionValue": "{{jQuery-isNumeric()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isPlainObject/",
                             "tooltlp": "객체가 일반 객체인지 확인('{}' 또는 'new object'를 사용하여 생성)",
-                            "value": "jQuery.isPlainObject()"
+                            "value": "jQuery.isPlainObject()",
+                            "exceptionValue": "{{jQuery-isPlainObject()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isWindow/",
                             "tooltlp": "window창인지 아닌지 확인",
-                            "value": "jQuery.isWindow()"
+                            "value": "jQuery.isWindow()",
+                            "exceptionValue": "{{jQuery-isWindow()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.isXMLDoc/",
                             "tooltlp": "DOM 노드가 XML 문서(또는 XML 문서) 내에 있는지 확인",
-                            "value": "jQuery.isXMLDoc()"
+                            "value": "jQuery.isXMLDoc()",
+                            "exceptionValue": "{{jQuery-isXMLDoc()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.makeArray/",
                             "tooltlp": "배열과 유사한 객체를 실제 JavaScript 배열로 변환",
-                            "value": "jQuery.makeArray()"
+                            "value": "jQuery.makeArray()",
+                            "exceptionValue": "{{jQuery-makeArray()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.map/",
                             "tooltlp": "배열 또는 배열과 같은 객체의 모든 항목을 다른 배열의 항목으로 변환",
-                            "value": "jQuery.map()"
+                            "value": "jQuery.map()",
+                            "exceptionValue": "{{jQuery-map()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.merge/",
                             "tooltlp": "두 배열의 내용을 첫 번째 배열로 병합",
-                            "value": "jQuery.merge()"
+                            "value": "jQuery.merge()",
+                            "exceptionValue": "{{jQuery-merge()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.noop/",
                             "tooltlp": "빈 기능",
-                            "value": "jQuery.noop()"
+                            "value": "jQuery.noop()",
+                            "exceptionValue": "{{jQuery-noop()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.now/",
                             "tooltlp": "현재 시간을 나타내는 숫자를 반환",
-                            "value": "jQuery.now()"
+                            "value": "jQuery.now()",
+                            "exceptionValue": "{{jQuery-now()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.parseJSON/",
                             "tooltlp": "잘 구성된 JSON 문자열을 가져와서 결과 JavaScript 객체를 반환",
-                            "value": "jQuery.parseJSON()"
+                            "value": "jQuery.parseJSON()",
+                            "exceptionValue": "{{jQuery-parseJSON()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.parseXML/",
                             "tooltlp": "XML 문서에 문자열을 구문 분석",
-                            "value": "jQuery.parseXML()"
+                            "value": "jQuery.parseXML()",
+                            "exceptionValue": "{{jQuery-parseXML()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.proxy",
                             "tooltlp": "기능을 가져다가 항상 특정 컨텍스트를 갖는 새로운 기능을 반환",
-                            "value": "jQuery.proxy()"
+                            "value": "jQuery.proxy()",
+                            "exceptionValue": "{{jQuery-proxy()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.support/",
                             "tooltlp": "다양한 브라우저 기능 또는 버그가 있는 속성을 나타내는 속성 모음",
-                            "value": "jQuery.support"
+                            "value": "jQuery.support",
+                            "exceptionValue": "{{jQuery-support}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.trim/",
                             "tooltlp": "문자열의 시작과 끝에서 공백을 제거",
-                            "value": "jQuery.trim()"
+                            "value": "jQuery.trim()",
+                            "exceptionValue": "{{jQuery-trim()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.type/",
                             "tooltlp": "객체의 내부 JavaScript [[Class]]를 결정",
-                            "value": "jQuery.type()"
+                            "value": "jQuery.type()",
+                            "exceptionValue": "{{jQuery-type()}}"
                         },
                         {
                             "link": "http://api.jquery.com/jQuery.unique/",
                             "tooltlp": "중복 항목이 제거된 상태에서 DOM 요소 배열 정렬 이 기능은 문자열이나 숫자가 아닌 DOM 요소의 배열에서만 작동한다는 점에 유의",
-                            "value": "jQuery.unique()"
+                            "value": "jQuery.unique()",
+                            "exceptionValue": "{{jQuery-unique()}}"
                         }
                     ]
                 }

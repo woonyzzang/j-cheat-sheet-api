@@ -83,7 +83,7 @@
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/CSS/ID_selectors",
-                            "tooltlp": "원소의 고유 ID를 확인",
+                            "tooltlp": "요소에 대해 하나의 고유 ID 이름 지정",
                             "value": "id"
                         },
                         {

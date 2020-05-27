@@ -50,11 +50,9 @@ export default {
         };
     },
     watch: {
-        '$route': function (to) {
-            const param = to.params.name;
-
+        $route: function (to) {
             this.loading = true;
-            this.fetchDataLoaded(param);
+            this.fetchDataLoaded(to.params.name);
             this.$emit('search-update', ''); // 부모 컴포넌트 v-on 연동 이벤트 트리거 호출, 파라미터값 전달
         },
         searchMessage: function () {
@@ -82,9 +80,7 @@ export default {
     //     // console.log('created');
     // },
     mounted () {
-        const param = this.$route.params.name;
-
-        this.fetchDataLoaded(param);
+        this.fetchDataLoaded(this.$route.params.name);
     },
     methods: {
         /**

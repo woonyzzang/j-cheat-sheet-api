@@ -8,7 +8,7 @@
                     "list": [
                         {
                             "tooltlp": "Escapes the grammar that LESS does not recognize",
-                            "value": "~\"anything\""
+                            "value": "~anything"
                         }
                     ]
                 },
@@ -221,7 +221,7 @@
                     "list": [
                         {
                             "tooltlp": "supports a few operators that generate strings",
-                            "value": "\"expression\" + \"expression\""
+                            "value": "expression + expression"
                         }
                     ]
                 },

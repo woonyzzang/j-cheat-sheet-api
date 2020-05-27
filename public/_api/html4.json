@@ -123,12 +123,12 @@
                     "list": [
                         {
                              "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/acronym",
-                             "tooltlp": "약어 정의",
+                             "tooltlp": "머리글자를 이용한 축약어 정의",
                              "value": "<acronym>"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/abbr",
-                            "tooltlp": "약어 정의",
+                            "tooltlp": "축약어 정의",
                             "value": "<abbr>"
                         },
                         {
@@ -145,6 +145,11 @@
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/bdo",
                             "tooltlp": "현재 텍스트 방향 재정의",
                             "value": "<bdo>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/big",
+                            "tooltlp": "큰 텍스트 정의",
+                            "value": "<big>"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/blockquote",
@@ -225,6 +230,11 @@
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/sup",
                             "tooltlp": "위첨자 텍스트를 정의",
                             "value": "<sup>"
+                        },
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/tt",
+                            "tooltlp": "텔레타이프 텍스트 정의",
+                            "value": "<tt>"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/var",
@@ -388,7 +398,7 @@
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/CSS/ID_selectors",
-                            "tooltlp": "원소의 고유 ID를 확인",
+                            "tooltlp": "요소에 대해 하나의 고유 ID 이름 지정",
                             "value": "id"
                         },
                         {
@@ -406,6 +416,11 @@
                 {
                     "subject": "Language",
                     "list": [
+                        {
+                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/dir",
+                            "tooltlp": "텍스트의 방향을 지정",
+                            "value": "dir"
+                        },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.lang",
                             "tooltlp": "내용의 언어를 정함",
@@ -438,17 +453,17 @@
                     "list": [
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/style",
-                            "tooltlp": "문서에 대한 스타일 정보 정의",
+                            "tooltlp": "문서에 대한 스타일 정의",
                             "value": "<style>"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/div",
-                            "tooltlp": "문서에서 섹션을 정의",
+                            "tooltlp": "문서에서 block 섹션을 정의",
                             "value": "<div>"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/span",
-                            "tooltlp": "문서에서 섹션을 정의",
+                            "tooltlp": "문서에서 inline 섹션을 정의",
                             "value": "<span>"
                         }
                     ]
@@ -468,7 +483,7 @@
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/meta",
-                            "tooltlp": "html 문서에대한 메타데이터 정의",
+                            "tooltlp": "html 문서에 대한 메타데이터 정의",
                             "value": "<meta>"
                         },
                         {
@@ -483,12 +498,12 @@
                     "list": [
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/script",
-                            "tooltlp": "클라이언트측 스크립트를 정의",
+                            "tooltlp": "클라이언트 사이드 스크립트를 정의",
                             "value": "<script>"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/noscript",
-                            "tooltlp": "lient-side 스크립트를 지원하지 않는 사용자에 대한 대체 콘텐츠 정의",
+                            "tooltlp": "스크립트를 지원하지 않는 사용자에 대한 대체 콘텐츠 정의",
                             "value": "<noscript>"
                         },
                         {

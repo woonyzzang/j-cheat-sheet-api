@@ -364,17 +364,20 @@
                         {
                             "link": "https://upleat.com/wp-uidev/?p=96#$.version",
                             "tooltlp": "jQuery의 버전을 확인",
-                            "value": "$.version"
+                            "value": "$.version",
+                            "exceptionValue": "{{$version}}"
                         },
                         {
                             "link": "https://upleat.com/wp-uidev/?p=96#$.$",
                             "tooltlp": "한번 탐색했던 요소를 다시 재탐색하지 않게 제어",
-                            "value": "$.$()"
+                            "value": "$.$()",
+                            "exceptionValue": "{{$$()}}"
                         },
                         {
                             "link": "https://upleat.com/wp-uidev/?p=96#$.log",
                             "tooltlp": "\"console.log\"와 같은 콘솔 메시지 노출",
-                            "value": "$.log()"
+                            "value": "$.log()",
+                            "exceptionValue": "{{$log()}}"
                         }
                     ]
                 },

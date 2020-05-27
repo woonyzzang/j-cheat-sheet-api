@@ -9,14 +9,14 @@
 }
 
 .ant-layout-header {
+    display: flex;
+    align-items: center;
     position: fixed;
     z-index: 1;
     width: 100%;
     padding: 0 unitsConverter(4);
 
     > h1 {
-        float: left;
-        height: 64px;
         margin-right: unitsConverter(2.4);
 
         > a {
@@ -24,6 +24,7 @@
             font-size: unitsConverter(1.8);
             color: #fff;
             vertical-align: top;
+            white-space: nowrap;
         }
     }
 
@@ -31,11 +32,19 @@
         line-height: unitsConverter(6.4);
     }
 
-    .ant-input-search {
-        position: absolute;
-        top: unitsConverter(1.2);
-        right: unitsConverter(4);
-        width: auto;
+    .util {
+        display: flex;
+        margin-left: auto;
+
+        .ant-select {
+            vertical-align: top;
+        }
+
+        .ant-input-search {
+            width: auto;
+            margin-left: unitsConverter(1);
+            vertical-align: top;
+        }
     }
 }
 
@@ -67,7 +76,10 @@
                 <a-menu-item key="lodash"><router-link v-bind:to="'/sheet/lodash'">Lodash</router-link></a-menu-item>
                 <a-menu-item key="upl-core"><router-link v-bind:to="'/sheet/upl-core'">UPLEAT Core</router-link></a-menu-item>
             </a-menu>
-            <a-input-search type="search" size="large" placeholder="Search..." title="Input Search Text" v-model.trim="srchValue" />
+            <div class="util">
+                <LocaleSwitcher />
+                <a-input-search type="search" size="large" placeholder="Search..." title="Input Search Text" v-model.trim="srchValue" />
+            </div>
         </a-layout-header>
         <a-layout-content>
             <main>
@@ -81,6 +93,7 @@
 import Vue from 'vue';
 // import EventBus from 'EventBus';
 import { Layout, Menu, Input } from 'ant-design-vue'; // [API] https://vue.ant.design
+import LocaleSwitcher from '@/components/LocaleSwitcher';
 
 import 'ant-design-vue/lib/layout/style/index.css';
 import 'ant-design-vue/lib/menu/style/index.css';
@@ -97,7 +110,8 @@ export default {
         'a-layout-header': Layout.Header,
         'a-layout-content': Layout.Content,
         'a-menu-item': Menu.Item,
-        'a-input-search': Input.Search
+        'a-input-search': Input.Search,
+        LocaleSwitcher
     },
     data () {
         return {
@@ -106,7 +120,7 @@ export default {
         };
     },
     watch: {
-        '$route': function (to) {
+        $route: function (to) {
             this.selectedkey = [to.params.name];
         }
     },

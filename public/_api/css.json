@@ -647,6 +647,11 @@
                             "value": "clear"
                         },
                         {
+                            "link": "https://developer.mozilla.org/en-US/docs/CSS/clip",
+                            "tooltlp": "절대 위치 요소를 자릅니다",
+                            "value": "clip"
+                        },
+                        {
                             "link": "https://developer.mozilla.org/en-US/docs/CSS/cursor",
                             "tooltlp": "표시 할 커서 유형을 지정",
                             "value": "cursor"
@@ -710,6 +715,21 @@
                             "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/a",
                             "tooltlp": "target-name, target-new, target-position 속성을 설정하기위한 속기 속성",
                             "value": "target"
+                        },
+                        {
+                            "link": "http://w3schools.com/cssref/css3_pr_target-name.asp",
+                            "tooltlp": "링크를 열 위치를 지정 (대상 목적지)",
+                            "value": "target-name"
+                        },
+                        {
+                            "link": "http://w3schools.com/cssref/css3_pr_target-new.asp",
+                            "tooltlp": "새 대상 링크를 새 창에서 열지 또는 기존 창의 새 탭에서 열지 여부를 지정",
+                            "value": "target-new"
+                        },
+                        {
+                            "link": "http://w3schools.com/cssref/css3_pr_target-position.asp",
+                            "tooltlp": "새 대상 링크를 배치 할 위치를 지정",
+                            "value": "target-position"
                         }
                     ]
                 },

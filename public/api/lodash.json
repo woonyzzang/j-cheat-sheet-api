@@ -9,132 +9,158 @@
                         {
                             "link": "https://lodash.com/docs/#countBy",
                             "tooltlp": "Creates an array of elements split into groups the length of size. If array can't be split evenly, the final chunk will be the remaining elements",
-                            "value": "_.countBy()"
+                            "value": "_.countBy()",
+                            "exceptionValue": "{{_countBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#forEach",
                             "tooltlp": "Iterates over elements of collection and invokes iteratee for each element",
-                            "value": "_.forEach()"
+                            "value": "_.forEach()",
+                            "exceptionValue": "{{_forEach()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#forEachRight",
                             "tooltlp": "This method is like \"_.forEach\" except that it iterates over elements of collection from right to left",
-                            "value": "_.forEachRight()"
+                            "value": "_.forEachRight()",
+                            "exceptionValue": "{{_forEachRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#every",
                             "tooltlp": "Checks if predicate returns truthy for all elements of collection. Iteration is stopped once predicate returns falsey",
-                            "value": "_.every()"
+                            "value": "_.every()",
+                            "exceptionValue": "{{_every()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#filter",
                             "tooltlp": "Iterates over elements of collection, returning an array of all elements predicate returns truthy for",
-                            "value": "_.filter()"
+                            "value": "_.filter()",
+                            "exceptionValue": "{{_filter()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#find",
                             "tooltlp": "Iterates over elements of collection, returning the first element predicate returns truthy for",
-                            "value": "_.find()"
+                            "value": "_.find()",
+                            "exceptionValue": "{{_find()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#findLast",
                             "tooltlp": "This method is like \"_.find\" except that it iterates over elements of collection from right to left",
-                            "value": "_.findLast()"
+                            "value": "_.findLast()",
+                            "exceptionValue": "{{_findLast()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#flatMap",
                             "tooltlp": "Creates a flattened array of values by running each element in collection thru iteratee and flattening the mapped results",
-                            "value": "_.flatMap()"
+                            "value": "_.flatMap()",
+                            "exceptionValue": "{{_flatMap()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#flatMapDeep",
                             "tooltlp": "This method is like \"_.flatMap\" except that it recursively flattens the mapped results",
-                            "value": "_.flatMapDeep()"
+                            "value": "_.flatMapDeep()",
+                            "exceptionValue": "{{_flatMapDeep()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#flatMapDepth",
                             "tooltlp": "This method is like \"_.flatMap\" except that it recursively flattens the mapped results up to depth times",
-                            "value": "_.flatMapDepth()"
+                            "value": "_.flatMapDepth()",
+                            "exceptionValue": "{{_flatMapDepth()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#groupBy",
                             "tooltlp": "Creates an object composed of keys generated from the results of running each element of collection thru iteratee",
-                            "value": "_.groupBy()"
+                            "value": "_.groupBy()",
+                            "exceptionValue": "{{_groupBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#includes",
                             "tooltlp": "Checks if value is in collection. If collection is a string, it's checked for a substring of value",
-                            "value": "_.includes()"
+                            "value": "_.includes()",
+                            "exceptionValue": "{{_includes()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#invokeMap",
                             "tooltlp": "Invokes the method at path of each element in collection, returning an array of the results of each invoked method. Any additional arguments are provided to each invoked method",
-                            "value": "_.invokeMap()"
+                            "value": "_.invokeMap()",
+                            "exceptionValue": "{{_invokeMap()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#keyBy",
                             "tooltlp": "Creates an object composed of keys generated from the results of running each element of collection thru iteratee",
-                            "value": "_.keyBy()"
+                            "value": "_.keyBy()",
+                            "exceptionValue": "{{_keyBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#map",
                             "tooltlp": "Creates an array of values by running each element in collection thru iteratee",
-                            "value": "_.map()"
+                            "value": "_.map()",
+                            "exceptionValue": "{{_map()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#orderBy",
                             "tooltlp": "This method is like \"_.sortBy\" except that it allows specifying the sort orders of the iteratees to sort by. If orders is unspecified, all values are sorted in ascending order. Otherwise, specify an order of \"desc\" for descending or \"asc\" for ascending sort order of corresponding values",
-                            "value": "_.orderBy()"
+                            "value": "_.orderBy()",
+                            "exceptionValue": "{{_orderBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#partition",
                             "tooltlp": "Creates an array of elements split into two groups, the first of which contains elements predicate returns truthy for, the second of which contains elements predicate returns falsey for",
-                            "value": "_.partition()"
+                            "value": "_.partition()",
+                            "exceptionValue": "{{_partition()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#reduce",
                             "tooltlp": "Reduces collection to a value which is the accumulated result of running each element in collection thru iteratee, where each successive invocation is supplied the return value of the previous. If accumulator is not given, the first element of collection is used as the initial value",
-                            "value": "_.reduce()"
+                            "value": "_.reduce()",
+                            "exceptionValue": "{{_reduce()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#reduceRight",
                             "tooltlp": "This method is like \"_.reduce\" except that it iterates over elements of collection from right to left",
-                            "value": "_.reduceRight()"
+                            "value": "_.reduceRight()",
+                            "exceptionValue": "{{_reduceRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#reject",
                             "tooltlp": "The opposite of \"_.filter\" this method returns the elements of collection that predicate does not return truthy for",
-                            "value": "_.reject()"
+                            "value": "_.reject()",
+                            "exceptionValue": "{{_reject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sample",
                             "tooltlp": "Gets a random element from collection",
-                            "value": "_.sample()"
+                            "value": "_.sample()",
+                            "exceptionValue": "{{_sample()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sampleSize",
                             "tooltlp": "Gets n random elements at unique keys from collection up to the size of collection",
-                            "value": "_.sampleSize()"
+                            "value": "_.sampleSize()",
+                            "exceptionValue": "{{_sampleSize()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#shuffle",
                             "tooltlp": "Creates an array of shuffled values",
-                            "value": "_.shuffle()"
+                            "value": "_.shuffle()",
+                            "exceptionValue": "{{_shuffle()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#size",
                             "tooltlp": "Gets the size of collection by returning its length for array-like values or the number of own enumerable string keyed properties for objects",
-                            "value": "_.size()"
+                            "value": "_.size()",
+                            "exceptionValue": "{{_size()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#some",
                             "tooltlp": "Checks if predicate returns truthy for any element of collection. Iteration is stopped once predicate returns truthy",
-                            "value": "_.some()"
+                            "value": "_.some()",
+                            "exceptionValue": "{{_some()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortBy",
                             "tooltlp": "Creates an array of elements, sorted in ascending order by the results of running each element in a collection thru each iteratee",
-                            "value": "_.sortBy()"
+                            "value": "_.sortBy()",
+                            "exceptionValue": "{{_sortBy()}}"
                         }
                     ]
                 }
@@ -149,307 +175,362 @@
                         {
                             "link": "https://lodash.com/docs/#chunk",
                             "tooltlp": "Creates an array of elements split into groups the length of size. If array can't be split evenly, the final chunk will be the remaining elements",
-                            "value": "_.chunk()"
+                            "value": "_.chunk()",
+                            "exceptionValue": "{{_chunk()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#compact",
                             "tooltlp": "Creates an array with all falsey values removed. The values false, null, 0, \"\", undefined, and NaN are falsey",
-                            "value": "_.compact()"
+                            "value": "_.compact()",
+                            "exceptionValue": "{{_compact()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#concat",
                             "tooltlp": "Creates a new array concatenating array with any additional arrays and/or values",
-                            "value": "_.concat()"
+                            "value": "_.concat()",
+                            "exceptionValue": "{{_concat()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#difference",
                             "tooltlp": "Creates an array of array values not included in the other given arrays using \"SameValueZero\" for equality comparisons",
-                            "value": "_.difference()"
+                            "value": "_.difference()",
+                            "exceptionValue": "{{_difference()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#differenceBy",
                             "tooltlp": "This method is like \"_.difference\" except that it accepts iteratee which is invoked for each element of array and values to generate the criterion by which they're compared",
-                            "value": "_.differenceBy()"
+                            "value": "_.differenceBy()",
+                            "exceptionValue": "{{_differenceBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#differenceWith",
                             "tooltlp": "This method is like \"_.difference\" except that it accepts comparator which is invoked to compare elements of array to values",
-                            "value": "_.differenceWith()"
+                            "value": "_.differenceWith()",
+                            "exceptionValue": "{{_differenceWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#drop",
                             "tooltlp": "Creates a slice of array with n elements dropped from the beginning",
-                            "value": "_.drop()"
+                            "value": "_.drop()",
+                            "exceptionValue": "{{_drop()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#dropRight",
                             "tooltlp": "Creates a slice of array with n elements dropped from the end",
-                            "value": "_.dropRight()"
+                            "value": "_.dropRight()",
+                            "exceptionValue": "{{_dropRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#dropRightWhile",
                             "tooltlp": "Creates a slice of array excluding elements dropped from the end. Elements are dropped until predicate returns falsey",
-                            "value": "_.dropRightWhile()"
+                            "value": "_.dropRightWhile()",
+                            "exceptionValue": "{{_dropRightWhile()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#fill",
                             "tooltlp": "Fills elements of array with value from start up to, but not including, end",
-                            "value": "_.fill()"
+                            "value": "_.fill()",
+                            "exceptionValue": "{{_fill()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#findIndex",
                             "tooltlp": "This method is like \"_.find\" except that it returns the index of the first element predicate returns truthy for instead of the element itself",
-                            "value": "_.findIndex()"
+                            "value": "_.findIndex()",
+                            "exceptionValue": "{{_findIndex()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#head",
                             "tooltlp": "Gets the first element of array",
-                            "value": "_.head()"
+                            "value": "_.head()",
+                            "exceptionValue": "{{_head()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#flatten",
                             "tooltlp": "Flattens array a single level deep",
-                            "value": "_.flatten()"
+                            "value": "_.flatten()",
+                            "exceptionValue": "{{_flatten()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#flattenDeep",
                             "tooltlp": "Recursively flattens array",
-                            "value": "_.flattenDeep()"
+                            "value": "_.flattenDeep()",
+                            "exceptionValue": "{{_flattenDeep()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#fromPairs",
                             "tooltlp": "The inverse of \"_.toPairs\" this method returns an object composed from key-value pairs",
-                            "value": "_.fromPairs()"
+                            "value": "_.fromPairs()",
+                            "exceptionValue": "{{_fromPairs()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#indexOf",
                             "tooltlp": "Gets the index at which the first occurrence of value is found in array using \"SameValueZero\" for equality comparisons",
-                            "value": "_.indexOf()"
+                            "value": "_.indexOf()",
+                            "exceptionValue": "{{_indexOf()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#initial",
                             "tooltlp": "Gets all but the last element of array",
-                            "value": "_.initial()"
+                            "value": "_.initial()",
+                            "exceptionValue": "{{_initial()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#intersection",
                             "tooltlp": "Creates an array of unique values that are included in all given arrays using \"SameValueZero\" for equality comparisons",
-                            "value": "_.intersection()"
+                            "value": "_.intersection()",
+                            "exceptionValue": "{{_intersection()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#intersectionBy",
                             "tooltlp": "This method is like \"_.intersection\" except that it accepts iteratee which is invoked for each element of each arrays to generate the criterion by which they're compared",
-                            "value": "_.intersectionBy()"
+                            "value": "_.intersectionBy()",
+                            "exceptionValue": "{{_intersectionBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#intersectionWith",
                             "tooltlp": "This method is like \"_.intersection\" except that it accepts comparator which is invoked to compare elements of arrays",
-                            "value": "_.intersectionWith()"
+                            "value": "_.intersectionWith()",
+                            "exceptionValue": "{{_intersectionWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#join",
                             "tooltlp": "Converts all elements in array into a string separated by separator",
-                            "value": "_.join()"
+                            "value": "_.join()",
+                            "exceptionValue": "{{_join()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#last",
                             "tooltlp": "Gets the last element of array",
-                            "value": "_.last()"
+                            "value": "_.last()",
+                            "exceptionValue": "{{_last()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#lastIndexOf",
                             "tooltlp": "This method is like \"_.indexOf\" except that it iterates over elements of array from right to left",
-                            "value": "_.lastIndexOf()"
+                            "value": "_.lastIndexOf()",
+                            "exceptionValue": "{{_lastIndexOf()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#nth",
                             "tooltlp": "Gets the element at index n of array. If n is negative, the nth element from the end is returned",
-                            "value": "_.nth()"
+                            "value": "_.nth()",
+                            "exceptionValue": "{{_nth()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pull",
                             "tooltlp": "Removes all given values from array using \"SameValueZero\" for equality comparisons",
-                            "value": "_.pull()"
+                            "value": "_.pull()",
+                            "exceptionValue": "{{_pull()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pullAll",
                             "tooltlp": "This method is like \"_.pull\" except that it accepts an array of values to remove",
-                            "value": "_.pullAll()"
+                            "value": "_.pullAll()",
+                            "exceptionValue": "{{_pullAll()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pullAllBy",
                             "tooltlp": "This method is like \"_.pullAll\" except that it accepts iteratee which is invoked for each element of array and values to generate the criterion by which they're compared",
-                            "value": "_.pullAllBy()"
+                            "value": "_.pullAllBy()",
+                            "exceptionValue": "{{_pullAllBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pullAllWith",
                             "tooltlp": "This method is like \"_.pullAll\" except that it accepts comparator which is invoked to compare elements of array to values",
-                            "value": "_.pullAllWith()"
+                            "value": "_.pullAllWith()",
+                            "exceptionValue": "{{_pullAllWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pullAt",
                             "tooltlp": "Removes elements from array corresponding to indexes and returns an array of removed elements",
-                            "value": "_.pullAt()"
+                            "value": "_.pullAt()",
+                            "exceptionValue": "{{_pullAt()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#remove",
                             "tooltlp": "Removes all elements from array that predicate returns truthy for and returns an array of the removed elements",
-                            "value": "_.remove()"
+                            "value": "_.remove()",
+                            "exceptionValue": "{{_remove()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#reverse",
                             "tooltlp": "Reverses array so that the first element becomes the last, the second element becomes the second to last, and so on",
-                            "value": "_.reverse()"
+                            "value": "_.reverse()",
+                            "exceptionValue": "{{_reverse()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#slice",
                             "tooltlp": "Creates a slice of array from start up to, but not including, end",
-                            "value": "_.slice()"
+                            "value": "_.slice()",
+                            "exceptionValue": "{{_slice()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedIndex",
                             "tooltlp": "Uses a binary search to determine the lowest index at which value should be inserted into array in order to maintain its sort order",
-                            "value": "_.sortedIndex()"
+                            "value": "_.sortedIndex()",
+                            "exceptionValue": "{{_sortedIndex()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedIndexBy",
                             "tooltlp": "This method is like \"_.sortedIndex\" except that it accepts iteratee which is invoked for value and each element of array to compute their sort ranking",
-                            "value": "_.sortedIndexBy()"
+                            "value": "_.sortedIndexBy()",
+                            "exceptionValue": "{{_sortedIndexBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedIndexOf",
                             "tooltlp": "This method is like \"_.indexOf\" except that it performs a binary search on a sorted array",
-                            "value": "_.sortedIndexOf()"
+                            "value": "_.sortedIndexOf()",
+                            "exceptionValue": "{{_sortedIndexOf()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedLastIndex",
                             "tooltlp": "This method is like \"_.sortedIndex\" except that it returns the highest index at which value should be inserted into array in order to maintain its sort order",
-                            "value": "_.sortedLastIndex()"
+                            "value": "_.sortedLastIndex()",
+                            "exceptionValue": "{{_sortedLastIndex()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedLastIndexBy",
                             "tooltlp": "This method is like \"_.sortedLastIndex\" except that it accepts iteratee which is invoked for value and each element of array to compute their sort ranking",
-                            "value": "_.sortedLastIndexBy()"
+                            "value": "_.sortedLastIndexBy()",
+                            "exceptionValue": "{{_sortedLastIndexBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedLastIndexOf",
                             "tooltlp": "This method is like \"_.lastIndexOf\" except that it performs a binary search on a sorted array",
-                            "value": "_.sortedLastIndexOf()"
+                            "value": "_.sortedLastIndexOf()",
+                            "exceptionValue": "{{_sortedLastIndexOf()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedUniq",
                             "tooltlp": "This method is like \"_.uniq\" except that it's designed and optimized for sorted arrays",
-                            "value": "_.sortedUniq()"
+                            "value": "_.sortedUniq()",
+                            "exceptionValue": "{{_sortedUniq()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sortedUniqBy",
                             "tooltlp": "This method is like \"_.uniqBy\" except that it's designed and optimized for sorted arrays",
-                            "value": "_.sortedUniqBy()"
+                            "value": "_.sortedUniqBy()",
+                            "exceptionValue": "{{_sortedUniqBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#tail",
                             "tooltlp": "Gets all but the first element of array",
-                            "value": "_.tail()"
+                            "value": "_.tail()",
+                            "exceptionValue": "{{_tail()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#take",
                             "tooltlp": "Creates a slice of array with n elements taken from the beginning",
-                            "value": "_.take()"
+                            "value": "_.take()",
+                            "exceptionValue": "{{_take()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#takeRight",
                             "tooltlp": "Creates a slice of array with n elements taken from the end",
-                            "value": "_.takeRight()"
+                            "value": "_.takeRight()",
+                            "exceptionValue": "{{_takeRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#takeRightWhile",
                             "tooltlp": "Creates a slice of array with elements taken from the end. Elements are taken until predicate returns falsey",
-                            "value": "_.takeRightWhile()"
+                            "value": "_.takeRightWhile()",
+                            "exceptionValue": "{{_takeRightWhile()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#takeWhile",
                             "tooltlp": "Creates a slice of array with elements taken from the beginning. Elements are taken until predicate returns falsey",
-                            "value": "_.takeWhile()"
+                            "value": "_.takeWhile()",
+                            "exceptionValue": "{{_takeWhile()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#union",
                             "tooltlp": "Creates an array of unique values, in order, from all given arrays using \"SameValueZero\" for equality comparisons",
-                            "value": "_.union()"
+                            "value": "_.union()",
+                            "exceptionValue": "{{_union()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#unionBy",
                             "tooltlp": "This method is like \"_.union\" except that it accepts iteratee which is invoked for each element of each arrays to generate the criterion by which uniqueness is computed",
-                            "value": "_.unionBy()"
+                            "value": "_.unionBy()",
+                            "exceptionValue": "{{_unionBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#unionWith",
                             "tooltlp": "This method is like \"_.union\" except that it accepts comparator which is invoked to compare elements of arrays",
-                            "value": "_.unionWith()"
+                            "value": "_.unionWith()",
+                            "exceptionValue": "{{_unionWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#uniq",
                             "tooltlp": "Creates a duplicate-free version of an array, using \"SameValueZero\" for equality comparisons",
-                            "value": "_.uniq()"
+                            "value": "_.uniq()",
+                            "exceptionValue": "{{_uniq()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#uniqBy",
                             "tooltlp": "This method is like \"_.uniq\" except that it accepts iteratee which is invoked for each element in array to generate the criterion by which uniqueness is computed",
-                            "value": "_.uniqBy()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#unionWith",
-                            "tooltlp": "This method is like \"_.union\" except that it accepts comparator which is invoked to compare elements of arrays",
-                            "value": "_.unionWith()"
+                            "value": "_.uniqBy()",
+                            "exceptionValue": "{{_uniqBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#unzip",
                             "tooltlp": "This method is like \"_.zip\" except that it accepts an array of grouped elements and creates an array regrouping the elements to their pre-zip configuration",
-                            "value": "_.unzip()"
+                            "value": "_.unzip()",
+                            "exceptionValue": "{{_unzip()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#unzipWith",
                             "tooltlp": "This method is like \"_.unzip\" except that it accepts iteratee to specify how regrouped values should be combinedThis method is like _.unzip except that it accepts iteratee to specify how regrouped values should be combined",
-                            "value": "_.unzipWith()"
+                            "value": "_.unzipWith()",
+                            "exceptionValue": "{{_unzipWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#without",
                             "tooltlp": "Creates an array excluding all given values using \"SameValueZero\" for equality comparisons",
-                            "value": "_.without()"
+                            "value": "_.without()",
+                            "exceptionValue": "{{_without()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#xor",
                             "tooltlp": "Creates an array of unique values that is the \"symmetric difference\" of the given arrays",
-                            "value": "_.xor()"
+                            "value": "_.xor()",
+                            "exceptionValue": "{{_xor()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#xorBy",
                             "tooltlp": "This method is like \"_.xor\" except that it accepts iteratee which is invoked for each element of each arrays to generate the criterion by which by which they're compared",
-                            "value": "_.xorBy()"
+                            "value": "_.xorBy()",
+                            "exceptionValue": "{{_xorBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#xorWith",
                             "tooltlp": "This method is like \"_.xor\" except that it accepts comparator which is invoked to compare elements of arrays",
-                            "value": "_.xorWith()"
+                            "value": "_.xorWith()",
+                            "exceptionValue": "{{_xorWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#zip",
                             "tooltlp": "Creates an array of grouped elements, the first of which contains the first elements of the given arrays, the second of which contains the second elements of the given arrays, and so on",
-                            "value": "_.zip()"
+                            "value": "_.zip()",
+                            "exceptionValue": "{{_zip()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#zipObject",
                             "tooltlp": "This method is like \"_.fromPairs\" except that it accepts two arrays, one of property identifiers and one of corresponding values",
-                            "value": "_.zipObject()"
+                            "value": "_.zipObject()",
+                            "exceptionValue": "{{_zipObject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#zipObjectDeep",
                             "tooltlp": "This method is like \"_.zipObject\" except that it supports property paths",
-                            "value": "_.zipObjectDeep()"
+                            "value": "_.zipObjectDeep()",
+                            "exceptionValue": "{{_zipObjectDeep()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#zipWith",
                             "tooltlp": "This method is like \"_.zip\" except that it accepts iteratee to specify how grouped values should be combined",
-                            "value": "_.zipWith()"
+                            "value": "_.zipWith()",
+                            "exceptionValue": "{{_zipWith()}}"
                         }
                     ]
                 }
@@ -464,7 +545,8 @@
                         {
                             "link": "https://lodash.com/docs/#now",
                             "tooltlp": "Gets the timestamp of the number of milliseconds that have elapsed since the Unix epoch (1 January 1970 00:00:00 UTC)",
-                            "value": "_.now()"
+                            "value": "_.now()",
+                            "exceptionValue": "{{_now()}}"
                         }
                     ]
                 }
@@ -479,117 +561,140 @@
                         {
                             "link": "https://lodash.com/docs/#after",
                             "tooltlp": "The opposite of \"_.before\" this method creates a function that invokes func once it's called n or more times",
-                            "value": "_.after()"
+                            "value": "_.after()",
+                            "exceptionValue": "{{_after()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#ary",
                             "tooltlp": "Creates a function that invokes func, with up to n arguments, ignoring any additional arguments",
-                            "value": "_.ary()"
+                            "value": "_.ary()",
+                            "exceptionValue": "{{_ary()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#before",
                             "tooltlp": "Creates a function that invokes func, with the this binding and arguments of the created function, while it's called less than n times. Subsequent calls to the created function return the result of the last func invocation.Creates a function that invokes func, with the this binding and arguments of the created function, while it's called less than n times. Subsequent calls to the created function return the result of the last func invocation.",
-                            "value": "_.before()"
+                            "value": "_.before()",
+                            "exceptionValue": "{{_before()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#bind",
                             "tooltlp": "Creates a function that invokes func with the this binding of thisArg and partials prepended to the arguments it receives",
-                            "value": "_.bind()"
+                            "value": "_.bind()",
+                            "exceptionValue": "{{_bind()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#bindKey",
                             "tooltlp": "Creates a function that invokes the method at object[key] with partials prepended to the arguments it receives",
-                            "value": "_.bindKey()"
+                            "value": "_.bindKey()",
+                            "exceptionValue": "{{_bindKey()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#curry",
                             "tooltlp": "Creates a function that accepts arguments of func and either invokes func returning its result, if at least arity number of arguments have been provided, or returns a function that accepts the remaining func arguments, and so on. The arity of func may be specified if func.length is not sufficient.",
-                            "value": "_.curry()"
+                            "value": "_.curry()",
+                            "exceptionValue": "{{_curry()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#curryRight",
                             "tooltlp": "This method is like \"_.curry\" except that arguments are applied to func in the manner of \"_.partialRight\" instead of \"_.partial\"",
-                            "value": "_.curryRight()"
+                            "value": "_.curryRight()",
+                            "exceptionValue": "{{_curryRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#debounce",
                             "tooltlp": "Creates a debounced function that delays invoking func until after wait milliseconds have elapsed since the last time the debounced function was invoked. The debounced function comes with a cancel method to cancel delayed func invocations and a flush method to immediately invoke them. Provide options to indicate whether func should be invoked on the leading and/or trailing edge of the wait timeout. The func is invoked with the last arguments provided to the debounced function. Subsequent calls to the debounced function return the result of the last func invocation",
-                            "value": "_.debounce()"
+                            "value": "_.debounce()",
+                            "exceptionValue": "{{_debounce()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#defer",
                             "tooltlp": "Defers invoking the func until the current call stack has cleared. Any additional arguments are provided to func when it's invoked",
-                            "value": "_.defer()"
+                            "value": "_.defer()",
+                            "exceptionValue": "{{_defer()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#delay",
                             "tooltlp": "Invokes func after wait milliseconds. Any additional arguments are provided to func when it's invoked",
-                            "value": "_.delay()"
+                            "value": "_.delay()",
+                            "exceptionValue": "{{_delay()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#flip",
                             "tooltlp": "Creates a function that invokes func with arguments reversed",
-                            "value": "_.flip()"
+                            "value": "_.flip()",
+                            "exceptionValue": "{{_flip()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#memoize",
                             "tooltlp": "Creates a function that memoizes the result of func. If resolver is provided, it determines the cache key for storing the result based on the arguments provided to the memoized function. By default, the first argument provided to the memoized function is used as the map cache key. The func is invoked with the this binding of the memoized function",
-                            "value": "_.memoize()"
+                            "value": "_.memoize()",
+                            "exceptionValue": "{{_memoize()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#negate",
                             "tooltlp": "Creates a function that negates the result of the predicate func. The func predicate is invoked with the this binding and arguments of the created function",
-                            "value": "_.negate()"
+                            "value": "_.negate()",
+                            "exceptionValue": "{{_negate()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#once",
                             "tooltlp": "Creates a function that is restricted to invoking func once. Repeat calls to the function return the value of the first invocation. The func is invoked with the this binding and arguments of the created function",
-                            "value": "_.once()"
+                            "value": "_.once()",
+                            "exceptionValue": "{{_once()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#overArgs",
                             "tooltlp": "Creates a function that invokes func with its arguments transformed",
-                            "value": "_.overArgs()"
+                            "value": "_.overArgs()",
+                            "exceptionValue": "{{_overArgs()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#partial",
                             "tooltlp": "Creates a function that invokes func with partials prepended to the arguments it receives. This method is like \"_.bind\" except it does not alter the this binding",
-                            "value": "_.partial()"
+                            "value": "_.partial()",
+                            "exceptionValue": "{{_partial()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#partialRight",
                             "tooltlp": "This method is like \"_.partial\" except that partially applied arguments are appended to the arguments it receives",
-                            "value": "_.partialRight()"
+                            "value": "_.partialRight()",
+                            "exceptionValue": "{{_partialRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#rearg",
                             "tooltlp": "Creates a function that invokes func with arguments arranged according to the specified indexes where the argument value at the first index is provided as the first argument, the argument value at the second index is provided as the second argument, and so on",
-                            "value": "_.rearg()"
+                            "value": "_.rearg()",
+                            "exceptionValue": "{{_rearg()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#rest",
                             "tooltlp": "Creates a function that invokes func with the this binding of the created function and arguments from start and beyond provided as an array",
-                            "value": "_.rest()"
+                            "value": "_.rest()",
+                            "exceptionValue": "{{_rest()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#spread",
                             "tooltlp": "Creates a function that invokes func with the this binding of the create function and an array of arguments much like \"Function#apply\"",
-                            "value": ""
+                            "value": "_.spread()",
+                            "exceptionValue": "{{_spread()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#throttle",
                             "tooltlp": "Creates a throttled function that only invokes func at most once per every wait milliseconds. The throttled function comes with a cancel method to cancel delayed func invocations and a flush method to immediately invoke them. Provide options to indicate whether func should be invoked on the leading and/or trailing edge of the wait timeout. The func is invoked with the last arguments provided to the throttled function. Subsequent calls to the throttled function return the result of the last func invocation",
-                            "value": "_.throttle()"
+                            "value": "_.throttle()",
+                            "exceptionValue": "{{_throttle()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#unary",
                             "tooltlp": "Creates a function that accepts up to one argument, ignoring any additional arguments",
-                            "value": "_.unary()"
+                            "value": "_.unary()",
+                            "exceptionValue": "{{_unary()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#wrap",
                             "tooltlp": "Creates a function that provides value to wrapper as its first argument. Any additional arguments provided to the function are appended to those provided to the wrapper. The wrapper is invoked with the this binding of the created function",
-                            "value": "_.wrap()"
+                            "value": "_.wrap()",
+                            "exceptionValue": "{{_wrap()}}"
                         }
                     ]
                 }
@@ -604,282 +709,338 @@
                         {
                             "link": "https://lodash.com/docs/#castArray",
                             "tooltlp": "Casts value as an array if it's not one",
-                            "value": "_.castArray()"
+                            "value": "_.castArray()",
+                            "exceptionValue": "{{_castArray()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#clone",
                             "tooltlp": "Creates a shallow clone of value",
-                            "value": "_.clone()"
+                            "value": "_.clone()",
+                            "exceptionValue": "{{_clone()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#cloneDeep",
                             "tooltlp": "This method is like \"_.clone\" except that it recursively clones value",
-                            "value": "_.cloneDeep()"
+                            "value": "_.cloneDeep()",
+                            "exceptionValue": "{{_cloneDeep()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#cloneDeepWith",
                             "tooltlp": "This method is like \"_.cloneWith\" except that it recursively clones value",
-                            "value": "_.cloneDeepWith()"
+                            "value": "_.cloneDeepWith()",
+                            "exceptionValue": "{{_cloneDeepWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#cloneWith",
                             "tooltlp": "This method is like \"_.clone\" except that it accepts customizer which is invoked to produce the cloned value. If customizer returns undefined, cloning is handled by the method instead",
-                            "value": "_.cloneWith()"
+                            "value": "_.cloneWith()",
+                            "exceptionValue": "{{_cloneWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#conformsTo",
                             "tooltlp": "Checks if object conforms to source by invoking the predicate properties of source with the corresponding property values of object",
-                            "value": "_.conformsTo()"
+                            "value": "_.conformsTo()",
+                            "exceptionValue": "{{_conformsTo()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#eq",
                             "tooltlp": "Performs a \"SameValueZero\" comparison between two values to determine if they are equivalent",
-                            "value": "_.eq()"
+                            "value": "_.eq()",
+                            "exceptionValue": "{{_eq()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#gt",
                             "tooltlp": "Checks if value is greater than other",
-                            "value": "_.gt()"
+                            "value": "_.gt()",
+                            "exceptionValue": "{{_gt()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#gte",
                             "tooltlp": "Checks if value is greater than or equal to other",
-                            "value": "_.gte()"
+                            "value": "_.gte()",
+                            "exceptionValue": "{{_gte()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isArguments",
                             "tooltlp": "Checks if value is likely an arguments object",
-                            "value": "_.isArguments()"
+                            "value": "_.isArguments()",
+                            "exceptionValue": "{{_isArguments()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isArray",
                             "tooltlp": "Checks if value is classified as an Array object",
-                            "value": "_.isArray()"
+                            "value": "_.isArray()",
+                            "exceptionValue": "{{_isArray()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isArrayBuffer",
                             "tooltlp": "Checks if value is classified as an ArrayBuffer object",
-                            "value": "_.isArrayBuffer()"
+                            "value": "_.isArrayBuffer()",
+                            "exceptionValue": "{{_isArrayBuffer()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isArrayLike",
                             "tooltlp": "Checks if value is array-like. A value is considered array-like if it's not a function and has a value.length that's an integer greater than or equal to 0 and less than or equal to Number.MAX_SAFE_INTEGER",
-                            "value": "_.isArrayLike()"
+                            "value": "_.isArrayLike()",
+                            "exceptionValue": "{{_isArrayLike()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isArrayLikeObject",
                             "tooltlp": "This method is like \"_.isArrayLike\" except that it also checks if value is an object",
-                            "value": "_.isArrayLikeObject()"
+                            "value": "_.isArrayLikeObject()",
+                            "exceptionValue": "{{_isArrayLikeObject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isBoolean",
                             "tooltlp": "Checks if value is classified as a boolean primitive or object",
-                            "value": "_.isBoolean()"
+                            "value": "_.isBoolean()",
+                            "exceptionValue": "{{_isBoolean()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isBuffer",
                             "tooltlp": "Checks if value is a buffer",
-                            "value": "_.isBuffer()"
+                            "value": "_.isBuffer()",
+                            "exceptionValue": "{{_isBuffer()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isDate",
                             "tooltlp": "Checks if value is classified as a Date object",
-                            "value": "_.isDate()"
+                            "value": "_.isDate()",
+                            "exceptionValue": "{{_isDate()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isElement",
                             "tooltlp": "Checks if value is likely a DOM element",
-                            "value": "_.isElement()"
+                            "value": "_.isElement()",
+                            "exceptionValue": "{{_isElement()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isEmpty",
                             "tooltlp": "Checks if value is an empty object, collection, map, or set",
-                            "value": "_.isEmpty()"
+                            "value": "_.isEmpty()",
+                            "exceptionValue": "{{_isEmpty()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isEqual",
                             "tooltlp": "Performs a deep comparison between two values to determine if they are equivalent",
-                            "value": "_.isEqual()"
+                            "value": "_.isEqual()",
+                            "exceptionValue": "{{_isEqual()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isEqualWith",
                             "tooltlp": "This method is like \"_.isEqual\" except that it accepts customizer which is invoked to compare values. If customizer returns undefined, comparisons are handled by the method instead",
-                            "value": "_.isEqualWith()"
+                            "value": "_.isEqualWith()",
+                            "exceptionValue": "{{_isEqualWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isError",
                             "tooltlp": "Checks if value is an Error, EvalError, RangeError, ReferenceError, SyntaxError, TypeError, or URIError object",
-                            "value": "_.isError()"
+                            "value": "_.isError()",
+                            "exceptionValue": "{{_isError()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isFinite",
                             "tooltlp": "Checks if value is a finite primitive number",
-                            "value": "_.isFinite()"
+                            "value": "_.isFinite()",
+                            "exceptionValue": "{{_isFinite()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isFunction",
                             "tooltlp": "Checks if value is classified as a Function object",
-                            "value": "_.isFunction()"
+                            "value": "_.isFunction()",
+                            "exceptionValue": "{{_isFunction()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isInteger",
                             "tooltlp": "Checks if value is an integer",
-                            "value": "_.isInteger()"
+                            "value": "_.isInteger()",
+                            "exceptionValue": "{{_isInteger()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isLength",
                             "tooltlp": "Checks if value is a valid array-like length",
-                            "value": "_.isLength()"
+                            "value": "_.isLength()",
+                            "exceptionValue": "{{_isLength()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isMap",
                             "tooltlp": "Checks if value is classified as a Map object",
-                            "value": "_.isMap()"
+                            "value": "_.isMap()",
+                            "exceptionValue": "{{_isMap()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isMatch",
                             "tooltlp": "Performs a partial deep comparison between object and source to determine if object contains equivalent property values",
-                            "value": "_.isMatch()"
+                            "value": "_.isMatch()",
+                            "exceptionValue": "{{_isMatch()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isMatchWith",
                             "tooltlp": "This method is like \"_.isMatch\" except that it accepts customizer which is invoked to compare values. If customizer returns undefined, comparisons are handled by the method instead",
-                            "value": "_.isMatchWith()"
+                            "value": "_.isMatchWith()",
+                            "exceptionValue": "{{_isMatchWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isNaN",
                             "tooltlp": "Checks if value is NaN",
-                            "value": "_.isNaN()"
+                            "value": "_.isNaN()",
+                            "exceptionValue": "{{_isNaN()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isNative",
                             "tooltlp": "Checks if value is a pristine native function",
-                            "value": "_.isNative()"
+                            "value": "_.isNative()",
+                            "exceptionValue": "{{_isNative()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isNil",
                             "tooltlp": "Checks if value is null or undefined",
-                            "value": "_.isNil()"
+                            "value": "_.isNil()",
+                            "exceptionValue": "{{_isNil()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isNull",
                             "tooltlp": "Checks if value is null",
-                            "value": "_.isNull()"
+                            "value": "_.isNull()",
+                            "exceptionValue": "{{_isNull()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isNumber",
                             "tooltlp": "Checks if value is classified as a Number primitive or object",
-                            "value": "_.isNumber()"
+                            "value": "_.isNumber()",
+                            "exceptionValue": "{{_isNumber()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isObject",
                             "tooltlp": "Checks if value is the \"language type\" of Object",
-                            "value": "_.isObject()"
+                            "value": "_.isObject()",
+                            "exceptionValue": "{{_isObject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isObjectLike",
                             "tooltlp": "Checks if value is object-like. A value is object-like if it's not null and has a typeof result of \"object\".",
-                            "value": "_.isObjectLike()"
+                            "value": "_.isObjectLike()",
+                            "exceptionValue": "{{_isObjectLike()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isPlainObject",
                             "tooltlp": "Checks if value is a plain object, that is, an object created by the Object constructor or one with a [[Prototype]] of null",
-                            "value": "_.isPlainObject()"
+                            "value": "_.isPlainObject()",
+                            "exceptionValue": "{{_isPlainObject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isRegExp",
                             "tooltlp": "Checks if value is classified as a RegExp object",
-                            "value": "_.isRegExp()"
+                            "value": "_.isRegExp()",
+                            "exceptionValue": "{{_isRegExp()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isSafeInteger",
                             "tooltlp": "Checks if value is a safe integer. An integer is safe if it's an IEEE-754 double precision number which isn't the result of a rounded unsafe integer",
-                            "value": "_.isSafeInteger()"
+                            "value": "_.isSafeInteger()",
+                            "exceptionValue": "{{_isSafeInteger()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isSet",
                             "tooltlp": "Checks if value is classified as a Set object",
-                            "value": "_.isSet()"
+                            "value": "_.isSet()",
+                            "exceptionValue": "{{_isSet()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isString",
                             "tooltlp": "Checks if value is classified as a String primitive or object",
-                            "value": "_.isString()"
+                            "value": "_.isString()",
+                            "exceptionValue": "{{_isString()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isSymbol",
                             "tooltlp": "Checks if value is classified as a Symbol primitive or object",
-                            "value": "_.isSymbol()"
+                            "value": "_.isSymbol()",
+                            "exceptionValue": "{{_isSymbol()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isTypedArray",
                             "tooltlp": "Checks if value is classified as a typed array",
-                            "value": "_.isTypedArray()"
+                            "value": "_.isTypedArray()",
+                            "exceptionValue": "{{_isTypedArray()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isUndefined",
                             "tooltlp": "Checks if value is undefined",
-                            "value": "_.isUndefined()"
+                            "value": "_.isUndefined()",
+                            "exceptionValue": "{{_isUndefined()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isWeakMap",
                             "tooltlp": "Checks if value is classified as a WeakMap object",
-                            "value": "_.isWeakMap()"
+                            "value": "_.isWeakMap()",
+                            "exceptionValue": "{{_isWeakMap()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#isWeakSet",
                             "tooltlp": "Checks if value is classified as a WeakSet object",
-                            "value": "_.isWeakSet()"
+                            "value": "_.isWeakSet()",
+                            "exceptionValue": "{{_isWeakSet()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#lt",
                             "tooltlp": "Checks if value is less than other",
-                            "value": "_.lt()"
+                            "value": "_.lt()",
+                            "exceptionValue": "{{_lt()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#lte",
                             "tooltlp": "Checks if value is less than or equal to other",
-                            "value": "_.lte()"
+                            "value": "_.lte()",
+                            "exceptionValue": "{{_lte()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toArray",
                             "tooltlp": "Converts value to an array",
-                            "value": "_.toArray()"
+                            "value": "_.toArray()",
+                            "exceptionValue": "{{_toArray()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toFinite",
                             "tooltlp": "Converts value to a finite number",
-                            "value": "_.toFinite()"
+                            "value": "_.toFinite()",
+                            "exceptionValue": "{{_toFinite()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toInteger",
                             "tooltlp": "Converts value to an integer",
-                            "value": "_.toInteger()"
+                            "value": "_.toInteger()",
+                            "exceptionValue": "{{_toInteger()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toLength",
                             "tooltlp": "Converts value to an integer suitable for use as the length of an array-like object",
-                            "value": "_.toLength()"
+                            "value": "_.toLength()",
+                            "exceptionValue": "{{_toLength()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toNumber",
                             "tooltlp": "Converts value to a number",
-                            "value": "_.toNumber()"
+                            "value": "_.toNumber()",
+                            "exceptionValue": "{{_toNumber()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toPlainObject",
                             "tooltlp": "Converts value to a plain object flattening inherited enumerable string keyed properties of value to own properties of the plain object",
-                            "value": "_.toPlainObject()"
+                            "value": "_.toPlainObject()",
+                            "exceptionValue": "{{_toPlainObject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toSafeInteger",
                             "tooltlp": "Converts value to a safe integer. A safe integer can be compared and represented correctly",
-                            "value": "_.toSafeInteger()"
+                            "value": "_.toSafeInteger()",
+                            "exceptionValue": "{{_toSafeInteger()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toString",
                             "tooltlp": "Converts value to a string. An empty string is returned for null and undefined values. The sign of -0 is preserved",
-                            "value": "_.toString()"
+                            "value": "_.toString()",
+                            "exceptionValue": "{{_toString()}}"
                         }
                     ]
                 }
@@ -894,87 +1055,92 @@
                         {
                             "link": "https://lodash.com/docs/#add",
                             "tooltlp": "Adds two numbers",
-                            "value": "_.add()"
+                            "value": "_.add()",
+                            "exceptionValue": "{{_add()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#ceil",
                             "tooltlp": "Computes number rounded up to precision",
-                            "value": "_.ceil()"
+                            "value": "_.ceil()",
+                            "exceptionValue": "{{_ceil()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#divide",
                             "tooltlp": "Divide two numbers",
-                            "value": "_.divide()"
+                            "value": "_.divide()",
+                            "exceptionValue": "{{_divide()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#floor",
                             "tooltlp": "Computes number rounded down to precision",
-                            "value": "_.floor()"
+                            "value": "_.floor()",
+                            "exceptionValue": "{{_floor()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#max",
                             "tooltlp": "Computes the maximum value of array. If array is empty or falsey, undefined is returned",
-                            "value": "_.max()"
+                            "value": "_.max()",
+                            "exceptionValue": "{{_max()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#maxBy",
                             "tooltlp": "This method is like \"_.max\" except that it accepts iteratee which is invoked for each element in array to generate the criterion by which the value is ranked.",
-                            "value": "_.maxBy()"
+                            "value": "_.maxBy()",
+                            "exceptionValue": "{{_maxBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#mean",
                             "tooltlp": "Computes the mean of the values in array",
-                            "value": "_.mean()"
+                            "value": "_.mean()",
+                            "exceptionValue": "{{_mean()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#meanBy",
                             "tooltlp": "This method is like \"_.mean\" except that it accepts iteratee which is invoked for each element in array to generate the value to be averaged",
-                            "value": "_.meanBy()"
+                            "value": "_.meanBy()",
+                            "exceptionValue": "{{_meanBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#min",
                             "tooltlp": "Computes the minimum value of array. If array is empty or falsey, undefined is returned.",
-                            "value": "_.min()"
+                            "value": "_.min()",
+                            "exceptionValue": "{{_min()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#minBy",
                             "tooltlp": "This method is like \"_.min\" except that it accepts iteratee which is invoked for each element in array to generate the criterion by which the value is ranked",
-                            "value": "_.minBy()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#min",
-                            "tooltlp": "Computes the minimum value of array. If array is empty or falsey, undefined is returned",
-                            "value": "_.min()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#minBy",
-                            "tooltlp": "This method is like \"_.min\" except that it accepts iteratee which is invoked for each element in array to generate the criterion by which the value is ranked",
-                            "value": "_.minBy()"
+                            "value": "_.minBy()",
+                            "exceptionValue": "{{_minBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#multiplyv",
                             "tooltlp": "Multiply two numbers",
-                            "value": "_.multiply()"
+                            "value": "_.multiply()",
+                            "exceptionValue": "{{_multiply()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#round",
                             "tooltlp": "Computes number rounded to precision",
-                            "value": "_.round()"
+                            "value": "_.round()",
+                            "exceptionValue": "{{_round()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#subtract",
                             "tooltlp": "Subtract two numbers",
-                            "value": "_.subtract()"
+                            "value": "_.subtract()",
+                            "exceptionValue": "{{_subtract()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sum",
                             "tooltlp": "Computes the sum of the values in array",
-                            "value": "_.sum()"
+                            "value": "_.sum()",
+                            "exceptionValue": "{{_sum()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#sumBy",
                             "tooltlp": "This method is like \"_.sum\" except that it accepts iteratee which is invoked for each element in array to generate the value to be summed",
-                            "value": "_.sumBy()"
+                            "value": "_.sumBy()",
+                            "exceptionValue": "{{_sumBy()}}"
                         }
                     ]
                 }
@@ -989,17 +1155,20 @@
                         {
                             "link": "https://lodash.com/docs/#clamp",
                             "tooltlp": "Clamps number within the inclusive lower and upper bounds",
-                            "value": "_.clamp()"
+                            "value": "_.clamp()",
+                            "exceptionValue": "{{_clamp()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#inRange",
                             "tooltlp": "Checks if n is between start and up to, but not including, end. If end is not specified, it's set to start with start then set to 0. If start is greater than end the params are swapped to support negative ranges",
-                            "value": "_.inRange()"
+                            "value": "_.inRange()",
+                            "exceptionValue": "{{_inRange()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#random",
                             "tooltlp": "Produces a random number between the inclusive lower and upper bounds. If only one argument is provided a number between 0 and the given number is returned. If floating is true, or either lower or upper are floats, a floating-point number is returned instead of an integer.",
-                            "value": "_.random()"
+                            "value": "_.random()",
+                            "exceptionValue": "{{_random()}}"
                         }
                     ]
                 }
@@ -1014,152 +1183,182 @@
                         {
                             "link": "https://lodash.com/docs/#camelCase",
                             "tooltlp": "Converts string to \"camel case\"",
-                            "value": "_.camelCase()"
+                            "value": "_.camelCase()",
+                            "exceptionValue": "{{_camelCase()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#capitalize",
                             "tooltlp": "Converts the first character of string to upper case and the remaining to \"lower case\"",
-                            "value": "_.capitalize()"
+                            "value": "_.capitalize()",
+                            "exceptionValue": "{{_capitalize()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#deburr",
                             "tooltlp": "Deburrs string by \"converting Latin-1\" Supplement and \"Latin Extended-A\" letters to basic Latin letters and removing \"combining diacritical marks\"",
-                            "value": "_.deburr()"
+                            "value": "_.deburr()",
+                            "exceptionValue": "{{_deburr()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#endsWith",
                             "tooltlp": "Checks if string ends with the given target string",
-                            "value": "_.endsWith()"
+                            "value": "_.endsWith()",
+                            "exceptionValue": "{{_endsWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#escape",
                             "tooltlp": "Converts the characters \"&\", \"<\", \">\", '\"', and \"'\" in string to their corresponding HTML entities",
-                            "value": "_.escape()"
+                            "value": "_.escape()",
+                            "exceptionValue": "{{_escape()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#escapeRegExp",
                             "tooltlp": "Escapes the RegExp special characters \"^\", \"$\", \"\", \".\", \"*\", \"+\", \"?\", \"(\", \")\", \"[\", \"]\", \"{\", \"}\", and \"|\" in string",
-                            "value": "_.escapeRegExp()"
+                            "value": "_.escapeRegExp()",
+                            "exceptionValue": "{{_escapeRegExp()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#kebabCase",
                             "tooltlp": "Converts string to \"kebab case\"",
-                            "value": "_.kebabCase()"
+                            "value": "_.kebabCase()",
+                            "exceptionValue": "{{_kebabCase()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#lowerCase",
                             "tooltlp": "Converts string, as space separated words, to lower case",
-                            "value": "_.lowerCase()"
+                            "value": "_.lowerCase()",
+                            "exceptionValue": "{{_lowerCase()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#lowerFirst",
                             "tooltlp": "Converts the first character of string to lower case",
-                            "value": "_.lowerFirst()"
+                            "value": "_.lowerFirst()",
+                            "exceptionValue": "{{_lowerFirst()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#pad",
                             "tooltlp": "Pads string on the left and right sides if it's shorter than length. Padding characters are truncated if they can't be evenly divided by length",
-                            "value": "_.pad()"
+                            "value": "_.pad()",
+                            "exceptionValue": "{{_pad()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#padEnd",
                             "tooltlp": "Pads string on the right side if it's shorter than length. Padding characters are truncated if they exceed length",
-                            "value": "_.padEnd()"
+                            "value": "_.padEnd()",
+                            "exceptionValue": "{{_padEnd()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#padStart",
                             "tooltlp": "Pads string on the left side if it's shorter than length. Padding characters are truncated if they exceed length",
-                            "value": "_.padStart()"
+                            "value": "_.padStart()",
+                            "exceptionValue": "{{_padStart()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#parseInt",
                             "tooltlp": "Converts string to an integer of the specified radix. If radix is undefined or 0, a radix of 10 is used unless value is a hexadecimal, in which case a radix of 16 is used",
-                            "value": "_.parseInt()"
+                            "value": "_.parseInt()",
+                            "exceptionValue": "{{_parseInt()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#repeat",
                             "tooltlp": "Repeats the given string n times",
-                            "value": "_.repeat()"
+                            "value": "_.repeat()",
+                            "exceptionValue": "{{_repeat()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#replace",
                             "tooltlp": "Replaces matches for pattern in string with replacement",
-                            "value": "_.replace()"
+                            "value": "_.replace()",
+                            "exceptionValue": "{{_replace()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#snakeCase",
                             "tooltlp": "Converts string to \"snake case\"",
-                            "value": "_.snakeCase()"
+                            "value": "_.snakeCase()",
+                            "exceptionValue": "{{_snakeCase()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#split",
                             "tooltlp": "Splits string by separator",
-                            "value": "_.split()"
+                            "value": "_.split()",
+                            "exceptionValue": "{{_split()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#startCase",
                             "tooltlp": "Converts string to \"start case\"",
-                            "value": "_.startCase()"
+                            "value": "_.startCase()",
+                            "exceptionValue": "{{_startCase()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#startsWith",
                             "tooltlp": "Checks if string starts with the given target string",
-                            "value": "_.startsWith()"
+                            "value": "_.startsWith()",
+                            "exceptionValue": "{{_startsWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#template",
                             "tooltlp": "Creates a compiled template function that can interpolate data properties in \"interpolate\" delimiters, HTML-escape interpolated data properties in \"escape\" delimiters, and execute JavaScript in \"evaluate\" delimiters. Data properties may be accessed as free variables in the template. If a setting object is given, it takes precedence over \"_.templateSettings\" values",
-                            "value": "_.template()"
+                            "value": "_.template()",
+                            "exceptionValue": "{{_template()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#toLower",
                             "tooltlp": "Converts string, as a whole, to lower case just like \"String#toLowerCase\"",
-                            "value": "_.toLower()"
+                            "value": "_.toLower()",
+                            "exceptionValue": "{{_toLower()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#toUpper",
                             "tooltlp": "Converts string, as a whole, to upper case just like \"String#toUpperCase\"",
-                            "value": "_.toUpper()"
+                            "value": "_.toUpper()",
+                            "exceptionValue": "{{_toUpper()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#trim",
                             "tooltlp": "Removes leading and trailing whitespace or specified characters from string",
-                            "value": "_.trim()"
+                            "value": "_.trim()",
+                            "exceptionValue": "{{_trim()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#trimEnd",
                             "tooltlp": "Removes trailing whitespace or specified characters from string",
-                            "value": "_.trimEnd()"
+                            "value": "_.trimEnd()",
+                            "exceptionValue": "{{_trimEnd()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#trimStart",
                             "tooltlp": "Removes leading whitespace or specified characters from string",
-                            "value": "_.trimStart()"
+                            "value": "_.trimStart()",
+                            "exceptionValue": "{{_trimStart()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#truncate",
                             "tooltlp": "Truncates string if it's longer than the given maximum string length. The last characters of the truncated string are replaced with the omission string which defaults to \"...\"",
-                            "value": "_.truncate()"
+                            "value": "_.truncate()",
+                            "exceptionValue": "{{_truncate()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#unescape",
                             "tooltlp": "The inverse of \"_.escape\" this method converts the HTML entities &amp;, &lt;, &gt;, &quot;, and &#39; in string to their corresponding characters",
-                            "value": "_.unescape()"
+                            "value": "_.unescape()",
+                            "exceptionValue": "{{_unescape()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#upperCase",
                             "tooltlp": "Converts string, as space separated words, to upper case",
-                            "value": "_.upperCase()"
+                            "value": "_.upperCase()",
+                            "exceptionValue": "{{_upperCase()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#upperFirst",
                             "tooltlp": "Converts the first character of string to upper case",
-                            "value": "_.upperFirst()"
+                            "value": "_.upperFirst()",
+                            "exceptionValue": "{{_upperFirst()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#words",
                             "tooltlp": "Splits string into an array of its words",
-                            "value": "_.words()"
+                            "value": "_.words()",
+                            "exceptionValue": "{{_words()}}"
                         }
                     ]
                 }
@@ -1174,237 +1373,260 @@
                         {
                             "link": "https://lodash.com/docs/#assign",
                             "tooltlp": "Assigns own enumerable string keyed properties of source objects to the destination object. Source objects are applied from left to right. Subsequent sources overwrite property assignments of previous sources",
-                            "value": "_.assign()"
+                            "value": "_.assign()",
+                            "exceptionValue": "{{_assign()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#assignIn",
                             "tooltlp": "This method is like \"_.assign\" except that it iterates over own and inherited source properties",
-                            "value": "_.assignIn()"
+                            "value": "_.assignIn()",
+                            "exceptionValue": "{{_assignIn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#assignInWith",
                             "tooltlp": "This method is like \"_.assignIn\" except that it accepts customizer which is invoked to produce the assigned values. If customizer returns undefined, assignment is handled by the method instead",
-                            "value": "_.assignInWith()"
+                            "value": "_.assignInWith()",
+                            "exceptionValue": "{{_assignInWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#assignWith",
                             "tooltlp": "This method is like \"_.assign\" except that it accepts customizer which is invoked to produce the assigned values. If customizer returns undefined, assignment is handled by the method instead",
-                            "value": "_.assignWith()"
+                            "value": "_.assignWith()",
+                            "exceptionValue": "{{_assignWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#at",
                             "tooltlp": "Creates an array of values corresponding to paths of object",
-                            "value": "_.at()"
+                            "value": "_.at()",
+                            "exceptionValue": "{{_at()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#create",
                             "tooltlp": "Creates an object that inherits from the prototype object. If a properties object is given, its own enumerable string keyed properties are assigned to the created object",
-                            "value": "_.create()"
+                            "value": "_.create()",
+                            "exceptionValue": "{{_create()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#defaults",
                             "tooltlp": "Assigns own and inherited enumerable string keyed properties of source objects to the destination object for all destination properties that resolve to undefined. Source objects are applied from left to right. Once a property is set, additional values of the same property are ignored",
-                            "value": "_.defaults()"
+                            "value": "_.defaults()",
+                            "exceptionValue": "{{_defaults()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#defaultsDeep",
                             "tooltlp": "This method is like \"_.defaults\" except that it recursively assigns default properties",
-                            "value": "_.defaultsDeep()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#toPairs",
-                            "tooltlp": "Creates an array of own enumerable string keyed-value pairs for object which can be consumed by \"_.fromPairs\". If object is a map or set, its entries are returned",
-                            "value": "_.toPairs()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#toPairsIn",
-                            "tooltlp": "Creates an array of own and inherited enumerable string keyed-value pairs for object which can be consumed by \"_.fromPairs\". If object is a map or set, its entries are returned",
-                            "value": "_.toPairsIn()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#assignIn",
-                            "tooltlp": "This method is like \"_.assign\" except that it iterates over own and inherited source properties",
-                            "value": "_.assignIn()"
-                        },
-                        {
-                            "link": "https://lodash.com/docs/#assignInWith",
-                            "tooltlp": "This method is like \"_.assignIn\" except that it accepts customizer which is invoked to produce the assigned values. If customizer returns undefined, assignment is handled by the method instead",
-                            "value": "_.assignInWith()"
+                            "value": "_.defaultsDeep()",
+                            "exceptionValue": "{{_defaultsDeep()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#findKey",
                             "tooltlp": "This method is like \"_.find\" except that it returns the key of the first element predicate returns truthy for instead of the element itself",
-                            "value": "_.findKey()"
+                            "value": "_.findKey()",
+                            "exceptionValue": "{{_findKey()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#findLastKey",
                             "tooltlp": "This method is like \"_.findKey\" except that it iterates over elements of a collection in the opposite order",
-                            "value": "_.findLastKey()"
+                            "value": "_.findLastKey()",
+                            "exceptionValue": "{{_findLastKey()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#forIn",
                             "tooltlp": "Iterates over own and inherited enumerable string keyed properties of an object and invokes iteratee for each property",
-                            "value": "_.forIn()"
+                            "value": "_.forIn()",
+                            "exceptionValue": "{{_forIn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#forInRight",
                             "tooltlp": "This method is like \"_.forIn\" except that it iterates over properties of object in the opposite order",
-                            "value": "_.forInRight()"
+                            "value": "_.forInRight()",
+                            "exceptionValue": "{{_forInRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#forOwn",
                             "tooltlp": "Iterates over own enumerable string keyed properties of an object and invokes iteratee for each property",
-                            "value": "_.forOwn()"
+                            "value": "_.forOwn()",
+                            "exceptionValue": "{{_forOwn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#forOwnRight",
                             "tooltlp": "This method is like \"_.forOwn\" except that it iterates over properties of object in the opposite order",
-                            "value": "_.forOwnRight()"
+                            "value": "_.forOwnRight()",
+                            "exceptionValue": "{{_forOwnRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#functions",
                             "tooltlp": "Creates an array of function property names from own enumerable properties of object",
-                            "value": "_.functions()"
+                            "value": "_.functions()",
+                            "exceptionValue": "{{_functions()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#functionsIn",
                             "tooltlp": "Creates an array of function property names from own and inherited enumerable properties of object",
-                            "value": "_.functionsIn()"
+                            "value": "_.functionsIn()",
+                            "exceptionValue": "{{_functionsIn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#get",
                             "tooltlp": "Gets the value at path of object. If the resolved value is undefined, the defaultValue is returned in its place",
-                            "value": "_.get()"
+                            "value": "_.get()",
+                            "exceptionValue": "{{_get()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#has",
                             "tooltlp": "Checks if path is a direct property of object",
-                            "value": "_.has()"
+                            "value": "_.has()",
+                            "exceptionValue": "{{_has()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#hasIn",
                             "tooltlp": "Checks if path is a direct or inherited property of object",
-                            "value": "_.hasIn()"
+                            "value": "_.hasIn()",
+                            "exceptionValue": "{{_hasIn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#invert",
                             "tooltlp": "Creates an object composed of the inverted keys and values of object. If object contains duplicate values, subsequent values overwrite property assignments of previous values",
-                            "value": "_.invert()"
+                            "value": "_.invert()",
+                            "exceptionValue": "{{_invert()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#invertBy",
                             "tooltlp": "This method is like \"_.invert\" except that the inverted object is generated from the results of running each element of object thru iteratee. The corresponding inverted value of each inverted key is an array of keys responsible for generating the inverted value",
-                            "value": "_.invertBy()"
+                            "value": "_.invertBy()",
+                            "exceptionValue": "{{_invertBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#invoke",
                             "tooltlp": "Invokes the method at path of object",
-                            "value": "_.invoke()"
+                            "value": "_.invoke()",
+                            "exceptionValue": "{{_invoke()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#keys",
                             "tooltlp": "Creates an array of the own enumerable property names of object",
-                            "value": "_.keys()"
+                            "value": "_.keys()",
+                            "exceptionValue": "{{_keys()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#keysIn",
                             "tooltlp": "Creates an array of the own and inherited enumerable property names of object",
-                            "value": "_.keysIn()"
+                            "value": "_.keysIn()",
+                            "exceptionValue": "{{_keysIn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#mapKeys",
                             "tooltlp": "The opposite of \"_.mapValues\" this method creates an object with the same values as object and keys generated by running each own enumerable string keyed property of object thru iteratee",
-                            "value": "_.mapKeys()"
+                            "value": "_.mapKeys()",
+                            "exceptionValue": "{{_mapKeys()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#mapValues",
                             "tooltlp": "Creates an object with the same keys as object and values generated by running each own enumerable string keyed property of object thru iteratee",
-                            "value": "_.mapValues()"
+                            "value": "_.mapValues()",
+                            "exceptionValue": "{{_mapValues()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#merge",
                             "tooltlp": "This method is like \"_.assign\" except that it recursively merges own and inherited enumerable string keyed properties of source objects into the destination object. Source properties that resolve to undefined are skipped if a destination value exists. Array and plain object properties are merged recursively. Other objects and value types are overridden by assignment. Source objects are applied from left to right. Subsequent sources overwrite property assignments of previous sources",
-                            "value": "_.merge()"
+                            "value": "_.merge()",
+                            "exceptionValue": "{{_merge()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#mergeWith",
                             "tooltlp": "This method is like \"_.merge\" except that it accepts customizer which is invoked to produce the merged values of the destination and source properties. If customizer returns undefined, merging is handled by the method instead",
-                            "value": "_.mergeWith()"
+                            "value": "_.mergeWith()",
+                            "exceptionValue": "{{_mergeWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#omit",
                             "tooltlp": "The opposite of \"_.pick\" this method creates an object composed of the own and inherited enumerable property paths of object that are not omitted",
-                            "value": "_.omit()"
+                            "value": "_.omit()",
+                            "exceptionValue": "{{_omit()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#omitBy",
                             "tooltlp": "The opposite of \"_.pickBy\" this method creates an object composed of the own and inherited enumerable string keyed properties of object that predicate doesn't return truthy for",
-                            "value": "_.omitBy()"
+                            "value": "_.omitBy()",
+                            "exceptionValue": "{{_omitBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pick",
                             "tooltlp": "Creates an object composed of the picked object properties",
-                            "value": "_.pick()"
+                            "value": "_.pick()",
+                            "exceptionValue": "{{_pick()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#pickBy",
                             "tooltlp": "reates an object composed of the object properties predicate returns truthy for",
-                            "value": "_.pickBy()"
+                            "value": "_.pickBy()",
+                            "exceptionValue": "{{_pickBy()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#result",
                             "tooltlp": "This method is like \"_.get\" except that if the resolved value is a function it's invoked with the this binding of its parent object and its result is returned",
-                            "value": "_.result()"
+                            "value": "_.result()",
+                            "exceptionValue": "{{_result()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#set",
                             "tooltlp": "Sets the value at path of object. If a portion of path doesn't exist, it's created. Arrays are created for missing index properties while objects are created for all other missing properties. Use \"_.setWith\" to customize path creation",
-                            "value": "_.set()"
+                            "value": "_.set()",
+                            "exceptionValue": "{{_set()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#setWith",
                             "tooltlp": "This method is like _.set except that it accepts customizer which is invoked to produce the objects of path. If customizer returns undefined path creation is handled by the method instead",
-                            "value": "_.setWith()"
+                            "value": "_.setWith()",
+                            "exceptionValue": "{{_setWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toPairs",
                             "tooltlp": "Creates an array of own enumerable string keyed-value pairs for object which can be consumed by \"_.fromPairs\". If object is a map or set, its entries are returned",
-                            "value": "_.toPairs()"
+                            "value": "_.toPairs()",
+                            "exceptionValue": "{{_toPairs()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#toPairsIn",
                             "tooltlp": "Creates an array of own and inherited enumerable string keyed-value pairs for object which can be consumed by \"_.fromPairs\". If object is a map or set, its entries are returned",
-                            "value": "_.toPairsIn()"
+                            "value": "_.toPairsIn()",
+                            "exceptionValue": "{{_toPairsIn()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#transform",
                             "tooltlp": "An alternative to \"_.reduce\" this method transforms object to a new accumulator object which is the result of running each of its own enumerable string keyed properties thru iteratee, with each invocation potentially mutating the accumulator object. If accumulator is not provided, a new object with the same [[Prototype]] will be used",
-                            "value": "_.transform()"
+                            "value": "_.transform()",
+                            "exceptionValue": "{{_transform()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#unset",
                             "tooltlp": "Removes the property at path of object",
-                            "value": "_.unset()"
+                            "value": "_.unset()",
+                            "exceptionValue": "{{_unset()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#update",
                             "tooltlp": "This method is like \"_.set\" except that accepts updater to produce the value to set. Use \"_.updateWith\" to customize path creation",
-                            "value": "_.update()"
+                            "value": "_.update()",
+                            "exceptionValue": "{{_update()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#updateWith",
                             "tooltlp": "This method is like \"_.update\" except that it accepts customizer which is invoked to produce the objects of path. If customizer returns undefined path creation is handled by the method instead",
-                            "value": "_.updateWith()"
+                            "value": "_.updateWith()",
+                            "exceptionValue": "{{_updateWith()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#values",
                             "tooltlp": "Creates an array of the own enumerable string keyed property values of object",
-                            "value": "_.values()"
+                            "value": "_.values()",
+                            "exceptionValue": "{{_values()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/#valuesIn",
                             "tooltlp": "Creates an array of the own and inherited enumerable string keyed property values of object",
-                            "value": "_.valuesIn()"
+                            "value": "_.valuesIn()",
+                            "exceptionValue": "{{_valuesIn()}}"
                         }
                     ]
                 }
@@ -1419,172 +1641,206 @@
                         {
                             "link": "https://lodash.com/docs/4.17.14#attempt",
                             "tooltlp": "Attempts to invoke func, returning either the result or the caught error object. Any additional arguments are provided to func when it's invoked",
-                            "value": "_.attempt()"
+                            "value": "_.attempt()",
+                            "exceptionValue": "{{_attempt()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#bindAll",
                             "tooltlp": "Binds methods of an object to the object itself, overwriting the existing method",
-                            "value": "_.bindAll()"
+                            "value": "_.bindAll()",
+                            "exceptionValue": "{{_bindAll()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#cond",
                             "tooltlp": "Creates a function that iterates over pairs and invokes the corresponding function of the first predicate to return truthy. The predicate-function pairs are invoked with the this binding and arguments of the created function",
-                            "value": "_.cond()"
+                            "value": "_.cond()",
+                            "exceptionValue": "{{_cond()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#conforms",
                             "tooltlp": "Creates a function that invokes the predicate properties of source with the corresponding property values of a given object, returning true if all predicates return truthy, else false",
-                            "value": "_.conforms()"
+                            "value": "_.conforms()",
+                            "exceptionValue": "{{_conforms()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#constant",
                             "tooltlp": "Creates a function that returns value",
-                            "value": "_.constant()"
+                            "value": "_.constant()",
+                            "exceptionValue": "{{_constant()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#defaultTo",
                             "tooltlp": "Checks value to determine whether a default value should be returned in its place. The defaultValue is returned if value is NaN, null, or undefined",
-                            "value": "_.defaultTo()"
+                            "value": "_.defaultTo()",
+                            "exceptionValue": "{{_defaultTo()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#flow",
                             "tooltlp": "Creates a function that returns the result of invoking the given functions with the this binding of the created function, where each successive invocation is supplied the return value of the previous",
-                            "value": "_.flow()"
+                            "value": "_.flow()",
+                            "exceptionValue": "{{_flow()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#flowRight",
                             "tooltlp": "This method is like \"_.flow\" except that it creates a function that invokes the given functions from right to left.",
-                            "value": "_.flowRight()"
+                            "value": "_.flowRight()",
+                            "exceptionValue": "{{_flowRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#identity",
                             "tooltlp": "This method returns the first argument it receives",
-                            "value": "_.identity()"
+                            "value": "_.identity()",
+                            "exceptionValue": "{{_identity()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#iteratee",
                             "tooltlp": "Creates a function that invokes func with the arguments of the created function. If func is a property name, the created function returns the property value for a given element. If func is an array or object, the created function returns true for elements that contain the equivalent source properties, otherwise it returns false",
-                            "value": "_.iteratee()"
+                            "value": "_.iteratee()",
+                            "exceptionValue": "{{_iteratee()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#matches",
                             "tooltlp": "Creates a function that performs a partial deep comparison between a given object and source, returning true if the given object has equivalent property values, else false",
-                            "value": "_.matches()"
+                            "value": "_.matches()",
+                            "exceptionValue": "{{_matches()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#matchesProperty",
                             "tooltlp": "Creates a function that performs a partial deep comparison between the value at path of a given object to srcValue, returning true if the object value is equivalent, else false",
-                            "value": "_.matchesProperty()"
+                            "value": "_.matchesProperty()",
+                            "exceptionValue": "{{_matchesProperty()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#method",
                             "tooltlp": "Creates a function that invokes the method at path of a given object. Any additional arguments are provided to the invoked method",
-                            "value": "_.method()"
+                            "value": "_.method()",
+                            "exceptionValue": "{{_method()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#methodOf",
                             "tooltlp": "The opposite of \"_.method\" this method creates a function that invokes the method at a given path of object. Any additional arguments are provided to the invoked method",
-                            "value": "_.methodOf()"
+                            "value": "_.methodOf()",
+                            "exceptionValue": "{{_methodOf()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#mixin",
                             "tooltlp": "Adds all own enumerable string keyed function properties of a source object to the destination object. If object is a function, then methods are added to its prototype as well",
-                            "value": "_.mixin()"
+                            "value": "_.mixin()",
+                            "exceptionValue": "{{_mixin()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#noConflict",
                             "tooltlp": "Reverts the _ variable to its previous value and returns a reference to the lodash function",
-                            "value": "_.noConflict()"
+                            "value": "_.noConflict()",
+                            "exceptionValue": "{{_noConflict()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#noop",
                             "tooltlp": "This method returns undefined",
-                            "value": "_.noop()"
+                            "value": "_.noop()",
+                            "exceptionValue": "{{_noop()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#nthArg",
                             "tooltlp": "Creates a function that gets the argument at index n. If n is negative, the nth argument from the end is returned",
-                            "value": "_.nthArg()"
+                            "value": "_.nthArg()",
+                            "exceptionValue": "{{_nthArg()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#over",
                             "tooltlp": "Creates a function that invokes iteratees with the arguments it receives and returns their results",
-                            "value": "_.over()"
+                            "value": "_.over()",
+                            "exceptionValue": "{{_over()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#overEvery",
                             "tooltlp": "Creates a function that checks if all of the predicates return truthy when invoked with the arguments it receives",
-                            "value": "_.overEvery()"
+                            "value": "_.overEvery()",
+                            "exceptionValue": "{{_overEvery()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#overSome",
                             "tooltlp": "Creates a function that checks if any of the predicates return truthy when invoked with the arguments it receives",
-                            "value": "_.overSome()"
+                            "value": "_.overSome()",
+                            "exceptionValue": "{{_overSome()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#property",
                             "tooltlp": "Creates a function that returns the value at path of a given object",
-                            "value": "_.property()"
+                            "value": "_.property()",
+                            "exceptionValue": "{{_property()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#propertyOf",
                             "tooltlp": "The opposite of \"_.property\" this method creates a function that returns the value at a given path of object",
-                            "value": "_.propertyOf()"
+                            "value": "_.propertyOf()",
+                            "exceptionValue": "{{_propertyOf()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#range",
                             "tooltlp": "Creates an array of numbers (positive and/or negative) progressing from start up to, but not including, end. A step of -1 is used if a negative start is specified without an end or step. If end is not specified, it's set to start with start then set to 0",
-                            "value": "_.range()"
+                            "value": "_.range()",
+                            "exceptionValue": "{{_range()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#rangeRight",
                             "tooltlp": "This method is like \"_.range\" except that it populates values in descending order",
-                            "value": "_.rangeRight()"
+                            "value": "_.rangeRight()",
+                            "exceptionValue": "{{_rangeRight()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#runInContext",
                             "tooltlp": "Create a new pristine lodash function using the context object",
-                            "value": "_.runInContext()"
+                            "value": "_.runInContext()",
+                            "exceptionValue": "{{_runInContext()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#stubArray",
                             "tooltlp": "This method returns a new empty array",
-                            "value": "_.stubArray()"
+                            "value": "_.stubArray()",
+                            "exceptionValue": "{{_stubArray()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#stubFalse",
                             "tooltlp": "This method returns false",
-                            "value": "_.stubFalse()"
+                            "value": "_.stubFalse()",
+                            "exceptionValue": "{{_stubFalse()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#stubObject",
                             "tooltlp": "This method returns a new empty object",
-                            "value": "_.stubObject()"
+                            "value": "_.stubObject()",
+                            "exceptionValue": "{{_stubObject()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#stubString",
                             "tooltlp": "This method returns an empty string",
-                            "value": "_.stubString()"
+                            "value": "_.stubString()",
+                            "exceptionValue": "{{_stubString()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#stubTrue",
                             "tooltlp": "This method returns true",
-                            "value": "_.stubTrue()"
+                            "value": "_.stubTrue()",
+                            "exceptionValue": "{{_stubTrue()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#times",
                             "tooltlp": "Invokes the iteratee n times, returning an array of the results of each invocation",
-                            "value": "_.times()"
+                            "value": "_.times()",
+                            "exceptionValue": "{{_times()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#toPath",
                             "tooltlp": "Converts value to a property path array",
-                            "value": "_.toPath()"
+                            "value": "_.toPath()",
+                            "exceptionValue": "{{_toPath()}}"
                         },
                         {
                             "link": "https://lodash.com/docs/4.17.14#uniqueId",
                             "tooltlp": "Generates a unique ID. If prefix is given, the ID is appended to it",
-                            "value": "_.uniqueId()"
+                            "value": "_.uniqueId()",
+                            "exceptionValue": "{{_uniqueId()}}"
                         }
                     ]
                 }

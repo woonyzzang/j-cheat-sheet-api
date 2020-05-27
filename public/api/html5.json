@@ -102,11 +102,6 @@
                     "subject": "Language",
                     "list": [
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/HTML/Element/dir",
-                            "tooltlp": "pecifies the text direction for the content in an element",
-                            "value": "dir"
-                        },
-                        {
                             "link": "https://developer.mozilla.org/en-US/docs/DOM/element.lang",
                             "tooltlp": "pecifies the language of the element's content",
                             "value": "lang"
@@ -472,11 +467,6 @@
                             "value": "<ruby>"
                         },
                         {
-                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s",
-                            "tooltlp": "Deprecated.Defines strikethrough text",
-                            "value": "<s>"
-                        },
-                        {
                             "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp",
                             "tooltlp": "Defines sample output from a computer program",
                             "value": "<samp>"
@@ -510,16 +500,6 @@
                             "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time",
                             "tooltlp": "Defines Specific Periods",
                             "value": "<time>"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tt",
-                            "tooltlp": "Defines teletype text",
-                            "value": "<tt>"
-                        },
-                        {
-                            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u",
-                            "tooltlp": "Deprecated.Defines underlined text",
-                            "value": "<u>"
                         },
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var",
@@ -651,7 +631,6 @@
                             "tooltlp": "defines a header cell in a table",
                             "value": "<th>"
                         },
-
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td",
                             "tooltlp": "defines a cell in a table",
@@ -727,7 +706,6 @@
                             "tooltlp": "Defines a scale",
                             "value": "<meter>"
                         },
-
                         {
                             "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output",
                             "tooltlp": "Defines a calculation result",

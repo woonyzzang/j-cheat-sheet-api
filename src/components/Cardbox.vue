@@ -52,12 +52,15 @@
 </style>
 
 <template>
-    <a-card :bordered="false" v-bind:title="title" class="cardbox" :headStyle="{borderBottomColor: 'rgba(255,255,255,.45)'}" :bodyStyle="{padding:'10px'}">
+    <a-card :bordered="false" v-bind:title="title" class="cardbox" :headStyle="{borderBottomColor: 'rgba(255,255,255,.45)'}" :bodyStyle="{padding: '10px'}">
         <div v-for="(item, index) in items" class="cont" v-bind:key="`item-${index}`">
             <h3 v-bind:class="{inactive: item.inactive}"><!-- a-icon type="tags" theme="twoTone" twoToneColor="#f4fcbb" /--> {{item.subject}}</h3>
             <ul>
                 <li v-for="(list, index) in item.list" v-bind:key="`list-${index}`" v-bind:class="{inactive: list.inactive}">
-                    <a-tooltip placement="topLeft" arrowPointAtCenter v-bind:title="list.tooltlp">
+                    <!-- {{$t('message')}} -->
+                    <!-- {{title}} | {{item.subject}} | {{list.value}} -->
+                    <!--<a-tooltip placement="topLeft" arrowPointAtCenter v-bind:title="list.tooltlp">-->
+                    <a-tooltip placement="topLeft" arrowPointAtCenter v-bind:title="$t(`${title}.${item.subject}.${(list.exceptionValue) ? list.exceptionValue : list.value}`)">
                         <a
                             v-bind:href="(!list.inactive) ? list.link : null"
                             v-bind:rel="(list.link) ? 'noopener' : null"
